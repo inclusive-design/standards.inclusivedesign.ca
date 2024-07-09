@@ -10,6 +10,7 @@
     "clean": "rimraf _site",
     "debug": "DEBUG=Eleventy* eleventy",
     "dev": "cross-env NODE_ENV=development eleventy --serve",
+    "lint": "run-s -l lint:*",
     "lint:scripts": "biome check .",
     "lint:markdown": "markdownlint-cli2 \"**/*.md\"",
     "start": "npm-run-all -l clean dev",
