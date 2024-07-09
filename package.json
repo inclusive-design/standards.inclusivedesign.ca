@@ -1,0 +1,52 @@
+{
+  "name": "standards.idrc.ocadu.ca",
+  "version": "0.0.1",
+  "description": "Website for IDRC standards development work.",
+  "main": "eleventy.config.js",
+  "type": "module",
+  "scripts": {
+    "build": "npm-run-all -l clean -s build:eleventy",
+    "build:eleventy": "eleventy",
+    "clean": "rimraf _site",
+    "debug": "DEBUG=Eleventy* eleventy",
+    "dev": "cross-env NODE_ENV=development eleventy --serve",
+    "lint:scripts": "biome check .",
+    "lint:markdown": "markdownlint-cli2 \"**/*.md\"",
+    "start": "npm-run-all -l clean dev",
+    "test": "c8 --all --src src -r clover -r text ava",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inclusive-design/standards.idrc.ocadu.ca.git"
+  },
+  "keywords": ["eleventy", "standards", "static-site", "sveltia-cms"],
+  "author": "OCAD University <idrc@ocadu.ca>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/inclusive-design/standards.idrc.ocadu.ca/issues"
+  },
+  "homepage": "https://github.com/inclusive-design/standards.idrc.ocadu.ca#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0-alpha.14",
+    "rimraf": "^6.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "ava": "^6.0",
+    "biome-config-fluid": "github:greatislander/biome-config-fluid",
+    "c8": "^10.0",
+    "cross-env": "^7.0.3",
+    "debug": "^4.3.5",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.7",
+    "markdownlint-cli2": "^0.13.0",
+    "markdownlint-config-fluid": "^0.1.5",
+    "npm-run-all2": "^6.2.2"
+  },
+  "lint-staged": {
+    "*.{js,cjs,json,jsonc}": "biome check . --write --no-errors-on-unmatched",
+    "*.md": ["markdownlint-cli2 --fix"]
+  }
+}
