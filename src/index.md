@@ -1,4 +1,4 @@
 ---
-title: Hello, world!
+title: Inclusive Standards
 layout: base
 ---
