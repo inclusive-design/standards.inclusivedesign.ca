@@ -21,12 +21,7 @@
     "type": "git",
     "url": "git+https://github.com/inclusive-design/standards.idrc.ocadu.ca.git"
   },
-  "keywords": [
-    "eleventy",
-    "standards",
-    "static-site",
-    "sveltia-cms"
-  ],
+  "keywords": ["eleventy", "standards", "static-site", "sveltia-cms"],
   "author": "OCAD University <idrc@ocadu.ca>",
   "license": "BSD-3-Clause",
   "bugs": {
@@ -54,8 +49,6 @@
   },
   "lint-staged": {
     "*.{js,cjs,json,jsonc}": "biome check . --write --no-errors-on-unmatched",
-    "*.md": [
-      "markdownlint-cli2 --fix"
-    ]
+    "*.md": ["markdownlint-cli2 --fix"]
   }
 }
