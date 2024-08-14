@@ -1,7 +1,9 @@
 import { EleventyRenderPlugin } from "@11ty/eleventy";
+import footnotesPlugin from "eleventy-plugin-footnotes";
 
 export default function eleventy(eleventyConfig) {
     eleventyConfig.addPlugin(EleventyRenderPlugin);
+    eleventyConfig.addPlugin(footnotesPlugin);
 
     eleventyConfig.addPassthroughCopy({
         "src/admin/config.yml": "admin/config.yml"

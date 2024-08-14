@@ -29,7 +29,8 @@
   },
   "homepage": "https://github.com/inclusive-design/standards.idrc.ocadu.ca#readme",
   "dependencies": {
-    "@11ty/eleventy": "^3.0.0-alpha.14",
+    "@11ty/eleventy": "^3.0.0-beta.1",
+    "eleventy-plugin-footnotes": "^0.11.0",
     "rimraf": "^6.0"
   },
   "devDependencies": {
