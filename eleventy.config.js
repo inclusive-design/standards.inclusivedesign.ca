@@ -1,9 +1,11 @@
 import { EleventyRenderPlugin } from "@11ty/eleventy";
+import fluidPlugin from "eleventy-plugin-fluid";
 import footnotesPlugin from "eleventy-plugin-footnotes";
 
 export default function eleventy(eleventyConfig) {
     eleventyConfig.addPlugin(EleventyRenderPlugin);
     eleventyConfig.addPlugin(footnotesPlugin);
+    eleventyConfig.addPlugin(fluidPlugin);
 
     eleventyConfig.addPassthroughCopy({
         "src/admin/config.yml": "admin/config.yml"
@@ -15,10 +17,7 @@ export default function eleventy(eleventyConfig) {
 
     return {
         dir: {
-            input: "src",
-            includes: "_includes",
-            layouts: "_layouts",
-            data: "_data"
+            input: "src"
         },
         templateFormats: ["njk", "md", "css", "png", "jpg", "svg"],
         htmlTemplateEngine: "njk",
