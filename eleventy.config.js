@@ -1,8 +1,10 @@
 import { EleventyRenderPlugin } from "@11ty/eleventy";
+import fluidSassPlugin from "eleventy-plugin-fluid-sass";
 import footnotesPlugin from "eleventy-plugin-footnotes";
 
 export default function eleventy(eleventyConfig) {
     eleventyConfig.addPlugin(EleventyRenderPlugin);
+    eleventyConfig.addPlugin(fluidSassPlugin);
     eleventyConfig.addPlugin(footnotesPlugin);
 
     eleventyConfig.addPassthroughCopy({
