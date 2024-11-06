@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en-CA">
+<html lang="{{ lang if lang else defaultLanguage }}-CA" dir="ltr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }}</title>
-  {% block meta %}{% endblock %}
 </head>
 <body>
+    {% include "partials/global/language-selector.njk" %}
     <h1>{{ title }}</h1>
     {{ content | safe }}
+    {% include "partials/global/footer.njk" %}
 </body>
 </html>

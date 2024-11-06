@@ -1,0 +1,30 @@
+<footer role="contentinfo">
+    <div class="container">
+        <div class="social-media">
+            <nav aria-label="{% __ 'social-media' %}">
+                {% __ 'social-media' %}
+                <ul role="list">
+                    <li><a href="https://www.facebook.com/" rel="external">{% include "svg/facebook.svg" %} Facebook</a></li>
+                    <li><a href="https://www.linkedin.com/" rel="external">{% include "svg/linkedin.svg" %} LinkedIn</a></li>
+                    <li><a href="https://twitter.com/" rel="external">{% include "svg/x.svg" %} X</a></li>
+                    <li><a href="https://www.youtube.com/" rel="external">{% include "svg/youtube.svg" %} YouTube</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="contact-us">
+            {% __ 'contact-us' %}
+            <div class="contact-us-item">
+                {% __ 'contact-us-email' %}
+            </div>
+            <div class="contact-us-item">
+                {% __ 'contact-us-phone' %}
+            </div>
+            <div class="contact-us-item">
+                {%  __ 'contact-us-address' %}
+            </div>            
+        </div>
+        <div class="sponsors">
+        </div>
+    </div>
+</footer>
+{% include "partials/components/lang.njk" %}
