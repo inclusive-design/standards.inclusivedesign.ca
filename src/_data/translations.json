@@ -1,0 +1,14 @@
+{
+    "en": {
+        "contact-us-address": "Address",
+        "contact-us-email": "Email",
+        "contact-us-phone": "Phone",
+        "social-media": "Social Media"
+    },
+    "fr": {
+        "contact-us-address": "Adresse",
+        "contact-us-email": "Courriel",
+        "contact-us-phone": "Téléphone",
+        "social-media": "Les médias sociaux"
+    }
+}

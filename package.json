@@ -31,8 +31,10 @@
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "eleventy-plugin-fluid-sass": "^1.0.0",
+    "eleventy-plugin-fluid": "github:fluid-project/eleventy-plugin-fluid#feat/overhaul-i18n",
     "eleventy-plugin-footnotes": "^0.11.0",
-    "rimraf": "^6.0"
+    "rimraf": "^6.0",
+    "rosetta": "^1.1.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
