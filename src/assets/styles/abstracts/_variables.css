@@ -1,0 +1,19 @@
+:root {
+    /** Typography **/
+    --family-sans-serif: "Source Sans 3", sans-serif;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    /** Colors **/
+    --color-blue: hsla(194, 60%, 59%, 1);
+    --color-green: hsla(163, 35%, 49%, 1);
+    --color-yellow: hsla(42, 92%, 70%, 1);
+    --color-orange: hsla(25, 76%, 64%, 1);
+    --color-red: hsla(359, 64%, 63%, 1);
+    --color-white: hsla(0, 0%, 100%, 1);
+
+    --color-indigo-100: hsla(244, 100%, 98%, 1);
+    --color-indigo-200: hsla(244, 93%, 93%, 1);
+}
