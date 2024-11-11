@@ -7,9 +7,68 @@
   {% include "partials/global/stylesheets.njk" %}
 </head>
 <body>
-    {% include "partials/global/language-selector.njk" %}
-    <h1>{{ title }}</h1>
+    {% if hasBanner %}
+    <div class="banner">
+      <div class="banner__text">
+        {{ bannerTitle | safe }}
+        {{ bannerBody }}
+      <div>
+      {% if bannerImage %}
+      <div class="banner__image">
+        {{ bannerImage }}
+      </div>
+      {% endif %}
+    </div>
+    {% endif %}
     {{ content | safe }}
+    {% if displayProjects %}
+    <div class="display">
+      <div class="display__title">
+      </div>
+      <div class="display__items">
+        {% set cardType = "project" %}
+        {% include "partials/components/card.njk" %}
+      </div>
+      <div class="display__link">
+      </div>
+    </div>
+    {% endif %}
+    {% if displayEvents %}
+    <div class="display">
+      <div class="display__title">
+      </div>
+      <div class="display__items">
+        {% set cardType = "event" %}
+        {% include "partials/components/card.njk" %}
+      </div>
+      <div class="display__link">
+      </div>
+    </div>
+    {% endif %}
+    {% if displayResources %}
+    <div class="display">
+      <div class="display__title">
+      </div>
+      <div class="display__items">
+        {% set cardType = "resource" %}
+        {% include "partials/components/card.njk" %}
+      </div>
+      <div class="display__link">
+      </div>
+    </div>
+    {% endif %}
+    {% if displayNews %}
+    <div class="display">
+      <div class="display__title">
+      </div>
+      <div class="display__items">
+        {% set cardType = "news" %}
+        {% include "partials/components/card.njk" %}
+      </div>
+      <div class="display__link">
+      </div>
+    </div>
+    {% endif %}
     {% include "partials/global/footer.njk" %}
 </body>
 </html>
