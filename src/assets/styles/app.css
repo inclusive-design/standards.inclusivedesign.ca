@@ -9,6 +9,10 @@
 @import "./base/_reset.css";
 @import "./base/_base.css";
 
-h1 {
-    line-height: 1;
-}
+/* Global */
+
+@import "./global/footer.css";
+
+/* Components */
+
+@import "./components/card.css";

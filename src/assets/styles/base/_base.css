@@ -3,3 +3,64 @@
 h1 {
     font-family: var(--family-sans-serif);
 }
+
+.banner {
+    width: 100vw;
+}
+
+.bg-indigo-100 {
+    background-color: var(--color-indigo-100);
+}
+
+.bg-indigo-200 {
+    background-color: var(--color-indigo-200);
+}
+
+.bg-indigo-700 {
+    background-color: var(--color-indigo-700);
+    color: white;
+}
+
+.banner__text {
+    font-family: 'Raleway';
+    font-size: var(--step-0, 1.25rem);
+    line-height: var(--step-2, 1.75rem);
+    padding: 1.875rem;
+    padding-block: 3rem;
+}
+
+.banner__title {
+    font-size: var(--step-4, 3rem);
+    line-height: var(--step-5, 3.5rem);
+    margin-bottom: 1.5rem;
+}
+
+.display {
+    padding: 1.875rem;
+}
+
+.display__title h2{
+    font-weight: var(--font-weight-bold, 700);
+    font-size: var(--step-4, 2.625rem);
+    margin-bottom: 2rem;
+}
+
+@media (width >= 24.25rem) {
+    .display__items {
+        margin: auto;
+    }
+}
+
+@media (width >= 46.625rem) {
+    .display__items {
+        display: grid;
+        gap: 1.875rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (width >= 70.875rem) {
+    .display__items {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

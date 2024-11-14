@@ -1,29 +1,53 @@
 <footer role="contentinfo">
-    <div class="container">
-        <div class="social-media">
-            <nav aria-label="{% __ 'social-media' %}">
-                {% __ 'social-media' %}
-                <ul role="list">
-                    <li><a href="https://www.facebook.com/" rel="external">{% include "svg/facebook.svg" %} Facebook</a></li>
-                    <li><a href="https://www.linkedin.com/" rel="external">{% include "svg/linkedin.svg" %} LinkedIn</a></li>
-                    <li><a href="https://twitter.com/" rel="external">{% include "svg/x.svg" %} X</a></li>
-                    <li><a href="https://www.youtube.com/" rel="external">{% include "svg/youtube.svg" %} YouTube</a></li>
-                </ul>
-            </nav>
+    <div class="footer__container">
+        <div class="footer__title">
+            <div><b>inclusive</b></div>
+            <div>standards</div>
         </div>
-        <div class="contact-us">
-            {% __ 'contact-us' %}
-            <div class="contact-us-item">
-                {% __ 'contact-us-email' %}
+        <div class="footer__content">
+            <div class="footer__section">
+                <hr>
+                <div class="footer__social-media">
+                    <nav aria-label="{% __ 'social-media' %}">
+                        <h4>{% __ 'social-media' %}</h4>
+                        <ul role="list">
+                            <li><a href="https://www.facebook.com/" rel="external">{% include "svg/facebook.svg" %} Facebook</a></li>
+                            <li><a href="https://www.linkedin.com/" rel="external">{% include "svg/linkedin.svg" %} LinkedIn</a></li>
+                            <li><a href="https://www.instagram.com/" rel="external">{% include "svg/instagram.svg" %} Instagram</a></li>
+                            <li><a href="https://twitter.com/" rel="external">{% include "svg/x.svg" %} X</a></li>
+                            <li><a href="https://www.youtube.com/" rel="external">{% include "svg/youtube.svg" %} YouTube</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-            <div class="contact-us-item">
-                {% __ 'contact-us-phone' %}
+            <div class="footer__section">
+                <hr>
+                <div class="footer__contact-us">
+                    <h4>{% __ 'contact-us' %}</h4>
+                    <div class="footer__contact-us-item">
+                        <div class="footer__contact-us-item-title">
+                            {% __ 'contact-us-email' %}
+                        </div>
+                    </div>
+                    <div class="footer__contact-us-item">
+                        <div class="footer__contact-us-item-title">
+                            {% __ 'contact-us-phone' %}
+                        </div>
+                    </div>
+                    <div class="footer__contact-us-item">
+                        <div class="footer__contact-us-item-title">
+                            {%  __ 'contact-us-address' %}
+                        </div>
+                    </div>            
+                </div>
             </div>
-            <div class="contact-us-item">
-                {%  __ 'contact-us-address' %}
-            </div>            
-        </div>
-        <div class="sponsors">
+            <div class="footer__section">
+                <hr>
+                <div class="footer__sponsors">
+                    {% include "svg/IDRC.svg" %}
+                    {% include "svg/OCADU.svg" %}
+                </div>
+            </div>
         </div>
     </div>
 </footer>
