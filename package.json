@@ -30,6 +30,7 @@
   "homepage": "https://github.com/inclusive-design/standards.idrc.ocadu.ca#readme",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-navigation": "^0.3.5",
     "eleventy-plugin-fluid": "github:fluid-project/eleventy-plugin-fluid#feat/overhaul-i18n",
     "eleventy-plugin-footnotes": "^0.11.0",
     "rimraf": "^6.0",

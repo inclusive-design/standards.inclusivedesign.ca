@@ -5,8 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }}</title>
   {% include "partials/global/stylesheets.njk" %}
+  {% include "partials/global/scripts.njk" %}
 </head>
 <body>
+    {% include "partials/components/navigation.njk" %}
     {# example datas TODO: populate datas from different collections #}
     {% set displayItems = ['1', '2', '3'] %}
     {% set cardTitle = "Card Title" %}
@@ -26,7 +28,7 @@
       {% endif %}
     </div>
     {% endif %}
-    {{ content | safe }}
+    {% block content %}{% endblock %}
     {% if displayProjects %}
     {% set cardImage = "yes" %}
     <div class="display bg-indigo-200">

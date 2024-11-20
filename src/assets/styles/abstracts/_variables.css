@@ -28,4 +28,8 @@
     --color-indigo-200: hsla(244, 93%, 93%, 1);
     --color-indigo-700: hsla(244, 93%, 22%, 1);
     --color-indigo-800: hsla(244, 87%, 12%, 1);
+
+    /** Paddings **/
+    --common-inline-padding: clamp(1.875rem, 11%, 9rem);
+    --common-block-padding: clamp(4.25rem, 9%, 8.06rem);
 }
