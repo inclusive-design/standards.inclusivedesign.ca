@@ -15,7 +15,7 @@
     text-decoration: none;
     color: white;
     font-family: 'Raleway';
-    font-size: 1.125rem;
+    font-size: var(--step-0, 1.125rem);
 }
 
 .navigation__toggle {
@@ -27,7 +27,7 @@
     border: none;
     font-family: var(--family-sans-serif);
     font-weight: var(--font-weight-normal);
-    font-size: 1.125rem;
+    font-size: var(--step-0, 1.125rem);
 }
 
 .navigation__menu {
@@ -44,7 +44,7 @@
 }
 
 .navigation__menu li {
-    font-size: 1.125rem;
+    font-size: var(--step-0, 1.125rem);
     font-weight: var(--font-weight-normal);
     line-height: 1.625rem;
     padding-block: 0.625rem;

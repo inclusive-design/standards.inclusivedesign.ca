@@ -28,6 +28,9 @@ section:nth-of-type(odd) {
 }
 
 .banner {
+    display: flex;
+    align-items: center;
+    min-height: 20vw;
     width: 100vw;
 }
 
@@ -41,6 +44,11 @@ section:nth-of-type(odd) {
 
 .bg-indigo-700 {
     background-color: var(--color-indigo-700);
+    color: white;
+}
+
+.bg-dark-grey {
+    background-color: #1E1E1E;
     color: white;
 }
 
