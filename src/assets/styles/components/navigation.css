@@ -1,5 +1,7 @@
 .navigation {
     background-color: hsla(244, 93%, 22%, 1);
+    border-bottom: 0.2rem solid transparent;
+    border-top: 0.2rem solid transparent;
     color: white;
     font-family: var(--family-sans-serif);
 }

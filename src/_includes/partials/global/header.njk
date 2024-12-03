@@ -1,0 +1,34 @@
+<div class="bg-indigo-800">
+    {% uioTemplate %}
+    {% uioInit %}
+    <div class="header large-viewport">
+        <div class="header__intro">
+            An <a href="https://idrc.ocadu.ca/">Inclusive Design Research Centre</a> Project
+        </div>
+        <div class="header__settings">
+            <ul class="header__language" role="list">
+                <li>
+                    <a href="{% if page.url == '/' %} /en/ {% else %} {{ page.url | replace("/fr/", "/en/") }} {% endif %}" lang="en-CA" hreflang="en-CA"{% if page.lang == 'en' %} aria-current="page"{% endif %}>English</a>
+                </li>
+                <li>
+                    <a href="{% if page.url == '/' %} /fr/ {% else %} {{ page.url | replace("/en/", "/fr/") }} {% endif %}" lang="fr-CA" hreflang="fr-CA"{% if page.lang == 'fr' %} aria-current="page"{% endif %}>Français</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="header small-viewport">
+        <div class="header__intro">
+            <a href="https://idrc.ocadu.ca/">An IDRC Project</a>
+        </div>
+        <div class="header__settings">
+            <ul class="header__language" role="list">
+                <li>
+                    <a href="{% if page.url == '/' %} /en/ {% else %} {{ page.url | replace("/fr/", "/en/") }} {% endif %}" lang="en-CA" hreflang="en-CA"{% if page.lang == 'en' %} aria-current="page"{% endif %}>En</a>
+                </li>
+                <li>
+                    <a href="{% if page.url == '/' %} /fr/ {% else %} {{ page.url | replace("/en/", "/fr/") }} {% endif %}" lang="fr-CA" hreflang="fr-CA"{% if page.lang == 'fr' %} aria-current="page"{% endif %}>Fr</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

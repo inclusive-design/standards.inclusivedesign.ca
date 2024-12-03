@@ -8,6 +8,7 @@
   {% include "partials/global/scripts.njk" %}
 </head>
 <body>
+    {% include "partials/global/header.njk" %}
     {% include "partials/components/navigation.njk" %}
     {# example datas TODO: populate datas from different collections #}
     {% set displayItems = ['1', '2', '3'] %}
@@ -31,7 +32,7 @@
     {% block content %}{% endblock %}
     {% if displayProjects %}
     {% set cardImage = "yes" %}
-    <div class="display bg-indigo-200">
+    <section class="display">
       <div class="display__title">
         <h2>Projects</h2>
       </div>
@@ -43,10 +44,10 @@
       </div>
       <div class="display__link">
       </div>
-    </div>
+    </section>
     {% endif %}
     {% if displayEvents %}
-    <div class="display bg-indigo-100">
+    <section class="display">
       <div class="display__title">
         <h2>Events</h2>
       </div>
@@ -58,10 +59,10 @@
       </div>
       <div class="display__link">
       </div>
-    </div>
+    </section>
     {% endif %}
     {% if displayResources %}
-    <div class="display bg-indigo-200">
+    <section class="display">
       <div class="display__title">
         <h2>Resources</h2>
       </div>
@@ -73,10 +74,10 @@
       </div>
       <div class="display__link">
       </div>
-    </div>
+    </section>
     {% endif %}
     {% if displayNews %}
-    <div class="display bg-indigo-700">
+    <section class="display">
       <div class="display__title">
         <h2>Announcements</h2>
       </div>
@@ -88,7 +89,7 @@
       </div>
       <div class="display__link">
       </div>
-    </div>
+    </section>
     {% endif %}
     {% include "partials/global/footer.njk" %}
 </body>

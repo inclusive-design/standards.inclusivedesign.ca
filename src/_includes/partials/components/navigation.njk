@@ -7,9 +7,11 @@
     <div class="navigation__menu visually-hidden" id="navigation-menu">
         <ul>
             {% for item in navItems %}
+            {% if locale == item.locale %}
             <li>
                 <a href="{{ item.url }}">{{ item.key }}</a>
             </li>
+            {% endif %}
             {% endfor %}
         </ul>
     </div>

@@ -1,9 +1,9 @@
 ---
-title: About
-permalink: en/about/
+title: À propos
+permalink: fr/a-propos/
 eleventyNavigation:
-  locale: en-CA
-  key: About
+  locale: fr-CA
+  key: À propos
   order: 1
 layout: layouts/about
 displayProjects: true

@@ -1,6 +1,7 @@
 ---
 title: Inclusive Standards
 layout: layouts/base
+locale: en-CA
 hasBanner: true
 bannerBGColor: indigo-700
 bannerTitle: <b>Inclusive</b> Standards

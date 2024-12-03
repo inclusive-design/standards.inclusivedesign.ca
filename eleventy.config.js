@@ -7,7 +7,21 @@ export default function eleventy(eleventyConfig) {
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
     eleventyConfig.addPlugin(EleventyRenderPlugin);
     eleventyConfig.addPlugin(footnotesPlugin);
-    eleventyConfig.addPlugin(fluidPlugin);
+    eleventyConfig.addPlugin(fluidPlugin, {
+        defaultLanguage: "en",
+        supportedLanguages: {
+            "en-CA": {
+                slug: "en",
+                name: "English"
+            },
+            "fr-CA": {
+                slug: "fr",
+                name: "Français",
+                dir: "ltr",
+                uioSlug: "fr"
+            }
+        }
+    });
 
     eleventyConfig.addPassthroughCopy({
         "src/admin/config.yml": "admin/config.yml"

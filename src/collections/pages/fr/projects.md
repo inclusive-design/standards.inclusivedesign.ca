@@ -1,9 +1,9 @@
 ---
-title: Projects
-permalink: en/projects/
+title: Projets
+permalink: fr/projets/
 eleventyNavigation:
-  locale: en-CA
-  key: Projects
+  locale: fr-CA
+  key: Projets
   order: 1
 layout: layouts/projects
 hasBanner: true
