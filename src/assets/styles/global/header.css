@@ -5,8 +5,11 @@
     justify-content: space-between;
     align-items: center;
     padding-inline-start: var(--common-inline-padding);
-    padding-inline-end: 2rem;
     min-height: 3.56rem;
+}
+
+.small-viewport {
+    padding-inline-end: var(--common-inline-padding);
 }
 
 .large-viewport {
@@ -29,6 +32,7 @@
 
 .fl-prefsEditor-buttons {
     margin-right: var(--common-inline-padding) !important;
+    margin-left: 2rem !important;
 }
 
 .fl-prefsEditor-separatedPanel {
@@ -36,7 +40,7 @@
     border-block-end: none !important;
 }
 
-@media (width >= 46.625rem) {
+@media (width >= 40rem) {
     .small-viewport {
         display: none;
     }

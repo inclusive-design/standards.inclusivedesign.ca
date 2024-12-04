@@ -1,5 +1,5 @@
 .navigation {
-    background-color: hsla(244, 93%, 22%, 1);
+    background-color: var(--color-indigo-700);
     border-bottom: 0.2rem solid transparent;
     border-top: 0.2rem solid transparent;
     color: white;
@@ -24,7 +24,7 @@
     display: flex;
     gap: 0.625rem;
     align-items: center;
-    background-color: hsla(244, 93%, 22%, 1);
+    background-color: var(--color-indigo-700);
     color: white;
     border: none;
     font-family: var(--family-sans-serif);
@@ -34,7 +34,7 @@
 
 .navigation__menu {
     width: 100%;
-    background-color: hsla(244, 93%, 22%, 1);
+    background-color: var(--color-indigo-700);
     padding-inline: var(--common-inline-padding);
 }
 
