@@ -17,7 +17,7 @@
     text-decoration: none;
     color: white;
     font-family: 'Raleway';
-    font-size: var(--step-0, 1.125rem);
+    font-size: var(--step-0);
 }
 
 .navigation__toggle {
@@ -29,13 +29,21 @@
     border: none;
     font-family: var(--family-sans-serif);
     font-weight: var(--font-weight-normal);
-    font-size: var(--step-0, 1.125rem);
+    font-size: var(--step-0);
 }
 
 .navigation__menu {
     width: 100%;
     background-color: var(--color-indigo-700);
     padding-inline: var(--common-inline-padding);
+}
+
+.navigation__link:has([aria-expanded="true"]) + .navigation__menu {
+    display: block;
+}
+  
+.navigation__link:has([aria-expanded="false"]) + .navigation__menu {
+    display: none;
 }
 
 .navigation__menu ul {
@@ -46,7 +54,7 @@
 }
 
 .navigation__menu li {
-    font-size: var(--step-0, 1.125rem);
+    font-size: var(--step-0);
     font-weight: var(--font-weight-normal);
     line-height: 1.625rem;
     padding-block: 0.625rem;
@@ -65,26 +73,17 @@
     }
 
     .navigation__link {
-        display: block;
-        padding-block: unset;
-        padding-inline: unset;
-        margin-block: auto;
+        padding: unset;
     }
 
     .navigation__toggle {
         display: none;
     }
 
-    .navigation__menu {
-        clip: unset;
-        clip-path: unset;
-        height: unset;
-        overflow: unset;
-        padding: unset;
-        position: unset;
-        white-space: unset;
-        width: unset;
+    .navigation__link:has([aria-expanded="false"]) + .navigation__menu {
         display: block;
+        padding: unset;
+        width: unset;
     }
 
     .navigation__menu ul {

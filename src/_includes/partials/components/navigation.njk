@@ -1,10 +1,10 @@
 <nav class="navigation">
     <div class="navigation__link">
         <a class="navigation__home" href="/">{{ "<b>Inclusive</b><br>Standards" | safe }}</a>
-        {% set navItems = collections.all | eleventyNavigation %}
+        {% set navItems = collections['pages_' + lang] | eleventyNavigation %}
         <button class="navigation__toggle" id="navigation-toggle" aria-expanded="false">{% __ 'menu' %} {% include 'svg/menu.svg' %}</button>
     </div>
-    <div class="navigation__menu visually-hidden" id="navigation-menu">
+    <div class="navigation__menu" id="navigation-menu">
         <ul>
             {% for item in navItems %}
             {% if locale == item.locale %}

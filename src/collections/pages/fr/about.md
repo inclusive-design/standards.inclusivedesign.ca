@@ -1,6 +1,5 @@
 ---
 title: À propos
-permalink: fr/a-propos/
 eleventyNavigation:
   locale: fr-CA
   key: À propos
@@ -12,7 +11,7 @@ sections: {
 }
 displayProjects: true
 hasBanner: true
-bannerBGColor: dark-grey
+bannerBgColor: dark-grey
 bannerTitle: About
 bannerBody: Learn more about Inclusive standards
 ---

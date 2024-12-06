@@ -23,6 +23,12 @@ export default function eleventy(eleventyConfig) {
         }
     });
 
+    ["en", "fr"].forEach((lang) => {
+        eleventyConfig.addCollection(`pages_${lang}`, (collection) => {
+            return collection.getFilteredByGlob(`src/collections/pages/${lang}/*.md`);
+        });
+    });
+
     eleventyConfig.addPassthroughCopy({
         "src/admin/config.yml": "admin/config.yml"
     });

@@ -1,6 +1,5 @@
 ---
 title: About
-permalink: en/about/
 eleventyNavigation:
   locale: en-CA
   key: About
@@ -12,7 +11,7 @@ sections: {
 }
 displayProjects: true
 hasBanner: true
-bannerBGColor: dark-grey
+bannerBgColor: dark-grey
 bannerTitle: About
 bannerBody: Learn more about Inclusive standards
 ---

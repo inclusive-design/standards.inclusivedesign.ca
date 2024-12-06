@@ -1,7 +1,7 @@
 <footer role="contentinfo">
     <div class="footer__container">
         <div class="footer__title">
-            <div><b>inclusive</b></div>
+            <div><strong>inclusive</strong></div>
             <div>standards</div>
         </div>
         <div class="footer__content">
@@ -11,11 +11,11 @@
                     <nav aria-label="{% __ 'social-media' %}">
                         <h4>{% __ 'social-media' %}</h4>
                         <ul role="list">
-                            <li><a href="https://www.facebook.com/" rel="external">{% include "svg/facebook.svg" %} Facebook</a></li>
-                            <li><a href="https://www.linkedin.com/" rel="external">{% include "svg/linkedin.svg" %} LinkedIn</a></li>
-                            <li><a href="https://www.instagram.com/" rel="external">{% include "svg/instagram.svg" %} Instagram</a></li>
-                            <li><a href="https://twitter.com/" rel="external">{% include "svg/x.svg" %} X</a></li>
-                            <li><a href="https://www.youtube.com/" rel="external">{% include "svg/youtube.svg" %} YouTube</a></li>
+                            <li><a href="{{ social.facebook }}" rel="external">{% include "svg/facebook.svg" %} Facebook</a></li>
+                            <li><a href="{{ social.linkedin }}" rel="external">{% include "svg/linkedin.svg" %} LinkedIn</a></li>
+                            <li><a href="{{ social.instagram }}" rel="external">{% include "svg/instagram.svg" %} Instagram</a></li>
+                            <li><a href="{{ social.x }}" rel="external">{% include "svg/x.svg" %} X</a></li>
+                            <li><a href="{{ social.youtube }}" rel="external">{% include "svg/youtube.svg" %} YouTube</a></li>
                         </ul>
                     </nav>
                 </div>
