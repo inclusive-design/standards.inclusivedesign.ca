@@ -7,7 +7,6 @@ bannerBgColor: dark-grey
 bannerTitle: About
 bannerBody: Learn more about Inclusive standards
 ---
-
 ## Making Standards Accessible
 
 Lorem ipsum dolor sit amet. Ea galisum quisquam aut galisum aperiam eum dolores consequuntur et fugit rerum ut
@@ -23,14 +22,3 @@ necessitatibus eligendi aut corrupti nisi quo voluptatum impedit. Nam dolor dele
 cum libero provident est Quis voluptatem non ipsa ullam vel iure autem. Quo facilis reprehenderit in atque deleniti
 qui facilis vitae sit officia galisum. Quo laboriosam consequatur sed fugit voluptas id quibusdam galisum sit
 explicabo modi sit mollitia placeat hic laboriosam omnis.
-=======
-layout: layouts/about
----
-## Making Standards Accessible
-
-Lorem ipsum dolor sit amet. Ea galisum quisquam aut galisum aperiam eum dolores consequuntur et fugit rerum ut necessitatibus eligendi aut corrupti nisi quo voluptatum impedit. Nam dolor delectus non sapiente vero sit sint esse cum libero provident est Quis voluptatem non ipsa ullam vel iure autem. Quo facilis reprehenderit in atque deleniti qui facilis vitae sit officia galisum. Quo laboriosam consequatur sed fugit voluptas id quibusdam galisum sit explicabo modi sit mollitia placeat hic laboriosam omnis.
-
-## What We Do
-
-Lorem ipsum dolor sit amet. Ea galisum quisquam aut galisum aperiam eum dolores consequuntur et fugit rerum ut necessitatibus eligendi aut corrupti nisi quo voluptatum impedit. Nam dolor delectus non sapiente vero sit sint esse cum libero provident est Quis voluptatem non ipsa ullam vel iure autem. Quo facilis reprehenderit in atque deleniti qui facilis vitae sit officia galisum. Quo laboriosam consequatur sed fugit voluptas id quibusdam galisum sit explicabo modi sit mollitia placeat hic laboriosam omnis.
->>>>>>> a3333c6 (feat: some adjustments to localization approach)
