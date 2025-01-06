@@ -2,6 +2,7 @@ import { EleventyRenderPlugin } from "@11ty/eleventy";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import fluidPlugin from "eleventy-plugin-fluid";
 import footnotesPlugin from "eleventy-plugin-footnotes";
+import parse from "./src/assets/scripts/parse.js";
 
 export default function eleventy(eleventyConfig) {
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
@@ -28,6 +29,8 @@ export default function eleventy(eleventyConfig) {
             return collection.getFilteredByGlob(`src/collections/pages/${lang}/*.md`);
         });
     });
+
+    eleventyConfig.addTransform("parse", parse);
 
     eleventyConfig.addPassthroughCopy({
         "src/admin/config.yml": "admin/config.yml"

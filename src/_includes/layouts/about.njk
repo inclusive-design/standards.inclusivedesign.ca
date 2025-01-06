@@ -1,10 +1,5 @@
 {% extends "layouts/base.njk" %}
 
 {% block content %}
-{% for key, value in sections %}
-<section>
-    <h2>{{ key }}</h2>
-    <p>{{ value }}</p>
-</section>
-{% endfor %}
+{{ content | safe }}
 {% endblock %}

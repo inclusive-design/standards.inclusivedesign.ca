@@ -8,15 +8,14 @@
   {% include "partials/global/scripts.njk" %}
 </head>
 <body>
+  <main>
     {% include "partials/global/header.njk" %}
     {% include "partials/components/navigation.njk" %}
     {% from "partials/components/card.macro.njk" import card %}
     {% if hasBanner %}
     <div class="banner bg-{{ bannerBgColor }}">
       <div class="banner__text">
-        <div class="banner__title">
-          {{ bannerTitle | safe }}
-        </div>
+        <h1>{{ bannerTitle | safe }}</h1>
         {{ bannerBody }}
       </div>
       {% if bannerImage %}
@@ -28,7 +27,6 @@
     {% endif %}
     {% block content %}{% endblock %}
     {% if collections['projects_' + lang] %}
-    {% set cardImage = "yes" %}
     <section class="display">
       <div class="display__title">
         <h2>Projects</h2>
@@ -88,6 +86,7 @@
       </div>
     </section>
     {% endif %}
-    {% include "partials/global/footer.njk" %}
+  </main>
+  {% include "partials/global/footer.njk" %}
 </body>
 </html>
