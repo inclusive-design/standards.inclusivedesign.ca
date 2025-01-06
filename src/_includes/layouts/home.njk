@@ -2,7 +2,6 @@
 {% from "partials/components/card.macro.njk" import card %}
 
 {% block content %}
-{{ content | safe }}
 {% if collections['projects_' + lang] %}
     <section class="display">
       <div class="display__title">
