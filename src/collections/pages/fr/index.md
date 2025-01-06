@@ -1,4 +1,4 @@
 ---
 title: Inclusive Standards
-layout: layouts/base
+layout: layouts/home
 ---

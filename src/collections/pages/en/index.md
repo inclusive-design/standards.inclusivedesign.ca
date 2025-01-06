@@ -1,6 +1,6 @@
 ---
 title: Inclusive Standards
-layout: layouts/base
+layout: layouts/home
 hasBanner: true
 bannerBgColor: indigo-700
 bannerTitle: <b>Inclusive</b> Standards
