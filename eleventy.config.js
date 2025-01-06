@@ -11,11 +11,11 @@ export default function eleventy(eleventyConfig) {
     eleventyConfig.addPlugin(fluidPlugin, {
         defaultLanguage: "en",
         supportedLanguages: {
-            "en-CA": {
+            en: {
                 slug: "en",
                 name: "English"
             },
-            "fr-CA": {
+            fr: {
                 slug: "fr",
                 name: "Français",
                 dir: "ltr",

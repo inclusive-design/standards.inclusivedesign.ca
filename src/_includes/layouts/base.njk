@@ -14,7 +14,7 @@
     {% if hasBanner %}
     <div class="banner bg-{{ bannerBgColor }}">
       <div class="banner__text">
-        <h1>{{ bannerTitle | safe }}</h1>
+        <h1>{{ bannerTitle | renderContent('md') | safe }}</h1>
         {{ bannerBody }}
       </div>
       {% if bannerImage %}
