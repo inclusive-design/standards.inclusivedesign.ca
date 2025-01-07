@@ -8,10 +8,10 @@
         <div class="header__settings">
             <ul class="header__language" role="list">
                 <li>
-                    <a href="{{ page.url | locale_url('en') }}" lang="en" hreflang="en"{% if page.lang == 'en' %} aria-current="page"{% endif %}>English</a>
+                    <a href="{{ page.url }}" lang="en" hreflang="en"{% if page.lang == 'en' %} aria-current="page"{% endif %}>English</a>
                 </li>
                 <li>
-                    <a href="{{ page.url | locale_url('fr') }}" lang="fr" hreflang="fr"{% if page.lang == 'fr' %} aria-current="page"{% endif %}>Français</a>
+                    <a href="{{ page.url }}" lang="fr" hreflang="fr"{% if page.lang == 'fr' %} aria-current="page"{% endif %}>Français</a>
                 </li>
             </ul>
         </div>
