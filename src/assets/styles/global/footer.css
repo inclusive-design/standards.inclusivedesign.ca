@@ -13,18 +13,18 @@ footer .footer__container h4 {
 
 .footer__title {
     font-size: var(--step-1);
-    font-family: 'Raleway';
+    font-family: "Raleway";
     margin-block: 2rem;
 }
 
-.footer__social-media, 
+.footer__social-media,
 .footer__contact-us {
     margin-bottom: 2rem;
 }
 
 .footer__social-media a {
     display: flex;
-    text-decoration: none;
+
     margin-bottom: 1rem;
 }
 
