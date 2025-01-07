@@ -4,7 +4,7 @@ export default (value, outputPath) => {
     if (outputPath && outputPath.includes(".html")) {
         const { document } = parseHTML(value);
 
-        const sectionHeadings = document.querySelectorAll("main h2");
+        const sectionHeadings = document.querySelectorAll("main h2:not([class])");
         if (sectionHeadings.length > 0) {
             for (const heading of sectionHeadings) {
                 const getContent = (elem) => {
