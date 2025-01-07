@@ -51,3 +51,22 @@ collections:
           required: false,
         }
       - { label: Body, name: body, widget: markdown, i18n: true }
+  - label: Metadata
+    name: metadata
+    files:
+      - label: Contact Information
+        name: contact
+        file: src/_data/contact.json
+        fields:
+          - { label: Email, name: email, widget: string, type: email }
+          - { label: Phone, name: phone, widget: string }
+          - { label: Address, name: address, widget: text }
+      - label: Social Media
+        name: social
+        file: src/_data/social.json
+        fields:
+          - { label: Facebook, name: facebook, widget: string, type: url }
+          - { label: Instagram, name: instagram, widget: string, type: url }
+          - { label: X, name: x, widget: string, type: url }
+          - { label: LinkedIn, name: linkedin, widget: string, type: url }
+          - { label: YouTube, name: youtube, widget: string, type: url }

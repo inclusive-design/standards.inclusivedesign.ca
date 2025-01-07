@@ -28,24 +28,33 @@
                         <div class="footer__contact-us-item-title">
                             {% __ 'contact-us-email' %}
                         </div>
+                        <a href="mailto:{{ contact.email }}">{{ contact.email }}</a>
                     </div>
                     <div class="footer__contact-us-item">
                         <div class="footer__contact-us-item-title">
                             {% __ 'contact-us-phone' %}
                         </div>
+                        {{ contact.phone }}
                     </div>
                     <div class="footer__contact-us-item">
                         <div class="footer__contact-us-item-title">
                             {%  __ 'contact-us-address' %}
                         </div>
-                    </div>            
+                        {{ contact.address | renderContent('md') | safe }}
+                    </div>
                 </div>
             </div>
             <div class="footer__section">
                 <hr>
                 <div class="footer__sponsors">
-                    {% include "svg/IDRC.svg" %}
-                    {% include "svg/OCADU.svg" %}
+                    <a href="https://idrc.ocadu.ca" rel="external">
+                        {% include "svg/IDRC.svg" %}
+                        <span class="visually-hidden" lang="en">Inclusive Design Research Centre</a>
+                    <a>
+                    <a href="https://ocadu.ca" rel="external">
+                        {% include "svg/OCADU.svg" %}
+                        <span class="visually-hidden" lang="en">OCAD University</a>
+                    </a>
                 </div>
             </div>
         </div>
