@@ -1,0 +1,50 @@
+.header {
+    background-color: inherit;
+    display: flex;
+    font-family: var(--family-sans-serif);
+    justify-content: space-between;
+    align-items: center;
+    padding-inline-start: var(--common-inline-padding);
+    min-height: 3.56rem;
+}
+
+.small-viewport {
+    padding-inline-end: var(--common-inline-padding);
+}
+
+.large-viewport {
+    display: none;
+}
+
+.header__language {
+    display: flex;
+    align-items: center;
+}
+
+[aria-current="page"] {
+    text-decoration: none;
+}
+
+.header__language li:not(:last-child)::after {
+    margin-inline: 0.5rem;
+    content: '/';
+}
+
+.fl-prefsEditor-buttons {
+    margin-right: var(--common-inline-padding) !important;
+    margin-left: 2rem !important;
+}
+
+.fl-prefsEditor-separatedPanel {
+    background: inherit;
+    border-block-end: none !important;
+}
+
+@media (width >= 40rem) {
+    .small-viewport {
+        display: none;
+    }
+    .large-viewport {
+        display: flex;
+    }
+}

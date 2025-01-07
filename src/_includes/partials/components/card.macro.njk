@@ -1,0 +1,43 @@
+{%- macro card(params) -%}
+<div class="card">
+    {% if params.image %}
+        <div class="card__image">
+            {{ params.image }}
+        </div>
+    {% endif %}
+    <div class="card__content">
+        <div class="card__title">
+            <h4>{{ params.title | safe }}</h4>
+        </div>
+        {% if cardType === "event" %}
+            <div class="card__event-status">
+                {% include 'svg/eventTag.svg' %}
+                <p>{{ params.eventStatus | safe }}</p>
+            </div>
+        {% endif %}
+        {% if cardType === "event" or cardType === "news" %}
+            <div class="card__date">
+                <p>{{ params.date }}</p>
+            </div>
+        {% endif %}
+        {% if cardType === "resource" %}
+            <div class="card__publisher">
+                <p>{{ params.publisher }} </p>
+            </div>
+        {% endif %}
+        <div class="card__body">
+            <p>{{ params.body | renderContent("md") }}</p>
+        </div>
+        {% if cardType === "resource" %}
+            <div class="card__resource-type">
+                {{ params.resourceType }}
+            </div>
+        {% endif %}
+        {% if cardType === "resource" or cardType === "news" %}
+            <div class="card__tag">
+                {{ params.tag }}
+            </div>
+        {% endif %}
+    </div>
+</div>
+{% endmacro %}

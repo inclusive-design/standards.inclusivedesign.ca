@@ -1,0 +1,93 @@
+.navigation {
+    background-color: var(--color-indigo-700);
+    border-bottom: 0.2rem solid transparent;
+    border-top: 0.2rem solid transparent;
+    color: white;
+    font-family: var(--family-sans-serif);
+}
+
+.navigation__link {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 1.25rem;
+    padding-inline: var(--common-inline-padding);
+}
+
+.navigation__home {
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway';
+    font-size: var(--step-0);
+}
+
+.navigation__toggle {
+    display: flex;
+    gap: 0.625rem;
+    align-items: center;
+    background-color: var(--color-indigo-700);
+    color: white;
+    border: none;
+    font-family: var(--family-sans-serif);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--step-0);
+}
+
+.navigation__menu {
+    width: 100%;
+    background-color: var(--color-indigo-700);
+    padding-inline: var(--common-inline-padding);
+}
+
+.navigation__link:has([aria-expanded="true"]) + .navigation__menu {
+    display: block;
+}
+  
+.navigation__link:has([aria-expanded="false"]) + .navigation__menu {
+    display: none;
+}
+
+.navigation__menu ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-inline: 1.625rem;
+}
+
+.navigation__menu li {
+    font-size: var(--step-0);
+    font-weight: var(--font-weight-normal);
+    line-height: 1.625rem;
+    padding-block: 0.625rem;
+}
+
+.navigation__menu li a {
+    text-decoration: none;
+}
+
+@media (width >= 46.625rem) {
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        padding-block: 1.25rem;
+        padding-inline: var(--common-inline-padding);
+    }
+
+    .navigation__link {
+        padding: unset;
+    }
+
+    .navigation__toggle {
+        display: none;
+    }
+
+    .navigation__link:has([aria-expanded="false"]) + .navigation__menu {
+        display: block;
+        padding: unset;
+        width: unset;
+    }
+
+    .navigation__menu ul {
+        flex-direction: row;
+        gap: 1.75rem;
+    }
+}

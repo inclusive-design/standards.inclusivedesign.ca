@@ -1,0 +1,17 @@
+<nav class="navigation">
+    <div class="navigation__link">
+        <a class="navigation__home" href="/">{{ "<b>Inclusive</b><br>Standards" | safe }}</a>
+        {% set navItems = collections['pages_' + lang] | eleventyNavigation %}
+
+        <button class="navigation__toggle" id="navigation-toggle" aria-expanded="false">{% __ 'menu' %} {% include 'svg/menu.svg' %}</button>
+    </div>
+    <div class="navigation__menu" id="navigation-menu">
+        <ul>
+            {% for item in navItems %}
+            <li>
+                <a href="{{ item.url }}">{{ item.key }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</nav>

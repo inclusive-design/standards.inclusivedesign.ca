@@ -1,0 +1,72 @@
+backend:
+  name: github
+  branch: main
+  repo: inclusive-design/standards.inclusivedesign.ca
+  base_url: https://auth.incd.ca
+media_folder: src/assets/uploads
+public_folder: /assets/uploads
+
+editor:
+  preview: false
+i18n:
+  locales: [en, fr]
+  default_locale: en
+
+collections:
+  - label: Pages
+    label_singular: Page
+    name: pages
+    icon: article
+    i18n:
+      structure: multiple_folders
+    folder: src/collections/pages/
+    extension: md
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string, i18n: true }
+      - { label: Navigation Order, name: order, widget: number, i18n: copy }
+      - { label: "Has Banner?", name: hasBanner, widget: boolean, i18n: copy }
+      - label: "Banner Background"
+        name: bannerBgColor
+        widget: select
+        options:
+          - label: Dark Grey
+            value: dark-grey
+          - label: Indigo 700
+            value: indigo-700
+        i18n: copy
+        required: false
+      - {
+          label: "Banner Title",
+          name: bannerTitle,
+          widget: string,
+          i18n: true,
+          required: false,
+        }
+      - {
+          label: "Banner Body",
+          name: bannerBody,
+          widget: string,
+          i18n: true,
+          required: false,
+        }
+      - { label: Body, name: body, widget: markdown, i18n: true }
+  - label: Metadata
+    name: metadata
+    files:
+      - label: Contact Information
+        name: contact
+        file: src/_data/contact.json
+        fields:
+          - { label: Email, name: email, widget: string, type: email }
+          - { label: Phone, name: phone, widget: string }
+          - { label: Address, name: address, widget: text }
+      - label: Social Media
+        name: social
+        file: src/_data/social.json
+        fields:
+          - { label: Facebook, name: facebook, widget: string, type: url }
+          - { label: Instagram, name: instagram, widget: string, type: url }
+          - { label: X, name: x, widget: string, type: url }
+          - { label: LinkedIn, name: linkedin, widget: string, type: url }
+          - { label: YouTube, name: youtube, widget: string, type: url }

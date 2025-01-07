@@ -1,0 +1,54 @@
+.card {
+    background-color: white;
+    color: black;
+    min-width: 20.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0px 0.625rem 1.25rem 0px hsla(244, 93%, 22%, 0.15);
+}
+
+.card__image {
+    min-height: 14.44rem;
+    min-width: 20.5rem;
+    background-color: black;
+}
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.93rem;
+    padding: 1.875rem;
+}
+
+.card__title h4{
+    font-family: var(--family-sans-serif);
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--step-1);
+    margin: 0;
+}
+
+.card__body,
+.card__date,
+.card__event-status {
+    font-family: var(--family-sans-serif);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--step-0);
+}
+
+.card__event-status {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.card__event-status svg {
+    position: absolute;
+    width: 12ch;
+    fill: var(--fl-bgColor, var(--color-yellow));
+    stroke: var(--fl-fgColor, var(--color-yellow));
+}
+
+.card__event-status p {
+    position: relative;
+    padding-inline: 0.5rem;
+    border-left: 0.05rem solid var(--fl-fgColor, var(--color-yellow));
+}

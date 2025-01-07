@@ -1,14 +1,24 @@
 {
     "en": {
+        "contact-us": "Contact Us",
         "contact-us-address": "Address",
         "contact-us-email": "Email",
         "contact-us-phone": "Phone",
-        "social-media": "Social Media"
+        "header-intro": "An <a href='https://idrc.ocadu.ca/'>Inclusive Design Research Centre</a> Project",
+        "header-intro-short": "<a href='https://idrc.ocadu.ca/'>An IDRC Project</a>",
+        "social-media": "Social Media",
+        "main-menu": "Main Menu",
+        "menu": "menu"
     },
     "fr": {
+        "contact-us": "Contactez-nous",
         "contact-us-address": "Adresse",
         "contact-us-email": "Courriel",
         "contact-us-phone": "Téléphone",
-        "social-media": "Les médias sociaux"
+        "header-intro": "An <a href='https://idrc.ocadu.ca/'>Inclusive Design Research Centre</a> Project",
+        "header-intro-short": "<a href='https://idrc.ocadu.ca/'>An IDRC Project</a>",
+        "social-media": "Les médias sociaux",
+        "main-menu": "Menu Principal",
+        "menu": "menu"
     }
 }

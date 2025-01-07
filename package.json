@@ -30,6 +30,7 @@
   "homepage": "https://github.com/inclusive-design/standards.idrc.ocadu.ca#readme",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-navigation": "^0.3.5",
     "eleventy-plugin-fluid": "github:fluid-project/eleventy-plugin-fluid#feat/overhaul-i18n",
     "eleventy-plugin-footnotes": "^0.11.0",
     "rimraf": "^6.0",
@@ -44,6 +45,7 @@
     "cross-env": "^7.0.3",
     "debug": "^4.3.5",
     "husky": "^9.0.11",
+    "linkedom": "^0.18.6",
     "lint-staged": "^15.2.7",
     "markdownlint-cli2": "^0.15.0",
     "markdownlint-config-fluid": "^0.1.5",
