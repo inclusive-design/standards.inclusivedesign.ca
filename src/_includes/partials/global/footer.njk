@@ -8,8 +8,8 @@
             <div class="footer__section">
                 <hr>
                 <div class="footer__social-media">
-                    <nav aria-label="{% __ 'social-media' %}">
-                        <h4>{% __ 'social-media' %}</h4>
+                    <nav aria-labelledby="social">
+                        <h2 id="social">{% __ 'social-media' %}</h2>
                         <ul role="list">
                             <li><a href="{{ social.facebook }}" rel="external">{% include "svg/facebook.svg" %} Facebook</a></li>
                             <li><a href="{{ social.linkedin }}" rel="external">{% include "svg/linkedin.svg" %} LinkedIn</a></li>
@@ -23,7 +23,7 @@
             <div class="footer__section">
                 <hr>
                 <div class="footer__contact-us">
-                    <h4>{% __ 'contact-us' %}</h4>
+                    <h2>{% __ 'contact-us' %}</h2>
                     <div class="footer__contact-us-item">
                         <div class="footer__contact-us-item-title">
                             {% __ 'contact-us-email' %}
@@ -60,4 +60,3 @@
         </div>
     </div>
 </footer>
-{% include "partials/components/lang.njk" %}

@@ -5,7 +5,7 @@ footer {
     padding-block: var(--common-block-padding);
 }
 
-footer .footer__container h4 {
+footer .footer__container h2 {
     font-size: var(--step-1);
     font-weight: var(--font-weight-bold);
     font-family: var(--family-sans-serif);
