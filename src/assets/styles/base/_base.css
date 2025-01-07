@@ -33,7 +33,9 @@ section {
 }
 
 .banner__text > * + *,
-section > * + * {
+section > * + *,
+footer nav > * + *,
+footer .footer__contact-us > * + * {
     margin-block-start: 1em;
 }
 
