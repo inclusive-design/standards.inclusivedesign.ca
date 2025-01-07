@@ -1,21 +1,17 @@
 @charset "UTF-8";
 
 /* Abstracts */
-
 @import "./abstracts/_variables.css";
 
 /* Base */
-
 @import "./base/_reset.css";
+@import "./base/_fonts.css";
 @import "./base/_base.css";
 
 /* Global */
-
 @import "./global/footer.css";
 @import "./global/header.css";
 
 /* Components */
-
 @import "./components/card.css";
 @import "./components/navigation.css";
-
