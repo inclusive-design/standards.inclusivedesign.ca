@@ -9,13 +9,13 @@ export default function eleventy(eleventyConfig) {
     eleventyConfig.addPlugin(EleventyRenderPlugin);
     eleventyConfig.addPlugin(footnotesPlugin);
     eleventyConfig.addPlugin(fluidPlugin, {
-        defaultLanguage: "en",
+        defaultLanguage: "en-CA",
         supportedLanguages: {
-            en: {
+            "en-CA": {
                 slug: "en",
                 name: "English"
             },
-            fr: {
+            "fr-CA": {
                 slug: "fr",
                 name: "Français",
                 dir: "ltr",
@@ -24,7 +24,7 @@ export default function eleventy(eleventyConfig) {
         }
     });
 
-    ["en", "fr"].forEach((lang) => {
+    ["en-CA", "fr-CA"].forEach((lang) => {
         eleventyConfig.addCollection(`pages_${lang}`, (collection) => {
             return collection.getFilteredByGlob(`src/collections/pages/${lang}/*.md`);
         });

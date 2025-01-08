@@ -1,5 +1,5 @@
 {
-    "en": {
+    "en-CA": {
         "contact-us": "Contact Us",
         "contact-us-address": "Address",
         "contact-us-email": "Email",
@@ -10,7 +10,7 @@
         "main-menu": "Main Menu",
         "menu": "menu"
     },
-    "fr": {
+    "fr-CA": {
         "contact-us": "Contactez-nous",
         "contact-us-address": "Adresse",
         "contact-us-email": "Courriel",

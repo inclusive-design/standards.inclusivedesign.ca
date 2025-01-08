@@ -1,0 +1,18 @@
+.lg-block,
+.lg-inline {
+    display: none;
+}
+
+@media (width >= 40rem) {
+    .lg-hidden {
+        display: none;
+    }
+
+    .lg-block {
+        display: block;
+    }
+
+    .lg-inline {
+        display: inline;
+    }
+}
