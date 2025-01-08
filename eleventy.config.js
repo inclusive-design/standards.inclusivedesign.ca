@@ -28,6 +28,10 @@ export default function eleventy(eleventyConfig) {
         eleventyConfig.addCollection(`pages_${lang}`, (collection) => {
             return collection.getFilteredByGlob(`src/collections/pages/${lang}/*.md`);
         });
+
+        eleventyConfig.addCollection(`projects_${lang}`, (collection) => {
+            return collection.getFilteredByGlob(`src/collections/projects/${lang}/*.md`);
+        });
     });
 
     eleventyConfig.addTransform("parse", parse);

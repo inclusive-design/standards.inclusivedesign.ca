@@ -1,0 +1,19 @@
+{%- macro projectPanel(params) -%}
+<div class="projectPanel">
+    <div class="projectPanel__color">
+    </div>
+    {% if params.image %}
+        <div class="projectPanel__image">
+            {{ params.image }}
+        </div>
+    {% endif %}
+    <div class="projectPanel__content">
+        <a class="projectPanel__title" href="#">
+            {{ params.title | safe }}
+        </a>
+        <div class="projectPanel__body">
+            <p>{{ params.body | renderContent("md") }}</p>
+        </div>
+    </div>
+</div>
+{% endmacro %}

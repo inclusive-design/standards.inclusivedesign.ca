@@ -9,7 +9,7 @@ export default (value, outputPath) => {
             for (const heading of sectionHeadings) {
                 const getContent = (elem) => {
                     let elems = [];
-                    while (elem.nextElementSibling && elem.nextElementSibling.tagName !== "H2") {
+                    while (elem.nextElementSibling && elem.nextElementSibling.tagName !== "H2" && elem.nextElementSibling.tagName !== "SECTION") {
                         elems.push(elem.nextElementSibling);
                         elem = elem.nextElementSibling;
                     }
