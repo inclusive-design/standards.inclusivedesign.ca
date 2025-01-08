@@ -33,8 +33,10 @@ section {
 }
 
 .banner__text > * + *,
+.projectPanel__content > * + *,
 section > * + *,
-.projectPanel__content > * + * {
+footer nav > * + *,
+footer .footer__contact-us > * + * {
     margin-block-start: 1em;
 }
 
