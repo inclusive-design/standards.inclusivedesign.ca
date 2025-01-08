@@ -1,6 +1,7 @@
 ---
 title: À propos
 layout: layouts/about
+order: 1
 hasBanner: true
 bannerBgColor: dark-grey
 bannerTitle: À propos

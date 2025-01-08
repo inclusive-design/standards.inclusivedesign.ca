@@ -31,15 +31,17 @@ export default function eleventy(eleventyConfig) {
         });
     });
 
-    eleventyConfig.addShortcode("findTranslation", function find(collection = [], page, lang, desiredLang) {
+    eleventyConfig.addFilter("findTranslation", function find(page, collection = [], lang, desiredLang) {
         const expectedFilePathStem = page.filePathStem.replace(lang, desiredLang);
-        let url = page.url;
+
+        let translationUrl = false;
+
         collection.forEach((el) => {
             if (el.filePathStem === expectedFilePathStem) {
-                url = el.url;
+                translationUrl = el.url;
             }
         });
-        return url;
+        return translationUrl;
     });
 
     eleventyConfig.addTransform("parse", parse);

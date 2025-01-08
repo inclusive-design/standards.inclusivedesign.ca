@@ -1,5 +1,6 @@
 ---
 title: Projets
+order: 2
 hasBanner: true
 bannerBgColor: dark-grey
 bannerTitle: Projets
