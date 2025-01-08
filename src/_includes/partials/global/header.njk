@@ -10,10 +10,10 @@
         <div class="header__settings">
             <ul class="header__language" role="list">
                 <li>
-                    <a href="{{ page | findTranslation(collections.all, lang, 'en') }}" lang="en" hreflang="en"{% if lang == 'en' %} aria-current="page"{% endif %}><span class="lg-hidden">EN</span><span class="lg-inline">English</span></a>
+                    <a href="{{ page | findTranslation(collections.all, lang, 'en') }}" lang="en-CA" hreflang="en-CA"{% if lang == 'en' %} aria-current="page"{% endif %}><span class="lg-hidden">EN</span><span class="lg-inline">English</span></a>
                 </li>
                 <li>
-                    <a href="{{ page | findTranslation(collections.all, lang, 'fr') }}" lang="fr" hreflang="fr"{% if lang == 'fr' %} aria-current="page"{% endif %}><span class="lg-hidden">FR</span><span class="lg-inline">Français</span></a>
+                    <a href="{{ page | findTranslation(collections.all, lang, 'fr') }}" lang="fr-CA" hreflang="fr-CA"{% if lang == 'fr' %} aria-current="page"{% endif %}><span class="lg-hidden">FR</span><span class="lg-inline">Français</span></a>
                 </li>
             </ul>
         </div>
