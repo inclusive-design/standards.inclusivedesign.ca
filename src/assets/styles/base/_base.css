@@ -33,7 +33,7 @@ section {
 }
 
 .banner__text > * + *,
-.projectPanel__content > * + *,
+.project-panel__content > * + *,
 section > * + *,
 footer nav > * + *,
 footer .footer__contact-us > * + * {

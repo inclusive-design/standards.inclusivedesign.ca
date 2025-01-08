@@ -1,4 +1,4 @@
-div:has(.projectPanel) {
+div:has(.project-panel) {
     background-color: var(--color-indigo-100);
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@ div:has(.projectPanel) {
     padding-inline: var(--common-inline-padding);
 }
 
-.projectPanel {
+.project-panel {
     background-color: var(--fl-fgColor, var(--color-yellow));
     box-shadow: 0 0.625rem 1.25rem 0 #0B046C26;
     border: 0.1875rem solid var(--fl-bgColor, var(--color-indigo-100));
@@ -16,29 +16,29 @@ div:has(.projectPanel) {
     position: relative;
 }
 
-.projectPanel:has(a:focus) {
+.project-panel:has(a:focus) {
     border: 0.1875rem solid transparent;
     outline: 0.1875rem solid var(--fl-fgColor, transparent);
     outline-offset: 0.1875rem;
 }
 
-.projectPanel:hover {
+.project-panel:hover {
     box-shadow: 0 0.625rem 1.25rem 0 var(--fl-fgColor, #0B046C73);
 }
 
-.projectPanel__color {
+.project-panel__color {
     min-height: 2.5rem;
     border-bottom: 0.125rem solid var(--fl-fgColor, var(--color-yellow));
 }
 
-.projectPanel__image {
+.project-panel__image {
     min-width: 16.25rem;
     min-height: 12.1875rem;
     max-width: 31.0625rem;
     max-height: 23.125rem;
 }
 
-.projectPanel__title {
+.project-panel__title {
     font-weight: var(--font-weight-semibold);
     font-family: var(--family-sans-serif);
     font-size: var(--step-4);
@@ -46,14 +46,14 @@ div:has(.projectPanel) {
     color: black;
 }
 
-.projectPanel__title:focus {
+.project-panel__title:focus {
     background: none;
     box-shadow: none;
     color: var(--fl-linkColor, var(--black));
     outline: none;
 }
 
-.projectPanel__title::after {
+.project-panel__title::after {
     bottom: 0;
     content: "";
     display: block;
@@ -63,21 +63,21 @@ div:has(.projectPanel) {
     top: 0;
 }
 
-.projectPanel__content {
+.project-panel__content {
     background-color: white;
     display: flex;
     flex-direction: column;
-    margin: auto;
+    justify-content: center;
     padding: 1.875rem;
     width: 100%;
 }
 
 @media (width >= 70.875rem) {
-    .projectPanel {
+    .project-panel {
         flex-direction: row;
     }
 
-    .projectPanel__color {
+    .project-panel__color {
         border-right: 0.125rem solid var(--fl-fgColor, var(--color-yellow));
         min-width: 4.625rem;
         min-height: 23.125rem;

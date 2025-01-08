@@ -1,7 +1,7 @@
 import { parseHTML } from "linkedom";
 
 export default (value, outputPath) => {
-    if (outputPath && outputPath.includes(".html")) {
+    if (outputPath && outputPath.includes(".html") && outputPath.includes("about")) {
         const { document } = parseHTML(value);
 
         const sectionHeadings = document.querySelectorAll("main h2:not([class])");
