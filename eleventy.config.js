@@ -1,5 +1,6 @@
 import { EleventyRenderPlugin } from "@11ty/eleventy";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
+import brokenLinksPlugin from "eleventy-plugin-broken-links";
 import fluidPlugin from "eleventy-plugin-fluid";
 import footnotesPlugin from "eleventy-plugin-footnotes";
 import parse from "./src/_transforms/parse.js";
@@ -9,13 +10,13 @@ export default function eleventy(eleventyConfig) {
     eleventyConfig.addPlugin(EleventyRenderPlugin);
     eleventyConfig.addPlugin(footnotesPlugin);
     eleventyConfig.addPlugin(fluidPlugin, {
-        defaultLanguage: "en-CA",
+        defaultLanguage: "en",
         supportedLanguages: {
-            "en-CA": {
+            en: {
                 slug: "en",
                 name: "English"
             },
-            "fr-CA": {
+            fr: {
                 slug: "fr",
                 name: "Français",
                 dir: "ltr",
@@ -24,10 +25,21 @@ export default function eleventy(eleventyConfig) {
         }
     });
 
-    ["en-CA", "fr-CA"].forEach((lang) => {
+    ["en", "fr"].forEach((lang) => {
         eleventyConfig.addCollection(`pages_${lang}`, (collection) => {
             return collection.getFilteredByGlob(`src/collections/pages/${lang}/*.md`);
         });
+    });
+
+    eleventyConfig.addShortcode("findTranslation", function find(collection = [], page, lang, desiredLang) {
+        const expectedFilePathStem = page.filePathStem.replace(lang, desiredLang);
+        let url = page.url;
+        collection.forEach((el) => {
+            if (el.filePathStem === expectedFilePathStem) {
+                url = el.url;
+            }
+        });
+        return url;
     });
 
     eleventyConfig.addTransform("parse", parse);
@@ -37,6 +49,14 @@ export default function eleventy(eleventyConfig) {
     });
 
     eleventyConfig.addPassthroughCopy({ "src/assets/fonts": "assets/fonts" });
+
+    eleventyConfig.addPlugin(brokenLinksPlugin, {
+        forbidden: "error",
+        broken: "error",
+        cacheDuration: "60s",
+        loggingLevel: 1,
+        excludeInputs: ["**/*/*.css"]
+    });
 
     return {
         dir: {
