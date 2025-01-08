@@ -12,7 +12,7 @@
             {{ params.title | safe }}
         </a>
         <div class="projectPanel__body">
-            <p>{{ params.body | renderContent("md") }}</p>
+            <p>{{ params.body | safe }}</p>
         </div>
     </div>
 </div>

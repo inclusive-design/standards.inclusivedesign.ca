@@ -33,7 +33,8 @@ section {
 }
 
 .banner__text > * + *,
-section > * + * {
+section > * + *,
+.projectPanel__content > * + * {
     margin-block-start: 1em;
 }
 

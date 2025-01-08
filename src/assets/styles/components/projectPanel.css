@@ -23,12 +23,12 @@ div:has(.projectPanel) {
 }
 
 .projectPanel:hover {
-    box-shadow: 0px 10px 20px 0px #0B046C73;
+    box-shadow: 0 0.625rem 1.25rem 0 var(--fl-fgColor, #0B046C73);
 }
 
 .projectPanel__color {
     min-height: 2.5rem;
-    border-right: 0.125rem solid var(--fl-fgColor, var(--color-yellow));
+    border-bottom: 0.125rem solid var(--fl-fgColor, var(--color-yellow));
 }
 
 .projectPanel__image {
@@ -67,6 +67,7 @@ div:has(.projectPanel) {
     background-color: white;
     display: flex;
     flex-direction: column;
+    margin: auto;
     padding: 1.875rem;
     width: 100%;
 }
@@ -77,6 +78,7 @@ div:has(.projectPanel) {
     }
 
     .projectPanel__color {
+        border-right: 0.125rem solid var(--fl-fgColor, var(--color-yellow));
         min-width: 4.625rem;
         min-height: 23.125rem;
     }

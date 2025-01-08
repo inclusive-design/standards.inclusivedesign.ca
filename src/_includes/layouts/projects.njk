@@ -5,7 +5,7 @@
 <div>
     {% if collections['projects_' + lang] %}
         {% for item in collections['projects_' + lang] %}
-            {{ projectPanel({image: item.data.image, title: item.data.title, body: item.data.body }) }}
+            {{ projectPanel({image: item.data.image, title: item.data.title, body: item.data.desc }) }}
         {% endfor %}
     {% endif %}
 </div>
