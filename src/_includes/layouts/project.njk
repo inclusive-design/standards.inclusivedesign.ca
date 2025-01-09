@@ -1,0 +1,23 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+<div class="project__container">
+    <div class="project__banner">
+        <div class="project__banner__color bg-{{ projectColor }}"></div>
+        <div class="project__banner__header">
+            <a href="/{% __ 'projects' %}" >{% __ 'projects' %} {% include 'svg/arrowRight.svg' %}</a>
+            <h1 class="project__banner__title">
+                {{ title }}
+            </h1>
+        </div>
+        {% if image %}
+            <div class="project__image">
+                {{ image }}
+            </div>
+        {% endif %}
+    </div>
+    <article>
+    {{ content | safe }}
+    </article>
+</div>
+{% endblock %}

@@ -8,7 +8,7 @@
       <div class="display__items">
         {% set cardType = "project" %}
         {% for item in collections['projects_' + lang] %}
-          {{ card({image: item.data.image, title: item.data.title, body: item.data.desc }) }}
+          {{ card({image: item.data.image, title: item.data.title, body: item.data.desc, color: item.data.projectColor, url: item.data.permalink }) }}
         {% endfor %}
       </div>
       <div class="display__link">
@@ -21,7 +21,7 @@
       <div class="display__items">
         {% set cardType = "event" %}
         {% for item in collections.events %}
-          {{ card({image: item.data.image, title: item.data.title, body: item.data.desc }) }}
+          {{ card({image: item.data.image, title: item.data.title, body: item.data.desc, url: item.data.permalink }) }}
         {% endfor %}
       </div>
       <div class="display__link">
@@ -34,7 +34,7 @@
       <div class="display__items">
         {% set cardType = "resource" %}
         {% for item in collections.resources %}
-          {{ card({image: item.data.image, title: item.data.title, body: item.data.desc }) }}
+          {{ card({image: item.data.image, title: item.data.title, body: item.data.desc, url: item.data.permalink }) }}
         {% endfor %}
       </div>
       <div class="display__link">
@@ -47,7 +47,7 @@
       <div class="display__items">
         {% set cardType = "news" %}
         {% for item in collections.news %}
-          {{ card({image: item.data.image, title: item.data.title, body: item.data.desc }) }}
+          {{ card({image: item.data.image, title: item.data.title, body: item.data.desc, url: item.data.permalink }) }}
         {% endfor %}
       </div>
       <div class="display__link">

@@ -8,9 +8,7 @@ div:has(.project-panel) {
 }
 
 .project-panel {
-    background-color: var(--fl-fgColor, var(--color-yellow));
     box-shadow: 0 0.625rem 1.25rem 0 #0B046C26;
-    border: 0.1875rem solid var(--fl-bgColor, var(--color-indigo-100));
     display: flex;
     flex-direction: column;
     position: relative;
@@ -22,13 +20,24 @@ div:has(.project-panel) {
     outline-offset: 0.1875rem;
 }
 
+.project-panel:has(a:focus) > .project-panel__color {
+    border: unset;
+    border-bottom: 0.1875rem solid transparent;
+}
+
+.project-panel:has(a:focus) > .project-panel__content {
+    border: unset;
+}
+
 .project-panel:hover {
     box-shadow: 0 0.625rem 1.25rem 0 var(--fl-fgColor, #0B046C73);
 }
 
 .project-panel__color {
     min-height: 2.5rem;
-    border-bottom: 0.125rem solid var(--fl-fgColor, var(--color-yellow));
+    border-top: 0.1875rem solid var(--fl-bgColor, transparent);
+    border-left: 0.1875rem solid var(--fl-bgColor, transparent);
+    border-right: 0.1875rem solid var(--fl-bgColor, transparent);
 }
 
 .project-panel__image {
@@ -65,6 +74,7 @@ div:has(.project-panel) {
 
 .project-panel__content {
     background-color: white;
+    border: 0.1875rem solid var(--fl-fgColor, transparent);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -77,9 +87,17 @@ div:has(.project-panel) {
         flex-direction: row;
     }
 
+    .project-panel:has(a:focus) > .project-panel__color {
+        border: unset;
+        border-right: 0.1875rem solid transparent;
+    }
+
     .project-panel__color {
-        border-right: 0.125rem solid var(--fl-fgColor, var(--color-yellow));
         min-width: 4.625rem;
         min-height: 23.125rem;
+        border-top: 0.1875rem solid var(--fl-bgColor, transparent);
+        border-left: 0.1875rem solid var(--fl-bgColor, transparent);
+        border-right: unset;
+        border-bottom: 0.1875rem solid var(--fl-bgColor, transparent);
     }
 }

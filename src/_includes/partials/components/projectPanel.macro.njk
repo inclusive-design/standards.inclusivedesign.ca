@@ -1,6 +1,6 @@
 {%- macro projectPanel(params) -%}
-<div class="project-panel">
-    <div class="project-panel__color">
+<div class="project-panel bg-{{ params.color }}">
+    <div class="project-panel__color bg-{{ params.color }}">
     </div>
     {% if params.image %}
         <div class="project-panel__image">
@@ -8,7 +8,7 @@
         </div>
     {% endif %}
     <div class="project-panel__content">
-        <a class="project-panel__title" href="#">
+        <a class="project-panel__title" href="{{ params.url }}">
             {{ params.title | safe }}
         </a>
         <div class="project-panel__body">
