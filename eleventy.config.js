@@ -1,5 +1,6 @@
 import { EleventyRenderPlugin } from "@11ty/eleventy";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
+import brokenLinksPlugin from "eleventy-plugin-broken-links";
 import fluidPlugin from "eleventy-plugin-fluid";
 import footnotesPlugin from "eleventy-plugin-footnotes";
 import parse from "./src/_transforms/parse.js";
@@ -30,6 +31,19 @@ export default function eleventy(eleventyConfig) {
         });
     });
 
+    eleventyConfig.addFilter("findTranslation", function find(page, collection = [], lang, desiredLang) {
+        const expectedFilePathStem = page.filePathStem.replace(lang, desiredLang);
+
+        let translationUrl = false;
+
+        collection.forEach((el) => {
+            if (el.filePathStem === expectedFilePathStem) {
+                translationUrl = el.url;
+            }
+        });
+        return translationUrl;
+    });
+
     eleventyConfig.addTransform("parse", parse);
 
     eleventyConfig.addPassthroughCopy({
@@ -37,6 +51,14 @@ export default function eleventy(eleventyConfig) {
     });
 
     eleventyConfig.addPassthroughCopy({ "src/assets/fonts": "assets/fonts" });
+
+    eleventyConfig.addPlugin(brokenLinksPlugin, {
+        forbidden: "error",
+        broken: "error",
+        cacheDuration: "60s",
+        loggingLevel: 1,
+        excludeInputs: ["**/*/*.css"]
+    });
 
     return {
         dir: {

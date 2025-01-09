@@ -14,7 +14,6 @@
     "lint:scripts": "biome check .",
     "lint:markdown": "markdownlint-cli2 \"**/*.md\"",
     "start": "npm-run-all -l clean dev",
-    "test": "c8 --all --src src -r clover -r text ava",
     "prepare": "husky"
   },
   "repository": {
@@ -31,6 +30,7 @@
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-navigation": "^0.3.5",
+    "eleventy-plugin-broken-links": "^2.2.1",
     "eleventy-plugin-fluid": "github:fluid-project/eleventy-plugin-fluid#feat/overhaul-i18n",
     "eleventy-plugin-footnotes": "^0.11.0",
     "rimraf": "^6.0",
@@ -39,9 +39,7 @@
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
-    "ava": "^6.0",
     "biome-config-fluid": "github:greatislander/biome-config-fluid",
-    "c8": "^10.0",
     "cross-env": "^7.0.3",
     "debug": "^4.3.5",
     "husky": "^9.0.11",
