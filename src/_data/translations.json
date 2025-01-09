@@ -4,8 +4,8 @@
         "contact-us-address": "Address",
         "contact-us-email": "Email",
         "contact-us-phone": "Phone",
-        "header-intro": "An <a href='https://idrc.ocadu.ca/'>Inclusive Design Research Centre</a> Project",
-        "header-intro-short": "<a href='https://idrc.ocadu.ca/'>An IDRC Project</a>",
+        "header-intro": "An <a href='https://idrc.ocadu.ca/' rel='external'>Inclusive Design Research Centre</a> Project",
+        "header-intro-short": "<a href='https://idrc.ocadu.ca/' rel='external'>An IDRC Project</a>",
         "social-media": "Social Media",
         "main-menu": "Main Menu",
         "menu": "menu"
@@ -15,8 +15,8 @@
         "contact-us-address": "Adresse",
         "contact-us-email": "Courriel",
         "contact-us-phone": "Téléphone",
-        "header-intro": "An <a href='https://idrc.ocadu.ca/'>Inclusive Design Research Centre</a> Project",
-        "header-intro-short": "<a href='https://idrc.ocadu.ca/'>An IDRC Project</a>",
+        "header-intro": "Un projet <a href='https://idrc.ocadu.ca/' rel='external'>Inclusive Design Research Centre</a>",
+        "header-intro-short": "<a href='https://idrc.ocadu.ca/' rel='external'>Un project IDRC</a>",
         "social-media": "Les médias sociaux",
         "main-menu": "Menu Principal",
         "menu": "menu"
