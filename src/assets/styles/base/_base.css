@@ -107,6 +107,10 @@ section:last-of-type:not(:first-of-type) {
     padding-inline: var(--common-inline-padding);
 }
 
+.project__banner a {
+    width: fit-content;
+}
+
 .project__banner a svg {
     stroke: var(--fl-linkColor, black);
 }
@@ -193,7 +197,7 @@ section:last-of-type:not(:first-of-type) {
     }
 
     .project__banner a {
-        padding-block-start: 5rem;
+        margin-block-start: 5rem;
     }
 
     .project__banner__title {

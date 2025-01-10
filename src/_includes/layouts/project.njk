@@ -5,7 +5,7 @@
     <div class="project__banner">
         <div class="project__banner__color bg-{{ projectColor }}"></div>
         <div class="project__banner__header">
-            <a href="/{% __ 'projects' %}" >{% __ 'projects' %} {% include 'svg/arrowRight.svg' %}</a>
+            <a href="{% if lang === "en" %}/projects{% else %}/{{lang }}/{% __ 'projects' %}{% endif %}" >{% __ 'projects' %} {% include 'svg/arrowRight.svg' %}</a>
             <h1 class="project__banner__title">
                 {{ title }}
             </h1>
