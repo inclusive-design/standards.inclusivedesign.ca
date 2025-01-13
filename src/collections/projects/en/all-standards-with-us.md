@@ -1,18 +1,12 @@
 ---
 title: All Standards With Us
-desc: This project makes standards development accessible to people with disabilities and Deaf individuals, ensuring goods and services are inclusive. We focus on removing barriers in Standards Development Organizations (SDOs) to support full participation.
 projectColor: yellow
+desc: This project makes standards development accessible to people with disabilities and Deaf individuals, ensuring goods and services are inclusive. We focus on removing barriers in Standards Development Organizations (SDOs) to support full participation.
 layout: layouts/project
 ---
-
 ## About this project
 
-The goal of this project is to make the process of creating standards more accessible to people with disabilities 
-and Deaf people. The idea is that if more people with disabilities and Deaf people get involved in this process, 
-the goods and services we use in our daily lives will be more accessible. We’re focusing on how this is done 
-within Standards Development Organizations (SDOs). Our vision is to remove accessibility barriers and have 
-standards development processes that support a wide range of needs, so that people with disabilities are 
-able to participate in mainstream standards development.
+The goal of this project is to make the process of creating standards more accessible to people with disabilities and Deaf people. The idea is that if more people with disabilities and Deaf people get involved in this process, the goods and services we use in our daily lives will be more accessible. We’re focusing on how this is done within Standards Development Organizations (SDOs). Our vision is to remove accessibility barriers and have standards development processes that support a wide range of needs, so that people with disabilities are able to participate in mainstream standards development.
 
 ## What are standards?
 
@@ -25,18 +19,18 @@ Learn more about
 
 ## How are standards made?
 
-<em>Who does it involve?</em>
+_Who does it involve?_
 
 A Standard Development Organization (SDO) brings together experts to create standards. These experts are from various 
 backgrounds such as industry, academia, and government.
 
-<em>What do they do?</em>
+_What do they do?_
 
 Experts work together to share their experiences and come to an agreement on what a standard should be. 
 These standards are written down and published by SDOs so that they can be used by the public, governments, 
 and industry. Standards are also regularly checked and improved, to make sure they are up to date as the world changes.
 
-<em>Working globally</em>
+_Working globally_
 
 Sometimes, SDOs can work internationally with other groups to make sure standards are similar across the world.
 Read more about it on the 
