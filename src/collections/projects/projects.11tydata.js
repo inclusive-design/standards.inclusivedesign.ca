@@ -1,4 +1,4 @@
-import { generatePermalink } from "eleventy-plugin-fluid";
+import { __, generatePermalink } from "eleventy-plugin-fluid";
 
 export default {
     eleventyComputed: {
@@ -7,8 +7,7 @@ export default {
                 return null;
             }
 
-            const locale = data.locale;
-            return generatePermalink(data, "projects", locale === "fr-CA" ? "projets" : "projects");
+            return generatePermalink(data, "projects", __("projects", {}, data));
         }
     }
 };

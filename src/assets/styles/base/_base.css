@@ -26,11 +26,6 @@ h4 {
     font-size: var(--step-2);
 }
 
-article {
-    padding-block: var(--common-block-padding);
-    padding-inline: var(--common-inline-padding);
-}
-
 article > * + * {
     margin-block-start: 2rem;
 }
@@ -108,15 +103,26 @@ section:last-of-type:not(:first-of-type) {
 }
 
 .project__banner a {
+    align-items: center;
+    color: var(--fl-linkColor, var(--color-indigo-700));
+    display: flex;
+    gap: 0.4rem;
     width: fit-content;
 }
 
 .project__banner a svg {
-    stroke: var(--fl-linkColor, black);
+    stroke: var(--fl-linkColor, var(--color-indigo-700));
 }
 
 .project__banner__color {
     min-height: 1.875rem;
+}
+
+.project__content {
+    display: grid;
+    grid-template-columns: 0 65%;
+    padding-block: var(--common-block-padding);
+    padding-inline: var(--common-inline-padding);
 }
 
 .bg-indigo-100 {

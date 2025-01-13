@@ -16,8 +16,12 @@
             </div>
         {% endif %}
     </div>
-    <article>
-    {{ content | safe }}
-    </article>
+    <div class="project__content">
+        <div class="project__nav">
+        </div>
+        <article>
+        {{ content | safe }}
+        </article>
+    </div>
 </div>
 {% endblock %}

@@ -38,6 +38,7 @@ div:has(.project-panel) {
     border-top: 0.1875rem solid var(--fl-bgColor, transparent);
     border-left: 0.1875rem solid var(--fl-bgColor, transparent);
     border-right: 0.1875rem solid var(--fl-bgColor, transparent);
+    box-sizing: content-box;
 }
 
 .project-panel__image {
@@ -73,8 +74,8 @@ div:has(.project-panel) {
 }
 
 .project-panel__content {
-    background-color: white;
-    border: 0.1875rem solid var(--fl-fgColor, transparent);
+    background-color: var(--fl-bgColor, white);
+    border: 0.1875rem solid var(--fl-bgColor, transparent);
     display: flex;
     flex-direction: column;
     justify-content: center;

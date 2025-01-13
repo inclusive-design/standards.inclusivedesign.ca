@@ -15,12 +15,12 @@
         "menu": "menu"
     },
     "fr": {
-        "announcements": "Announces",
+        "announcements": "Annonces",
         "contact-us": "Contactez-nous",
         "contact-us-address": "Adresse",
         "contact-us-email": "Courriel",
         "contact-us-phone": "Téléphone",
-        "events": "Events",
+        "events": "Événements",
         "header-intro": "Un projet <a href='https://idrc.ocadu.ca/' rel='external'>Inclusive Design Research Centre</a>",
         "header-intro-short": "<a href='https://idrc.ocadu.ca/' rel='external'>Un project IDRC</a>",
         "projects": "Projets",
