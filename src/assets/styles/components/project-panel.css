@@ -8,37 +8,36 @@ div:has(.project-panel) {
 }
 
 .project-panel {
-    box-shadow: 0 0.625rem 1.25rem 0 #0B046C26;
+    box-shadow:
+        0 0.625rem 1.25rem 0 #0B046C26,
+        inset 0 0 0 0.1875rem var(--fl-fgColor, transparent);
     display: flex;
     flex-direction: column;
+    padding-top: 2.5rem;
     position: relative;
 }
 
 .project-panel:has(a:focus) {
     border: 0.1875rem solid transparent;
+    box-shadow: 0 0.625rem 1.25rem 0 #0B046C26;
     outline: 0.1875rem solid var(--fl-fgColor, transparent);
     outline-offset: 0.1875rem;
 }
 
-.project-panel:has(a:focus) > .project-panel__color {
-    border: unset;
-    border-bottom: 0.1875rem solid transparent;
-}
-
 .project-panel:has(a:focus) > .project-panel__content {
     border: unset;
+    box-shadow: 0 -0.1875rem 0 var(--fl-fgColor, transparent);
 }
 
 .project-panel:hover {
-    box-shadow: 0 0.625rem 1.25rem 0 var(--fl-fgColor, #0B046C73);
+    box-shadow:
+        inset 0 0 0 0.1875rem var(--fl-fgColor, transparent),
+        0 0.625rem 1.25rem 0 var(--fl-fgColor, #0B046C73);
 }
 
-.project-panel__color {
-    min-height: 2.5rem;
-    border-top: 0.1875rem solid var(--fl-bgColor, transparent);
-    border-left: 0.1875rem solid var(--fl-bgColor, transparent);
-    border-right: 0.1875rem solid var(--fl-bgColor, transparent);
-    box-sizing: content-box;
+.project-panel:hover.project-panel:has(a:focus) {
+    box-shadow:
+        0 0.625rem 1.25rem 0 var(--fl-fgColor, #0B046C73);
 }
 
 .project-panel__image {
@@ -86,19 +85,12 @@ div:has(.project-panel) {
 @media (width >= 70.875rem) {
     .project-panel {
         flex-direction: row;
+        padding-left: 4.625rem;
+        padding-top: unset;
     }
 
-    .project-panel:has(a:focus) > .project-panel__color {
+    .project-panel:has(a:focus) > .project-panel__content {
         border: unset;
-        border-right: 0.1875rem solid transparent;
-    }
-
-    .project-panel__color {
-        min-width: 4.625rem;
-        min-height: 23.125rem;
-        border-top: 0.1875rem solid var(--fl-bgColor, transparent);
-        border-left: 0.1875rem solid var(--fl-bgColor, transparent);
-        border-right: unset;
-        border-bottom: 0.1875rem solid var(--fl-bgColor, transparent);
+        box-shadow: -0.1875rem 0 0 var(--fl-fgColor, transparent);
     }
 }

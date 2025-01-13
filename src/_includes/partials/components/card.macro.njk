@@ -1,9 +1,5 @@
 {%- macro card(params) -%}
 <div class="card {% if params.color %}bg-{{ params.color }}{% endif %}">
-    {% if params.color %}
-        <div class="card__color">
-        </div>
-    {% endif %}
     {% if params.image %}
         <div class="card__image">
             {{ params.image }}
