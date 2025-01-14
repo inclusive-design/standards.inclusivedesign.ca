@@ -1,20 +1,12 @@
 {% extends "layouts/base.njk" %}
+{% from "partials/components/projectPanel.macro.njk" import projectPanel %}
 
 {% block content %}
 <div>
-    <div class="card">
-        <h2 class="card__heading">All Standards With Us</h2>
-        <p>
-            Lorem ipsum dolor sit amet. Ea galisum quisquam aut galisum aperiam eum dolores consequuntur et fugit rerum ut necessitatibus eligendi aut corrupti nisi quo voluptatum impedit. Nam dolor delectus non sapiente vero sit sint esse cum libero provident est Quis voluptatem non ipsa ullam vel iure autem.
-    Quo facilis reprehenderit in atque deleniti qui facilis vitae sit officia galisum. Quo laboriosam consequatur sed fugit voluptas id quibusdam galisum sit explicabo modi sit mollitia placeat hic laboriosam omnis.
-        </p>
-    </div>
-    <div class="card">
-        <h2 class="card__heading">Review of the Review</h2>
-        <p>
-            Lorem ipsum dolor sit amet. Ea galisum quisquam aut galisum aperiam eum dolores consequuntur et fugit rerum ut necessitatibus eligendi aut corrupti nisi quo voluptatum impedit. Nam dolor delectus non sapiente vero sit sint esse cum libero provident est Quis voluptatem non ipsa ullam vel iure autem.
-            Quo facilis reprehenderit in atque deleniti qui facilis vitae sit officia galisum. Quo laboriosam consequatur sed fugit voluptas id quibusdam galisum sit explicabo modi sit mollitia placeat hic laboriosam omnis.
-        </p>
-    </div>
+    {% if collections['projects_' + lang] %}
+        {% for item in collections['projects_' + lang] %}
+            {{ projectPanel({image: item.data.image, title: item.data.title, body: item.data.desc, color: item.data.projectColor, url: item.data.permalink}) }}
+        {% endfor %}
+    {% endif %}
 </div>
 {% endblock %}

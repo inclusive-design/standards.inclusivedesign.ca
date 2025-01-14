@@ -26,16 +26,22 @@ h4 {
     font-size: var(--step-2);
 }
 
+article > * + * {
+    margin-block-start: 2rem;
+}
+
+article ul,
+article ol {
+    padding-inline: 2rem;
+}
+
 section {
     padding-block: var(--common-block-padding);
     padding-inline: var(--common-inline-padding);
     border-bottom: 0.1875rem solid transparent;
 }
 
-.banner__text > * + *,
-section > * + *,
-footer nav > * + *,
-footer .footer__contact-us > * + * {
+.flow > * + * {
     margin-block-start: 1em;
 }
 
@@ -72,6 +78,48 @@ section:last-of-type:not(:first-of-type) {
     border-bottom: 0.2rem solid transparent;
 }
 
+.project__banner {
+    display: flex;
+    gap: 2rem;
+    min-height: 16.25rem;
+    flex-direction: column;
+    border-bottom: 0.2rem solid transparent;
+}
+
+.project__banner__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project__banner a,
+.project__banner__title {
+    padding-inline: var(--common-inline-padding);
+}
+
+.project__banner a {
+    align-items: center;
+    color: var(--fl-linkColor, var(--color-indigo-700));
+    display: flex;
+    gap: 0.4rem;
+    width: fit-content;
+}
+
+.project__banner a svg {
+    stroke: var(--fl-linkColor, var(--color-indigo-700));
+}
+
+.project__banner__color {
+    min-height: 1.875rem;
+}
+
+.project__content {
+    display: grid;
+    grid-template-columns: 0 65%;
+    padding-block: var(--common-block-padding);
+    padding-inline: var(--common-inline-padding);
+}
+
 .bg-indigo-100 {
     background-color: var(--fl-bgColor, var(--color-indigo-100));
 }
@@ -88,6 +136,10 @@ section:last-of-type:not(:first-of-type) {
 .bg-indigo-800 {
     background-color: var(--fl-bgColor, var(--color-indigo-800));
     color: var(--fl-fgColor, white);
+}
+
+.bg-yellow {
+    background-color: var(--fl-bgColor, var(--color-yellow));
 }
 
 .bg-dark-grey {
@@ -109,7 +161,7 @@ section:last-of-type:not(:first-of-type) {
 
 @media (width >= 24.25rem) {
     .display__items {
-        margin: auto;
+        margin-inline: auto;
     }
 }
 
@@ -124,5 +176,33 @@ section:last-of-type:not(:first-of-type) {
 @media (width >= 70.875rem) {
     .display__items {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .project__banner {
+        flex-direction: row;
+    }
+
+    .project__banner__color {
+        min-width: 3.5rem;
+        min-height: 39.8125rem;
+        border-right: 0.125rem solid var(--fl-fgColor, transparent);
+    }
+
+    .project__banner__header {
+        justify-content: start;
+    }
+
+    .project__banner a,
+    .project__banner__title {
+        padding-inline: unset;
+    }
+
+    .project__banner a {
+        margin-block-start: 5rem;
+    }
+
+    .project__banner__title {
+        position: relative;
+        top: 25%;
     }
 }

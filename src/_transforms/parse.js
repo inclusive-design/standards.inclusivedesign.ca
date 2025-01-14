@@ -4,12 +4,12 @@ export default (value, outputPath) => {
     if (outputPath && outputPath.includes(".html")) {
         const { document } = parseHTML(value);
 
-        const sectionHeadings = document.querySelectorAll("main h2:not([class])");
+        const sectionHeadings = document.querySelectorAll("main.sectioned h2:not([class])");
         if (sectionHeadings.length > 0) {
             for (const heading of sectionHeadings) {
                 const getContent = (elem) => {
                     let elems = [];
-                    while (elem.nextElementSibling && elem.nextElementSibling.tagName !== "H2") {
+                    while (elem.nextElementSibling && elem.nextElementSibling.tagName !== "H2" && elem.nextElementSibling.tagName !== "SECTION") {
                         elems.push(elem.nextElementSibling);
                         elem = elem.nextElementSibling;
                     }
@@ -22,6 +22,7 @@ export default (value, outputPath) => {
                 };
                 let contents = getContent(heading);
                 let section = document.createElement("section");
+                section.className = "flow";
                 contents.forEach((node) => {
                     section.appendChild(node);
                 });

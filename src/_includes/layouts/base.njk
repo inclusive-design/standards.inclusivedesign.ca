@@ -10,10 +10,10 @@
 <body>
   {% include "partials/global/header.njk" %}
   {% include "partials/components/navigation.njk" %}
-  <main>
+  <main {% if page.fileSlug == "about" %}class="sectioned"{% endif %}>
     {% if hasBanner %}
     <div class="banner bg-{{ bannerBgColor }}">
-      <div class="banner__text">
+      <div class="banner__text flow">
         <h1>{{ bannerTitle | renderContent('md') | safe }}</h1>
         {{ bannerBody | renderContent('md') | safe }}
       </div>
