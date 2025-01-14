@@ -41,12 +41,7 @@ section {
     border-bottom: 0.1875rem solid transparent;
 }
 
-.banner__text > * + *,
-.project-panel__content > * + *,
-article > * + p,
-section > * + *,
-footer nav > * + *,
-footer .footer__contact-us > * + * {
+.flow > * + * {
     margin-block-start: 1em;
 }
 
@@ -166,7 +161,7 @@ section:last-of-type:not(:first-of-type) {
 
 @media (width >= 24.25rem) {
     .display__items {
-        margin: auto;
+        margin-inline: auto;
     }
 }
 

@@ -3,7 +3,7 @@
 
 {% block content %}
 {% if collections['projects_' + lang] %}
-    <section class="display">
+    <section class="display flow">
       <h2 class="display__title">{% __ 'projects' %}</h2>
       <div class="display__items">
         {% set cardType = "project" %}
@@ -16,7 +16,7 @@
     </section>
     {% endif %}
     {% if collections.events %}
-    <section class="display">
+    <section class="display flow">
       <h2 class="display__title>{% __ 'events' %}</h2>
       <div class="display__items">
         {% set cardType = "event" %}
@@ -29,7 +29,7 @@
     </section>
     {% endif %}
     {% if collections.resources %}
-    <section class="display">
+    <section class="display flow">
       <h2 class="display__title>{% __ 'resources' %}</h2>
       <div class="display__items">
         {% set cardType = "resource" %}
@@ -42,7 +42,7 @@
     </section>
     {% endif %}
     {% if collections.news %}
-    <section class="display">
+    <section class="display flow">
       <h2 class="display__title>{% __ 'announcements' %}</h2>
       <div class="display__items">
         {% set cardType = "news" %}

@@ -22,6 +22,7 @@ export default (value, outputPath) => {
                 };
                 let contents = getContent(heading);
                 let section = document.createElement("section");
+                section.className = "flow";
                 contents.forEach((node) => {
                     section.appendChild(node);
                 });

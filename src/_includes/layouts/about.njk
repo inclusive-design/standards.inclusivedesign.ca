@@ -4,7 +4,7 @@
 {% block content %}
 {{ content | safe }}
 {% if collections['projects_' + lang] %}
-    <section class="display">
+    <section class="display flow">
       <h2 class="display__title">{% __ 'projects' %}</h2>
       <div class="display__items">
         {% set cardType = "project" %}
