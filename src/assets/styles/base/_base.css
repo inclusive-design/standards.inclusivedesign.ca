@@ -153,20 +153,14 @@ section:last-of-type:not(:first-of-type) {
     padding-inline: var(--common-inline-padding);
 }
 
-.display {
-    padding-inline: var(--common-inline-padding);
-    padding-block: var(--common-block-padding);
-    border-bottom: 0.2rem solid transparent;
-}
-
 @media (width >= 24.25rem) {
-    .display__items {
+    .cards {
         margin-inline: auto;
     }
 }
 
 @media (width >= 46.625rem) {
-    .display__items {
+    .cards {
         display: grid;
         gap: 1.875rem;
         grid-template-columns: repeat(2, 1fr);
@@ -174,7 +168,7 @@ section:last-of-type:not(:first-of-type) {
 }
 
 @media (width >= 70.875rem) {
-    .display__items {
+    .cards {
         grid-template-columns: repeat(3, 1fr);
     }
 

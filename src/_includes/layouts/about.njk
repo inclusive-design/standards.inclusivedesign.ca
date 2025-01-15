@@ -4,9 +4,9 @@
 {% block content %}
 {{ content | safe }}
 {% if collections['projects_' + lang] %}
-    <section class="display flow">
-      <h2 class="display__title">{% __ 'projects' %}</h2>
-      <div class="display__items">
+    <section class="flow">
+      <h2>{% __ 'projects' %}</h2>
+      <div class="cards">
         {% set cardType = "project" %}
         {% for item in collections['projects_' + lang] %}
           {{ card({image: item.data.image, title: item.data.title, body: item.data.desc, color: item.data.projectColor, url: item.data.permalink }) }}
