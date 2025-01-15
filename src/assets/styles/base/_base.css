@@ -26,6 +26,26 @@ h4 {
     font-size: var(--step-2);
 }
 
+a:not([class]) {
+    color: var(--fl-linkColor, currentColor);
+
+    /* & :hover {
+        
+    }
+
+    & :focus {
+
+    }
+
+    & :hover:focus {
+
+    }
+
+    & :active {
+
+    } */
+}
+
 article > * + * {
     margin-block-start: 2rem;
 }
@@ -75,7 +95,7 @@ section:last-of-type:not(:first-of-type) {
     align-items: center;
     min-height: 16.25rem;
     width: 100vw;
-    border-bottom: 0.2rem solid transparent;
+    border-block: 0.2rem solid var(--fl-fgColor, transparent);
 }
 
 .project__banner {
@@ -83,7 +103,7 @@ section:last-of-type:not(:first-of-type) {
     gap: 2rem;
     min-height: 16.25rem;
     flex-direction: column;
-    border-bottom: 0.2rem solid transparent;
+    border-bottom: 0.2rem solid var(--fl-fgColor, transparent);
 }
 
 .project__banner__header {
