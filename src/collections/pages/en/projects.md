@@ -1,6 +1,7 @@
 ---
 title: Projects
 order: 2
+pageExcerpt: Projects showcase all the Inclusive Standards Projects currently being investigated by IDRC
 hasBanner: true
 bannerBgColor: dark-grey
 bannerTitle: Projects
