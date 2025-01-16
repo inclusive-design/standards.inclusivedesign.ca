@@ -6,6 +6,7 @@
   <title>{{ title }}</title>
   {% include "partials/global/stylesheets.njk" %}
   {% include "partials/global/scripts.njk" %}
+  {% include "svg/filters.svg" %}
 </head>
 <body>
   {% include "partials/global/header.njk" %}
@@ -19,7 +20,7 @@
       </div>
       {% if bannerImage %}
       <div class="banner__image">
-        {{ bannerImage }}
+        <img src="{{ bannerImage }}" alt="{{ bannerImageAltText }}" />
       </div>
       {% endif %}
     </div>
