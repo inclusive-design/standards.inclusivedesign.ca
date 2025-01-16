@@ -1,7 +1,7 @@
 ---
 title: À propos
 order: 1
-pageExcerpt: En savoir plus sur les normes inclusives
+metaExcerpt: En savoir plus sur les normes inclusives
 hasBanner: true
 bannerBgColor: dark-grey
 bannerTitle: À propos
