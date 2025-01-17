@@ -40,6 +40,10 @@ footer svg {
     fill: var(--fl-linkFgColor, white);
 }
 
+footer a:hover svg {
+    fill: var(--fl-linkBgColor, currentColor);
+}
+
 footer .social-media svg {
     stroke-width: 0.05rem;
     width: 1.375rem;
