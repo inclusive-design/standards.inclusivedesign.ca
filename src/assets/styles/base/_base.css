@@ -51,6 +51,10 @@ section {
     margin-block-start: 1em;
 }
 
+section:first-of-type {
+    border-top: 0.2rem solid transparent;
+}
+
 section:nth-of-type(even) {
     background-color: var(--fl-bgColor, white);
     color: var(--fl-fgColor);
@@ -76,12 +80,40 @@ section:last-of-type:not(:first-of-type) {
     width: 1px;
 }
 
+.fl-theme-bw,
+.fl-theme-wb,
+.fl-theme-lgdg,
+.fl-theme-gw,
+.fl-theme-gd {
+	img {
+		filter: grayscale(1);
+	}
+}
+
+.fl-theme-by,
+.fl-theme-yb {
+	img {
+		filter: url("#yellow");
+	}
+}
+
+.fl-theme-bbr {
+	img {
+		filter: url("#brown");
+	}
+}
+
 .banner {
     display: flex;
+    flex-direction: column;
     align-items: center;
     min-height: 16.25rem;
     width: 100vw;
-    border-bottom: 0.2rem solid transparent;
+}
+
+.banner__image {
+    padding-block: var(--common-block-padding);
+    padding-inline: var(--common-inline-padding);
 }
 
 .project__banner {
@@ -179,6 +211,15 @@ section:last-of-type:not(:first-of-type) {
 }
 
 @media (width >= 70.875rem) {
+    .banner {
+        flex-direction: row;
+    }
+
+    .banner__image {
+        padding: unset;
+        min-width: 30rem;
+    }
+
     .display__items {
         grid-template-columns: repeat(3, 1fr);
     }
