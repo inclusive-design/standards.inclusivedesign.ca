@@ -1,62 +1,63 @@
 <footer role="contentinfo">
-    <div class="footer__container">
-        <div class="footer__title">
-            <div><strong>inclusive</strong></div>
-            <div>standards</div>
-        </div>
-        <div class="footer__content">
-            <div class="footer__section">
-                <hr>
-                <div class="footer__social-media">
-                    <nav aria-labelledby="social" class="flow">
-                        <h2 id="social">{% __ 'social-media' %}</h2>
-                        <ul role="list">
-                            <li><a href="{{ social.facebook }}" rel="external">{% include "svg/facebook.svg" %} Facebook</a></li>
-                            <li><a href="{{ social.linkedin }}" rel="external">{% include "svg/linkedin.svg" %} LinkedIn</a></li>
-                            <li><a href="{{ social.instagram }}" rel="external">{% include "svg/instagram.svg" %} Instagram</a></li>
-                            <li><a href="{{ social.x }}" rel="external">{% include "svg/x.svg" %} X</a></li>
-                            <li><a href="{{ social.youtube }}" rel="external">{% include "svg/youtube.svg" %} YouTube</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-            <div class="footer__section">
-                <hr>
-                <div class="footer__contact-us flow">
-                    <h2>{% __ 'contact-us' %}</h2>
-                    <div class="footer__contact-us-item">
-                        <div class="footer__contact-us-item-title">
+    <div class="wrapper flow">
+        <p class="h5">
+            <strong>inclusive</strong><br />
+            standards
+        </p>
+        <div class="content">
+            {# <section class="social-media">
+                <nav aria-labelledby="social" class="flow">
+                    <h2 class="h4" id="social">{% __ 'social-media' %}</h2>
+                    <ul role="list">
+                        <li><a href="{{ social.facebook }}" rel="external">{% include "svg/facebook.svg" %} Facebook</a></li>
+                        <li><a href="{{ social.linkedin }}" rel="external">{% include "svg/linkedin.svg" %} LinkedIn</a></li>
+                        <li><a href="{{ social.instagram }}" rel="external">{% include "svg/instagram.svg" %} Instagram</a></li>
+                        <li><a href="{{ social.x }}" rel="external">{% include "svg/x.svg" %} X</a></li>
+                        <li><a href="{{ social.youtube }}" rel="external">{% include "svg/youtube.svg" %} YouTube</a></li>
+                    </ul>
+                </nav>
+            </section> #}
+            <section class="contact-us">
+                <div class="flow">
+                    <h2 class="h4">{% __ 'contact-us' %}</h2>
+                    <p>
+                        <strong>
                             {% __ 'contact-us-email' %}
-                        </div>
+                        </strong><br />
                         <a href="mailto:{{ contact.email }}">{{ contact.email }}</a>
-                    </div>
-                    <div class="footer__contact-us-item">
-                        <div class="footer__contact-us-item-title">
+                    </p>
+                    <p>
+                        <strong>
                             {% __ 'contact-us-phone' %}
-                        </div>
+                        </strong><br />
                         {{ contact.phone }}
-                    </div>
-                    <div class="footer__contact-us-item">
-                        <div class="footer__contact-us-item-title">
+                    </p>
+                    <p>
+                        <strong>
                             {%  __ 'contact-us-address' %}
-                        </div>
+                        </strong>
+                        <address>
                         {{ contact.address | renderContent('md') | safe }}
-                    </div>
+                        </address>
+                    </p>
                 </div>
-            </div>
-            <div class="footer__section">
-                <hr>
-                <div class="footer__sponsors">
-                    <a href="https://idrc.ocadu.ca" rel="external">
-                        {% include "svg/IDRC.svg" %}
-                        <span class="visually-hidden" lang="en">Inclusive Design Research Centre</a>
-                    <a>
-                    <a href="https://ocadu.ca" rel="external">
-                        {% include "svg/OCADU.svg" %}
-                        <span class="visually-hidden" lang="en">OCAD University</a>
-                    </a>
-                </div>
-            </div>
+            </section>
+            <section class="sponsors">
+                <ul role="list">
+                    <li>
+                        <a href="https://idrc.ocadu.ca" rel="external">
+                            {% include "svg/IDRC.svg" %}
+                            <span class="visually-hidden" lang="en">Inclusive Design Research Centre</a>
+                        <a>
+                    </li>
+                    <li>
+                        <a href="https://ocadu.ca" rel="external">
+                            {% include "svg/OCADU.svg" %}
+                            <span class="visually-hidden" lang="en">OCAD University</a>
+                        </a>
+                    </li>
+                </ul>
+            </section>
         </div>
     </div>
 </footer>
