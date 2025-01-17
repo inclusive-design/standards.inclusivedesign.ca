@@ -1,20 +1,20 @@
 .navigation {
     background-color: var(--fl-bgColor, var(--color-indigo-700));
-    border-top: 0.2rem solid var(--fl-fgColor, transparent);
-    color: white;
-    font-family: var(--family-sans-serif);
+    box-shadow: inset 0 0.2rem 0 0 var(--fl-fgColor,transparent);
+    color: var(--fl-fgColor, var(--color-white));
 }
 
-.navigation__wrapper {
+.navigation__brand {
     display: flex;
     justify-content: space-between;
-    padding-block: 1.25rem;
+    align-items: center;
+    width: 100%;
     padding-inline: var(--common-inline-padding);
+    padding-block: 1.25rem;
 }
 
-.navigation__home {
+a[rel="home"] {
     text-decoration: none;
-    color: var(--fl-linkColor, var(--color-white));
     font-family: var(--family-display);
     font-size: var(--step-0);
 }
@@ -24,7 +24,7 @@
     gap: 0.625rem;
     align-items: center;
     background-color: var(--fl-bgColor, var(--color-indigo-700));
-    color: var(--fl-linkColor, var(--color-white));
+    color: var(--fl-linkFgColor, var(--color-white));
     border: none;
     font-family: var(--family-sans-serif);
     font-weight: var(--font-weight-normal);
@@ -33,14 +33,14 @@
 
 .navigation__menu {
     width: 100%;
-    background-color: var(--color-indigo-700);
+    background-color: var(--fl-bgColor, var(--color-indigo-700));
 }
 
-.navigation__wrapper:has([aria-expanded="true"]) + .navigation__menu {
+.navigation__wrapper:has([aria-expanded="true"]) .navigation__menu {
     display: block;
 }
 
-.navigation__wrapper:has([aria-expanded="false"]) + .navigation__menu {
+.navigation__wrapper:has([aria-expanded="false"]) .navigation__menu {
     display: none;
 }
 
@@ -48,13 +48,14 @@
     display: flex;
     flex-direction: column;
     list-style-type: none;
+    padding-inline-start: 0;
 }
 
 .navigation__link {
     align-items: center;
     background-color: var(--fl-bgColor, var(--color-indigo-700));
     block-size: 3.75rem;
-    color: var(--fl-linkColor, var(--color-white));
+    color: var(--fl-linkFgColor, var(--color-white));
     display: flex;
     font-size: var(--step-0);
     font-weight: var(--font-weight-semibold);
@@ -64,43 +65,50 @@
 
     &[aria-current="page"] {
         background-color: var(--fl-bgColor, var(--color-indigo-800));
-        box-shadow: inset 0.25rem 0 0 0 var(--fg-linkColor, var(--color-indigo-100));
-        color: var(--fl-linkColor, var(--color-white));
+        box-shadow: inset 0.25rem 0 0 0 var(--fl-linkFgColor, var(--color-indigo-100));
+        color: var(--fl-linkFgColor, var(--color-white));
     }
 
     &:hover,
     &:focus {
-        background: var(--fl-linkColor, var(--color-indigo-200));
+        background: var(--fl-linkFgColor, var(--color-indigo-200));
         box-shadow: unset;
         color: var(--fl-bgColor, var(--color-indigo-700));
         outline: solid 0.125rem transparent;
     }
 
     &:active {
-        background: var(--fl-linkColor, var(--color-white));
+        background: var(--fl-linkFgColor, var(--color-white));
         color: var(--fl-bgColor, var(--color-indigo-800));
     }
 }
 
 @media (width >= 46.625rem) {
     .navigation {
-        align-items: center;
-        display: flex;
-        height: 5.7rem;
-        justify-content: space-between;
+        height: 5.5rem;
         padding-block: 0;
         padding-inline: var(--common-inline-padding);
     }
 
     .navigation__wrapper {
         padding: unset;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 75rem;
+        margin-inline: auto;
+    }
+    
+    .navigation__brand {
+        padding-inline: 0;
     }
 
     .navigation__toggle {
         display: none;
     }
 
-    .navigation__wrapper:has([aria-expanded="false"]) + .navigation__menu {
+    .navigation__wrapper:has([aria-expanded="false"]) .navigation__menu {
         display: block;
         padding: unset;
         width: unset;
@@ -113,9 +121,12 @@
     .navigation__link {
         block-size: 5.5rem;
         padding-inline: 1.875rem;
+        box-shadow: inset 0 0.1875rem 0 0 var(--fl-fgColor, transparent);
 
         &[aria-current="page"] {
-            box-shadow: inset 0 -0.25rem 0 0 var(--fg-linkColor, var(--fl-fgColor, var(--color-indigo-100)));
+            box-shadow: 
+                inset 0 0.1875rem 0 0 var(--fl-fgColor, transparent),
+                inset 0 -0.25rem 0 0 var(--fg-linkFgColor, var(--fl-fgColor, var(--color-indigo-100)));
         }
 
         &:hover,

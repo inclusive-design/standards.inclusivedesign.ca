@@ -1,11 +1,24 @@
+header {
+    background-color: var(--fl-bgColor, var(--color-indigo-800));
+    color: var(--fl-fgColor, var(--color-white));
+}
+
 .header {
-    background-color: inherit;
-    display: flex;
     font-family: var(--family-sans-serif);
-    justify-content: space-between;
-    align-items: center;
     padding-inline: var(--common-inline-padding);
+}
+
+.header .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     min-height: 3.56rem;
+    max-width: 75rem;
+    margin-inline: auto;
+}
+
+.header__settings {
+    margin-inline-start: auto;
 }
 
 .header__language {
@@ -22,18 +35,7 @@
     content: '/';
 }
 
-.fl-prefsEditor-buttons {
-    margin-right: var(--common-inline-padding) !important;
-    margin-left: 2rem !important;
-}
-
 .fl-prefsEditor-separatedPanel {
     background: inherit;
     border-block-end: none !important;
-}
-
-@media (width >= 40rem) {
-    .header {
-        padding-inline-end: 0;
-    }
 }

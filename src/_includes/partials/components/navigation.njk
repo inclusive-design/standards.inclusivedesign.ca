@@ -1,17 +1,18 @@
 <nav class="navigation">
     <div class="navigation__wrapper">
-        <a class="navigation__home" href="/{% if lang != 'en' %}{{ lang }}{% endif %}">{{ "<b>Inclusive</b><br>Standards" | safe }}</a>
-        {% set navItems = collections['pages_' + lang] | eleventyNavigation %}
-
-        <button class="navigation__toggle" id="navigation-toggle" aria-expanded="false">{% __ 'menu' %} {% include 'svg/menu.svg' %}</button>
-    </div>
-    <div class="navigation__menu" id="navigation-menu">
-        <ul>
-            {% for item in navItems %}
-            <li>
-                <a class="navigation__link" href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.key }}</a>
-            </li>
-            {% endfor %}
-        </ul>
+        <div class="navigation__brand">
+            <a rel="home" href="/{% if lang != 'en' %}{{ lang }}{% endif %}">{{ "<b>Inclusive</b><br>Standards" | safe }}</a>
+            <button class="navigation__toggle" id="navigation-toggle" aria-expanded="false">{% __ 'menu' %} {% include 'svg/menu.svg' %}</button>
+        </div>
+        <div class="navigation__menu" id="navigation-menu">
+            {% set navItems = collections['pages_' + lang] | eleventyNavigation %}
+            <ul>
+                {% for item in navItems %}
+                <li>
+                    <a class="navigation__link" href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.key }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
     </div>
 </nav>

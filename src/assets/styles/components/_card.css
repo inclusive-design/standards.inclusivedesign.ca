@@ -48,7 +48,7 @@
 }
 
 .card__title {
-    color: var(--fl-linkColor, black);
+    color: var(--fl-linkFgColor, black);
     font-family: var(--family-sans-serif);
     font-weight: var(--font-weight-semibold);
     font-size: var(--step-2);
@@ -97,4 +97,24 @@
     position: relative;
     padding-inline: 0.5rem;
     border-left: 0.05rem solid var(--fl-fgColor, var(--color-yellow));
+}
+
+@media (width >= 24.25rem) {
+    .cards {
+        margin-inline: auto;
+    }
+}
+
+@media (width >= 46.625rem) {
+    .cards {
+        display: grid;
+        gap: 1.875rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (width >= 70.875rem) {
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }

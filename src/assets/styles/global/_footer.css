@@ -2,7 +2,7 @@ footer {
     --flow-space: 2.25rem;
 
     background-color: var(--fl-bgColor, var(--color-indigo-800));
-    color: white;
+    color: var(--fl-fgColor, var(--color-white));
     padding-inline: var(--common-inline-padding);
     padding-block: var(--common-block-padding);
 }
@@ -23,6 +23,7 @@ footer section {
     padding-block-start: 1em;
     padding-inline: 0;
     border-block-end: 0;
+    box-shadow: none;
 }
 
 footer ul {
@@ -36,15 +37,15 @@ footer section a {
 }
 
 footer svg {
-    fill: var(--fl-linkColor, white);
+    fill: var(--fl-linkFgColor, white);
 }
 
 footer .social-media svg {
     stroke-width: 0.05rem;
     width: 1.375rem;
     margin-inline-end: 1rem;
-    fill: var(--fl-linkColor, white);
-    stroke: var(--fl-linkColor, black);
+    fill: var(--fl-linkFgColor, white);
+    stroke: var(--fl-linkFgColor, black);
 }
 
 footer .flow > address {
