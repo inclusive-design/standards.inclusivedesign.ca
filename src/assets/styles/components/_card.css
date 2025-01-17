@@ -1,5 +1,5 @@
 .card {
-    color: black;
+    color: var(--fl-fgColor, black);
     min-width: 20.5rem;
     margin-bottom: 1rem;
     box-shadow:
