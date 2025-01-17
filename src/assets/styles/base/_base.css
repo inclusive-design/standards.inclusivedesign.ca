@@ -198,6 +198,14 @@ section:last-of-type:not(:first-of-type) {
 }
 
 @media (width >= 46.625rem) {
+    .display__items {
+        display: grid;
+        gap: 1.875rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (width >= 70.875rem) {
     .banner {
         flex-direction: row;
     }
@@ -207,14 +215,6 @@ section:last-of-type:not(:first-of-type) {
         min-width: 30rem;
     }
 
-    .display__items {
-        display: grid;
-        gap: 1.875rem;
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (width >= 70.875rem) {
     .display__items {
         grid-template-columns: repeat(3, 1fr);
     }
