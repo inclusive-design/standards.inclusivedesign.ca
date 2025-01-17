@@ -76,7 +76,6 @@ collections:
     extension: md
     create: true
     fields:
-      - { label: Layout, name: layout, widget: hidden, default: layouts/project.njk }
       - { label: Title, name: title, widget: string, i18n: true }
       - { label: Meta Excerpt (SEO), name: metaExcerpt, widget: text, i18n: true, required: false }
       - label: "Project Colour"
