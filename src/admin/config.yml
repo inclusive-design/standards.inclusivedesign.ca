@@ -71,6 +71,20 @@ collections:
         i18n: copy
         required: false
       - {
+          label: Project Image,
+          name: image,
+          widget: image,
+          i18n: copy,
+          required: false
+        }
+      - {
+          label: Project Image Alternative Text,
+          name: imageAlt,
+          widget: string,
+          i18n: true,
+          required: false
+        }
+      - {
           label: "Description",
           name: desc,
           widget: string,
