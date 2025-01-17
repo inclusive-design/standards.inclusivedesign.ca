@@ -8,12 +8,18 @@
 @import "./base/_utils.css";
 @import "./base/_fonts.css";
 @import "./base/_base.css";
+@import "./base/_typography.css";
 
 /* Global */
-@import "./global/footer.css";
-@import "./global/header.css";
+@import "./global/_footer.css";
+@import "./global/_header.css";
 
 /* Components */
-@import "./components/card.css";
-@import "./components/navigation.css";
-@import "./components/project-panel.css";
+@import "./components/_navigation.css";
+@import "./components/_card.css";
+@import "./components/_project-panel.css";
+
+/* Collections */
+@import "./collections/_announcements.css";
+@import "./collections/_projects.css";
+@import "./collections/_resources.css";

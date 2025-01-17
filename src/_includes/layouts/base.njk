@@ -13,7 +13,7 @@
   <main {% if page.fileSlug == "about" %}class="sectioned"{% endif %}>
     {% if hasBanner %}
     <div class="banner bg-{{ bannerBgColor }}">
-      <div class="banner__text flow">
+      <div class="wrapper flow">
         <h1>{{ bannerTitle | renderContent('md') | safe }}</h1>
         {{ bannerBody | renderContent('md') | safe }}
       </div>
@@ -27,5 +27,6 @@
     {% block content %}{% endblock %}
   </main>
   {% include "partials/global/footer.njk" %}
+  {% uioInit %}
 </body>
 </html>
