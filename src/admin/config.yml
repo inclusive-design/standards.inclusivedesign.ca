@@ -24,6 +24,7 @@ collections:
     create: true
     fields:
       - { label: Title, name: title, widget: string, i18n: true }
+      - { label: Meta Excerpt (SEO), name: metaExcerpt, widget: text, i18n: true, required: false }
       - { label: Navigation Order, name: order, widget: number, i18n: copy }
       - { label: "Has Banner?", name: hasBanner, widget: boolean, i18n: copy }
       - label: "Banner Background"
@@ -62,6 +63,7 @@ collections:
     create: true
     fields:
       - { label: Title, name: title, widget: string, i18n: true }
+      - { label: Meta Excerpt (SEO), name: metaExcerpt, widget: text, i18n: true, required: false }
       - label: "Project Colour"
         name: projectColor
         widget: select

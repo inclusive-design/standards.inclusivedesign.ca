@@ -1,6 +1,7 @@
 ---
 title: About
 order: 1
+metaExcerpt: Learn more about Inclusive standards
 hasBanner: true
 bannerBgColor: dark-grey
 bannerTitle: About
