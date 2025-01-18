@@ -33,7 +33,7 @@ body {
     .banner {
         flex-direction: row;
     }
-    
+
     .banner__image {
         padding: unset;
         min-width: 30rem;
@@ -57,7 +57,6 @@ section .wrapper > .cards {
     max-width: 100%;
 }
 main section:nth-of-type(even) {
-
     background-color: var(--fl-bgColor, var(--color-indigo-100));
     color: var(--fl-fgColor);
 }
@@ -79,22 +78,22 @@ main section:last-of-type:not(:first-of-type) {
 .fl-theme-lgdg,
 .fl-theme-gw,
 .fl-theme-gd {
-	img {
-		filter: grayscale(1);
-	}
+    img {
+        filter: grayscale(1);
+    }
 }
 
 .fl-theme-by,
 .fl-theme-yb {
-	img {
-		filter: url("#yellow");
-	}
+    img {
+        filter: url("#yellow");
+    }
 }
 
 .fl-theme-bbr {
-	img {
-		filter: url("#brown");
-	}
+    img {
+        filter: url("#brown");
+    }
 }
 
 /* Links */
