@@ -5,6 +5,7 @@
   <title>{{ title }}</title>
   {% include "partials/global/stylesheets.njk" %}
   {% include "partials/global/scripts.njk" %}
+  {% include "svg/filters.svg" %}
 </head>
 <body>
   {% include "partials/global/header.njk" %}
@@ -12,13 +13,13 @@
   <main {% if page.fileSlug == "about" %}class="sectioned"{% endif %}>
     {% if hasBanner %}
     <div class="banner bg-{{ bannerBgColor }}">
-      <div class="banner__text flow">
+      <div class="wrapper flow">
         <h1>{{ bannerTitle | renderContent('md') | safe }}</h1>
         {{ bannerBody | renderContent('md') | safe }}
       </div>
       {% if bannerImage %}
       <div class="banner__image">
-        {{ bannerImage }}
+        <img src="{{ bannerImage }}" alt="{{ bannerImageAltText }}" />
       </div>
       {% endif %}
     </div>
@@ -26,5 +27,6 @@
     {% block content %}{% endblock %}
   </main>
   {% include "partials/global/footer.njk" %}
+  {% uioInit %}
 </body>
 </html>

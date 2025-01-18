@@ -1,4 +1,4 @@
-import { EleventyRenderPlugin } from "@11ty/eleventy";
+import { EleventyRenderPlugin, IdAttributePlugin } from "@11ty/eleventy";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import brokenLinksPlugin from "eleventy-plugin-broken-links";
 import fluidPlugin from "eleventy-plugin-fluid";
@@ -63,6 +63,8 @@ export default function eleventy(eleventyConfig) {
         loggingLevel: 1,
         excludeInputs: ["**/*/*.css"]
     });
+
+    eleventyConfig.addPlugin(IdAttributePlugin);
 
     return {
         dir: {

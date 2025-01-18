@@ -51,6 +51,20 @@ collections:
           i18n: true,
           required: false,
         }
+      - {
+          label: "Banner Image",
+          name: bannerImage,
+          widget: image,
+          i18n: copy,
+          required: false,
+        }
+      - {
+          label: Banner Image Alt Text,
+          name: bannerImageAltText,
+          widget: string,
+          i18n: true,
+          required: false,
+        }
       - { label: Body, name: body, widget: markdown, i18n: true }
   - label: Projects
     label_singular: Project
@@ -72,6 +86,20 @@ collections:
             value: yellow
         i18n: copy
         required: false
+      - {
+          label: Project Image,
+          name: image,
+          widget: image,
+          i18n: copy,
+          required: false
+        }
+      - {
+          label: Project Image Alternative Text,
+          name: imageAlt,
+          widget: string,
+          i18n: true,
+          required: false
+        }
       - {
           label: "Description",
           name: desc,

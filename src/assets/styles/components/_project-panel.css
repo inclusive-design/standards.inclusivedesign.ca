@@ -1,5 +1,5 @@
 div:has(.project-panel) {
-    background-color: var(--color-indigo-100);
+    background-color: var(--fl-bgColor, var(--color-indigo-100));
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -15,10 +15,16 @@ div:has(.project-panel) {
     flex-direction: column;
     padding-top: 2.5rem;
     position: relative;
+    max-width: 75rem;
+    margin-inline: auto;
+}
+
+.project-panel a {
+    color: var(--fl-linkFgColor, currentColor);
 }
 
 .project-panel:has(a:focus) {
-    border: 0.1875rem solid transparent;
+    border: 0.1875rem solid var(--fl-fgColor, transparent);
     box-shadow: 0 0.625rem 1.25rem 0 var(--shadow-light);
     outline: 0.1875rem solid var(--fl-fgColor, transparent);
     outline-offset: 0.1875rem;
@@ -58,7 +64,7 @@ div:has(.project-panel) {
 .project-panel__title:focus {
     background: none;
     box-shadow: none;
-    color: var(--fl-linkColor, var(--black));
+    color: var(--fl-linkFgColor, var(--black));
     outline: none;
 }
 
@@ -74,7 +80,7 @@ div:has(.project-panel) {
 
 .project-panel__content {
     background-color: var(--fl-bgColor, white);
-    border: 0.1875rem solid var(--fl-bgColor, transparent);
+    border: 0.1875rem solid var(--fl-fgColor, transparent);
     display: flex;
     flex-direction: column;
     justify-content: center;

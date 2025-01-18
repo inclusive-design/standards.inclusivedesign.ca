@@ -1,24 +1,25 @@
 {% extends "layouts/base.njk" %}
 
 {% block content %}
-<div class="project__container">
-    <div class="project__banner">
-        <div class="project__banner__color bg-{{ projectColor }}"></div>
-        <div class="project__banner__header">
+<div class="project" style="--project-color: var(--fl-bgColor, var(--color-{{ projectColor }}))">
+    <div class="banner">
+        <div class="flow">
             <a href="{% if lang === "en" %}/projects{% else %}/{{lang }}/{% __ 'projects' %}{% endif %}" >{% __ 'projects' %} {% include 'svg/arrowRight.svg' %}</a>
-            <h1 class="project__banner__title">
-                {{ title }}
-            </h1>
+            <h1>{{ title }}</h1>
         </div>
-        {% if image %}
-            <div class="project__image">
-                {{ image }}
-            </div>
+        {% if image and imageAlt %}
+        <div class="image">
+            <img src="{{ image }}" alt="{{ imageAlt }}" />
+        </div>
         {% endif %}
     </div>
-    <div class="project__content">
-        <div class="project__nav">
-        </div>
+
+    <div class="content">
+        <nav aria-labelledby="project-menu" class="flow">
+            <h2 class="h3" id="project-menu">{% __ 'project-menu' %}</h2>
+            <ul role="list" class="flow">
+            </ul>
+        </nav>
         <article class="flow">
         {{ content | safe }}
         </article>

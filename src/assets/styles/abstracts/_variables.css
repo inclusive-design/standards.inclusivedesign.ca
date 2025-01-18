@@ -32,6 +32,9 @@
     --color-indigo-700: hsla(244, 93%, 22%, 1);
     --color-indigo-800: hsla(244, 87%, 12%, 1);
 
+    --color-white: #fff;
+    --color-black: #000;
+
     /** Paddings **/
     --common-inline-padding: clamp(1.875rem, 0.0536rem + 9.1071vw, 8.25rem);
     --common-block-padding: clamp(3.75rem, 3.3929rem + 1.7857vw, 5rem);

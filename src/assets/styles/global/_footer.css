@@ -1,0 +1,66 @@
+footer {
+    --flow-space: 2.25rem;
+
+    background-color: var(--fl-bgColor, var(--color-indigo-800));
+    color: var(--fl-fgColor, var(--color-white));
+    padding-inline: var(--common-inline-padding);
+    padding-block: var(--common-block-padding);
+}
+
+footer .content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+footer .content > * {
+    width: max-content;
+}
+
+footer section {
+    border-block-start: 0.125rem solid currentColor;
+    padding-block-end: 0;
+    padding-block-start: 1em;
+    padding-inline: 0;
+    border-block-end: 0;
+    box-shadow: none;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+footer section a {
+    display: inline-flex;
+}
+
+footer svg {
+    fill: var(--fl-linkFgColor, white);
+}
+
+footer a:hover svg {
+    fill: var(--fl-linkBgColor, currentColor);
+}
+
+footer .social-media svg {
+    stroke-width: 0.05rem;
+    width: 1.375rem;
+    margin-inline-end: 1rem;
+    fill: var(--fl-linkFgColor, white);
+    stroke: var(--fl-linkFgColor, black);
+}
+
+footer .flow > address {
+    font-style: normal;
+    margin-block-start: 0;
+}
+
+@media (width >= 70.875rem) {
+    footer .content {
+        display: grid;
+        gap: 1.875rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

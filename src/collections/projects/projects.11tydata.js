@@ -7,7 +7,7 @@ export default {
                 return null;
             }
 
-            return generatePermalink(data, "projects", __("projects", {}, data));
+            return generatePermalink(data, "projects", __("projects-slug", {}, data));
         }
     }
 };

@@ -9,10 +9,12 @@
         "header-intro": "An <a href='https://idrc.ocadu.ca/' rel='external'>Inclusive Design Research Centre</a> Project",
         "header-intro-short": "<a href='https://idrc.ocadu.ca/' rel='external'>An IDRC Project</a>",
         "projects": "Projects",
+        "projects-slug": "projects",
         "resources": "Resources",
         "social-media": "Social Media",
         "main-menu": "Main Menu",
-        "menu": "menu"
+        "menu": "menu",
+        "project-menu": "Project menu"
     },
     "fr": {
         "announcements": "Annonces",
@@ -24,9 +26,11 @@
         "header-intro": "Un projet <a href='https://idrc.ocadu.ca/' rel='external'>Inclusive Design Research Centre</a>",
         "header-intro-short": "<a href='https://idrc.ocadu.ca/' rel='external'>Un project IDRC</a>",
         "projects": "Projets",
+        "projects-slug": "projets",
         "resources": "Ressources",
         "social-media": "Les médias sociaux",
-        "main-menu": "Menu Principal",
-        "menu": "menu"
+        "main-menu": "Menu principal",
+        "menu": "menu",
+        "project-menu": "Menu du projet"
     }
 }

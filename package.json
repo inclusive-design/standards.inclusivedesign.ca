@@ -31,8 +31,9 @@
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-navigation": "^0.3.5",
     "eleventy-plugin-broken-links": "^2.2.1",
-    "eleventy-plugin-fluid": "github:fluid-project/eleventy-plugin-fluid#feat/overhaul-i18n",
+    "eleventy-plugin-fluid": "^3.0.0",
     "eleventy-plugin-footnotes": "^0.11.0",
+    "infusion": "^4.8.0",
     "rimraf": "^6.0",
     "rosetta": "^1.1.0"
   },
