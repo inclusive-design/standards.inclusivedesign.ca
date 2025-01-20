@@ -39,16 +39,7 @@ collections:
         }
       - label: "Layout"
         name: layout
-        widget: select
-        options:
-          - label: Base
-            value: layouts/base
-          - label: About
-            value: layouts/about
-          - label: Home
-            value: layouts/home
-          - label: Projects
-            value: layouts/projects
+        widget: hidden
         i18n: duplicate
         default: "layouts/base"
         required: true
