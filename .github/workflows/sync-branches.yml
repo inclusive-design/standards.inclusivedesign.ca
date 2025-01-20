@@ -1,4 +1,4 @@
-name: Lint and test
+name: Sync branches
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  merge-release:
+  sync-branches:
     timeout-minutes: 5
     permissions:
       contents: write
