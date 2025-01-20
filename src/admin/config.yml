@@ -37,8 +37,36 @@ collections:
           i18n: true,
           required: false,
         }
-      - { label: Navigation Order, name: order, widget: number, i18n: copy }
-      - { label: "Has Banner?", name: hasBanner, widget: boolean, i18n: copy }
+      - label: "Layout"
+        name: layout
+        widget: select
+        options:
+          - label: Base
+            value: layouts/base
+          - label: About
+            value: layouts/about
+          - label: Home
+            value: layouts/home
+          - label: Projects
+            value: layouts/projects
+        i18n: duplicate
+        default: "layouts/base"
+        required: true
+      - {
+          label: Navigation Order,
+          name: order,
+          widget: number,
+          i18n: duplicate,
+          required: false,
+        }
+      - {
+          label: "Has Banner?",
+          name: hasBanner,
+          widget: boolean,
+          i18n: duplicate,
+          default: true,
+          required: false,
+        }
       - label: "Banner Background"
         name: bannerBgColor
         widget: select
@@ -47,7 +75,7 @@ collections:
             value: dark-grey
           - label: Indigo 700
             value: indigo-700
-        i18n: copy
+        i18n: duplicate
         required: false
       - {
           label: "Banner Title",
@@ -67,7 +95,7 @@ collections:
           label: "Banner Image",
           name: bannerImage,
           widget: image,
-          i18n: copy,
+          i18n: duplicate,
           required: false,
         }
       - {
@@ -110,13 +138,13 @@ collections:
             value: green
           - label: Blue
             value: blue
-        i18n: copy
+        i18n: duplicate
         required: true
       - {
           label: Project Image,
           name: image,
           widget: image,
-          i18n: copy,
+          i18n: duplicate,
           required: false,
         }
       - {
@@ -129,7 +157,7 @@ collections:
       - {
           label: "Description",
           name: desc,
-          widget: string,
+          widget: text,
           i18n: true,
           required: true,
         }

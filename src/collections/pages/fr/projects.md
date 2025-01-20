@@ -1,11 +1,12 @@
 ---
 title: Projets
+metaExcerpt: Projets présentent tous les projets de normes inclusives actuellement étudiés par l’IDRC.
 order: 2
-metaExcerpt: Les projets présentent tous les projets de normes inclusives actuellement étudiés par le CRDI.
 hasBanner: true
 bannerBgColor: dark-grey
 bannerTitle: Projets
-bannerBody: Les projets présentent tous les projets de normes inclusives actuellement étudiés par le CRDI.
+bannerBody: Projets présentent tous les projets de normes inclusives actuellement étudiés par l’IDRC.
+bannerImageAltText: ''
 layout: layouts/projects
 ---
 Not applicable.
