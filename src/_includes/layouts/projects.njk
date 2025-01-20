@@ -2,11 +2,17 @@
 {% from "partials/components/projectPanel.macro.njk" import projectPanel %}
 
 {% block content %}
-    {% if collections['projects_' + lang] %}
+    {% if collections['projects_' + lang].length > 0 %}
     <section>
         {% for item in collections['projects_' + lang] %}
             {{ projectPanel({image: item.data.image, title: item.data.title, body: item.data.desc, color: item.data.projectColor, url: item.data.permalink}) }}
         {% endfor %}
+    </section>
+    {% else %}
+    <section>
+        <div class="wrapper">
+            <p>{% __ "no-projects" %}</p>
+        </div>
     </section>
     {% endif %}
 {% endblock %}
