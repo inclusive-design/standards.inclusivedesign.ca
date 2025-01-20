@@ -35,8 +35,24 @@
     color: var(--fl-fgColor, white);
 }
 
+.bg-red {
+    background-color: var(--fl-bgColor, var(--color-red));
+}
+
+.bg-orange {
+    background-color: var(--fl-bgColor, var(--color-orange));
+}
+
 .bg-yellow {
     background-color: var(--fl-bgColor, var(--color-yellow));
+}
+
+.bg-green {
+    background-color: var(--fl-bgColor, var(--color-green));
+}
+
+.bg-blue {
+    background-color: var(--fl-bgColor, var(--color-blue));
 }
 
 .bg-dark-grey {

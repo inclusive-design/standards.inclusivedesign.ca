@@ -100,10 +100,18 @@ collections:
         name: projectColor
         widget: select
         options:
+          - label: Red
+            value: red
+          - label: Orange
+            value: orange
           - label: Yellow
             value: yellow
+          - label: Green
+            value: green
+          - label: Blue
+            value: blue
         i18n: copy
-        required: false
+        required: true
       - {
           label: Project Image,
           name: image,
