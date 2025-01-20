@@ -17,6 +17,11 @@ div:has(.project-panel) {
     position: relative;
     max-width: 75rem;
     margin-inline: auto;
+    margin-block-end: 2rem;
+}
+
+.project-panel:last-of-type {
+    margin-block-end: unset;
 }
 
 .project-panel a {
