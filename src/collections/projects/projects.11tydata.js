@@ -1,8 +1,8 @@
 import { __, generatePermalink } from "eleventy-plugin-fluid";
 
 export default {
+    layout: "layouts/project",
     eleventyComputed: {
-        layout: "layouts/project",
         permalink: (data) => {
             if (data.link) {
                 return null;
