@@ -7,3 +7,5 @@
 <meta name="og:description" property="og:description" content="{{ metaExcerpt if metaExcerpt else site[lang].description }}">
 <meta property="og:title" content="{{ title }}">
 <meta property="og:url" content="{{ page.url }}">
+<meta property="og:image" content="{{ socialImage if socialImage else 'https://standards.inclusivedesign.ca/assets/images/social-' + lang + '.png' }}">
+<meta property="og:image:alt" content="{{ socialImageAlt if socialImageAlt else site[lang].title }}">
