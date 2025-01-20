@@ -1,14 +1,15 @@
 ---
 title: About
-order: 1
 metaExcerpt: Learn more about Inclusive standards
+order: 1
 hasBanner: true
-bannerBgColor: dark-grey
+bannerBgColor: indigo-700
 bannerTitle: About
 bannerBody: Learn more about Inclusive standards
+bannerImageAltText: ''
 layout: layouts/about
 ---
-## **How Do We Make Standards Accessible?**
+## How Do We Make Standards Accessible?
 
 At Inclusive Standards, we ensure that standards are accessible in both content and process. Our approach focuses on breaking down barriers and fostering inclusivity through the following strategies:
 
