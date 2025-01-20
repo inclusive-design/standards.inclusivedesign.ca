@@ -26,7 +26,6 @@ body {
 
 .banner__image {
     padding-block: var(--common-block-padding);
-    padding-inline: var(--common-inline-padding);
 }
 
 @media (width >= 70.875rem) {
