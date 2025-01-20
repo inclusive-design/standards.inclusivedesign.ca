@@ -28,8 +28,9 @@ jobs:
         with:
           ref: dev
           fetch-depth: 0
+
       - name: Get GitHub App User ID
-        if: ${{ github.event_name == 'release' }}
+        if: ${{ github.event_name == 'push' }}
         id: get-user-id
         run: echo "user-id=$(gh api "/users/${{ steps.app-token.outputs.app-slug }}[bot]" --jq .id)" >> "$GITHUB_OUTPUT"
         env:
