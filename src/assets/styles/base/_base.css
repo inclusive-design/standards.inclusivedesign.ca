@@ -32,6 +32,7 @@ body {
 @media (width >= 70.875rem) {
     .banner {
         flex-direction: row;
+        gap: 8.25rem;
     }
 
     .banner__image {
