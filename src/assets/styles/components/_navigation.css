@@ -11,18 +11,24 @@
 
 a.skip {
     align-items: center;
+    flex-direction: column;
+    justify-content: center;
     background: var(--fl-linkBgColor, var(--color-yellow));
     color: var(--fl-linkFgColor, var(--color-black));
     text-decoration: none;
     font-weight: var(--font-weight-semibold);
-    display: inline-flex;
+    display: flex;
     padding-block: 0.625rem;
     padding-inline: 1.875rem;
-    left: 8rem;
+    left: 0;
     position: absolute;
-    block-size: 5.5rem;
+    block-size: 4.1875rem;
+    top: -14.1875rem;
+    width: 100vw;
 
     &:focus {
+        top: 0;
+        outline: 0.125rem solid transparent;
     }
 }
 
@@ -111,6 +117,38 @@ a[rel="home"] {
     &:active {
         background: var(--fl-linkFgColor, var(--color-white));
         color: var(--fl-bgColor, var(--color-indigo-800));
+    }
+}
+
+@media (width >= 40em) {
+    .skip-container {
+        height: 0;
+        position: absolute;
+        width: 100%;
+        padding-inline: 0;
+        top: 2.0625rem;
+        z-index: -1;
+
+        &:focus-within {
+            z-index: 0;
+        }
+    }
+
+    .skip-container .wrapper {
+        height: 0;
+        position: relative;
+    }
+
+    a.skip {
+        height: 3.5625rem;
+        width: 60%;
+        max-width: 31.25em;
+        top: -5.625rem;
+        position: absolute;
+
+        &:focus {
+            top: 0;
+        }
     }
 }
 
