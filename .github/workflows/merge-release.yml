@@ -58,7 +58,7 @@ jobs:
         if: ${{ github.event_name == 'release' }}
         run: |
           echo "GIT_USER_NAME=${{ steps.app-token.outputs.app-slug }}[bot]" >> $GITHUB_ENV
-          echo "GIT_USER_EMAIL=${{ steps.get-user-id.outputs.user-id }}+${{ steps.app-token.outputs.app-slug }}[bot]@users.noreply.github.com>" >> $GITHUB_ENV
+          echo "GIT_USER_EMAIL=${{ steps.get-user-id.outputs.user-id }}+${{ steps.app-token.outputs.app-slug }}[bot]@users.noreply.github.com" >> $GITHUB_ENV
 
       - name: Update values for git user config (workflow_dispatch)
         if: ${{ github.event_name == 'workflow_dispatch' }}
