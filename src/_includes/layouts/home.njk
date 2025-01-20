@@ -2,7 +2,7 @@
 {% from "partials/components/card.macro.njk" import card %}
 
 {% block content %}
-{% if collections['projects_' + lang].length > 0 %}
+    {% if collections['projects_' + lang].length > 0 %}
     <section>
       <div class="wrapper flow">
         <h2>{% __ 'projects' %}</h2>
@@ -53,5 +53,5 @@
         </div>
       </div>
     </section>
-{% endif %}
+    {% endif %}
 {% endblock %}
