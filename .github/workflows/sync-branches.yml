@@ -32,5 +32,7 @@ jobs:
           stable_branch: "main"
           development_branch: "dev"
           allow_ff: true
+          user_name: incd-github-actions[bot]
+          user_email: 186873624+incd-github-actions[bot]@users.noreply.github.com
         env:
           GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
