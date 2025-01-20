@@ -1,63 +1,17 @@
 ---
-title: À propos
-metaExcerpt: En savoir plus sur les normes inclusives
-order: ''
-hasBanner: true
 bannerBgColor: indigo-700
-bannerTitle: À propos
 bannerBody: En savoir plus sur les normes inclusives
 bannerImage: ''
-bannerImageAltText: ''
+bannerImageAlt: ''
+bannerTitle: À propos
+hasBanner: true
 layout: layouts/about
+metaExcerpt: En savoir plus sur les normes inclusives
+order: 1
+title: À propos
 ---
-## Comment rendre les normes accessibles ?
+Le Centre de recherche sur la conception inclusive (IDRC) s'est engagé dans l'élaboration de normes et de lignes directrices depuis plus de trente ans, en commençant par sa participation aux lignes directrices sur l'accessibilité du contenu Web (WCAG) du World Wide Web Consortium (W3C) et à la Web Accessibility Initiative (WAI). Nous avons participé à l'élaboration de normes d'accessibilité pour des règlements tels que la Loi sur l'accessibilité pour les personnes handicapées de l'Ontario et avons aidé à élaborer d'autres normes et lignes directrices internationales en matière d'accessibilité par l'intermédiaire d'organisations telles que l'ISO et l'IMS Global. Plus récemment, nos travaux ont porté sur les normes d’accessibilité au Canada et en Europe, une grande partie de nos efforts visant à soutenir les normes de la Loi canadienne sur l’accessibilité.
 
-Chez Normes inclusives, on s'assure que les normes sont accessibles tant en termes de contenu que de processus. Notre approche vise à éliminer les obstacles et à favoriser l’inclusion à travers les stratégies suivantes :
+[Inscrivez-vous](https://forms.office.com/pages/responsepage.aspx?id=0WnkBiotj0aum33wlo62199fYthCJCZAjMYVyFj1V1dUNjdNSFRTTkVXTVNNOEM0RVZHOVlBNEJVMiQlQCN0PWcu&route=shorturl) pour en savoir plus sur les opportunités de co-chercheurs
 
-### Formats accessibles
-
-Nous fournissons des normes dans plusieurs formats, notamment :
-
-- Versions en langage clair
-- Braille et gros caractères
-- Enregistrements audio
-- Traductions en langue des signes
-- Fichiers numériques accessibles compatibles avec les lecteurs d'écran et autres technologies d'assistance
-
-### Engagement inclusif
-
-Nous impliquons activement divers intervenants, notamment les personnes handicapées, les groupes marginalisés et les personnes ayant une expérience vécue, en veillant à ce que leurs voix façonnent les normes.
-
-### Conception centrée sur l'utilisateur
-
-Les normes sont examinées et testées pour s’assurer qu’elles répondent aux besoins pratiques de tous les utilisateurs, en particulier ceux qui ont un handicap ou d’autres besoins en matière d’accessibilité.
-
-### Formation et sensibilisation
-
-Nous offrons des séances de formation et des ressources pour aider les intervenants à comprendre et à appliquer les normes accessibles, favorisant ainsi une adoption généralisée.
-
-### Commentaires continus
-
-Au moyen d’examens publics, d’enquêtes et de consultations, nous invitons les utilisateurs à nous faire part de leurs commentaires afin d’affiner les normes, en veillant à ce qu’elles demeurent inclusives et pertinentes au fil du temps.
-
-## Qu'est-ce qu'on fait ?
-
-Chez Inclusive Standards, on va au-delà de l'élaboration de lignes directrices inclusives. Nous travaillons à transformer tout le processus de création de normes en :
-
-### Plaidoyer pour l’équité
-
-Intégrer l'équité, la diversité et l'inclusion à chaque étape du processus d'élaboration des normes.
-
-### Simplification de l'accès
-
-Décomposer le langage technique et créer des ressources faciles à comprendre pour les publics non techniques.
-
-### Collaborer à l'échelle mondiale
-
-Partenariat avec des organisations et des communautés du monde entier pour promouvoir des pratiques inclusives et partager les meilleures méthodes.
-
-### Montrer l'exemple
-
-En modélisant des pratiques inclusives dans notre propre travail, nous démontrons comment l'accessibilité peut et doit être intégrée dans chaque aspect de l'élaboration des normes.
-
-Grâce à ces efforts, nous voulons établir une référence en matière d’élaboration de normes accessibles et inclusives.
+[Abonnez-vous à notre infolettre](http://eepurl.com/hBMRev)
