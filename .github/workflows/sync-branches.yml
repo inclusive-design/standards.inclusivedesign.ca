@@ -3,7 +3,6 @@ name: Sync branches
 on:
   push:
     branches: [main]
-  workflow_dispatch:
 
 jobs:
   sync-branches:
@@ -31,39 +30,18 @@ jobs:
           fetch-depth: 0
           token: ${{ steps.app-token.outputs.token }}
 
-      - name: Get GitHub App User ID
+      - name: Get GitHub App user ID
         if: ${{ github.event_name == 'push' }}
         id: get-user-id
         run: echo "user-id=$(gh api "/users/${{ steps.app-token.outputs.app-slug }}[bot]" --jq .id)" >> "$GITHUB_OUTPUT"
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
 
-      - name: Update values for git user config (push)
+      - name: Update values for git user config
         if: ${{ github.event_name == 'push' }}
         run: |
           echo "GIT_USER_NAME=${{ steps.app-token.outputs.app-slug }}[bot]" >> $GITHUB_ENV
           echo "GIT_USER_EMAIL=${{ steps.get-user-id.outputs.user-id }}+${{ steps.app-token.outputs.app-slug }}[bot]@users.noreply.github.com" >> $GITHUB_ENV
-
-      - name: Update values for git user config (workflow_dispatch)
-        if: ${{ github.event_name == 'workflow_dispatch' }}
-        run: |
-          # fetch user info
-          user=$(gh api \
-            -H "Accept: application/vnd.github+json" \
-            -H "X-GitHub-Api-Version: 2022-11-28" \
-            /user/$ACCOUNT_ID )
-
-          # get user's name and email
-          # email will be set to null if it is private
-          name=$(echo $user | jq '.name')
-          email=$(echo $user | jq '.email')
-
-          # store in environment variables to use for setting up git user
-          echo "GIT_USER_NAME=$name" >> $GITHUB_ENV
-          echo "GIT_USER_EMAIL=$email" >> $GITHUB_ENV
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ACCOUNT_ID: ${{ github.actor_id }}
 
       - name: Merge main to dev
         run: |
