@@ -16,7 +16,7 @@ jobs:
         os: ["ubuntu-latest"]
     runs-on: ${{ matrix.os }}
 
-    name: Merge tag
+    name: Sync branches
 
     steps:
       - uses: actions/create-github-app-token@v1
@@ -26,13 +26,46 @@ jobs:
           private-key: ${{ secrets.GHA_PRIVATE_KEY }}
       - uses: actions/checkout@v4
         with:
+          ref: dev
           fetch-depth: 0
-      - uses: robotology/gh-action-nightly-merge@v1.5.2
-        with:
-          stable_branch: "main"
-          development_branch: "dev"
-          allow_ff: true
-          user_name: incd-github-actions[bot]
-          user_email: 186873624+incd-github-actions[bot]@users.noreply.github.com
+      - name: Get GitHub App User ID
+        if: ${{ github.event_name == 'release' }}
+        id: get-user-id
+        run: echo "user-id=$(gh api "/users/${{ steps.app-token.outputs.app-slug }}[bot]" --jq .id)" >> "$GITHUB_OUTPUT"
         env:
-          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+
+      - name: Update values for git user config (push)
+        if: ${{ github.event_name == 'push' }}
+        run: |
+          echo "GIT_USER_NAME=${{ steps.app-token.outputs.app-slug }}[bot]" >> $GITHUB_ENV
+          echo "GIT_USER_EMAIL=${{ steps.get-user-id.outputs.user-id }}+${{ steps.app-token.outputs.app-slug }}[bot]@users.noreply.github.com>" >> $GITHUB_ENV
+
+      - name: Update values for git user config (workflow_dispatch)
+        if: ${{ github.event_name == 'workflow_dispatch' }}
+        run: |
+          # fetch user info
+          user=$(gh api \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            /user/$ACCOUNT_ID )
+
+          # get user's name and email
+          # email will be set to null if it is private
+          name=$(echo $user | jq '.name')
+          email=$(echo $user | jq '.email')
+
+          # store in environment variables to use for setting up git user
+          echo "GIT_USER_NAME=$name" >> $GITHUB_ENV
+          echo "GIT_USER_EMAIL=$email" >> $GITHUB_ENV
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ACCOUNT_ID: ${{ github.actor_id }}
+
+      - name: Merge main to dev
+        run: |
+          git config --local user.email "$GIT_USER_EMAIL"
+          git config --local user.name "$GIT_USER_NAME"
+          git fetch main
+          git merge --ff --no-edit main
+          git push origin dev
