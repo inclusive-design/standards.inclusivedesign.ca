@@ -3,6 +3,12 @@ backend:
   branch: main
   repo: inclusive-design/standards.inclusivedesign.ca
   base_url: https://auth.incd.ca
+  commit_messages:
+    create: 'chore(cms): create "{{path}}"'
+    update: 'chore(cms): update "{{path}}"'
+    delete: 'chore(cms): delete "{{path}}"'
+    uploadMedia: 'chore(cms): upload "{{path}}"'
+    deleteMedia: 'chore(cms): delete "{{path}}"'
 media_folder: src/assets/uploads
 public_folder: /assets/uploads
 
@@ -24,7 +30,13 @@ collections:
     create: true
     fields:
       - { label: Title, name: title, widget: string, i18n: true }
-      - { label: Meta Excerpt (SEO), name: metaExcerpt, widget: text, i18n: true, required: false }
+      - {
+          label: Meta Excerpt (SEO),
+          name: metaExcerpt,
+          widget: text,
+          i18n: true,
+          required: false,
+        }
       - { label: Navigation Order, name: order, widget: number, i18n: copy }
       - { label: "Has Banner?", name: hasBanner, widget: boolean, i18n: copy }
       - label: "Banner Background"
@@ -77,7 +89,13 @@ collections:
     create: true
     fields:
       - { label: Title, name: title, widget: string, i18n: true }
-      - { label: Meta Excerpt (SEO), name: metaExcerpt, widget: text, i18n: true, required: false }
+      - {
+          label: Meta Excerpt (SEO),
+          name: metaExcerpt,
+          widget: text,
+          i18n: true,
+          required: false,
+        }
       - label: "Project Colour"
         name: projectColor
         widget: select
@@ -91,14 +109,14 @@ collections:
           name: image,
           widget: image,
           i18n: copy,
-          required: false
+          required: false,
         }
       - {
           label: Project Image Alternative Text,
           name: imageAlt,
           widget: string,
           i18n: true,
-          required: false
+          required: false,
         }
       - {
           label: "Description",
