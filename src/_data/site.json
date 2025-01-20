@@ -1,5 +1,12 @@
 {
+  "en": {
     "title": "Inclusive Standards",
     "description": "Website for IDRC standards development work.",
     "author": "Inclusive Design Research Centre"
+  },
+  "fr": {
+    "title": "Normes inclusives",
+    "description": "Site Web consacré aux travaux d’élaboration de normes du IDRC.",
+    "author": "Inclusive Design Research Centre"
+  }
 }

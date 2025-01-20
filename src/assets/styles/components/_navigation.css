@@ -36,9 +36,17 @@ a.skip {
 }
 
 a[rel="home"] {
+    display: block;
+    width: max-content;
     text-decoration: none;
+    text-transform: lowercase;
     font-family: var(--family-display);
-    font-size: var(--step-0);
+    font-size: clamp(1.125rem, 1.0179rem + 0.5357vw, 1.5rem);
+    font-weight: var(--font-weight-medium);
+
+    strong {
+        font-weight: var(--font-weight-extrabold);
+    }
 }
 
 .navigation__toggle {
@@ -125,6 +133,7 @@ a[rel="home"] {
 
     .navigation__brand {
         padding-inline: 0;
+        padding-block: 0;
     }
 
     .navigation__toggle {

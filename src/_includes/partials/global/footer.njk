@@ -1,9 +1,8 @@
 <footer role="contentinfo">
     <div class="wrapper flow">
-        <p class="h5">
-            <strong>inclusive</strong><br />
-            standards
-        </p>
+        <a rel="home" href="/{% if lang != 'en' %}{{ lang }}{% endif %}">
+            {% __ "site-title" %}
+            </a>
         <div class="content">
             {# <section class="social-media">
                 <nav aria-labelledby="social" class="flow">

@@ -2,7 +2,9 @@
     <div class="navigation__wrapper">
         <a class="skip" href="#main">{% __ 'skip-to-content' %}</a>
         <div class="navigation__brand">
-            <a rel="home" href="/{% if lang != 'en' %}{{ lang }}{% endif %}">{{ "<b>Inclusive</b><br>Standards" | safe }}</a>
+            <a rel="home" href="/{% if lang != 'en' %}{{ lang }}{% endif %}">
+                {% __ "site-title" %}
+            </a>
             <button class="navigation__toggle" id="navigation-toggle" aria-expanded="false">{% __ 'menu' %} {% include 'svg/menu.svg' %}</button>
         </div>
         <div class="navigation__menu" id="navigation-menu">
