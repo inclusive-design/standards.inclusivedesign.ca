@@ -72,7 +72,22 @@ collections:
         }
       - {
           label: Banner Image Alt Text,
-          name: bannerImageAltText,
+          name: bannerImageAlt,
+          widget: string,
+          i18n: true,
+          required: false,
+        }
+      - {
+          label: "Social Image",
+          name: metaImage,
+          widget: image,
+          i18n: copy,
+          required: false,
+          hint: "This image should be 1200 by 630 pixels and will be used as a preview image when this page is shared on social media.",
+        }
+      - {
+          label: Social Image Alt Text,
+          name: socialImageAlt,
           widget: string,
           i18n: true,
           required: false,
@@ -122,6 +137,21 @@ collections:
       - {
           label: Project Image Alternative Text,
           name: imageAlt,
+          widget: string,
+          i18n: true,
+          required: false,
+        }
+      - {
+          label: "Social Image",
+          name: metaImage,
+          widget: image,
+          i18n: copy,
+          required: false,
+          hint: "This image should be 1200 by 630 pixels and will be used as a preview image when this page is shared on social media.",
+        }
+      - {
+          label: Social Image Alt Text,
+          name: socialImageAlt,
           widget: string,
           i18n: true,
           required: false,
