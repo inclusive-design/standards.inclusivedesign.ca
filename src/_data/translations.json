@@ -15,7 +15,8 @@
     "main-menu": "Main Menu",
     "menu": "menu",
     "project-menu": "Project menu",
-    "site-title": "<strong>Inclusive</strong><br />Standards"
+    "site-title": "<strong>Inclusive</strong><br />Standards",
+    "no-projects": "No projects found."
   },
   "fr": {
     "announcements": "Annonces",
@@ -33,6 +34,7 @@
     "main-menu": "Menu principal",
     "menu": "menu",
     "project-menu": "Menu du projet",
-    "site-title": "Normes<br /><strong>inclusives</strong>"
+    "site-title": "Normes<br /><strong>inclusives</strong>",
+    "no-projects": "Aucun projet trouvé."
   }
 }

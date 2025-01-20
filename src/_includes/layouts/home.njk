@@ -2,7 +2,7 @@
 {% from "partials/components/card.macro.njk" import card %}
 
 {% block content %}
-{% if collections['projects_' + lang] %}
+{% if collections['projects_' + lang].length > 0 %}
     <section>
       <div class="wrapper flow">
         <h2>{% __ 'projects' %}</h2>
@@ -15,39 +15,39 @@
       </div>
     </section>
     {% endif %}
-    {% if collections.events %}
+    {% if collections['events_' + lang].length > 0 %}
     <section>
       <div class="wrapper flow">
         <h2>{% __ 'events' %}</h2>
         <div class="cards">
           {% set cardType = "event" %}
-          {% for item in collections.events %}
+          {% for item in collections['events_' + lang] %}
             {{ card({image: item.data.image, title: item.data.title, body: item.data.desc, url: item.data.permalink }) }}
           {% endfor %}
         </div>
       </div>
     </section>
     {% endif %}
-    {% if collections.resources %}
+    {% if collections['resources_' + lang].length > 0 %}
     <section>
       <div class="wrapper flow">
         <h2>{% __ 'resources' %}</h2>
         <div class="cards">
           {% set cardType = "resource" %}
-          {% for item in collections.resources %}
+          {% for item in collections['resources_' + lang] %}
             {{ card({image: item.data.image, title: item.data.title, body: item.data.desc, url: item.data.permalink }) }}
           {% endfor %}
         </div>
       </div>
     </section>
     {% endif %}
-    {% if collections.news %}
+    {% if collections['announcements_' + lang].length > 0 %}
     <section>
       <div class="wrapper flow">
         <h2>{% __ 'announcements' %}</h2>
         <div class="cards">
           {% set cardType = "news" %}
-          {% for item in collections.news %}
+          {% for item in collections['announcements_' + lang] %}
             {{ card({image: item.data.image, title: item.data.title, body: item.data.desc, url: item.data.permalink }) }}
           {% endfor %}
         </div>
