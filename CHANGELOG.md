@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.1](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.0.0...v1.0.1) (2025-01-20)
+
+
+### Bug Fixes
+
+* projects page banner colour issue ([94de11e](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/94de11e88b10d98d0e3eabe8eed764c8f4231727))
+* remove inline padding from banner image ([#100](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/100)) ([94de11e](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/94de11e88b10d98d0e3eabe8eed764c8f4231727))
+
 ## [1.0.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v0.0.1...v1.0.0) (2025-01-20)
 
 
