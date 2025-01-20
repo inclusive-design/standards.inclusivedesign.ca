@@ -3,7 +3,7 @@
 
 {% block content %}
 {{ content | safe }}
-{% if collections['projects_' + lang] %}
+{% if collections['projects_' + lang].length > 0 %}
     <section>
       <div class="wrapper flow">
         <h2>{% __ 'projects' %}</h2>
