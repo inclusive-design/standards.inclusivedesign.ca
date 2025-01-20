@@ -24,7 +24,13 @@ collections:
     create: true
     fields:
       - { label: Title, name: title, widget: string, i18n: true }
-      - { label: Meta Excerpt (SEO), name: metaExcerpt, widget: text, i18n: true, required: false }
+      - {
+          label: Meta Excerpt (SEO),
+          name: metaExcerpt,
+          widget: text,
+          i18n: true,
+          required: false,
+        }
       - { label: Navigation Order, name: order, widget: number, i18n: copy }
       - { label: "Has Banner?", name: hasBanner, widget: boolean, i18n: copy }
       - label: "Banner Background"
@@ -77,13 +83,27 @@ collections:
     create: true
     fields:
       - { label: Title, name: title, widget: string, i18n: true }
-      - { label: Meta Excerpt (SEO), name: metaExcerpt, widget: text, i18n: true, required: false }
+      - {
+          label: Meta Excerpt (SEO),
+          name: metaExcerpt,
+          widget: text,
+          i18n: true,
+          required: false,
+        }
       - label: "Project Colour"
         name: projectColor
         widget: select
         options:
+          - label: Red
+            value: red
+          - label: Orange
+            value: orange
           - label: Yellow
             value: yellow
+          - label: Green
+            value: green
+          - label: Blue
+            value: blue
         i18n: copy
         required: false
       - {
@@ -91,14 +111,14 @@ collections:
           name: image,
           widget: image,
           i18n: copy,
-          required: false
+          required: false,
         }
       - {
           label: Project Image Alternative Text,
           name: imageAlt,
           widget: string,
           i18n: true,
-          required: false
+          required: false,
         }
       - {
           label: "Description",
