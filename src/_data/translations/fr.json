@@ -1,0 +1,20 @@
+{
+  "announcements": "Annonces",
+  "contact-us": "Contactez-nous",
+  "contact-us-address": "Adresse",
+  "contact-us-email": "Courriel",
+  "contact-us-phone": "Téléphone",
+  "events": "Événements",
+  "header-intro": "Un projet du <a href='https://idrc.ocadu.ca/' rel='external'>Centre de recherche sur la conception inclusive</a>",
+  "header-intro-short": "<a href='https://idrc.ocadu.ca/' rel='external'>Un project du IDRC</a>",
+  "projects": "Projets",
+  "projects-slug": "projets",
+  "resources": "Ressources",
+  "social-media": "Les médias sociaux",
+  "main-menu": "Menu principal",
+  "menu": "menu",
+  "project-menu": "Menu du projet",
+  "skip-to-content": "Passer au contenu",
+  "site-title": "Normes<br /><strong>inclusives</strong>",
+  "no-projects": "Aucun projet trouvé."
+}
