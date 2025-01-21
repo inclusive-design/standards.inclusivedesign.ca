@@ -11,8 +11,9 @@
 }
 
 [class^="fl-theme"]:not(.fl-theme-prefsEditor-default) .project .banner {
-    box-shadow: inset 0 0.1875rem 0 0 var(--fl-fgColor, transparent),
-    inset 0 -0.1875rem 0 0 var(--fl-fgColor, transparent);
+    box-shadow:
+        inset 0 0.1875rem 0 0 var(--fl-fgColor, transparent),
+        inset 0 -0.1875rem 0 0 var(--fl-fgColor, transparent);
 }
 
 .project .banner a {
@@ -98,7 +99,7 @@
     .project article {
         padding-block: 8.4375rem;
     }
-    
+
     .project nav {
         padding-inline: 8.4375rem 5rem;
         position: relative;
@@ -106,9 +107,9 @@
         &:after {
             content: "";
             display: block;
-            width: 100%;
+            width: 100vw;
             height: 100%;
-            margin-inline-start: -100%;
+            margin-inline-start: -100vw;
             top: 0;
             position: absolute;
             background-color: var(--fl-bgColor, var(--color-indigo-100));
