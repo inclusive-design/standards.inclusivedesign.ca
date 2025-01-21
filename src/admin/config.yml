@@ -124,6 +124,14 @@ collections:
     fields:
       - { label: Title, name: title, widget: string, i18n: true }
       - {
+          label: Slug,
+          name: slug,
+          widget: string,
+          i18n: true,
+          required: true,
+          hint: "Use this field to customize the URL of the project. For example, if you want to display 'Regulating the Digital Domain' at `/projects/rtdd`, enter `rtdd`.",
+        }
+      - {
           label: Meta Excerpt (SEO),
           name: metaExcerpt,
           widget: text,

@@ -1,9 +1,11 @@
 ---
 title: Toutes les normes avec nous
+slug: toutes-les-normes
 metaExcerpt: Ce projet rend l'élaboration de normes accessible aux personnes handicapées et aux personnes sourdes, garantissant ainsi que les biens et services sont inclusifs. Nous nous efforçons d'éliminer les obstacles au sein des organismes d'élaboration de normes (OEN) afin de soutenir la pleine participation.
 projectColor: yellow
 image: ''
 imageAlt: ''
+socialImageAlt: ''
 desc: Ce projet rend l'élaboration de normes accessible aux personnes handicapées et aux personnes sourdes, garantissant ainsi que les biens et services sont inclusifs. Nous nous efforçons d'éliminer les obstacles au sein des organismes d'élaboration de normes (OEN) afin de soutenir la pleine participation.
 ---
 ## À propos de ce projet
@@ -64,3 +66,11 @@ Organisation internationale de normalisation (2024). Normes. Extrait de https://
 
 Université du Massachusetts (2024). Normes. Récupéré de
 https://guides.library.umass.edu/c.php?g=719645&p=5126968.
+
+## Financeurs
+
+Financé par [Normes d'accessibilité Canada](https://accessibilite.canada.ca) / le gouvernment du Canada.
+
+[![Normes d'accessibilité Canada](/assets/uploads/asc-signature-en-fr-black.png)](https://accessibilite.canada.ca/)
+
+[![Canada](/assets/uploads/canada.svg)](https://www.canada.ca/fr.html)
