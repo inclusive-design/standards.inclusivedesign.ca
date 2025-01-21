@@ -20,6 +20,7 @@ jobs:
           token: ${{ steps.app-token.outputs.token }}
 
       - uses: crowdin/github-action@v2
+        id: crowdin
         with:
           upload_sources: true
           upload_translations: false
@@ -32,3 +33,12 @@ jobs:
           GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+
+      - name: Approve localization PR
+        if: ${{ steps.crowdin.outputs.pull_request_number }}
+        run: |
+          gh pr review --approve $PR
+          gh pr merge --auto -sd $PR
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          PR: ${{ steps.crowdin.outputs.pull_request_number }}
