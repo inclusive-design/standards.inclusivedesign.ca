@@ -19,13 +19,16 @@ body {
     padding-inline: var(--common-inline-padding);
 }
 
-.banner__content {
+.banner .wrapper {
     align-items: center;
     display: flex;
     flex-direction: column;
-    font-size: var(--step-1);
     margin-inline: auto;
     min-height: 16.25rem;
+}
+
+.banner__content {
+    font-size: var(--step-1);
 }
 
 .banner__image {
@@ -34,7 +37,7 @@ body {
 }
 
 @media (width >= 70.875rem) {
-    .banner__content {
+    .banner .wrapper {
         flex-direction: row;
         gap: 8.25rem;
     }

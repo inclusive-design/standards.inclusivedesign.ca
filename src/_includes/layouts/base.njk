@@ -13,8 +13,8 @@
   <main id="main" {% if page.fileSlug == "about" %}class="sectioned"{% endif %}>
     {% if hasBanner %}
     <div class="banner bg-{{ bannerBgColor }}">
-      <div class="banner__content wrapper flow">
-        <div>
+      <div class="wrapper flow">
+        <div class="banner__content">
           <h1>{{ bannerTitle | renderContent('md') | safe }}</h1>
           {{ bannerBody | renderContent('md') | safe }}
         </div>
