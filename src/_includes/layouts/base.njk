@@ -13,15 +13,17 @@
   <main id="main" {% if page.fileSlug == "about" %}class="sectioned"{% endif %}>
     {% if hasBanner %}
     <div class="banner bg-{{ bannerBgColor }}">
-      <div class="wrapper flow">
-        <h1>{{ bannerTitle | renderContent('md') | safe }}</h1>
-        {{ bannerBody | renderContent('md') | safe }}
+      <div class="banner__content wrapper flow">
+        <div>
+          <h1>{{ bannerTitle | renderContent('md') | safe }}</h1>
+          {{ bannerBody | renderContent('md') | safe }}
+        </div>
+        {% if bannerImage %}
+        <div class="banner__image">
+          <img src="{{ bannerImage }}" alt="{{ bannerImageAlt }}" />
+        </div>
+        {% endif %}
       </div>
-      {% if bannerImage %}
-      <div class="banner__image">
-        <img src="{{ bannerImage }}" alt="{{ bannerImageAlt }}" />
-      </div>
-      {% endif %}
     </div>
     {% endif %}
     {% block content %}{% endblock %}
