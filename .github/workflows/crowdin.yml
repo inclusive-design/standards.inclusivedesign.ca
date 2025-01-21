@@ -3,6 +3,7 @@ name: Synchronize with Crowdin
 on:
   push:
     branches: [dev]
+  workflow_dispatch:
 
 jobs:
   synchronize-with-crowdin:
@@ -27,6 +28,7 @@ jobs:
           download_translations: true
           localization_branch_name: chore/l10n
           create_pull_request: true
+          commit_message: "chore(l10n): synchronize translations from Crowdin"
           pull_request_title: "chore(l10n): synchronize translations from Crowdin"
           pull_request_base_branch_name: "dev"
         env:
@@ -34,11 +36,10 @@ jobs:
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
 
-      - name: Approve localization PR
+      - name: Merge localization PR
         if: ${{ steps.crowdin.outputs.pull_request_number }}
         run: |
-          gh pr review --approve $PR
-          gh pr merge --auto -sd $PR
+          gh pr merge -sd $PR
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
           PR: ${{ steps.crowdin.outputs.pull_request_number }}
