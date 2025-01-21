@@ -3,7 +3,6 @@ name: Synchronize with Crowdin
 on:
   push:
     branches: [dev]
-  workflow_dispatch:
 
 jobs:
   synchronize-with-crowdin:
@@ -31,6 +30,7 @@ jobs:
           commit_message: "chore(l10n): synchronize translations from Crowdin"
           pull_request_title: "chore(l10n): synchronize translations from Crowdin"
           pull_request_base_branch_name: "dev"
+          skip_untranslated_strings: true
         env:
           GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
