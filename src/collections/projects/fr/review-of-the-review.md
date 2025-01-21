@@ -19,6 +19,6 @@ Vous pouvez télécharger le rapport final sur le [site Web de l’IDRC](https:/
 
 Financé par [Normes d'accessibilité Canada](https://accessibilite.canada.ca) / le gouvernment du Canada.
 
-[![Normes d'accessibilité Canada](/assets/uploads/asc-signature-en-fr-black.png)](https://accessibilite.canada.ca/)
+[![Normes d'accessibilité Canada](/assets/uploads/asc.png)](https://accessibilite.canada.ca/)
 
 [![Canada](/assets/uploads/canada.svg)](https://www.canada.ca/fr.html)

@@ -21,6 +21,6 @@ Notre recherche s’appuie sur les recherches menées par Accès Troubles de la 
 
 Financé par [Normes d'accessibilité Canada](https://accessibilite.canada.ca) / le gouvernment du Canada.
 
-[![Normes d'accessibilité Canada](/assets/uploads/asc-signature-en-fr-black.png)](https://accessibilite.canada.ca/)
+[![Normes d'accessibilité Canada](/assets/uploads/asc.png)](https://accessibilite.canada.ca/)
 
 [![Canada](/assets/uploads/canada.svg)](https://www.canada.ca/fr.html)

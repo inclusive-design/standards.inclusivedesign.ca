@@ -19,6 +19,6 @@ Informed by research literature, field assessments of available acoustics techno
 
 Funded by [Accessibility Standards Canada](https://accessible.canada.ca) / the Government of Canada.
 
-[![Accessibility Standards Canada](/assets/uploads/asc-signature-en-fr-black.png)](https://accessible.canada.ca/)
+[![Accessibility Standards Canada](/assets/uploads/asc.png)](https://accessible.canada.ca/)
 
 [![Canada](/assets/uploads/canada.svg)](https://www.canada.ca/en.html)
