@@ -17,5 +17,6 @@
   "skip-to-content": "Skip to content",
   "site-title": "<strong>Inclusive</strong><br />Standards",
   "no-projects": "No projects found.",
-  "filters": "Filters"
+  "filters": "Filters",
+  "applied-filters": "Applied Filters"
 }
