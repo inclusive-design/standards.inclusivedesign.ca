@@ -41,7 +41,7 @@ jobs:
       - name: Merge localization PR
         if: ${{ steps.crowdin.outputs.pull_request_number }}
         run: |
-          gh pr merge -sd $PR
+          gh pr merge --auto -sd $PR
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
           PR: ${{ steps.crowdin.outputs.pull_request_number }}
