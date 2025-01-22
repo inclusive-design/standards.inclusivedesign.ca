@@ -1,9 +1,10 @@
 ---
 title: Review of the Review
-metaExcerpt: Review of the Review (RotR) is assisting Accessibility Standards Canada in developing standards development processes and activities that are accessible and inclusively designed.
-projectColor: green
-imageAlt: ''
-desc: Review of the Review (RotR) is assisting Accessibility Standards Canada in developing standards development processes and activities that are accessible and inclusively designed.
+slug: rotr
+uuid: 5e56beff-d2d9-4e15-93da-b7e1f42c1e74
+excerpt: Review of the Review (RotR) is assisting Accessibility Standards Canada in developing standards development processes and activities that are accessible and inclusively designed.
+previewImageAlt: ''
+color: green
 ---
 ## About
 

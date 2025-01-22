@@ -1,15 +1,15 @@
 {% extends "layouts/base.njk" %}
 
 {% block content %}
-<div class="project" style="--project-color: var(--fl-bgColor, var(--color-{{ projectColor }}))">
+<div class="project" style="--project-color: var(--fl-bgColor, var(--color-{{ color }}))">
     <div class="banner">
         <div class="flow">
             <a href="{% if lang === "en" %}/projects{% else %}/{{lang }}/{% __ 'projects' %}{% endif %}" >{% __ 'projects' %} {% include 'svg/arrowRight.svg' %}</a>
             <h1>{{ title }}</h1>
         </div>
-        {% if image and imageAlt %}
+        {% if previewImage and previewImageAlt %}
         <div class="image">
-            <img src="{{ image }}" alt="{{ imageAlt }}" />
+            <img src="{{ previewImage }}" alt="{{ previewImageAlt }}" />
         </div>
         {% endif %}
     </div>

@@ -1,11 +1,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="author" content="{{ site[lang].author }}">
-<meta name="description" content="{{ metaExcerpt if metaExcerpt else site[lang].description }}">
+<meta name="description" content="{{ excerpt if excerpt else site[lang].description }}">
 <meta name="og:type" property="og:type" content="website">
 <meta name="og:site_name" property="og:site_name" content="{{ site[lang].title }}">
-<meta name="og:description" property="og:description" content="{{ metaExcerpt if metaExcerpt else site[lang].description }}">
+<meta name="og:description" property="og:description" content="{{ excerpt if excerpt else site[lang].description }}">
 <meta property="og:title" content="{{ title }}">
 <meta property="og:url" content="{{ page.url }}">
-<meta property="og:image" content="{{ socialImage if socialImage else 'https://standards.inclusivedesign.ca/assets/images/social-' + lang + '.png' }}">
-<meta property="og:image:alt" content="{{ socialImageAlt if socialImageAlt else site[lang].title }}">
+<meta property="og:image" content="{{ previewImage if previewImage else 'https://standards.inclusivedesign.ca/assets/images/social-' + lang + '.png' }}">
+<meta property="og:image:alt" content="{{ previewImageAlt if previewImageAlt else site[lang].title }}">
