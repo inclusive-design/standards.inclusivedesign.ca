@@ -122,7 +122,8 @@ collections:
     extension: md
     create: true
     fields:
-      - { label: Title, name: title, widget: string, i18n: true }
+      - { label: Project Title, name: title, widget: string, i18n: true }
+      - { label: Project ID, name: uuid, widget: uuid, i18n: duplicate }
       - {
           label: Meta Excerpt (SEO),
           name: metaExcerpt,
@@ -183,6 +184,63 @@ collections:
           required: true,
         }
       - { label: Body, name: body, widget: markdown, i18n: true }
+  - label: Events
+    label_singular: Event
+    name: event
+    icon: calendar_month
+    i18n:
+      structure: multiple_folders
+    folder: src/collections/events
+    extension: md
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string, i18n: true }
+      - { label: Event Date, name: date, widget: datetime, i18n: duplicate }
+      - label: Event Type
+        name: type
+        widget: select
+        options:
+          - label: Co-design
+            value: co-design
+          - label: Conference
+            value: conference
+          - label: Talk
+            value: talk
+          - label: Webinar
+            value: webinar
+        i18n: duplicate
+      - label: Related Project
+        name: project
+        widget: relation
+        collection: projects
+        value_field: uuid
+        search_fields: [title]
+        display_fields: [title]
+        i18n: duplicate
+        required: false
+      - {
+          label: Meta Excerpt (SEO),
+          name: metaExcerpt,
+          widget: text,
+          i18n: true,
+          required: false,
+        }
+      - {
+          label: "Social Image",
+          name: metaImage,
+          widget: image,
+          i18n: duplicate,
+          required: false,
+          hint: "This image should be 1200 by 630 pixels and will be used as a preview image when this page is shared on social media.",
+        }
+      - {
+          label: Social Image Alt Text,
+          name: socialImageAlt,
+          widget: string,
+          i18n: true,
+          required: false,
+        }
+      - { label: Body, name: body, widget: markdown, i18n: true }
   - label: Announcements
     label_singular: Announcement
     name: announcements
@@ -198,6 +256,7 @@ collections:
           label: Publication Date,
           name: date,
           widget: datetime,
+          default: "{{now}}",
           i18n: duplicate,
         }
       - {
