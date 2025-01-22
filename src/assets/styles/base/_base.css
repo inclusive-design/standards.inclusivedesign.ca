@@ -80,7 +80,6 @@ main section:last-of-type:not(:first-of-type) {
 }
 
 /* Image Theming */
-
 .fl-theme-bw,
 .fl-theme-wb,
 .fl-theme-lgdg,
@@ -94,6 +93,34 @@ main section:last-of-type:not(:first-of-type) {
 .fl-theme-by,
 .fl-theme-yb {
     img {
+        filter: url("#yellow");
+    }
+}
+
+.fl-theme-by {
+    a img,
+    a:active img,
+    a:hover:focus img,
+    a:focus:active img,
+    a:hover:active img {
+        filter: url("#yellow");
+    }
+
+    a:hover img {
+        filter: grayscale(1) invert();
+    }
+}
+
+.fl-theme-yb {
+    a img,
+    a:active img,
+    a:hover:focus img,
+    a:focus:active img,
+    a:hover:active img {
+        filter: grayscale(1) invert();
+    }
+
+    a:hover img {
         filter: url("#yellow");
     }
 }
@@ -131,6 +158,19 @@ a:not([class]) {
         border-radius: 0.3125rem;
         box-shadow: 0 0 0 0.25rem var(--fl-linkFgColor, var(--color-indigo-700));
         color: var(--fl-bgColor, var(--color-white));
+    }
+}
+
+a:not([class]):has(img) {
+    &:hover {
+    }
+
+    &:focus,
+    &:hover:focus {
+    }
+
+    &:active {
+        background-color: transparent;
     }
 }
 
