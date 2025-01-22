@@ -183,6 +183,47 @@ collections:
           required: true,
         }
       - { label: Body, name: body, widget: markdown, i18n: true }
+  - label: Announcements
+    label_singular: Announcement
+    name: announcements
+    icon: newspaper
+    i18n:
+      structure: multiple_folders
+    folder: src/collections/announcements
+    extension: md
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string, i18n: true }
+      - {
+          label: Publication Date,
+          name: date,
+          widget: datetime,
+          i18n: duplicate,
+        }
+      - {
+          label: Meta Excerpt (SEO),
+          name: metaExcerpt,
+          widget: text,
+          i18n: true,
+          required: false,
+        }
+      - {
+          label: "Social Image",
+          name: metaImage,
+          widget: image,
+          i18n: duplicate,
+          required: false,
+          hint: "This image should be 1200 by 630 pixels and will be used as a preview image when this page is shared on social media.",
+        }
+      - {
+          label: Social Image Alt Text,
+          name: socialImageAlt,
+          widget: string,
+          i18n: true,
+          required: false,
+        }
+      - { label: Tags, name: tags, widget: list, i18n: true }
+      - { label: Body, name: body, widget: markdown, i18n: true }
   - label: Metadata
     name: metadata
     files:
