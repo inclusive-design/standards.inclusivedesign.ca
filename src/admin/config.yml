@@ -241,6 +241,76 @@ collections:
           required: false,
         }
       - { label: Body, name: body, widget: markdown, i18n: true }
+  - label: Resources
+    label_singular: Resource
+    name: resources
+    icon: inventory_2
+    i18n: true
+    folder: src/collections/resources
+    extension: md
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string, i18n: duplicate }
+      - label: Author
+        name: author
+        widget: string
+        i18n: duplicate
+      - label: Publisher
+        name: publisher
+        widget: string
+        required: false
+        i18n: duplicate
+      - label: Language
+        name: language
+        widget: select
+        default: en
+        i18n: duplicate
+        options:
+          - label: English
+            value: en
+          - label: Français
+            value: fr
+      - {
+          label: Publication Date,
+          name: date,
+          widget: datetime,
+          default: "{{now}}",
+          i18n: duplicate,
+        }
+      - label: Resource Type
+        name: type
+        widget: select
+        i18n: duplicate
+        options:
+          - label: Blog
+            value: blog
+          - label: Video
+            value: video
+          - label: Podcast
+            value: podcast
+          - label: Guide or toolkit
+            value: guide-or-toolkit
+          - label: Document
+            value: document
+      - label: Related Project
+        name: project
+        widget: relation
+        collection: projects
+        value_field: uuid
+        search_fields: [title]
+        display_fields: [title]
+        required: false
+        i18n: duplicate
+      - label: Topic
+        name: topic
+        widget: relation
+        collection: topics
+        value_field: "uuid"
+        search_fields: ["title"]
+        display_fields: ["title"]
+        required: false
+        i18n: duplicate
+      - { label: Description, name: body, widget: text, i18n: true }
   - label: Announcements
     label_singular: Announcement
     name: announcements
@@ -281,7 +351,15 @@ collections:
           i18n: true,
           required: false,
         }
-      - { label: Tags, name: tags, widget: list, i18n: true }
+      - label: Topic
+        name: topic
+        widget: relation
+        collection: topics
+        value_field: "uuid"
+        search_fields: ["title"]
+        display_fields: ["title"]
+        required: false
+        i18n: duplicate
       - { label: Body, name: body, widget: markdown, i18n: true }
   - label: Metadata
     name: metadata
@@ -302,3 +380,14 @@ collections:
           - { label: X, name: x, widget: string, type: url }
           - { label: LinkedIn, name: linkedin, widget: string, type: url }
           - { label: YouTube, name: youtube, widget: string, type: url }
+  - label: Topics
+    label_singular: Topic
+    name: topics
+    icon: sell
+    i18n: true
+    folder: src/collections/topics
+    extension: yml
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string, i18n: true }
+      - { label: Topic ID, name: uuid, widget: uuid, i18n: duplicate }
