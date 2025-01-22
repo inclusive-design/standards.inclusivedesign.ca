@@ -11,12 +11,15 @@
   {% include "partials/global/header.njk" %}
   {% include "partials/components/navigation.njk" %}
   <main id="main" {% if page.fileSlug == "about" %}class="sectioned"{% endif %}>
-    {% if hasBanner %}
-    <div class="banner bg-{{ bannerBgColor }}">
+    <div class="banner bg-indigo-700">
       <div class="wrapper">
         <div class="banner__content flow">
-          <h1>{{ bannerTitle | renderContent('md') | safe }}</h1>
-          {{ bannerBody | renderContent('md') | safe }}
+        {% block banner %}
+          <h1>{{ title }}</h1>
+          {% if bannerText %}
+          {{ bannerText | renderContent('md') | safe }}
+          {% endif %}
+        {% endblock %}
         </div>
         {% if bannerImage %}
         <div class="banner__image">
@@ -25,7 +28,6 @@
         {% endif %}
       </div>
     </div>
-    {% endif %}
     {% block content %}{% endblock %}
   </main>
   {% include "partials/global/footer.njk" %}

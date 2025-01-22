@@ -29,89 +29,61 @@ collections:
     extension: md
     create: true
     fields:
-      - { label: Title, name: title, widget: string, i18n: true }
-      - {
-          label: Meta Excerpt (SEO),
-          name: metaExcerpt,
-          widget: text,
-          i18n: true,
-          required: false,
-        }
-      - label: "Layout"
+      - label: Title
+        name: title
+        widget: string
+        i18n: true
+      - label: Navigation Order
+        name: order
+        widget: number
+        i18n: duplicate
+        required: false
+      - label: Layout
         name: layout
         widget: hidden
         i18n: duplicate
-        default: "layouts/base"
+        default: layouts/base
         required: true
-      - {
-          label: Navigation Order,
-          name: order,
-          widget: number,
-          i18n: duplicate,
-          required: false,
-        }
-      - {
-          label: "Has Banner?",
-          name: hasBanner,
-          widget: boolean,
-          i18n: duplicate,
-          default: true,
-          required: false,
-        }
-      - label: "Banner Background"
-        name: bannerBgColor
-        widget: select
-        options:
-          - label: Dark Grey
-            value: dark-grey
-          - label: Indigo 700
-            value: indigo-700
+      - label: Excerpt
+        name: excerpt
+        widget: text
+        i18n: true
+        required: false
+      - label: Preview Image
+        name: previewImage
+        widget: image
         i18n: duplicate
         required: false
-      - {
-          label: "Banner Title",
-          name: bannerTitle,
-          widget: string,
-          i18n: true,
-          required: false,
-        }
-      - {
-          label: "Banner Body",
-          name: bannerBody,
-          widget: text,
-          i18n: true,
-          required: false,
-        }
-      - {
-          label: "Banner Image",
-          name: bannerImage,
-          widget: image,
-          i18n: duplicate,
-          required: false,
-        }
-      - {
-          label: Banner Image Alt Text,
-          name: bannerImageAlt,
-          widget: text,
-          i18n: true,
-          required: false,
-        }
-      - {
-          label: "Social Image",
-          name: metaImage,
-          widget: image,
-          i18n: duplicate,
-          required: false,
-          hint: "This image should be 1200 by 630 pixels and will be used as a preview image when this page is shared on social media.",
-        }
-      - {
-          label: Social Image Alt Text,
-          name: socialImageAlt,
-          widget: string,
-          i18n: true,
-          required: false,
-        }
-      - { label: Body, name: body, widget: markdown, i18n: true }
+        hint: This image should be 1200 by 630 pixels and will be used as a preview image when this page is shared on social media.
+      - label: Preview Image Alt Text
+        name: previewImageAlt
+        widget: string
+        i18n: true
+        required: false
+      - label: Banner Title
+        name: bannerTitle
+        widget: text
+        i18n: true
+        required: false
+      - label: Banner Text
+        name: bannerText
+        widget: text
+        i18n: true
+        required: false
+      - label: Banner Image
+        name: bannerImage
+        widget: image
+        i18n: duplicate
+        required: false
+      - label: Banner Image Alt Text
+        name: bannerImageAlt
+        widget: text
+        i18n: true
+        required: false
+      - label: Body
+        name: body
+        widget: markdown
+        i18n: true
   - label: Projects
     label_singular: Project
     name: projects
@@ -122,16 +94,38 @@ collections:
     extension: md
     create: true
     fields:
-      - { label: Title, name: title, widget: string, i18n: true }
-      - {
-          label: Meta Excerpt (SEO),
-          name: metaExcerpt,
-          widget: text,
-          i18n: true,
-          required: false,
-        }
-      - label: "Project Colour"
-        name: projectColor
+      - label: Title
+        name: title
+        widget: string
+        i18n: true
+      - label: Slug
+        name: slug
+        widget: string
+        i18n: true
+        required: true
+        hint: Use this field to customize the URL of the project. For example, if you want to display 'Regulating the Digital Domain' at `/projects/rtdd`, enter `rtdd`.
+      - label: Unique ID
+        name: uuid
+        widget: uuid
+        i18n: duplicate
+      - label: Excerpt
+        name: excerpt
+        widget: text
+        i18n: true
+        required: false
+      - label: Preview Image
+        name: previewImage
+        widget: image
+        i18n: duplicate
+        required: false
+        hint: This image should be 1200 by 630 pixels and will be used as a preview image when this page is shared on social media.
+      - label: Preview Image Alternative Text
+        name: previewImageAlt
+        widget: text
+        i18n: true
+        required: false
+      - label: Colour
+        name: color
         widget: select
         options:
           - label: Red
@@ -146,43 +140,203 @@ collections:
             value: blue
         i18n: duplicate
         required: true
-      - {
-          label: Project Image,
-          name: image,
-          widget: image,
-          i18n: duplicate,
-          required: false,
-        }
-      - {
-          label: Project Image Alternative Text,
-          name: imageAlt,
-          widget: text,
-          i18n: true,
-          required: false,
-        }
-      - {
-          label: "Social Image",
-          name: metaImage,
-          widget: image,
-          i18n: duplicate,
-          required: false,
-          hint: "This image should be 1200 by 630 pixels and will be used as a preview image when this page is shared on social media.",
-        }
-      - {
-          label: Social Image Alt Text,
-          name: socialImageAlt,
-          widget: string,
-          i18n: true,
-          required: false,
-        }
-      - {
-          label: "Description",
-          name: desc,
-          widget: text,
-          i18n: true,
-          required: true,
-        }
-      - { label: Body, name: body, widget: markdown, i18n: true }
+      - label: Body
+        name: body
+        widget: markdown
+        i18n: true
+  - label: Events
+    label_singular: Event
+    name: event
+    icon: calendar_month
+    i18n:
+      structure: multiple_folders
+    folder: src/collections/events
+    extension: md
+    create: true
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        i18n: true
+      - label: Excerpt
+        name: excerpt
+        widget: text
+        i18n: true
+        required: false
+      - label: Date
+        name: date
+        widget: datetime
+        i18n: duplicate
+      - label: Preview Image
+        name: previewImage
+        widget: image
+        i18n: duplicate
+        required: false
+        hint: This image should be 1200 by 630 pixels and will be used as a preview image when this page is shared on social media.
+      - label: Preview Image Alt Text
+        name: previewImageAlt
+        widget: string
+        i18n: true
+        required: false
+      - label: Type
+        name: type
+        widget: select
+        options:
+          - label: Co-design
+            value: co-design
+          - label: Conference
+            value: conference
+          - label: Talk
+            value: talk
+          - label: Webinar
+            value: webinar
+        i18n: duplicate
+      - label: Related Project(s)
+        name: projects
+        widget: relation
+        collection: projects
+        value_field: uuid
+        search_fields: [title]
+        display_fields: [title]
+        i18n: duplicate
+        multiple: true # Figure this out
+        required: false
+      - label: Body
+        name: body
+        widget: markdown
+        i18n: true
+  - label: Resources
+    label_singular: Resource
+    name: resources
+    icon: inventory_2
+    i18n: true
+    folder: src/collections/resources
+    extension: md
+    create: true
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        i18n: duplicate
+      - label: Publication Date
+        name: date
+        widget: datetime
+        default: "{{now}}"
+        i18n: duplicate
+      - label: Resource URL
+        name: url
+        widget: string
+        format: url
+        i18n: duplicate
+      - label: Author
+        name: author
+        widget: string
+        i18n: duplicate
+        required: false
+      - label: Publisher
+        name: publisher
+        widget: string
+        required: false
+        i18n: duplicate
+      - label: Language
+        name: language
+        widget: select
+        default: en
+        i18n: duplicate
+        options:
+          - label: English
+            value: en
+          - label: Français
+            value: fr
+      - label: Type
+        name: type
+        widget: select
+        i18n: duplicate
+        options:
+          - label: Blog
+            value: blog
+          - label: Video
+            value: video
+          - label: Podcast
+            value: podcast
+          - label: Guide or toolkit
+            value: guide-or-toolkit
+          - label: Document
+            value: document
+          - label: Other
+            value: other
+      - label: Related Project(s)
+        name: projects
+        widget: relation
+        collection: projects
+        value_field: uuid
+        search_fields: [title]
+        display_fields: [title]
+        required: false
+        multiple: true
+        i18n: duplicate
+      - label: Topic(s)
+        name: topics
+        widget: relation
+        collection: topics
+        value_field: uuid
+        search_fields: [title]
+        display_fields: [title]
+        required: false
+        multiple: true
+        i18n: duplicate
+      - label: Description
+        name: body
+        widget: text
+        i18n: true
+  - label: Announcements
+    label_singular: Announcement
+    name: announcements
+    icon: newspaper
+    i18n:
+      structure: multiple_folders
+    folder: src/collections/announcements
+    extension: md
+    create: true
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        i18n: true
+      - label: Excerpt,
+        name: excerpt
+        widget: text
+        i18n: true
+        required: false
+      - label: Publication Date
+        name: date
+        widget: datetime
+        default: "{{now}}"
+        i18n: duplicate
+      - label: Preview Image
+        name: previewImage
+        widget: image
+        i18n: duplicate
+        required: false
+        hint: This image should be 1200 by 630 pixels and will be used as a preview image when this page is shared on social media.
+      - label: Preview Image Alt Text
+        name: previewImageAlt
+        widget: string
+        i18n: true
+        required: false
+      - label: Topic(s)
+        name: topics
+        widget: relation
+        collection: topics
+        value_field: uuid
+        search_fields: [title]
+        display_fields: [title]
+        required: false
+        i18n: duplicate
+      - label: Body
+        name: body
+        widget: markdown
+        i18n: true
   - label: Metadata
     name: metadata
     files:
@@ -190,15 +344,54 @@ collections:
         name: contact
         file: src/_data/contact.json
         fields:
-          - { label: Email, name: email, widget: string, type: email }
-          - { label: Phone, name: phone, widget: string }
-          - { label: Address, name: address, widget: text }
+          - label: Email
+            name: email
+            widget: string
+            type: email
+          - label: Phone
+            name: phone
+            widget: string
+          - label: Address
+            name: address
+            widget: text
       - label: Social Media
         name: social
         file: src/_data/social.json
         fields:
-          - { label: Facebook, name: facebook, widget: string, type: url }
-          - { label: Instagram, name: instagram, widget: string, type: url }
-          - { label: X, name: x, widget: string, type: url }
-          - { label: LinkedIn, name: linkedin, widget: string, type: url }
-          - { label: YouTube, name: youtube, widget: string, type: url }
+          - label: Facebook
+            name: facebook
+            widget: string
+            type: url
+          - label: Instagram
+            name: instagram
+            widget: string
+            type: url
+          - label: X
+            name: x
+            widget: string
+            type: url
+          - label: LinkedIn
+            name: linkedin
+            widget: string
+            type: url
+          - label: YouTube
+            name: youtube
+            widget: string
+            type: url
+  - label: Topics
+    label_singular: Topic
+    name: topics
+    icon: sell
+    i18n: true
+    folder: src/collections/topics
+    extension: yml
+    create: true
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        i18n: true
+      - label: Topic ID
+        name: uuid
+        widget: uuid
+        i18n: duplicate

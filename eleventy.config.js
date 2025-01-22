@@ -33,6 +33,14 @@ export default function eleventy(eleventyConfig) {
         eleventyConfig.addCollection(`projects_${lang}`, (collection) => {
             return collection.getFilteredByGlob(`src/collections/projects/${lang}/*.md`);
         });
+
+        eleventyConfig.addCollection(`events_${lang}`, (collection) => {
+            return collection.getFilteredByGlob(`src/collections/events/${lang}/*.md`);
+        });
+
+        eleventyConfig.addCollection(`announcements_${lang}`, (collection) => {
+            return collection.getFilteredByGlob(`src/announcements/announcements/${lang}/*.md`);
+        });
     });
 
     eleventyConfig.addFilter("findTranslation", function find(page, collection = [], lang, desiredLang) {
