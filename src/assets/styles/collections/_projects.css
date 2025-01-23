@@ -59,25 +59,6 @@
     max-width: 100%;
 }
 
-.project nav a {
-    color: var(--fl-linkFgColor, var(--color-indigo-700));
-}
-
-.project nav a:focus {
-    color: var(--fl-linkFgColor, var(--color-indigo-700));
-    outline: solid 0.125rem var(--fl-linkFgColor, var(--color-indigo-700));
-}
-
-.project nav a:hover:focus {
-    color: var(--fl-linkBgColor, var(--color-indigo-700));
-}
-
-.project nav a:active {
-    background-color: var(--fl-linkFgColor, var(--color-indigo-700));
-    box-shadow: 0 0 0 0.25rem var(--fl-linkFgColor, var(--color-indigo-700));
-    color: var(--fl-bgColor, var(--color-white));
-}
-
 .project .content a img {
     height: auto;
     width: 100%;

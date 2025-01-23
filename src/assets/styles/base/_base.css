@@ -200,7 +200,10 @@ a:not([class]) {
         color: var(--fl-bgColor, var(--color-indigo-700));
     }
 
-    &:active {
+    &:active,
+    &:active:hover,
+    &:active:focus,
+    &:active:hover:focus {
         background-color: var(--fl-linkFgColor, var(--color-indigo-700));
         border-radius: 0.3125rem;
         box-shadow: 0 0 0 0.25rem var(--fl-linkFgColor, var(--color-indigo-700));
@@ -209,7 +212,7 @@ a:not([class]) {
 }
 
 header a:not([class]),
-nav a:not([class]),
+nav a[rel="home"],
 footer a:not([class]) {
     &:focus {
         color: var(--fl-linkFgColor, var(--color-white));
@@ -220,9 +223,13 @@ footer a:not([class]) {
         color: var(--fl-linkBgColor, var(--color-black));
     }
 
-    &:active {
+    &:active,
+    &:active:hover,
+    &:active:focus,
+    &:active:hover:focus {
         background-color: var(--fl-linkFgColor, var(--color-indigo-200));
         box-shadow: 0 0 0 0.25rem var(--fl-linkFgColor, var(--color-indigo-200));
         color: var(--fl-bgColor, var(--color-black));
+        outline: solid 0.125rem transparent;
     }
 }
