@@ -59,10 +59,6 @@
     max-width: 100%;
 }
 
-.project nav a {
-    color: var(--fl-linkFgColor, var(--color-indigo-700));
-}
-
 .project .content a img {
     height: auto;
     width: 100%;
