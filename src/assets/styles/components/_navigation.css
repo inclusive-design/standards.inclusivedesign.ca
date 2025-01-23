@@ -181,7 +181,7 @@ a[rel="home"] {
         padding-block: 0;
     }
 
-    .navigation__toggle {
+    .navigation button.borderless {
         display: none;
     }
 

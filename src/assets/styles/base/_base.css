@@ -255,8 +255,7 @@ button:not([class]) {
     }
 
     &:active,
-    &:active:hover,
-    &:active:focus {
+    &:active:hover {
         background-color: var(--fl-linkBgColor, var(--color-indigo-200));
         box-shadow: inset 0 0 0 0.125rem var(--fl-linkFgColor, var(--color-indigo-700));
         color: var(--fl-linkFgColor, var(--color-indigo-700));
@@ -277,8 +276,7 @@ button.secondary {
     }
 
     &:active,
-    &:active:hover,
-    &:active:focus {
+    &:active:hover {
         background-color: var(--fl-linkFgColor, var(--color-indigo-700));
         box-shadow: none;
         color: var(--fl-linkBgColor, var(--color-white));
@@ -298,8 +296,7 @@ button.borderless {
     }
 
     &:active,
-    &:active:hover,
-    &:active:focus {
+    &:active:hover {
         background-color: var(--fl-linkFgColor, var(--color-white));
         box-shadow: none;
         color: var(--fl-linkBgColor, var(--color-indigo-700));
