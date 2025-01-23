@@ -12,11 +12,10 @@ backend:
 media_folder: src/assets/uploads
 public_folder: /assets/uploads
 
-editor:
-  preview: false
 i18n:
   locales: [en, fr]
   default_locale: en
+  save_all_locales: false
 
 collections:
   - label: Pages
