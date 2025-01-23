@@ -1,6 +1,13 @@
 {% extends "layouts/base.njk" %}
 {% from "partials/components/card.macro.njk" import card %}
 
+{% block banner %}
+    <h1>{% __ 'site-title' %}</h1>
+    {% if bannerText %}
+    {{ bannerText | renderContent('md') | safe }}
+    {% endif %}
+{% endblock %}
+
 {% block content %}
     {% if collections['projects_' + lang].length > 0 %}
     <section>
@@ -9,7 +16,7 @@
         <div class="cards">
           {% set cardType = "project" %}
           {% for item in collections['projects_' + lang] %}
-            {{ card({image: item.data.image, title: item.data.title, body: item.data.desc, color: item.data.projectColor, url: item.data.permalink }) }}
+            {{ card({image: item.data.image, title: item.data.title, body: item.data.excerpt, color: item.data.color, url: item.data.permalink }) }}
           {% endfor %}
         </div>
       </div>
@@ -22,7 +29,7 @@
         <div class="cards">
           {% set cardType = "event" %}
           {% for item in collections['events_' + lang] %}
-            {{ card({image: item.data.image, title: item.data.title, body: item.data.desc, url: item.data.permalink }) }}
+            {{ card({image: item.data.image, title: item.data.title, body: item.data.excerpt, url: item.data.permalink }) }}
           {% endfor %}
         </div>
       </div>
@@ -35,7 +42,7 @@
         <div class="cards">
           {% set cardType = "resource" %}
           {% for item in collections['resources_' + lang] %}
-            {{ card({image: item.data.image, title: item.data.title, body: item.data.desc, url: item.data.permalink }) }}
+            {{ card({image: item.data.image, title: item.data.title, body: item.data.excerpt, url: item.data.permalink }) }}
           {% endfor %}
         </div>
       </div>
@@ -48,7 +55,7 @@
         <div class="cards">
           {% set cardType = "news" %}
           {% for item in collections['announcements_' + lang] %}
-            {{ card({image: item.data.image, title: item.data.title, body: item.data.desc, url: item.data.permalink }) }}
+            {{ card({image: item.data.image, title: item.data.title, body: item.data.excerpt, url: item.data.permalink }) }}
           {% endfor %}
         </div>
       </div>

@@ -1,12 +1,9 @@
 ---
-bannerBgColor: indigo-700
-bannerBody: En savoir plus sur les normes inclusives
+bannerText: En savoir plus sur les normes inclusives
 bannerImage: ''
 bannerImageAlt: ''
-bannerTitle: À propos
-hasBanner: true
 layout: layouts/about
-metaExcerpt: En savoir plus sur les normes inclusives
+excerpt: En savoir plus sur les normes inclusives
 order: 1
 title: À propos
 ---

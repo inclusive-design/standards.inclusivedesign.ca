@@ -1,13 +1,10 @@
 ---
 title: Accès aux communications dans le cadre de la Loi canadienne sur l’accessibilité
 slug: acces-aux-communications
-metaExcerpt: L’objectif du projet Accès aux communications est d’éclairer l’élaboration de normes et de règlements sur l’accès aux communications en vertu de la Loi canadienne sur l’accessibilité.
-projectColor: red
-image: ''
-imageAlt: ''
-metaImage: ''
-socialImageAlt: ''
-desc: L’objectif du projet Accès aux communications est d’éclairer l’élaboration de normes et de règlements sur l’accès aux communications en vertu de la Loi canadienne sur l’accessibilité.
+uuid: 05e178eb-9343-4b9f-b1d0-536ef907756d
+excerpt: L’objectif du projet Accès aux communications est d’éclairer l’élaboration de normes et de règlements sur l’accès aux communications en vertu de la Loi canadienne sur l’accessibilité.
+previewImageAlt: ''
+color: red
 ---
 ## À propos
 

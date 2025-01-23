@@ -10,7 +10,7 @@
         <div class="cards">
           {% set cardType = "project" %}
           {% for item in collections['projects_' + lang] %}
-            {{ card({image: item.data.image, title: item.data.title, body: item.data.desc, color: item.data.projectColor, url: item.data.permalink }) }}
+            {{ card({image: item.data.image, title: item.data.title, body: item.data.excerpt, color: item.data.color, url: item.data.permalink }) }}
           {% endfor %}
         </div>
         </div>

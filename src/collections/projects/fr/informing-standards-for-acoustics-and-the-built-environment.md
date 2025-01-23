@@ -1,13 +1,10 @@
 ---
 title: Informer sur les normes relatives à l'acoustique et à l'environnement bâti
 slug: l-acoustique
-metaExcerpt: Étudier l'impact de l'environnement acoustique sur les personnes handicapées et explorer les technologies qui peuvent contribuer à réduire et à éliminer les barrières acoustiques
-projectColor: orange
-image: ''
-imageAlt: ''
-metaImage: ''
-socialImageAlt: ''
-desc: Étudier l'impact de l'environnement acoustique sur les personnes handicapées et explorer les technologies qui peuvent contribuer à réduire et à éliminer les barrières acoustiques
+uuid: d07b518f-e9f2-41ea-920d-744a9337461c
+excerpt: Étudier l'impact de l'environnement acoustique sur les personnes handicapées et explorer les technologies qui peuvent contribuer à réduire et à éliminer les barrières acoustiques
+previewImageAlt: ''
+color: orange
 ---
 ## À Propos
 

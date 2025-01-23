@@ -1,11 +1,10 @@
 ---
 title: L’Examen de l’examen
 slug: rotr
-metaExcerpt: L’Examen de l’examen aide les Normes d’accessibilité Canada à élaborer des processus et des activités d’élaboration de normes qui sont accessibles et conçus de manière inclusive.
-projectColor: green
-image: ''
-imageAlt: ''
-desc: L’Examen de l’examen aide les Normes d’accessibilité Canada à élaborer des processus et des activités d’élaboration de normes qui sont accessibles et conçus de manière inclusive.
+uuid: 5e56beff-d2d9-4e15-93da-b7e1f42c1e74
+excerpt: L’Examen de l’examen aide les Normes d’accessibilité Canada à élaborer des processus et des activités d’élaboration de normes qui sont accessibles et conçus de manière inclusive.
+previewImageAlt: ''
+color: green
 ---
 ## À propos
 

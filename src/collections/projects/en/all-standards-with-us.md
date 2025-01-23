@@ -1,11 +1,10 @@
 ---
 title: All Standards With Us
 slug: all-standards
-metaExcerpt: This project makes standards development accessible to people with disabilities and Deaf individuals, ensuring goods and services are inclusive. We focus on removing barriers in Standards Development Organizations (SDOs) to support full participation.
-projectColor: yellow
-imageAlt: ''
-socialImageAlt: ''
-desc: This project makes standards development accessible to people with disabilities and Deaf individuals, ensuring goods and services are inclusive. We focus on removing barriers in Standards Development Organizations (SDOs) to support full participation.
+uuid: e45a05ce-efb3-449f-965d-f671911b6626
+excerpt: This project makes standards development accessible to people with disabilities and Deaf individuals, ensuring goods and services are inclusive. We focus on removing barriers in Standards Development Organizations (SDOs) to support full participation.
+previewImageAlt: ''
+color: yellow
 ---
 ## About this project
 
