@@ -28,7 +28,13 @@
         {% endif %}
       </div>
     </div>
-    {% block content %}{% endblock %}
+    {% block content %}
+    <section>
+    <div class="wrapper flow">
+    {{ content | safe }}
+    </div>
+    </section>
+    {% endblock %}
   </main>
   {% include "partials/global/footer.njk" %}
   {% uioInit lang %}
