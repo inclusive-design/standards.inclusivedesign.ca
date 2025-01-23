@@ -176,8 +176,7 @@ main section:last-of-type:not(:first-of-type) {
 
 /* Links */
 
-a:not([class]),
-.project nav a {
+a:not([class]) {
     color: var(--fl-linkFgColor, currentColor);
     font-weight: var(--font-weight-semibold);
 
