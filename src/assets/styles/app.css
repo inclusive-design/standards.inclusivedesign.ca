@@ -15,6 +15,7 @@
 @import "./global/_header.css";
 
 /* Components */
+@import "./components/_accordion.css";
 @import "./components/_navigation.css";
 @import "./components/_card.css";
 @import "./components/_project-panel.css";
