@@ -63,6 +63,21 @@
     color: var(--fl-linkFgColor, var(--color-indigo-700));
 }
 
+.project .content a img {
+    height: auto;
+    width: 100%;
+}
+
+.project .content a[href^="https://www.canada.ca"] img
+{
+    max-width: 12.5rem;
+}
+
+.project .content a:has(img) {
+    display: inline-block;
+    margin-block: 1rem;
+}
+
 @media (width >= 70.875rem) {
     .project .banner {
         align-items: flex-start;

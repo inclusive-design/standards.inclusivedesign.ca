@@ -64,3 +64,11 @@ Organisation internationale de normalisation (2024). Normes. Extrait de https://
 
 Université du Massachusetts (2024). Normes. Récupéré de
 https://guides.library.umass.edu/c.php?g=719645&p=5126968.
+
+## Financeurs
+
+Financé par [Normes d'accessibilité Canada](https://accessibilite.canada.ca) / le gouvernment du Canada.
+
+[![Normes d'accessibilité Canada](/assets/uploads/asc.png)](https://accessibilite.canada.ca/)
+
+[![Canada](/assets/uploads/canada.svg)](https://www.canada.ca/fr.html)
