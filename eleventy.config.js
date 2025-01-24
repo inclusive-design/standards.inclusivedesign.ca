@@ -1,4 +1,4 @@
-import { EleventyRenderPlugin, IdAttributePlugin } from "@11ty/eleventy";
+import { IdAttributePlugin, RenderPlugin } from "@11ty/eleventy";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import brokenLinksPlugin from "eleventy-plugin-broken-links";
 import fluidPlugin from "eleventy-plugin-fluid";
@@ -7,7 +7,7 @@ import parse from "./src/_transforms/parse.js";
 
 export default function eleventy(eleventyConfig) {
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
-    eleventyConfig.addPlugin(EleventyRenderPlugin);
+    eleventyConfig.addPlugin(RenderPlugin);
     eleventyConfig.addPlugin(footnotesPlugin);
     eleventyConfig.addPlugin(fluidPlugin, {
         defaultLanguage: "en",
@@ -54,6 +54,16 @@ export default function eleventy(eleventyConfig) {
             }
         });
         return translationUrl;
+    });
+
+    eleventyConfig.addPairedShortcode("accordion", async function (content, label) {
+        const contentRenderer = await RenderPlugin.String(content, "md", {});
+        const renderedContent = await contentRenderer();
+
+        return `<details class="accordion">
+        <summary>${label}</summary>
+        <div class="accordion__content">${renderedContent}</div>
+      </details>`;
     });
 
     eleventyConfig.addTransform("parse", parse);
