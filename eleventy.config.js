@@ -1,3 +1,4 @@
+import { randomUUID } from "node:crypto";
 import { IdAttributePlugin, RenderPlugin } from "@11ty/eleventy";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import brokenLinksPlugin from "eleventy-plugin-broken-links";
@@ -56,14 +57,15 @@ export default function eleventy(eleventyConfig) {
         return translationUrl;
     });
 
-    eleventyConfig.addPairedShortcode("accordion", async function (content, label) {
+    eleventyConfig.addPairedShortcode("disclosure", async function (content, label) {
         const contentRenderer = await RenderPlugin.String(content, "md", {});
         const renderedContent = await contentRenderer();
+        const contentId = randomUUID();
 
-        return `<details class="accordion">
-        <summary>${label}</summary>
-        <div class="accordion__content">${renderedContent}</div>
-      </details>`;
+        return `<inclusive-disclosure>
+        <button aria-controls="${contentId}">${label}</button>
+        <div content id="${contentId}">${renderedContent}</div>
+      </inclusive-disclosure>`;
     });
 
     eleventyConfig.addTransform("parse", parse);

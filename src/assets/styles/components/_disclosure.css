@@ -1,25 +1,25 @@
-.accordion {
+inclusive-disclosure {
+    display: block;
     min-height: 5rem;
     padding-inline: 0.5rem;
 }
 
-.accordion summary {
+inclusive-disclosure [aria-expanded] {
     align-items: center;
-    box-shadow: inset 0 0.125rem 0 0 var(--fl-linkFgColor, var(--color-indigo-700));
+    appearance: none;
+    background-color: inherit;
+    border: 0;
+    box-shadow: inset 0 0.125rem 0 0
+        var(--fl-linkFgColor, var(--color-indigo-700));
     color: var(--fl-linkFgColor, var(--color-indigo-700));
-    cursor: pointer;
     display: flex;
     font-family: var(--family-display);
     font-size: var(--step-2);
     font-weight: var(--font-weight-semibold);
     height: 5rem;
-    list-style-type: none;
     padding-inline-end: 0.625;
     position: relative;
-
-    &::-webkit-details-marker {
-        display: none;
-    }
+    width: 100%;
 
     &::after {
         background-color: var(--fl-linkFgColor, var(--color-indigo-700));
@@ -53,20 +53,21 @@
     }
 }
 
-.accordion[open] summary::after {
+inclusive-disclosure [aria-expanded="true"]::after {
     transform: rotate(180deg);
 }
 
-.accordion:focus-within {
+inclusive-disclosure:focus-within {
     border-radius: 0.1875rem;
-    box-shadow: inset 0 0 0 0.125rem var(--fl-linkFgColor, var(--color-indigo-700));
+    box-shadow: inset 0 0 0 0.125rem
+        var(--fl-linkFgColor, var(--color-indigo-700));
 }
 
-.accordion__content {
-    padding-block-start: 1em;
-    padding-block-end: 2.1875rem;
+inclusive-disclosure [content] {
+    padding-block: 1em;
+    margin-block-end: 2.1875rem;
 }
 
-* + .accordion {
+* + inclusive-disclosure {
     margin-block-start: 1.25rem;
 }
