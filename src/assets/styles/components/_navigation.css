@@ -55,40 +55,22 @@ a[rel="home"] {
     }
 }
 
-.navigation__toggle {
+.navigation button.borderless {
     display: flex;
     gap: 0.625rem;
     align-items: center;
-    background-color: var(--fl-bgColor, var(--color-indigo-700));
-    color: var(--fl-linkFgColor, var(--color-white));
-    border: none;
     font-family: var(--family-sans-serif);
-    font-weight: var(--font-weight-normal);
+    font-weight: var(--font-weight-semibold);
     font-size: var(--step-0);
 }
 
-/* TODO: work on page wide button styles */
-
-.navigation__toggle:focus,
-.navigation__toggle:focus-visible {
-    border-radius: 0.3125rem;
-    outline-offset: 0.125rem;
-    outline: solid 0.125rem currentColor;
-}
-
-.navigation__toggle:hover {
-    background-color: var(--fl-linkFgColor, var(--color-yellow));
-    border-radius: 0.3125rem;
-    color: var(--fl-bgColor,var(--color-indigo-700));
-}
-
-.navigation__toggle[aria-expanded="false"] > .menu__expanded,
-.navigation__toggle[aria-expanded="true"] > .menu__collapsed {
+.navigation [aria-expanded="false"] > .menu__expanded,
+.navigation [aria-expanded="true"] > .menu__collapsed {
     display: none;
 }
 
-.navigation__toggle[aria-expanded="true"] > .menu__expanded,
-.navigation__toggle[aria-expanded="false"] > .menu__collapsed {
+.navigation [aria-expanded="true"] > .menu__expanded,
+.navigation [aria-expanded="false"] > .menu__collapsed {
     display: block;
 }
 
@@ -199,7 +181,7 @@ a[rel="home"] {
         padding-block: 0;
     }
 
-    .navigation__toggle {
+    .navigation button.borderless {
         display: none;
     }
 
