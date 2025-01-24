@@ -38,17 +38,54 @@
 
 .project nav,
 .project article {
-    padding-inline: var(--common-inline-padding);
     box-shadow: inset 0 -0.1875rem 0 0 var(--fl-fgColor, transparent);
 }
 
 .project nav {
     background-color: var(--fl-bgColor, var(--color-indigo-100));
-    padding-block: 1.25rem 3.125rem;
+}
+
+.project nav > h2 {
+    display: none;
+}
+
+.project nav inclusive-disclosure {
+    padding-inline: 0;
+}
+
+.project nav inclusive-disclosure > * {
+    padding-inline: var(--common-inline-padding);
+}
+
+.project nav inclusive-disclosure [aria-expanded] {
+    box-shadow: none;
+}
+
+.project nav inclusive-disclosure [aria-expanded]:after {
+    right: var(--common-inline-padding);
+}
+
+@media (width >= 70.875rem) {
+    .project nav > h2 {
+        display: block;
+    }
+
+    .project nav inclusive-disclosure > * {
+        padding-inline: 0;
+    }
+
+    .project nav inclusive-disclosure [aria-expanded] {
+        display: none;
+    }
+
+    .project nav inclusive-disclosure [aria-expanded] + * {
+        display: block;
+    }
 }
 
 .project article {
     padding-block: 2.125rem 5rem;
+    padding-inline: var(--common-inline-padding);
 }
 
 .project article > * {

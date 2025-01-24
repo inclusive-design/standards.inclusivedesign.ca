@@ -17,8 +17,15 @@
     <div class="content">
         <nav aria-labelledby="project-menu" class="flow">
             <h2 id="project-menu">{% __ 'project-menu' %}</h2>
-            <ul role="list" class="flow">
-            </ul>
+            <inclusive-disclosure>
+                <button aria-controls="{{ title | slugify }}-menu">
+                    <h2 id="project-menu-mobile">{% __ 'project-menu' %}</h2>
+                </button>
+                <div content id="{{ title | slugify }}-menu">
+                    <ul role="list" class="flow">
+                    </ul>
+                </div>
+            </inclusive-disclosure>
         </nav>
         <article class="flow">
         {{ content | safe }}

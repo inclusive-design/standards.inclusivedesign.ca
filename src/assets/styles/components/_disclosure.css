@@ -53,6 +53,14 @@ inclusive-disclosure [aria-expanded] {
     }
 }
 
+inclusive-disclosure [aria-expanded] + * {
+    display: none;
+}
+
+inclusive-disclosure [aria-expanded="true"] + * {
+    display: block;
+}
+
 inclusive-disclosure [aria-expanded="true"]::after {
     transform: rotate(180deg);
 }
