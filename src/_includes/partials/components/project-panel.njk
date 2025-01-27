@@ -1,0 +1,17 @@
+<div class="project-panel bg-{{ project.data.color }}">
+    {% if project.data.previewImage %}
+            <div class="project-panel__image">
+                <img src="{{ project.data.previewImage }}" alt="{{ project.data.previewImageAlt }}" />
+            </div>
+        {% endif %}
+        <div class="project-panel__content flow">
+            <h2>
+                <a class="project-panel__title" href="{{ project.url }}">
+                    {{ project.data.title | safe }}
+                </a>
+            </h2>
+            <div class="project-panel__body">
+                <p>{{ project.data.excerpt | safe }}</p>
+            </div>
+        </div>
+</div>
