@@ -13,6 +13,11 @@
     <section>
       <div class="wrapper flow">
         <h2>{% __ 'projects' %}</h2>
+        <div class="tags">
+        <button class="tag">{% include "svg/type.svg" %}Conference{% include "svg/remove.svg" %}</button>
+        <button class="tag">{% include "svg/project.svg" %}All Standards With Us{% include "svg/remove.svg" %}</button>
+        <button class="tag">{% include "svg/date.svg" %}Upcoming{% include "svg/remove.svg" %}</button>
+        </div>
         <div class="cards">
           {% set cardType = "project" %}
           {% for item in collections['projects_' + lang] %}
