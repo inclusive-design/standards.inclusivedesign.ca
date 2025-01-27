@@ -7,6 +7,7 @@ import footnotesPlugin from "eleventy-plugin-footnotes";
 import parse from "./src/_transforms/parse.js";
 
 export default function eleventy(eleventyConfig) {
+    eleventyConfig.addGlobalData("now", () => new Date());
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
     eleventyConfig.addPlugin(RenderPlugin);
     eleventyConfig.addPlugin(footnotesPlugin);
