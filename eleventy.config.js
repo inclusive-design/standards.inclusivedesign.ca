@@ -40,6 +40,10 @@ export default function eleventy(eleventyConfig) {
             return collection.getFilteredByGlob(`src/collections/events/${lang}/*.md`);
         });
 
+        eleventyConfig.addCollection(`resources_${lang}`, (collection) => {
+            return collection.getFilteredByGlob(`src/collections/resources/${lang}/*.md`);
+        });
+
         eleventyConfig.addCollection(`announcements_${lang}`, (collection) => {
             return collection.getFilteredByGlob(`src/announcements/announcements/${lang}/*.md`);
         });
