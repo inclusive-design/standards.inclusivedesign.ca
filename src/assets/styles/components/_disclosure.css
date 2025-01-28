@@ -14,8 +14,8 @@ inclusive-disclosure [aria-expanded] {
     color: var(--fl-linkFgColor, var(--color-indigo-700));
     display: flex;
     font-family: var(--family-display);
-    font-size: var(--step-2);
-    font-weight: var(--font-weight-semibold);
+    font-size: calc(var(--step-2) * var(--fl-enhance-font-size-factor, 1));
+    font-weight: var(--fl-enhance-font-weight, var(--font-weight-semibold));
     height: 5rem;
     padding-inline-end: 0.625;
     position: relative;
