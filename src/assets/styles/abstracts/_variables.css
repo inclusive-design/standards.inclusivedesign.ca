@@ -1,7 +1,5 @@
 :root {
     /** Typography **/
-    --family-sans-serif: "Source Sans 3", sans-serif;
-    --family-display: "Raleway", sans-serif;
     --font-weight-normal: 400;
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
@@ -40,4 +38,11 @@
     /** Paddings **/
     --common-inline-padding: clamp(1.875rem, 0.0536rem + 9.1071vw, 8.25rem);
     --common-block-padding: clamp(3.75rem, 3.3929rem + 1.7857vw, 5rem);
+}
+
+/* Font-family set on the body so that it will work with UIO */
+:where(body) {
+    /** Typography **/
+    --family-sans-serif: var(--fl-font-family, "Source Sans 3", sans-serif);
+    --family-display: var(--fl-font-family, "Raleway", sans-serif);
 }
