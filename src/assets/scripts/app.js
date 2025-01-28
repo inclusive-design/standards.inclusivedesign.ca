@@ -15,16 +15,13 @@ customElements.define(
             super();
 
             this.toggle = this.querySelector("[aria-controls]");
-            this.content = this.querySelector("[content]");
 
-            if (!this.toggle || !this.content) {
+            if (!this.toggle) {
                 return;
             }
 
             this.toggle.removeAttribute("hidden");
             this.toggle.setAttribute("aria-expanded", false);
-            this.content.setAttribute("hidden", "");
-
             this.toggle.addEventListener("click", this);
         }
 
@@ -32,10 +29,8 @@ customElements.define(
             event.preventDefault();
             if (this.toggle.getAttribute("aria-expanded") === "true") {
                 this.toggle.setAttribute("aria-expanded", false);
-                this.content.setAttribute("hidden", "");
             } else {
                 this.toggle.setAttribute("aria-expanded", true);
-                this.content.removeAttribute("hidden");
             }
         }
     }
