@@ -74,20 +74,11 @@ export default function eleventy(eleventyConfig) {
     */
     eleventyConfig.addShortcode("uioCustomInit", (locale, direction) => {
         let options = {
-            preferences: ["fluid.prefs.lineSpace", "fluid.prefs.textFont", "fluid.prefs.contrast", "fluid.prefs.tableOfContents", "fluid.prefs.enhanceInputs"],
+            preferences: ["fluid.prefs.lineSpace", "fluid.prefs.textFont", "fluid.prefs.contrast", "fluid.prefs.enhanceInputs"],
             auxiliarySchema: {
                 terms: {
                     templatePrefix: "/lib/infusion/src/framework/preferences/html",
                     messagePrefix: "/lib/infusion/src/framework/preferences/messages"
-                },
-                "fluid.prefs.tableOfContents": {
-                    enactor: {
-                        tocTemplate: "/lib/infusion/src/components/tableOfContents/html/TableOfContents.html",
-                        tocMessage: "/lib/infusion/src/framework/preferences/messages/tableOfContents-enactor.json",
-                        ignoreForToC: {
-                            ignoreClass: ".flc-toc-ignore"
-                        }
-                    }
                 }
             },
             prefsEditorLoader: {
