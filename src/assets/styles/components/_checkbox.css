@@ -1,58 +1,37 @@
-/* Custom checkboxes. Reference: https://codepen.io/spacemonkey/pen/vmZROv */
-.checkbox {
-    opacity: 0;
-    position: absolute;
-}
-
-.checkbox + label {
-    cursor: pointer;
-    display: flex;
-    padding: 0;
-    position: relative;
-}
-
-/* Box */
-.checkbox + label::before {
+[type="checkbox"] {
+    appearance: none;
     block-size: 1.25rem;
-    border: 0.0625rem solid var(--fl-fgColor, var(--color-indigo-700));
     border-radius: 0.1875rem;
-    content: "";
-    display: inline-block;
     inline-size: 1.25rem;
-    margin-block: auto;
-    margin-inline: 0 0.625rem;
-    vertical-align: text-top;
+    outline: 0.125rem solid var(--fl-fgColor, var(--color-white));
 }
 
-/* Checkmark */
-.checkbox:checked + label::after {
-    block-size: 0.125rem;
-    color: var(--fl-fgColor, var(--color-indigo-700));
-    content: "\2713";
-    display: inline-block;
-    font-family: system-ui;
-    font-size: var(--step-0);
-    inline-size: 0.125rem;
-    left: 0.125rem;
-    position: absolute;
-    top: -0.125rem;
+[type="checkbox"]:checked {
+    background-color: var(--fl-bgColor, var(--color-white));
 }
 
-.checkbox:active + label::after {
-    color: var(--fl-bgColor, var(--color-white));
+[type="checkbox"]:checked::after {
+    background-color: var(--fl-fgColor, var(--color-indigo-700));
+    block-size: 1.25rem;
+    content: "";
+    display: block;
+    inline-size: 1.25rem;
+    mask-image: url(/assets/images/checkMark.svg);
+    mask-position: center;
+    mask-repeat: no-repeat;
 }
 
-.checkbox:active + label::before {
+[type="checkbox"]:active {
     background-color: var(--fl-fgColor, var(--color-indigo-700));
 }
 
-.checkbox:focus + label::before {
-    border: 0.0625rem solid var(--fl-fgColor, var(--color-indigo-700));
+[type="checkbox"]:focus {
     box-shadow:
-        0 0 0 0.125rem var(--fl-bgColor, #fff),
-        0 0 0 0.25rem var(--fl-fgColor, var(--color-indigo-700));
+        inset 0 0 0 0.125rem var(--fl-fgColor, var(--color-white)),
+        0 0 0 0.125rem var(--fl-bgColor, var(--color-indigo-700)),
+        0 0 0 0.25rem var(--fl-fgColor, var(--color-white));
 }
 
-.checkbox:hover + label::before {
-    border: 0.1875rem solid var(--fl-fgColor, var(--color-indigo-700));
+[type="checkbox"]:hover {
+    outline: 0.1875rem solid var(--fl-fgColor, var(--color-white));
 }
