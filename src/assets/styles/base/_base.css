@@ -161,7 +161,7 @@ main section:last-of-type:not(:first-of-type) {
 
     a:hover img,
     a:hover:focus img,
-    a:hover:active img  {
+    a:hover:active img {
         filter: url("#brown") invert();
     }
 }
@@ -224,7 +224,7 @@ footer a:not([class]) {
 
 /* Buttons */
 
-button:not([class]),
+button:not([class]):not([aria-controls]),
 button.secondary,
 button.borderless {
     appearance: none;
@@ -243,7 +243,7 @@ button.borderless {
     }
 }
 
-button:not([class]) {
+button:not([class]):not([aria-controls]) {
     background-color: var(--fl-linkFgColor, var(--color-indigo-700));
     color: var(--fl-linkBgColor, var(--color-white));
 
@@ -257,14 +257,16 @@ button:not([class]) {
     &:active,
     &:active:hover {
         background-color: var(--fl-linkBgColor, var(--color-indigo-200));
-        box-shadow: inset 0 0 0 0.125rem var(--fl-linkFgColor, var(--color-indigo-700));
+        box-shadow: inset 0 0 0 0.125rem
+            var(--fl-linkFgColor, var(--color-indigo-700));
         color: var(--fl-linkFgColor, var(--color-indigo-700));
     }
 }
 
 button.secondary {
     background-color: var(--fl-linkBgColor, var(--color-light-grey));
-    box-shadow: inset 0 0 0 0.125rem var(--fl-linkFgColor, var(--color-indigo-700));
+    box-shadow: inset 0 0 0 0.125rem
+        var(--fl-linkFgColor, var(--color-indigo-700));
     color: var(--fl-linkFgColor, var(--color-indigo-700));
 
     &:hover,

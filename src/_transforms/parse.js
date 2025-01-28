@@ -53,7 +53,7 @@ export default (value, outputPath) => {
             }
         }
 
-        const pageNavHeadings = document.querySelectorAll("main:has(nav) h2");
+        const pageNavHeadings = document.querySelectorAll("main:has(nav) article h2");
         if (pageNavHeadings.length > 0) {
             const navContainer = document.querySelector("main nav ul");
             for (const heading of pageNavHeadings) {

@@ -15,11 +15,13 @@
 @import "./global/_header.css";
 
 /* Components */
-@import "./components/_accordion.css";
-@import "./components/_navigation.css";
+@import "./components/_badge.css";
 @import "./components/_card.css";
-@import "./components/_project-panel.css";
 @import "./components/_checkbox.css";
+@import "./components/_disclosure.css";
+@import "./components/_navigation.css";
+@import "./components/_project-panel.css";
+@import "./components/_tag.css";
 
 /* Collections */
 @import "./collections/_announcements.css";
