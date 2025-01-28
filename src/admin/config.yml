@@ -302,7 +302,7 @@ collections:
         name: title
         widget: string
         i18n: true
-      - label: Excerpt,
+      - label: Excerpt
         name: excerpt
         widget: text
         i18n: true
@@ -383,7 +383,7 @@ collections:
     icon: sell
     i18n: true
     folder: src/collections/topics
-    extension: yml
+    extension: md
     create: true
     fields:
       - label: Title

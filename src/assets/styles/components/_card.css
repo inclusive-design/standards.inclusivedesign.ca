@@ -99,6 +99,17 @@
     border-left: 0.05rem solid var(--fl-fgColor, var(--color-yellow));
 }
 
+.card svg {
+    stroke: currentColor;
+}
+
+.card *:has(> svg) {
+    align-items: center;
+    display: flex;
+    gap: 0.75rem;
+    width: 100%;
+}
+
 @media (width >= 24.25rem) {
     .cards {
         margin-inline: auto;

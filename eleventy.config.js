@@ -4,6 +4,7 @@ import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import brokenLinksPlugin from "eleventy-plugin-broken-links";
 import fluidPlugin from "eleventy-plugin-fluid";
 import footnotesPlugin from "eleventy-plugin-footnotes";
+import _ from "lodash";
 import parse from "./src/_transforms/parse.js";
 
 export default function eleventy(eleventyConfig) {
@@ -45,8 +46,16 @@ export default function eleventy(eleventyConfig) {
         });
 
         eleventyConfig.addCollection(`announcements_${lang}`, (collection) => {
-            return collection.getFilteredByGlob(`src/announcements/announcements/${lang}/*.md`);
+            return collection.getFilteredByGlob(`src/collections/announcements/${lang}/*.md`);
         });
+
+        eleventyConfig.addCollection(`topics_${lang}`, (collection) => {
+            return collection.getFilteredByGlob(`src/collections/topics/${lang}/*.md`);
+        });
+    });
+
+    eleventyConfig.addFilter("find", function find(collection = [], key = "", value) {
+        return collection.find((post) => _.get(post, key) === value);
     });
 
     eleventyConfig.addFilter("findTranslation", function find(page, collection = [], lang, desiredLang) {
