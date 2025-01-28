@@ -1,0 +1,25 @@
+<div class="card bg-yellow">
+        {% if event.data.previewImage %}
+            <div class="card__image">
+                <img src="{{ event.data.previewImage }}" alt="{{ event.data.previewImageAlt }}" />
+            </div>
+        {% endif %}
+        <div class="card__content">
+            <h3>
+                <a class="card__title" href="{{ event.url }}">
+                    {{ event.data.title | safe }}
+                </a>
+            </h3>
+            {% if now < event.data.date %}
+            <div class="card__event-status">
+                <div class="badge">{% __ 'upcoming' %}</div>
+            </div>
+            {% endif %}
+            <div class="card__date">
+                <p>{{ event.data.date | formatDate }}</p>
+            </div>
+            <div class="card__body">
+                <p>{{ event.data.excerpt | safe }}</p>
+            </div>
+        </div>
+</div>

@@ -11,13 +11,7 @@
                 {{ params.title | safe }}
             </a>
         </h3>
-        {% if cardType === "event" %}
-            <div class="card__event-status">
-                {% include 'svg/eventTag.svg' %}
-                <p>{{ params.eventStatus | safe }}</p>
-            </div>
-        {% endif %}
-        {% if cardType === "event" or cardType === "news" %}
+        {% if cardType === "news" %}
             <div class="card__date">
                 <p>{{ params.date }}</p>
             </div>

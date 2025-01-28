@@ -9,8 +9,8 @@
         <h2>{% __ 'projects' %}</h2>
         <div class="cards">
           {% set cardType = "project" %}
-          {% for item in collections['projects_' + lang] %}
-            {{ card({image: item.data.image, title: item.data.title, body: item.data.excerpt, color: item.data.color, url: item.data.permalink }) }}
+          {% for project in collections['projects_' + lang] %}
+            {% include "partials/components/card--project.njk" %}
           {% endfor %}
         </div>
         </div>

@@ -7,6 +7,7 @@ import footnotesPlugin from "eleventy-plugin-footnotes";
 import parse from "./src/_transforms/parse.js";
 
 export default function eleventy(eleventyConfig) {
+    eleventyConfig.addGlobalData("now", () => new Date());
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
     eleventyConfig.addPlugin(RenderPlugin);
     eleventyConfig.addPlugin(footnotesPlugin);
@@ -37,6 +38,10 @@ export default function eleventy(eleventyConfig) {
 
         eleventyConfig.addCollection(`events_${lang}`, (collection) => {
             return collection.getFilteredByGlob(`src/collections/events/${lang}/*.md`);
+        });
+
+        eleventyConfig.addCollection(`resources_${lang}`, (collection) => {
+            return collection.getFilteredByGlob(`src/collections/resources/${lang}/*.md`);
         });
 
         eleventyConfig.addCollection(`announcements_${lang}`, (collection) => {
