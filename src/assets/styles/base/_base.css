@@ -79,6 +79,12 @@ main section:last-of-type:not(:first-of-type) {
     color: var(--fl-fgColor, white);
 }
 
+/* Selection */
+::selection {
+    background-color: var(--fl-selectedBgColor, highlight);
+    color: var(--fl-selectedFgColor, highlighttext);
+}
+
 /* Image Theming */
 .fl-theme-bw,
 .fl-theme-wb,
