@@ -50,9 +50,8 @@
       <div class="wrapper flow">
         <h2>{% __ 'announcements' %}</h2>
         <div class="cards">
-          {% set cardType = "news" %}
-          {% for item in collections['announcements_' + lang] %}
-            {{ card({image: item.data.image, title: item.data.title, body: item.data.excerpt, url: item.data.permalink }) }}
+          {% for announcement in collections['announcements_' + lang] %}
+              {% include "partials/components/card--announcement.njk" %}
           {% endfor %}
         </div>
       </div>

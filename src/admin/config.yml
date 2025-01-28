@@ -331,6 +331,7 @@ collections:
         search_fields: [title]
         display_fields: [title]
         required: false
+        multiple: true
         i18n: duplicate
       - label: Body
         name: body
