@@ -37,6 +37,6 @@
     {% endblock %}
   </main>
   {% include "partials/global/footer.njk" %}
-  {% uioInit lang %}
+  {% uioCustomInit lang, supportedLanguages[lang].dir %}
 </body>
 </html>

@@ -23,6 +23,8 @@ button.tag {
     background-color: var(--fl-linkBgColor, var(--color-light-grey));
     box-shadow: inset 0 0 0 0.125rem var(--fl-linkFgColor, var(--color-indigo-700));
     color: var(--fl-linkFgColor, var(--color-indigo-700));
+    font-size: var(--fl-enhance-font-size);
+    font-weight: var(--fl-enhance-font-weight, var(--font-weight-medium));
     padding-block: 0;
 
     svg.remove {
