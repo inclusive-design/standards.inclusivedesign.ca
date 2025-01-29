@@ -1,5 +1,4 @@
 {% extends "layouts/base.njk" %}
-{% from "partials/components/card.macro.njk" import card %}
 
 {% block banner %}
     <h1>{% __ 'site-title' %}</h1>
@@ -14,10 +13,9 @@
       <div class="wrapper flow">
         <h2>{% __ 'projects' %}</h2>
         <div class="cards">
-          {% set cardType = "project" %}
-          {% for item in collections['projects_' + lang] %}
-            {{ card({image: item.data.image, title: item.data.title, body: item.data.excerpt, color: item.data.color, url: item.data.permalink }) }}
-          {% endfor %}
+        {% for project in collections['projects_' + lang] %}
+          {% include "partials/components/card--project.njk" %}
+        {% endfor %}
         </div>
       </div>
     </section>
@@ -27,10 +25,9 @@
       <div class="wrapper flow">
         <h2>{% __ 'events' %}</h2>
         <div class="cards">
-          {% set cardType = "event" %}
-          {% for item in collections['events_' + lang] %}
-            {{ card({image: item.data.image, title: item.data.title, body: item.data.excerpt, url: item.data.permalink }) }}
-          {% endfor %}
+        {% for event in collections['events_' + lang] %}
+          {% include "partials/components/card--event.njk" %}
+        {% endfor %}
         </div>
       </div>
     </section>
@@ -40,9 +37,8 @@
       <div class="wrapper flow">
         <h2>{% __ 'resources' %}</h2>
         <div class="cards">
-          {% set cardType = "resource" %}
-          {% for item in collections['resources_' + lang] %}
-            {{ card({image: item.data.image, title: item.data.title, body: item.data.excerpt, url: item.data.permalink }) }}
+          {% for resource in collections['resources_' + lang] %}
+              {% include "partials/components/card--resource.njk" %}
           {% endfor %}
         </div>
       </div>
@@ -53,9 +49,8 @@
       <div class="wrapper flow">
         <h2>{% __ 'announcements' %}</h2>
         <div class="cards">
-          {% set cardType = "news" %}
-          {% for item in collections['announcements_' + lang] %}
-            {{ card({image: item.data.image, title: item.data.title, body: item.data.excerpt, url: item.data.permalink }) }}
+          {% for announcement in collections['announcements_' + lang] %}
+              {% include "partials/components/card--announcement.njk" %}
           {% endfor %}
         </div>
       </div>

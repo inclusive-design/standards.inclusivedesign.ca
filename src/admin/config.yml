@@ -161,7 +161,7 @@ collections:
         name: excerpt
         widget: text
         i18n: true
-        required: false
+        required: true
       - label: Date
         name: date
         widget: datetime
@@ -302,7 +302,7 @@ collections:
         name: title
         widget: string
         i18n: true
-      - label: Excerpt,
+      - label: Excerpt
         name: excerpt
         widget: text
         i18n: true
@@ -331,6 +331,7 @@ collections:
         search_fields: [title]
         display_fields: [title]
         required: false
+        multiple: true
         i18n: duplicate
       - label: Body
         name: body
@@ -383,7 +384,7 @@ collections:
     icon: sell
     i18n: true
     folder: src/collections/topics
-    extension: yml
+    extension: md
     create: true
     fields:
       - label: Title

@@ -1,0 +1,17 @@
+<div class="card bg-{{ project.data.color }}">
+    {% if project.data.previewImage %}
+        <div class="card__image">
+            <img src="{{ project.data.previewImage }}" alt="{{ project.data.previewImageAlt }}" />
+        </div>
+    {% endif %}
+    <div class="card__content">
+        <h3>
+            <a class="card__title" href="{{ project.url }}">
+                {{ project.data.title | safe }}
+            </a>
+        </h3>
+        <div class="card__body">
+            <p>{{ project.data.excerpt | safe }}</p>
+        </div>
+    </div>
+</div>

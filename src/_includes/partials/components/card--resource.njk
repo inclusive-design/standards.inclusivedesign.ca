@@ -1,0 +1,29 @@
+<div class="card">
+    <div class="card__content">
+        <h3>
+            <a class="card__title" href="{{ resource.url }}">
+                {{ resource.data.title | safe }}
+            </a>
+        </h3>
+        <div class="card__publisher">
+            <p>{{ resource.data.author }}{% if resource.data.author and resource.data.publisher %} | {% endif %}{{ resource.data.publisher }}</p>
+        </div>
+        <div class="card__body">
+            <p>{{ resource.templateContent | safe }}</p>
+        </div>
+        <div class="card__resource-type">
+            {% include "svg/type.svg" %} {% __ resource.data.type %}
+        </div>
+        <div class="card__resource-date">
+            {% include "svg/date.svg" %} {{ resource.data.date | formatDate }}
+        </div>
+        {% if resource.data.topics.length > 0 %}
+        <div class="card__tags tags">
+            {% for topicId in resource.data.topics %}
+            {% set topic = collections['topics_' + lang] | find("data.uuid", topicId) %}
+            <div class="tag">{{ topic.data.title }}</div>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+</div>
