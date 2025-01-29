@@ -7,7 +7,6 @@
       <div class="wrapper flow">
         <h2>{% __ 'projects' %}</h2>
         <div class="cards">
-          {% set cardType = "project" %}
           {% for project in collections['projects_' + lang] %}
             {% include "partials/components/card--project.njk" %}
           {% endfor %}
