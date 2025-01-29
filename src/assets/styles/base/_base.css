@@ -179,7 +179,7 @@ a:not([class]) {
     color: var(--fl-linkFgColor, currentColor);
     font-size: var(--fl-enhance-font-size);
     font-weight: var(--fl-enhance-font-weight, var(--font-weight-semibold));
-    text-decoration: var(--fl-enhance-text-decoration);
+    text-decoration: var(--fl-enhance-text-decoration, revert);
 
     &:hover {
         background-color: var(--fl-linkFgColor, var(--color-yellow));
