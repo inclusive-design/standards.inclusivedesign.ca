@@ -1,0 +1,55 @@
+.pagination {
+    padding-block: 2.5rem;
+    text-align: center;
+    inline-size: 75%;
+    margin-inline: auto;
+}
+
+.pagination ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding-inline: 1.5rem;
+}
+
+.pagination a {
+    align-items: center;
+    block-size: 2rem;
+    color: var(--fl-linkFgColor);
+    display: flex;
+    flex-direction: row;
+    inline-size: 1.5rem;
+    justify-content: center;
+    margin-inline: 0.25rem;
+    text-decoration: underline;
+    vertical-align: middle;
+}
+
+.pagination::after {
+    display: none;
+}
+
+.pagination a[aria-current="page"] {
+    background: var(--fl-linkFgColor, var(--color-indigo-700));
+    color: var(--fl-linkBgColor, var(--color-white));
+}
+
+.pagination a:hover,
+.pagination a:focus {
+    background: var(--fl-linkFgColor, var(--color-indigo-700));
+    color: var(--fl-linkBgColor, var(--color-white));
+    outline: unset;
+}
+
+.pagination svg {
+    block-size: 1.5rem;
+    inline-size: 1.5rem;
+}
+
+@media (width >= 70.875rem) {
+    .pagination {
+        inline-size: 50%;
+        padding-block: 5rem;
+    }
+}
