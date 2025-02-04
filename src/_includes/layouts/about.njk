@@ -2,10 +2,6 @@
 
 {% block content %}
 {{ content | safe }}
-<div>
-  <input type="checkbox" id="id" name="name">
-  <label for="id">checkbox</label>
-</div>
 {% if collections['projects_' + lang].length > 0 %}
     <section>
       <div class="wrapper flow">
