@@ -1,0 +1,28 @@
+<div class="card card--announcement bg-green">
+    {% if announcement.data.previewImage %}
+    <div class="card__image">
+        <img src="{{ announcement.data.previewImage }}" alt="{{ announcement.data.previewImageAlt }}" />
+    </div>
+    {% endif %}
+    <div class="card__content">
+        <h3>
+            <a class="card__title" href="{{ announcement.url }}">
+                {{ announcement.data.title | safe }}
+            </a>
+        </h3>
+        <div class="card__announcement-date">
+            {{ announcement.data.date | formatDate }}
+        </div>
+        <div class="card__body">
+            <p>{{ announcement.data.excerpt | safe }}</p>
+        </div>
+        {% if announcement.data.topics.length > 0 %}
+        <div class="card__tags tags">
+            {% for topicId in announcement.data.topics %}
+            {% set topic = collections['topics_' + lang] | find("data.uuid", topicId) %}
+            <div class="tag">{{ topic.data.title }}</div>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+</div>

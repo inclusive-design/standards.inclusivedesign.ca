@@ -18,5 +18,12 @@
   "site-title": "Normes<br /><strong>inclusives</strong>",
   "no-projects": "Aucun projet trouvé.",
   "filters": "Filtres",
-  "applied-filters": "Filtres appliqués"
+  "applied-filters": "Filtres appliqués",
+  "upcoming": "À venir",
+  "blog": "Blogue",
+  "video": "Vidéo",
+  "podcast": "Balado",
+  "guide-or-toolkit": "Guide ou boîte à outils",
+  "document": "Document",
+  "other": "Autre"
 }

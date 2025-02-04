@@ -15,8 +15,9 @@ a.skip {
     justify-content: center;
     background: var(--fl-linkBgColor, var(--color-yellow));
     color: var(--fl-linkFgColor, var(--color-black));
-    text-decoration: none;
-    font-weight: var(--font-weight-semibold);
+    text-decoration: var(--fl-enhance-text-decoration, none);
+    font-size: var(--fl-enhance-font-size);
+    font-weight: var(--fl-enhance-font-weight, var(--font-weight-semibold));
     display: flex;
     padding-block: 0.625rem;
     padding-inline: 1.875rem;
@@ -47,8 +48,9 @@ a[rel="home"] {
     text-decoration: none;
     text-transform: lowercase;
     font-family: var(--family-display);
-    font-size: clamp(1.125rem, 1.0179rem + 0.5357vw, 1.5rem);
-    font-weight: var(--font-weight-medium);
+    font-size: calc(var(--fl-enhance-font-size-factor, 1) * clamp(1.125rem, 1.0179rem + 0.5357vw, 1.5rem));
+    font-weight: var(--fl-enhance-font-weight, var(--font-weight-medium));
+    text-decoration: var(--fl-enhance-text-decoration);
 
     strong {
         font-weight: var(--font-weight-extrabold);
@@ -60,8 +62,8 @@ a[rel="home"] {
     gap: 0.625rem;
     align-items: center;
     font-family: var(--family-sans-serif);
-    font-weight: var(--font-weight-semibold);
-    font-size: var(--step-0);
+    font-size: calc(var(--fl-enhance-font-size-factor, 1) * var(--step-0));
+    font-weight: var(--fl-enhance-font-weight, var(--font-weight-semibold));
 }
 
 .navigation [aria-expanded="false"] > .menu__expanded,
@@ -100,11 +102,11 @@ a[rel="home"] {
     block-size: 3.75rem;
     color: var(--fl-linkFgColor, var(--color-white));
     display: flex;
-    font-size: var(--step-0);
-    font-weight: var(--font-weight-semibold);
+    font-size: calc(var(--fl-enhance-font-size-factor, 1) * var(--step-0));
+    font-weight: var(--fl-enhance-font-weight, var(--font-weight-semibold));
     padding-block: 0.625rem;
     padding-inline: var(--common-inline-padding);
-    text-decoration: none;
+    text-decoration: var(--fl-enhance-text-decoration, none);
 
     &[aria-current="page"] {
         background-color: var(--fl-bgColor, var(--color-indigo-800));
@@ -152,6 +154,9 @@ a[rel="home"] {
         max-width: 31.25em;
         top: -5.625rem;
         position: absolute;
+        font-size: var(--fl-enhance-font-size);
+        font-weight: var(--fl-enhance-font-weight);
+        text-decoration: var(--fl-enhance-text-decoration);
 
         &:focus {
             top: 0;

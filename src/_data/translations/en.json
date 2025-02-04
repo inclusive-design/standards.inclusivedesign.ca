@@ -18,5 +18,12 @@
   "site-title": "<strong>Inclusive</strong><br />Standards",
   "no-projects": "No projects found.",
   "filters": "Filters",
-  "applied-filters": "Applied Filters"
+  "applied-filters": "Applied Filters",
+  "upcoming": "Upcoming",
+  "blog": "Blog",
+  "video": "Video",
+  "podcast": "Podcast",
+  "guide-or-toolkit": "Guide or toolkit",
+  "document": "Document",
+  "other": "Other"
 }

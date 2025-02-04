@@ -5,8 +5,12 @@
     box-shadow:
         0 0.625rem 1.25rem 0 var(--shadow-light),
         inset 0 0 0 0.1875rem var(--fl-fgColor, transparent);
-    padding-top: 2.5rem;
+    padding-block-start: 2.5rem;
     position: relative;
+}
+
+.card.card--announcement {
+    padding-block-start: 0.375rem;
 }
 
 .card:has(a:focus) {
@@ -97,6 +101,17 @@
     position: relative;
     padding-inline: 0.5rem;
     border-left: 0.05rem solid var(--fl-fgColor, var(--color-yellow));
+}
+
+.card svg {
+    stroke: currentColor;
+}
+
+.card *:has(> svg) {
+    align-items: center;
+    display: flex;
+    gap: 0.75rem;
+    width: 100%;
 }
 
 @media (width >= 24.25rem) {

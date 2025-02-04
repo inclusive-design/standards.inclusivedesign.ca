@@ -4,9 +4,11 @@ import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import brokenLinksPlugin from "eleventy-plugin-broken-links";
 import fluidPlugin from "eleventy-plugin-fluid";
 import footnotesPlugin from "eleventy-plugin-footnotes";
+import _ from "lodash";
 import parse from "./src/_transforms/parse.js";
 
 export default function eleventy(eleventyConfig) {
+    eleventyConfig.addGlobalData("now", () => new Date());
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
     eleventyConfig.addPlugin(RenderPlugin);
     eleventyConfig.addPlugin(footnotesPlugin);
@@ -39,9 +41,21 @@ export default function eleventy(eleventyConfig) {
             return collection.getFilteredByGlob(`src/collections/events/${lang}/*.md`);
         });
 
-        eleventyConfig.addCollection(`announcements_${lang}`, (collection) => {
-            return collection.getFilteredByGlob(`src/announcements/announcements/${lang}/*.md`);
+        eleventyConfig.addCollection(`resources_${lang}`, (collection) => {
+            return collection.getFilteredByGlob(`src/collections/resources/${lang}/*.md`);
         });
+
+        eleventyConfig.addCollection(`announcements_${lang}`, (collection) => {
+            return collection.getFilteredByGlob(`src/collections/announcements/${lang}/*.md`);
+        });
+
+        eleventyConfig.addCollection(`topics_${lang}`, (collection) => {
+            return collection.getFilteredByGlob(`src/collections/topics/${lang}/*.md`);
+        });
+    });
+
+    eleventyConfig.addFilter("find", function find(collection = [], key = "", value) {
+        return collection.find((post) => _.get(post, key) === value);
     });
 
     eleventyConfig.addFilter("findTranslation", function find(page, collection = [], lang, desiredLang) {
@@ -66,6 +80,29 @@ export default function eleventy(eleventyConfig) {
         <button aria-controls="${contentId}">${label}</button>
         <div content id="${contentId}">${renderedContent}</div>
       </inclusive-disclosure>`;
+    });
+
+    /*
+        Provide a custom duplicate of eleventy-plugin-fluid's uioInit shortcode in
+        order to run it without the text-size preference.
+    */
+    eleventyConfig.addShortcode("uioCustomInit", (locale, direction) => {
+        let options = {
+            preferences: ["fluid.prefs.lineSpace", "fluid.prefs.textFont", "fluid.prefs.contrast", "fluid.prefs.enhanceInputs"],
+            auxiliarySchema: {
+                terms: {
+                    templatePrefix: "/lib/infusion/src/framework/preferences/html",
+                    messagePrefix: "/lib/infusion/src/framework/preferences/messages"
+                }
+            },
+            prefsEditorLoader: {
+                lazyLoad: true
+            },
+            locale: locale,
+            direction: direction
+        };
+
+        return `<script>fluid.uiOptions.multilingual(".flc-prefsEditor-separatedPanel", ${JSON.stringify(options)});</script>`;
     });
 
     eleventyConfig.addTransform("parse", parse);

@@ -20,6 +20,10 @@ h3,
     font-size: var(--step-3);
 }
 
+.project nav inclusive-disclosure h2 {
+    font-size: calc(var(--step-3) * var(--fl-enhance-font-size-factor, 1));
+}
+
 h4,
 .card h3,
 footer h2 {

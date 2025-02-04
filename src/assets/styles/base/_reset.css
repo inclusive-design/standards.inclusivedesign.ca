@@ -41,7 +41,7 @@ h3,
 button,
 input,
 label {
-    line-height: 1.4;
+    line-height: calc(1.4 * var(--fl-lineSpace-factor, 1));
 }
 
 h1,
