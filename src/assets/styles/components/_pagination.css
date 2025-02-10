@@ -15,14 +15,17 @@
 
 .pagination a {
     align-items: center;
-    block-size: 2rem;
-    color: var(--fl-linkFgColor);
+    block-size: calc(2.5rem * var(--fl-enhance-font-size-factor, 1));
+    border-radius: 0.25rem;
+    border: calc(0.0625rem * var(--fl-enhance-font-size-factor, 1)) solid var(--fl-linkFgColor,  var(--color-light-grey));
+    color: var(--fl-linkFgColor, var(--color-black));
     display: flex;
     flex-direction: row;
-    inline-size: 1.5rem;
+    font-size: var(--fl-enhance-font-size, var(--step--1));
+    inline-size: calc(2.5rem * var(--fl-enhance-font-size-factor, 1));
     justify-content: center;
     margin-inline: 0.25rem;
-    text-decoration: underline;
+    text-decoration: none;
     vertical-align: middle;
 }
 
@@ -31,20 +34,32 @@
 }
 
 .pagination a[aria-current="page"] {
-    background: var(--fl-linkFgColor, var(--color-indigo-700));
-    color: var(--fl-linkBgColor, var(--color-white));
+    background: var(--fl-linkFgColor, var(--color-indigo-200));
+    border-color: var(--fl-linkBgColor, var(--color-indigo-700));
+    color: var(--fl-linkBgColor, var(--color-indigo-700));
 }
 
-.pagination a:hover,
 .pagination a:focus {
     background: var(--fl-linkFgColor, var(--color-indigo-700));
+    border-color: var(--fl-linkFgColor, transparent);
+    box-shadow: 
+        0 0 0 calc(0.125rem * var(--fl-enhance-font-size-factor, 1)) var(--fl-linkBgColor, var(--color-white)),
+        0 0 0 calc(0.25rem * var(--fl-enhance-font-size-factor, 1)) var(--fl-linkFgColor, var(--color-indigo-700));
     color: var(--fl-linkBgColor, var(--color-white));
     outline: unset;
 }
 
+.pagination a:hover {
+    box-shadow: inset 0 0 0 calc(0.1875rem * var(--fl-enhance-font-size-factor, 1)) var(--fl-linkFgColor, var(--color-light-grey));
+}
+
+.pagination a[aria-current="page"]:hover {
+    box-shadow: inset 0 0 0 calc(0.1875rem * var(--fl-enhance-font-size-factor, 1)) var(--fl-linkBgColor, var(--color-indigo-700));
+}
+
 .pagination svg {
-    block-size: 1.5rem;
-    inline-size: 1.5rem;
+    block-size: calc(1.5rem * var(--fl-enhance-font-size-factor, 1));
+    inline-size: calc(1.5rem * var(--fl-enhance-font-size-factor, 1));
 }
 
 @media (width >= 70.875rem) {
