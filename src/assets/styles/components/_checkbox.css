@@ -14,8 +14,8 @@
 }
 
 [type="checkbox"] + label {
-    font-size: var(--fl-enhance-font-size, --step--1);
-    font-weight: var(--fl-enhance-font-weight, --font-weight-medium);
+    font-size: var(--fl-enhance-font-size, var(--step--1));
+    font-weight: var(--fl-enhance-font-weight, var(--font-weight-medium));
 }
 
 [type="checkbox"]:checked {
