@@ -22,6 +22,7 @@
     --color-orange: hsla(25, 76%, 64%, 1);
     --color-red: hsla(359, 64%, 63%, 1);
     --color-dark-grey: hsla(0, 0%, 12%, 1);
+    --color-light-dark-grey: hsla(0, 0%, 31%, 1);
     --color-light-grey: hsla(0, 0%, 95%, 1);
 
     --shadow-light: hsla(244, 93%, 22%, 0.15);
