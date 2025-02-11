@@ -25,7 +25,7 @@ jobs:
         id: crowdin
         with:
           upload_sources: true
-          upload_translations: false
+          upload_translations: true
           download_translations: true
           localization_branch_name: chore/l10n
           create_pull_request: true
