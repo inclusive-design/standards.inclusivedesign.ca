@@ -1,5 +1,31 @@
 # Changelog
 
+## [1.1.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.0.1...v1.1.0) (2025-02-12)
+
+
+### Features
+
+* add badges and tags (resolves [#136](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/136), resolves [#137](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/137), resolves [#138](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/138)) ([#145](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/145)) ([febf2aa](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/febf2aa739f7e829455e8d82cf508af62d772179))
+* add project slug field ([#125](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/125)) ([61fd1bd](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/61fd1bd12a37a9eaf469cdeb421df22794c21687))
+* button styles (resolves [#56](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/56)) ([#133](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/133)) ([79e438d](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/79e438db169a630142f5415238edd0ab4f204f3e))
+* collapsible sections (resolves [#58](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/58)) ([#134](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/134)) ([5f200af](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/5f200af2e8bc6628c41b445e2dc55313ea013741))
+* configure CMS for announcements, events and resources ([#127](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/127)) ([0845d6e](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/0845d6e3d50afcdc4a8f83da309ca77c820ed9b7))
+* configure Crowdin (resolves [#88](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/88)) ([#104](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/104)) ([33525da](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/33525daba0d215a3c4c5b833a2dbaf12a88b248f))
+* mobile navigation sidebar menu ([#142](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/142)) ([7c79024](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/7c79024ae7a0b2955d648ec5863a1c2811def38c))
+* replace macros with includes (resolves [#146](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/146)) ([#147](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/147)) ([f00155d](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/f00155df6888a9ced06b7de551b7d5859e3f2ecc))
+* use custom element for disclosure component ([#141](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/141)) ([c877adb](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/c877adb65f7a937532b98cd8ed23927108286c0f))
+
+
+### Bug Fixes
+
+* allow content to be saved without a translation ([#131](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/131)) ([07650c9](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/07650c9e3357bd1738291a92ec8c6e4785e9f1ef))
+* banner max width issue ([#114](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/114)) ([e8919d2](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/e8919d2b50812ebc0098c8c85651cdf82cffdbed))
+* complete UIO implementation (resolves [#149](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/149)) ([#150](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/150)) ([8aac85e](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/8aac85e8b344b34f1cb86a2ef893053afe2fc65b))
+* full bleed navigation background for project sidebar ([#124](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/124)) ([601073f](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/601073f9f356d4c07bf3f239e22e88639903055b))
+* link interaction styles (resolves [#126](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/126)) ([#132](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/132)) ([7f89163](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/7f891637aacfb676ff9ecdc72851d12118ab3fd2))
+* resolve duplicated banner on single projects ([#159](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/159)) ([cee19e1](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/cee19e1c4e2a5e47a93121f9933ed9dbf77a1bb4))
+* resolve header style issues ([#115](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/115)) ([7c7fcae](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/7c7fcae02137cc96892128237f8c3bd1b47c53e3))
+
 ## [1.0.1](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.0.0...v1.0.1) (2025-01-20)
 
 
