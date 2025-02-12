@@ -1,8 +1,8 @@
 ---
 title: Projets
-excerpt: Projets présentent tous les projets de normes inclusives actuellement étudiés par l’IDRC.
+excerpt: Travaux de l’IDRC liés aux normes inclusives.
 order: 2
-bannerText: Projets présentent tous les projets de normes inclusives actuellement étudiés par l’IDRC.
+bannerText: Travaux de l’IDRC liés aux normes inclusives.
 bannerImageAltText: ''
 layout: layouts/projects
 ---
