@@ -1,4 +1,4 @@
-*:has(> [type="checkbox"]){
+*:has(> [type="checkbox"]) {
     display: flex;
     gap: calc(0.375rem * var(--fl-enhance-font-size-factor, 1));
     align-items: center;
@@ -8,7 +8,9 @@
     appearance: none;
     block-size: calc(1.25rem * var(--fl-enhance-font-size-factor, 1));
     border-radius: 0.1875rem;
-    box-shadow: inset 0 0 0 calc(0.125rem * var(--fl-enhance-font-size-factor, 1)) var(--fl-fgColor, var(--color-indigo-700));
+    box-shadow: inset 0 0 0
+        calc(0.125rem * var(--fl-enhance-font-size-factor, 1))
+        var(--fl-fgColor, var(--color-indigo-700));
     inline-size: calc(1.25rem * var(--fl-enhance-font-size-factor, 1));
     outline: 1px solid transparent;
 }
@@ -33,28 +35,28 @@
     mask-repeat: no-repeat;
 }
 
-[type="checkbox"]:checked:active::after {
-    background-color: var(--fl-bgColor, var(--color-indigo-700));
-}
-
-[type="checkbox"]:active {
-    background-color: var(--fl-fgColor, var(--color-indigo-200));
-}
-
-[type="checkbox"]:focus {
-    background-color: var(--fl-bgColor, var(--color-indigo-200));
-    box-shadow:
-        inset 0 0 0 calc(0.125rem * var(--fl-enhance-font-size-factor, 1)) var(--fl-fgColor, var(--color-indigo-700)),
-        0 0 0 0.0625rem var(--fl-bgColor, var(--color-white)),
-        0 0 0 calc(0.1875rem * var(--fl-enhance-font-size-factor, 1)) var(--fl-fgColor, var(--color-indigo-700));
-}
-
 [type="checkbox"]:hover {
     background-color: transparent;
+}
+
+[type="checkbox"]:hover,
+[type="checkbox"]:focus {
     box-shadow:
-        inset 0 0 0 calc(0.125rem * var(--fl-enhance-font-size-factor, 1)) var(--fl-fgColor, var(--color-indigo-700)),
+        inset 0 0 0 calc(0.125rem * var(--fl-enhance-font-size-factor, 1))
+            var(--fl-fgColor, var(--color-indigo-700)),
         0 0 0 0.0625rem var(--fl-bgColor, var(--color-white)),
-        0 0 0 calc(0.1875rem * var(--fl-enhance-font-size-factor, 1)) var(--fl-fgColor, var(--color-indigo-700));
+        0 0 0 calc(0.1875rem * var(--fl-enhance-font-size-factor, 1))
+            var(--fl-fgColor, var(--color-indigo-700));
+}
+
+[type="checkbox"]:focus,
+[type="checkbox"]:focus:hover {
+    background-color: var(--fl-bgColor, var(--color-indigo-200));
+}
+
+[type="checkbox"]:active,
+[type="checkbox"]:active:hover {
+    background-color: var(--fl-fgColor, var(--color-indigo-200));
 }
 
 [type="checkbox"]:checked:hover,
@@ -63,8 +65,14 @@
 }
 
 [type="checkbox"]:checked:focus {
-    box-shadow: 
-        inset 0 0 0 calc(0.125rem * var(--fl-enhance-font-size-factor, 1)) var(--fl-fgColor, var(--color-indigo-700)),
+    box-shadow:
+        inset 0 0 0 calc(0.125rem * var(--fl-enhance-font-size-factor, 1))
+            var(--fl-fgColor, var(--color-indigo-700)),
         0 0 0 0.0625rem var(--fl-bgColor, var(--color-white)),
-        0 0 0 calc(0.25rem * var(--fl-enhance-font-size-factor, 1)) var(--fl-fgColor, var(--color-indigo-700));
+        0 0 0 calc(0.25rem * var(--fl-enhance-font-size-factor, 1))
+            var(--fl-fgColor, var(--color-indigo-700));
+}
+
+[type="checkbox"]:checked:active::after {
+    background-color: var(--fl-bgColor, var(--color-indigo-700));
 }
