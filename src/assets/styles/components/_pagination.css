@@ -17,7 +17,7 @@
     align-items: center;
     block-size: calc(2.5rem * var(--fl-enhance-font-size-factor, 1));
     border-radius: 0.25rem;
-    border: calc(0.0625rem * var(--fl-enhance-font-size-factor, 1)) solid var(--fl-linkFgColor,  var(--color-light-dark-grey));
+    border: 0.0625rem solid var(--fl-linkFgColor,  var(--color-light-dark-grey));
     color: var(--fl-linkFgColor, var(--color-black));
     display: flex;
     flex-direction: row;
@@ -60,6 +60,11 @@
 .pagination svg {
     block-size: calc(1.5rem * var(--fl-enhance-font-size-factor, 1));
     inline-size: calc(1.5rem * var(--fl-enhance-font-size-factor, 1));
+}
+
+.fl-input-enhanced .pagination a {
+    border-width: 0.125rem;
+    font-weight: var(--font-weight-extrabold);
 }
 
 @media (width >= 70.875rem) {
