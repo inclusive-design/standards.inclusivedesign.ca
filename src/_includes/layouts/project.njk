@@ -3,7 +3,7 @@
 {% block content %}
 <div class="project" style="--project-color: var(--fl-bgColor, var(--color-{{ color }}))">
     <div class="banner">
-        <div class="flow">
+        <div class="text">
             <a href="{% if lang === "en" %}/projects{% else %}/{{lang }}/{% __ 'projects' %}{% endif %}" >{% __ 'projects' %} {% include 'svg/arrowRight.svg' %}</a>
             <h1>{{ title }}</h1>
         </div>
