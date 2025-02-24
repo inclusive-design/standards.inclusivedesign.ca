@@ -1,0 +1,56 @@
+*:has(> select:not(.flc-prefsEditor-text-font)) {
+    position: relative;
+    width: fit-content;
+}
+
+*:has(> select:not(.flc-prefsEditor-text-font))::after {
+    background-color: var(--fl-fgColor, var(--color-indigo-700));
+    content: "";
+    position: absolute;
+    right: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    block-size: 0.75rem;
+    inline-size: 1.5rem;
+    mask-image: url("/assets/images/arrowheadDown.svg");
+    mask-position: center;
+    mask-repeat: no-repeat;
+    mask-size: cover;
+}
+
+select:not(.flc-prefsEditor-text-font) {
+    appearance: none;
+    background-color: var(--fl-bgColor, var(--color-white));
+    border: 0.125rem solid var(--fl-fgColor, var(--color-indigo-700));
+    border-radius: 0.1875rem;
+    color: var(--fl-fgColor, var(--color-indigo-700));
+    font-size: var(--step-0);
+    font-weight: var(--fl-enhance-font-weight, var(--font-weight-semibold));
+    padding-block: 0.625rem;
+    padding-inline-start: 0.75rem;
+    padding-inline-end: 3rem;
+}
+
+select:not(.flc-prefsEditor-text-font):focus,
+select:not(.flc-prefsEditor-text-font):hover {
+    outline: none;
+    box-shadow:
+        0 0 0 0.0625rem var(--fl-bgColor, var(--color-white)),
+        0 0 0 0.1875rem var(--fl-fgColor, var(--color-indigo-700));
+}
+
+select:not(.flc-prefsEditor-text-font):focus {
+    background-color: var(--fl-bgColor, var(--color-indigo-200));
+}
+
+.fl-input-enhanced select:not(.flc-prefsEditor-text-font) {
+    border-width: 0.1875rem;
+}
+
+.fl-input-enhanced select:not(.flc-prefsEditor-text-font):focus,
+.fl-input-enhanced select:not(.flc-prefsEditor-text-font):hover {
+    box-shadow:
+        0 0 0 0.125rem var(--fl-bgColor, var(--color-white)),
+        0 0 0 0.3rem var(--fl-fgColor, var(--color-indigo-700));
+}
+
