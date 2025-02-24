@@ -110,7 +110,7 @@
 
 .project .content a[href^="https://www.canada.ca"] img
 {
-    max-width: 12.5rem;
+    width: 12.5rem;
 }
 
 .project .content a:has(img) {
