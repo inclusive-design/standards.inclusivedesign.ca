@@ -68,6 +68,16 @@ export default (value, outputPath) => {
             }
         }
 
+        const selects = document.querySelectorAll("select:not(.flc-prefsEditor-text-font)");
+        if (selects.length > 0) {
+            for (const select of selects) {
+                const selectContainer = document.createElement("div");
+                selectContainer.className = "select";
+                select.parentNode.insertBefore(selectContainer, select);
+                selectContainer.appendChild(select);
+            }
+        }
+
         return "<!DOCTYPE html>\r\n" + document.documentElement?.outerHTML;
     }
 
