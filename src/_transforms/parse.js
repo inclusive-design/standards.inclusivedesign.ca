@@ -72,6 +72,7 @@ export default (value, outputPath) => {
         if (selects.length > 0) {
             for (const select of selects) {
                 const selectContainer = document.createElement("div");
+                selectContainer.className = "select";
                 select.parentNode.insertBefore(selectContainer, select);
                 selectContainer.appendChild(select);
             }
