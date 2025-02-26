@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.2.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.1.0...v1.2.0) (2025-02-26)
+
+
+### Features
+
+* add checkbox ([#140](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/140)) ([3d26b90](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/3d26b90576117a75653fa1596645e343f25b3136))
+* add custom select style ([#166](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/166)) ([56d3052](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/56d3052b2ca0d11e184d7f20bdc959f6c0fc63cb))
+* add pagination component ([#154](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/154)) ([ef11201](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/ef112016db08ab1d4d381f755e130dcf88cd5b4f))
+
+
+### Bug Fixes
+
+* align project title in the center of its banner ([#162](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/162)) ([735af4f](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/735af4fadd9b98f0e575c62ba05a89289d2b77f7))
+* banner content position issue ([#170](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/170)) ([3317488](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/3317488924a85e44493e63ead41f1f99034692c3))
+* set width for the government of Canada image link ([#169](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/169)) ([10b84fd](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/10b84fdbea08b8da05ffd796f0a8329eb31979bc))
+* update address in the footer ([#171](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/171)) ([b901cc1](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/b901cc1b2a6d68ec7719f96652532d7096e2d41b))
+
 ## [1.1.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.0.1...v1.1.0) (2025-02-12)
 
 
