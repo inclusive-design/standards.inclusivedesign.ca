@@ -3,8 +3,8 @@ title: Toutes les normes avec nous
 slug: toutes-les-normes
 uuid: e45a05ce-efb3-449f-965d-f671911b6626
 excerpt: Ce projet rend l'élaboration de normes accessible aux personnes handicapées et aux personnes sourdes, garantissant ainsi que les biens et services sont inclusifs. Nous nous efforçons d'éliminer les obstacles au sein des organismes d'élaboration de normes (OEN) afin de soutenir la pleine participation.
-color: yellow
 previewImageAlt: ''
+color: yellow
 ---
 ## À propos de ce projet
 
