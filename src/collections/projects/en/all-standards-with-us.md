@@ -2,7 +2,7 @@
 title: All Standards With Us
 slug: all-standards
 uuid: e45a05ce-efb3-449f-965d-f671911b6626
-excerpt: The goal of the All Standards With Us project is to make the process of creating standards more accessible to disabled and Deaf people, ensuring goods and services are inclusive. We focus on removing barriers in Standards Development Organizations (SDOs) to support full participation.
+excerpt: This project makes the process of creating standards more accessible to disabled and Deaf people, ensuring goods and services are inclusive. We focus on removing barriers in Standards Development Organizations (SDOs) to support full participation.
 previewImageAlt: ''
 color: yellow
 ---
