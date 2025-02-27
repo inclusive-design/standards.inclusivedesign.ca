@@ -8,7 +8,7 @@ color: yellow
 ---
 ## About this project
 
-The goal of the All Standards With Us project is to make the process of creating standards more accessible to disabled and Deaf people. When more people with disabilities and Deaf people get involved in the standards process, the goods and services we use in our daily lives will become more accessible. We’re focusing on how this is done within Standards Development Organizations (SDOs). Our vision is to remove accessibility barriers and ensure standards development processes that support a wide range of needs, so that people with disabilities are able to participate in mainstream standards development.
+The goal of the All Standards With Us project is to make the process of creating standards more accessible to disabled and Deaf people. When more people with disabilities and Deaf people get involved in the standards process, the goods and services we use in our daily lives become more accessible. We’re focusing on how this is done within Standards Development Organizations (SDOs). Our vision is to remove accessibility barriers and ensure standards development processes that support a wide range of needs, so that people with disabilities are able to participate in mainstream standards development.
 
 ## What are standards?
 
