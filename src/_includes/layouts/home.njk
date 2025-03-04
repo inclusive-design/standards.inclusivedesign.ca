@@ -8,6 +8,7 @@
 {% endblock %}
 
 {% block content %}
+{% set data = {"translations": translations, "lang": lang} %}
     {% if collections['projects_' + lang].length > 0 %}
     <section>
       <div class="wrapper flow">
@@ -20,6 +21,7 @@
       </div>
     </section>
     {% endif %}
+
     {% if collections['events_' + lang].length > 0 %}
     <section>
       <div class="wrapper flow">
