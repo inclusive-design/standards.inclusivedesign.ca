@@ -3,6 +3,7 @@ import { IdAttributePlugin, RenderPlugin } from "@11ty/eleventy";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import brokenLinksPlugin from "eleventy-plugin-broken-links";
 import fluidPlugin from "eleventy-plugin-fluid";
+import { __ } from "eleventy-plugin-fluid";
 import footnotesPlugin from "eleventy-plugin-footnotes";
 import _ from "lodash";
 import parse from "./src/_transforms/parse.js";
@@ -75,9 +76,10 @@ export default function eleventy(eleventyConfig) {
         const contentRenderer = await RenderPlugin.String(content, "md", {});
         const renderedContent = await contentRenderer();
         const contentId = randomUUID();
+        const data = this.ctx;
 
         return `<inclusive-disclosure>
-        <button aria-controls="${contentId}">${label}</button>
+        <button aria-controls="${contentId}">${__(label, {}, data)}</button>
         <div content id="${contentId}">${renderedContent}</div>
       </inclusive-disclosure>`;
     });

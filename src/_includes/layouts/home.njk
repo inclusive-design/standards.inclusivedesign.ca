@@ -8,6 +8,10 @@
 {% endblock %}
 
 {% block content %}
+{% set data = {"translations": translations, "lang": lang} %}
+{% disclosure 'resources', data %}
+            Hi how are you today!
+        {% enddisclosure %}
     {% if collections['projects_' + lang].length > 0 %}
     <section>
       <div class="wrapper flow">
@@ -20,6 +24,7 @@
       </div>
     </section>
     {% endif %}
+
     {% if collections['events_' + lang].length > 0 %}
     <section>
       <div class="wrapper flow">
