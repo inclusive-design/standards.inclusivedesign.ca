@@ -58,12 +58,7 @@ participer au processus d'élaboration des normes.
 
 Cette liste sera mise à jour au fur et à mesure de l'avancement du projet.
 
-## Références
-
-Organisation internationale de normalisation (2024). Normes. Extrait de https://www.iso.org/standards.html.
-
-Université du Massachusetts (2024). Normes. Récupéré de
-https://guides.library.umass.edu/c.php?g=719645&p=5126968.
+## 
 
 ## Financeurs
 
