@@ -54,9 +54,53 @@ et les personnes sourdes, et les piloter avec les organismes de normalisation tr
 - Créer des ressources de renforcement des capacités pour outiller les organisations de personnes handicapées et les personnes handicapées afin de prendre des mesures
 participer au processus d'élaboration des normes.
 
-## Partenaires du projet
+## Co-chercheurs et Partenaires
 
-Cette liste sera mise à jour au fur et à mesure de l'avancement du projet.
+**Sal Amenta -** Coprésident, [Accessible Housing Network](https://www.accessiblehousingnetwork.org/) 
+
+**Tara Connolly -** Assistant Director for Research and Development, [Accessibility Institute](https://carleton.ca/accessibility-institute/)
+
+**Isai Estey -** Community member, [L’Arche Canada](https://larche.ca/fr/)
+
+**Francis Fung -** National Manager Rehabilitation and Clinical Services, [ La Marche Des Dix Sous Du Canada](https://www.marchofdimes.ca/fr-ca) 
+
+ **Uttara Ghodke -** Inclusive Designer, [Inclusive Design Research Centre](https://idrc.ocadu.ca/)
+
+**Kathy Howery -** President, [International Society for Augmentative and Alternative Communication Canada](https://isaac-canada.org/)
+
+**Henrietta Igloliorte -** Community member, [New Society Institute](https://newsocietyinstitute.ca/)
+
+**Max Le Moine -**  Community member, [Accessibility Institute](https://carleton.ca/accessibility-institute/) 
+
+**Cheryl Li -** Senior Inclusive Designer, [Inclusive Design Research Centre](https://idrc.ocadu.ca/)
+
+**Jasmin Macarios -**  Community member, [Accessibility Institute](https://carleton.ca/accessibility-institute/) 
+
+**David Meyers -** Senior Manager of Independent Living Programs, [Centre for Independent Living Toronto](https://cilt.ca/)
+
+**Eddy Morten -** Community member, [Wavefront Centre for Communication Accessibility](https://www.wavefrontcentre.ca/)
+
+**Erick Nettel -** Manager of Online Services, [New Society Institute](https://newsocietyinstitute.ca/) 
+
+**Kelly Newell -** Community member, [La Marche Des Dix Sous Du Canada](https://www.marchofdimes.ca/fr-ca) 
+
+**Wendy Porch -** Executive Director, [Centre for Independent Living Toronto](https://cilt.ca/)
+
+**Doris Rajan -** Managing Director, [New Society Institute](https://newsocietyinstitute.ca/)
+
+ **Sepideh Shahi -** Senior Inclusive Designer, [Inclusive Design Research Centre](https://idrc.ocadu.ca/)
+
+**Audreanne Soenens -** Community member, [L’Arche Canada](https://larche.ca/fr/)
+
+**Lori Vaanholt -** National Vice-Executive Director - Innovation & Impact, [L’Arche Canada](https://larche.ca/fr/) 
+
+**Heather Walkus -** Chairperson, [Council of Canadians with Disabilities](http://www.ccdonline.ca/fr/)
+
+**Dr. Ruth Warick -** Director Programs and Services, [Wavefront Centre for Communication Accessibility](https://www.wavefrontcentre.ca/)
+
+**Ian White -** President CCB Toronto Visionaries Chapter, [Canadian Council of the Blind](http://www.ccbtorontovisionaries.ca/)
+
+## 
 
 ## 
 
