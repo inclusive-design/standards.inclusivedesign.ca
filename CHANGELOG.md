@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.2.0...v1.3.0) (2025-03-05)
+
+
+### Features
+
+* localize disclosure shortcode (resolves [#173](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/173)) ([#174](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/174)) ([2042b69](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/2042b69079250e9f4d80bf94094d538c8bf5d747))
+
 ## [1.2.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.1.0...v1.2.0) (2025-02-26)
 
 
