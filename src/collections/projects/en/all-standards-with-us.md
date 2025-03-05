@@ -60,12 +60,7 @@ part in the standards development process.
 
 This list will be updated as the project progresses.
 
-## References
-
-International Organization for Standardization (2024). Standards. Retrieved from https://www.iso.org/standards.html.
-
-University of Massachusetts (2024). Standards. Retrieved from
-https://guides.library.umass.edu/c.php?g=719645&p=5126968.
+## 
 
 ## Funders
 
