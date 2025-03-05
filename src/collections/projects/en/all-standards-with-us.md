@@ -98,7 +98,7 @@ part in the standards development process.
 
 **Heather Walkus -** Chairperson, [Council of Canadians with Disabilities](http://www.ccdonline.ca/en/)
 
-**Dr. Ruth Warick -** Director, Programs and Services, [Wavefront Centre for Communication Accessibility](https://www.wavefrontcentre.ca/)
+**Dr. Ruth Warick -** Director Programs and Services, [Wavefront Centre for Communication Accessibility](https://www.wavefrontcentre.ca/)
 
 **Ian White -** President CCB Toronto Visionaries Chapter, [Canadian Council of the Blind](http://www.ccbtorontovisionaries.ca/)
 
