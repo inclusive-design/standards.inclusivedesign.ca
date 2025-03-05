@@ -72,9 +72,9 @@ part in the standards development process.
 
 **Henrietta Igloliorte -** Community member, [New Society Institute](https://newsocietyinstitute.ca/)
 
-**Cheryl Li -** Senior Inclusive Designer, [Inclusive Design Research Centre](https://idrc.ocadu.ca/)
-
 **Max Le Moine -**  Community member, [Accessibility Institute](https://carleton.ca/accessibility-institute/) 
+
+**Cheryl Li -** Senior Inclusive Designer, [Inclusive Design Research Centre](https://idrc.ocadu.ca/)
 
 **Jasmin Macarios -**  Community member, [Accessibility Institute](https://carleton.ca/accessibility-institute/) 
 
