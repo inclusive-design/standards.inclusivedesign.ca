@@ -1,0 +1,22 @@
+
+[class*="--hide"] {
+    display: none;
+}
+
+.filters inclusive-disclosure {
+    padding-inline: 0;
+}
+
+.filters fieldset {
+    border: unset;
+    margin: unset;
+    padding: unset;
+}
+
+@media (width >= 46.625rem) {
+    filter-container {
+        display: grid;
+        grid-template-columns: 22.9375rem 1fr;
+        gap: 1.875rem;
+    }
+}
