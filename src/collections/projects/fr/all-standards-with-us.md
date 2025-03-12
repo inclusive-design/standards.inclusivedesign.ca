@@ -58,47 +58,47 @@ participer au processus d'élaboration des normes.
 
 **Sal Amenta -** Coprésident, [Accessible Housing Network](https://www.accessiblehousingnetwork.org/) 
 
-**Tara Connolly -** Assistant Director for Research and Development, [Accessibility Institute](https://carleton.ca/accessibility-institute/)
+**Tara Connolly -** Directeur adjoint de la recherche et du développement, [Accessibility Institute](https://carleton.ca/accessibility-institute/)
 
-**Isai Estey -** Community member, [L’Arche Canada](https://larche.ca/fr/)
+**Isai Estey -** Membre de la communauté, [L’Arche Canada](https://larche.ca/fr/)
 
-**Francis Fung -** National Manager Rehabilitation and Clinical Services, [ La Marche Des Dix Sous Du Canada](https://www.marchofdimes.ca/fr-ca) 
+**Francis Fung -** Responsable national des services de réadaptation et cliniques, [ La Marche Des Dix Sous Du Canada](https://www.marchofdimes.ca/fr-ca) 
 
- **Uttara Ghodke -** Inclusive Designer, [Inclusive Design Research Centre](https://idrc.ocadu.ca/)
+ **Uttara Ghodke -** Concepteur inclusif, [Inclusive Design Research Centre](https://idrc.ocadu.ca/)
 
-**Kathy Howery -** President, [International Society for Augmentative and Alternative Communication Canada](https://isaac-canada.org/)
+**Kathy Howery -** Présidente, [Société internationale de suppléance à la communication Canada](https://isaac-canada.org/)
 
-**Henrietta Igloliorte -** Community member, [New Society Institute](https://newsocietyinstitute.ca/)
+**Henrietta Igloliorte -** Membre de la communauté, [New Society Institute](https://newsocietyinstitute.ca/)
 
-**Max Le Moine -**  Community member, [Accessibility Institute](https://carleton.ca/accessibility-institute/) 
+**Max Le Moine -**  Membre de la communauté, [Accessibility Institute](https://carleton.ca/accessibility-institute/) 
 
-**Cheryl Li -** Senior Inclusive Designer, [Inclusive Design Research Centre](https://idrc.ocadu.ca/)
+**Cheryl Li -** Concepteur inclusif supérieur, [Inclusive Design Research Centre](https://idrc.ocadu.ca/)
 
-**Jasmin Macarios -**  Community member, [Accessibility Institute](https://carleton.ca/accessibility-institute/) 
+**Jasmin Macarios -**  Membre de la communauté, [Accessibility Institute](https://carleton.ca/accessibility-institute/) 
 
-**David Meyers -** Senior Manager of Independent Living Programs, [Centre for Independent Living Toronto](https://cilt.ca/)
+**David Meyers -** Responsable principal des programmes de vie autonome, [Centre for Independent Living Toronto](https://cilt.ca/)
 
-**Eddy Morten -** Community member, [Wavefront Centre for Communication Accessibility](https://www.wavefrontcentre.ca/)
+**Eddy Morten -** Membre de la communauté, [Wavefront Centre for Communication Accessibility](https://www.wavefrontcentre.ca/)
 
-**Erick Nettel -** Manager of Online Services, [New Society Institute](https://newsocietyinstitute.ca/) 
+**Erick Nettel -** Responsable des services en ligne, [New Society Institute](https://newsocietyinstitute.ca/) 
 
-**Kelly Newell -** Community member, [La Marche Des Dix Sous Du Canada](https://www.marchofdimes.ca/fr-ca) 
+**Kelly Newell -** Membre de la communauté, [La Marche Des Dix Sous Du Canada](https://www.marchofdimes.ca/fr-ca) 
 
-**Wendy Porch -** Executive Director, [Centre for Independent Living Toronto](https://cilt.ca/)
+**Wendy Porch -** Directeur général, [Centre for Independent Living Toronto](https://cilt.ca/)
 
-**Doris Rajan -** Managing Director, [New Society Institute](https://newsocietyinstitute.ca/)
+**Doris Rajan -** Directeur général, [New Society Institute](https://newsocietyinstitute.ca/)
 
- **Sepideh Shahi -** Senior Inclusive Designer, [Inclusive Design Research Centre](https://idrc.ocadu.ca/)
+ **Sepideh Shahi -**Concepteur inclusif supérieur, [Inclusive Design Research Centre](https://idrc.ocadu.ca/)
 
-**Audreanne Soenens -** Community member, [L’Arche Canada](https://larche.ca/fr/)
+**Audreanne Soenens -** Membre de la communauté, [L’Arche Canada](https://larche.ca/fr/)
 
-**Lori Vaanholt -** National Vice-Executive Director - Innovation & Impact, [L’Arche Canada](https://larche.ca/fr/) 
+**Lori Vaanholt -** Directeur exécutif adjoint national de l'innovation et de l'impact, [L’Arche Canada](https://larche.ca/fr/) 
 
-**Heather Walkus -** Chairperson, [Council of Canadians with Disabilities](http://www.ccdonline.ca/fr/)
+**Heather Walkus -** Présidente, [Council of Canadians with Disabilities](http://www.ccdonline.ca/fr/)
 
-**Dr. Ruth Warick -** Director Programs and Services, [Wavefront Centre for Communication Accessibility](https://www.wavefrontcentre.ca/)
+**Dr. Ruth Warick -** Directeur des programmes et des services, [Wavefront Centre for Communication Accessibility](https://www.wavefrontcentre.ca/)
 
-**Ian White -** President CCB Toronto Visionaries Chapter, [Canadian Council of the Blind](http://www.ccbtorontovisionaries.ca/)
+**Ian White -** Président du chapitre des visionnaires de Toronto, [Canadian Council of the Blind](http://www.ccbtorontovisionaries.ca/)
 
 ## 
 
