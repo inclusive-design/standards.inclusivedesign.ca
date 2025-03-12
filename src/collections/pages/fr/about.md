@@ -5,7 +5,7 @@ layout: layouts/about
 excerpt: En savoir plus sur les normes inclusives
 previewImageAlt: ''
 bannerTitle: ''
-bannerText: En savoir plus sur les normes inclusives
+bannerText: ''
 bannerImage: ''
 bannerImageAlt: ''
 ---
