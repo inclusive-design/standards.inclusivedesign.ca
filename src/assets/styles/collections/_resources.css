@@ -1,0 +1,17 @@
+.resources-container {
+    background-color: var(--color-indigo-100);
+    padding-block: var(--common-block-padding);
+    padding-inline: var(--common-inline-padding);
+}
+
+.resources {
+    margin-block-start: 1em;
+}
+
+@media (width >= 70.875rem) {
+    .resources {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.875rem;
+    }
+}

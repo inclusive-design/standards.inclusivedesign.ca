@@ -1,7 +1,7 @@
-<div class="card">
+<div class="card" data-filter-type="{{ resource.data.type }}" data-filter-projects="{{ resource.data.projects }}">
     <div class="card__content">
         <h3>
-            <a class="card__title" href="{{ resource.url }}">
+            <a class="card__title" href="{{ resource.data.url }}">
                 {{ resource.data.title | safe }}
             </a>
         </h3>

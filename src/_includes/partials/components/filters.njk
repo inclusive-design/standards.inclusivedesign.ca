@@ -1,0 +1,31 @@
+<div class="filters flow">
+    <h3>{% __ 'filters' %}</h3>
+    <div class="flow">
+        <fieldset>
+            <legend class="visually-hidden">{% __ 'project' %}</legend>
+            {% disclosure 'project' %}
+            {% for project in collections['projects_' + lang] %}
+                <li>
+                    <input type="checkbox" id="{{ project.data.uuid }}" name="project" value="{{ project.data.title }}" data-filter-key="projects" />
+                    <label for="{{ project.data.uuid }}">{{ project.data.title }}</label>
+                </li>
+            {% endfor %}
+            {% enddisclosure %}
+        </fieldset>
+
+        <fieldset>
+            <legend class="visually-hidden">{% __ 'type' %}</legend>
+            {% disclosure 'type' %}
+            <ul role="list">
+                {% for value in type %}
+                <li>
+                    <input type="checkbox" id="{{ value }}" name="theme" value="{{ value }}" data-filter-key="type" />
+                    <label for="{{ value }}">{{ value }}</label>
+                </li>
+                {% endfor %}
+            </ul>
+            {% enddisclosure %}
+        </fieldset>
+    </div>
+    <button type="button" id="apply">Apply</button>
+</div>
