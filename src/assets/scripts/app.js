@@ -1,5 +1,3 @@
-import "@zachleat/filter-container";
-
 const menuButton = document.getElementById("navigation-toggle");
 menuButton.addEventListener("click", () => {
     const ariaExpanded = menuButton.ariaExpanded === "false";
