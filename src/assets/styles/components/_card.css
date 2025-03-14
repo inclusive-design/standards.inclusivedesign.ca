@@ -1,6 +1,6 @@
 .card {
     color: var(--fl-fgColor, black);
-    min-width: 20.5rem;
+    inline-size: clamp(16.25rem, 23rem, 1fr);
     margin-bottom: 1rem;
     box-shadow:
         0 0.625rem 1.25rem 0 var(--shadow-light),

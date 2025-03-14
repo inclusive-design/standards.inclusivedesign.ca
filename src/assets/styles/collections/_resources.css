@@ -8,7 +8,7 @@
     margin-block-start: 1em;
 }
 
-@media (width >= 70.875rem) {
+@media (width >= 90rem) {
     .resources {
         display: grid;
         grid-template-columns: 1fr 1fr;

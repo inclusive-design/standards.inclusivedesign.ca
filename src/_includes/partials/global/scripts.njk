@@ -1,3 +1,5 @@
 {% uioScripts %}
 <script type="text/javascript" src="/assets/scripts/app.js" defer></script>
-<script type="text/javascript" src="/assets/scripts/filter-container.js" defer></script>
+{% if page.fileSlug == "resources" %}
+<script type="text/javascript" src="/assets/scripts/filter.js" defer></script>
+{% endif %}

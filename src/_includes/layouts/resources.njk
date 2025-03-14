@@ -2,10 +2,11 @@
 
 {% block content %}
 <div class="resources-container">
-    <filter-container class="wrapper" oninit filter-mode="all" filter-mode-type="any" filter-mode-projects="any" filter-fuzzy-search data-paginate-results="5">
+    <filter-container class="wrapper" oninit filter-mode="all" filter-mode-type="any" filter-mode-projects="any" filter-fuzzy-search data-paginate-results="5" data-apply-button="apply">
         {% include "partials/components/filters.njk" %}
         <div>
             <h3 aria-live="polite" data-filter-results="{% __ 'filtered-resources' %}">{% __ 'filtered-resources' %}</h3>
+            <div id="filter-tags"></div>
             <div class="resources">
                 {% for resource in collections['resources_' + lang] %}
                     {% include "partials/components/card--resource.njk" %}
