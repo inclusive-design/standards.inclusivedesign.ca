@@ -35,5 +35,8 @@ const renderFilterTags = () => {
             filterApplyButton.click();
         });
         filterTags.appendChild(clearFiltersButton);
+    } else {
+        const filterApplied = document.getElementById("filter-applied");
+        filterApplied.style.display = "none";
     }
 };
