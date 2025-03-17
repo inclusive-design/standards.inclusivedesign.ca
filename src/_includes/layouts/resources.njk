@@ -5,8 +5,12 @@
     <filter-container class="wrapper" oninit filter-mode="all" filter-mode-type="any" filter-mode-projects="any" filter-fuzzy-search data-paginate-results="5" data-apply-button="apply">
         {% include "partials/components/filters.njk" %}
         <div>
-            <h3 aria-live="polite" data-filter-results="{% __ 'filtered-resources' %}">{% __ 'filtered-resources' %}</h3>
-            <div id="filter-tags"></div>
+            <h3 id="filtered-results" aria-live="polite" data-filter-results="{% __ 'filtered-resources' %}">resources</h3>
+            <div class="filter-tags">
+                <h4 id="filter-applied">Applied Filters</h4>
+                <div id="filter-tags">
+                </div>
+            </div>
             <div class="resources">
                 {% for resource in collections['resources_' + lang] %}
                     {% include "partials/components/card--resource.njk" %}

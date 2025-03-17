@@ -1,4 +1,4 @@
-<div class="filters flow">
+<div id="filters" class="filters flow">
     <h3>{% __ 'filters' %}</h3>
     <div class="flow">
         <fieldset>
@@ -21,7 +21,7 @@
             <ul id="filter-type">
                 {% for value in type %}
                 <li>
-                    <input type="checkbox" id="{{ value }}" name="theme" value="{{ value }}" data-filter-key="type" />
+                    <input type="checkbox" id="{{ value }}" name="type" value="{{ value }}" data-filter-key="type" />
                     <label for="{{ value }}">{{ value }}</label>
                 </li>
                 {% endfor %}
