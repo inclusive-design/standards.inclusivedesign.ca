@@ -46,16 +46,4 @@
       </div>
     </section>
     {% endif %}
-    {% if collections['announcements_' + lang].length > 0 %}
-    <section>
-      <div class="wrapper flow">
-        <h2>{% __ 'announcements' %}</h2>
-        <div class="cards">
-          {% for announcement in collections['announcements_' + lang] %}
-              {% include "partials/components/card--announcement.njk" %}
-          {% endfor %}
-        </div>
-      </div>
-    </section>
-    {% endif %}
 {% endblock %}

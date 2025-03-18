@@ -288,55 +288,6 @@ collections:
         name: body
         widget: text
         i18n: true
-  - label: Announcements
-    label_singular: Announcement
-    name: announcements
-    icon: newspaper
-    i18n:
-      structure: multiple_folders
-    folder: src/collections/announcements
-    extension: md
-    create: true
-    fields:
-      - label: Title
-        name: title
-        widget: string
-        i18n: true
-      - label: Excerpt
-        name: excerpt
-        widget: text
-        i18n: true
-        required: false
-      - label: Publication Date
-        name: date
-        widget: datetime
-        default: "{{now}}"
-        i18n: duplicate
-      - label: Preview Image
-        name: previewImage
-        widget: image
-        i18n: duplicate
-        required: false
-        hint: This image should be 1200 by 630 pixels and will be used as a preview image when this page is shared on social media.
-      - label: Preview Image Alt Text
-        name: previewImageAlt
-        widget: string
-        i18n: true
-        required: false
-      - label: Topic(s)
-        name: topics
-        widget: relation
-        collection: topics
-        value_field: uuid
-        search_fields: [title]
-        display_fields: [title]
-        required: false
-        multiple: true
-        i18n: duplicate
-      - label: Body
-        name: body
-        widget: markdown
-        i18n: true
   - label: Metadata
     name: metadata
     files:
