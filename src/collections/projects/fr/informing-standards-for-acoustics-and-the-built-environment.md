@@ -1,7 +1,8 @@
 ---
 title: Informer sur les normes relatives à l'acoustique et à l'environnement bâti
-slug: l-acoustique
+lang: fr
 uuid: d07b518f-e9f2-41ea-920d-744a9337461c
+urlSlug: l-acoustique
 excerpt: Étudier l'impact de l'environnement acoustique sur les personnes handicapées et explorer les technologies qui peuvent contribuer à réduire et à éliminer les barrières acoustiques
 previewImageAlt: ''
 color: orange

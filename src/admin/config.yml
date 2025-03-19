@@ -97,16 +97,21 @@ collections:
         name: title
         widget: string
         i18n: true
+      - label: Language
+        name: lang
+        widget: hidden
+        default: "{{locale}}"
+      - label: UUID
+        name: uuid
+        widget: hidden
+        default: "{{uuid}}"
+        i18n: duplicate
       - label: Slug
         name: slug
         widget: string
         i18n: true
         required: true
         hint: Use this field to customize the URL of the project. For example, if you want to display 'Regulating the Digital Domain' at `/projects/rtdd`, enter `rtdd`.
-      - label: Unique ID
-        name: uuid
-        widget: uuid
-        i18n: duplicate
       - label: Excerpt
         name: excerpt
         widget: text
@@ -139,6 +144,64 @@ collections:
             value: blue
         i18n: duplicate
         required: true
+      - label: Body
+        name: body
+        widget: markdown
+        i18n: true
+  - label: Project Subpages
+    label_singular: Project Subpage
+    name: project-subpages
+    icon: menu_open
+    i18n:
+      structure: multiple_folders
+    folder: src/collections/project-subpages/
+    extension: md
+    create: true
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        i18n: true
+      - label: Language
+        name: lang
+        widget: hidden
+        default: "{{locale}}"
+      - label: UUID
+        name: uuid
+        widget: hidden
+        default: "{{uuid}}"
+        i18n: duplicate
+      - label: Slug
+        name: slug
+        widget: string
+        i18n: true
+        required: true
+        hint: Use this field to customize the URL of the project subpage. For example, if you want to display 'Regulating the Digital Domain reports' at `/projects/rtdd/reports/`, enter `reports`.
+      - label: Parent Project
+        name: parent
+        widget: relation
+        collection: projects
+        value_field: urlSlug
+        search_fields: [title]
+        display_fields: [title]
+        required: true
+        i18n: true
+      - label: Excerpt
+        name: excerpt
+        widget: text
+        i18n: true
+        required: false
+      - label: Preview Image
+        name: previewImage
+        widget: image
+        i18n: duplicate
+        required: false
+        hint: This image should be 1200 by 630 pixels and will be used as a preview image when this page is shared on social media.
+      - label: Preview Image Alternative Text
+        name: previewImageAlt
+        widget: text
+        i18n: true
+        required: false
       - label: Body
         name: body
         widget: markdown

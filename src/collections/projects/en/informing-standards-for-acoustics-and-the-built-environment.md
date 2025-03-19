@@ -1,7 +1,8 @@
 ---
 title: Informing Standards for Acoustics and the Built Environment
-slug: acoustics
+lang: en
 uuid: d07b518f-e9f2-41ea-920d-744a9337461c
+urlSlug: acoustics
 excerpt: Investigating the impact of the acoustic environment on people with disabilities and exploring technologies that can contribute to reducing and eliminating acoustics barriers
 previewImageAlt: ''
 color: orange

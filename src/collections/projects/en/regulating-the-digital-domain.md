@@ -1,7 +1,8 @@
 ---
 title: Regulating the Digital Domain
-slug: rtdd
+lang: en
 uuid: 8cbbf5c9-b7ff-4197-8ba0-adce4a5dc49b
+urlSlug: rtdd
 excerpt: Advancing digital inclusion and ICT accessibility for people with disabilities by addressing the failure of existing regulatory processes to create inclusive and accessible digital systems
 previewImageAlt: ''
 color: orange
