@@ -216,18 +216,11 @@ La norme est révisée périodiquement afin de s’assurer qu’elle reste perti
 
 WHATWG
 
-
-
 1. WHATWG (2024). Standards. https://spec.whatwg.org/
 
 W3C
 
-
-
 2. W3C (2022). W3C Process Document. https://www.w3.org/policies/process/
-
-
-
 
 ETSI
 
@@ -246,17 +239,13 @@ Ontario
 Canada
 
 6. Kovac, L. (2021). Accessibility Standards Development Processes Across Canada. Accessibility for Ontarians with Disabilities Act. Retrieved from [https://aoda.ca/accessibility-standards-development-processes-across-canada/](https://aoda.ca/accessibility-standards-development-processes-across-canada/)
-
 7. ASC (2023). Standards Development Operational Requirements. Retrieved from: <TBD>
-
 8. Accessibility Standards Canada (2024). Creating Accessibility Standards. Retrieved from[ https://accessible.canada.ca/creating-accessibility-standards](https://accessible.canada.ca/creating-accessibility-standards)
-
 9. Accessibility Standards Canada (2022). 2022 Annual Public Meeting - Update on Standards Development. Retrieved from[ https://accessible.canada.ca/sites/default/files/2022-09/StandardsDevelopmentPresentation_0.pdf](https://accessible.canada.ca/sites/default/files/2022-09/StandardsDevelopmentPresentation_0.pdf)
 
 USA
 
 10. Standards Coordinating Body (2024). Standards Development Process. Retrieved from [https://www.standardscoordinatingbody.org/standards-process](https://www.standardscoordinatingbody.org/standards-process)
-
 11. ANSI (2024). ANSI-Accredited Standards Developer Audit Program. Retrieved from https://ansi.org/american-national-standards/info-for-standards-developers/accreditation/audit
 
 Ireland
