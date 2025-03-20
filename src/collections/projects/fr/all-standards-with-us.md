@@ -2,7 +2,7 @@
 title: Toutes les normes avec nous
 lang: fr
 uuid: e45a05ce-efb3-449f-965d-f671911b6626
-urlSlug: toutes-les-normes
+slug: toutes-les-normes
 excerpt: Ce projet rend l'élaboration de normes accessible aux personnes handicapées et aux personnes sourdes, garantissant ainsi que les biens et services sont inclusifs. Nous nous efforçons d'éliminer les obstacles au sein des organismes d'élaboration de normes (OEN) afin de soutenir la pleine participation.
 previewImageAlt: ''
 color: yellow
@@ -71,19 +71,19 @@ participer au processus d'élaboration des normes.
 
 **Henrietta Igloliorte -** Membre de la communauté, [New Society Institute](https://newsocietyinstitute.ca/)
 
-**Max Le Moine -**  Membre de la communauté, [Accessibility Institute](https://carleton.ca/accessibility-institute/) 
+**Max Le Moine -**  Membre de la communauté, [Accessibility Institute](https://carleton.ca/accessibility-institute/)
 
 **Cheryl Li -** Concepteur inclusif supérieur, [Inclusive Design Research Centre](https://idrc.ocadu.ca/)
 
-**Jasmin Macarios -**  Membre de la communauté, [Accessibility Institute](https://carleton.ca/accessibility-institute/) 
+**Jasmin Macarios -**  Membre de la communauté, [Accessibility Institute](https://carleton.ca/accessibility-institute/)
 
 **David Meyers -** Responsable principal des programmes de vie autonome, [Centre for Independent Living Toronto](https://cilt.ca/)
 
 **Eddy Morten -** Membre de la communauté, [Wavefront Centre for Communication Accessibility](https://www.wavefrontcentre.ca/)
 
-**Erick Nettel -** Responsable des services en ligne, [New Society Institute](https://newsocietyinstitute.ca/) 
+**Erick Nettel -** Responsable des services en ligne, [New Society Institute](https://newsocietyinstitute.ca/)
 
-**Kelly Newell -** Membre de la communauté, [La Marche Des Dix Sous Du Canada](https://www.marchofdimes.ca/fr-ca) 
+**Kelly Newell -** Membre de la communauté, [La Marche Des Dix Sous Du Canada](https://www.marchofdimes.ca/fr-ca)
 
 **Wendy Porch -** Directeur général, [Centre for Independent Living Toronto](https://cilt.ca/)
 
@@ -101,9 +101,9 @@ participer au processus d'élaboration des normes.
 
 **Ian White -** Président du chapitre des visionnaires de Toronto, [Canadian Council of the Blind](http://www.ccbtorontovisionaries.ca/)
 
-## 
+##
 
-## 
+##
 
 ## Financeurs
 

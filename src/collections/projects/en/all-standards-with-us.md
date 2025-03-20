@@ -2,7 +2,7 @@
 title: All Standards With Us
 lang: en
 uuid: e45a05ce-efb3-449f-965d-f671911b6626
-urlSlug: all-standards
+slug: all-standards
 excerpt: This project makes the process of creating standards more accessible to disabled and Deaf people, ensuring goods and services are inclusive. We focus on removing barriers in Standards Development Organizations (SDOs) to support full participation.
 previewImageAlt: ''
 color: yellow
@@ -73,19 +73,19 @@ part in the standards development process.
 
 **Henrietta Igloliorte -** Community member, [New Society Institute](https://newsocietyinstitute.ca/)
 
-**Max Le Moine -**  Community member, [Accessibility Institute](https://carleton.ca/accessibility-institute/) 
+**Max Le Moine -**  Community member, [Accessibility Institute](https://carleton.ca/accessibility-institute/)
 
 **Cheryl Li -** Senior Inclusive Designer, [Inclusive Design Research Centre](https://idrc.ocadu.ca/)
 
-**Jasmin Macarios -**  Community member, [Accessibility Institute](https://carleton.ca/accessibility-institute/) 
+**Jasmin Macarios -**  Community member, [Accessibility Institute](https://carleton.ca/accessibility-institute/)
 
 **David Meyers -** Senior Manager of Independent Living Programs, [Centre for Independent Living Toronto](https://cilt.ca/)
 
 **Eddy Morten -** Community member, [Wavefront Centre for Communication Accessibility](https://www.wavefrontcentre.ca/)
 
-**Erick Nettel -** Manager of Online Services, [New Society Institute](https://newsocietyinstitute.ca/) 
+**Erick Nettel -** Manager of Online Services, [New Society Institute](https://newsocietyinstitute.ca/)
 
-**Kelly Newell -** Community member, [March of Dimes Canada](https://www.marchofdimes.ca/en-ca) 
+**Kelly Newell -** Community member, [March of Dimes Canada](https://www.marchofdimes.ca/en-ca)
 
 **Wendy Porch -** Executive Director, [Centre for Independent Living Toronto](https://cilt.ca/)
 
@@ -103,7 +103,7 @@ part in the standards development process.
 
 **Ian White -** President CCB Toronto Visionaries Chapter, [Canadian Council of the Blind](http://www.ccbtorontovisionaries.ca/)
 
-## 
+##
 
 ## Funders
 

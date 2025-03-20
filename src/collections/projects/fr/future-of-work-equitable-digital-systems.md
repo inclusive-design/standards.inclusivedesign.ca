@@ -2,7 +2,7 @@
 title: "L'avenir du travail : des systèmes numériques équitables"
 lang: fr
 uuid: 672e74ba-9f27-4295-adda-dae162a48d60
-urlSlug: eds
+slug: eds
 excerpt: Examiner l'accessibilité des outils et systèmes numériques sur lesquels nous comptons pour travailler
 previewImageAlt: ''
 color: blue

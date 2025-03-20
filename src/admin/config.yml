@@ -181,7 +181,7 @@ collections:
         name: parent
         widget: relation
         collection: projects
-        value_field: urlSlug
+        value_field: slug
         search_fields: [title]
         display_fields: [title]
         required: true
