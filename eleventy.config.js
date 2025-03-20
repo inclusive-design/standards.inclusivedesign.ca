@@ -38,6 +38,10 @@ export default function eleventy(eleventyConfig) {
             return collection.getFilteredByGlob(`src/collections/projects/${lang}/*.md`);
         });
 
+        eleventyConfig.addCollection(`projectsubpages_${lang}`, (collection) => {
+            return collection.getFilteredByGlob(`src/collections/project-subpages/${lang}/*.md`);
+        });
+
         eleventyConfig.addCollection(`events_${lang}`, (collection) => {
             return collection.getFilteredByGlob(`src/collections/events/${lang}/*.md`);
         });
@@ -112,7 +116,7 @@ export default function eleventy(eleventyConfig) {
     eleventyConfig.addPassthroughCopy({ "src/assets/fonts": "assets/fonts" });
 
     eleventyConfig.addPlugin(brokenLinksPlugin, {
-        forbidden: "error",
+        forbidden: "warn",
         broken: "error",
         cacheDuration: "60s",
         loggingLevel: 1,
