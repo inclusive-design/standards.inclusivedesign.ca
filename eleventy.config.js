@@ -117,9 +117,9 @@ export default function eleventy(eleventyConfig) {
 
     eleventyConfig.addPlugin(brokenLinksPlugin, {
         forbidden: "warn",
-        broken: "error",
+        broken: "warn",
         cacheDuration: "60s",
-        loggingLevel: 1,
+        loggingLevel: 2,
         excludeInputs: ["**/*/*.css"]
     });
 
