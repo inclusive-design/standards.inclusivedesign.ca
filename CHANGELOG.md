@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.3.0...v1.3.1) (2025-03-24)
+
+
+### Bug Fixes
+
+* set broken-link config to warn on broken link, and change logging level to 2 ([#187](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/187)) ([325765a](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/325765af5c9fece1d0c42eaf4b2109c38614f1b0))
+
 ## [1.3.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.2.0...v1.3.0) (2025-03-20)
 
 
