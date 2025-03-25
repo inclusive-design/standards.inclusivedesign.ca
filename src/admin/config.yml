@@ -83,6 +83,7 @@ collections:
         name: body
         widget: markdown
         i18n: true
+        buttons: [bold, italic, link, heading-two, heading-three, heading-four, heading-five, heading-six, quote, bulleted-list, numbered-list]
   - label: Projects
     label_singular: Project
     name: projects
@@ -149,6 +150,7 @@ collections:
         name: body
         widget: markdown
         i18n: true
+        buttons: [bold, italic, link, heading-two, heading-three, heading-four, heading-five, heading-six, quote, bulleted-list, numbered-list]
   - label: Project Subpages
     label_singular: Project Subpage
     name: project-subpages
@@ -208,6 +210,7 @@ collections:
         name: body
         widget: markdown
         i18n: true
+        buttons: [bold, italic, link, heading-two, heading-three, heading-four, heading-five, heading-six, quote, bulleted-list, numbered-list]
   - label: Events
     label_singular: Event
     name: event
@@ -269,6 +272,7 @@ collections:
         name: body
         widget: markdown
         i18n: true
+        buttons: [bold, italic, link, heading-two, heading-three, heading-four, heading-five, heading-six, quote, bulleted-list, numbered-list]
   - label: Resources
     label_singular: Resource
     name: resources
