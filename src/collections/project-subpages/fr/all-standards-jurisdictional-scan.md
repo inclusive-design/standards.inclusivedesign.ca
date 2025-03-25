@@ -2,7 +2,7 @@
 title: Analyse comparative des juridictions
 lang: fr
 uuid: cf5eb701-fe23-4f07-b84d-5053fb96fc28
-slug: Analyse comparative des juridictions
+slug: analyse-comparative-des-juridictions
 parent: toutes-les-normes
 excerpt: ''
 previewImage: ''

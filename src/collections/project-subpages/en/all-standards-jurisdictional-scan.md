@@ -2,7 +2,7 @@
 title: All Standards Jurisdictional Scan
 lang: en
 uuid: cf5eb701-fe23-4f07-b84d-5053fb96fc28
-slug: Jurisdictional Scan
+slug: jurisdictional-scan
 parent: all-standards
 excerpt: ''
 previewImage: ''
