@@ -112,6 +112,7 @@ collections:
         i18n: true
         required: true
         hint: Use this field to customize the URL of the project. For example, if you want to display 'Regulating the Digital Domain' at `/projects/rtdd`, enter `rtdd`.
+        pattern: ['^[a-z0-9-]+$', 'Only lowercase letters, numbers and hyphens permitted']
       - label: Excerpt
         name: excerpt
         widget: text
@@ -177,6 +178,7 @@ collections:
         i18n: true
         required: true
         hint: Use this field to customize the URL of the project subpage. For example, if you want to display 'Regulating the Digital Domain reports' at `/projects/rtdd/reports/`, enter `reports`.
+        pattern: ['^[a-z0-9-]+$', 'Only lowercase letters, numbers and hyphens permitted']
       - label: Parent Project
         name: parent
         widget: relation
