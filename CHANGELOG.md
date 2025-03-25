@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.3.1...v1.4.0) (2025-03-25)
+
+
+### Features
+
+* enforce URL-safe slugs ([#189](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/189)) ([02a165f](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/02a165fe5c15fab669f76f7f258dcee56f567662))
+
 ## [1.3.1](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.3.0...v1.3.1) (2025-03-24)
 
 
