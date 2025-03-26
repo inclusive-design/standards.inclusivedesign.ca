@@ -2,7 +2,7 @@
 title: Jurisdictional Scan
 lang: en
 uuid: cf5eb701-fe23-4f07-b84d-5053fb96fc28
-slug: jurisdictional-scan
+slug: jurisdictional scan
 parent: all-standards
 excerpt: ''
 previewImage: ''
@@ -39,9 +39,9 @@ Who assesses feasibility, and how?
 - In South America, national standardization bodies like the [Brazilian Association of Technical Standards (ABNT)](https://braziliannr.com/brazilian-national-standards/)37 and the Argentine Institute of Standardization and Certification (IRAM) engage with various stakeholders to identify the need for new or revised standards. They use market analysis to monitor trends, technological developments, and regulatory changes to identify areas where new standards are necessary. Once a need is identified, stakeholders collaborate to draft proposals, typically forming technical committees with experts from relevant industries. Public consultation is also conducted to provide feedback before the final standard is adopted. Needs for standards can come from industry associations, government agencies, and consumer advocacy groups. Stakeholders can submit needs for standards through formal channels, such as writing to the national standards body or completing specific forms on their websites. Most national standards organizations provide clear guidelines and procedures for submitting needs, and information is often available online. Feasibility assessments are conducted by technical committees or working groups, evaluating the practicality, technical requirements, and potential economic impacts of proposed standards. Factors considered during these assessments include alignment with existing regulations, benefits to stakeholders, potential implementation costs, and impacts on public health and safety.
 - [Mexico's Organization for Standardization and Certification (ANCE)](https://www.ance.org.mx/Ance/)38 and the [General Directorate of Standards (DGN)](https://www.gob.mx/se/)39 are key bodies in identifying the need for standards. They engage with industry stakeholders, government agencies, and academic institutions to gather insights on current challenges and emerging needs. Market analysis helps identify areas where new standards may be necessary. Proposed standards are drafted, often involving collaboration among technical committees. Public consultation allows stakeholders and the public to provide feedback before finalization. Needs for standards can arise from industry associations, government agencies, consumer feedback, and advocacy groups. Stakeholders can submit their needs for standards through formal channels, such as contacting ANCE or DGN directly. The process is generally outlined on the websites of ANCE and DGN, with guidelines and templates provided to facilitate submissions. The feasibility of proposed standards is assessed by technical committees, evaluating the practicality, technical requirements, and potential economic impact of implementing the standard. Key factors include alignment with international standards, stakeholder benefits, implementation costs, and overall impacts on public safety and quality.
 
-# Theme 2: Consulting and assembling key stakeholders and members for committees
+## Theme 2: Consulting and assembling key stakeholders and members for committees
 
-## Description
+### Description
 
 Once a proposal is approved, work can begin on creating a new standard. A technical committee is formed, members are appointed, and a chair is assigned to guide the work.
 
@@ -68,7 +68,7 @@ Once a proposal is approved, work can begin on creating a new standard. A techni
 - The Mexican Organization for Standardization and Certification (ANCE)38 and the General Directorate of Standards (DGN)39 actively identify stakeholders from various sectors, including industry, government, academia, and consumer groups. Stakeholders are invited to participate in committees based on their expertise and relevance to the specific standard being developed. Participants typically include industry experts, government officials, academics, and consumer advocates. Accreditation organizations provide guidelines on the formation and functioning of technical committees, ensuring representativeness and a balance of interests. The Mexican government may set policies that influence committee composition, particularly in sectors where public safety or regulatory compliance are critical. Committee members generally do not receive direct compensation for their participation, but in some cases, they may be reimbursed for specific expenses incurred during meetings or the standard development process. If reimbursement is provided, it typically follows the guidelines established by the organizing body, outlining what expenses are eligible for reimbursement and the process for submitting claims.
 - In South America, national standardization bodies like ABNT, IRAM, and INMETRO engage stakeholders from various sectors, including industry, government, academia, and consumer advocacy groups. Stakeholders are invited to participate in committees based on their expertise and relevance to the specific standard. Participants typically include representatives from industries related to the standards being developed, government officials from regulatory agencies, academics and researchers, and consumer representatives and advocacy groups. National standardization bodies often have directives and guidelines that outline the composition and functioning of technical committees, ensuring inclusivity and balance in representation. Governments may also issue policies or directives that influence who can join technical committees, especially in heavily regulated sectors or involving public safety. Committee members generally do not receive direct financial compensation for their participation, but some organizations may reimburse them for specific expenses related to their participation. If reimbursement is provided, it typically follows the guidelines established by national standardization bodies, specifying which expenses are eligible for reimbursement and the process for submitting claims.
 
-# Theme 3: Establishing and sharing key project details with committee members
+## Theme 3: Establishing and sharing key project details with committee members
 
 ### Description
 
@@ -242,7 +242,7 @@ Canada
 6. Kovac, L. (2021). Accessibility Standards Development Processes Across Canada. Accessibility for Ontarians with Disabilities Act. Retrieved from [https://aoda.ca/accessibility-standards-development-processes-across-canada/](https://aoda.ca/accessibility-standards-development-processes-across-canada/)
 7. ASC (2023). Standards Development Operational Requirements. Retrieved from: <TBD>
 8. Accessibility Standards Canada (2024). Creating Accessibility Standards. Retrieved from[ https://accessible.canada.ca/creating-accessibility-standards](https://accessible.canada.ca/creating-accessibility-standards)
-9. Accessibility Standards Canada (2022). 2022 Annual Public Meeting - Update on Standards Development. Retrieved from[ https://accessible.canada.ca/sites/default/files/2022-09/StandardsDevelopmentPresentation\_0.pdf](https://accessible.canada.ca/sites/default/files/2022-09/StandardsDevelopmentPresentation_0.pdf)
+9. Accessibility Standards Canada (2022). 2022 Annual Public Meeting - Update on Standards Development. Retrieved from[ https://accessible.canada.ca/sites/default/files/2022-09/StandardsDevelopmentPresentation_0.pdf](https://accessible.canada.ca/sites/default/files/2022-09/StandardsDevelopmentPresentation_0.pdf)
 
 USA
 
@@ -268,7 +268,7 @@ Taiwan
 
 South Korea 
 
-20. ANSI (2024). ROK Standards System: Development of Korean Industrial Standards (KS). Retrieved from [https://www.standardsportal.org/usa\_kr/e/standards\_system/development\_korean\_standards.aspx](https://www.standardsportal.org/usa_kr/e/standards_system/development_korean_standards.aspx)
+20. ANSI (2024). ROK Standards System: Development of Korean Industrial Standards (KS). Retrieved from [https://www.standardsportal.org/usa_kr/e/standards_system/development_korean_standards.aspx](https://www.standardsportal.org/usa_kr/e/standards_system/development_korean_standards.aspx)
 
 Japan
 
