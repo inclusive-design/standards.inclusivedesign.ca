@@ -2,13 +2,13 @@
 title: Analyse comparative des juridictions
 lang: fr
 uuid: cf5eb701-fe23-4f07-b84d-5053fb96fc28
-slug: analyse-comparative-des-juridictions
+slug: analyse comparative des juridictions
 parent: toutes-les-normes
 excerpt: ''
 previewImage: ''
 previewImageAlt: ''
 ---
-# Thème 1 : Identification des besoins et proposition d’une norme réalisable
+## Thème 1 : Identification des besoins et proposition d’une norme réalisable
 
 ### Description
 

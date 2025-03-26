@@ -2,13 +2,13 @@
 title: Jurisdictional Scan
 lang: en
 uuid: cf5eb701-fe23-4f07-b84d-5053fb96fc28
-slug: jurisdictional-scan
+slug: jurisdictional scan
 parent: all-standards
 excerpt: ''
 previewImage: ''
 previewImageAlt: ''
 ---
-# Theme 1: Identifying need and proposing feasible standard
+## Theme 1: Identifying need and proposing feasible standard
 
 ### Description
 
@@ -45,13 +45,13 @@ Who assesses feasibility, and how?
 
 Once a proposal is approved, work can begin on creating a new standard. A technical committee is formed, members are appointed, and a chair is assigned to guide the work.
 
-## Research Questions
+### Research Questions
 
 - Who is asked to participate on committees?
 - Are there any directives or guidance from the accreditation organization, or by the government etc. that restrict who joins a technical committee?
 - Is there compensation for committee members? If yes, what are the conditions?
 
-## Summary
+### Summary
 
 - The W3C Advisory Committee (AC)2 is appointed after a chartered working group is approved, and a Call for Participation is issued to the AC, which represents every W3C member. A chair is appointed from W3C members, and their roles are summarized in the document. The announcement is made to the membership through a mailing list for the AC, which is not publicly accessible. The chair can invite invited experts, who are non-W3C members, to join the working group. These experts likely come from a network of connections through W3C members. The question remains: where do these experts come from? Are they connected to W3C or not?
 - ETSI3 is a standards development organization that operates through member organizations, including private companies, research entities, academia, government, and public organizations. Members must meet specific criteria to participate in technical groups, such as representing a member or partner organization, the European Commission, or the European Free Trade Association. Guests authorized by the chair can also participate for a limited period. The European Commission recognizes four organizations representing societal stakeholders in the ETSI standard development process: ANEC, representing consumers, ECOS, representing environmental interests, ETUC, and SBS, representing SMEs. These organizations are ETSI members and participate in the standards development process with the same rights as other members. Technical groups may hold open sessions for knowledge sharing, promotion, thought leadership, and external stakeholder engagement. Membership fees depend on the organization's type and size, but members are not compensated for their time by ETSI. ANEC covers travel, accommodation, and subsistence expenses for societal stakeholders, but does not provide salary or honoraria. Regulation (EU) 1025/2012, also known as the Standardisation Regulation, emphasizes the participation of all stakeholders in the standardization process within Europe.
@@ -70,11 +70,11 @@ Once a proposal is approved, work can begin on creating a new standard. A techni
 
 # Theme 3: Establishing and sharing key project details with committee members
 
-## Description
+### Description
 
 Once a proposal is accepted, a work plan is established, specifying details such as timelines, wording of the standard’s scope, procedures, policy, and technical committee governance (e.g., how the group decides consensus, in-person vs virtual meetings, time zone coordination etc).
 
-## Research questions
+### Research questions
 
 - What is the PROCESS to onboard members, what training / resources are available?
 - What tools are used?
@@ -82,7 +82,7 @@ Once a proposal is accepted, a work plan is established, specifying details such
 - How are meetings conducted?
 - Is there funding for accessibility accommodations, travel, etc?
 
-## Summary
+### Summary
 
 - W3C2 establishes a charter for each working group, defining its scope and policies. However, each group has autonomy, with working group chairs having discretion in their work. Meeting methods vary among groups, but minutes are published according to the W3C process. Technical document development is consensus-driven, with no specific timeline, and each group can have different methods of conducting meetings.
 - The WHATWG1 recommends that a workstream publish its first public Review Draft within six months of formation. Each workstream has a repository with contributor guides, code of conduct, and process documentation, with work, contributions, deliberation, and consensus making primarily conducted through Github.
@@ -98,19 +98,19 @@ Once a proposal is accepted, a work plan is established, specifying details such
 - The Mexico38,39 standardization project involves establishing key project details, such as objectives, timelines, and scope, during the initial planning phase. Information is shared with committee members through formal meetings, emails, and official documentation, ensuring alignment on project goals and expectations. Stakeholders are selected based on their expertise and relevance to the specific standard, and new members participate in an orientation session covering the standardization process, roles, and responsibilities. Training and resources are provided to members. Project management tools, such as shared drives or specialized software, are used to manage documents and track progress. Communication tools like email, video conferencing, and instant messaging facilitate communication among committee members. Accessibility accommodations and support services are provided to ensure everyone can fully participate. Meetings are structured with a clear agenda, and funding for accessibility accommodations and travel expenses is determined on a case-by-case basis.
 - The South American standardization process involves establishing key project details, such as objectives, scope, and timelines, at the beginning of the project. These details are shared with committee members through meetings, official documentation, and regular updates via email or project management platforms. Stakeholders are selected based on their expertise and relevance to the standard being developed. New members participate in an orientation session covering the standards development process, their roles, and responsibilities within the committee. Training and resources may be offered on specific topics related to the standards. Project management tools, such as shared drives, collaborative workspaces, or dedicated software, are used to facilitate document management and project tracking. Communication tools like email, video conferencing, and instant messaging are employed to maintain ongoing communication among committee members. Accessibility accommodations and support services are provided to ensure effective participation. Meetings are structured with a clear agenda and can be held in person or virtually. Funding for accessibility accommodations and travel expenses is evaluated on a case-by-case basis.
 
-# Theme 4: Developing standard and reaching consensus on the draft
+## Theme 4: Developing standard and reaching consensus on the draft
 
-## Description
+### Description
 
 The technical committee meets and begins to create the content for the standard document as defined by the scope (see Theme 3) producing  a first draft. The committee deliberates and comes to a consensus on what features and criteria should be included (or excluded) from the specifications.
 
-## Research questions
+### Research questions
 
 - How is consensus achieved? How are objections handled?
 - Is there guidance for effective, inclusive consensus making? 
 - What is the chair’s role in consensus making?
 
-## Summary
+### Summary
 
 - The World Wide Web Consortium (W3C)2 has two types of decisions: Chair decision, which is made by the chair based on their own judgment, and Group decision, which is made by consensus or by vote. Consensus is achieved through deliberation of views and objections. The Process Document encourages each group to specify minimum thresholds of active support to prevent apathy in decision-making. The chair has flexibility in assessing consensus, and voting is used only when deliberation fails to reach unanimous consensus. Dissenters can either abstain or register  a formal objection with the W3C Team, which handles the objection and its decision. Additional processes related to formal objections include convening the W3C council, reviewing, and appealing decisions.
 - The WHATWG1 process involves a Contributor and Workstream Participant Agreement for contributions to become part of the living standard. The sequence is  proposal, incubation, iteration, commitment, and standardization. Decision-making occurs through participation in the Workstream, editor decisions, and scope definition. Issues can be escalated to the Steering Group. Acceptance into the living standard is determined through asynchronous discussion and a triage meeting, with at least two implementers and no strong objections.
@@ -126,20 +126,20 @@ The technical committee meets and begins to create the content for the standard 
 - Mexico's38 standard development process involves initiation, drafting, and consensus building. A technical committee, consisting of experts from relevant sectors, is formed to draft the standard, incorporating technical insights and stakeholder perspectives. The process involves ongoing engagement with stakeholders, including industry representatives, governmental entities, and consumer groups. The draft standard is circulated among committee members for review and feedback. Consensus is achieved through a general agreement, open discussions, and documenting objections. If significant disagreements occur, additional meetings may be scheduled. The ANCE and DGN provide guidelines for inclusive consensus-making, emphasizing transparency, stakeholder involvement, and considering diverse perspectives. The chair of the technical committee plays a crucial role in facilitating discussions, managing conflicts, and making final decisions. This process ensures that all voices are heard and the agenda is followed.
 - The development of standards in South America involves a process that starts with identifying a need for a standard, which is then drafted by a technical committee consisting of experts from various sectors. The committee then engages with stakeholders through public consultations, workshops, and discussions to ensure all parties are represented. The draft standard is circulated among committee members and stakeholders for review, allowing for feedback and suggestions for improvement. Consensus is typically achieved through general agreement, with facilitated discussions and documented objections. If significant disagreements arise, additional meetings or workshops may be held to resolve them. National standardization bodies often provide guidelines on effective and inclusive consensus-making, emphasizing transparency, inclusivity, and thorough engagement with all stakeholders. The chair plays a crucial role in facilitating discussions, managing conflicts, and making final decisions, reflecting the consensus achieved.
 
-# Theme 5: Public feedback on drafted standard
+## Theme 5: Public feedback on drafted standard
 
 ## Description
 
 The draft standard is made available for public review and comment, and the SDO can try to engage and to encourage participation in order to ensure as wide a consensus from the public as possible regarding the standard in question.
 
-## Research questions
+### Research questions
 
 - When are there public touchpoints in the process?
 - How is public feedback gathered?
 - How is the public informed?
 - How transparent is the process?
 
-## Summary
+### Summary
 
 - ETSI's3 Standardization Principles of Transparency state that information on new standardization activities is publicly and widely announced through suitable and accessible means. Only European Standards (EN) standards go through a Public Enquiry stage, carried out by National Standards Organizations (NSOs). The process includes consultations that result in the submission of the national position. The transparency of the process, how information is announced, and how comments are gathered may differ between NSOs. For example, NBN in Belgium has a public portal for viewing and commenting on EN standards in development, while DIN in Germany allows readers to read and comment on standards on their website. Standards documents in development are available through a public portal in PDF format, and comments can be made through a short online form.
 - Public consultations on drafted standards are conducted by national standards bodies (NSBs) and European36 standardization organizations like CEN and CENELEC. These consultations allow stakeholders and the general public to review and comment on the drafts before they are finalized. Draft standards are typically published on the NSB's or relevant organization's website, with key touchpoints being the initial draft release and a specified review period. Feedback is usually gathered through online platforms, workshops, and meetings. Organizations inform the public through official announcements, newsletters, and updates on their websites, as well as social media. They may also use existing networks of stakeholders to disseminate information about upcoming public consultations and the availability of draft standards. The process is generally transparent, with drafts readily available in an accessible format  to the public. Comments received during consultations are often summarized and published, providing insight into how stakeholder input is considered. Many organizations publish reports summarizing the feedback received and how it influenced the final standard.
@@ -157,19 +157,19 @@ The draft standard is made available for public review and comment, and the SDO 
 - The W3C2 website allows users to search for draft standards, with the "any reports in progress" filter showing only working drafts. Public review announcements are posted to the W3 Public Review Announce mailing list. W3C has a web page describing how the public can participate in reviews and feedback, including reviewing drafts, implementing drafts, reporting bugs, commenting on draft charters, developing tests, and evaluating implementations of draft standards. Technical documents are open for feedback when a Working Draft is published by a Working Group, and comments are gathered via the Working Group's github issue tracker. W3C maintains open and public mailing lists, a history of revisions and drafts, and Github repositories tracking contributions and discussions on issues related to working groups. The News section on the website shares details about announcements, milestones, and deadlines related to different working groups.
 - WHATWG1 does not publish public notifications for participation, but the public can become involved by monitoring work streams on Github. The Workstream Editor publishes notes in the repository without additional notifications. There is no specific comment period for standards, but work on living standards is ongoing. Public feedback is gathering through weekly "Triage" meetings and a Matrix chatroom. Most work is done publicly in the WHATWG Github repositories.
 
-# Theme 6: Committee review of feedback and publication of final standard
+## Theme 6: Committee review of feedback and publication of final standard
 
-## Description
+### Description
 
 The technical committee addresses the public’s feedback by deliberating the feedback and revising the draft standard as needed. Once a final draft is achieved and approved by the SDO, the SDO works to publish/distribute it to the standard’s intended audience.
 
-## Research questions
+### Research questions
 
 - How are comments handled? 
 - How are standards published? What formats?
 - Are drafts publicly accessible?
 
-## Summary
+### Summary
 
 - The W3C2 process involves multiple rounds of drafts for technical documents, known as "wide review," which outlines the goal, intent, request for changes, and how those changes were addressed After review, a working draft becomes a Candidate Recommendation, which is then a Proposed Recommendation and finally a W3C Recommendation. These recommendations are published under W3C standards and drafts, and can be accessed by the working group, and by the public.
 - ETSI3 allows technical groups to organize their work within the Technical Working Procedures, sharing documents via DocBox and LISTSERV. Drafts are sent to the Working Group, and approval is granted by the Technical Group. For EN standards, comments are shared with the technical committee, and a Weighted National Voting procedure is performed over 90 days. If no technical comments are received, the standard is published within 10 days, including a PDF document on the ETSI web server.
@@ -185,20 +185,20 @@ The technical committee addresses the public’s feedback by deliberating the fe
 - Mexico's38,39 process for drafting final standards involves a committee review of feedback from stakeholders, including industry representatives, government agencies, and the public. The technical committee then analyzes the feedback, making necessary revisions. The final standard is approved by the committee, typically requiring a formal vote to reach consensus. All comments received during the consultation period are documented, providing a clear record of the feedback process. The committee may issue a response to major comments, explaining how they were addressed in the final standard or providing reasons for their rejection. The final standards are published in various formats, including print, digital, and official gazette. The Mexican Organization for Standardization and Certification (ANCE) and the General Directorate of Standards (DGN) oversee the publication process. Drafts are made publicly accessible during the consultation phase, promoting transparency and active participation from all interested parties.
 - The South American standardization process involves a committee review of feedback from stakeholders, including industry representatives, government agencies, and consumer groups. The committee then reviews the feedback during meetings, assessing its significance and relevance. The draft standard is then revised based on the feedback, often involving multiple iterations. The final standard is approved by the committee, often requiring a consensus or formal vote. All feedback and comments are documented systematically, including acceptance and rejection. The committee may provide responses to significant comments, explaining how they were addressed in the final version or justifying the lack of certain suggestions. Standards are typically published in various formats, including print, digital, and official journals. The publication process is often overseen by national standardization organizations. Drafts are made publicly accessible during consultation, promoting transparency and participation in the standardization process.
 
-# Theme 7: Regular review of published standards
+## Theme 7: Regular review of published standards
 
-## Description
+### Description
 
 The standard is reviewed every few years to ensure it is still relevant and applicable to the current state of affairs.
 
-## Research questions
+### Research questions
 
 - While a standard is published - is there a way for stakeholders and the general public to provide feedback on the standard in practice?
 - Who is responsible for review and upkeep of a published standard? Is the technical committee retained for this purpose, or is a new group created?
 - How is the public informed about standards that are being reviewed?
 - Is the public involved in this process?
 
-## Summary
+### Summary
 
 - The W3C2 (W3C, 2023) emphasizes the ongoing review of published standards, which can be updated through an update request or a new working draft. New features can be added to a recommendation, but some recommendations prohibit new features from being feature-stable. Feedback is primarily collected through Github issues for different working groups, similar to Theme 5. A Working Group is responsible for maintaining a recommendation, and if there is no Working Group, the W3C Team assumes responsibility. Public notification is required for revisions, ensuring all stakeholders, including the general public, have adequate notice of the progress of the Working Group. Any changes to existing recommendations must undergo wide review before being incorporated, following the same process as Theme 5.
 - WHATWG's1 workstream policy involves regular review of published standards without a discrete maintenance phase. Issues can be filed to the Workstream repository, which can be addressed by other contributors. Feedback mechanisms are similar to Theme 5. The workstream editor is responsible for reviewing and maintaining living standards. Public notification is provided by the editor, and participants are responsible for being updated on any changes.
