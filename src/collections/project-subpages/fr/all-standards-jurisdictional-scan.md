@@ -2,7 +2,7 @@
 title: Analyse comparative des juridictions
 lang: fr
 uuid: cf5eb701-fe23-4f07-b84d-5053fb96fc28
-slug: analyse comparative des juridictions
+slug: analyse-comparative-des-juridictions
 parent: toutes-les-normes
 excerpt: ''
 previewImage: ''
@@ -241,7 +241,7 @@ Canada
 6. Kovac, L. (2021). Accessibility Standards Development Processes Across Canada. Accessibility for Ontarians with Disabilities Act. Retrieved from [https://aoda.ca/accessibility-standards-development-processes-across-canada/](https://aoda.ca/accessibility-standards-development-processes-across-canada/)
 7. ASC (2023). Standards Development Operational Requirements. Retrieved from: <TBD>
 8. Accessibility Standards Canada (2024). Creating Accessibility Standards. Retrieved from[ https://accessible.canada.ca/creating-accessibility-standards](https://accessible.canada.ca/creating-accessibility-standards)
-9. Accessibility Standards Canada (2022). 2022 Annual Public Meeting - Update on Standards Development. Retrieved from[ https://accessible.canada.ca/sites/default/files/2022-09/StandardsDevelopmentPresentation_0.pdf](https://accessible.canada.ca/sites/default/files/2022-09/StandardsDevelopmentPresentation_0.pdf)
+9. Accessibility Standards Canada (2022). 2022 Annual Public Meeting - Update on Standards Development. Retrieved from[ https://accessible.canada.ca/sites/default/files/2022-09/StandardsDevelopmentPresentation\_0.pdf](https://accessible.canada.ca/sites/default/files/2022-09/StandardsDevelopmentPresentation_0.pdf)
 
 USA
 
@@ -267,7 +267,7 @@ Taiwan
 
 South Korea 
 
-20. ANSI (2024). ROK Standards System: Development of Korean Industrial Standards (KS). Retrieved from [https://www.standardsportal.org/usa_kr/e/standards_system/development_korean_standards.aspx](https://www.standardsportal.org/usa_kr/e/standards_system/development_korean_standards.aspx)
+20. ANSI (2024). ROK Standards System: Development of Korean Industrial Standards (KS). Retrieved from [https://www.standardsportal.org/usa\_kr/e/standards\_system/development\_korean\_standards.aspx](https://www.standardsportal.org/usa_kr/e/standards_system/development_korean_standards.aspx)
 
 Japan
 
