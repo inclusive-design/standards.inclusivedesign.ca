@@ -128,7 +128,7 @@ The technical committee meets and begins to create the content for the standard 
 
 ## Theme 5: Public feedback on drafted standard
 
-## Description
+### Description
 
 The draft standard is made available for public review and comment, and the SDO can try to engage and to encourage participation in order to ensure as wide a consensus from the public as possible regarding the standard in question.
 
