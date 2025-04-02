@@ -84,6 +84,7 @@
 
 .filter-tag.type::before {
     mask-image: url(/assets/images/type.svg);
+    mask-size: cover;
 }
 
 .filter-tag::after {

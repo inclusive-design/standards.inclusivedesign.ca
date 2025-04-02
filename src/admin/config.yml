@@ -262,6 +262,8 @@ collections:
             value: guide-or-toolkit
           - label: Document
             value: document
+          - label: Standards
+            value: standards
           - label: Other
             value: other
       - label: Related Project(s)

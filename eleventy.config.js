@@ -59,6 +59,17 @@ export default function eleventy(eleventyConfig) {
         return collection.find((post) => _.get(post, key) === value);
     });
 
+    eleventyConfig.addFilter("objectArrayPush", (obj, key, value) => {
+        if (Array.isArray(value)) {
+            obj[key] = [...new Set([...obj[key], ...value])];
+        } else {
+            if (!obj[key].includes(value)) {
+                obj[key].push(value);
+            }
+        }
+        return obj;
+    });
+
     eleventyConfig.addFilter("findTranslation", function find(page, collection = [], lang, desiredLang) {
         const expectedFilePathStem = page.filePathStem.replace(lang, desiredLang);
 

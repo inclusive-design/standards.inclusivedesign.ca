@@ -5,7 +5,7 @@
   "contact-us-email": "Courriel",
   "contact-us-phone": "Téléphone",
   "events": "Événements",
-  "filtered-resources": "filtered resource/filtered resources",
+  "filtered-resources": "ressource filtrée/ressources filtrées",
   "header-intro": "Un projet du <a href='https://idrc.ocadu.ca/' rel='external'>Centre de recherche sur la conception inclusive</a>",
   "header-intro-short": "<a href='https://idrc.ocadu.ca/' rel='external'>Un projet du IDRC</a>",
   "project": "Projet",
@@ -13,6 +13,7 @@
   "projects-slug": "projets",
   "resources": "Ressources",
   "social-media": "Les médias sociaux",
+  "type": "Type",
   "main-menu": "Menu principal",
   "menu": "menu",
   "project-menu": "Menu du projet",
@@ -27,5 +28,6 @@
   "podcast": "Balado",
   "guide-or-toolkit": "Guide ou boîte à outils",
   "document": "Document",
+  "standards": "Normes",
   "other": "Autre"
 }

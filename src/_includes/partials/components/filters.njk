@@ -1,3 +1,8 @@
+{% set filterableOptions = { projects: [], types: [] } %}
+{% for resource in collections['resources_' + lang] %}
+    {% set filterableOptions = filterableOptions | objectArrayPush("projects", resource.data.projects) %}
+    {% set filterableOptions = filterableOptions | objectArrayPush("types", resource.data.type) %}
+{% endfor %}
 <div id="filters" class="filters flow">
     <h3>{% __ 'filters' %}</h3>
     <div class="flow">
@@ -6,10 +11,12 @@
             {% disclosure 'project' %}
             <ul id="filter-project">
                 {% for project in collections['projects_' + lang] %}
+                    {% if project.data.uuid in filterableOptions.projects %}
                     <li>
                         <input type="checkbox" id="{{ project.data.uuid }}" name="project" value="{{ project.data.title }}" data-filter-key="projects" />
                         <label for="{{ project.data.uuid }}">{{ project.data.title }}</label>
                     </li>
+                    {% endif %}
                 {% endfor %}
             </ul>
             {% enddisclosure %}
@@ -19,10 +26,10 @@
             <legend class="visually-hidden">{% __ 'type' %}</legend>
             {% disclosure 'type' %}
             <ul id="filter-type">
-                {% for value in type %}
+                {% for value in filterableOptions.types %}
                 <li>
                     <input type="checkbox" id="{{ value }}" name="type" value="{{ value }}" data-filter-key="type" />
-                    <label for="{{ value }}">{{ value }}</label>
+                    <label for="{{ value }}">{% __ value %}</label>
                 </li>
                 {% endfor %}
             </ul>
