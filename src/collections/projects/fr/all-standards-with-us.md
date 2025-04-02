@@ -1,7 +1,8 @@
 ---
 title: Toutes les normes avec nous
-slug: toutes-les-normes
+lang: fr
 uuid: e45a05ce-efb3-449f-965d-f671911b6626
+slug: toutes-les-normes
 excerpt: Ce projet rend l'élaboration de normes accessible aux personnes handicapées et aux personnes sourdes, garantissant ainsi que les biens et services sont inclusifs. Nous nous efforçons d'éliminer les obstacles au sein des organismes d'élaboration de normes (OEN) afin de soutenir la pleine participation.
 previewImageAlt: ''
 color: yellow
@@ -54,16 +55,55 @@ et les personnes sourdes, et les piloter avec les organismes de normalisation tr
 - Créer des ressources de renforcement des capacités pour outiller les organisations de personnes handicapées et les personnes handicapées afin de prendre des mesures
 participer au processus d'élaboration des normes.
 
-## Partenaires du projet
+## Co-chercheurs et Partenaires
 
-Cette liste sera mise à jour au fur et à mesure de l'avancement du projet.
+**Sal Amenta -** Coprésident, [Accessible Housing Network](https://www.accessiblehousingnetwork.org/) 
 
-## Références
+**Tara Connolly -** Directeur adjoint de la recherche et du développement, [Accessibility Institute](https://carleton.ca/accessibility-institute/)
 
-Organisation internationale de normalisation (2024). Normes. Extrait de https://www.iso.org/standards.html.
+**Isai Estey -** Membre de la communauté, [L’Arche Canada](https://larche.ca/fr/)
 
-Université du Massachusetts (2024). Normes. Récupéré de
-https://guides.library.umass.edu/c.php?g=719645&p=5126968.
+**Francis Fung -** Responsable national des services de réadaptation et cliniques, [ La Marche Des Dix Sous Du Canada](https://www.marchofdimes.ca/fr-ca) 
+
+ **Uttara Ghodke -** Concepteur inclusif, [Inclusive Design Research Centre](https://idrc.ocadu.ca/)
+
+**Kathy Howery -** Présidente, [Société internationale de suppléance à la communication Canada](https://isaac-canada.org/)
+
+**Henrietta Igloliorte -** Membre de la communauté, [New Society Institute](https://newsocietyinstitute.ca/)
+
+**Max Le Moine -**  Membre de la communauté, [Accessibility Institute](https://carleton.ca/accessibility-institute/)
+
+**Cheryl Li -** Concepteur inclusif supérieur, [Inclusive Design Research Centre](https://idrc.ocadu.ca/)
+
+**Jasmin Macarios -**  Membre de la communauté, [Accessibility Institute](https://carleton.ca/accessibility-institute/)
+
+**David Meyers -** Responsable principal des programmes de vie autonome, [Centre for Independent Living Toronto](https://cilt.ca/)
+
+**Eddy Morten -** Membre de la communauté, [Wavefront Centre for Communication Accessibility](https://www.wavefrontcentre.ca/)
+
+**Erick Nettel -** Responsable des services en ligne, [New Society Institute](https://newsocietyinstitute.ca/)
+
+**Kelly Newell -** Membre de la communauté, [La Marche Des Dix Sous Du Canada](https://www.marchofdimes.ca/fr-ca)
+
+**Wendy Porch -** Directeur général, [Centre for Independent Living Toronto](https://cilt.ca/)
+
+**Doris Rajan -** Directeur général, [New Society Institute](https://newsocietyinstitute.ca/)
+
+ **Sepideh Shahi -**Concepteur inclusif supérieur, [Inclusive Design Research Centre](https://idrc.ocadu.ca/)
+
+**Audreanne Soenens -** Membre de la communauté, [L’Arche Canada](https://larche.ca/fr/)
+
+**Lori Vaanholt -** Directeur exécutif adjoint national de l'innovation et de l'impact, [L’Arche Canada](https://larche.ca/fr/) 
+
+**Heather Walkus -** Présidente, [Council of Canadians with Disabilities](http://www.ccdonline.ca/fr/)
+
+**Dr. Ruth Warick -** Directeur des programmes et des services, [Wavefront Centre for Communication Accessibility](https://www.wavefrontcentre.ca/)
+
+**Ian White -** Président du chapitre des visionnaires de Toronto, [Canadian Council of the Blind](http://www.ccbtorontovisionaries.ca/)
+
+##
+
+##
 
 ## Financeurs
 

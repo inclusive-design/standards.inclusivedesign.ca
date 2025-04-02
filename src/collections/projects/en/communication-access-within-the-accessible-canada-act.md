@@ -1,7 +1,8 @@
 ---
 title: Communication Access within the Accessible Canada Act
-slug: communication-access
+lang: en
 uuid: 05e178eb-9343-4b9f-b1d0-536ef907756d
+slug: communication-access
 excerpt: The goal of the Communication Access project is to inform the development of communication access standards and regulations under the Accessible Canada Act.
 previewImageAlt: ''
 color: red

@@ -38,16 +38,16 @@ export default function eleventy(eleventyConfig) {
             return collection.getFilteredByGlob(`src/collections/projects/${lang}/*.md`);
         });
 
+        eleventyConfig.addCollection(`projectsubpages_${lang}`, (collection) => {
+            return collection.getFilteredByGlob(`src/collections/project-subpages/${lang}/*.md`);
+        });
+
         eleventyConfig.addCollection(`events_${lang}`, (collection) => {
             return collection.getFilteredByGlob(`src/collections/events/${lang}/*.md`);
         });
 
         eleventyConfig.addCollection(`resources_${lang}`, (collection) => {
             return collection.getFilteredByGlob(`src/collections/resources/${lang}/*.md`);
-        });
-
-        eleventyConfig.addCollection(`announcements_${lang}`, (collection) => {
-            return collection.getFilteredByGlob(`src/collections/announcements/${lang}/*.md`);
         });
 
         eleventyConfig.addCollection(`topics_${lang}`, (collection) => {
@@ -127,10 +127,10 @@ export default function eleventy(eleventyConfig) {
     eleventyConfig.addPassthroughCopy({ "src/assets/fonts": "assets/fonts" });
 
     eleventyConfig.addPlugin(brokenLinksPlugin, {
-        forbidden: "error",
-        broken: "error",
+        forbidden: "warn",
+        broken: "warn",
         cacheDuration: "60s",
-        loggingLevel: 1,
+        loggingLevel: 2,
         excludeInputs: ["**/*/*.css"]
     });
 

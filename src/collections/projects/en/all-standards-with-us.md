@@ -1,7 +1,8 @@
 ---
 title: All Standards With Us
-slug: all-standards
+lang: en
 uuid: e45a05ce-efb3-449f-965d-f671911b6626
+slug: all-standards
 excerpt: This project makes the process of creating standards more accessible to disabled and Deaf people, ensuring goods and services are inclusive. We focus on removing barriers in Standards Development Organizations (SDOs) to support full participation.
 previewImageAlt: ''
 color: yellow
@@ -56,16 +57,53 @@ and Deaf people, and pilot them with mainstream SDOs.
 - Create capacity building resources to equip disability organizations and people with disabilities to take
 part in the standards development process.
 
-## Project partners
+## Co-researchers and Partners
 
-This list will be updated as the project progresses.
+**Sal Amenta -** Co-chair, [Accessible Housing Network](https://www.accessiblehousingnetwork.org/) 
 
-## References
+**Tara Connolly -** Assistant Director for Research and Development, [Accessibility Institute](https://carleton.ca/accessibility-institute/)
 
-International Organization for Standardization (2024). Standards. Retrieved from https://www.iso.org/standards.html.
+**Isai Estey -** Community member, [L’Arche Canada](https://larche.ca/)
 
-University of Massachusetts (2024). Standards. Retrieved from
-https://guides.library.umass.edu/c.php?g=719645&p=5126968.
+**Francis Fung -** National Manager Rehabilitation and Clinical Services, [March of Dimes Canada](https://www.marchofdimes.ca/en-ca) 
+
+ **Uttara Ghodke -** Inclusive Designer, [Inclusive Design Research Centre](https://idrc.ocadu.ca/)
+
+**Kathy Howery -** President, [International Society for Augmentative and Alternative Communication Canada](https://isaac-canada.org/)
+
+**Henrietta Igloliorte -** Community member, [New Society Institute](https://newsocietyinstitute.ca/)
+
+**Max Le Moine -**  Community member, [Accessibility Institute](https://carleton.ca/accessibility-institute/)
+
+**Cheryl Li -** Senior Inclusive Designer, [Inclusive Design Research Centre](https://idrc.ocadu.ca/)
+
+**Jasmin Macarios -**  Community member, [Accessibility Institute](https://carleton.ca/accessibility-institute/)
+
+**David Meyers -** Senior Manager of Independent Living Programs, [Centre for Independent Living Toronto](https://cilt.ca/)
+
+**Eddy Morten -** Community member, [Wavefront Centre for Communication Accessibility](https://www.wavefrontcentre.ca/)
+
+**Erick Nettel -** Manager of Online Services, [New Society Institute](https://newsocietyinstitute.ca/)
+
+**Kelly Newell -** Community member, [March of Dimes Canada](https://www.marchofdimes.ca/en-ca)
+
+**Wendy Porch -** Executive Director, [Centre for Independent Living Toronto](https://cilt.ca/)
+
+**Doris Rajan -** Managing Director, [New Society Institute](https://newsocietyinstitute.ca/)
+
+ **Sepideh Shahi -** Senior Inclusive Designer, [Inclusive Design Research Centre](https://idrc.ocadu.ca/)
+
+**Audreanne Soenens -** Community member, [L’Arche Canada](https://larche.ca/)
+
+**Lori Vaanholt -** National Vice-Executive Director - Innovation & Impact, [L’Arche Canada](https://larche.ca/) 
+
+**Heather Walkus -** Chairperson, [Council of Canadians with Disabilities](http://www.ccdonline.ca/en/)
+
+**Dr. Ruth Warick -** Director Programs and Services, [Wavefront Centre for Communication Accessibility](https://www.wavefrontcentre.ca/)
+
+**Ian White -** President CCB Toronto Visionaries Chapter, [Canadian Council of the Blind](http://www.ccbtorontovisionaries.ca/)
+
+##
 
 ## Funders
 

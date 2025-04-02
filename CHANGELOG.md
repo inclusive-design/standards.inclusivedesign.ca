@@ -1,5 +1,33 @@
 # Changelog
 
+## [1.4.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.3.1...v1.4.0) (2025-03-25)
+
+
+### Features
+
+* enforce URL-safe slugs ([#189](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/189)) ([02a165f](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/02a165fe5c15fab669f76f7f258dcee56f567662))
+
+## [1.3.1](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.3.0...v1.3.1) (2025-03-24)
+
+
+### Bug Fixes
+
+* set broken-link config to warn on broken link, and change logging level to 2 ([#187](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/187)) ([325765a](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/325765af5c9fece1d0c42eaf4b2109c38614f1b0))
+
+## [1.3.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.2.0...v1.3.0) (2025-03-20)
+
+
+### Features
+
+* add project subpages (resolves [#183](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/183)) ([#184](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/184)) ([b141843](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/b1418436679e87db89731f814ca528d1fa57d5eb))
+* localize disclosure shortcode (resolves [#173](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/173)) ([#174](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/174)) ([2042b69](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/2042b69079250e9f4d80bf94094d538c8bf5d747))
+* remove announcements functionality ([#182](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/182)) ([a2619ec](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/a2619ec78a013adaf74e7156be0b3ebb75ec4864))
+
+
+### Bug Fixes
+
+* **deps:** update dependency @11ty/eleventy-navigation to v1 ([#185](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/185)) ([f564862](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/f56486271f16baae223f8082360e62599e2a8188))
+
 ## [1.2.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.1.0...v1.2.0) (2025-02-26)
 
 

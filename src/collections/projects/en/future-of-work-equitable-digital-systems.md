@@ -1,7 +1,8 @@
 ---
 title: 'Future of Work: Equitable Digital Systems'
-slug: eds
+lang: en
 uuid: 672e74ba-9f27-4295-adda-dae162a48d60
+slug: eds
 excerpt: Examining the accessibility of the digital tools and systems we rely upon for work
 previewImageAlt: ''
 color: blue

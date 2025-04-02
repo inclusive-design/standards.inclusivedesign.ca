@@ -1,5 +1,4 @@
 {
-  "announcements": "Announcements",
   "contact-us": "Contact Us",
   "contact-us-address": "Address",
   "contact-us-email": "Email",
@@ -17,6 +16,9 @@
   "main-menu": "Main Menu",
   "menu": "menu",
   "project-menu": "Project menu",
+  "page-menu": "Page menu",
+  "toc": "Table of contents",
+  "related-material": "Related material",
   "skip-to-content": "Skip to content",
   "site-title": "<strong>Inclusive</strong><br />Standards",
   "no-projects": "No projects found.",

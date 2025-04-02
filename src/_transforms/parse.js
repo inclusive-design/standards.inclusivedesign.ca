@@ -55,7 +55,7 @@ export default (value, outputPath) => {
 
         const pageNavHeadings = document.querySelectorAll("main:has(nav) article h2");
         if (pageNavHeadings.length > 0) {
-            const navContainer = document.querySelector("main nav ul");
+            const navContainer = document.querySelector("main nav #toc ul");
             for (const heading of pageNavHeadings) {
                 if (heading.parentNode.tagName !== "NAV") {
                     const link = document.createElement("a");
