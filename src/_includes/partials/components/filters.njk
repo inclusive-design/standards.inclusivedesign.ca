@@ -13,7 +13,7 @@
                 {% for project in collections['projects_' + lang] %}
                     {% if project.data.uuid in filterableOptions.projects %}
                     <li>
-                        <input type="checkbox" id="{{ project.data.uuid }}" name="project" value="{{ project.data.title }}" data-filter-key="projects" />
+                        <input type="checkbox" id="{{ project.data.uuid }}" name="project" value="{{ project.data.uuid }}" data-filter-key="projects" />
                         <label for="{{ project.data.uuid }}">{{ project.data.title }}</label>
                     </li>
                     {% endif %}
@@ -36,5 +36,4 @@
             {% enddisclosure %}
         </fieldset>
     </div>
-    <button type="button" id="apply">Apply Filter</button>
 </div>
