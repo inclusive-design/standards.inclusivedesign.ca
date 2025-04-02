@@ -4,10 +4,13 @@ window.onload = () => {
     renderFilterTags();
 };
 
-const filterApplyButton = document.getElementById("apply");
-filterApplyButton.addEventListener("click", () => {
-    renderFilterTags();
-});
+const filters = document.getElementById("filters");
+const checkedFilterOptions = filters.querySelectorAll("input[type='checkbox']");
+for (const checkbox of checkedFilterOptions) {
+    checkbox.addEventListener("click", () => {
+        renderFilterTags();
+    });
+}
 
 const renderFilterTags = () => {
     const filterTags = document.getElementById("filter-tags");
@@ -23,7 +26,6 @@ const renderFilterTags = () => {
             filterTag.className = `filter-tag ${option.name}`;
             filterTag.addEventListener("click", () => {
                 checkbox.click();
-                filterApplyButton.click();
             });
             filterTag.innerHTML = checkbox.innerHTML;
             filterTags.appendChild(filterTag);
@@ -31,8 +33,7 @@ const renderFilterTags = () => {
         const clearFiltersButton = document.createElement("button");
         clearFiltersButton.innerHTML = "Clear filters";
         clearFiltersButton.addEventListener("click", () => {
-            document.querySelectorAll('input[type="checkbox"]').forEach((checkbox) => (checkbox.checked = false));
-            filterApplyButton.click();
+            document.querySelectorAll('input[type="checkbox"]:checked').forEach((checkbox) => checkbox.click());
         });
         filterTags.appendChild(clearFiltersButton);
     } else {
