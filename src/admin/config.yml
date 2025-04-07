@@ -279,6 +279,7 @@ collections:
     icon: inventory_2
     i18n: true
     folder: src/collections/resources
+    slug: '{{uuid_short}}'
     extension: md
     create: true
     fields:
