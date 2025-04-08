@@ -5,20 +5,47 @@
 
 .filters {
     margin-block-end: 1.75rem;
-}
 
-.filters inclusive-disclosure {
-    padding-inline: 0;
-}
+    inclusive-disclosure {
+        padding-inline: 0;
+    }
 
-.filters inclusive-disclosure * ul {
-    padding-inline: 0;
-}
+    inclusive-disclosure * ul {
+        padding-inline: 1.25rem;;
 
-.filters fieldset {
-    border: unset;
-    margin: unset;
-    padding: unset;
+    }
+
+    inclusive-disclosure > button {
+        position: relative;
+        padding-inline-start: 3.5625rem;
+    }
+
+    inclusive-disclosure > button::after {
+        right: 1.25rem;
+    }
+    
+    inclusive-disclosure > button::before {
+        background-color: var(--fl-linkFgColor, var(--color-indigo-700));
+        block-size: calc(1.125rem * var(--fl-enhance-font-size-factor, 1.5));
+        content: "";
+        display: inline-block;
+        inline-size: calc(0.9375rem * var(--fl-enhance-font-size-factor, 1.5));
+        left: 1.25rem;
+        mask-position: center;
+        mask-repeat: no-repeat;
+        mask-size: contain;
+        position: absolute;
+    }
+
+    inclusive-disclosure > button:hover::before {
+        background-color: var(--fl-linkBgColor, var(--color-indigo-700));
+    }
+
+    fieldset {
+        border: unset;
+        margin: unset;
+        padding: unset;
+    }
 }
 
 .filter-tags {
@@ -64,42 +91,49 @@
     }
 }
 
-.filter-tag::before {
-    background-color: var(--fl-fgColor, var(--color-indigo-700));
-    block-size: calc(1.125rem * var(--fl-enhance-font-size-factor, 1));
-    content: "";
-    display: inline-block;
-    inline-size: calc(0.8125rem * var(--fl-enhance-font-size-factor, 1));
-    left: 1.25rem;
-    mask-position: center;
-    mask-repeat: no-repeat;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.filter-tag.project::before {
-    mask-image: url(/assets/images/project.svg);
-}
-
-.filter-tag.type::before {
-    mask-image: url(/assets/images/type.svg);
-    mask-size: cover;
-}
-
+.filter-tag::before,
 .filter-tag::after {
     background-color: var(--fl-fgColor, var(--color-indigo-700));
     block-size: calc(1.125rem * var(--fl-enhance-font-size-factor, 1));
     content: "";
     display: inline-block;
     inline-size: calc(0.8125rem * var(--fl-enhance-font-size-factor, 1));
-    mask-image: url(/assets/images/x.svg);
     mask-position: center;
     mask-repeat: no-repeat;
+    mask-size: contain;
     position: absolute;
-    right: 1.25rem;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.filter-tag::before {
+    left: 1.25rem;
+}
+
+.filter-tag::after {
+    mask-image: url(/assets/images/x.svg);
+}
+
+inclusive-disclosure:has(#filter-project) > button::before,
+.filter-tag.project::before {
+    mask-image: url(/assets/images/project.svg);
+}
+
+inclusive-disclosure:has(#filter-type) > button::before,
+.filter-tag.type::before {
+    mask-image: url(/assets/images/type.svg);
+}
+
+inclusive-disclosure:has(#filter-language) > button::before {
+    mask-image: url(/assets/images/language.svg)
+}
+
+inclusive-disclosure:has(#filter-publisher) > button::before {
+    mask-image: url(/assets/images/publisher.svg)
+}
+
+inclusive-disclosure:has(#filter-topic) > button::before {
+    mask-image: url(/assets/images/topic.svg)
 }
 
 @media (width >= 46.625rem) {

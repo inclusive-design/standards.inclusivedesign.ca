@@ -9,6 +9,16 @@
     position: relative;
 }
 
+.resources .card {
+    padding-block-end: 0.5rem;
+    padding-block-start: unset;
+}
+
+.resources .card:has(a:focus) {
+    border: 0.1875rem solid var(--fl-fgColor, var(--color-indigo-700));
+}
+
+
 
 .card:has(a:focus) {
     border: 0.1875rem solid var(--fl-fgColor, transparent);
