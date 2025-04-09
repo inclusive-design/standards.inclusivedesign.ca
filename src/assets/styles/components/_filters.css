@@ -112,6 +112,7 @@
 
 .filter-tag::after {
     mask-image: url(/assets/images/x.svg);
+    right: 1.25rem;
 }
 
 inclusive-disclosure:has(#filter-project) > button::before,
@@ -124,15 +125,18 @@ inclusive-disclosure:has(#filter-type) > button::before,
     mask-image: url(/assets/images/type.svg);
 }
 
-inclusive-disclosure:has(#filter-language) > button::before {
+inclusive-disclosure:has(#filter-language) > button::before,
+.filter-tag.language::before {
     mask-image: url(/assets/images/language.svg)
 }
 
-inclusive-disclosure:has(#filter-publisher) > button::before {
+inclusive-disclosure:has(#filter-publisher) > button::before,
+.filter-tag.publisher::before {
     mask-image: url(/assets/images/publisher.svg)
 }
 
-inclusive-disclosure:has(#filter-topic) > button::before {
+inclusive-disclosure:has(#filter-topic) > button::before,
+.filter-tag.topic::before {
     mask-image: url(/assets/images/topic.svg)
 }
 

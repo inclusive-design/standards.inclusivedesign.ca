@@ -56,12 +56,12 @@
             {% disclosure 'language' %}
             <ul id="filter-language">
                 <li>
-                    <input type="checkbox" id="language-en" name="type" value="en" data-filter-key="language" />
-                    <label for="{{ language-en }}">{{ supportedLanguages["en"].name }}</label>
+                    <input type="checkbox" id="language-en" name="language" value="en" data-filter-key="language" />
+                    <label for="language-en">{{ supportedLanguages["en"].name }}</label>
                 </li>
                 <li>
-                    <input type="checkbox" id="language-fr" name="type" value="fr" data-filter-key="language" />
-                    <label for="{{ language-fr }}">{{ supportedLanguages["fr"].name }}</label>
+                    <input type="checkbox" id="language-fr" name="language" value="fr" data-filter-key="language" />
+                    <label for="language-fr">{{ supportedLanguages["fr"].name }}</label>
                 </li>
             </ul>
             {% enddisclosure %}
@@ -72,8 +72,8 @@
             <ul id="filter-publisher">
                 {% for value in filterableOptions.publishers %}
                 <li>
-                    <input type="checkbox" id="publisher-{{ value }}" name="publisher" value="{{ value }}" data-filter-key="publisher" />
-                    <label for="{{ value }}">{{ value }}</label>
+                    <input type="checkbox" id="publisher-{{ value | slugify }}" name="publisher" value="{{ value }}" data-filter-key="publisher" />
+                    <label for="publisher-{{ value | slugify }}">{{ value }}</label>
                 </li>
                 {% endfor %}
             </ul>
