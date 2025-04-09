@@ -59,7 +59,7 @@ part in the standards development process.
 
 ## Co-researchers and Partners
 
-**Sal Amenta -** Co-chair, [Accessible Housing Network](https://www.accessiblehousingnetwork.org/) 
+**Sal Amenta -** Past Chair, [Accessible Housing Network](https://www.accessiblehousingnetwork.org/) 
 
 **Tara Connolly -** Assistant Director for Research and Development, [Accessibility Institute](https://carleton.ca/accessibility-institute/)
 
