@@ -11,10 +11,8 @@
 
 
 .card:has(a:focus) {
-    border: 0.1875rem solid var(--fl-fgColor, transparent);
-    box-shadow: 0 0.625rem 1.25rem 0 var(--shadow-light);
-    outline: 0.1875rem solid var(--fl-fgColor, transparent);
-    outline-offset: 0.1875rem;
+    outline: 0.1875rem solid var(--color-indigo-700, transparent);
+    outline-offset: 0.4375rem;
 }
 
 .card:has(a:focus) > .card__content {
@@ -22,14 +20,11 @@
     box-shadow: 0 -0.1875rem 0 var(--fl-fgColor, transparent);
 }
 
-.card:hover {
+.card:hover,
+.card:has(a:focus) {
     box-shadow:
         inset 0 0 0 0.1875rem var(--fl-fgColor, transparent),
         0 0.625rem 1.25rem 0 var(--fl-fgColor, var(--shadow-dark));
-}
-
-.card:hover.card:has(a:focus) {
-    box-shadow: 0 0.625rem 1.25rem 0 var(--fl-fgColor, var(--shadow-dark));
 }
 
 .card__image {
@@ -39,7 +34,6 @@
 }
 
 .card__content {
-    border: 0.1875rem solid var(--fl-fgColor, transparent);
     background-color: var(--fl-bgColor, white);
     display: flex;
     flex-direction: column;
@@ -109,6 +103,12 @@
     display: flex;
     gap: 0.75rem;
     width: 100%;
+}
+
+.fl-input-enhanced {
+    .card:has(a:focus) {
+        outline-width: 0.3125rem;
+    }
 }
 
 @media (width >= 24.25rem) {
