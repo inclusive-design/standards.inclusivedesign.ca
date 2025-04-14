@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.4.0...v1.4.1) (2025-04-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @11ty/eleventy-navigation to v1.0.4 ([#191](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/191)) ([31f97e7](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/31f97e7099694a90ee70a0a10c590b3652155f67))
+
 ## [1.4.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.3.1...v1.4.0) (2025-03-25)
 
 
