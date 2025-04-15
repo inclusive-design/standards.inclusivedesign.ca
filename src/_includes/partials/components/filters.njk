@@ -8,6 +8,7 @@
 <div id="filters" class="filters flow">
     <h3>{% __ 'filters' %}</h3>
     <div class="flow">
+        {% if collections['topics_' + lang] | length > 1 %}
         <fieldset>
             <legend class="visually-hidden">{% __ 'topic' %}</legend>
             {% disclosure 'topic' %}
@@ -23,6 +24,8 @@
             </ul>
             {% enddisclosure %}
         </fieldset>
+        {% endif %}
+        {% if filterableOptions.types | length > 1 %}
         <fieldset>
             <legend class="visually-hidden">{% __ 'type' %}</legend>
             {% disclosure 'type' %}
@@ -36,6 +39,8 @@
             </ul>
             {% enddisclosure %}
         </fieldset>
+        {% endif %}
+        {% if filterableOptions.projects | length > 1 %}
         <fieldset>
             <legend class="visually-hidden">{% __ 'project' %}</legend>
             {% disclosure 'project' %}
@@ -51,6 +56,8 @@
             </ul>
             {% enddisclosure %}
         </fieldset>
+        {% endif %}
+        {% if collections['resources_fr'] | length > 0 %}
         <fieldset>
             <legend class="visually-hidden">{% __ 'language' %}</legend>
             {% disclosure 'language' %}
@@ -66,6 +73,8 @@
             </ul>
             {% enddisclosure %}
         </fieldset>
+        {% endif %}
+        {% if filterableOptions.publishers | length > 1 %}
         <fieldset>
             <legend class="visually-hidden">{% __ 'publisher' %}</legend>
             {% disclosure 'publisher' %}
@@ -79,5 +88,6 @@
             </ul>
             {% enddisclosure %}
         </fieldset>
+        {% endif %}
     </div>
 </div>

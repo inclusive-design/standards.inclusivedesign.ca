@@ -98,7 +98,6 @@
     content: "";
     display: inline-block;
     inline-size: calc(0.8125rem * var(--fl-enhance-font-size-factor, 1));
-    mask-position: center;
     mask-repeat: no-repeat;
     mask-size: contain;
     position: absolute;
@@ -117,27 +116,37 @@
 
 inclusive-disclosure:has(#filter-project) > button::before,
 .filter-tag.project::before {
+    block-size: calc(1.1rem * var(--fl-enhance-font-size-factor, 1.2));
+    inline-size: calc(0.8rem * var(--fl-enhance-font-size-factor, 1.2));
     mask-image: url(/assets/images/project.svg);
 }
 
 inclusive-disclosure:has(#filter-type) > button::before,
 .filter-tag.type::before {
+    block-size: calc(1.1rem * var(--fl-enhance-font-size-factor, 1.2));
+    inline-size: calc(0.8rem * var(--fl-enhance-font-size-factor, 1.2));
     mask-image: url(/assets/images/type.svg);
 }
 
 inclusive-disclosure:has(#filter-language) > button::before,
 .filter-tag.language::before {
-    mask-image: url(/assets/images/language.svg)
+    block-size: calc(1.1rem * var(--fl-enhance-font-size-factor, 1.2));
+    inline-size: calc(1.1rem * var(--fl-enhance-font-size-factor, 1.2));
+    mask-image: url(/assets/images/language.svg);
 }
 
 inclusive-disclosure:has(#filter-publisher) > button::before,
 .filter-tag.publisher::before {
-    mask-image: url(/assets/images/publisher.svg)
+    block-size: calc(1.2rem * var(--fl-enhance-font-size-factor, 1.2));
+    inline-size: calc(0.8rem * var(--fl-enhance-font-size-factor, 1.2));
+    mask-image: url(/assets/images/publisher.svg);
 }
 
 inclusive-disclosure:has(#filter-topic) > button::before,
 .filter-tag.topic::before {
-    mask-image: url(/assets/images/topic.svg)
+    block-size: calc(1.2rem * var(--fl-enhance-font-size-factor, 1.2));
+    inline-size: calc(1.125rem * var(--fl-enhance-font-size-factor, 1.2));
+    mask-image: url(/assets/images/topic.svg);
 }
 
 @media (width >= 46.625rem) {
