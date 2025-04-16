@@ -287,6 +287,10 @@ collections:
         name: title
         widget: string
         i18n: duplicate
+      - label: Language
+        name: lang
+        widget: hidden
+        default: "{{locale}}"
       - label: Publication Date
         name: date
         widget: datetime
