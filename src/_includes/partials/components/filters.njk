@@ -1,14 +1,15 @@
-{% set filterableOptions = { projects: [], types: [], topics: [], publishers: [] } %}
+{% set filterableOptions = { projects: [], types: [], topics: [], publishers: [], language: [] } %}
 {% for resource in collections['resources_' + lang] %}
     {% set filterableOptions = filterableOptions | objectArrayPush("projects", resource.data.projects) %}
     {% set filterableOptions = filterableOptions | objectArrayPush("types", resource.data.type) %}
     {% set filterableOptions = filterableOptions | objectArrayPush("topics", resource.data.topics) %}
     {% set filterableOptions = filterableOptions | objectArrayPush("publishers", resource.data.publisher) %}
+    {% set filterableOptions = filterableOptions | objectArrayPush("language", resource.data.language) %}
 {% endfor %}
 <div id="filters" class="filters flow">
     <h3>{% __ 'filters' %}</h3>
     <div class="flow">
-        {% if collections['topics_' + lang] | length > 1 %}
+        {% if filterableOptions.topics | length > 1 %}
         <fieldset>
             <legend class="visually-hidden">{% __ 'topic' %}</legend>
             {% disclosure 'topic' %}
@@ -57,19 +58,17 @@
             {% enddisclosure %}
         </fieldset>
         {% endif %}
-        {% if collections['resources_fr'] | length > 0 %}
+        {% if filterableOptions.language | length > 1 %}
         <fieldset>
             <legend class="visually-hidden">{% __ 'language' %}</legend>
             {% disclosure 'language' %}
             <ul id="filter-language">
+                {% for value in filterableOptions.language %}
                 <li>
-                    <input type="checkbox" id="language-en" name="language" value="en" data-filter-key="language" />
-                    <label for="language-en">{{ supportedLanguages["en"].name }}</label>
+                    <input type="checkbox" id="language-{{ value }}" name="language" value="{{ value }}" data-filter-key="language" />
+                    <label for="language-{{ value }}">{{ supportedLanguages[value].name }}</label>
                 </li>
-                <li>
-                    <input type="checkbox" id="language-fr" name="language" value="fr" data-filter-key="language" />
-                    <label for="language-fr">{{ supportedLanguages["fr"].name }}</label>
-                </li>
+                {% endfor %}
             </ul>
             {% enddisclosure %}
         </fieldset>
