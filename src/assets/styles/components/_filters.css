@@ -12,7 +12,18 @@
 
     inclusive-disclosure * ul {
         padding-inline: 1.25rem;;
+    }
+    
+    inclusive-disclosure * li {
+        padding-block: 0.5rem;
+    }
 
+    inclusive-disclosure * li:focus-within {
+        background-color: var(--fl-linkFgColor, var(--color-indigo-200));
+        box-shadow:
+            1.15rem 0 0 0 var(--fl-linkFgColor, var(--color-indigo-200)),
+            -1.15rem 0 0 0 var(--fl-linkFgColor, var(--color-indigo-200));
+        color: var(--fl-linkBgColor, var(--color-indigo-700));
     }
 
     inclusive-disclosure > button {
