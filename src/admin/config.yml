@@ -296,11 +296,29 @@ collections:
         widget: datetime
         default: "{{now}}"
         i18n: duplicate
-      - label: Resource URL
-        name: url
-        widget: string
-        format: url
+      - label: Linking Options
+        name: linking
+        widget: object
         i18n: duplicate
+        types:
+          - label: Resource Page
+            name: page
+            fields:
+              - label: Slug
+                name: slug
+                widget: string
+                i18n: true
+                hint: Enter a short form of the resource title to be used in the URL. Only lowercase letters, numbers and hyphens should be used, e.g. 'sample-project'. This must be unique.
+                pattern: ['^[a-z0-9-]+$', 'Only lowercase letters, numbers and hyphens permitted']
+          - label: External Link
+            name: link
+            fields:
+              - label: External Resource URL
+                name: link
+                widget: string
+                type: url
+                i18n: duplicate
+                hint: If you want the resource to link to an external URL instead of display a page on this website, enter a URL here.
       - label: Author
         name: author
         widget: string

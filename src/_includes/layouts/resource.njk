@@ -1,0 +1,27 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+<div class="resource">
+    <div class="content">
+        <nav aria-labelledby="resource-menu" class="flow">
+            <h2 id="resource-menu">{% __ 'page-menu' %}</h2>
+            <inclusive-disclosure>
+                <button aria-controls="{{ title | slugify }}-menu">
+                    <h2 id="resource-menu-mobile">{% __ 'page-menu' %}</h2>
+                </button>
+                <div content id="{{ title | slugify }}-menu">
+                    <ul role="list" class="flow">
+                        <li class="flow" id="toc">
+                            <h3>{% __ 'toc' %}</h3>
+                            <ul role="list" class="flow"></ul>
+                        </li>
+                    </ul>
+                </div>
+            </inclusive-disclosure>
+        </nav>
+        <article class="flow">
+        {{ content | safe }}
+        </article>
+    </div>
+</div>
+{% endblock %}
