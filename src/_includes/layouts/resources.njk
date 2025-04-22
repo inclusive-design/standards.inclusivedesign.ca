@@ -1,0 +1,23 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+<div class="resources-container">
+    <filter-container class="wrapper" oninit filter-mode="all" filter-mode-type="any" filter-mode-projects="any" filter-fuzzy-search data-paginate-results="10">
+        {% include "partials/components/filters.njk" %}
+        <div>
+            <h3 id="filtered-results" aria-live="polite" data-filter-results="{% __ 'filtered-resources' %}">{% __ 'resources' %}</h3>
+            <div class="filter-tags">
+                <h4 id="filter-applied">{% __ 'applied-filters' %}</h4>
+                <div id="filter-tags">
+                </div>
+            </div>
+            <div class="resources">
+                {% for resource in collections['resources_' + lang] %}
+                    {% include "partials/components/card--resource.njk" %}
+                {% endfor %}
+            </div>
+        </div>
+        {% include "partials/components/pagination.njk" %}
+    </filter-container>
+</div>
+{% endblock %}
