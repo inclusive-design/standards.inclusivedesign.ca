@@ -279,6 +279,7 @@ collections:
     icon: inventory_2
     i18n: true
     folder: src/collections/resources
+    slug: '{{uuid_short}}'
     extension: md
     create: true
     fields:
@@ -286,6 +287,10 @@ collections:
         name: title
         widget: string
         i18n: duplicate
+      - label: Language
+        name: lang
+        widget: hidden
+        default: "{{locale}}"
       - label: Publication Date
         name: date
         widget: datetime
@@ -331,6 +336,8 @@ collections:
             value: guide-or-toolkit
           - label: Document
             value: document
+          - label: Standards
+            value: standards
           - label: Other
             value: other
       - label: Related Project(s)

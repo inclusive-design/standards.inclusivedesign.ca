@@ -35,6 +35,7 @@ inclusive-disclosure [aria-expanded] {
         width: 1.125rem;
     }
 
+    &:focus,
     &:hover {
         background-color: var(--fl-linkFgColor, var(--color-indigo-200));
         box-shadow:
