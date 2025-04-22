@@ -11,21 +11,23 @@
 
 
 .card:has(a:focus) {
-    outline: 0.1875rem solid var(--fl-fgColor, var(--color-indigo-700));
+    outline: 0.1875rem solid var(--fl-linkFgColor, var(--color-indigo-700));
     outline-offset: 0.4375rem;
 }
 
 main section:last-of-type:not(:first-of-type) .card:has(a:focus),
 main section:last-of-type:not(:first-of-type) .card:hover {
-    outline: 0.1875rem solid var(--fl-fgColor, var(--color-indigo-100));
+    outline: 0.1875rem solid var(--fl-linkFgColor, var(--color-indigo-100));
     outline-offset: 0.4375rem;
 }
 
-.card:hover,
-.card:has(a:focus) {
-    box-shadow:
-        inset 0 0 0 0.1875rem var(--fl-fgColor, transparent),
-        0 0.625rem 1.25rem 0 var(--fl-fgColor, var(--shadow-dark));
+body:not([class*="fl-theme"]) {
+    .card:hover,
+    .card:has(a:focus) {
+        box-shadow:
+            inset 0 0 0 0.1875rem var(--fl-fgColor, transparent),
+            0 0.625rem 1.25rem 0 var(--fl-fgColor, var(--shadow-dark));
+    }
 }
 
 .card__image {
