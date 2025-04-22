@@ -11,19 +11,14 @@
 
 
 .card:has(a:focus) {
-    outline: 0.1875rem solid var(--color-indigo-700, transparent);
+    outline: 0.1875rem solid var(--fl-fgColor, var(--color-indigo-700));
     outline-offset: 0.4375rem;
 }
 
 main section:last-of-type:not(:first-of-type) .card:has(a:focus),
 main section:last-of-type:not(:first-of-type) .card:hover {
-    outline: 0.1875rem solid var(--color-indigo-100, transparent);
+    outline: 0.1875rem solid var(--fl-fgColor, var(--color-indigo-100));
     outline-offset: 0.4375rem;
-}
-
-.card:has(a:focus) > .card__content {
-    border: unset;
-    box-shadow: 0 -0.1875rem 0 var(--fl-fgColor, transparent);
 }
 
 .card:hover,
@@ -41,6 +36,7 @@ main section:last-of-type:not(:first-of-type) .card:hover {
 
 .card__content {
     background-color: var(--fl-bgColor, white);
+    border: 0.1875rem solid var(--fl-fgColor, transparent);
     display: flex;
     flex-direction: column;
     gap: 0.93rem;

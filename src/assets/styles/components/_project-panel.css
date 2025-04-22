@@ -29,13 +29,8 @@ div:has(.project-panel) {
 }
 
 .project-panel:has(a:focus) {
-    outline: 0.1875rem solid var(--color-indigo-700, transparent);
+    outline: 0.1875rem solid var(--fl-fgColor, var(--color-indigo-700));
     outline-offset: 0.4375rem;
-}
-
-.project-panel:has(a:focus) > .project-panel__content {
-    border: unset;
-    box-shadow: 0 -0.1875rem 0 var(--fl-fgColor, transparent);
 }
 
 .project-panel:hover,
@@ -79,6 +74,7 @@ div:has(.project-panel) {
 
 .project-panel__content {
     background-color: var(--fl-bgColor, white);
+    border: 0.1875rem solid var(--fl-fgColor, transparent);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -98,10 +94,5 @@ div:has(.project-panel) {
         flex-direction: row;
         padding-left: 4.625rem;
         padding-top: unset;
-    }
-
-    .project-panel:has(a:focus) > .project-panel__content {
-        border: unset;
-        box-shadow: -0.1875rem 0 0 var(--fl-fgColor, transparent);
     }
 }
