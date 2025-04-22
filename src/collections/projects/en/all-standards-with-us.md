@@ -21,7 +21,7 @@ Learn more about [what standards are](https://www.youtube.com/watch?si=VY_Y8Yv4Z
 
 _Who is involved?_
 
-A Standard Development Organization (SDO) brings together experts in a technical committee to create standards. These experts include consumers, people from industry, academia and government, and other community members who are interested in the subject matter.
+A Standards Development Organization (SDO) brings together experts in a technical committee to create standards. These experts include consumers, people from industry, academia and government, and other community members who are interested in the subject matter.
 
 _What do they do?_
 
