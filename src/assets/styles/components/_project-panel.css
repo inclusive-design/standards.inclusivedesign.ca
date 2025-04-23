@@ -10,7 +10,7 @@ div:has(.project-panel) {
 .project-panel {
     box-shadow:
         0 0.625rem 1.25rem 0 var(--shadow-light),
-        inset 0 0 0 0.1875rem var(--fl-fgColor, transparent);
+        inset 0 0 0 0.1875rem var(--fl-linkFgColor, transparent);
     display: flex;
     flex-direction: column;
     padding-top: 2.5rem;
@@ -28,27 +28,20 @@ div:has(.project-panel) {
     color: var(--fl-linkFgColor, currentColor);
 }
 
-.project-panel:has(a:focus) {
-    border: 0.1875rem solid var(--fl-fgColor, transparent);
-    box-shadow: 0 0.625rem 1.25rem 0 var(--shadow-light);
-    outline: 0.1875rem solid var(--fl-fgColor, transparent);
-    outline-offset: 0.1875rem;
+.project-panel:has(a:focus),
+body[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) .project-panel:hover {
+    outline: 0.1875rem solid var(--fl-linkFgColor, var(--color-indigo-700));
+    outline-offset: 0.4375rem;
 }
 
-.project-panel:has(a:focus) > .project-panel__content {
-    border: unset;
-    box-shadow: 0 -0.1875rem 0 var(--fl-fgColor, transparent);
-}
-
-.project-panel:hover {
-    box-shadow:
-        inset 0 0 0 0.1875rem var(--fl-fgColor, transparent),
-        0 0.625rem 1.25rem 0 var(--fl-fgColor, var(--shadow-dark));
-}
-
-.project-panel:hover.project-panel:has(a:focus) {
-    box-shadow:
-        0 0.625rem 1.25rem 0 var(--fl-fgColor, var(--shadow-dark));
+body:not([class*="fl-theme"]),
+.fl-theme-prefsEditor-default {
+    .project-panel:hover,
+    .project-panel:has(a:focus) {
+        box-shadow:
+            inset 0 0 0 0.1875rem var(--fl-fgColor, transparent),
+            0 0.625rem 1.25rem 0 var(--fl-fgColor, var(--shadow-dark));
+    }
 }
 
 .project-panel__image {
@@ -85,7 +78,7 @@ div:has(.project-panel) {
 
 .project-panel__content {
     background-color: var(--fl-bgColor, white);
-    border: 0.1875rem solid var(--fl-fgColor, transparent);
+    border: 0.1875rem solid var(--fl-linkFgColor, transparent);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,15 +86,17 @@ div:has(.project-panel) {
     width: 100%;
 }
 
+.fl-input-enhanced {
+    .project-panel:has(a:focus) {
+        outline-width: 0.3125rem;
+    }
+}
+
+
 @media (width >= 70.875rem) {
     .project-panel {
         flex-direction: row;
         padding-left: 4.625rem;
         padding-top: unset;
-    }
-
-    .project-panel:has(a:focus) > .project-panel__content {
-        border: unset;
-        box-shadow: -0.1875rem 0 0 var(--fl-fgColor, transparent);
     }
 }

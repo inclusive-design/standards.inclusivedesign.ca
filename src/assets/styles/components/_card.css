@@ -4,36 +4,41 @@
     margin-bottom: 1rem;
     box-shadow:
         0 0.625rem 1.25rem 0 var(--shadow-light),
-        inset 0 0 0 0.1875rem var(--fl-fgColor, transparent);
+        inset 0 0 0 0.1875rem var(--fl-linkFgColor, transparent);
     padding-block-start: 2.5rem;
     position: relative;
 }
 
+.card[data-filter-type=standards] {
+    background-color: var(--fl-bgColor, var(--color-indigo-100));
+}
+
+.card[data-filter-type=standards],
 .resources .card {
     padding-block-end: 0.5rem;
     padding-block-start: unset;
 }
 
 .card:has(a:focus) {
-    border: 0.1875rem solid var(--fl-fgColor, transparent);
-    box-shadow: 0 0.625rem 1.25rem 0 var(--shadow-light);
-    outline: 0.1875rem solid var(--fl-fgColor, transparent);
-    outline-offset: 0.1875rem;
+    outline: 0.1875rem solid var(--fl-linkFgColor, var(--color-indigo-700));
+    outline-offset: 0.4375rem;
 }
 
-.card:has(a:focus) > .card__content {
-    border: unset;
-    box-shadow: 0 -0.1875rem 0 var(--fl-fgColor, transparent);
+main section:last-of-type:not(:first-of-type) .card:has(a:focus),
+main section:last-of-type:not(:first-of-type) .card:hover,
+body[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) .card:hover {
+    outline: 0.1875rem solid var(--fl-linkFgColor, var(--color-indigo-100));
+    outline-offset: 0.4375rem;
 }
 
-.card:hover {
-    box-shadow:
-        inset 0 0 0 0.1875rem var(--fl-fgColor, transparent),
-        0 0.625rem 1.25rem 0 var(--fl-fgColor, var(--shadow-dark));
-}
-
-.card:hover.card:has(a:focus) {
-    box-shadow: 0 0.625rem 1.25rem 0 var(--fl-fgColor, var(--shadow-dark));
+body:not([class*="fl-theme"]),
+.fl-theme-prefsEditor-default {
+    .card:hover,
+    .card:has(a:focus) {
+        box-shadow:
+            inset 0 0 0 0.1875rem var(--fl-fgColor, transparent),
+            0 0.625rem 1.25rem 0 var(--fl-fgColor, var(--shadow-dark));
+    }
 }
 
 .card__image {
@@ -43,8 +48,8 @@
 }
 
 .card__content {
-    border: 0.1875rem solid var(--fl-fgColor, transparent);
     background-color: var(--fl-bgColor, white);
+    border: 0.1875rem solid var(--fl-linkFgColor, transparent);
     display: flex;
     flex-direction: column;
     gap: 0.93rem;
@@ -113,6 +118,12 @@
     display: flex;
     gap: 0.75rem;
     width: 100%;
+}
+
+.fl-input-enhanced {
+    .card:has(a:focus) {
+        outline-width: 0.3125rem;
+    }
 }
 
 @media (width >= 24.25rem) {
