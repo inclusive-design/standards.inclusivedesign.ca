@@ -17,6 +17,10 @@
     stroke: currentColor;
 }
 
+.resource .meta {
+    color: var(--fl-fgColor, var(--color-indigo-700));
+}
+
 .resource .meta p {
     display: grid;
     grid-template-columns: 1.375rem auto;
