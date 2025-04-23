@@ -42,6 +42,7 @@ body:not([class*="fl-theme"]),
 }
 
 .card__image {
+    border-top: 0.125rem solid var(--fl-fgColor, var(--color-black)); 
     min-height: 14.44rem;
     min-width: 20.5rem;
     background-color: black;

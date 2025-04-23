@@ -45,9 +45,9 @@ body:not([class*="fl-theme"]),
 }
 
 .project-panel__image {
+    border-top: 0.125rem solid var(--fl-fgColor, var(--color-black)); 
     min-width: 16.25rem;
     min-height: 12.1875rem;
-    max-width: 31.0625rem;
 
     img {
         object-fit: cover;
@@ -103,5 +103,11 @@ body:not([class*="fl-theme"]),
         flex-direction: row;
         padding-left: 4.625rem;
         padding-top: unset;
+    }
+
+    .project-panel__image {
+        border-top: unset;
+        border-left: 0.125rem solid var(--fl-fgColor, var(--color-black));
+        max-width: 31.0625rem;
     }
 }
