@@ -405,30 +405,6 @@ collections:
           - label: Address
             name: address
             widget: text
-      - label: Social Media
-        name: social
-        file: src/_data/social.json
-        fields:
-          - label: Facebook
-            name: facebook
-            widget: string
-            type: url
-          - label: Instagram
-            name: instagram
-            widget: string
-            type: url
-          - label: X
-            name: x
-            widget: string
-            type: url
-          - label: LinkedIn
-            name: linkedin
-            widget: string
-            type: url
-          - label: YouTube
-            name: youtube
-            widget: string
-            type: url
   - label: Topics
     label_singular: Topic
     name: topics
