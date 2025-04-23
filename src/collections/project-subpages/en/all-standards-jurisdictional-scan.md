@@ -8,7 +8,7 @@ excerpt: ''
 previewImage: ''
 previewImageAlt: ''
 ---
-## Theme 1: Identifying need and proposing feasible standard
+## Theme 1: Identifying need and proposing a feasible standard
 
 ### Description
 
