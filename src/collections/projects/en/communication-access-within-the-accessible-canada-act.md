@@ -4,7 +4,8 @@ lang: en
 uuid: 05e178eb-9343-4b9f-b1d0-536ef907756d
 slug: communication-access
 excerpt: The goal of the Communication Access project is to inform the development of communication access standards and regulations under the Accessible Canada Act.
-previewImageAlt: ''
+previewImage: /assets/uploads/inclusive%20design%20hackathon.png
+previewImageAlt: Group of seven individuals discussing a project and looking at their laptor screens
 color: red
 ---
 ## About
