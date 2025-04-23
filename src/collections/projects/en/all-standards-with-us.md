@@ -4,7 +4,7 @@ lang: en
 uuid: e45a05ce-efb3-449f-965d-f671911b6626
 slug: all-standards
 excerpt: This project makes the process of creating standards more accessible to disabled and Deaf people, ensuring goods and services are inclusive. We focus on removing barriers in Standards Development Organizations (SDOs) to support full participation.
-previewImage: /assets/uploads/DEEP%20conference%202016.jpg
+previewImage: /assets/uploads/DEEP%20conference%202016-1.jpg
 previewImageAlt: Six individuals wearing at a conference table. Having a discussion and looking aty the speaker on the far right
 color: yellow
 ---

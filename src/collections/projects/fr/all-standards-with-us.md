@@ -4,7 +4,7 @@ lang: fr
 uuid: e45a05ce-efb3-449f-965d-f671911b6626
 slug: toutes-les-normes
 excerpt: Ce projet rend l'élaboration de normes accessible aux personnes handicapées et aux personnes sourdes, garantissant ainsi que les biens et services sont inclusifs. Nous nous efforçons d'éliminer les obstacles au sein des organismes d'élaboration de normes (OEN) afin de soutenir la pleine participation.
-previewImage: /assets/uploads/DEEP%20conference%202016.jpg
+previewImage: /assets/uploads/DEEP%20conference%202016-1.jpg
 previewImageAlt: ''
 color: yellow
 ---
