@@ -47,6 +47,12 @@ body:not([class*="fl-theme"]),
     background-color: black;
 }
 
+.card__image img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
 .card__content {
     background-color: var(--fl-bgColor, white);
     border: 0.1875rem solid var(--fl-linkFgColor, transparent);
