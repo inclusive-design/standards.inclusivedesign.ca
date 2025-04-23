@@ -4,11 +4,16 @@
     margin-bottom: 1rem;
     box-shadow:
         0 0.625rem 1.25rem 0 var(--shadow-light),
-        inset 0 0 0 0.1875rem var(--fl-fgColor, transparent);
+        inset 0 0 0 0.1875rem var(--fl-linkFgColor, transparent);
     padding-block-start: 2.5rem;
     position: relative;
 }
 
+.card[data-filter-type=standards] {
+    background-color: var(--fl-bgColor, var(--color-indigo-100));
+}
+
+.card[data-filter-type=standards],
 .resources .card {
     padding-block-end: 0.5rem;
     padding-block-start: unset;
@@ -20,12 +25,14 @@
 }
 
 main section:last-of-type:not(:first-of-type) .card:has(a:focus),
-main section:last-of-type:not(:first-of-type) .card:hover {
+main section:last-of-type:not(:first-of-type) .card:hover,
+body[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) .card:hover {
     outline: 0.1875rem solid var(--fl-linkFgColor, var(--color-indigo-100));
     outline-offset: 0.4375rem;
 }
 
-body:not([class*="fl-theme"]) {
+body:not([class*="fl-theme"]),
+.fl-theme-prefsEditor-default {
     .card:hover,
     .card:has(a:focus) {
         box-shadow:
@@ -42,7 +49,7 @@ body:not([class*="fl-theme"]) {
 
 .card__content {
     background-color: var(--fl-bgColor, white);
-    border: 0.1875rem solid var(--fl-fgColor, transparent);
+    border: 0.1875rem solid var(--fl-linkFgColor, transparent);
     display: flex;
     flex-direction: column;
     gap: 0.93rem;
