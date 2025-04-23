@@ -24,7 +24,7 @@ Who assesses feasibility, and how?
 
 ### Summary
 
-- The W3C2 establishes chartered groups representing the interests of Member Organizations  and invited experts, which are typically organizations or individuals who have completed the membership application. The W3C uses group charters instead of proposals.
+- The [W3C](https://www.w3.org/)2 establishes chartered groups representing the interests of Member Organizations  and invited experts, which are typically organizations or individuals who have completed the membership application. The W3C uses group charters instead of proposals.
 - WHATWG1 creates standards through workstreams, which can be proposed by anyone if they meet specific criteria such as implementation by at least two browser engines, scope, and draft living standards. The process for submitting a new standard or feature involves a description of the issue, gathering support, and public discourse, typically on Github. Anyone can create a proposal if they understand the process and meet the necessary criteria.
 - ETSI3 can initiate new work on standards through various methods, including member proposals, proposals from the European Commission or EFTA, external groups like research projects, or recognition by ETSI staff. These proposals require the agreement of four or more ETSI members. ETSI staff may also recognize opportunities and contribute initiatives.
 - ISO4 requires new standards to align with its global relevance policy. This involves submitting a new work item proposal (NP) to the relevant committee using Form 4 0. A parent committee determines the feasibility of the work and creates a Working Group (WG) consisting of experts and a Convenor/Project leader.
