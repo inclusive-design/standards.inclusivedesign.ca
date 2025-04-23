@@ -1,21 +1,6 @@
 <footer role="contentinfo">
     <div class="wrapper flow">
-        <a rel="home" href="/{% if lang != 'en' %}{{ lang }}{% endif %}">
-            {% __ "site-title" %}
-            </a>
         <div class="content">
-            {# <section class="social-media">
-                <nav aria-labelledby="social" class="flow">
-                    <h2 id="social">{% __ 'social-media' %}</h2>
-                    <ul role="list">
-                        <li><a href="{{ social.facebook }}" rel="external">{% include "svg/facebook.svg" %} Facebook</a></li>
-                        <li><a href="{{ social.linkedin }}" rel="external">{% include "svg/linkedin.svg" %} LinkedIn</a></li>
-                        <li><a href="{{ social.instagram }}" rel="external">{% include "svg/instagram.svg" %} Instagram</a></li>
-                        <li><a href="{{ social.x }}" rel="external">{% include "svg/x.svg" %} X</a></li>
-                        <li><a href="{{ social.youtube }}" rel="external">{% include "svg/youtube.svg" %} YouTube</a></li>
-                    </ul>
-                </nav>
-            </section> #}
             <section class="contact-us">
                 <div class="flow">
                     <h2>{% __ 'contact-us' %}</h2>
@@ -41,21 +26,25 @@
                     </p>
                 </div>
             </section>
-            <section class="sponsors">
-                <ul role="list">
-                    <li>
-                        <a href="https://idrc.ocadu.ca" rel="external">
-                            {% include "svg/IDRC.svg" %}
-                            <span class="visually-hidden" lang="en">Inclusive Design Research Centre</a>
-                        <a>
-                    </li>
-                    <li>
-                        <a href="https://ocadu.ca" rel="external">
-                            {% include "svg/OCADU.svg" %}
-                            <span class="visually-hidden" lang="en">OCAD University</a>
-                        </a>
-                    </li>
-                </ul>
+
+            <section class="sponsors-license">
+                <div class="flow">
+                    <ul role="list">
+                        <li>
+                            <a href="https://idrc.ocadu.ca" rel="external">
+                                {% include "svg/IDRC.svg" %}
+                                <span class="visually-hidden" lang="en">Inclusive Design Research Centre</a>
+                            <a>
+                        </li>
+                        <li>
+                            <a href="https://ocadu.ca" rel="external">
+                                {% include "svg/OCADU.svg" %}
+                                <span class="visually-hidden" lang="en">OCAD University</a>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="license">{% __ 'license-statement' %}<a href="https://creativecommons.org/licenses/by/4.0/deed.{{ lang }}" rel="license external"><i class="fa-brands fa-creative-commons"></i> <i class="fa-brands fa-creative-commons-by"></i>{% __ 'cc-by' %}</a>.</p>
+                </div>
             </section>
         </div>
     </div>

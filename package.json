@@ -33,9 +33,10 @@
   },
   "homepage": "https://github.com/inclusive-design/standards.idrc.ocadu.ca#readme",
   "dependencies": {
-    "@11ty/eleventy": "^3.0.0",
-    "@zachleat/filter-container": "greatislander/filter-container#feat/paginated-results",
+    "@11ty/eleventy": "^3.1.0-alpha.1",
     "@11ty/eleventy-navigation": "^1.0.0",
+    "@11ty/font-awesome": "^1.0.0-beta.1",
+    "@zachleat/filter-container": "greatislander/filter-container#feat/paginated-results",
     "eleventy-plugin-broken-links": "^2.2.1",
     "eleventy-plugin-fluid": "^3.0.0",
     "eleventy-plugin-footnotes": "^0.11.0",

@@ -1,6 +1,7 @@
 import { randomUUID } from "node:crypto";
 import { IdAttributePlugin, RenderPlugin } from "@11ty/eleventy";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
+import fontAwesomePlugin from "@11ty/font-awesome";
 import brokenLinksPlugin from "eleventy-plugin-broken-links";
 import fluidPlugin from "eleventy-plugin-fluid";
 import { __ } from "eleventy-plugin-fluid";
@@ -10,6 +11,7 @@ import parse from "./src/_transforms/parse.js";
 
 export default function eleventy(eleventyConfig) {
     eleventyConfig.addGlobalData("now", () => new Date());
+    eleventyConfig.addPlugin(fontAwesomePlugin);
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
     eleventyConfig.addPlugin(RenderPlugin);
     eleventyConfig.addPlugin(footnotesPlugin);
