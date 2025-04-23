@@ -15,7 +15,9 @@ body {
 /* Banner */
 
 .banner {
+    background-color: var(--fl-bgColor, var(--color-indigo-700));
     border-block: 0.2rem solid var(--fl-fgColor, transparent);
+    color: var(--fl-fgColor, white);
     padding-block: var(--common-block-padding);
     padding-inline: var(--common-inline-padding);
 }

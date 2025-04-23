@@ -10,17 +10,15 @@
 <body>
   {% include "partials/global/header.njk" %}
   {% include "partials/components/navigation.njk" %}
-  <main id="main" {% if page.fileSlug == "about" %}class="sectioned"{% endif %}>
-    {% if not page.filePathStem.startsWith('/collections/project') %}
-    <div class="banner bg-indigo-700">
+  <main id="main" class="{{ pageType if pageType else 'page' }}">
+    {% block banner %}
+    <div class="banner">
       <div class="wrapper">
         <div class="banner__content flow">
-        {% block banner %}
           <h1>{{ title }}</h1>
           {% if bannerText %}
           {{ bannerText | renderContent('md') | safe }}
           {% endif %}
-        {% endblock %}
         </div>
         {% if bannerImage %}
         <div class="banner__image">
@@ -29,14 +27,16 @@
         {% endif %}
       </div>
     </div>
-    {% endif %}
+    {% endblock %}
+    <div class="content">
     {% block content %}
     <section>
-    <div class="wrapper flow">
-    {{ content | safe }}
-    </div>
+      <div class="wrapper flow">
+      {{ content | safe }}
+      </div>
     </section>
     {% endblock %}
+    </div>
   </main>
   {% include "partials/global/footer.njk" %}
   {% uioCustomInit lang, supportedLanguages[lang].dir %}

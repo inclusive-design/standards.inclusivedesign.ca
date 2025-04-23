@@ -1,50 +1,51 @@
 {% extends "layouts/base.njk" %}
 
-{% block content %}
-<div class="project" style="--project-color: var(--fl-bgColor, var(--color-{{ color }}))">
-    <div class="banner">
-        <div class="text">
-            <a href="{% if lang === "en" %}/projects{% else %}/{{lang }}/{% __ 'projects' %}{% endif %}" >{% __ 'projects' %} {% include 'svg/arrowRight.svg' %}</a>
-            <h1>{{ title }}</h1>
-        </div>
-        {% if previewImage and previewImageAlt %}
-        <div class="image">
-            <img src="{{ previewImage }}" alt="{{ previewImageAlt }}" />
-        </div>
-        {% endif %}
-    </div>
+{% set pageType = 'project' %}
+{% set breadcrumb = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) | first %}
 
-    <div class="content">
-        <nav aria-labelledby="project-menu" class="flow">
-            <h2 id="project-menu">{% __ 'project-menu' %}</h2>
-            <inclusive-disclosure>
-                <button aria-controls="{{ title | slugify }}-menu">
-                    <h2 id="project-menu-mobile">{% __ 'project-menu' %}</h2>
-                </button>
-                <div content id="{{ title | slugify }}-menu">
-                    <ul role="list" class="flow">
-                        <li class="flow" id="toc">
-                            <h3>{% __ 'toc' %}</h3>
-                            <ul role="list" class="flow"></ul>
-                        </li>
-                        {% set subpages = collections.all | eleventyNavigation(eleventyNavigation.key) %}
-                        {% if subpages.length %}
-                        <li class="flow" id="subpages">
-                            <h3>{% __ 'related-material' %}</h3>
-                            <ul role="list" class="flow">
-                                {% for subpage in subpages %}
-                                <li><a href="{{ subpage.url }}">{{ subpage.title }}</a></li>
-                                {% endfor %}
-                            </ul>
-                        </li>
-                        {% endif %}
-                    </ul>
-                </div>
-            </inclusive-disclosure>
-        </nav>
-        <article class="flow">
-        {{ content | safe }}
-        </article>
+{% block banner %}
+<div class="banner" style="--project-color: var(--fl-bgColor, var(--color-{{ color }}))">
+    <div class="banner__content">
+        <a href="{{ breadcrumb.url }}" >{{ breadcrumb.title }} {% include 'svg/arrowRight.svg' %}</a>
+        <h1>{{ title }}</h1>
     </div>
+    {% if previewImage and previewImageAlt %}
+    <div class="banner__image">
+        <img src="{{ previewImage }}" alt="{{ previewImageAlt }}" />
+    </div>
+    {% endif %}
 </div>
+{% endblock %}
+
+{% block content %}
+<nav aria-labelledby="project-menu" class="flow">
+    <h2 id="project-menu">{% __ 'project-menu' %}</h2>
+    <inclusive-disclosure>
+        <button aria-controls="{{ title | slugify }}-menu">
+            <h2 id="project-menu-mobile">{% __ 'project-menu' %}</h2>
+        </button>
+        <div content id="{{ title | slugify }}-menu">
+            <ul role="list" class="flow">
+                <li class="flow" id="toc">
+                    <h3>{% __ 'toc' %}</h3>
+                    <ul role="list" class="flow"></ul>
+                </li>
+                {% set subpages = collections.all | eleventyNavigation(eleventyNavigation.key) %}
+                {% if subpages.length %}
+                <li class="flow" id="subpages">
+                    <h3>{% __ 'related-material' %}</h3>
+                    <ul role="list" class="flow">
+                        {% for subpage in subpages %}
+                        <li><a href="{{ subpage.url }}">{{ subpage.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </li>
+                {% endif %}
+            </ul>
+        </div>
+    </inclusive-disclosure>
+</nav>
+<article class="flow">
+{{ content | safe }}
+</article>
 {% endblock %}

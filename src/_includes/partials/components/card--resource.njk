@@ -10,7 +10,7 @@
             <p>{{ resource.data.author }}{% if resource.data.author and resource.data.publisher %} | {% endif %}{{ resource.data.publisher }}</p>
         </div>
         <div class="card__body">
-            <p>{{ resource.templateContent | safe }}</p>
+            <p>{{ resource.data.description | safe }}</p>
         </div>
         <div class="card__resource-type">
             {% include "svg/type.svg" %} {% __ resource.data.type %}

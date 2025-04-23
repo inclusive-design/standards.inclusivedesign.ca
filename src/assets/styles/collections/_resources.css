@@ -8,6 +8,27 @@
     margin-block-start: 1em;
 }
 
+.resource .banner {
+    background-color: var(--fl-bgColor, var(--color-indigo-200));
+    color: var(--fl-fgColor, var(--color-black));
+}
+
+.resource .banner svg {
+    stroke: currentColor;
+}
+
+.resource .meta p {
+    display: grid;
+    grid-template-columns: 1.375rem auto;
+    gap: 0.5em;
+
+    svg {
+        align-self: center;
+        justify-self: center;
+        stroke: currentColor;
+    }
+}
+
 .resource nav,
 .resource article {
     box-shadow: inset 0 -0.1875rem 0 0 var(--fl-fgColor, transparent);

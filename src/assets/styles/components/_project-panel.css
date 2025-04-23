@@ -1,4 +1,4 @@
-div:has(.project-panel) {
+div:has(> .project-panel) {
     background-color: var(--fl-bgColor, var(--color-indigo-100));
     display: flex;
     flex-direction: column;
