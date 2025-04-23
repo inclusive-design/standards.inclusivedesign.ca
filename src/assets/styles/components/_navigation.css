@@ -66,6 +66,10 @@ a[rel="home"] {
     font-weight: var(--fl-enhance-font-weight, var(--font-weight-semibold));
 }
 
+.navigation [aria-expanded] svg {
+    stroke: currentColor;
+}
+
 .navigation [aria-expanded="false"] > .menu__expanded,
 .navigation [aria-expanded="true"] > .menu__collapsed {
     display: none;

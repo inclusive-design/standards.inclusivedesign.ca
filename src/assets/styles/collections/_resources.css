@@ -8,6 +8,127 @@
     margin-block-start: 1em;
 }
 
+.resource .banner {
+    background-color: var(--fl-bgColor, var(--color-indigo-200));
+    color: var(--fl-fgColor, var(--color-black));
+}
+
+.resource .banner svg {
+    stroke: currentColor;
+}
+
+.resource .meta {
+    color: var(--fl-fgColor, var(--color-indigo-700));
+}
+
+.resource .meta p {
+    display: grid;
+    grid-template-columns: 1.375rem auto;
+    gap: 0.5em;
+
+    svg {
+        align-self: center;
+        justify-self: center;
+        stroke: currentColor;
+    }
+}
+
+.resource nav,
+.resource article {
+    box-shadow: inset 0 -0.1875rem 0 0 var(--fl-fgColor, transparent);
+}
+
+.resource nav {
+    background-color: var(--fl-bgColor, var(--color-indigo-100));
+}
+
+.resource nav > h2 {
+    display: none;
+}
+
+.resource nav inclusive-disclosure {
+    padding-inline: 0;
+}
+
+.resource nav inclusive-disclosure > * {
+    padding-inline: var(--common-inline-padding);
+}
+
+.resource nav inclusive-disclosure [aria-expanded] {
+    box-shadow: none;
+}
+
+.resource nav inclusive-disclosure [aria-expanded]:after {
+    right: var(--common-inline-padding);
+}
+
+@media (width >= 70.875rem) {
+    .resource nav > h2 {
+        display: block;
+    }
+
+    .resource nav inclusive-disclosure > * {
+        padding-inline: 0;
+    }
+
+    .resource nav inclusive-disclosure [aria-expanded] {
+        display: none;
+    }
+
+    .resource nav inclusive-disclosure [aria-expanded] + * {
+        display: block;
+    }
+}
+
+.resource article {
+    padding-block: 2.125rem 5rem;
+    padding-inline: var(--common-inline-padding);
+}
+
+.resource article > * {
+    max-width: 41.875rem;
+}
+
+.resource article > h2 {
+    max-width: 100%;
+}
+
+@media (width >= 70.875rem) {
+    .resource  .content {
+        display: grid;
+        grid-template-columns: 35% 65%;
+        margin-inline: auto;
+        max-width: 90rem;
+        width: 100%;
+    }
+    
+    .resource nav,
+    .resource article {
+        padding-block: 8.4375rem;
+    }
+
+    .resource nav {
+        padding-inline: 8.4375rem 5rem;
+        position: relative;
+
+        &:after {
+            content: "";
+            display: block;
+            width: 100vw;
+            height: 100%;
+            margin-inline-start: -100vw;
+            top: 0;
+            position: absolute;
+            background-color: var(--fl-bgColor, var(--color-indigo-100));
+            z-index: -1;
+        }
+    }
+
+    .resource article {
+        padding-inline: 8.4375rem;
+    }
+}
+
 @media (width >= 90rem) {
     .resources {
         display: grid;

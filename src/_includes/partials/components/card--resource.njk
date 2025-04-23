@@ -2,7 +2,7 @@
     data-filter-type="{{ resource.data.type }}" data-filter-language="{{ resource.data.language }}" data-filter-publisher="{{ resource.data.publisher }}">
     <div class="card__content">
         <h3>
-            <a class="card__title" href="{{ resource.data.url }}">
+            <a class="card__title" href="{{ resource.data.linking.link if resource.data.linking.type == 'link' else resource.url }}"{% if resource.data.linking.type == 'link' %} rel="external"{% endif %}>
                 {{ resource.data.title | safe }}
             </a>
         </h3>
@@ -10,7 +10,7 @@
             <p>{{ resource.data.author }}{% if resource.data.author and resource.data.publisher %} | {% endif %}{{ resource.data.publisher }}</p>
         </div>
         <div class="card__body">
-            <p>{{ resource.templateContent | safe }}</p>
+            <p>{{ resource.data.description | safe }}</p>
         </div>
         <div class="card__resource-type">
             {% include "svg/type.svg" %} {% __ resource.data.type %}
