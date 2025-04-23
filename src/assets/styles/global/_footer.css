@@ -61,6 +61,7 @@ footer .flow > address {
     display: flex;
     flex-wrap: wrap;
     gap: 0.25rem;
+    max-width: calc(100vw - var(--common-inline-padding) * 2);
 }
 
 .license a {
