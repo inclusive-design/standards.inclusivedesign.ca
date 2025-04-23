@@ -8,6 +8,8 @@
   "header-intro": "An <a href='https://idrc.ocadu.ca/' rel='external'>Inclusive Design Research Centre</a> Project",
   "header-intro-short": "<a href='https://idrc.ocadu.ca/' rel='external'>An IDRC Project</a>",
   "language": "Language",
+  "license-statement": "This work is licensed under a ",
+  "cc-by": "Creative Commons Attribution 4.0 License",
   "project": "Project",
   "projects": "Projects",
   "projects-slug": "projects",
