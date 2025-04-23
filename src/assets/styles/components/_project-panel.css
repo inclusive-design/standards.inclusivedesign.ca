@@ -49,6 +49,12 @@ body:not([class*="fl-theme"]),
     min-height: 12.1875rem;
     max-width: 31.0625rem;
     max-height: 23.125rem;
+
+    img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
 }
 
 .project-panel__title {
