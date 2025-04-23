@@ -4,6 +4,7 @@ lang: fr
 uuid: 05e178eb-9343-4b9f-b1d0-536ef907756d
 slug: acces-aux-communications
 excerpt: L’objectif du projet Accès aux communications est d’éclairer l’élaboration de normes et de règlements sur l’accès aux communications en vertu de la Loi canadienne sur l’accessibilité.
+previewImage: /assets/uploads/inclusive%20design%20hackathon.png
 previewImageAlt: ''
 color: red
 ---

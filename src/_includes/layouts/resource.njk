@@ -1,0 +1,65 @@
+{% extends "layouts/base.njk" %}
+
+{% set pageType = 'resource' %}
+
+{% set breadcrumb = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) | first %}
+
+{% block banner %}
+<div class="banner">
+    <div class="wrapper">
+        <div class="banner__content flow">
+            <a href="{{ breadcrumb.url }}" >{{ breadcrumb.title }} {% include 'svg/arrowRight.svg' %}</a>
+            <h1>{{ title }}</h1>
+            <div class="meta flow">
+                {% if topics.length %}
+                <p>
+                {% include "../../assets/images/topic.svg" %} {% for topicId in topics -%}
+                {%- set topic = collections['topics_' + lang] | find("data.uuid", topicId) -%}
+                {{ topic.data.title }}{% if not loop.last %}, {% endif -%}
+                {%- endfor %}
+                </p>
+                {% endif %}
+                <p>
+                {% include "svg/type.svg" %} {% __ type %}
+                </p>
+                {% if projects.length %}
+                <p>
+                {% include "../../assets/images/project.svg" %} {% for projectId in projects -%}
+                {%- set project = collections['projects_' + lang] | find("data.uuid", projectId) -%}
+                {{ project.data.title }}{% if not loop.last %}, {% endif -%}
+                {%- endfor %}
+                </p>
+                {% endif %}
+                <p>
+                {% include "../../assets/images/language.svg" %} {{ supportedLanguages[language].name }}
+                </p>
+                <p>
+                {% include "svg/date.svg" %} {{ date | formatDate }}
+                </p>
+                <p>
+                {% include "../../assets/images/publisher.svg" %} {{ author }}{% if author and publisher %}, {% endif %}{{ publisher }}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<nav aria-labelledby="resource-menu" class="flow">
+    <h2 id="resource-menu">{% __ 'toc' %}</h2>
+    <inclusive-disclosure>
+        <button aria-controls="{{ title | slugify }}-menu">
+            <h2 id="resource-menu-mobile">{% __ 'toc' %}</h2>
+        </button>
+        <div content id="{{ title | slugify }}-menu">
+            <div id="toc">
+                <ul role="list" class="flow"></ul>
+            </div>
+        </div>
+    </inclusive-disclosure>
+</nav>
+<article class="flow">
+{{ content | safe }}
+</article>
+{% endblock %}

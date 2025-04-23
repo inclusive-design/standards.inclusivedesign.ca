@@ -3,8 +3,10 @@
     flex-direction: column;
     gap: 1.875rem;
     min-height: 16.25rem;
+    background-color: var(--fl-bgColor, transparent);
     border-block: 0;
-    box-shadow: 0 -1.875rem 0 0 var(--fl-fgColor, var(--project-color));
+    box-shadow: 0 -1.875rem 0 0 var(--fl-fgColor, var(--banner-color));
+    color: inherit;
     max-width: 90rem;
     margin-inline: auto;
     margin-block-start: 1.875rem;
@@ -16,7 +18,7 @@
         inset 0 -0.1875rem 0 0 var(--fl-fgColor, transparent);
 }
 
-.project .banner .text {
+.project .banner .banner__content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,7 +41,7 @@
     width: 100%;
 }
 
-.project .banner .image {
+.project .banner .banner__image {
     aspect-ratio: 1 / 1;
     overflow: hidden;
 }
@@ -143,7 +145,7 @@
         top: 5.5rem;
     }
 
-    .project .banner .image {
+    .project .banner .banner__image {
         aspect-ratio: 40 / 57;
         max-width: 30rem;
     }
