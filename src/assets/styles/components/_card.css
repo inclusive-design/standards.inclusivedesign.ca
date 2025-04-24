@@ -1,5 +1,8 @@
 .card {
     color: var(--fl-fgColor, black);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     inline-size: clamp(16.25rem, 23rem, 1fr);
     margin-bottom: 1rem;
     box-shadow:
@@ -9,12 +12,8 @@
     position: relative;
 }
 
-.card[data-filter-type=standards] {
-    background-color: var(--fl-bgColor, var(--color-indigo-100));
-}
-
-.card[data-filter-type=standards],
 .resources .card {
+    background-color: var(--fl-bgColor, var(--color-indigo-100));
     padding-block-end: 0.5rem;
     padding-block-start: unset;
 }
@@ -57,8 +56,8 @@ body:not([class*="fl-theme"]),
     border: 0.1875rem solid var(--fl-linkFgColor, transparent);
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
     gap: 0.93rem;
-    height: 100%;
     padding: 1.875rem;
 }
 
