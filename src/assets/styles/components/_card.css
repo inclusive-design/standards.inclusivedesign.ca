@@ -41,11 +41,6 @@ body:not([class*="fl-theme"]),
 }
 
 .card__image {
-<<<<<<< Updated upstream
-    min-width: 20.5rem;
-=======
-    border-top: 0.125rem solid var(--fl-fgColor, var(--color-black));
->>>>>>> Stashed changes
     background-color: black;
 }
 
