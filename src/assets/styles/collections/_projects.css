@@ -130,9 +130,9 @@
 @media (width >= 70.875rem) {
     .project .banner {
         display: grid;
-        gap: 0;
+        gap: var(--common-inline-padding);
+        grid-auto-flow: column;
         grid-template-columns: 35% 65%;
-        grid-template-rows: 1;
         margin-block-start: 0;
         margin-inline: auto;
         height: fit-content;
@@ -153,7 +153,6 @@
         grid-column: 2;
         height: 100%;
         padding-block-start: 5.5rem;
-        padding-inline-start: var(--common-inline-padding);
     }
 
     .project .content {
