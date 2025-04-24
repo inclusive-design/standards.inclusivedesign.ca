@@ -41,7 +41,6 @@ body:not([class*="fl-theme"]),
 }
 
 .card__image {
-    min-width: 20.5rem;
     background-color: black;
 }
 
