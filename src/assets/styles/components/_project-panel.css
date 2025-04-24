@@ -13,7 +13,7 @@ div:has(> .project-panel) {
         inset 0 0 0 0.1875rem var(--fl-linkFgColor, transparent);
     display: flex;
     flex-direction: column;
-    padding-top: 2.5rem;
+    padding-top: 2.25rem;
     position: relative;
     max-width: 75rem;
     margin-inline: auto;
@@ -45,7 +45,6 @@ body:not([class*="fl-theme"]),
 }
 
 .project-panel__image {
-    border-top: 0.125rem solid var(--fl-fgColor, var(--color-black)); 
     min-width: 16.25rem;
     min-height: 12.1875rem;
 
@@ -101,13 +100,12 @@ body:not([class*="fl-theme"]),
 @media (width >= 70.875rem) {
     .project-panel {
         flex-direction: row;
-        padding-left: 4.625rem;
+        padding-left: 2.225rem;
         padding-top: unset;
     }
 
     .project-panel__image {
         border-top: unset;
-        border-left: 0.125rem solid var(--fl-fgColor, var(--color-black));
         max-width: 31.0625rem;
     }
 }
