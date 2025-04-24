@@ -129,25 +129,31 @@
 
 @media (width >= 70.875rem) {
     .project .banner {
-        box-shadow:
-            -75rem 0 0 0 var(--fl-fgColor, var(--project-color)),
-            inset 3.5rem 0 0 0 var(--fl-fgColor, var(--project-color)),
-            inset 0 -0.1875rem 0 0 var(--fl-fgColor, transparent);
-        flex-direction: row;
-        height: 39.625rem;
+        display: grid;
+        gap: 0;
+        grid-template-columns: 35% 65%;
+        grid-template-rows: 1;
         margin-block-start: 0;
-        padding-inline: 8.25rem 0;
+        margin-inline: auto;
+        height: fit-content;
+        max-width: 90rem;
+        padding-inline: 0;
         padding-block: 0;
-    }
-
-    .project .banner a {
-        position: absolute;
-        top: 5.5rem;
+        width: 100%;
     }
 
     .project .banner .banner__image {
-        aspect-ratio: 40 / 57;
-        max-width: 30rem;
+        grid-column: 1;
+        border-inline-end: 2.25rem solid var(--fl-fgColor, var(--project-color));
+        min-width: unset;
+    }
+
+    .project .banner .banner__content {
+        display: block;
+        grid-column: 2;
+        height: 100%;
+        padding-block-start: 5.5rem;
+        padding-inline-start: var(--common-inline-padding);
     }
 
     .project .content {
