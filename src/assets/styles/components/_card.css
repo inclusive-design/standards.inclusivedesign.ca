@@ -5,7 +5,7 @@
     box-shadow:
         0 0.625rem 1.25rem 0 var(--shadow-light),
         inset 0 0 0 0.1875rem var(--fl-linkFgColor, transparent);
-    padding-block-start: 2.5rem;
+    padding-block-start: 2.25rem;
     position: relative;
 }
 
@@ -42,7 +42,6 @@ body:not([class*="fl-theme"]),
 }
 
 .card__image {
-    border-top: 0.125rem solid var(--fl-fgColor, var(--color-black));
     min-width: 20.5rem;
     background-color: black;
 }
