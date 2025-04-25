@@ -46,6 +46,10 @@
     overflow: hidden;
 }
 
+.project .banner .banner__image:empty {
+    height: 0;
+}
+
 .project .banner img {
     object-fit: cover;
     height: 100%;
@@ -130,9 +134,9 @@
 @media (width >= 70.875rem) {
     .project .banner {
         display: grid;
-        gap: 0;
-        grid-template-columns: 35% 65%;
-        grid-template-rows: 1;
+        gap: var(--common-inline-padding);
+        grid-template-columns: 35% 1fr;
+        grid-auto-flow: column;
         margin-block-start: 0;
         margin-inline: auto;
         height: fit-content;
@@ -143,17 +147,19 @@
     }
 
     .project .banner .banner__image {
-        grid-column: 1;
+        background-color: var(--fl-fgColor, var(--project-color));
         border-inline-end: 2.25rem solid var(--fl-fgColor, var(--project-color));
+        grid-column: 1;
         min-width: unset;
     }
 
+    .project .banner .banner__image:empty {
+        height: unset;
+    }
+
     .project .banner .banner__content {
-        display: block;
         grid-column: 2;
         height: 100%;
-        padding-block-start: 5.5rem;
-        padding-inline-start: var(--common-inline-padding);
     }
 
     .project .content {

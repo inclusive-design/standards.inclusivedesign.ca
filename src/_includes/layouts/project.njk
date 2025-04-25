@@ -9,11 +9,11 @@
         <a href="{{ breadcrumb.url }}" >{{ breadcrumb.title }} {% include 'svg/arrowRight.svg' %}</a>
         <h1>{{ title }}</h1>
     </div>
-    {% if previewImage and previewImageAlt %}
     <div class="banner__image">
+    {% if previewImage and previewImageAlt %}
         <img src="{{ previewImage }}" alt="{{ previewImageAlt }}" />
-    </div>
     {% endif %}
+    </div>
 </div>
 {% endblock %}
 
