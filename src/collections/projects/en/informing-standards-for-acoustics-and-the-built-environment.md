@@ -4,7 +4,8 @@ lang: en
 uuid: d07b518f-e9f2-41ea-920d-744a9337461c
 slug: acoustics
 excerpt: Investigating the impact of the acoustic environment on people with disabilities and exploring technologies that can contribute to reducing and eliminating acoustics barriers
-previewImageAlt: ''
+previewImage: /assets/uploads/Informing%20Standards%20for%20Acoustics%20and%20the%20Built%20Environment.png
+previewImageAlt: Colourful fabric prototype with different patterns and small shapes around
 color: orange
 ---
 ## About

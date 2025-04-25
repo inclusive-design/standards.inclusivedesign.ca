@@ -4,6 +4,7 @@ lang: fr
 uuid: d07b518f-e9f2-41ea-920d-744a9337461c
 slug: l-acoustique
 excerpt: Étudier l'impact de l'environnement acoustique sur les personnes handicapées et explorer les technologies qui peuvent contribuer à réduire et à éliminer les barrières acoustiques
+previewImage: /assets/uploads/Informing%20Standards%20for%20Acoustics%20and%20the%20Built%20Environment.png
 previewImageAlt: ''
 color: orange
 ---
