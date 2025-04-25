@@ -8,4 +8,4 @@ on:
 
 jobs:
   lint-test:
-    uses: inclusive-design/.github/.github/workflows/lint-and-test.yml@main
+    uses: inclusive-design/workflows/.github/workflows/lint-and-test.yml@main
