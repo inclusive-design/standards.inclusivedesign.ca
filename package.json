@@ -15,7 +15,7 @@
     "lint:markdown": "markdownlint-cli2 \"**/*.md\"",
     "start": "npm-run-all -l clean dev",
     "prepare": "husky",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
