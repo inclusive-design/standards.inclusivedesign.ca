@@ -4,6 +4,7 @@ lang: fr
 uuid: 8cbbf5c9-b7ff-4197-8ba0-adce4a5dc49b
 slug: rldn
 excerpt: Promouvoir l’inclusion numérique et l’accessibilité des TIC pour les personnes handicapées en remédiant à l’échec des processus réglementaires existants à créer des systèmes numériques inclusifs et accessibles
+previewImage: /assets/uploads/Regulating%20Digital.jpg
 previewImageAlt: ''
 color: orange
 ---

@@ -4,7 +4,8 @@ lang: en
 uuid: 8cbbf5c9-b7ff-4197-8ba0-adce4a5dc49b
 slug: rtdd
 excerpt: Advancing digital inclusion and ICT accessibility for people with disabilities by addressing the failure of existing regulatory processes to create inclusive and accessible digital systems
-previewImageAlt: ''
+previewImage: /assets/uploads/Regulating%20Digital.jpg
+previewImageAlt: Closeup of a person working on the laptop next to Arduino which is an open-source platform, both hardware and software, used for building interactive electronic projects
 color: orange
 ---
 ## About
