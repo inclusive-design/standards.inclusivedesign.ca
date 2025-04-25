@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.5.0...v1.5.1) (2025-04-25)
+
+
+### Bug Fixes
+
+* set aspect ratio to card image ([#219](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/219)) ([6b31f6a](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/6b31f6a24a48b59965c45ab5fe24a9e9a6d46834))
+
 ## [1.5.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.4.0...v1.5.0) (2025-04-25)
 
 
