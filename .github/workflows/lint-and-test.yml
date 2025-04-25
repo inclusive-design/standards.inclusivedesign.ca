@@ -8,14 +8,4 @@ on:
 
 jobs:
   lint-test:
-    name: Lint and test
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          cache: npm
-      - name: Install dependencies, lint files and run tests
-        run: |
-          npm ci
-          npm run lint
+    uses: inclusive-design/.github/workflow-templates/lint-and-test.yml
