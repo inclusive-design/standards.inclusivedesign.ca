@@ -1,5 +1,29 @@
 # Changelog
 
+## [1.5.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.4.0...v1.5.0) (2025-04-25)
+
+
+### Features
+
+* add license ([#206](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/206)) ([78a1cb9](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/78a1cb99df01c3570cbe04f9b0d5976e824fd19e))
+* resources page ([#179](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/179)) ([16b5ed9](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/16b5ed9d2d447944d62e4f5cad73f737a6121535))
+* support local resources, simplify page markup ([#202](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/202)) ([f72657a](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/f72657a26945642d82f6fd909a50c1f223197c43))
+* update project banner layout (resolves [#210](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/210)) ([#215](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/215)) ([025c58f](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/025c58f755c2c1e71e050e81feaf20ddbbfb2542))
+
+
+### Bug Fixes
+
+* add border on card image ([#211](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/211)) ([368bd31](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/368bd316fc57ed1f3a2a885c062ea0d2dc605b18))
+* **deps:** update dependency @11ty/eleventy to v3.1.0-beta.1 ([#209](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/209)) ([0182dc4](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/0182dc41423ba734e949abd278b4a74c8e95f254))
+* **deps:** update dependency @11ty/eleventy-navigation to v1.0.4 ([#191](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/191)) ([31f97e7](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/31f97e7099694a90ee70a0a10c590b3652155f67))
+* remove black borders, make all card bands 2.25rem ([#214](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/214)) ([1ffdf7f](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/1ffdf7fc4cc36f6bbbce5381c54a939d5e8b41b8))
+* remove min-width from card images ([#216](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/216)) ([e212804](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/e212804286e72c2ec86bf5d12645a0e1cc83ac3c))
+* resolve filter options focus style issue ([#213](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/213)) ([b998a52](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/b998a52f0980e5c87f736e016546ff5eb22b1475))
+* resolve issues with card grid layout (resolves [#204](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/204)) ([#212](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/212)) ([18814b2](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/18814b274b3f6cbb3ce33d6c466043238f3feda0))
+* resolve issues with image sizing ([#203](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/203)) ([4a0d6de](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/4a0d6deb93e381a0b8cf88ede880a018377d26fe))
+* update card focus style ([#197](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/197)) ([1be1774](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/1be1774dc71e10885a2b2eb3b3be2f4672890302))
+* use grid auto flow on project banner to create single row container ([#217](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/217)) ([5784033](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/5784033f04bba3f1c1c62c0521224849284f1e58))
+
 ## [1.4.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.3.1...v1.4.0) (2025-03-25)
 
 
