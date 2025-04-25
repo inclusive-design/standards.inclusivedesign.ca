@@ -4,7 +4,8 @@ lang: en
 uuid: 672e74ba-9f27-4295-adda-dae162a48d60
 slug: eds
 excerpt: Examining the accessibility of the digital tools and systems we rely upon for work
-previewImageAlt: ''
+previewImage: /assets/uploads/Future%20of%20Work%20Equitable%20Digital%20Systems.png
+previewImageAlt: Group of four people making a 3D prototype with plastic lego blocks.
 color: blue
 ---
 ## About

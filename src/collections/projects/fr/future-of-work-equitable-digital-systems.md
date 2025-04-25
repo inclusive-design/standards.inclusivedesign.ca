@@ -4,6 +4,7 @@ lang: fr
 uuid: 672e74ba-9f27-4295-adda-dae162a48d60
 slug: eds
 excerpt: Examiner l'accessibilité des outils et systèmes numériques sur lesquels nous comptons pour travailler
+previewImage: /assets/uploads/Future%20of%20Work%20Equitable%20Digital%20Systems.png
 previewImageAlt: ''
 color: blue
 ---
