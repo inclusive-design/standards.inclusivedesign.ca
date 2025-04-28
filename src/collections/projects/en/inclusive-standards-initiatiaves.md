@@ -4,8 +4,8 @@ lang: en
 uuid: 22635ec3-6240-4bb6-8e37-acc891a6aaf2
 slug: initiatives
 excerpt: Discover IDRC's contributions to advancing inclusive standards through draft standards, technical specifications, committees and frameworks. Explore how our initiatives support global committees in shaping standards for accessible and equitable practices.
-previewImage: ''
-previewImageAlt: ''
+previewImage: /assets/uploads/BIG%20IDeA_TED.jpeg
+previewImageAlt: A group of smiling people work together at an outdoor booth, one person is using a wheelchair.
 color: green
 ---
 ## IDRC Inclusive Standards Initiatives
