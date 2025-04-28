@@ -1,5 +1,5 @@
 ---
-title: Inclusive Standards Initiatiaves
+title: Inclusive Standards Initiatives
 lang: en
 uuid: 22635ec3-6240-4bb6-8e37-acc891a6aaf2
 slug: initiatives
