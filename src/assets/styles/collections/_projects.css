@@ -85,6 +85,11 @@
     right: var(--common-inline-padding);
 }
 
+.project .logo {
+    padding-block-end: var(--common-block-padding);
+    padding-inline: var(--common-inline-padding);
+}
+
 @media (width >= 70.875rem) {
     .project nav > h2 {
         display: block;
@@ -100,6 +105,11 @@
 
     .project nav inclusive-disclosure [aria-expanded] + * {
         display: block;
+    }
+
+    .project .logo {
+        padding-block: 0;
+        padding-inline: 0;
     }
 }
 

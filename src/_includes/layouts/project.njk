@@ -44,6 +44,11 @@
             </ul>
         </div>
     </inclusive-disclosure>
+    {% if logo %}
+    <div class="logo">
+    <img src="{{ logo }}" alt="" />
+    </div>
+    {% endif %}
 </nav>
 <article class="flow">
 {{ content | safe }}
