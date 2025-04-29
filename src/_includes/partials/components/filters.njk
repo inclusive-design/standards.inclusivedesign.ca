@@ -10,83 +10,98 @@
     <h3>{% __ 'filters' %}</h3>
     <div class="flow">
         {% if filterableOptions.topics | length > 1 %}
-        <fieldset>
-            <legend class="visually-hidden">{% __ 'topic' %}</legend>
-            {% disclosure 'topic' %}
-            <ul id="filter-topic">
-                {% for topic in collections['topics_' + lang] %}
-                    {% if topic.data.uuid in filterableOptions.topics %}
-                    <li>
-                        <input type="checkbox" id="{{ topic.data.uuid }}" name="topic" value="{{ topic.data.uuid }}" data-filter-key="topics" />
-                        <label for="{{ topic.data.uuid }}">{{ topic.data.title }}</label>
-                    </li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            {% enddisclosure %}
-        </fieldset>
+            <fieldset>
+                <legend class="visually-hidden">{% __ 'topic' %}</legend>
+                <inclusive-disclosure>
+                    <button aria-controls="topic">{% __ 'topic' %}</button>
+                    <div id="topic">
+                        <ul id="filter-topic">
+                            {% for topic in collections['topics_' + lang] %}
+                                {% if topic.data.uuid in filterableOptions.topics %}
+                                    <li>
+                                        <input type="checkbox" id="{{ topic.data.uuid }}" name="topic" value="{{ topic.data.uuid }}" data-filter-key="topics"/>
+                                        <label for="{{ topic.data.uuid }}">{{ topic.data.title }}</label>
+                                    </li>
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </inclusive-disclosure>
+            </fieldset>
         {% endif %}
         {% if filterableOptions.types | length > 1 %}
-        <fieldset>
-            <legend class="visually-hidden">{% __ 'type' %}</legend>
-            {% disclosure 'type' %}
-            <ul id="filter-type">
-                {% for value in filterableOptions.types %}
-                <li>
-                    <input type="checkbox" id="{{ value }}" name="type" value="{{ value }}" data-filter-key="type" />
-                    <label for="{{ value }}">{% __ value %}</label>
-                </li>
-                {% endfor %}
-            </ul>
-            {% enddisclosure %}
-        </fieldset>
+            <fieldset>
+                <legend class="visually-hidden">{% __ 'type' %}</legend>
+                <inclusive-disclosure>
+                    <button aria-controls="type">{% __ 'type' %}</button>
+                    <div id="type">
+                        <ul id="filter-type">
+                            {% for value in filterableOptions.types %}
+                                <li>
+                                    <input type="checkbox" id="{{ value }}" name="type" value="{{ value }}" data-filter-key="type"/>
+                                    <label for="{{ value }}">{% __ value %}</label>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </inclusive-disclosure>
+            </fieldset>
         {% endif %}
         {% if filterableOptions.projects | length > 1 %}
-        <fieldset>
-            <legend class="visually-hidden">{% __ 'project' %}</legend>
-            {% disclosure 'project' %}
-            <ul id="filter-project">
-                {% for project in collections['projects_' + lang] %}
-                    {% if project.data.uuid in filterableOptions.projects %}
-                    <li>
-                        <input type="checkbox" id="{{ project.data.uuid }}" name="project" value="{{ project.data.uuid }}" data-filter-key="projects" />
-                        <label for="{{ project.data.uuid }}">{{ project.data.title }}</label>
-                    </li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            {% enddisclosure %}
-        </fieldset>
+            <fieldset>
+                <legend class="visually-hidden">{% __ 'project' %}</legend>
+                <inclusive-disclosure>
+                    <button aria-controls="project">{% __ 'project' %}</button>
+                    <div id="project">
+                        <ul id="filter-project">
+                            {% for project in collections['projects_' + lang] %}
+                                {% if project.data.uuid in filterableOptions.projects %}
+                                    <li>
+                                        <input type="checkbox" id="{{ project.data.uuid }}" name="project" value="{{ project.data.uuid }}" data-filter-key="projects"/>
+                                        <label for="{{ project.data.uuid }}">{{ project.data.title }}</label>
+                                    </li>
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </inclusive-disclosure>
+            </fieldset>
         {% endif %}
         {% if filterableOptions.language | length > 1 %}
-        <fieldset>
-            <legend class="visually-hidden">{% __ 'language' %}</legend>
-            {% disclosure 'language' %}
-            <ul id="filter-language">
-                {% for value in filterableOptions.language %}
-                <li>
-                    <input type="checkbox" id="language-{{ value }}" name="language" value="{{ value }}" data-filter-key="language" />
-                    <label for="language-{{ value }}">{{ supportedLanguages[value].name }}</label>
-                </li>
-                {% endfor %}
-            </ul>
-            {% enddisclosure %}
-        </fieldset>
+            <fieldset>
+                <legend class="visually-hidden">{% __ 'language' %}</legend>
+                <inclusive-disclosure>
+                    <button aria-controls="language">{% __ 'language' %}</button>
+                    <div id="language">
+                        <ul id="filter-language">
+                            {% for value in filterableOptions.language %}
+                                <li>
+                                    <input type="checkbox" id="language-{{ value }}" name="language" value="{{ value }}" data-filter-key="language"/>
+                                    <label for="language-{{ value }}">{{ supportedLanguages[value].name }}</label>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </inclusive-disclosure>
+            </fieldset>
         {% endif %}
         {% if filterableOptions.publishers | length > 1 %}
-        <fieldset>
-            <legend class="visually-hidden">{% __ 'publisher' %}</legend>
-            {% disclosure 'publisher' %}
-            <ul id="filter-publisher">
-                {% for value in filterableOptions.publishers %}
-                <li>
-                    <input type="checkbox" id="publisher-{{ value | slugify }}" name="publisher" value="{{ value }}" data-filter-key="publisher" />
-                    <label for="publisher-{{ value | slugify }}">{{ value }}</label>
-                </li>
-                {% endfor %}
-            </ul>
-            {% enddisclosure %}
-        </fieldset>
+            <fieldset>
+                <legend class="visually-hidden">{% __ 'publisher' %}</legend>
+                <inclusive-disclosure>
+                    <button aria-controls="publisher">{% __ 'publisher' %}</button>
+                    <div id="publisher">
+                        <ul id="filter-publisher">
+                            {% for value in filterableOptions.publishers %}
+                                <li>
+                                    <input type="checkbox" id="publisher-{{ value | slugify }}" name="publisher" value="{{ value }}" data-filter-key="publisher"/>
+                                    <label for="publisher-{{ value | slugify }}">{{ value }}</label>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </inclusive-disclosure>
+            </fieldset>
         {% endif %}
     </div>
 </div>
