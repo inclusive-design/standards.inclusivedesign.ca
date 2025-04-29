@@ -85,18 +85,6 @@ export default function eleventy(eleventyConfig) {
         return translationUrl;
     });
 
-    eleventyConfig.addPairedShortcode("disclosure", async function (content, label) {
-        const contentRenderer = await RenderPlugin.String(content, "md", {});
-        const renderedContent = await contentRenderer();
-        const contentId = randomUUID();
-        const data = this.ctx;
-
-        return `<inclusive-disclosure>
-        <button aria-controls="${contentId}">${__(label, {}, data)}</button>
-        <div content id="${contentId}">${renderedContent}</div>
-      </inclusive-disclosure>`;
-    });
-
     /*
         Provide a custom duplicate of eleventy-plugin-fluid's uioInit shortcode in
         order to run it without the text-size preference.
