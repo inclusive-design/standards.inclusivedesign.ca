@@ -335,14 +335,14 @@ collections:
         i18n: duplicate
       - label: Language
         name: language
-        widget: select
+        widget: relation
+        collection: metadata
+        file: languages
         default: en
         i18n: duplicate
-        options:
-          - label: English
-            value: en
-          - label: Français
-            value: fr
+        value_field: languages.*.code
+        search_fields: [languages.*.name]
+        display_fields: [languages.*.name]
       - label: Type
         name: type
         widget: select
@@ -390,6 +390,8 @@ collections:
         required: false
   - label: Metadata
     name: metadata
+    i18n:
+      structure: single_file
     files:
       - label: Contact Information
         name: contact
@@ -405,6 +407,25 @@ collections:
           - label: Address
             name: address
             widget: text
+      - label: Languages
+        name: languages
+        file: src/_data/languages.json
+        i18n: true
+        fields:
+          - label: Languages
+            label_singular: Language
+            name: languages
+            widget: list
+            i18n: duplicate
+            fields:
+            - label: Name
+              name: name
+              widget: string
+              i18n: true
+            - label: Code
+              name: code
+              widget: string
+              i18n: duplicate
   - label: Topics
     label_singular: Topic
     name: topics
