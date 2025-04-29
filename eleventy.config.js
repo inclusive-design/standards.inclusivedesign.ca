@@ -57,8 +57,8 @@ export default function eleventy(eleventyConfig) {
         });
     });
 
-    eleventyConfig.addFilter("find", function find(collection = [], key = "", value) {
-        return collection.find((post) => _.get(post, key) === value);
+    eleventyConfig.addFilter("find", function find(arr = [], key = "", value) {
+        return arr.find((post) => _.get(post, key) === value);
     });
 
     eleventyConfig.addFilter("objectArrayPush", (obj, key, value) => {

@@ -1,0 +1,34 @@
+{
+  "en": {
+    "languages": [
+      {
+        "name": "English",
+        "code": "en"
+      },
+      {
+        "name": "French",
+        "code": "fr"
+      },
+      {
+        "name": "Swedish",
+        "code": "se"
+      }
+    ]
+  },
+  "fr": {
+    "languages": [
+      {
+        "name": "anglais",
+        "code": "en"
+      },
+      {
+        "name": "français",
+        "code": "fr"
+      },
+      {
+        "name": "suédois",
+        "code": "se"
+      }
+    ]
+  }
+}
