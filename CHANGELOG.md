@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.2](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.5.1...v1.5.2) (2025-04-29)
+
+
+### Bug Fixes
+
+* resolve issue with filter markup (resolves [#224](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/224)) ([#225](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/225)) ([3c463c4](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/3c463c4794b2c76ad016c7f39d783d7edceb2fed))
+
 ## [1.5.1](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.5.0...v1.5.1) (2025-04-25)
 
 
