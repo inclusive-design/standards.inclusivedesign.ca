@@ -31,14 +31,18 @@
                 </p>
                 {% endif %}
                 <p>
-                {% include "../../assets/images/language.svg" %} {{ supportedLanguages[language].name }}
+                {% set languageObject = languages[lang].languages | find('code', language) %}
+
+                {% include "../../assets/images/language.svg" %} {{ languageObject.name }}
                 </p>
                 <p>
                 {% include "svg/date.svg" %} {{ date | formatDate }}
                 </p>
+                {% if author or publisher %}
                 <p>
                 {% include "../../assets/images/publisher.svg" %} {{ author }}{% if author and publisher %}, {% endif %}{{ publisher }}
                 </p>
+                {% endif %}
             </div>
         </div>
     </div>
