@@ -102,10 +102,6 @@ participer au processus d'élaboration des normes.
 
 **Ian White -** Président du chapitre des visionnaires de Toronto, [Canadian Council of the Blind](http://www.ccbtorontovisionaries.ca/)
 
-##
-
-##
-
 ## Financeurs
 
 Financé par [Normes d'accessibilité Canada](https://accessibilite.canada.ca) / le gouvernment du Canada.

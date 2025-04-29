@@ -91,8 +91,6 @@ Our project goals are to:
 
 **Ian White -** President CCB Toronto Visionaries Chapter, [Canadian Council of the Blind](http://www.ccbtorontovisionaries.ca/)
 
-##
-
 ## Funders
 
 Funded by [Accessibility Standards Canada](https://accessible.canada.ca) / the Government of Canada.
