@@ -13,9 +13,7 @@
 }
 
 [class^="fl-theme"]:not(.fl-theme-prefsEditor-default) .project .banner {
-    box-shadow:
-        inset 0 0.1875rem 0 0 var(--fl-fgColor, transparent),
-        inset 0 -0.1875rem 0 0 var(--fl-fgColor, transparent);
+    box-shadow: inset 0 0.1875rem 0 0 var(--fl-fgColor, transparent);
 }
 
 .project .banner .banner__content {
@@ -91,6 +89,12 @@
 }
 
 @media (width >= 70.875rem) {
+    [class^="fl-theme"]:not(.fl-theme-prefsEditor-default) .project .banner {
+        box-shadow:
+            inset 0 0.1875rem 0 0 var(--fl-fgColor, transparent),
+            inset 0 -0.1875rem 0 0 var(--fl-fgColor, transparent);
+    }
+
     .project nav > h2 {
         display: block;
     }
