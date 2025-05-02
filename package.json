@@ -56,7 +56,7 @@
     "lint-staged": "^15.2.7",
     "markdownlint-cli2": "^0.17.0",
     "markdownlint-config-fluid": "^0.1.5",
-    "npm-run-all2": "^7.0.0"
+    "npm-run-all2": "^8.0.0"
   },
   "lint-staged": {
     "*.{js,cjs,json,jsonc}": "biome check . --write --no-errors-on-unmatched",
