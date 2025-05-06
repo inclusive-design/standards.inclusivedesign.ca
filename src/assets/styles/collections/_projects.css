@@ -13,9 +13,7 @@
 }
 
 [class^="fl-theme"]:not(.fl-theme-prefsEditor-default) .project .banner {
-    box-shadow:
-        inset 0 0.1875rem 0 0 var(--fl-fgColor, transparent),
-        inset 0 -0.1875rem 0 0 var(--fl-fgColor, transparent);
+    box-shadow: inset 0 0.1875rem 0 0 var(--fl-fgColor, transparent);
 }
 
 .project .banner .banner__content {
@@ -85,7 +83,18 @@
     right: var(--common-inline-padding);
 }
 
+.project .logo {
+    padding-block-end: var(--common-block-padding);
+    padding-inline: var(--common-inline-padding);
+}
+
 @media (width >= 70.875rem) {
+    [class^="fl-theme"]:not(.fl-theme-prefsEditor-default) .project .banner {
+        box-shadow:
+            inset 0 0.1875rem 0 0 var(--fl-fgColor, transparent),
+            inset 0 -0.1875rem 0 0 var(--fl-fgColor, transparent);
+    }
+
     .project nav > h2 {
         display: block;
     }
@@ -100,6 +109,11 @@
 
     .project nav inclusive-disclosure [aria-expanded] + * {
         display: block;
+    }
+
+    .project .logo {
+        padding-block: 0;
+        padding-inline: 0;
     }
 }
 

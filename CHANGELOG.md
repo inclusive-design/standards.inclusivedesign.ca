@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.6.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.5.2...v1.6.0) (2025-04-30)
+
+
+### Features
+
+* add resource language options to metadata ([#229](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/229)) ([21ce5fb](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/21ce5fbc406a25097418f91b09c6756e277470fb))
+* add support for project logos (resolves [#227](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/227)) ([#230](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/230)) ([5eb8c67](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/5eb8c67983c44aecc4dee6cb7122330fb6c7344a))
+
 ## [1.5.2](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.5.1...v1.5.2) (2025-04-29)
 
 

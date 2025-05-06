@@ -8,6 +8,7 @@ import { __ } from "eleventy-plugin-fluid";
 import footnotesPlugin from "eleventy-plugin-footnotes";
 import _ from "lodash";
 import parse from "./src/_transforms/parse.js";
+import objectArrayPush from "./src/assets/scripts/objectArrayPush.js";
 
 export default function eleventy(eleventyConfig) {
     eleventyConfig.addGlobalData("now", () => new Date());
@@ -57,20 +58,11 @@ export default function eleventy(eleventyConfig) {
         });
     });
 
-    eleventyConfig.addFilter("find", function find(collection = [], key = "", value) {
-        return collection.find((post) => _.get(post, key) === value);
+    eleventyConfig.addFilter("find", function find(arr = [], key = "", value) {
+        return arr.find((post) => _.get(post, key) === value);
     });
 
-    eleventyConfig.addFilter("objectArrayPush", (obj, key, value) => {
-        if (Array.isArray(value)) {
-            obj[key] = [...new Set([...obj[key], ...value])];
-        } else {
-            if (!obj[key].includes(value)) {
-                obj[key].push(value);
-            }
-        }
-        return obj;
-    });
+    eleventyConfig.addFilter("objectArrayPush", objectArrayPush);
 
     eleventyConfig.addFilter("findTranslation", function find(page, collection = [], lang, desiredLang) {
         const expectedFilePathStem = page.filePathStem.replace(lang, desiredLang);

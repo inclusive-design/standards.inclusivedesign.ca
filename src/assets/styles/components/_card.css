@@ -40,10 +40,6 @@ body:not([class*="fl-theme"]),
     }
 }
 
-.card__image {
-    background-color: black;
-}
-
 .card__image img {
     aspect-ratio: 3 / 2;
     object-fit: cover;
