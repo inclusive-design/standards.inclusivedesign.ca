@@ -32,10 +32,13 @@
   "applied-filters": "Filtres appliqués",
   "upcoming": "À venir",
   "blog": "Blogue",
+  "course": "Cours",
   "video": "Vidéo",
   "podcast": "Balado",
   "guide-or-toolkit": "Guide ou boîte à outils",
   "document": "Document",
+  "legislation": "Législation",
   "standards": "Normes",
+  "tool": "Outil",
   "other": "Autre"
 }
