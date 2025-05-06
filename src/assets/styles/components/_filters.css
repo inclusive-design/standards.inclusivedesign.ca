@@ -7,6 +7,7 @@
     margin-block-end: 1.75rem;
 
     inclusive-disclosure {
+        padding-block-end: 1rem;
         padding-inline: 0;
     }
 
@@ -48,6 +49,7 @@
         position: absolute;
     }
 
+    inclusive-disclosure > button:focus::before, 
     inclusive-disclosure > button:hover::before {
         background-color: var(--fl-linkBgColor, var(--color-indigo-700));
     }
