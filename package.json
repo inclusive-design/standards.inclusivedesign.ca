@@ -1,6 +1,6 @@
 {
   "name": "standards.idrc.ocadu.ca",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "Website for IDRC standards development work.",
   "main": "eleventy.config.js",
   "type": "module",

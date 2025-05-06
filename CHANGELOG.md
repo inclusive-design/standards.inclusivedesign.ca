@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.7.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.6.0...v1.7.0) (2025-05-06)
+
+
+### Features
+
+* add icons (resolves [#232](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/232)) ([#235](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/235)) ([e9f335d](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/e9f335d2ef4d0247e3fbcadca578ce0203d9dec4))
+* add more resource types ([#243](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/243)) ([a801b8e](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/a801b8e090b60a68cf3b82cf391ee545657a4bd1))
+
+
+### Bug Fixes
+
+* add missing filter-mode ([#245](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/245)) ([ece1de2](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/ece1de23ba7c9f466779faca244cfef776e9a0fa))
+* release workflow ([#242](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/242)) ([10a8598](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/10a8598418b1e8169339afd9d6ad1638b756cdba))
+
 ## [1.6.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.5.2...v1.6.0) (2025-04-30)
 
 
