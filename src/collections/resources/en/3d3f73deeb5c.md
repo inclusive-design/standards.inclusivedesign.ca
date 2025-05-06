@@ -7,7 +7,7 @@ linking:
   type: link
   link: https://www.w3.org/events/happenings/2023/meeting-facilitation-training/
 author: ''
-publisher: WC3
+publisher: W3C
 language: en
 type: guide-or-toolkit
 projects:
