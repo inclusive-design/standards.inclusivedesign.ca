@@ -32,10 +32,13 @@
   "applied-filters": "Applied Filters",
   "upcoming": "Upcoming",
   "blog": "Blog",
+  "course": "Course",
   "video": "Video",
   "podcast": "Podcast",
   "guide-or-toolkit": "Guide or toolkit",
   "document": "Document",
+  "legislation": "Legislation",
   "standards": "Standards",
+  "tool": "Tool",
   "other": "Other"
 }

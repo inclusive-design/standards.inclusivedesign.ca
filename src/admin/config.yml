@@ -356,6 +356,8 @@ collections:
         options:
           - label: Blog
             value: blog
+          - label: Course
+            value: course
           - label: Video
             value: video
           - label: Podcast
@@ -364,8 +366,12 @@ collections:
             value: guide-or-toolkit
           - label: Document
             value: document
+          - label: Legislation
+            value: legislation
           - label: Standards
             value: standards
+          - label: Tool
+            value: tool
           - label: Other
             value: other
       - label: Related Project(s)
