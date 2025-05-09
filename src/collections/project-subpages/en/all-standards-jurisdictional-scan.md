@@ -1,5 +1,6 @@
 ---
 title: Jurisdictional Scan
+draft: true
 lang: en
 uuid: cf5eb701-fe23-4f07-b84d-5053fb96fc28
 slug: jurisdictional-scan
