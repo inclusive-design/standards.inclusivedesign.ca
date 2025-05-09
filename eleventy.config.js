@@ -45,9 +45,9 @@ export default function eleventy(eleventyConfig) {
             return collection.getFilteredByGlob(`src/collections/project-subpages/${lang}/*.md`);
         });
 
-        eleventyConfig.addCollection(`events_${lang}`, (collection) => {
-            return collection.getFilteredByGlob(`src/collections/events/${lang}/*.md`);
-        });
+        // eleventyConfig.addCollection(`events_${lang}`, (collection) => {
+        //     return collection.getFilteredByGlob(`src/collections/events/${lang}/*.md`);
+        // });
 
         eleventyConfig.addCollection(`resources_${lang}`, (collection) => {
             return collection.getFilteredByGlob(`src/collections/resources/${lang}/*.md`);
@@ -118,6 +118,12 @@ export default function eleventy(eleventyConfig) {
     });
 
     eleventyConfig.addPlugin(IdAttributePlugin);
+
+    eleventyConfig.addPreprocessor("drafts", "*", (data, _content) => {
+        if (data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
+            return false;
+        }
+    });
 
     return {
         dir: {
