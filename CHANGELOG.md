@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.8.0...v1.9.0) (2025-05-12)
+
+
+### Features
+
+* add sort feature to the resources page ([#253](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/253)) ([ed6e50c](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/ed6e50c88c5c56321091cd66d1376b5dc601f077))
+
 ## [1.8.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.7.0...v1.8.0) (2025-05-09)
 
 
