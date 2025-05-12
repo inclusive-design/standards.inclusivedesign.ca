@@ -5,7 +5,25 @@
     <filter-container class="wrapper" oninit filter-mode="all" filter-mode-type="any" filter-mode-projects="any" filter-mode-publisher="any" filter-mode-language="any" filter-fuzzy-search data-paginate-results="10">
         {% include "partials/components/filters.njk" %}
         <div>
-            <h3 id="filtered-results" aria-live="polite" data-filter-results="{% __ 'filtered-resources' %}">{% __ 'resources' %}</h3>
+            <div class="resources-head">
+                <h3 id="filtered-results" aria-live="polite" data-filter-results="{% __ 'filtered-resources' %}">{% __ 'resources' %}</h3>
+                <div class='resources-sort'>
+                    <label for="resourcesSortSelector">
+                        Sort by:
+                    </label>
+                    <select id='resourcesSortSelector'>
+                        <option value='ascTitle'>
+                            Title
+                        </option>
+                        <option value='decDate'>
+                            Newest date
+                        </option>
+                        <option value='ascDate'>
+                            Oldest date
+                        </option>
+                    </select>
+                </div>
+            </div>
             <div class="filter-tags">
                 <h4 id="filter-applied">{% __ 'applied-filters' %}</h4>
                 <div id="filter-tags">

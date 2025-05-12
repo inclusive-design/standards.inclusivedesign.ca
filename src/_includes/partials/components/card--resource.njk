@@ -1,5 +1,5 @@
 <div class="card" data-filter-type="{{ resource.data.type }}" data-filter-projects="{{ resource.data.projects }}" data-filter-topics="{{ resource.data.topics }}"
-    data-filter-type="{{ resource.data.type }}" data-filter-language="{{ resource.data.language }}" data-filter-publisher="{{ resource.data.publisher }}">
+    data-filter-type="{{ resource.data.type }}" data-filter-language="{{ resource.data.language }}" data-filter-publisher="{{ resource.data.publisher }}" data-title="{{ resource.data.title }}" data-date="{{ resource.data.date }}">
     <div class="card__content">
         <h3>
             <a class="card__title" href="{{ resource.data.linking.link if resource.data.linking.type == 'link' else resource.url }}"{% if resource.data.linking.type == 'link' %} rel="external"{% endif %}>

@@ -2,6 +2,7 @@ import "@zachleat/filter-container";
 
 window.onload = () => {
     renderFilterTags();
+    sortResources();
 };
 
 const filters = document.getElementById("filters");
@@ -39,5 +40,35 @@ const renderFilterTags = () => {
     } else {
         const filterApplied = document.getElementById("filter-applied");
         filterApplied.style.display = "none";
+    }
+};
+
+const getSortOption = document.getElementById("resourcesSortSelector");
+getSortOption.addEventListener("change", (e) => {
+    sortResources(e.target.value);
+    e.target.selected = true;
+});
+
+const sortResources = (sortBy) => {
+    const resourceContainer = document.getElementsByClassName("resources")[0];
+    if (resourceContainer) {
+        const resources = Array.from(resourceContainer.children);
+        switch (sortBy) {
+            case "ascTitle":
+                resources.sort((a, b) => a.dataset.title.localeCompare(b.dataset.title));
+                break;
+            case "ascDate":
+                resources.sort((a, b) => new Date(a.dataset.date) - new Date(b.dataset.date));
+                break;
+            case "decDate":
+                resources.sort((a, b) => new Date(b.dataset.date) - new Date(a.dataset.date));
+                break;
+            default:
+                resources.sort((a, b) => a.dataset.title.localeCompare(b.dataset.title));
+                break;
+        }
+        for (const resource of resources) {
+            resourceContainer.appendChild(resource);
+        }
     }
 };

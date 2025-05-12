@@ -4,6 +4,17 @@
     padding-inline: var(--common-inline-padding);
 }
 
+.resources-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.resources-sort {
+    align-items: center;
+    display: flex;
+    gap: 1.125rem;
+}
+
 .resources {
     margin-block-start: 1em;
 }
