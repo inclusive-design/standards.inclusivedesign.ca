@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.7.0...v1.8.0) (2025-05-09)
+
+
+### Features
+
+* add draft support ([#248](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/248)) ([2653cf8](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/2653cf8eb17e44667d73098eec98c319733a5301))
+
 ## [1.7.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.6.0...v1.7.0) (2025-05-06)
 
 
