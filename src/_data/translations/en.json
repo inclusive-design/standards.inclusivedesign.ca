@@ -40,5 +40,9 @@
   "legislation": "Legislation",
   "standards": "Standards",
   "tool": "Tool",
-  "other": "Other"
+  "other": "Other",
+  "sort-by": "Sort by:",
+  "title": "Title",
+  "newest-date": "Newest date",
+  "oldest-date": "Oldest date"
 }

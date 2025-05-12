@@ -9,17 +9,17 @@
                 <h3 id="filtered-results" aria-live="polite" data-filter-results="{% __ 'filtered-resources' %}">{% __ 'resources' %}</h3>
                 <div class='resources-sort'>
                     <label for="resourcesSortSelector">
-                        Sort by:
+                        {% __ 'sort-by' %}
                     </label>
                     <select id='resourcesSortSelector'>
                         <option value='ascTitle'>
-                            Title
+                            {% __ 'title' %}
                         </option>
                         <option value='decDate'>
-                            Newest date
+                            {% __ 'newest-date' %}
                         </option>
                         <option value='ascDate'>
-                            Oldest date
+                            {% __ 'oldest-date' %}
                         </option>
                     </select>
                 </div>
