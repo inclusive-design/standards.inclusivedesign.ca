@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.1](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.9.0...v1.9.1) (2025-05-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @11ty/eleventy to v3.1.0 ([#255](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/255)) ([77ce27d](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/77ce27d1f4f79ea7e3d1659152e160fa430398d3))
+
 ## [1.9.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.8.0...v1.9.0) (2025-05-12)
 
 
