@@ -8,11 +8,9 @@ previewImage: /assets/uploads/BIG%20IDeA_TED.png
 previewImageAlt: A group of smiling people work together at an outdoor booth, one person is using a wheelchair.
 color: green
 ---
-## IDRC Inclusive Standards Initiatives
-
 Discover IDRC's contributions to advancing inclusive standards through draft standards, technical specifications, committees and frameworks. Explore how our initiatives support global committees in shaping standards for accessible and equitable practices.
 
-### Trust Meter
+## Trust Meter
 
 IDRC is working with stakeholders to develop a new Technical Specification for Standards Council of Canada (SCC) called Trust Meter.
 
@@ -20,14 +18,14 @@ The Trust Meter Technical Specification will support development of an inclusive
 
 The Trust Meter project is being advanced under SCC’s AI and Data Governance (AIDG) Program. For more information about this project, please contact Vera Roberts ([vroberts@ocadu.ca](mailto:vroberts@ocadu.ca)).
 
-### Equitable Communications Draft Standard
+## Equitable Communications Draft Standard
 
 We're working with [Canadian Association of the Deaf](https://cad-asc.ca/) and the [Canadian Communication Access Alliance](https://www.cdacanada.com/) to prepare a draft standard for Equitable Communication that may be used by an Accessibility Standards Canada technical committee to develop a full standard for public review. 
 
-### Emergency Measures Draft Standard
+## Emergency Measures Draft Standard
 
 We're preparing a draft standard for Emergency Measures that may be used by an Accessibility Standards Canada technical committee to develop a full standard for public review. 
 
-### Autism Framework for Standards Development
+## Autism Framework for Standards Development
 
 We're working with[ Autism Alliance of Canada](https://autismalliance.ca/) to develop an Autism Framework that can be use by standards development committees so that they can better consider the needs of Autistic people in their standards.

@@ -8,8 +8,6 @@ previewImage: /assets/uploads/BIG%20IDeA_TED.png
 previewImageAlt: Un groupe de personnes souriantes travaillent ensemble sur un kiosque extérieur, une personne utilise un fauteuil roulant.
 color: green
 ---
-# Initiatives du IDRC en matière de normes inclusives
-
 Découvrez les contributions du IDRC à l’avancement des normes inclusives par le biais de projets de normes, de spécifications techniques, de comités et de cadres. Découvrez comment nos initiatives aident les comités mondiaux à élaborer des normes pour des pratiques accessibles et équitables.
 
 ## Indicateur de confiance
