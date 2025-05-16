@@ -20,11 +20,11 @@ The Trust Meter project is being advanced under SCC’s AI and Data Governance (
 
 ## Equitable Communications Draft Standard
 
-We're worked with [Canadian Association of the Deaf](https://cad-asc.ca/) and the [Canadian Communication Access Alliance](https://www.cdacanada.com/) to prepare a draft standard for Equitable Communication that may be used by an Accessibility Standards Canada technical committee to develop a full standard for public review. 
+We're worked with [Canadian Association of the Deaf](https://cad-asc.ca/) and the [Canadian Communication Access Alliance](https://www.cdacanada.com/) to prepare a draft standard for Equitable Communication that may be used by an Accessibility Standards Canada technical committee to develop a full standard for public review. Contact Vera Roberts ([vroberts@ocadu.ca](mailto:vroberts@ocadu.ca)) to learn more about this work. 
 
 ## Emergency Measures Draft Standard
 
-We prepared a draft standard for Emergency Measures that may be used by an Accessibility Standards Canada technical committee to develop a full standard for public review. 
+We prepared a draft standard for Emergency Measures that may be used by an Accessibility Standards Canada technical committee to develop a full standard for public review. Contact Jess Mitchell ([jmitchell@ocadu.ca](mailto:jmitchell@ocadu.ca)) to learn more about this work. 
 
 ## Autism Framework for Standards Development
 

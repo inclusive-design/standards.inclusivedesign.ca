@@ -20,11 +20,11 @@ Le projet Indicateur de confiance est développé dans le cadre du programme du 
 
 ## Projet de norme sur les communications équitables
 
-Nous travaillons avec [l’Association des Sourds du Canad](https://cad-asc.ca/fr/)a et [l’Alliance canadienne pour l’accès aux communications](https://www.cdacanada.com/fr/) afin de préparer un projet de norme pour la communication équitable qui pourrait être utilisé par un comité technique de Normes d’accessibilité Canada pour élaborer une norme complète aux fins d’examen public.
+Nous avons travaillé avec avec [l’Association des Sourds du Canad](https://cad-asc.ca/fr/)a et [l’Alliance canadienne pour l’accès aux communications](https://www.cdacanada.com/fr/) afin de préparer un projet de norme pour la communication équitable qui pourrait être utilisé par un comité technique de Normes d’accessibilité Canada pour élaborer une norme complète aux fins d’examen public. Contactez Vera Roberts ([vroberts@ocadu.ca](mailto:vroberts@ocadu.ca)) pour en savoir plus sur ce travail. 
 
 ## Projet de norme sur les mesures d'urgence
 
-Nous préparons un projet de norme sur les mesures d’urgence qui pourrait être utilisé par un comité technique de Normes d’accessibilité Canada pour élaborer une norme complète aux fins d’examen public.
+Nous avons préparé un projet de norme sur les mesures d’urgence qui pourrait être utilisé par un comité technique de Normes d’accessibilité Canada pour élaborer une norme complète aux fins d’examen public. Contactez Jess Mitchell ([jmitchell@ocadu.ca](mailto:jmitchell@ocadu.ca)) pour en savoir plus sur ce travail. 
 
 ## Cadre de référence pour l'élaboration des normes relatives à l'autisme
 
