@@ -1,15 +1,15 @@
 ---
-title: Jurisdictional Scan
+title: Mapping Standards Development Across Jurisdictions
 draft: true
 lang: en
 uuid: cf5eb701-fe23-4f07-b84d-5053fb96fc28
 slug: jurisdictional-scan
 parent: all-standards
-excerpt: ''
+excerpt: This overview examines how standards are initiated, developed, and reviewed across various jurisdictions. By comparing processes from organizations such as W3C, ISO, ETSI, and JISC, we highlight the diverse pathways through which standards emerge—from stakeholder proposals to technical committee formation to review and maintenance.
 previewImage: ''
 previewImageAlt: ''
 ---
-## Theme 1: Identifying need and proposing a feasible standard
+## 1: Identifying need and proposing a feasible standard
 
 ### Description
 
@@ -40,7 +40,7 @@ Who assesses feasibility, and how?
 - In South America, national standardization bodies like the [Brazilian Association of Technical Standards (ABNT)](https://braziliannr.com/brazilian-national-standards/)<sup aria-label="footnote">[31](#fn31)</sup>  and the Argentine Institute of Standardization and Certification (IRAM) engage with various stakeholders to identify the need for new or revised standards. They use market analysis to monitor trends, technological developments, and regulatory changes to identify areas where new standards are necessary. Once a need is identified, stakeholders collaborate to draft proposals, typically forming technical committees with experts from relevant industries. Public consultation is also conducted to provide feedback before the final standard is adopted. Needs for standards can come from industry associations, government agencies, and consumer advocacy groups. Stakeholders can submit needs for standards through formal channels, such as writing to the national standards body or completing specific forms on their websites. Most national standards organizations provide clear guidelines and procedures for submitting needs, and information is often available online. Feasibility assessments are conducted by technical committees or working groups, evaluating the practicality, technical requirements, and potential economic impacts of proposed standards. Factors considered during these assessments include alignment with existing regulations, benefits to stakeholders, potential implementation costs, and impacts on public health and safety.
 - [Mexico's Organization for Standardization and Certification (ANCE)](https://www.ance.org.mx/Ance/)<sup aria-label="footnote">[38](#fn38)</sup> and the [General Directorate of Standards (DGN)](https://www.gob.mx/se/)<sup aria-label="footnote">[39](#fn38)</sup>  are key bodies in identifying the need for standards. They engage with industry stakeholders, government agencies, and academic institutions to gather insights on current challenges and emerging needs. Market analysis helps identify areas where new standards may be necessary. Proposed standards are drafted, often involving collaboration among technical committees. Public consultation allows stakeholders and the public to provide feedback before finalization. Needs for standards can arise from industry associations, government agencies, consumer feedback, and advocacy groups. Stakeholders can submit their needs for standards through formal channels, such as contacting ANCE or DGN directly. The process is generally outlined on the websites of ANCE and DGN, with guidelines and templates provided to facilitate submissions. The feasibility of proposed standards is assessed by technical committees, evaluating the practicality, technical requirements, and potential economic impact of implementing the standard. Key factors include alignment with international standards, stakeholder benefits, implementation costs, and overall impacts on public safety and quality.
 
-## Theme 2: Consulting and assembling key stakeholders and members for committees
+## 2: Consulting and assembling key stakeholders and members for committees
 
 ### Description
 
@@ -69,7 +69,7 @@ Once a proposal is approved, work can begin on creating a new standard. A techni
 - The Mexican Organization for Standardization and Certification (ANCE)<sup aria-label="footnote">[38](#fn38)</sup> and the General Directorate of Standards (DGN)<sup aria-label="footnote">[39](#fn38)</sup> actively identify stakeholders from various sectors, including industry, government, academia, and consumer groups. Stakeholders are invited to participate in committees based on their expertise and relevance to the specific standard being developed. Participants typically include industry experts, government officials, academics, and consumer advocates. Accreditation organizations provide guidelines on the formation and functioning of technical committees, ensuring representativeness and a balance of interests. The Mexican government may set policies that influence committee composition, particularly in sectors where public safety or regulatory compliance are critical. Committee members generally do not receive direct compensation for their participation, but in some cases, they may be reimbursed for specific expenses incurred during meetings or the standard development process. If reimbursement is provided, it typically follows the guidelines established by the organizing body, outlining what expenses are eligible for reimbursement and the process for submitting claims.
 - In South America, national standardization bodies like ABNT, IRAM, and INMETRO engage stakeholders from various sectors, including industry, government, academia, and consumer advocacy groups. Stakeholders are invited to participate in committees based on their expertise and relevance to the specific standard. Participants typically include representatives from industries related to the standards being developed, government officials from regulatory agencies, academics and researchers, and consumer representatives and advocacy groups. National standardization bodies often have directives and guidelines that outline the composition and functioning of technical committees, ensuring inclusivity and balance in representation. Governments may also issue policies or directives that influence who can join technical committees, especially in heavily regulated sectors or involving public safety. Committee members generally do not receive direct financial compensation for their participation, but some organizations may reimburse them for specific expenses related to their participation. If reimbursement is provided, it typically follows the guidelines established by national standardization bodies, specifying which expenses are eligible for reimbursement and the process for submitting claims.
 
-## Theme 3: Establishing and sharing key project details with committee members
+## 3: Establishing and sharing key project details with committee members
 
 ### Description
 
@@ -99,7 +99,7 @@ Once a proposal is accepted, a work plan is established, specifying details such
 - The Mexico<sup aria-label="footnote">[38, 39](#fn38)</sup> standardization project involves establishing key project details, such as objectives, timelines, and scope, during the initial planning phase. Information is shared with committee members through formal meetings, emails, and official documentation, ensuring alignment on project goals and expectations. Stakeholders are selected based on their expertise and relevance to the specific standard, and new members participate in an orientation session covering the standardization process, roles, and responsibilities. Training and resources are provided to members. Project management tools, such as shared drives or specialized software, are used to manage documents and track progress. Communication tools like email, video conferencing, and instant messaging facilitate communication among committee members. Accessibility accommodations and support services are provided to ensure everyone can fully participate. Meetings are structured with a clear agenda, and funding for accessibility accommodations and travel expenses is determined on a case-by-case basis.
 - The South American standardization process involves establishing key project details, such as objectives, scope, and timelines, at the beginning of the project. These details are shared with committee members through meetings, official documentation, and regular updates via email or project management platforms. Stakeholders are selected based on their expertise and relevance to the standard being developed. New members participate in an orientation session covering the standards development process, their roles, and responsibilities within the committee. Training and resources may be offered on specific topics related to the standards. Project management tools, such as shared drives, collaborative workspaces, or dedicated software, are used to facilitate document management and project tracking. Communication tools like email, video conferencing, and instant messaging are employed to maintain ongoing communication among committee members. Accessibility accommodations and support services are provided to ensure effective participation. Meetings are structured with a clear agenda and can be held in person or virtually. Funding for accessibility accommodations and travel expenses is evaluated on a case-by-case basis.
 
-## Theme 4: Developing a standard and reaching consensus on the draft
+## 4: Developing a standard and reaching consensus on the draft
 
 ### Description
 
@@ -127,7 +127,7 @@ The technical committee meets and begins to create the content for the standard 
 - Mexico's<sup aria-label="footnote">[38](#fn38)</sup> standard development process involves initiation, drafting, and consensus building. A technical committee, consisting of experts from relevant sectors, is formed to draft the standard, incorporating technical insights and stakeholder perspectives. The process involves ongoing engagement with stakeholders, including industry representatives, governmental entities, and consumer groups. The draft standard is circulated among committee members for review and feedback. Consensus is achieved through a general agreement, open discussions, and documenting objections. If significant disagreements occur, additional meetings may be scheduled. The ANCE and DGN provide guidelines for inclusive consensus-making, emphasizing transparency, stakeholder involvement, and considering diverse perspectives. The chair of the technical committee plays a crucial role in facilitating discussions, managing conflicts, and making final decisions. This process ensures that all voices are heard and the agenda is followed.
 - The development of standards in South America involves a process that starts with identifying a need for a standard, which is then drafted by a technical committee consisting of experts from various sectors. The committee then engages with stakeholders through public consultations, workshops, and discussions to ensure all parties are represented. The draft standard is circulated among committee members and stakeholders for review, allowing for feedback and suggestions for improvement. Consensus is typically achieved through general agreement, with facilitated discussions and documented objections. If significant disagreements arise, additional meetings or workshops may be held to resolve them. National standardization bodies often provide guidelines on effective and inclusive consensus-making, emphasizing transparency, inclusivity, and thorough engagement with all stakeholders. The chair plays a crucial role in facilitating discussions, managing conflicts, and making final decisions, reflecting the consensus achieved.
 
-## Theme 5: Public feedback on draft standard
+## 5: Public feedback on draft standard
 
 ### Description
 
@@ -158,7 +158,7 @@ The draft standard is made available for public review and comment, and the Stan
 - The W3C<sup aria-label="footnote">[2](#fn2)</sup> website allows users to search for draft standards, with the "any reports in progress" filter showing only working drafts. Public review announcements are posted to the W3 Public Review Announce mailing list. W3C has a web page describing how the public can participate in reviews and feedback, including reviewing drafts, implementing drafts, reporting bugs, commenting on draft charters, developing tests, and evaluating implementations of draft standards. Technical documents are open for feedback when a Working Draft is published by a Working Group, and comments are gathered via the Working Group's github issue tracker. W3C maintains open and public mailing lists, a history of revisions and drafts, and Github repositories tracking contributions and discussions on issues related to working groups. The News section on the website shares details about announcements, milestones, and deadlines related to different working groups.
 - WHATWG<sup aria-label="footnote">[1](#fn1)</sup> does not publish public notifications for participation, but the public can become involved by monitoring work streams on Github. The Workstream Editor publishes notes in the repository without additional notifications. There is no specific comment period for standards, but work on living standards is ongoing. Public feedback is gathered through weekly "Triage" meetings and a Matrix chatroom. Most work is done publicly in the WHATWG Github repositories.
 
-## Theme 6: Committee review of feedback and publication of final standard
+## 6: Committee review of feedback and publication of final standard
 
 ### Description
 
@@ -186,7 +186,7 @@ The technical committee addresses the public’s feedback by deliberating on the
 - Mexico's<sup aria-label="footnote">[38, 39](#fn38)</sup> process for drafting final standards involves a committee review of feedback from stakeholders, including industry representatives, government agencies, and the public. The technical committee then analyzes the feedback, making necessary revisions. The final standard is approved by the committee, typically requiring a formal vote to reach consensus. All comments received during the consultation period are documented, providing a clear record of the feedback process. The committee may issue a response to major comments, explaining how they were addressed in the final standard or providing reasons for their rejection. The final standards are published in various formats, including print, digital, and official gazette. The Mexican Organization for Standardization and Certification (ANCE) and the General Directorate of Standards (DGN) oversee the publication process. Drafts are made publicly accessible during the consultation phase, promoting transparency and active participation from all interested parties.
 - The South American standardization process involves a committee review of feedback from stakeholders, including industry representatives, government agencies, and consumer groups. The committee then reviews the feedback during meetings, assessing its significance and relevance. The draft standard is then revised based on the feedback, often involving multiple iterations. The final standard is approved by the committee, often requiring a consensus or formal vote. All feedback and comments are documented systematically, including acceptance and rejection. The committee may provide responses to significant comments, explaining how they were addressed in the final version or justifying why they were not addressed. Standards are typically published in various formats, including print, digital, and official journals. The publication process is often overseen by national standardization organizations. Drafts are made publicly accessible during consultation, promoting transparency and participation in the standardization process.
 
-## Theme 7: Regular review of published standards
+## 7: Regular review of published standards
 
 ### Description
 
@@ -243,7 +243,7 @@ The standard is reviewed every few years to ensure it is still relevant and appl
 6. Kovac, L. (2021). Accessibility Standards Development Processes Across Canada. Accessibility for Ontarians with Disabilities Act. Retrieved from [https://aoda.ca/accessibility-standards-development-processes-across-canada/](https://aoda.ca/accessibility-standards-development-processes-across-canada/)
 7. ASC (2023). Standards Development Operational Requirements. Retrieved from: <TBD>
 8. Accessibility Standards Canada (2024). Creating Accessibility Standards. Retrieved from[ https://accessible.canada.ca/creating-accessibility-standards](https://accessible.canada.ca/creating-accessibility-standards)
-9. Accessibility Standards Canada (2022). 2022 Annual Public Meeting - Update on Standards Development. Retrieved from[ https://accessible.canada.ca/sites/default/files/2022-09/StandardsDevelopmentPresentation\_0.pdf](https://accessible.canada.ca/sites/default/files/2022-09/StandardsDevelopmentPresentation_0.pdf)
+9. Accessibility Standards Canada (2022). 2022 Annual Public Meeting - Update on Standards Development. Retrieved from[ https://accessible.canada.ca/sites/default/files/2022-09/StandardsDevelopmentPresentation_0.pdf](https://accessible.canada.ca/sites/default/files/2022-09/StandardsDevelopmentPresentation_0.pdf)
 
 <span id="fn10">USA</span>
 
@@ -269,7 +269,7 @@ The standard is reviewed every few years to ensure it is still relevant and appl
 
 <span id="fn20">South Korea </span>
 
-20. ANSI (2024). ROK Standards System: Development of Korean Industrial Standards (KS). Retrieved from [https://www.standardsportal.org/usa\_kr/e/standards\_system/development\_korean\_standards.aspx](https://www.standardsportal.org/usa_kr/e/standards_system/development_korean_standards.aspx)
+20. ANSI (2024). ROK Standards System: Development of Korean Industrial Standards (KS). Retrieved from [https://www.standardsportal.org/usa_kr/e/standards_system/development_korean_standards.aspx](https://www.standardsportal.org/usa_kr/e/standards_system/development_korean_standards.aspx)
 
 <span id="fn21">Japan</span>
 
