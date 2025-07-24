@@ -236,8 +236,9 @@ collections:
     label_singular: Resource
     name: resources
     icon: inventory_2
-    i18n: true
-    folder: src/collections/resources
+    i18n:
+      structure: multiple_folders
+    folder: src/collections/resources/
     slug: '{{uuid_short}}'
     extension: md
     create: true
