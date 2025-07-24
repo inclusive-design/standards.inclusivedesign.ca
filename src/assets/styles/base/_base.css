@@ -269,16 +269,14 @@ button:not([class]):not([aria-controls]) {
     &:active,
     &:active:hover {
         background-color: var(--fl-linkBgColor, var(--color-indigo-200));
-        box-shadow: inset 0 0 0 0.125rem
-            var(--fl-linkFgColor, var(--color-indigo-700));
+        box-shadow: inset 0 0 0 0.125rem var(--fl-linkFgColor, var(--color-indigo-700));
         color: var(--fl-linkFgColor, var(--color-indigo-700));
     }
 }
 
 button.secondary {
     background-color: var(--fl-linkBgColor, var(--color-light-grey));
-    box-shadow: inset 0 0 0 0.125rem
-        var(--fl-linkFgColor, var(--color-indigo-700));
+    box-shadow: inset 0 0 0 0.125rem var(--fl-linkFgColor, var(--color-indigo-700));
     color: var(--fl-linkFgColor, var(--color-indigo-700));
 
     &:hover,

@@ -105,14 +105,14 @@
 }
 
 @media (width >= 70.875rem) {
-    .resource  .content {
+    .resource .content {
         display: grid;
         grid-template-columns: 35% 65%;
         margin-inline: auto;
         max-width: 90rem;
         width: 100%;
     }
-    
+
     .resource nav,
     .resource article {
         padding-block: 8.4375rem;
