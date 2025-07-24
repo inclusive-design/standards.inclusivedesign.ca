@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.9.2](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.9.1...v1.9.2) (2025-07-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @11ty/eleventy to v3.1.2 ([#262](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/262)) ([0356865](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/0356865261e78ee68733fd13388418b1cd4f517c))
+* update resources i18n structure in the CMS ([#264](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/264)) ([1b54710](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/1b54710e852e4ae39b0518f9f49fc71c02b0305b))
+
 ## [1.9.1](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.9.0...v1.9.1) (2025-05-13)
 
 
