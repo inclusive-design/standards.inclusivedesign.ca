@@ -135,8 +135,7 @@
     width: 100%;
 }
 
-.project .content a[href^="https://www.canada.ca"] img
-{
+.project .content a[href^="https://www.canada.ca"] img {
     width: 12.5rem;
 }
 

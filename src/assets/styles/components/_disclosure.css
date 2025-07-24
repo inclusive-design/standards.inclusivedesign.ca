@@ -9,8 +9,7 @@ inclusive-disclosure [aria-expanded] {
     appearance: none;
     background-color: inherit;
     border: 0;
-    box-shadow: inset 0 0.125rem 0 0
-        var(--fl-linkFgColor, var(--color-indigo-700));
+    box-shadow: inset 0 0.125rem 0 0 var(--fl-linkFgColor, var(--color-indigo-700));
     color: var(--fl-linkFgColor, var(--color-indigo-700));
     display: flex;
     font-family: var(--family-display);
@@ -68,8 +67,7 @@ inclusive-disclosure [aria-expanded="true"]::after {
 
 inclusive-disclosure:focus-within {
     border-radius: 0.1875rem;
-    box-shadow: inset 0 0 0 0.125rem
-        var(--fl-linkFgColor, var(--color-indigo-700));
+    box-shadow: inset 0 0 0 0.125rem var(--fl-linkFgColor, var(--color-indigo-700));
 }
 
 inclusive-disclosure [content] {
