@@ -49,7 +49,7 @@ body:not([class*="fl-theme"]),
     min-height: 12.1875rem;
 
     img {
-        aspect-ratio: 1/1;
+        aspect-ratio: 1 / 1;
         object-fit: cover;
     }
 }
@@ -95,7 +95,6 @@ body:not([class*="fl-theme"]),
         outline-width: 0.3125rem;
     }
 }
-
 
 @media (width >= 70.875rem) {
     .project-panel {

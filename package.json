@@ -11,7 +11,7 @@
     "debug": "DEBUG=Eleventy* eleventy",
     "dev": "cross-env NODE_ENV=development eleventy --serve",
     "lint": "run-s -l lint:*",
-    "lint:scripts": "biome check .",
+    "lint:scripts-and-styles": "biome check .",
     "lint:markdown": "markdownlint-cli2 \"**/*.md\"",
     "start": "npm-run-all -l clean dev",
     "prepare": "husky",
@@ -46,9 +46,9 @@
     "rosetta": "^1.1.0"
   },
   "devDependencies": {
+    "@biomejs/biome": "^2.1.2",
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
-    "biome-config-fluid": "github:greatislander/biome-config-fluid",
     "cross-env": "^7.0.3",
     "debug": "^4.3.5",
     "husky": "^9.0.11",

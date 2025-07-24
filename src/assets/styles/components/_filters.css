@@ -1,4 +1,3 @@
-
 [class*="--hide"] {
     display: none;
 }
@@ -12,9 +11,9 @@
     }
 
     inclusive-disclosure * ul {
-        padding-inline: 1.25rem;;
+        padding-inline: 1.25rem;
     }
-    
+
     inclusive-disclosure * li {
         padding-block: 0.5rem;
     }
@@ -35,7 +34,7 @@
     inclusive-disclosure > button::after {
         right: 1.25rem;
     }
-    
+
     inclusive-disclosure > button::before {
         background-color: var(--fl-linkFgColor, var(--color-indigo-700));
         block-size: calc(1.125rem * var(--fl-enhance-font-size-factor, 1.5));
@@ -49,7 +48,7 @@
         position: absolute;
     }
 
-    inclusive-disclosure > button:focus::before, 
+    inclusive-disclosure > button:focus::before,
     inclusive-disclosure > button:hover::before {
         background-color: var(--fl-linkBgColor, var(--color-indigo-700));
     }
@@ -98,8 +97,7 @@
     &:active,
     &:active:hover {
         background-color: var(--fl-linkBgColor, var(--color-indigo-200));
-        box-shadow: inset 0 0 0 0.125rem
-            var(--fl-linkFgColor, var(--color-indigo-700));
+        box-shadow: inset 0 0 0 0.125rem var(--fl-linkFgColor, var(--color-indigo-700));
         color: var(--fl-linkFgColor, var(--color-indigo-700));
     }
 }
