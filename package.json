@@ -49,7 +49,7 @@
     "@biomejs/biome": "^2.1.2",
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
-    "cross-env": "^7.0.3",
+    "cross-env": "^10.0.0",
     "debug": "^4.3.5",
     "husky": "^9.0.11",
     "linkedom": "^0.18.6",
