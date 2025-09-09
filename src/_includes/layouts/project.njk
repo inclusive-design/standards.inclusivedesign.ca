@@ -38,7 +38,7 @@
                         {% for subpage in subpages %}
                         <li><a href="{{ subpage.url }}">{{ subpage.title }}</a></li>
                         {% endfor %}
-                        <li><a href="/resources/?projects=e45a05ce-efb3-449f-965d-f671911b6626">{%  __ 'resources' %}</a></li>
+                        <li><a href="/resources/?projects={{ uuid }}">{%  __ 'resources' %}</a></li>
                     </ul>
                 </li>
                 {% endif %}
