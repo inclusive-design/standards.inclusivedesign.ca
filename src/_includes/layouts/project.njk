@@ -2,7 +2,12 @@
 
 {% set pageType = 'project' %}
 {% set breadcrumb = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) | first %}
-{% set hasRelatedResources = collections["resources_" + lang] | selectattr("data.projects", "defined") | selectattr("data.projects", "contains", uuid) %}
+{% set hasRelatedResources = false %}
+{% for resource in collections["resources_" + lang] %}
+    {% if resource.data.projects and uuid in resource.data.projects %}
+        {% set hasRelatedResources = true %}
+    {% endif %}
+{% endfor %}
 
 {% block banner %}
 <div class="banner" style="--project-color: var(--fl-bgColor, var(--color-{{ color }}))">
