@@ -2,6 +2,12 @@
 
 {% set pageType = 'project' %}
 {% set breadcrumb = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) | first %}
+{% set hasRelatedResources = false %}
+{% for resource in collections["resources_" + lang] %}
+    {% if resource.data.projects and uuid in resource.data.projects %}
+        {% set hasRelatedResources = true %}
+    {% endif %}
+{% endfor %}
 
 {% block banner %}
 <div class="banner" style="--project-color: var(--fl-bgColor, var(--color-{{ color }}))">
@@ -31,14 +37,16 @@
                     <ul role="list" class="flow"></ul>
                 </li>
                 {% set subpages = collections.all | eleventyNavigation(eleventyNavigation.key) %}
-                {% if subpages.length %}
+                {% if subpages.length > 0 or hasRelatedResources %}
                 <li class="flow" id="subpages">
                     <h3>{% __ 'related-material' %}</h3>
                     <ul role="list" class="flow">
                         {% for subpage in subpages %}
                         <li><a href="{{ subpage.url }}">{{ subpage.title }}</a></li>
                         {% endfor %}
+                        {% if hasRelatedResources %}
                         <li><a href="/resources/?projects={{ uuid }}">{%  __ 'resources' %}</a></li>
+                        {% endif %}
                     </ul>
                 </li>
                 {% endif %}
