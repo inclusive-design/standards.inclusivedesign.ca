@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.10.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.9.2...v1.10.0) (2025-09-15)
+
+
+### Features
+
+* use singletons for editing contact info and languages ([#269](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/269)) ([6475109](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/6475109e5c8a4767a2a912c04592c9f564485d3a))
+
+
+### Bug Fixes
+
+* add a link to the resources page in ToC of All Standards project ([#280](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/280)) ([e9ab77c](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/e9ab77c423067a57b8ca5a4c2711d54688a88cc7))
+* **deps:** upgrade to Biome v2 ([#268](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/268)) ([2941228](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/2941228e64da3c01f9116798cc98bdb80b1e13fa))
+
 ## [1.9.2](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.9.1...v1.9.2) (2025-07-24)
 
 
