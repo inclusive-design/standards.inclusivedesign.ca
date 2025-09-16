@@ -15,7 +15,7 @@ public_folder: /assets/uploads
 i18n:
   locales: [en, fr]
   default_locale: en
-  save_all_locales: false
+  initial_locales: all
 
 collections:
   - label: Pages
@@ -246,7 +246,7 @@ collections:
       - label: Title
         name: title
         widget: string
-        i18n: duplicate
+        i18n: true
       - label: Draft
         name: draft
         widget: boolean
@@ -299,12 +299,13 @@ collections:
         required: false
         i18n: duplicate
       - label: Language
-        name: language
+        name: contentLanguages
         widget: relation
         collection: _singletons
         file: languages
         default: en
         i18n: duplicate
+        multiple: true
         value_field: languages.*.code
         search_fields: [languages.*.name]
         display_fields: [languages.*.name]

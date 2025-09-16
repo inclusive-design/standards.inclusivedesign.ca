@@ -1,5 +1,5 @@
 ---
-title: Resources
+title: Ressources
 order: 3
 layout: layouts/resources
 ---
