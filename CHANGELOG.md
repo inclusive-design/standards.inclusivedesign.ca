@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.1](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.10.0...v1.10.1) (2025-09-16)
+
+
+### Bug Fixes
+
+* support multiple languages for resources (resolves [#281](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/281)) ([#282](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/282)) ([e649c14](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/e649c14587d6dd1c3be2bd55e86782b9309bdcff))
+
 ## [1.10.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.9.2...v1.10.0) (2025-09-15)
 
 
