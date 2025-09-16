@@ -21,8 +21,10 @@
             {% include "svg/date.svg" %} {{ resource.data.date | formatDate }}
         </div>
         <div class="card__resource-language">
-            {% set language = languages[lang].languages | find('code', resource.data.language) %}
-            {% include "../../../assets/images/language.svg" %} {{ language.name }}
+            {% include "../../../assets/images/language.svg" %}
+                {% for language in resource.data.contentLanguages %}
+                    {% set languageObject = languages[lang].languages | find('code', language) %}
+                    {{ languageObject.name }}{% if not loop.last %}, {% endif %}{% endfor %}
         </div>
         {% if resource.data.topics.length > 0 %}
         <div class="card__tags tags">

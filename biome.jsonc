@@ -1,5 +1,5 @@
 {
-    "$schema": "https://biomejs.dev/schemas/2.1.2/schema.json",
+    "$schema": "https://biomejs.dev/schemas/2.2.4/schema.json",
     "formatter": {
         "enabled": true,
         "formatWithErrors": false,
@@ -9,7 +9,13 @@
         "lineWidth": 320, // Don't enforce line width
         "attributePosition": "auto"
     },
-    "assist": { "actions": { "source": { "organizeImports": "on" } } },
+    "assist": {
+        "actions": {
+            "source": {
+                "organizeImports": "on"
+            }
+        }
+    },
     "linter": {
         "enabled": true,
         "rules": {
@@ -22,7 +28,9 @@
                 "noUnusedVariables": "error",
                 "useValidTypeof": "error"
             },
-            "security": { "noGlobalEval": "error" },
+            "security": {
+                "noGlobalEval": "error"
+            },
             "style": {
                 "useBlockStatements": "error"
             },

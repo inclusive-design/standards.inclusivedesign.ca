@@ -31,9 +31,10 @@
                 </p>
                 {% endif %}
                 <p>
-                {% set languageObject = languages[lang].languages | find('code', language) %}
-
-                {% include "../../assets/images/language.svg" %} {{ languageObject.name }}
+                {% include "../../assets/images/language.svg" %}
+                {% for language in contentLanguages %}
+                    {% set languageObject = languages[lang].languages | find('code', language) %}
+                    {{ languageObject.name }}{% if not loop.last %}, {% endif %}{% endfor %}
                 </p>
                 <p>
                 {% include "svg/date.svg" %} {{ date | formatDate }}
