@@ -98,3 +98,11 @@ Funded by [Accessibility Standards Canada](https://accessible.canada.ca) / the G
 [![Accessibility Standards Canada](/assets/uploads/asc.png)](https://accessible.canada.ca/)
 
 [![Canada](/assets/uploads/canada.svg)](https://www.canada.ca/en.html)
+
+## Related material
+
+[Accessibility & Inclusion Barriers in Standards Development Processes](https://standards.inclusivedesign.ca/resources/barriers-in-standards-process/)
+
+[Jurisdictional Scan](https://standards.inclusivedesign.ca/resources/jurisdictional-scan/)
+
+[Related resources](https://standards.inclusivedesign.ca/resources/?projects=e45a05ce-efb3-449f-965d-f671911b6626)

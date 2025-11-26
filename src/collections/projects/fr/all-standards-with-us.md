@@ -109,3 +109,11 @@ Financé par [Normes d'accessibilité Canada](https://accessibilite.canada.ca) /
 [![Normes d'accessibilité Canada](/assets/uploads/asc.png)](https://accessibilite.canada.ca/)
 
 [![Canada](/assets/uploads/canada.svg)](https://www.canada.ca/fr.html)
+
+## Matériel connexe
+
+[Obstacles à l'accessibilité et à l'inclusion dans les processus d'élaboration des normes](https://standards.inclusivedesign.ca/fr/ressources/obstacles-dans-les-processus-des-normes/)
+
+[Analyse comparative des juridictions](https://standards.inclusivedesign.ca/fr/ressources/analyse-comparative-des-juridictions/)
+
+[Ressources connexe](https://standards.inclusivedesign.ca/fr/ressources/?projects=e45a05ce-efb3-449f-965d-f671911b6626)
