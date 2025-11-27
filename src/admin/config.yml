@@ -298,17 +298,30 @@ collections:
         widget: string
         required: false
         i18n: duplicate
-      - label: Language
+      - label: Language # Temporary resolution for https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/295
         name: contentLanguages
-        widget: relation
-        collection: _singletons
-        file: languages
+        widget: select
         default: en
         i18n: duplicate
         multiple: true
-        value_field: languages.*.code
-        search_fields: [languages.*.name]
-        display_fields: [languages.*.name]
+        options:
+          - label: English
+            value: en
+          - label: French
+            value: fr
+          - label: Swedish
+            value: se
+      # - label: Language
+      #   name: contentLanguages
+      #   widget: relation
+      #   collection: _singletons
+      #   file: languages
+      #   default: en
+      #   i18n: duplicate
+      #   multiple: true
+      #   value_field: languages.*.code
+      #   search_fields: [languages.*.name]
+      #   display_fields: [languages.*.name]
       - label: Type
         name: type
         widget: select
