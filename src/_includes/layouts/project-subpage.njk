@@ -20,10 +20,9 @@
 
 {% block content %}
 <nav aria-labelledby="project-menu" class="flow">
-    <h2 id="project-menu">{% __ 'page-menu' %}</h2>
     <inclusive-disclosure>
         <button aria-controls="{{ title | slugify }}-menu">
-            <h2 id="project-menu-mobile">{% __ 'page-menu' %}</h2>
+            <h2 id="project-menu">{% __ 'page-menu' %}</h2>
         </button>
         <div content id="{{ title | slugify }}-menu">
             <ul role="list" class="flow">
