@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.10.2](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.10.1...v1.10.2) (2025-11-28)
+
+
+### Bug Fixes
+
+* apply accessible name to main menu ([#302](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/302)) ([1e150ff](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/1e150ff30e59c3e689f44569e6bf0f0bfd2430ab))
+* bypass CMS issue until it's resolved upstream ([#296](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/296)) ([5cd5314](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/5cd531416266816ca14c80c1b6af4ccfed9478b9))
+* remove CMS workaround ([#300](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/300)) ([76a7ba1](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/76a7ba1223ad2eeae9065f0cb01be4757c7ecb2a))
+* remove the project menu heading in desktop view (resolves [#297](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/297)) ([#301](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/301)) ([8d18764](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/8d18764da28a3ae8d3f37b12205339a3cf424e35))
+
 ## [1.10.1](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.10.0...v1.10.1) (2025-09-16)
 
 
