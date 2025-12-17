@@ -1,7 +1,39 @@
 # Changelog
 
-## [1.10.1](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.10.0...v1.10.1) (2025-09-16)
+## [2025.12.17.2037.557d87f](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.10.1...2025.12.17.2037.557d87f)
 
+* chore(deps): update dependency [@biomejs](https://github.com/biomejs)/biome to v2.3.10 (#313) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): lock file maintenance (#312) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): update dependency markdownlint-cli2 to ^0.20.0 (#310) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): update dependency [@biomejs](https://github.com/biomejs)/biome to v2.3.10 (#311) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): update commitlint monorepo to v20.2.0 (#309) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): lock file maintenance (#307) @[renovate[bot]](https://github.com/apps/renovate)
+* chore: point Biome schema to installed version (#304) [@nedatidrc](https://github.com/nedatidrc)
+* chore(deps): update dependency markdownlint-cli2 to ^0.19.0 (#292) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): update actions/checkout action to v6 (#303) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): update node.js to v24 (#290) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): update actions/setup-node action to v6 (#289) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): update commitlint monorepo to v20 (major) (#286) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): lock file maintenance (#285) @[renovate[bot]](https://github.com/apps/renovate)
+* fix: remove the project menu heading in desktop view (resolves #297) (#301) [@chosww](https://github.com/chosww)
+
+### Features
+
+* fix: update side menu bar in Project pages to show featured Resources (#315) [@chosww](https://github.com/chosww)
+* feat: add UUIDs to resources, add featured resources to be projects CMS (#314) [@nedatidrc](https://github.com/nedatidrc)
+
+### Bug Fixes
+
+* fix: update side menu bar in Project pages to show featured Resources (#315) [@chosww](https://github.com/chosww)
+* fix: apply accessible name to main menu (#302) [@nedatidrc](https://github.com/nedatidrc)
+* fix: remove CMS workaround (#300) [@nedatidrc](https://github.com/nedatidrc)
+* fix: bypass CMS issue until it's resolved upstream (#296) [@nedatidrc](https://github.com/nedatidrc)
+
+### Chores
+
+* chore: update release process (#305) [@nedatidrc](https://github.com/nedatidrc)
+
+## [1.10.1](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.10.0...v1.10.1) (2025-09-16)
 
 ### Bug Fixes
 
@@ -9,11 +41,9 @@
 
 ## [1.10.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.9.2...v1.10.0) (2025-09-15)
 
-
 ### Features
 
 * use singletons for editing contact info and languages ([#269](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/269)) ([6475109](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/6475109e5c8a4767a2a912c04592c9f564485d3a))
-
 
 ### Bug Fixes
 
@@ -22,7 +52,6 @@
 
 ## [1.9.2](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.9.1...v1.9.2) (2025-07-24)
 
-
 ### Bug Fixes
 
 * **deps:** update dependency @11ty/eleventy to v3.1.2 ([#262](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/262)) ([0356865](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/0356865261e78ee68733fd13388418b1cd4f517c))
@@ -30,13 +59,11 @@
 
 ## [1.9.1](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.9.0...v1.9.1) (2025-05-13)
 
-
 ### Bug Fixes
 
 * **deps:** update dependency @11ty/eleventy to v3.1.0 ([#255](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/255)) ([77ce27d](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/77ce27d1f4f79ea7e3d1659152e160fa430398d3))
 
 ## [1.9.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.8.0...v1.9.0) (2025-05-12)
-
 
 ### Features
 
@@ -44,19 +71,16 @@
 
 ## [1.8.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.7.0...v1.8.0) (2025-05-09)
 
-
 ### Features
 
 * add draft support ([#248](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/248)) ([2653cf8](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/2653cf8eb17e44667d73098eec98c319733a5301))
 
 ## [1.7.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.6.0...v1.7.0) (2025-05-06)
 
-
 ### Features
 
 * add icons (resolves [#232](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/232)) ([#235](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/235)) ([e9f335d](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/e9f335d2ef4d0247e3fbcadca578ce0203d9dec4))
 * add more resource types ([#243](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/243)) ([a801b8e](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/a801b8e090b60a68cf3b82cf391ee545657a4bd1))
-
 
 ### Bug Fixes
 
@@ -65,7 +89,6 @@
 
 ## [1.6.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.5.2...v1.6.0) (2025-04-30)
 
-
 ### Features
 
 * add resource language options to metadata ([#229](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/229)) ([21ce5fb](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/21ce5fbc406a25097418f91b09c6756e277470fb))
@@ -73,13 +96,11 @@
 
 ## [1.5.2](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.5.1...v1.5.2) (2025-04-29)
 
-
 ### Bug Fixes
 
 * resolve issue with filter markup (resolves [#224](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/224)) ([#225](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/225)) ([3c463c4](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/3c463c4794b2c76ad016c7f39d783d7edceb2fed))
 
 ## [1.5.1](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.5.0...v1.5.1) (2025-04-25)
-
 
 ### Bug Fixes
 
@@ -87,14 +108,12 @@
 
 ## [1.5.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.4.0...v1.5.0) (2025-04-25)
 
-
 ### Features
 
 * add license ([#206](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/206)) ([78a1cb9](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/78a1cb99df01c3570cbe04f9b0d5976e824fd19e))
 * resources page ([#179](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/179)) ([16b5ed9](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/16b5ed9d2d447944d62e4f5cad73f737a6121535))
 * support local resources, simplify page markup ([#202](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/202)) ([f72657a](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/f72657a26945642d82f6fd909a50c1f223197c43))
 * update project banner layout (resolves [#210](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/210)) ([#215](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/215)) ([025c58f](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/025c58f755c2c1e71e050e81feaf20ddbbfb2542))
-
 
 ### Bug Fixes
 
@@ -111,13 +130,11 @@
 
 ## [1.4.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.3.1...v1.4.0) (2025-03-25)
 
-
 ### Features
 
 * enforce URL-safe slugs ([#189](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/189)) ([02a165f](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/02a165fe5c15fab669f76f7f258dcee56f567662))
 
 ## [1.3.1](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.3.0...v1.3.1) (2025-03-24)
-
 
 ### Bug Fixes
 
@@ -125,13 +142,11 @@
 
 ## [1.3.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.2.0...v1.3.0) (2025-03-20)
 
-
 ### Features
 
 * add project subpages (resolves [#183](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/183)) ([#184](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/184)) ([b141843](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/b1418436679e87db89731f814ca528d1fa57d5eb))
 * localize disclosure shortcode (resolves [#173](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/173)) ([#174](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/174)) ([2042b69](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/2042b69079250e9f4d80bf94094d538c8bf5d747))
 * remove announcements functionality ([#182](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/182)) ([a2619ec](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/a2619ec78a013adaf74e7156be0b3ebb75ec4864))
-
 
 ### Bug Fixes
 
@@ -139,13 +154,11 @@
 
 ## [1.2.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.1.0...v1.2.0) (2025-02-26)
 
-
 ### Features
 
 * add checkbox ([#140](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/140)) ([3d26b90](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/3d26b90576117a75653fa1596645e343f25b3136))
 * add custom select style ([#166](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/166)) ([56d3052](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/56d3052b2ca0d11e184d7f20bdc959f6c0fc63cb))
 * add pagination component ([#154](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/154)) ([ef11201](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/ef112016db08ab1d4d381f755e130dcf88cd5b4f))
-
 
 ### Bug Fixes
 
@@ -155,7 +168,6 @@
 * update address in the footer ([#171](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/171)) ([b901cc1](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/b901cc1b2a6d68ec7719f96652532d7096e2d41b))
 
 ## [1.1.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.0.1...v1.1.0) (2025-02-12)
-
 
 ### Features
 
@@ -169,7 +181,6 @@
 * replace macros with includes (resolves [#146](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/146)) ([#147](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/147)) ([f00155d](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/f00155df6888a9ced06b7de551b7d5859e3f2ecc))
 * use custom element for disclosure component ([#141](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/141)) ([c877adb](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/c877adb65f7a937532b98cd8ed23927108286c0f))
 
-
 ### Bug Fixes
 
 * allow content to be saved without a translation ([#131](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/131)) ([07650c9](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/07650c9e3357bd1738291a92ec8c6e4785e9f1ef))
@@ -182,14 +193,12 @@
 
 ## [1.0.1](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.0.0...v1.0.1) (2025-01-20)
 
-
 ### Bug Fixes
 
 * projects page banner colour issue ([94de11e](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/94de11e88b10d98d0e3eabe8eed764c8f4231727))
 * remove inline padding from banner image ([#100](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/100)) ([94de11e](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/94de11e88b10d98d0e3eabe8eed764c8f4231727))
 
 ## [1.0.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v0.0.1...v1.0.0) (2025-01-20)
-
 
 ### Features
 
@@ -206,7 +215,6 @@
 * structural cleanup, link and navigation styles, project page ([#72](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/72)) ([628a9aa](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/628a9aa66f3801042d1ca40d7fec4ef0d3add361))
 * update projects page ([#51](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/51)) ([27ba5fb](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/27ba5fbe49673fc360dbc102ecf67735c1ba6cb1))
 * use vertical spacing rule for footer ([#48](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/48)) ([3640b94](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/3640b942d2c6f9655c4560d6638a32ab610be26e))
-
 
 ### Bug Fixes
 
@@ -228,7 +236,6 @@
 * set default layout for projects in cms ([#75](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/75)) ([075fbb2](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/075fbb23f400baa6af5a3940b6ace6eb98a9ddd9))
 * style issues brought up during 15th meeting ([#68](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/68)) ([cf1f089](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/cf1f08992be2cde550a70ae4b0eacf68bc64e679))
 * use production release of Eleventy for clarity ([#32](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/32)) ([cd9c5b0](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/cd9c5b072fb998d894fe32d106b0b88ac6a5a5a8))
-
 
 ### Miscellaneous Chores
 
