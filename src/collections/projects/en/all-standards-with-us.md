@@ -7,6 +7,8 @@ excerpt: This project makes the process of creating standards more accessible to
 previewImage: /assets/uploads/DEEP%20conference%202016-1.jpg
 previewImageAlt: Six individuals wearing at a conference table. Having a discussion and looking aty the speaker on the far right
 color: yellow
+featuredResources:
+  - 02aec308-aa9e-461d-be05-98b9b5bc6a79
 ---
 ## About this project
 
@@ -47,13 +49,13 @@ Our project goals are to:
 
 ## Co-researchers and Partners
 
-**Sal Amenta -** Past Chair, [Accessible Housing Network](https://www.accessiblehousingnetwork.org/) 
+**Sal Amenta -** Past Chair, [Accessible Housing Network](https://www.accessiblehousingnetwork.org/)
 
 **Tara Connolly -** Assistant Director for Research and Development, [Accessibility Institute](https://carleton.ca/accessibility-institute/)
 
 **Isai Estey -** Community member, [L’Arche Canada](https://larche.ca/)
 
-**Francis Fung -** National Manager Rehabilitation and Clinical Services, [March of Dimes Canada](https://www.marchofdimes.ca/en-ca) 
+**Francis Fung -** National Manager Rehabilitation and Clinical Services, [March of Dimes Canada](https://www.marchofdimes.ca/en-ca)
 
  **Uttara Ghodke -** Inclusive Designer, [Inclusive Design Research Centre](https://idrc.ocadu.ca/)
 
@@ -83,7 +85,7 @@ Our project goals are to:
 
 **Audreanne Soenens -** Community member, [L’Arche Canada](https://larche.ca/)
 
-**Lori Vaanholt -** National Vice-Executive Director - Innovation & Impact, [L’Arche Canada](https://larche.ca/) 
+**Lori Vaanholt -** National Vice-Executive Director - Innovation & Impact, [L’Arche Canada](https://larche.ca/)
 
 **Heather Walkus -** Chairperson, [Council of Canadians with Disabilities](http://www.ccdonline.ca/en/)
 
