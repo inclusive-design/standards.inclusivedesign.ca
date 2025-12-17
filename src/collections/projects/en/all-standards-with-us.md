@@ -7,6 +7,9 @@ excerpt: This project makes the process of creating standards more accessible to
 previewImage: /assets/uploads/DEEP%20conference%202016-1.jpg
 previewImageAlt: Six individuals wearing at a conference table. Having a discussion and looking aty the speaker on the far right
 color: yellow
+featuredResources:
+  - 2de20ad5-5048-4d97-87e1-0f8458728f09
+  - 02aec308-aa9e-461d-be05-98b9b5bc6a79
 ---
 ## About this project
 
