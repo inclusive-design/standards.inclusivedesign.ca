@@ -39,6 +39,10 @@
                         {% for subpage in subpages %}
                         <li><a href="{{ subpage.url }}">{{ subpage.title }}</a></li>
                         {% endfor %}
+                        {% for featuredResourceId in featuredResources %}
+                            {% set featuredResource = collections["resources_" + lang] | find("data.uuid", featuredResourceId) %}
+                            <li><a href="/resources/{{ featuredResource.data.linking.slug }}">{{ featuredResource.data.title }}</a></li>
+                        {% endfor %}
                         {% if hasRelatedResources %}
                         <li><a href="/resources/?projects={{ uuid }}">{%  __ 'resources' %}</a></li>
                         {% endif %}
