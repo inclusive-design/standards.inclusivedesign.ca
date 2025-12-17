@@ -7,6 +7,9 @@ excerpt: Ce projet rend l'élaboration de normes accessible aux personnes handic
 previewImage: /assets/uploads/DEEP%20conference%202016-1.jpg
 previewImageAlt: ''
 color: yellow
+featuredResources:
+  - 2de20ad5-5048-4d97-87e1-0f8458728f09
+  - 02aec308-aa9e-461d-be05-98b9b5bc6a79
 ---
 ## À propos de ce projet
 
