@@ -169,7 +169,7 @@ collections:
         value_field: uuid
         search_fields: [title]
         display_fields: [title]
-        required: true
+        required: false
         multiple: true
         i18n: duplicate
       - label: Body
