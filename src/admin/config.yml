@@ -162,6 +162,16 @@ collections:
             value: blue
         i18n: duplicate
         required: true
+      - label: Featured Resources
+        name: featuredResources
+        widget: relation
+        collection: resources
+        value_field: uuid
+        search_fields: [title]
+        display_fields: [title]
+        required: false
+        multiple: true
+        i18n: duplicate
       - label: Body
         name: body
         widget: markdown
@@ -239,7 +249,7 @@ collections:
     i18n:
       structure: multiple_folders
     folder: src/collections/resources/
-    slug: '{{uuid_short}}'
+    slug: '{{fields.uuid}}'
     extension: md
     create: true
     fields:
@@ -247,6 +257,10 @@ collections:
         name: title
         widget: string
         i18n: true
+      - label: UUID
+        name: uuid
+        widget: uuid
+        i18n: duplicate
       - label: Draft
         name: draft
         widget: boolean

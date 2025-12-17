@@ -47,13 +47,13 @@ Our project goals are to:
 
 ## Co-researchers and Partners
 
-**Sal Amenta -** Past Chair, [Accessible Housing Network](https://www.accessiblehousingnetwork.org/) 
+**Sal Amenta -** Past Chair, [Accessible Housing Network](https://www.accessiblehousingnetwork.org/)
 
 **Tara Connolly -** Assistant Director for Research and Development, [Accessibility Institute](https://carleton.ca/accessibility-institute/)
 
 **Isai Estey -** Community member, [L’Arche Canada](https://larche.ca/)
 
-**Francis Fung -** National Manager Rehabilitation and Clinical Services, [March of Dimes Canada](https://www.marchofdimes.ca/en-ca) 
+**Francis Fung -** National Manager Rehabilitation and Clinical Services, [March of Dimes Canada](https://www.marchofdimes.ca/en-ca)
 
  **Uttara Ghodke -** Inclusive Designer, [Inclusive Design Research Centre](https://idrc.ocadu.ca/)
 
@@ -83,7 +83,7 @@ Our project goals are to:
 
 **Audreanne Soenens -** Community member, [L’Arche Canada](https://larche.ca/)
 
-**Lori Vaanholt -** National Vice-Executive Director - Innovation & Impact, [L’Arche Canada](https://larche.ca/) 
+**Lori Vaanholt -** National Vice-Executive Director - Innovation & Impact, [L’Arche Canada](https://larche.ca/)
 
 **Heather Walkus -** Chairperson, [Council of Canadians with Disabilities](http://www.ccdonline.ca/en/)
 
