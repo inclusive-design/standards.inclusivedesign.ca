@@ -44,7 +44,7 @@
                             {% if featuredResource.data.linking.type == 'page' %}
                             <li><a href="/{{ lang + '/' if lang != 'en' }}{% __ 'resources-slug' %}/{{ featuredResource.data.linking.slug }}">{{ featuredResource.data.title }}</a></li>
                             {% else %}
-                            <li><a href="{{ featuredResource.data.linking.link }}">{{ featuredResource.data.title }}</a></li>
+                            <li><a rel="external" href="{{ featuredResource.data.linking.link }}">{{ featuredResource.data.title }}</a></li>
                             {% endif %}
                         {% endfor %}
                         {% if hasRelatedResources %}
