@@ -32,7 +32,7 @@
                     <ul role="list" class="flow"></ul>
                 </li>
                 {% set subpages = collections.all | eleventyNavigation(eleventyNavigation.key) %}
-                {% if subpages.length > 0 or hasRelatedResources %}
+                {% if subpages.length > 0 or hasRelatedResources or featuredResources.length > 0 %}
                 <li class="flow" id="subpages">
                     <h3>{% __ 'related-material' %}</h3>
                     <ul role="list" class="flow">
@@ -41,7 +41,11 @@
                         {% endfor %}
                         {% for featuredResourceId in featuredResources %}
                             {% set featuredResource = collections["resources_" + lang] | find("data.uuid", featuredResourceId) %}
-                            <li><a href="/resources/{{ featuredResource.data.linking.slug }}">{{ featuredResource.data.title }}</a></li>
+                            {% if featuredResource.data.linking.type == 'page' %}
+                            <li><a href="/{{ lang + '/' if lang != 'en' }}{% __ 'resources-slug' %}/{{ featuredResource.data.linking.slug }}">{{ featuredResource.data.title }}</a></li>
+                            {% else %}
+                            <li><a rel="external" href="{{ featuredResource.data.linking.link }}">{{ featuredResource.data.title }}</a></li>
+                            {% endif %}
                         {% endfor %}
                         {% if hasRelatedResources %}
                         <li><a href="/resources/?projects={{ uuid }}">{%  __ 'resources' %}</a></li>
