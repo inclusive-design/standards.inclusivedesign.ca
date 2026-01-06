@@ -1,5 +1,15 @@
 # Changelog
 
+## [2026.01.06.1511.b77c4b8](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2025.12.17.2037.557d87f...2026.01.06.1511.b77c4b8)
+
+* chore(deps): update dependency [@biomejs](https://github.com/biomejs)/biome to v2.3.11 (#318) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): update commitlint monorepo to v20.3.0 (#317) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): lock file maintenance (#316) @[renovate[bot]](https://github.com/apps/renovate)
+
+### Bug Fixes
+
+* fix: localize specific resource pages (#319) [@chosww](https://github.com/chosww)
+
 ## [2025.12.17.2037.557d87f](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v1.10.1...2025.12.17.2037.557d87f)
 
 * chore(deps): update dependency [@biomejs](https://github.com/biomejs)/biome to v2.3.10 (#313) @[renovate[bot]](https://github.com/apps/renovate)
