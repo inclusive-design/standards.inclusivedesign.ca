@@ -10,9 +10,9 @@ color: green
 ---
 Discover IDRC's contributions to advancing inclusive standards through draft standards, technical specifications, committees and frameworks. Explore how our initiatives support global committees in shaping standards for accessible and equitable practices.
 
-# CAN-ASC-6.2:2025- Accessible and Equitable Artificial Intelligence Systems
+## CAN-ASC-6.2:2025- Accessible and Equitable Artificial Intelligence Systems
 
-IDRC prepared the development of the draft standard for CAN-ASC-6.2:2025- Accessible and Equitable Artificial Intelligence Systems and Jutta Treviranus, IDRC Director, chaired the technical committee the prepared the final standard.[ CAN-ASC-6.2:2025- Accessible and Equitable Artificial Intelligence Systems ](https://accessible.canada.ca/creating-accessibility-standards/asc-62-accessible-equitable-artificial-intelligence-systems)was published in December 2025 and is available on the Accessibility Standards Canada web site. 
+IDRC prepared the development of the draft standard for CAN-ASC-6.2:2025- Accessible and Equitable Artificial Intelligence Systems and Jutta Treviranus, IDRC Director, chaired the technical committee the prepared the final standard.[ CAN-ASC-6.2:2025- Accessible and Equitable Artificial Intelligence Systems ](https://accessible.canada.ca/creating-accessibility-standards/asc-62-accessible-equitable-artificial-intelligence-systems)was published in December 2025 and is available on the Accessibility Standards Canada web site.
 
 ## Trust Meter
 
