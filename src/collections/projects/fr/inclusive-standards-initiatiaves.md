@@ -12,7 +12,7 @@ Découvrez les contributions du IDRC à l’avancement des normes inclusives par
 
 ## CAN-ASC-6.2:2025- Systèmes d’intelligence artificielle accessibles et équitables
 
-Nouvelle norme nationale canadienne pour une IA accessible et équitable
+**Nouvelle norme nationale canadienne pour une IA accessible et équitable**
 
 Inclusive Design Research Centre (IDRC) a joué un rôle central dans le développement du leadership canadien en matière d’IA responsable. La IDRC a élaboré la nouvelle norme nationale **CAN-ASC-6.2:2025, Systèmes d’intelligence artificielle accessibles et équitables**. Sa directrice, **Jutta Treviranus**, a présidé le comité technique qui a finalisé la version finale.
 
