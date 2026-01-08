@@ -12,7 +12,11 @@ Discover IDRC's contributions to advancing inclusive standards through draft sta
 
 ## CAN-ASC-6.2:2025- Accessible and Equitable Artificial Intelligence Systems
 
-IDRC prepared the draft standard for CAN-ASC-6.2:2025- Accessible and Equitable Artificial Intelligence Systems and Jutta Treviranus, IDRC Director, chaired the technical committee that developed the final standard.[ CAN-ASC-6.2:2025- Accessible and Equitable Artificial Intelligence Systems ](https://accessible.canada.ca/creating-accessibility-standards/asc-62-accessible-equitable-artificial-intelligence-systems)was published in December 2025 and is available on the Accessibility Standards Canada web site.
+**Canada’s new national standard for accessible and equitable AI**
+
+The Inclusive Design Research Centre has played a central role in shaping Canada’s leadership in responsible AI. IDRC drafted the new national standard **CAN‑ASC‑6.2:2025 Accessible and Equitable Artificial Intelligence Systems**, with Director **Jutta Treviranus** chairing the technical committee that developed the final version.
+
+Published in **December 2025**, this standard establishes Canada’s first comprehensive requirements for AI systems that are inclusive, transparent, and equitable — especially for people who are most often marginalized by data-driven technologies. It is now publicly available through [**Accessibility Standards Canada**](), offering guidance for governments, developers, and organizations committed to building AI that serves _all_ Canadians.
 
 ## Trust Meter
 
