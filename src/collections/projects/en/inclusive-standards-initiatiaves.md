@@ -10,6 +10,10 @@ color: green
 ---
 Discover IDRC's contributions to advancing inclusive standards through draft standards, technical specifications, committees and frameworks. Explore how our initiatives support global committees in shaping standards for accessible and equitable practices.
 
+# CAN-ASC-6.2:2025- Accessible and Equitable Artificial Intelligence Systems
+
+IDRC prepared the development of the draft standard for CAN-ASC-6.2:2025- Accessible and Equitable Artificial Intelligence Systems and Jutta Treviranus, IDRC Director, chaired the technical committee the prepared the final standard.[ CAN-ASC-6.2:2025- Accessible and Equitable Artificial Intelligence Systems ](https://accessible.canada.ca/creating-accessibility-standards/asc-62-accessible-equitable-artificial-intelligence-systems)was published in December 2025 and is available on the Accessibility Standards Canada web site. 
+
 ## Trust Meter
 
 IDRC is working with stakeholders to develop a new Technical Specification for Standards Council of Canada (SCC) called Trust Meter.
@@ -20,11 +24,11 @@ The Trust Meter project is being advanced under SCC’s AI and Data Governance (
 
 ## Equitable Communications Draft Standard
 
-We're worked with [Canadian Association of the Deaf](https://cad-asc.ca/) and the [Canadian Communication Access Alliance](https://www.cdacanada.com/) to prepare a draft standard for Equitable Communication that may be used by an Accessibility Standards Canada technical committee to develop a full standard for public review. Contact Vera Roberts ([vroberts@ocadu.ca](mailto:vroberts@ocadu.ca)) to learn more about this work. 
+We're worked with [Canadian Association of the Deaf](https://cad-asc.ca/) and the [Canadian Communication Access Alliance](https://www.cdacanada.com/) to prepare a draft standard for Equitable Communication that may be used by an Accessibility Standards Canada technical committee to develop a full standard for public review. Contact Vera Roberts ([vroberts@ocadu.ca](mailto:vroberts@ocadu.ca)) to learn more about this work.
 
 ## Emergency Measures Draft Standard
 
-We prepared a draft standard for Emergency Measures that may be used by an Accessibility Standards Canada technical committee to develop a full standard for public review. Contact Jess Mitchell ([jmitchell@ocadu.ca](mailto:jmitchell@ocadu.ca)) to learn more about this work. 
+We prepared a draft standard for Emergency Measures that may be used by an Accessibility Standards Canada technical committee to develop a full standard for public review. Contact Jess Mitchell ([jmitchell@ocadu.ca](mailto:jmitchell@ocadu.ca)) to learn more about this work.
 
 ## Autism Framework for Standards Development
 

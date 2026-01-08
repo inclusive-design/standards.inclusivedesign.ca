@@ -10,6 +10,10 @@ color: green
 ---
 Découvrez les contributions du IDRC à l’avancement des normes inclusives par le biais de projets de normes, de spécifications techniques, de comités et de cadres. Découvrez comment nos initiatives aident les comités mondiaux à élaborer des normes pour des pratiques accessibles et équitables.
 
+# CAN-ASC-6.2:2025- Systèmes d’intelligence artificielle accessibles et équitables
+
+La IDRC a préparé l’élaboration de l’ébauche de la norme CAN-ASC-6.2:2025 – Systèmes d’intelligence artificielle accessibles et équitables, et Jutta Treviranus, directrice du IDRC, a présidé le comité technique qui a préparé la version finale. La norme [CAN-ASC-6.2:2025 – Systèmes d’intelligence artificielle accessibles et équitables](https://accessibilite.canada.ca/elaboration-normes-accessibilite/asc-62-systemes-intelligence-artificielle-accessibles-equitables) – a été publiée en décembre 2025 et est disponible sur le site Web de Normes d’accessibilité Canada.
+
 ## Indicateur de confiance
 
 Le IDRC élabore actuellement une nouvelle spécification technique pour le Conseil canadien des normes (CCN) appelée Indicateur de confiance.
@@ -20,11 +24,11 @@ Le projet Indicateur de confiance est développé dans le cadre du programme du 
 
 ## Projet de norme sur les communications équitables
 
-Nous avons travaillé avec avec [l’Association des Sourds du Canad](https://cad-asc.ca/fr/)a et [l’Alliance canadienne pour l’accès aux communications](https://www.cdacanada.com/fr/) afin de préparer un projet de norme pour la communication équitable qui pourrait être utilisé par un comité technique de Normes d’accessibilité Canada pour élaborer une norme complète aux fins d’examen public. Contactez Vera Roberts ([vroberts@ocadu.ca](mailto:vroberts@ocadu.ca)) pour en savoir plus sur ce travail. 
+Nous avons travaillé avec avec [l’Association des Sourds du Canad](https://cad-asc.ca/fr/)a et [l’Alliance canadienne pour l’accès aux communications](https://www.cdacanada.com/fr/) afin de préparer un projet de norme pour la communication équitable qui pourrait être utilisé par un comité technique de Normes d’accessibilité Canada pour élaborer une norme complète aux fins d’examen public. Contactez Vera Roberts ([vroberts@ocadu.ca](mailto:vroberts@ocadu.ca)) pour en savoir plus sur ce travail.
 
 ## Projet de norme sur les mesures d'urgence
 
-Nous avons préparé un projet de norme sur les mesures d’urgence qui pourrait être utilisé par un comité technique de Normes d’accessibilité Canada pour élaborer une norme complète aux fins d’examen public. Contactez Jess Mitchell ([jmitchell@ocadu.ca](mailto:jmitchell@ocadu.ca)) pour en savoir plus sur ce travail. 
+Nous avons préparé un projet de norme sur les mesures d’urgence qui pourrait être utilisé par un comité technique de Normes d’accessibilité Canada pour élaborer une norme complète aux fins d’examen public. Contactez Jess Mitchell ([jmitchell@ocadu.ca](mailto:jmitchell@ocadu.ca)) pour en savoir plus sur ce travail.
 
 ## Cadre de référence pour l'élaboration des normes relatives à l'autisme
 
