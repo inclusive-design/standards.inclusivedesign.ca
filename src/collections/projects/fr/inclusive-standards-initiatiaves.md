@@ -12,7 +12,7 @@ Découvrez les contributions du IDRC à l’avancement des normes inclusives par
 
 ## CAN-ASC-6.2:2025- Systèmes d’intelligence artificielle accessibles et équitables
 
-La IDRC a préparé l’élaboration de l’ébauche de la norme CAN-ASC-6.2:2025 – Systèmes d’intelligence artificielle accessibles et équitables, et Jutta Treviranus, directrice du IDRC, a présidé le comité technique qui a préparé la version finale. La norme [CAN-ASC-6.2:2025 – Systèmes d’intelligence artificielle accessibles et équitables](https://accessibilite.canada.ca/elaboration-normes-accessibilite/asc-62-systemes-intelligence-artificielle-accessibles-equitables) – a été publiée en décembre 2025 et est disponible sur le site Web de Normes d’accessibilité Canada.
+La IDRC a préparé l’ébauche de la norme CAN-ASC-6.2:2025 – Systèmes d’intelligence artificielle accessibles et équitables, et Jutta Treviranus, directrice du CRDI, a présidé le comité technique qui a élaboré la norme finale. La norme [CAN-ASC-6.2:2025 – Systèmes d’intelligence artificielle accessibles et équitables](https://accessibilite.canada.ca/elaboration-normes-accessibilite/asc-62-systemes-intelligence-artificielle-accessibles-equitables) – a été publiée en décembre 2025 et est disponible sur le site Web de Normes d’accessibilité Canada.
 
 ## Indicateur de confiance
 
