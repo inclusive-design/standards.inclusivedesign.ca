@@ -1,15 +1,15 @@
 .project .banner {
-    display: flex;
-    flex-direction: column;
-    gap: 1.875rem;
-    min-height: 16.25rem;
     background-color: var(--fl-bgColor, transparent);
     border-block: 0;
     box-shadow: 0 -1.875rem 0 0 var(--fl-fgColor, var(--banner-color));
     color: inherit;
-    max-width: 90rem;
-    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
     margin-block-start: 1.875rem;
+    margin-inline: auto;
+    max-width: 90rem;
+    min-height: 16.25rem;
 }
 
 [class^="fl-theme"]:not(.fl-theme-prefsEditor-default) .project .banner {
@@ -32,7 +32,7 @@
 }
 
 .project .banner a svg {
-    stroke: currentColor;
+    stroke: currentcolor;
 }
 
 .project .banner .flow {
@@ -49,8 +49,8 @@
 }
 
 .project .banner img {
-    object-fit: cover;
     height: 100%;
+    object-fit: cover;
     width: 100%;
 }
 
@@ -79,7 +79,7 @@
     box-shadow: none;
 }
 
-.project nav inclusive-disclosure [aria-expanded]:after {
+.project nav inclusive-disclosure [aria-expanded]::after {
     right: var(--common-inline-padding);
 }
 
@@ -104,7 +104,6 @@
     }
 
     .project nav inclusive-disclosure [aria-expanded] {
-        clip: rect(0 0 0 0);
         clip-path: inset(50%);
         height: 1px;
         overflow: hidden;
@@ -154,14 +153,14 @@
     .project .banner {
         display: grid;
         gap: var(--common-inline-padding);
-        grid-template-columns: 35% 1fr;
         grid-auto-flow: column;
+        grid-template-columns: 35% 1fr;
+        height: fit-content;
         margin-block-start: 0;
         margin-inline: auto;
-        height: fit-content;
         max-width: 90rem;
-        padding-inline: 0;
         padding-block: 0;
+        padding-inline: 0;
         width: 100%;
     }
 
@@ -198,15 +197,15 @@
         padding-inline: 8.4375rem 5rem;
         position: relative;
 
-        &:after {
+        &::after {
+            background-color: var(--fl-bgColor, var(--color-indigo-100));
             content: "";
             display: block;
-            width: 100vw;
             height: 100%;
             margin-inline-start: -100vw;
-            top: 0;
             position: absolute;
-            background-color: var(--fl-bgColor, var(--color-indigo-100));
+            top: 0;
+            width: 100vw;
             z-index: -1;
         }
     }

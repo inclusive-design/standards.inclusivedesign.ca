@@ -3,8 +3,8 @@ footer {
 
     background-color: var(--fl-bgColor, var(--color-indigo-800));
     color: var(--fl-fgColor, var(--color-white));
-    padding-inline: var(--common-inline-padding);
     padding-block: var(--common-block-padding);
+    padding-inline: var(--common-inline-padding);
 }
 
 footer .content {
@@ -18,12 +18,11 @@ footer .content > * {
 }
 
 footer section {
-    border-block-start: 0.125rem solid currentColor;
-    padding-block-end: 0;
-    padding-block-start: 1em;
-    padding-inline: 0;
     border-block-end: 0;
+    border-block-start: 0.125rem solid currentcolor;
     box-shadow: none;
+    padding-block: 1em 0;
+    padding-inline: 0;
 }
 
 footer ul {

@@ -15,18 +15,6 @@
     </section>
     {% endif %}
 
-    {# {% if collections['events_' + lang].length > 0 %}
-    <section>
-      <div class="wrapper flow">
-        <h2>{% __ 'events' %}</h2>
-        <div class="cards">
-        {% for event in collections['events_' + lang] %}
-          {% include "partials/components/card--event.njk" %}
-        {% endfor %}
-        </div>
-      </div>
-    </section>
-    {% endif %} #}
     {% if collections['resources_' + lang].length > 0 %}
     <section>
       <div class="wrapper flow">

@@ -36,8 +36,8 @@ body {
 }
 
 .banner__image {
-    padding-block-start: var(--common-block-padding);
     margin-block-start: unset;
+    padding-block-start: var(--common-block-padding);
 }
 
 @media (width >= 70.875rem) {
@@ -47,17 +47,17 @@ body {
     }
 
     .banner__image {
-        padding: unset;
         min-width: 30rem;
+        padding: unset;
     }
 }
 
 /* Sections */
 
 section {
+    box-shadow: inset 0 -0.1875rem 0 0 var(--fl-fgColor, transparent);
     padding-block: var(--common-block-padding);
     padding-inline: var(--common-inline-padding);
-    box-shadow: inset 0 -0.1875rem 0 0 var(--fl-fgColor, transparent);
 }
 
 section .wrapper > * {
@@ -68,6 +68,7 @@ section .wrapper > h2,
 section .wrapper > .cards {
     max-width: 100%;
 }
+
 main section:nth-of-type(even) {
     background-color: var(--fl-bgColor, var(--color-indigo-100));
     color: var(--fl-fgColor);
@@ -236,7 +237,7 @@ footer a:not([class]) {
 
 /* Buttons */
 
-button:not([class]):not([aria-controls]),
+button:not([class], [aria-controls]),
 button.secondary,
 button.borderless {
     appearance: none;
@@ -246,8 +247,8 @@ button.borderless {
     font-family: var(--family-sans-serif);
     font-size: calc(var(--step--1) * var(--fl-enhance-font-size-factor, 1));
     font-weight: var(--fl-enhance-font-weight, var(--font-weight-medium));
-    padding-inline: 0.875rem;
     padding-block: 0;
+    padding-inline: 0.875rem;
 
     &:hover,
     &:focus {
@@ -255,7 +256,7 @@ button.borderless {
     }
 }
 
-button:not([class]):not([aria-controls]) {
+button:not([class], [aria-controls]) {
     background-color: var(--fl-linkFgColor, var(--color-indigo-700));
     color: var(--fl-linkBgColor, var(--color-white));
 

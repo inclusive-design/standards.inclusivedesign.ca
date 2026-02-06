@@ -1,7 +1,7 @@
-const menuButton = document.getElementById("navigation-toggle");
-menuButton.addEventListener("click", () => {
-    const ariaExpanded = menuButton.ariaExpanded === "false";
-    menuButton.ariaExpanded = ariaExpanded;
+const menuButton = document.querySelector('#navigation-toggle');
+menuButton.addEventListener('click', () => {
+	const ariaExpanded = menuButton.ariaExpanded === 'false';
+	menuButton.ariaExpanded = ariaExpanded;
 });
 
 /**
@@ -9,29 +9,29 @@ menuButton.addEventListener("click", () => {
  * @see https://gomakethings.com/web-components-vs.-state-based-ui/
  */
 customElements.define(
-    "inclusive-disclosure",
-    class extends HTMLElement {
-        constructor() {
-            super();
+	'inclusive-disclosure',
+	class extends HTMLElement {
+		constructor() {
+			super();
 
-            this.toggle = this.querySelector("[aria-controls]");
+			this.toggle = this.querySelector('[aria-controls]');
 
-            if (!this.toggle) {
-                return;
-            }
+			if (!this.toggle) {
+				return;
+			}
 
-            this.toggle.removeAttribute("hidden");
-            this.toggle.setAttribute("aria-expanded", false);
-            this.toggle.addEventListener("click", this);
-        }
+			this.toggle.removeAttribute('hidden');
+			this.toggle.setAttribute('aria-expanded', false);
+			this.toggle.addEventListener('click', this);
+		}
 
-        handleEvent(event) {
-            event.preventDefault();
-            if (this.toggle.getAttribute("aria-expanded") === "true") {
-                this.toggle.setAttribute("aria-expanded", false);
-            } else {
-                this.toggle.setAttribute("aria-expanded", true);
-            }
-        }
-    }
+		handleEvent(event) {
+			event.preventDefault();
+			if (this.toggle.getAttribute('aria-expanded') === 'true') {
+				this.toggle.setAttribute('aria-expanded', false);
+			} else {
+				this.toggle.setAttribute('aria-expanded', true);
+			}
+		}
+	},
 );

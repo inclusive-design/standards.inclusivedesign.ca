@@ -1,6 +1,6 @@
 @font-face {
     font-display: swap;
-    font-family: "Raleway";
+    font-family: Raleway;
     font-style: normal;
     font-weight: 400;
     src: url("../fonts/raleway-v34-latin-regular.woff2") format("woff2");
@@ -8,7 +8,7 @@
 
 @font-face {
     font-display: swap;
-    font-family: "Raleway";
+    font-family: Raleway;
     font-style: italic;
     font-weight: 400;
     src: url("../fonts/raleway-v34-latin-italic.woff2") format("woff2");
@@ -16,7 +16,7 @@
 
 @font-face {
     font-display: swap;
-    font-family: "Raleway";
+    font-family: Raleway;
     font-style: normal;
     font-weight: 500;
     src: url("../fonts/raleway-v34-latin-500.woff2") format("woff2");
@@ -24,7 +24,7 @@
 
 @font-face {
     font-display: swap;
-    font-family: "Raleway";
+    font-family: Raleway;
     font-style: italic;
     font-weight: 500;
     src: url("../fonts/raleway-v34-latin-500italic.woff2") format("woff2");
@@ -32,7 +32,7 @@
 
 @font-face {
     font-display: swap;
-    font-family: "Raleway";
+    font-family: Raleway;
     font-style: normal;
     font-weight: 600;
     src: url("../fonts/raleway-v34-latin-600.woff2") format("woff2");
@@ -40,7 +40,7 @@
 
 @font-face {
     font-display: swap;
-    font-family: "Raleway";
+    font-family: Raleway;
     font-style: italic;
     font-weight: 600;
     src: url("../fonts/raleway-v34-latin-600italic.woff2") format("woff2");
@@ -48,7 +48,7 @@
 
 @font-face {
     font-display: swap;
-    font-family: "Raleway";
+    font-family: Raleway;
     font-style: normal;
     font-weight: 700;
     src: url("../fonts/raleway-v34-latin-700.woff2") format("woff2");
@@ -56,7 +56,7 @@
 
 @font-face {
     font-display: swap;
-    font-family: "Raleway";
+    font-family: Raleway;
     font-style: italic;
     font-weight: 700;
     src: url("../fonts/raleway-v34-latin-700italic.woff2") format("woff2");
@@ -64,7 +64,7 @@
 
 @font-face {
     font-display: swap;
-    font-family: "Raleway";
+    font-family: Raleway;
     font-style: normal;
     font-weight: 800;
     src: url("../fonts/raleway-v34-latin-800.woff2") format("woff2");
@@ -72,7 +72,7 @@
 
 @font-face {
     font-display: swap;
-    font-family: "Raleway";
+    font-family: Raleway;
     font-style: italic;
     font-weight: 800;
     src: url("../fonts/raleway-v34-latin-800italic.woff2") format("woff2");
@@ -144,7 +144,7 @@
 
 @font-face {
     font-display: swap;
-    font-family: "Niramit";
+    font-family: Niramit;
     font-style: normal;
     font-weight: 400;
     src: url("../fonts/niramit-v10-latin-regular.woff2") format("woff2");
@@ -152,7 +152,7 @@
 
 @font-face {
     font-display: swap;
-    font-family: "Niramit";
+    font-family: Niramit;
     font-style: italic;
     font-weight: 400;
     src: url("../fonts/niramit-v10-latin-italic.woff2") format("woff2");
@@ -160,7 +160,7 @@
 
 @font-face {
     font-display: swap;
-    font-family: "Niramit";
+    font-family: Niramit;
     font-style: normal;
     font-weight: 500;
     src: url("../fonts/niramit-v10-latin-500.woff2") format("woff2");
@@ -168,7 +168,7 @@
 
 @font-face {
     font-display: swap;
-    font-family: "Niramit";
+    font-family: Niramit;
     font-style: italic;
     font-weight: 500;
     src: url("../fonts/niramit-v10-latin-500italic.woff2") format("woff2");
@@ -176,7 +176,7 @@
 
 @font-face {
     font-display: swap;
-    font-family: "Niramit";
+    font-family: Niramit;
     font-style: normal;
     font-weight: 600;
     src: url("../fonts/niramit-v10-latin-600.woff2") format("woff2");
@@ -184,7 +184,7 @@
 
 @font-face {
     font-display: swap;
-    font-family: "Niramit";
+    font-family: Niramit;
     font-style: italic;
     font-weight: 600;
     src: url("../fonts/niramit-v10-latin-600italic.woff2") format("woff2");
@@ -192,7 +192,7 @@
 
 @font-face {
     font-display: swap;
-    font-family: "Niramit";
+    font-family: Niramit;
     font-style: normal;
     font-weight: 700;
     src: url("../fonts/niramit-v10-latin-700.woff2") format("woff2");
@@ -200,7 +200,7 @@
 
 @font-face {
     font-display: swap;
-    font-family: "Niramit";
+    font-family: Niramit;
     font-style: italic;
     font-weight: 700;
     src: url("../fonts/niramit-v10-latin-700italic.woff2") format("woff2");
@@ -208,7 +208,7 @@
 
 @font-face {
     font-display: swap;
-    font-family: "Merriweather";
+    font-family: Merriweather;
     font-style: normal;
     font-weight: 400;
     src: url("../fonts/merriweather-v30-latin-regular.woff2") format("woff2");
@@ -216,7 +216,7 @@
 
 @font-face {
     font-display: swap;
-    font-family: "Merriweather";
+    font-family: Merriweather;
     font-style: italic;
     font-weight: 400;
     src: url("../fonts/merriweather-v30-latin-italic.woff2") format("woff2");
@@ -224,7 +224,7 @@
 
 @font-face {
     font-display: swap;
-    font-family: "Merriweather";
+    font-family: Merriweather;
     font-style: normal;
     font-weight: 700;
     src: url("../fonts/merriweather-v30-latin-700.woff2") format("woff2");
@@ -232,7 +232,7 @@
 
 @font-face {
     font-display: swap;
-    font-family: "Merriweather";
+    font-family: Merriweather;
     font-style: italic;
     font-weight: 700;
     src: url("../fonts/merriweather-v30-latin-700italic.woff2") format("woff2");

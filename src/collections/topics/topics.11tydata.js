@@ -1,3 +1,3 @@
 export default {
-    permalink: false
+	permalink: false,
 };
