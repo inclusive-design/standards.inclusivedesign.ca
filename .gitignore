@@ -111,3 +111,5 @@ _site
 #DS Store
 .DS_Store
 **/.DS_Store.zed
+
+.zed
