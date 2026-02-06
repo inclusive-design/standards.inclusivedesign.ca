@@ -1,13 +1,13 @@
 .card {
-    color: var(--fl-fgColor, black);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    inline-size: clamp(16.25rem, 23rem, 1fr);
-    margin-bottom: 1rem;
     box-shadow:
         0 0.625rem 1.25rem 0 var(--shadow-light),
         inset 0 0 0 0.1875rem var(--fl-linkFgColor, transparent);
+    color: var(--fl-fgColor, black);
+    display: flex;
+    flex-direction: column;
+    inline-size: clamp(16.25rem, 23rem, 1fr);
+    justify-content: flex-start;
+    margin-bottom: 1rem;
     padding-block-start: 2.25rem;
     position: relative;
 }
@@ -59,10 +59,10 @@ body:not([class*="fl-theme"]),
 .card__title {
     color: var(--fl-linkFgColor, black);
     font-family: var(--family-sans-serif);
-    font-weight: var(--font-weight-semibold);
     font-size: var(--step-2);
-    text-decoration: none;
+    font-weight: var(--font-weight-semibold);
     margin: 0;
+    text-decoration: none;
 }
 
 .card__title:focus {
@@ -72,44 +72,41 @@ body:not([class*="fl-theme"]),
 }
 
 .card__title::after {
-    bottom: 0;
     content: "";
     display: block;
-    left: 0;
+    inset: 0;
     position: absolute;
-    right: 0;
-    top: 0;
 }
 
 .card__body,
 .card__date,
 .card__event-status {
     font-family: var(--family-sans-serif);
-    font-weight: var(--font-weight-normal);
     font-size: var(--step-0);
+    font-weight: var(--font-weight-normal);
 }
 
 .card__event-status {
-    position: relative;
-    display: flex;
     align-items: center;
+    display: flex;
+    position: relative;
 }
 
 .card__event-status svg {
-    position: absolute;
-    width: 12ch;
     fill: var(--fl-bgColor, var(--color-yellow));
+    position: absolute;
     stroke: var(--fl-fgColor, var(--color-yellow));
+    width: 12ch;
 }
 
 .card__event-status p {
-    position: relative;
-    padding-inline: 0.5rem;
     border-left: 0.05rem solid var(--fl-fgColor, var(--color-yellow));
+    padding-inline: 0.5rem;
+    position: relative;
 }
 
 .card svg {
-    stroke: currentColor;
+    stroke: currentcolor;
 }
 
 .card *:has(> svg) {

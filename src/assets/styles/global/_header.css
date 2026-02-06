@@ -1,7 +1,7 @@
 header {
     background-color: var(--fl-bgColor, var(--color-indigo-800));
-    color: var(--fl-fgColor, var(--color-white));
     box-shadow: inset 0 -0.2rem 0 0 var(--fl-fgColor, transparent);
+    color: var(--fl-fgColor, var(--color-white));
 }
 
 .header {
@@ -10,12 +10,12 @@ header {
 }
 
 .header .wrapper {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: space-between;
-    min-height: 3.56rem;
-    max-width: 75rem;
     margin-inline: auto;
+    max-width: 75rem;
+    min-height: 3.56rem;
 }
 
 .header__settings {
@@ -23,8 +23,8 @@ header {
 }
 
 .header__language {
-    display: flex;
     align-items: center;
+    display: flex;
 }
 
 [aria-current="page"] {
@@ -32,8 +32,8 @@ header {
 }
 
 .header__language li:not(:last-child)::after {
-    margin-inline: 0.5rem;
     content: "/";
+    margin-inline: 0.5rem;
 }
 
 .fl-prefsEditor-separatedPanel {

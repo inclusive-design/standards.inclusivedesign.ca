@@ -11,46 +11,46 @@
 
 a.skip {
     align-items: center;
-    flex-direction: column;
-    justify-content: center;
     background: var(--fl-linkBgColor, var(--color-yellow));
+    block-size: 4.1875rem;
     color: var(--fl-linkFgColor, var(--color-black));
-    text-decoration: var(--fl-enhance-text-decoration, none);
+    display: flex;
+    flex-direction: column;
     font-size: var(--fl-enhance-font-size);
     font-weight: var(--fl-enhance-font-weight, var(--font-weight-semibold));
-    display: flex;
+    justify-content: center;
+    left: 0;
     padding-block: 0.625rem;
     padding-inline: 1.875rem;
-    left: 0;
     position: absolute;
-    block-size: 4.1875rem;
+    text-decoration: var(--fl-enhance-text-decoration, none);
     top: -14.1875rem;
     width: 100vw;
 
     &:focus {
-        top: 0;
         outline: 0.125rem solid transparent;
+        top: 0;
     }
 }
 
 .navigation__brand {
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding-inline: var(--common-inline-padding);
     padding-block: 1.25rem;
+    padding-inline: var(--common-inline-padding);
+    width: 100%;
 }
 
 a[rel="home"] {
     display: block;
-    width: max-content;
-    text-decoration: none;
-    text-transform: lowercase;
     font-family: var(--family-display);
     font-size: calc(var(--fl-enhance-font-size-factor, 1) * clamp(1.125rem, 1.0179rem + 0.5357vw, 1.5rem));
     font-weight: var(--fl-enhance-font-weight, var(--font-weight-medium));
+    text-decoration: none;
     text-decoration: var(--fl-enhance-text-decoration);
+    text-transform: lowercase;
+    width: max-content;
 
     strong {
         font-weight: var(--font-weight-extrabold);
@@ -58,16 +58,16 @@ a[rel="home"] {
 }
 
 .navigation button.borderless {
-    display: flex;
-    gap: 0.625rem;
     align-items: center;
+    display: flex;
     font-family: var(--family-sans-serif);
     font-size: calc(var(--fl-enhance-font-size-factor, 1) * var(--step-0));
     font-weight: var(--fl-enhance-font-weight, var(--font-weight-semibold));
+    gap: 0.625rem;
 }
 
 .navigation [aria-expanded] svg {
-    stroke: currentColor;
+    stroke: currentcolor;
 }
 
 .navigation [aria-expanded="false"] > .menu__expanded,
@@ -81,8 +81,8 @@ a[rel="home"] {
 }
 
 .navigation__menu {
-    width: 100%;
     background-color: var(--fl-bgColor, var(--color-indigo-700));
+    width: 100%;
 }
 
 .navigation__wrapper:has([aria-expanded="true"]) .navigation__menu {
@@ -135,10 +135,10 @@ a[rel="home"] {
 @media (width >= 40em) {
     .skip-container {
         height: 0;
-        position: absolute;
-        width: 100%;
         padding-inline: 0;
+        position: absolute;
         top: 2.0625rem;
+        width: 100%;
         z-index: -1;
 
         &:focus-within {
@@ -152,14 +152,14 @@ a[rel="home"] {
     }
 
     a.skip {
-        height: 3.5625rem;
-        width: 60%;
-        max-width: 31.25em;
-        top: -5.625rem;
-        position: absolute;
         font-size: var(--fl-enhance-font-size);
         font-weight: var(--fl-enhance-font-weight);
+        height: 3.5625rem;
+        max-width: 31.25em;
+        position: absolute;
         text-decoration: var(--fl-enhance-text-decoration);
+        top: -5.625rem;
+        width: 60%;
 
         &:focus {
             top: 0;
@@ -175,18 +175,18 @@ a[rel="home"] {
     }
 
     .navigation__wrapper {
-        padding: unset;
+        align-items: center;
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        max-width: 75rem;
         margin-inline: auto;
+        max-width: 75rem;
+        padding: unset;
+        width: 100%;
     }
 
     .navigation__brand {
-        padding-inline: 0;
         padding-block: 0;
+        padding-inline: 0;
     }
 
     .navigation button.borderless {

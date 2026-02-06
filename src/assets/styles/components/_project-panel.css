@@ -13,11 +13,11 @@ div:has(> .project-panel) {
         inset 0 0 0 0.1875rem var(--fl-linkFgColor, transparent);
     display: flex;
     flex-direction: column;
+    margin-block-end: 2rem;
+    margin-inline: auto;
+    max-width: 75rem;
     padding-top: 2.25rem;
     position: relative;
-    max-width: 75rem;
-    margin-inline: auto;
-    margin-block-end: 2rem;
 }
 
 .project-panel:last-of-type {
@@ -45,8 +45,8 @@ body:not([class*="fl-theme"]),
 }
 
 .project-panel__image {
-    min-width: 16.25rem;
     min-height: 12.1875rem;
+    min-width: 16.25rem;
 
     img {
         aspect-ratio: 1 / 1;
@@ -55,12 +55,12 @@ body:not([class*="fl-theme"]),
 }
 
 .project-panel__title {
-    font-weight: var(--font-weight-semibold);
+    color: black;
     font-family: var(--family-sans-serif);
     font-size: var(--step-4);
+    font-weight: var(--font-weight-semibold);
     line-height: 1.2;
     text-decoration: none;
-    color: black;
 }
 
 .project-panel__title:focus {
@@ -71,13 +71,10 @@ body:not([class*="fl-theme"]),
 }
 
 .project-panel__title::after {
-    bottom: 0;
     content: "";
     display: block;
-    left: 0;
+    inset: 0;
     position: absolute;
-    right: 0;
-    top: 0;
 }
 
 .project-panel__content {

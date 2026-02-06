@@ -16,23 +16,20 @@
     --step-5: clamp(3rem, 2.4286rem + 2.8571vw, 5rem);
 
     /** Colors **/
-    --color-blue: hsla(194, 60%, 59%, 1);
-    --color-green: hsla(163, 35%, 49%, 1);
-    --color-yellow: hsla(42, 92%, 70%, 1);
-    --color-orange: hsla(25, 76%, 64%, 1);
-    --color-red: hsla(359, 64%, 63%, 1);
-    --color-dark-grey: hsla(0, 0%, 12%, 1);
-    --color-light-dark-grey: hsla(0, 0%, 31%, 1);
-    --color-light-grey: hsla(0, 0%, 95%, 1);
-
-    --shadow-light: hsla(244, 93%, 22%, 0.15);
-    --shadow-dark: hsla(244, 93%, 22%, 0.45);
-
-    --color-indigo-100: hsla(244, 100%, 98%, 1);
-    --color-indigo-200: hsla(244, 93%, 93%, 1);
-    --color-indigo-700: hsla(244, 93%, 22%, 1);
-    --color-indigo-800: hsla(244, 87%, 12%, 1);
-
+    --color-blue: hsl(194deg 60% 59% / 100%);
+    --color-green: hsl(163deg 35% 49% / 100%);
+    --color-yellow: hsl(42deg 92% 70% / 100%);
+    --color-orange: hsl(25deg 76% 64% / 100%);
+    --color-red: hsl(359deg 64% 63% / 100%);
+    --color-dark-grey: hsl(0deg 0% 12% / 100%);
+    --color-light-dark-grey: hsl(0deg 0% 31% / 100%);
+    --color-light-grey: hsl(0deg 0% 95% / 100%);
+    --shadow-light: hsl(244deg 93% 22% / 15%);
+    --shadow-dark: hsl(244deg 93% 22% / 45%);
+    --color-indigo-100: hsl(244deg 100% 98% / 100%);
+    --color-indigo-200: hsl(244deg 93% 93% / 100%);
+    --color-indigo-700: hsl(244deg 93% 22% / 100%);
+    --color-indigo-800: hsl(244deg 87% 12% / 100%);
     --color-white: #fff;
     --color-black: #000;
 

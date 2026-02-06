@@ -25,7 +25,7 @@
 }
 
 .resource .banner svg {
-    stroke: currentColor;
+    stroke: currentcolor;
 }
 
 .resource .meta {
@@ -34,13 +34,12 @@
 
 .resource .meta p {
     display: grid;
-    grid-template-columns: 1.375rem auto;
     gap: 0.5em;
+    grid-template-columns: 1.375rem auto;
 
     svg {
-        align-self: center;
-        justify-self: center;
-        stroke: currentColor;
+        place-self: center center;
+        stroke: currentcolor;
     }
 }
 
@@ -69,7 +68,7 @@
     box-shadow: none;
 }
 
-.resource nav inclusive-disclosure [aria-expanded]:after {
+.resource nav inclusive-disclosure [aria-expanded]::after {
     right: var(--common-inline-padding);
 }
 
@@ -122,15 +121,15 @@
         padding-inline: 8.4375rem 5rem;
         position: relative;
 
-        &:after {
+        &::after {
+            background-color: var(--fl-bgColor, var(--color-indigo-100));
             content: "";
             display: block;
-            width: 100vw;
             height: 100%;
             margin-inline-start: -100vw;
-            top: 0;
             position: absolute;
-            background-color: var(--fl-bgColor, var(--color-indigo-100));
+            top: 0;
+            width: 100vw;
             z-index: -1;
         }
     }
@@ -143,7 +142,7 @@
 @media (width >= 90rem) {
     .resources {
         display: grid;
-        grid-template-columns: 1fr 1fr;
         gap: 1.875rem;
+        grid-template-columns: 1fr 1fr;
     }
 }

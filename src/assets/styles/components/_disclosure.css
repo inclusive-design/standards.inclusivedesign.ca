@@ -16,7 +16,7 @@ inclusive-disclosure [aria-expanded] {
     font-size: calc(var(--step-2) * var(--fl-enhance-font-size-factor, 1));
     font-weight: var(--fl-enhance-font-weight, var(--font-weight-semibold));
     height: 5rem;
-    padding-inline-end: 0.625;
+    padding-inline-end: 0.625rem;
     position: relative;
     width: 100%;
 
@@ -26,8 +26,8 @@ inclusive-disclosure [aria-expanded] {
         display: block;
         height: 1.125rem;
         mask-image: url('data:image/svg+xml,<svg width="18" height="10" viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17 1L9 9L1 1" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
-        mask-repeat: no-repeat;
         mask-position: center;
+        mask-repeat: no-repeat;
         position: absolute;
         right: 0;
         transition: transform 0.5s ease-in-out;
@@ -71,8 +71,8 @@ inclusive-disclosure:focus-within {
 }
 
 inclusive-disclosure [content] {
-    padding-block: 1em;
     margin-block-end: 2.1875rem;
+    padding-block: 1em;
 }
 
 * + inclusive-disclosure {

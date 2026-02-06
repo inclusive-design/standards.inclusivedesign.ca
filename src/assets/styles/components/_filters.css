@@ -27,8 +27,8 @@
     }
 
     inclusive-disclosure > button {
-        position: relative;
         padding-inline-start: 3.5625rem;
+        position: relative;
     }
 
     inclusive-disclosure > button::after {
@@ -62,14 +62,12 @@
 
 .filter-tags {
     border-top: 0.125rem solid var(--fl-fgColor, var(--color-indigo-700));
-    margin-block-end: 2.8125rem;
-    margin-block-start: calc(1em + 1.25rem);
+    margin-block: calc(1em + 1.25rem) 2.8125rem;
 }
 
 .filter-tags > h4 {
     display: none;
-    margin-block-end: 1.5rem;
-    margin-block-start: 1.0625rem;
+    margin-block: 1.0625rem 1.5rem;
 }
 
 .filter-tag {
@@ -121,7 +119,7 @@
 }
 
 .filter-tag::after {
-    mask-image: url(/assets/images/x.svg);
+    mask-image: url("/assets/images/x.svg");
     right: 1.25rem;
 }
 
@@ -129,41 +127,41 @@ inclusive-disclosure:has(#filter-project) > button::before,
 .filter-tag.project::before {
     block-size: calc(1.1rem * var(--fl-enhance-font-size-factor, 1.2));
     inline-size: calc(0.8rem * var(--fl-enhance-font-size-factor, 1.2));
-    mask-image: url(/assets/images/project.svg);
+    mask-image: url("/assets/images/project.svg");
 }
 
 inclusive-disclosure:has(#filter-type) > button::before,
 .filter-tag.type::before {
     block-size: calc(1.1rem * var(--fl-enhance-font-size-factor, 1.2));
     inline-size: calc(0.8rem * var(--fl-enhance-font-size-factor, 1.2));
-    mask-image: url(/assets/images/type.svg);
+    mask-image: url("/assets/images/type.svg");
 }
 
 inclusive-disclosure:has(#filter-language) > button::before,
 .filter-tag.language::before {
     block-size: calc(1.1rem * var(--fl-enhance-font-size-factor, 1.2));
     inline-size: calc(1.1rem * var(--fl-enhance-font-size-factor, 1.2));
-    mask-image: url(/assets/images/language.svg);
+    mask-image: url("/assets/images/language.svg");
 }
 
 inclusive-disclosure:has(#filter-publisher) > button::before,
 .filter-tag.publisher::before {
     block-size: calc(1.2rem * var(--fl-enhance-font-size-factor, 1.2));
     inline-size: calc(0.8rem * var(--fl-enhance-font-size-factor, 1.2));
-    mask-image: url(/assets/images/publisher.svg);
+    mask-image: url("/assets/images/publisher.svg");
 }
 
 inclusive-disclosure:has(#filter-topic) > button::before,
 .filter-tag.topic::before {
     block-size: calc(1.2rem * var(--fl-enhance-font-size-factor, 1.2));
     inline-size: calc(1.125rem * var(--fl-enhance-font-size-factor, 1.2));
-    mask-image: url(/assets/images/topic.svg);
+    mask-image: url("/assets/images/topic.svg");
 }
 
 @media (width >= 46.625rem) {
     filter-container {
         display: grid;
-        grid-template-columns: 22.9375rem 1fr;
         gap: 1.875rem;
+        grid-template-columns: 22.9375rem 1fr;
     }
 }

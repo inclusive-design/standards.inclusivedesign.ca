@@ -1,31 +1,31 @@
 @charset "UTF-8";
 
 /* Abstracts */
-@import "./abstracts/_variables.css";
+@import url("./abstracts/_variables.css");
 
 /* Base */
-@import "./base/_reset.css";
-@import "./base/_utils.css";
-@import "./base/_fonts.css";
-@import "./base/_base.css";
-@import "./base/_typography.css";
+@import url("./base/_reset.css");
+@import url("./base/_utils.css");
+@import url("./base/_fonts.css");
+@import url("./base/_base.css");
+@import url("./base/_typography.css");
 
 /* Global */
-@import "./global/_footer.css";
-@import "./global/_header.css";
+@import url("./global/_footer.css");
+@import url("./global/_header.css");
 
 /* Components */
-@import "./components/_badge.css";
-@import "./components/_card.css";
-@import "./components/_checkbox.css";
-@import "./components/_disclosure.css";
-@import "./components/_filters.css";
-@import "./components/_navigation.css";
-@import "./components/_pagination.css";
-@import "./components/_project-panel.css";
-@import "./components/_select.css";
-@import "./components/_tag.css";
+@import url("./components/_badge.css");
+@import url("./components/_card.css");
+@import url("./components/_checkbox.css");
+@import url("./components/_disclosure.css");
+@import url("./components/_filters.css");
+@import url("./components/_navigation.css");
+@import url("./components/_pagination.css");
+@import url("./components/_project-panel.css");
+@import url("./components/_select.css");
+@import url("./components/_tag.css");
 
 /* Collections */
-@import "./collections/_projects.css";
-@import "./collections/_resources.css";
+@import url("./collections/_projects.css");
+@import url("./collections/_resources.css");

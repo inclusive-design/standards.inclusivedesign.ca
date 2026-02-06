@@ -1,67 +1,76 @@
 {
-  "name": "standards.idrc.ocadu.ca",
-  "version": "1.10.1",
-  "description": "Website for IDRC standards development work.",
-  "main": "eleventy.config.js",
-  "type": "module",
-  "scripts": {
-    "build": "npm-run-all -l clean -s build:eleventy",
-    "build:eleventy": "eleventy",
-    "clean": "rimraf _site",
-    "debug": "DEBUG=Eleventy* eleventy",
-    "dev": "cross-env NODE_ENV=development eleventy --serve",
-    "lint": "run-s -l lint:*",
-    "lint:scripts-and-styles": "biome check .",
-    "lint:markdown": "markdownlint-cli2 \"**/*.md\"",
-    "start": "npm-run-all -l clean dev",
-    "prepare": "husky",
-    "test": "node --test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/inclusive-design/standards.idrc.ocadu.ca.git"
-  },
-  "keywords": [
-    "eleventy",
-    "standards",
-    "static-site",
-    "sveltia-cms"
-  ],
-  "author": "OCAD University <idrc@ocadu.ca>",
-  "license": "BSD-3-Clause",
-  "bugs": {
-    "url": "https://github.com/inclusive-design/standards.idrc.ocadu.ca/issues"
-  },
-  "homepage": "https://github.com/inclusive-design/standards.idrc.ocadu.ca#readme",
-  "dependencies": {
-    "@11ty/eleventy": "^3.1.0-alpha.1",
-    "@11ty/eleventy-navigation": "^1.0.0",
-    "@11ty/font-awesome": "^1.0.0-beta.1",
-    "@zachleat/filter-container": "greatislander/filter-container#feat/paginated-results",
-    "eleventy-plugin-broken-links": "^2.2.1",
-    "eleventy-plugin-fluid": "^3.1.3",
-    "eleventy-plugin-footnotes": "^0.11.0",
-    "infusion": "^4.8.0",
-    "rimraf": "^6.0",
-    "rosetta": "^1.1.0"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "^2.1.2",
-    "@commitlint/cli": "^20.0.0",
-    "@commitlint/config-conventional": "^20.0.0",
-    "cross-env": "^10.0.0",
-    "debug": "^4.3.5",
-    "husky": "^9.0.11",
-    "linkedom": "^0.18.6",
-    "lint-staged": "^16.0.0",
-    "markdownlint-cli2": "^0.20.0",
-    "markdownlint-config-fluid": "^0.1.5",
-    "npm-run-all2": "^8.0.0"
-  },
-  "lint-staged": {
-    "*.{js,cjs,json,jsonc}": "biome check . --write --no-errors-on-unmatched",
-    "*.md": [
-      "markdownlint-cli2 --fix"
-    ]
-  }
+	"name": "standards.idrc.ocadu.ca",
+	"version": "1.10.1",
+	"description": "Website for IDRC standards development work.",
+	"main": "eleventy.config.js",
+	"type": "module",
+	"scripts": {
+		"build": "npm-run-all -l clean -s build:eleventy",
+		"build:eleventy": "eleventy",
+		"clean": "rimraf _site",
+		"debug": "DEBUG=Eleventy* eleventy",
+		"dev": "cross-env NODE_ENV=development eleventy --serve",
+		"lint": "run-s -l lint:*",
+		"lint:eslint": "eslint",
+		"lint:markdownlint": "markdownlint-cli2 \"**/*.md\"",
+		"lint:stylelint": "stylelint \"**/*.css\"",
+		"start": "npm-run-all -l clean dev",
+		"prepare": "husky",
+		"test": "node --test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/inclusive-design/standards.idrc.ocadu.ca.git"
+	},
+	"keywords": [
+		"eleventy",
+		"standards",
+		"static-site",
+		"sveltia-cms"
+	],
+	"author": "OCAD University <idrc@ocadu.ca>",
+	"license": "BSD-3-Clause",
+	"bugs": {
+		"url": "https://github.com/inclusive-design/standards.idrc.ocadu.ca/issues"
+	},
+	"homepage": "https://github.com/inclusive-design/standards.idrc.ocadu.ca#readme",
+	"dependencies": {
+		"@11ty/eleventy": "^3.1.2",
+		"@11ty/eleventy-navigation": "^1.0.0",
+		"@11ty/font-awesome": "^1.0.1",
+		"@zachleat/filter-container": "greatislander/filter-container#feat/paginated-results",
+		"eleventy-plugin-broken-links": "^2.2.1",
+		"eleventy-plugin-fluid": "^3.1.6",
+		"eleventy-plugin-footnotes": "^0.11.0",
+		"infusion": "^4.8.0",
+		"rimraf": "^6.0",
+		"rosetta": "^1.1.0"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^20.0.0",
+		"@commitlint/config-conventional": "^20.0.0",
+		"@inclusive-design/eslint-config": "^0.2.0",
+		"@inclusive-design/markdownlint-config": "^0.1.0",
+		"@inclusive-design/stylelint-config": "^0.1.0",
+		"cross-env": "^10.0.0",
+		"debug": "^4.3.5",
+		"husky": "^9.0.11",
+		"linkedom": "^0.18.6",
+		"lint-staged": "^16.0.0",
+		"markdownlint-cli2": "^0.20.0",
+		"markdownlint-config-fluid": "^0.1.5",
+		"npm-run-all2": "^8.0.0"
+	},
+	"lint-staged": {
+		"*.css": [
+			"stylelint --fix"
+		],
+		"*.{cjs,js,json,mjs}": [
+			"eslint --fix"
+		],
+		"*.md": [
+			"eslint --fix",
+			"markdownlint-cli2 --fix"
+		]
+	}
 }

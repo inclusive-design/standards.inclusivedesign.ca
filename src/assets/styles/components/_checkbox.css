@@ -34,7 +34,7 @@
     content: "";
     display: block;
     inline-size: calc(1.25rem * var(--fl-enhance-font-size-factor, 1));
-    mask-image: url(/assets/images/checkMark.svg);
+    mask-image: url("/assets/images/checkMark.svg");
     mask-position: center;
     mask-repeat: no-repeat;
 }
