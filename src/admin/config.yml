@@ -56,6 +56,15 @@ collections:
         widget: number
         i18n: duplicate
         required: false
+      - label: Parent
+        name: parent
+        widget: relation
+        i18n: duplicate
+        collection: pages
+        search_fields: [title]
+        display_fields: [title]
+        multiple: false
+        required: false
       - label: Layout
         name: layout
         widget: hidden
@@ -487,6 +496,11 @@ collections:
         name: title
         widget: string
         i18n: true
+      - label: Short Title
+        name: shortTitle
+        widget: string
+        i18n: true
+        required: false
       - label: UUID
         name: uuid
         widget: uuid
