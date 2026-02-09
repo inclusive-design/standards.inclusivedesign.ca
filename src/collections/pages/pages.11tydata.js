@@ -9,7 +9,7 @@ export default {
 			}
 
 			return {
-				key: data.title,
+				key: data.shortTitle ?? data.title,
 				order: data.order,
 			};
 		},
