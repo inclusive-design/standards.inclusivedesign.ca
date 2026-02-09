@@ -1,0 +1,22 @@
+{% extends "layouts/base.njk" %}
+
+{% set pageType = 'guidelines' %}
+
+{% block content %}
+<nav aria-labelledby="guidelines-menu" class="flow">
+    <h2 id="guidelines-menu">{% __ 'toc' %}</h2>
+    <inclusive-disclosure>
+        <button aria-controls="{{ title | slugify }}-menu">
+            <h2 id="guidelines-menu-mobile">{% __ 'toc' %}</h2>
+        </button>
+        <div content id="{{ title | slugify }}-menu">
+            <div id="toc">
+                <ul role="list" class="flow"></ul>
+            </div>
+        </div>
+    </inclusive-disclosure>
+</nav>
+<article class="flow">
+{{ content | safe }}
+</article>
+{% endblock %}
