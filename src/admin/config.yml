@@ -194,6 +194,84 @@ collections:
         widget: markdown
         i18n: true
         buttons: [bold, italic, link, heading-two, heading-three, heading-four, heading-five, heading-six, quote, bulleted-list, numbered-list]
+  - label: Project Subpages
+    label_singular: Project Subpage
+    name: project-subpages
+    icon: menu_open
+    i18n:
+      structure: multiple_folders
+    folder: src/collections/project-subpages/
+    extension: md
+    view_filters:
+      - label: Drafts
+        field: draft
+        pattern: true
+    sortable_fields:
+      fields: [title, order]
+      default:
+          field: order
+          direction: ascending
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        i18n: true
+      - label: Draft
+        name: draft
+        widget: boolean
+        i18n: duplicate
+        required: false
+      - label: Navigation Order
+        name: order
+        widget: number
+        i18n: duplicate
+        required: false
+      - label: Language
+        name: lang
+        widget: hidden
+        default: "{{locale}}"
+      - label: UUID
+        name: uuid
+        widget: hidden
+        default: "{{uuid}}"
+        i18n: duplicate
+      - label: Slug
+        name: slug
+        widget: string
+        i18n: true
+        required: true
+        hint: Use this field to customize the URL of the project subpage. For example, if you want to display 'Regulating the Digital Domain reports' at `/projects/rtdd/reports/`, enter `reports`.
+        pattern: ['^[a-z0-9-]+$', 'Only lowercase letters, numbers and hyphens permitted']
+      - label: Parent Project
+        name: parent
+        widget: relation
+        collection: projects
+        value_field: slug
+        search_fields: [title]
+        display_fields: [title]
+        required: true
+        i18n: true
+      - label: Excerpt
+        name: excerpt
+        widget: text
+        i18n: true
+        required: false
+      - label: Preview Image
+        name: previewImage
+        widget: image
+        i18n: duplicate
+        required: false
+        hint: This image should be 1200 by 630 pixels and will be used as a preview image when this page is shared on social media.
+      - label: Preview Image Alternative Text
+        name: previewImageAlt
+        widget: text
+        i18n: true
+        required: false
+      - label: Body
+        name: body
+        widget: markdown
+        i18n: true
+        buttons: [bold, italic, link, heading-two, heading-three, heading-four, heading-five, heading-six, quote, bulleted-list, numbered-list]
   - label: Resources
     label_singular: Resource
     name: resources
