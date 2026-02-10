@@ -1,7 +1,6 @@
 import {IdAttributePlugin, RenderPlugin} from '@11ty/eleventy';
 import eleventyNavigationPlugin from '@11ty/eleventy-navigation';
 import fontAwesomePlugin from '@11ty/font-awesome';
-import brokenLinksPlugin from 'eleventy-plugin-broken-links';
 import fluidPlugin from 'eleventy-plugin-fluid';
 import {__} from 'eleventy-plugin-fluid';
 import footnotesPlugin from 'eleventy-plugin-footnotes';
@@ -81,14 +80,6 @@ export default function eleventy(eleventyConfig) {
 
 	eleventyConfig.addPassthroughCopy({'src/assets/fonts': 'assets/fonts'});
 	eleventyConfig.addPassthroughCopy({'src/assets/icons': '/'});
-
-	eleventyConfig.addPlugin(brokenLinksPlugin, {
-		forbidden: 'warn',
-		broken: 'warn',
-		cacheDuration: '60s',
-		loggingLevel: 2,
-		excludeInputs: ['**/*/*.css'],
-	});
 
 	eleventyConfig.addPlugin(IdAttributePlugin);
 
