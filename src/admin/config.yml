@@ -18,7 +18,7 @@ i18n:
   initial_locales: default
 
 collections:
-  - label: Page
+  - label: Pages
     label_singular: Page
     name: pages
     icon: article
