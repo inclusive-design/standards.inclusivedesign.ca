@@ -27,6 +27,7 @@ collections:
       structure: multiple_folders
     folder: src/collections/pages/
     extension: md
+    slug: '{{uuid_short}}'
     view_filters:
       - label: Drafts
         field: draft
@@ -441,8 +442,8 @@ collections:
     i18n:
       structure: multiple_folders
     folder: src/collections/stages
-    slug: '{{fields.uuid}}'
     extension: md
+    slug: "{{uuid_short}}"
     sortable_fields:
       fields: [title, order]
       default:
@@ -453,10 +454,6 @@ collections:
         name: title
         widget: string
         i18n: true
-      - label: UUID
-        name: uuid
-        widget: uuid
-        i18n: duplicate
       - label: Draft
         name: draft
         widget: boolean
@@ -489,8 +486,8 @@ collections:
     i18n:
       structure: multiple_folders
     folder: src/collections/processes
-    slug: '{{fields.uuid}}'
     extension: md
+    slug: '{{uuid_short}}'
     fields:
       - label: Title
         name: title
@@ -501,10 +498,6 @@ collections:
         widget: string
         i18n: true
         required: false
-      - label: UUID
-        name: uuid
-        widget: uuid
-        i18n: duplicate
       - label: Draft
         name: draft
         widget: boolean
@@ -529,17 +522,13 @@ collections:
     i18n:
       structure: multiple_folders
     folder: src/collections/opportunities
-    slug: '{{fields.uuid}}'
     extension: md
+    slug: '{{uuid_short}}'
     fields:
       - label: Title
         name: title
         widget: string
         i18n: true
-      - label: UUID
-        name: uuid
-        widget: uuid
-        i18n: duplicate
       - label: Draft
         name: draft
         widget: boolean
@@ -564,17 +553,13 @@ collections:
     i18n:
       structure: multiple_folders
     folder: src/collections/approaches
-    slug: '{{fields.uuid}}'
     extension: md
+    slug: '{{uuid_short}}'
     fields:
       - label: Title
         name: title
         widget: string
         i18n: true
-      - label: UUID
-        name: uuid
-        widget: uuid
-        i18n: duplicate
       - label: Draft
         name: draft
         widget: boolean
@@ -608,7 +593,6 @@ collections:
         name: processes
         widget: relation
         collection: processes
-        value_field: uuid
         search_fields: [title]
         display_fields: [title]
         required: false
@@ -618,7 +602,6 @@ collections:
         name: opportunities
         widget: relation
         collection: opportunities
-        value_field: uuid
         search_fields: [title]
         display_fields: [title]
         required: false
