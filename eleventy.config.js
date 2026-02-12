@@ -36,6 +36,10 @@ export default function eleventy(eleventyConfig) {
 	});
 
 	for (const lang of ['en', 'fr']) {
+		eleventyConfig.addCollection(`approaches_${lang}`, collection => collection.getFilteredByGlob(`src/collections/approaches/${lang}/*.md`));
+
+		eleventyConfig.addCollection(`opportunities_${lang}`, collection => collection.getFilteredByGlob(`src/collections/opportunities/${lang}/*.md`));
+
 		eleventyConfig.addCollection(`pages_${lang}`, collection => collection.getFilteredByGlob(`src/collections/pages/${lang}/*.md`));
 
 		eleventyConfig.addCollection(`projects_${lang}`, collection => collection.getFilteredByGlob(`src/collections/projects/${lang}/*.md`));

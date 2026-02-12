@@ -1,0 +1,45 @@
+<div class="card approach bg-indigo-700">
+    <div class="card__content">
+        <h3>
+            <a class="card__title" href="">
+                {{ approach.data.title }}
+            </a>
+        </h3>
+        {% if approach.data.strategies %}
+            <div class="card__heading-image">
+                {% include 'svg/strategies.svg' %}
+                <h4>
+                    {% __ 'approach-strategies' %} 
+                </h4>
+            </div>
+            {{ approach.data.strategies }}
+        {% endif %}
+        {% if approach.data.tips %}
+            <div class="card__heading-image">
+                {% include 'svg/tips.svg' %}
+                <h4>
+                    {% __ 'approach-tips' %}
+                </h4>
+            </div>
+            {{ approach.data.tips }}
+        {% endif %}
+        {% if approach.data.opportunities %}
+            <div class="card__heading-image">
+                {% include 'svg/barriers.svg' %}
+                <h4>
+                    {% __ 'approach-other-barriers' %}
+                </h4>
+            </div>
+
+            <ul>
+                {% for barrierId in approach.data.opportunities %}
+                    {% for barrier in collections['opportunities_' + lang] %}
+                        {% if barrier.data.uuid == barrierId and barrier.data.draft == false %}
+                            <li>{{ barrier.data.title }}</li>
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+</div>
