@@ -11,7 +11,6 @@ export default function findTranslationKeyFilter(page, collection = [], lang, de
 	for (const element of collection) {
 		if (element.data.translationKey === this.ctx.translationKey && element.data.lang === desiredLang) {
 			translationUrl = element.url;
-			console.log(translationUrl);
 		}
 	}
 

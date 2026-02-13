@@ -3,7 +3,7 @@ translationKey: guidelines
 title: Guidelines for Accessibility and Inclusion in Standards Development
 shortTitle: Guidelines
 draft: true
-order: 4
+order: 0
 layout: layouts/guidelines
 excerpt: ''
 previewImageAlt: ''

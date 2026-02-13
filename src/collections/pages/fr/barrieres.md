@@ -5,7 +5,7 @@ shortTitle: Barrières
 draft: true
 order: 0
 parent: guidelines
-layout: layouts/opportunities
+layout: layouts/barriers
 excerpt: ''
 previewImage: ''
 previewImageAlt: ''

@@ -413,7 +413,6 @@ collections:
       structure: multiple_folders
     folder: src/collections/stages
     extension: md
-    slug: "{{uuid_short}}"
     sortable_fields:
       fields: [title, order]
       default:
@@ -443,7 +442,7 @@ collections:
         name: processes
         widget: relation
         collection: processes
-        value_field: uuid
+        value_field: translationKey
         search_fields: [title]
         display_fields: [title]
         required: false
@@ -457,7 +456,7 @@ collections:
       structure: multiple_folders
     folder: src/collections/processes
     extension: md
-    slug: '{{uuid_short}}'
+    slug: '{{fields._slug | localize}}'
     fields:
       - label: Title
         name: title
@@ -481,7 +480,7 @@ collections:
 
 
 
-          ## Approaches
+          ## Strategies and Tips
 
           "
         buttons: [bold, italic, link, heading-two, heading-three, heading-four, heading-five, heading-six, quote, bulleted-list, numbered-list]
@@ -493,7 +492,7 @@ collections:
       structure: multiple_folders
     folder: src/collections/barriers
     extension: md
-    slug: '{{uuid_short}}'
+    slug: '{{fields._slug | localize}}'
     fields:
       - label: Title
         name: title
@@ -523,7 +522,7 @@ collections:
       structure: multiple_folders
     folder: src/collections/strategies-and-tips
     extension: md
-    slug: '{{uuid_short}}'
+    slug: '{{fields._slug | localize}}'
     fields:
       - label: Title
         name: title
@@ -562,6 +561,7 @@ collections:
         name: processes
         widget: relation
         collection: processes
+        value_field: translationKey
         search_fields: [title]
         display_fields: [title]
         required: false
@@ -571,6 +571,7 @@ collections:
         name: barriers
         widget: relation
         collection: barriers
+        value_field: translationKey
         search_fields: [title]
         display_fields: [title]
         required: false
