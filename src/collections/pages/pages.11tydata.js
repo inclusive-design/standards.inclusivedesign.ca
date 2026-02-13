@@ -1,5 +1,4 @@
-import {generatePermalink} from 'eleventy-plugin-fluid';
-import slugify from '@sindresorhus/slugify';
+import {__, generatePermalink} from 'eleventy-plugin-fluid';
 
 export default {
 	eleventyComputed: {
@@ -9,13 +8,13 @@ export default {
 			}
 
 			return {
-				key: data.shortTitle ?? data.title,
+				key: data.translationKey,
+				title: data.shortTitle === '' ? data.title : data.shortTitle,
 				order: data.order,
 			};
 		},
 		permalink(data) {
-			const slug = data.shortTitle ? slugify(data.shortTitle) : slugify(data.title);
-			data.slug = data.parent ? `${data.parent}/${slug}` : slug;
+			data.slug = data.parent ? `${__(data.parent, {}, data)}/${data.page.fileSlug}` : data.page.fileSlug;
 			return generatePermalink(data, 'pages');
 		},
 	},

@@ -1,0 +1,15 @@
+---
+translationKey: microsoft-teams-accessibility-features
+title: Microsoft Teams Accessibility Features
+description: Microsoft Teams offre une gamme de fonctions d'accessibilité pour garantir une expérience inclusive. Celles-ci comprennent le sous-titrage et la transcription en direct pour les utilisateurs sourds ou malentendants, l'affichage de la langue des signes pour donner la priorité aux interprètes, et des raccourcis clavier pour faciliter la navigation. L'application propose également un mode à contraste élevé pour les personnes malvoyantes, une compatibilité avec les lecteurs d'écran (JAWS, NVDA et VoiceOver) et des effets d'arrière-plan pour préserver la confidentialité. Les paramètres de notification personnalisables permettent de réduire les distractions et de répondre aux besoins individuels.
+lang: fr
+date: 2025-05-06T12:22:00
+link: https://support.microsoft.com/en-us/office/accessibility-tools-for-microsoft-teams-2d4009e7-1300-4766-87e8-7a217496c3d5
+author: ''
+publisher: Microsoft
+contentLanguages:
+  - en
+type: guide-or-toolkit
+projects: []
+topics: []
+---

@@ -1,0 +1,21 @@
+---
+translationKey: igf-dcad
+title: IGF-DCAD - Dynamic Coalition on Accessibility and Disability
+description: |-
+  La CAO a été lancée lors du Forum sur la gouvernance de l'internet de 2007 à Rio pour traiter de l'accessibilité dans les TIC et les technologies émergentes. Sa mission est d'assurer un accès numérique inclusif pour tous, en reconnaissant que l'accessibilité profite à tous, que ce soit en raison d'un handicap, de l'environnement ou du vieillissement.
+
+  Le DCAD favorise le dialogue sur l'accessibilité numérique dans le cadre de la gouvernance mondiale de l'internet, en fonctionnant comme une initiative ouverte et multipartite dans le cadre du FGI. Les membres respectent le code de conduite de l'IGF et contribuent à l'élaboration d'une politique technologique inclusive.
+
+  Traduit avec DeepL.com (version gratuite)
+lang: fr
+date: 2025-05-06T11:36:00
+link: https://igf-dcad.org/
+author: ''
+publisher: Internet Governance Forum Dynamic Coalition on Accessibility and Disability
+contentLanguages:
+  - en
+type: guide-or-toolkit
+projects:
+  - all-standards
+topics: []
+---

@@ -1,0 +1,15 @@
+---
+translationKey: microsoft-teams-accessibility-features
+title: Microsoft Teams Accessibility Features
+description: Microsoft Teams offers a range of accessibility features to ensure an inclusive experience. These include live captions and transcription for users who are Deaf or hard of hearing, sign language view to prioritize interpreters, and keyboard shortcuts for easier navigation. It also provides high contrast mode for low vision, screen reader compatibility (with JAWS, NVDA, and VoiceOver), and background effects for privacy. Customizable notification settings help reduce distractions and cater to individual needs.
+lang: en
+date: 2025-05-06T12:22:00
+link: https://support.microsoft.com/en-us/office/accessibility-tools-for-microsoft-teams-2d4009e7-1300-4766-87e8-7a217496c3d5
+author: ''
+publisher: Microsoft
+contentLanguages:
+  - en
+type: guide-or-toolkit
+projects: []
+topics: []
+---

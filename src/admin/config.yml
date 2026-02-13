@@ -27,7 +27,7 @@ collections:
       structure: multiple_folders
     folder: src/collections/pages/
     extension: md
-    slug: '{{uuid_short}}'
+    slug: "{{fields._slug | localize}}"
     view_filters:
       - label: Drafts
         field: draft
@@ -52,6 +52,10 @@ collections:
         widget: boolean
         i18n: duplicate
         required: false
+      - label: Language
+        name: lang
+        widget: hidden
+        default: "{{locale}}"
       - label: Navigation Order
         name: order
         widget: number
@@ -60,8 +64,9 @@ collections:
       - label: Parent
         name: parent
         widget: relation
-        i18n: duplicate
+        i18n: true
         collection: pages
+        value_field: translationKey
         search_fields: [title]
         display_fields: [title]
         multiple: false
@@ -121,6 +126,7 @@ collections:
       structure: multiple_folders
     folder: src/collections/projects/
     extension: md
+    slug: "{{fields._slug | localize}}"
     view_filters:
       - label: Drafts
         field: draft
@@ -139,18 +145,6 @@ collections:
         name: lang
         widget: hidden
         default: "{{locale}}"
-      - label: UUID
-        name: uuid
-        widget: hidden
-        default: "{{uuid}}"
-        i18n: duplicate
-      - label: Slug
-        name: slug
-        widget: string
-        i18n: true
-        required: true
-        hint: Use this field to customize the URL of the project. For example, if you want to display 'Regulating the Digital Domain' at `/projects/rtdd`, enter `rtdd`.
-        pattern: ['^[a-z0-9-]+$', 'Only lowercase letters, numbers and hyphens permitted']
       - label: Excerpt
         name: excerpt
         widget: text
@@ -193,7 +187,6 @@ collections:
         name: featuredResources
         widget: relation
         collection: resources
-        value_field: uuid
         search_fields: [title]
         display_fields: [title]
         required: false
@@ -231,15 +224,15 @@ collections:
         widget: boolean
         i18n: duplicate
         required: false
+      - label: Language
+        name: lang
+        widget: hidden
+        default: "{{locale}}"
       - label: Navigation Order
         name: order
         widget: number
         i18n: duplicate
         required: false
-      - label: Language
-        name: lang
-        widget: hidden
-        default: "{{locale}}"
       - label: UUID
         name: uuid
         widget: hidden
@@ -256,7 +249,7 @@ collections:
         name: parent
         widget: relation
         collection: projects
-        value_field: slug
+        value_field: translationKey
         search_fields: [title]
         display_fields: [title]
         required: true
@@ -289,7 +282,7 @@ collections:
     i18n:
       structure: multiple_folders
     folder: src/collections/resources/
-    slug: '{{fields.uuid}}'
+    slug: '{{fields._slug | localize}}'
     extension: md
     view_filters:
       - label: Drafts
@@ -300,51 +293,31 @@ collections:
         name: title
         widget: string
         i18n: true
-      - label: UUID
-        name: uuid
-        widget: uuid
-        i18n: duplicate
       - label: Draft
         name: draft
         widget: boolean
         i18n: duplicate
         required: false
-      - label: Description
-        name: description
-        widget: text
-        i18n: true
       - label: Language
         name: lang
         widget: hidden
         default: "{{locale}}"
+      - label: Description
+        name: description
+        widget: text
+        i18n: true
       - label: Publication Date
         name: date
         widget: datetime
         default: "{{now}}"
         i18n: duplicate
-      - label: Linking Options
-        name: linking
-        widget: object
+      - label: External Resource URL
+        name: link
+        widget: string
+        type: url
         i18n: duplicate
-        types:
-          - label: Resource Page
-            name: page
-            fields:
-              - label: Slug
-                name: slug
-                widget: string
-                i18n: true
-                hint: Enter a short form of the resource title to be used in the URL. Only lowercase letters, numbers and hyphens should be used, e.g. 'sample-project'. This must be unique.
-                pattern: ['^[a-z0-9-]+$', 'Only lowercase letters, numbers and hyphens permitted']
-          - label: External Link
-            name: link
-            fields:
-              - label: External Resource URL
-                name: link
-                widget: string
-                type: url
-                i18n: duplicate
-                hint: If you want the resource to link to an external URL instead of display a page on this website, enter a URL here.
+        hint: If you want the resource to link to an external URL instead of display a page on this website, enter a URL here.
+        required: false
       - label: Author
         name: author
         widget: string
@@ -395,7 +368,7 @@ collections:
         name: projects
         widget: relation
         collection: projects
-        value_field: uuid
+        value_field: translationKey
         search_fields: [title]
         display_fields: [title]
         required: false
@@ -405,7 +378,6 @@ collections:
         name: topics
         widget: relation
         collection: topics
-        value_field: uuid
         search_fields: [title]
         display_fields: [title]
         required: false
@@ -421,18 +393,16 @@ collections:
     label_singular: Topic
     name: topics
     icon: label
-    i18n: true
+    i18n:
+      structure: multiple_folders
     folder: src/collections/topics
     extension: md
+    slug: '{{uuid_short}}'
     fields:
       - label: Title
         name: title
         widget: string
         i18n: true
-      - label: Topic ID
-        name: uuid
-        widget: uuid
-        i18n: duplicate
   - divider: true
   - label: Stages
     label_singular: Stage
@@ -515,13 +485,13 @@ collections:
 
           "
         buttons: [bold, italic, link, heading-two, heading-three, heading-four, heading-five, heading-six, quote, bulleted-list, numbered-list]
-  - label: Opportunities
-    label_singular: Opportunity
-    name: opportunities
-    icon: lightbulb
+  - label: Barriers
+    label_singular: Barrier
+    name: barriers
+    icon: warning
     i18n:
       structure: multiple_folders
-    folder: src/collections/opportunities
+    folder: src/collections/barriers
     extension: md
     slug: '{{uuid_short}}'
     fields:
@@ -542,17 +512,16 @@ collections:
 
 
 
-          ## Approaches
+          ## Strategies and Tips
 
           "
         buttons: [bold, italic, link, heading-two, heading-three, heading-four, heading-five, heading-six, quote, bulleted-list, numbered-list]
-  - label: Approaches
-    label_singular: Approach
-    name: approaches
-    icon: directions_alt
+  - label: Strategies and Tips
+    name: strategies-and-tips
+    icon: lightbulb
     i18n:
       structure: multiple_folders
-    folder: src/collections/approaches
+    folder: src/collections/strategies-and-tips
     extension: md
     slug: '{{uuid_short}}'
     fields:
@@ -598,10 +567,10 @@ collections:
         required: false
         multiple: true
         i18n: duplicate
-      - label: Opportunities for Improvement
-        name: opportunities
+      - label: Barriers
+        name: barriers
         widget: relation
-        collection: opportunities
+        collection: barriers
         search_fields: [title]
         display_fields: [title]
         required: false

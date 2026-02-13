@@ -1,0 +1,15 @@
+---
+translationKey: zoom-accessibility-features
+title: Zoom accessibility features
+description: Zoom provides a range of accessibility features to ensure an inclusive experience for all users. Key features include closed captioning and live transcription (automated or manual), screen reader support (compatible with NVDA, JAWS, VoiceOver, and TalkBack), and full keyboard navigation with customizable shortcuts. Users can also adjust video display options to highlight interpreters or key speakers, and set language preferences for improved caption accuracy.
+lang: en
+date: 2025-05-06T12:11:00
+link: https://www.zoom.com/en/accessibility/?cms_guid=false&lang=en-US
+author: ''
+publisher: Zoom
+contentLanguages:
+  - en
+type: guide-or-toolkit
+projects: []
+topics: []
+---
