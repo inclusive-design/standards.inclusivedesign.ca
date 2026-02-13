@@ -1,14 +1,14 @@
 {% extends "layouts/base.njk" %}
 
 {% set pageType = 'project' %}
-{% set breadcrumb = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) | first %}
-{% set relatedResources = collections["resources_" + lang] | find("data.projects", uuid) %}
+{% set relatedResources = collections["resources_" + lang] | find("data.projects", translationKey) %}
 {% set hasRelatedResources = relatedResources | length > 0 %}
 
 {% block banner %}
 <div class="banner" style="--project-color: var(--fl-bgColor, var(--color-{{ color }}))">
     <div class="banner__content">
-        <a href="{{ breadcrumb.url }}" >{{ breadcrumb.title }} {% include 'svg/arrowRight.svg' %}</a>
+   		{% set breadcrumb = collections['pages_' + lang] | find('data.translationKey', 'projects') %}
+        <a href="{{ breadcrumb.url }}" >{{ breadcrumb.data.shortTitle if breadcrumb.data.shortTitle else breadcrumb.data.title }} {% include 'svg/arrowRight.svg' %}</a>
         <h1>{{ title }}</h1>
     </div>
     <div class="banner__image">
@@ -40,15 +40,15 @@
                         <li><a href="{{ subpage.url }}">{{ subpage.title }}</a></li>
                         {% endfor %}
                         {% for featuredResourceId in featuredResources %}
-                            {% set featuredResource = collections["resources_" + lang] | find("data.uuid", featuredResourceId) %}
-                            {% if featuredResource.data.linking.type == 'page' %}
-                            <li><a href="/{{ lang + '/' if lang != 'en' }}{% __ 'resources-slug' %}/{{ featuredResource.data.linking.slug }}">{{ featuredResource.data.title }}</a></li>
+                            {% set featuredResource = collections["resources_" + lang] | find("data.translationKey", featuredResourceId) %}
+                            {% if featuredResource.data.link and featuredResource.data.link !== '' %}
+                            <li><a rel="external" href="{{ featuredResource.data.link }}">{{ featuredResource.data.title }}</a></li>
                             {% else %}
-                            <li><a rel="external" href="{{ featuredResource.data.linking.link }}">{{ featuredResource.data.title }}</a></li>
+                            <li><a href="{{ featuredResource.url }}">{{ featuredResource.data.title }}</a></li>
                             {% endif %}
                         {% endfor %}
                         {% if hasRelatedResources %}
-                        <li><a href="/resources/?projects={{ uuid }}">{%  __ 'resources' %}</a></li>
+                        <li><a href="/resources/?projects={{ translationKey }}">{%  __ 'resources' %}</a></li>
                         {% endif %}
                     </ul>
                 </li>

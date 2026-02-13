@@ -1,0 +1,16 @@
+---
+translationKey: resources-on-digital-accessibility
+title: Resources on digital accessibility
+description: The ITU offers resources to promote ICT accessibility and digital inclusion, supporting Member States in developing inclusive digital policies. Key resources include toolkits, guidelines, reports, and online training on making digital services accessible to all, including people with disabilities. These materials aim to help create more inclusive digital societies.
+lang: en
+date: 2025-05-06T11:56:00
+link: https://www.itu.int/en/ITU-D/Digital-Inclusion/Pages/resources-on-ICT-accessibility/default.aspx
+author: ''
+publisher: ITU
+contentLanguages:
+  - en
+type: guide-or-toolkit
+projects:
+  - all-standards
+topics: []
+---
