@@ -12,7 +12,7 @@
                     {% __ 'strategies-and-tips-strategies' %} 
                 </h4>
             </div>
-            {{ strategyOrTip.data.strategies | markdownFilter | safe }}
+            {{ strategyOrTip.data.strategies | markdown | safe }}
         {% endif %}
         {% if strategyOrTip.data.tips %}
             <div class="card__heading-image">
@@ -21,7 +21,7 @@
                     {% __ 'strategies-and-tips-tips' %}
                 </h4>
             </div>
-            {{ strategyOrTip.data.tips | markdownFilter | safe }}
+            {{ strategyOrTip.data.tips | markdown | safe }}
         {% endif %}
         {% if strategyOrTip.data.barriers %}
             <div class="card__heading-image">
