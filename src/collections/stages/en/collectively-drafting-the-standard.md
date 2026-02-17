@@ -1,5 +1,7 @@
 ---
+translationKey: collectively-drafting-the-standard
 title: Collectively drafting the standard
+uuid: 5871d856
 draft: false
 order: 4
 processes: []

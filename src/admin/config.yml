@@ -418,11 +418,16 @@ collections:
       default:
           field: order
           direction: ascending
+    slug: '{{fields._slug | localize}}'
     fields:
       - label: Title
         name: title
         widget: string
         i18n: true
+      - name: uuid
+        widget: hidden
+        default: '{{uuid_shorter}}'
+        i18n: duplicate
       - label: Draft
         name: draft
         widget: boolean
@@ -438,16 +443,6 @@ collections:
         widget: markdown
         i18n: true
         buttons: [bold, italic]
-      - label: Processes
-        name: processes
-        widget: relation
-        collection: processes
-        value_field: translationKey
-        search_fields: [title]
-        display_fields: [title]
-        required: false
-        multiple: true
-        i18n: duplicate
   - label: Processes
     label_singular: Process
     name: processes
@@ -467,11 +462,25 @@ collections:
         widget: string
         i18n: true
         required: false
+      - name: uuid
+        widget: hidden
+        default: {{uuid_shorter}}
+        i18n: duplicate
       - label: Draft
         name: draft
         widget: boolean
         i18n: duplicate
         required: false
+      - label: Stage
+        name: stage
+        widget: relation
+        collection: stages
+        value_field: uuid
+        search_fields: [title]
+        display_fields: [title]
+        required: true
+        multiple: false
+        i18n: duplicate
       - label: Body
         name: body
         widget: markdown
@@ -498,6 +507,10 @@ collections:
         name: title
         widget: string
         i18n: true
+      - name: uuid
+        widget: hidden
+        default: {{uuid_shorter}}
+        i18n: duplicate
       - label: Draft
         name: draft
         widget: boolean
@@ -528,6 +541,10 @@ collections:
         name: title
         widget: string
         i18n: true
+      - name: uuid
+        widget: hidden
+        default: {{uuid_shorter}}
+        i18n: duplicate
       - label: Draft
         name: draft
         widget: boolean
@@ -561,7 +578,7 @@ collections:
         name: processes
         widget: relation
         collection: processes
-        value_field: translationKey
+        value_field: uuid
         search_fields: [title]
         display_fields: [title]
         required: false
@@ -571,7 +588,7 @@ collections:
         name: barriers
         widget: relation
         collection: barriers
-        value_field: translationKey
+        value_field: uuid
         search_fields: [title]
         display_fields: [title]
         required: false
