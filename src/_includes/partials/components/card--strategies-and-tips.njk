@@ -9,7 +9,7 @@
             <div class="card__heading-image">
                 {% include 'svg/strategies.svg' %}
                 <h4>
-                    {% __ 'approach-strategies' %} 
+                    {% __ 'strategies-and-tips-strategies' %} 
                 </h4>
             </div>
             {{ strategies.data.strategies }}
@@ -18,7 +18,7 @@
             <div class="card__heading-image">
                 {% include 'svg/tips.svg' %}
                 <h4>
-                    {% __ 'approach-tips' %}
+                    {% __ 'strategies-and-tips-tips' %}
                 </h4>
             </div>
             {{ strategies.data.tips }}
@@ -27,14 +27,14 @@
             <div class="card__heading-image">
                 {% include 'svg/barriers.svg' %}
                 <h4>
-                    {% __ 'approach-other-barriers' %}
+                    {% __ 'strategies-and-tips-other-barriers' %}
                 </h4>
             </div>
 
             <ul>
-                {% for title in strategies.data.barriers %}
+                {% for uuid in strategies.data.barriers %}
                     {% for barrier in collections['barriers_' + lang] %}
-                        {% if barrier.data.title == title %}
+                        {% if barrier.data.uuid == uuid %}
                             <li>{{ barrier.data.title }}</li>
                         {% endif %}
                     {% endfor %}
