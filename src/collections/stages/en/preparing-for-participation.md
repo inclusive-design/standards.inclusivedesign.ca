@@ -1,5 +1,7 @@
 ---
+translationKey: preparing-for-participation
 title: Preparing for participation
+uuid: 228cf07a
 draft: false
 order: 3
 processes: []
