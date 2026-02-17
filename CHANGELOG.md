@@ -1,5 +1,11 @@
 # Changelog
 
+## [2026.02.17.1748.b0274a4](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.02.17.1730.5e6145a...2026.02.17.1748.b0274a4)
+
+### Bug Fixes
+
+* fix: quote template strings (#350) [@nedatidrc](https://github.com/nedatidrc)
+
 ## [2026.02.17.1730.5e6145a](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.01.06.1511.b77c4b8...2026.02.17.1730.5e6145a)
 
 * chore(deps): update dependency markdownlint-cli2 to ^0.21.0 (#343) @[renovate[bot]](https://github.com/apps/renovate)
