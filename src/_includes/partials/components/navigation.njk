@@ -11,7 +11,7 @@
             <ul>
                 {% for item in navItems %}
                 <li>
-                    <a class="navigation__link" href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.key }}</a>
+                    <a class="navigation__link" href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
                 </li>
                 {% endfor %}
             </ul>
