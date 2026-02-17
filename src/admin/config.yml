@@ -464,7 +464,7 @@ collections:
         required: false
       - name: uuid
         widget: hidden
-        default: {{uuid_shorter}}
+        default: '{{uuid_shorter}}'
         i18n: duplicate
       - label: Draft
         name: draft
@@ -509,7 +509,7 @@ collections:
         i18n: true
       - name: uuid
         widget: hidden
-        default: {{uuid_shorter}}
+        default: '{{uuid_shorter}}'
         i18n: duplicate
       - label: Draft
         name: draft
@@ -543,7 +543,7 @@ collections:
         i18n: true
       - name: uuid
         widget: hidden
-        default: {{uuid_shorter}}
+        default: '{{uuid_shorter}}'
         i18n: duplicate
       - label: Draft
         name: draft
