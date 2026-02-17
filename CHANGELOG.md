@@ -1,5 +1,34 @@
 # Changelog
 
+## [2026.02.17.1730.5e6145a](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.01.06.1511.b77c4b8...2026.02.17.1730.5e6145a)
+
+* chore(deps): update dependency markdownlint-cli2 to ^0.21.0 (#343) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): lock file maintenance (#344) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): lock file maintenance (#336) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): update commitlint monorepo to v20.4.1 (#328) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): lock file maintenance (#323) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): update dependency [@biomejs](https://github.com/biomejs)/biome to v2.3.14 (#325) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): update dependency eleventy-plugin-fluid to v3.1.5 (#324) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): update commitlint monorepo to v20.4.1 (#321) @[renovate[bot]](https://github.com/apps/renovate)
+
+### Features
+
+* feat: choose states from processes, use UUIDs for relationship stability (#347) [@nedatidrc](https://github.com/nedatidrc)
+* feat: use file slugs for permalinks everywhere (#346) [@nedatidrc](https://github.com/nedatidrc)
+* feat: rename collections, deprecate UUIDs for most (#342) [@nedatidrc](https://github.com/nedatidrc)
+* feat: stub collection templates to resolve parse errors (#340) [@nedatidrc](https://github.com/nedatidrc)
+* feat: add CMS config to support guidelines page and browse pages (#339) [@nedatidrc](https://github.com/nedatidrc)
+* feat: add CMS config for stages, process, opportunities and approaches (#337) [@nedatidrc](https://github.com/nedatidrc)
+* feat: switch to new linters (#327) [@nedatidrc](https://github.com/nedatidrc)
+
+### Bug Fixes
+
+* feat: stub collection templates to resolve parse errors (#340) [@nedatidrc](https://github.com/nedatidrc)
+
+### Chores
+
+* chore: remove version (#348) [@nedatidrc](https://github.com/nedatidrc)
+
 ## [2026.01.06.1511.b77c4b8](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2025.12.17.2037.557d87f...2026.01.06.1511.b77c4b8)
 
 * chore(deps): update dependency [@biomejs](https://github.com/biomejs)/biome to v2.3.11 (#318) @[renovate[bot]](https://github.com/apps/renovate)
