@@ -282,7 +282,7 @@ collections:
     i18n:
       structure: multiple_folders
     folder: src/collections/resources/
-    slug: '{{fields._slug | localize}}'
+    slug: "{{fields._slug | localize}}"
     extension: md
     view_filters:
       - label: Drafts
@@ -397,7 +397,7 @@ collections:
       structure: multiple_folders
     folder: src/collections/topics
     extension: md
-    slug: '{{uuid_short}}'
+    slug: "{{uuid_short}}"
     fields:
       - label: Title
         name: title
@@ -418,7 +418,7 @@ collections:
       default:
           field: order
           direction: ascending
-    slug: '{{fields._slug | localize}}'
+    slug: "{{fields._slug | localize}}"
     fields:
       - label: Title
         name: title
@@ -426,7 +426,7 @@ collections:
         i18n: true
       - name: uuid
         widget: hidden
-        default: '{{uuid_shorter}}'
+        default: "{{uuid_shorter}}"
         i18n: duplicate
       - label: Draft
         name: draft
@@ -451,7 +451,7 @@ collections:
       structure: multiple_folders
     folder: src/collections/processes
     extension: md
-    slug: '{{fields._slug | localize}}'
+    slug: "{{fields._slug | localize}}"
     fields:
       - label: Title
         name: title
@@ -464,7 +464,7 @@ collections:
         required: false
       - name: uuid
         widget: hidden
-        default: '{{uuid_shorter}}'
+        default: "{{uuid_shorter}}"
         i18n: duplicate
       - label: Draft
         name: draft
@@ -501,7 +501,7 @@ collections:
       structure: multiple_folders
     folder: src/collections/barriers
     extension: md
-    slug: '{{fields._slug | localize}}'
+    slug: "{{fields._slug | localize}}"
     fields:
       - label: Title
         name: title
@@ -509,7 +509,7 @@ collections:
         i18n: true
       - name: uuid
         widget: hidden
-        default: '{{uuid_shorter}}'
+        default: "{{uuid_shorter}}"
         i18n: duplicate
       - label: Draft
         name: draft
@@ -535,7 +535,7 @@ collections:
       structure: multiple_folders
     folder: src/collections/strategies-and-tips
     extension: md
-    slug: '{{fields._slug | localize}}'
+    slug: "{{fields._slug | localize}}"
     fields:
       - label: Title
         name: title
@@ -543,7 +543,7 @@ collections:
         i18n: true
       - name: uuid
         widget: hidden
-        default: '{{uuid_shorter}}'
+        default: "{{uuid_shorter}}"
         i18n: duplicate
       - label: Draft
         name: draft
