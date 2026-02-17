@@ -2,28 +2,28 @@
     <div class="card__content">
         <h3>
             <a class="card__title" href="">
-                {{ strategies.data.title }}
+                {{ strategyOrTip.data.title }}
             </a>
         </h3>
-        {% if strategies.data.strategies %}
+        {% if strategyOrTip.data.strategies %}
             <div class="card__heading-image">
                 {% include 'svg/strategies.svg' %}
                 <h4>
                     {% __ 'strategies-and-tips-strategies' %} 
                 </h4>
             </div>
-            {{ strategies.data.strategies }}
+            {{ strategyOrTip.data.strategies | markdownFilter | safe }}
         {% endif %}
-        {% if strategies.data.tips %}
+        {% if strategyOrTip.data.tips %}
             <div class="card__heading-image">
                 {% include 'svg/tips.svg' %}
                 <h4>
                     {% __ 'strategies-and-tips-tips' %}
                 </h4>
             </div>
-            {{ strategies.data.tips }}
+            {{ strategyOrTip.data.tips | markdownFilter | safe }}
         {% endif %}
-        {% if strategies.data.barriers %}
+        {% if strategyOrTip.data.barriers %}
             <div class="card__heading-image">
                 {% include 'svg/barriers.svg' %}
                 <h4>
@@ -32,7 +32,7 @@
             </div>
 
             <ul>
-                {% for uuid in strategies.data.barriers %}
+                {% for uuid in strategyOrTip.data.barriers %}
                     {% for barrier in collections['barriers_' + lang] %}
                         {% if barrier.data.uuid == uuid %}
                             <li>{{ barrier.data.title }}</li>
