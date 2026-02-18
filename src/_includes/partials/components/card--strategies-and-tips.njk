@@ -1,0 +1,45 @@
+<div class="card strategies-and-tips bg-indigo-700">
+    <div class="card__content">
+        <h3>
+            <a class="card__title" href="">
+                {{ strategyOrTip.data.title }}
+            </a>
+        </h3>
+        {% if strategyOrTip.data.strategies %}
+            <div class="card__heading-image">
+                {% include 'svg/strategies.svg' %}
+                <h4>
+                    {% __ 'strategies-and-tips-strategies' %} 
+                </h4>
+            </div>
+            {{ strategyOrTip.data.strategies | markdown | safe }}
+        {% endif %}
+        {% if strategyOrTip.data.tips %}
+            <div class="card__heading-image">
+                {% include 'svg/tips.svg' %}
+                <h4>
+                    {% __ 'strategies-and-tips-tips' %}
+                </h4>
+            </div>
+            {{ strategyOrTip.data.tips | markdown | safe }}
+        {% endif %}
+        {% if strategyOrTip.data.barriers %}
+            <div class="card__heading-image">
+                {% include 'svg/barriers.svg' %}
+                <h4>
+                    {% __ 'strategies-and-tips-other-barriers' %}
+                </h4>
+            </div>
+
+            <ul>
+                {% for uuid in strategyOrTip.data.barriers %}
+                    {% for barrier in collections['barriers_' + lang] %}
+                        {% if barrier.data.uuid == uuid %}
+                            <li>{{ barrier.data.title }}</li>
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+</div>

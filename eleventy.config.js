@@ -37,6 +37,8 @@ export default function eleventy(eleventyConfig) {
 	});
 
 	for (const lang of ['en', 'fr']) {
+		eleventyConfig.addCollection(`barriers_${lang}`, collection => collection.getFilteredByGlob(`src/collections/barriers/${lang}/*.md`));
+
 		eleventyConfig.addCollection(`pages_${lang}`, collection => collection.getFilteredByGlob(`src/collections/pages/${lang}/*.md`));
 
 		eleventyConfig.addCollection(`projects_${lang}`, collection => collection.getFilteredByGlob(`src/collections/projects/${lang}/*.md`));
@@ -44,6 +46,8 @@ export default function eleventy(eleventyConfig) {
 		eleventyConfig.addCollection(`projectsubpages_${lang}`, collection => collection.getFilteredByGlob(`src/collections/project-subpages/${lang}/*.md`));
 
 		eleventyConfig.addCollection(`resources_${lang}`, collection => collection.getFilteredByGlob(`src/collections/resources/${lang}/*.md`));
+
+		eleventyConfig.addCollection(`strategies-and-tips_${lang}`, collection => collection.getFilteredByGlob(`src/collections/strategies-and-tips/${lang}/*.md`));
 
 		eleventyConfig.addCollection(`topics_${lang}`, collection => collection.getFilteredByGlob(`src/collections/topics/${lang}/*.md`));
 	}
