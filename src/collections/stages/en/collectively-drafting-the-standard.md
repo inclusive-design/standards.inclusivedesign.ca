@@ -1,0 +1,10 @@
+---
+translationKey: collectively-drafting-the-standard
+title: Collectively drafting the standard
+uuid: 5871d856
+draft: false
+order: 4
+processes: []
+---
+
+This stage focuses on working together to write the standard in an inclusive and accessible way. It includes making sure drafting activities are accessible, supporting different ways of contributing, sharing power and decision-making, and creating space for Disabled and Deaf participants to meaningfully shape the content of the standard.

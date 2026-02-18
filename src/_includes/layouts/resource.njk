@@ -2,19 +2,18 @@
 
 {% set pageType = 'resource' %}
 
-{% set breadcrumb = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) | first %}
-
 {% block banner %}
 <div class="banner">
     <div class="wrapper">
         <div class="banner__content flow">
-            <a href="{{ breadcrumb.url }}" >{{ breadcrumb.title }} {% include 'svg/arrowRight.svg' %}</a>
+        	{% set breadcrumb = collections['pages_' + lang] | find('data.translationKey', 'resources') %}
+            <a href="{{ breadcrumb.url }}" >{{ readcrumb.data.shortTitle if breadcrumb.data.shortTitle else breadcrumb.data.title }} {% include 'svg/arrowRight.svg' %}</a>
             <h1>{{ title }}</h1>
             <div class="meta flow">
                 {% if topics.length %}
                 <p>
                 {% include "../../assets/images/topic.svg" %} {% for topicId in topics -%}
-                {%- set topic = collections['topics_' + lang] | find("data.uuid", topicId) -%}
+                {%- set topic = collections['topics_' + lang] | find("data.page.fileSlug", topicId) -%}
                 {{ topic.data.title }}{% if not loop.last %}, {% endif -%}
                 {%- endfor %}
                 </p>
@@ -25,7 +24,7 @@
                 {% if projects.length %}
                 <p>
                 {% include "../../assets/images/project.svg" %} {% for projectId in projects -%}
-                {%- set project = collections['projects_' + lang] | find("data.uuid", projectId) -%}
+                {%- set project = collections['projects_' + lang] | find("data.translationKey", projectId) -%}
                 {{ project.data.title }}{% if not loop.last %}, {% endif -%}
                 {%- endfor %}
                 </p>

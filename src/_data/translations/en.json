@@ -13,10 +13,11 @@
 	"projects": "Projects",
 	"projects-slug": "projects",
 	"processes-slug": "guidelines/processes",
-	"opportunities-slug": "guidelines/opportunities",
-	"approaches-slug": "guidelines/approaches",
+	"barriers-slug": "guidelines/barriers",
+	"strategies-and-tips-slug": "guidelines/strategies-and-tips",
 	"publisher": "Publisher",
 	"resources": "Resources",
+	"guidelines": "guidelines",
 	"resources-slug": "resources",
 	"social-media": "Social Media",
 	"type": "Type",
@@ -47,5 +48,8 @@
 	"sort-by": "Sort by:",
 	"title": "Title",
 	"newest-date": "Newest date",
-	"oldest-date": "Oldest date"
+	"oldest-date": "Oldest date",
+	"strategies-and-tips-strategies": "Strategies",
+	"strategies-and-tips-tips": "Tips",
+	"strategies-and-tips-other-barriers": "Other barriers this approach addresses"
 }

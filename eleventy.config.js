@@ -8,6 +8,7 @@ import _ from 'lodash';
 import parseTransform from './src/_transforms/parse-transform.js';
 import objectArrayPush from './src/assets/scripts/object-array-push.js';
 import env from 'node:process';
+import findTranslationKeyFilter from './src/_filters/find-translation-key-filter.js';
 
 /**
  * @param {import("@11ty/eleventy").UserConfig} eleventyConfig An instance of Eleventy's UserConfig class.
@@ -36,6 +37,8 @@ export default function eleventy(eleventyConfig) {
 	});
 
 	for (const lang of ['en', 'fr']) {
+		eleventyConfig.addCollection(`barriers_${lang}`, collection => collection.getFilteredByGlob(`src/collections/barriers/${lang}/*.md`));
+
 		eleventyConfig.addCollection(`pages_${lang}`, collection => collection.getFilteredByGlob(`src/collections/pages/${lang}/*.md`));
 
 		eleventyConfig.addCollection(`projects_${lang}`, collection => collection.getFilteredByGlob(`src/collections/projects/${lang}/*.md`));
@@ -44,10 +47,13 @@ export default function eleventy(eleventyConfig) {
 
 		eleventyConfig.addCollection(`resources_${lang}`, collection => collection.getFilteredByGlob(`src/collections/resources/${lang}/*.md`));
 
+		eleventyConfig.addCollection(`strategies-and-tips_${lang}`, collection => collection.getFilteredByGlob(`src/collections/strategies-and-tips/${lang}/*.md`));
+
 		eleventyConfig.addCollection(`topics_${lang}`, collection => collection.getFilteredByGlob(`src/collections/topics/${lang}/*.md`));
 	}
 
 	eleventyConfig.addFilter('objectArrayPush', objectArrayPush);
+	eleventyConfig.addFilter('findTranslationKey', findTranslationKeyFilter);
 
 	/*
 	  Provide a custom duplicate of eleventy-plugin-fluid's uioInit shortcode in

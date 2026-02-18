@@ -1,0 +1,10 @@
+---
+translationKey: outreach-recruiting-and-registering-participants
+title: Outreach, recruiting and registering participants
+uuid: b394d47d
+draft: false
+order: 2
+processes: []
+---
+
+Inclusive recruitment and registration require organizational commitment, diverse and accessible outreach, transparent processes, and adequate support. By embedding equity into policies, engaging diverse disability and community groups, ensuring accessible systems, and providing accommodations and financial support, organizations can remove barriers and broaden participation in standards development.

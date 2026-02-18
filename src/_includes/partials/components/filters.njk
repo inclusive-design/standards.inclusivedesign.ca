@@ -17,10 +17,10 @@
                     <div id="topic">
                         <ul id="filter-topic">
                             {% for topic in collections['topics_' + lang] %}
-                                {% if topic.data.uuid in filterableOptions.topics %}
+                                {% if topic.data.page.fileSlug in filterableOptions.topics %}
                                     <li>
-                                        <input type="checkbox" id="{{ topic.data.uuid }}" name="topic" value="{{ topic.data.uuid }}" data-filter-key="topics"/>
-                                        <label for="{{ topic.data.uuid }}">{{ topic.data.title }}</label>
+                                        <input type="checkbox" id="{{ topic.data.page.fileSlug }}" name="topic" value="{{ topic.data.page.fileSlug }}" data-filter-key="topics"/>
+                                        <label for="{{ topic.data.page.fileSlug }}">{{ topic.data.title }}</label>
                                     </li>
                                 {% endif %}
                             {% endfor %}
@@ -55,10 +55,10 @@
                     <div id="project">
                         <ul id="filter-project">
                             {% for project in collections['projects_' + lang] %}
-                                {% if project.data.uuid in filterableOptions.projects %}
+                                {% if project.data.translationKey in filterableOptions.projects %}
                                     <li>
-                                        <input type="checkbox" id="{{ project.data.uuid }}" name="project" value="{{ project.data.uuid }}" data-filter-key="projects"/>
-                                        <label for="{{ project.data.uuid }}">{{ project.data.title }}</label>
+                                        <input type="checkbox" id="{{ project.data.translationKey }}" name="project" value="{{ project.data.translationKey }}" data-filter-key="projects"/>
+                                        <label for="{{ project.data.translationKey }}">{{ project.data.title }}</label>
                                     </li>
                                 {% endif %}
                             {% endfor %}

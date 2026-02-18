@@ -1,0 +1,16 @@
+---
+translationKey: eaa
+title: European Accessibility Act (EAA)
+description: L'Acte européen sur l'accessibilité est une directive de l'UE visant à harmoniser les normes d'accessibilité dans les États membres afin d'améliorer le marché intérieur. Elle aide les entreprises en réduisant les coûts et en simplifiant le commerce transfrontalier, tout en bénéficiant aux personnes handicapées et aux personnes âgées grâce à un meilleur accès à des produits et services clés à des prix plus avantageux. Les domaines couverts sont la technologie, la banque, les transports, le commerce électronique et les médias. Il a été élaboré avec la participation des parties prenantes et aligné sur la Convention des Nations unies relative aux droits des personnes handicapées.
+lang: fr
+date: 2025-05-06T12:38:00
+link: https://ec.europa.eu/social/main.jsp?catId=1202
+author: ''
+publisher: European Commission
+contentLanguages:
+  - en
+type: standards
+projects:
+  - all-standards
+topics: []
+---

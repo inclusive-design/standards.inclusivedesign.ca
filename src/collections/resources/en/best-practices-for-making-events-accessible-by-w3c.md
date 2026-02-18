@@ -1,0 +1,16 @@
+---
+translationKey: best-practices-for-making-events-accessible-by-w3c
+title: Best practices for making events accessible by W3C
+description: 'The W3C guide on accessible presentations offers tips for making events inclusive for people with disabilities. Key advice includes: use accessible venues and platforms, provide materials in accessible formats, describe visuals aloud, speak clearly, and plan for diverse needs. These practices improve experiences for everyone.'
+lang: en
+date: 2025-05-06T11:44:00
+link: https://www.w3.org/WAI/teach-advocate/accessible-presentations/
+author: ''
+publisher: W3C
+contentLanguages:
+  - en
+type: guide-or-toolkit
+projects:
+  - all-standards
+topics: []
+---

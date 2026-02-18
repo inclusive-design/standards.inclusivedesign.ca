@@ -29,7 +29,7 @@
         {% if resource.data.topics.length > 0 %}
         <div class="card__tags tags">
             {% for topicId in resource.data.topics %}
-            {% set topic = collections['topics_' + lang] | find("data.uuid", topicId) %}
+            {% set topic = collections['topics_' + lang] | find("data.page.fileSlug", topicId) %}
             <div class="tag">{{ topic.data.title }}</div>
             {% endfor %}
         </div>

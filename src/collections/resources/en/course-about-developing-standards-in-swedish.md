@@ -1,0 +1,16 @@
+---
+translationKey: course-about-developing-standards-in-swedish
+title: Course about developing standards in Swedish
+description: This online training is designed for those interested in learning how to work with standardization as a representative of product and service users. The training is available in text or video formats, with options for reading aloud and adjusting the speed. It covers topics such as the importance of standardization, what a standard is, standardization efforts in Sweden and globally, and the role of a user representative in standardization processes.
+lang: en
+date: 2025-05-06T12:31:00
+link: https://utbildning.allavinner.nu/
+author: ''
+publisher: utbildning
+contentLanguages:
+  - se
+type: guide-or-toolkit
+projects:
+  - all-standards
+topics: []
+---

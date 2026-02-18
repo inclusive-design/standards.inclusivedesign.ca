@@ -1,6 +1,6 @@
 .guidelines .banner,
 .processes .banner,
-.opportunities .banner {
+.barriers .banner {
     background-color: var(--fl-bgColor, var(--color-indigo-200));
     color: var(--fl-fgColor, var(--color-black));
 }

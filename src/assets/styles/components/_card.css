@@ -12,6 +12,12 @@
     position: relative;
 }
 
+.card.strategies-and-tips {
+    padding-block-start: unset;
+    padding-inline-start: 0.8125rem;
+}
+
+
 .resources .card {
     background-color: var(--fl-bgColor, var(--color-indigo-100));
     padding-block-end: 0.5rem;
@@ -76,6 +82,15 @@ body:not([class*="fl-theme"]),
     display: block;
     inset: 0;
     position: absolute;
+}
+
+.card__heading-image svg {
+    fill:none;
+    height: 2rem;
+    min-width: 2rem;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-width: 2;
 }
 
 .card__body,
