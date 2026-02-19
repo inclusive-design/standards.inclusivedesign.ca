@@ -25,24 +25,21 @@
     width: 100%;
 }
 
-.card.barrier .card__content h4:first-of-type::before {
+.card.barrier .card__content h4::before {
     background: currentcolor;
     block-size: 2rem;
     content: '';
     display: inline-block;
     inline-size: 2rem;
-    mask-image: url('../images/problem.svg');
     mask-repeat: no-repeat;
 }
 
+.card.barrier .card__content h4:first-of-type::before {
+    mask-image: url('../images/problem.svg');
+}
+
 .card.barrier .card__content h4:last-of-type::before {
-    background: currentcolor;
-    block-size: 2rem;
-    content: '';
-    display: inline-block;
-    inline-size: 2rem;
     mask-image: url('../images/fix.svg');
-    mask-repeat: no-repeat;
 }
 
 
