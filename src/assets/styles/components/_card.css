@@ -12,9 +12,37 @@
     position: relative;
 }
 
-.card.strategies-and-tips {
+.card.strategies-and-tips,
+.card.barrier {
     padding-block-start: unset;
     padding-inline-start: 0.8125rem;
+}
+
+.card.barrier .card__content h4 {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+
+.card.barrier .card__content h4:first-of-type::before {
+    background: currentcolor;
+    block-size: 2rem;
+    content: '';
+    display: inline-block;
+    inline-size: 2rem;
+    mask-image: url('../images/problem.svg');
+    mask-repeat: no-repeat;
+}
+
+.card.barrier .card__content h4:last-of-type::before {
+    background: currentcolor;
+    block-size: 2rem;
+    content: '';
+    display: inline-block;
+    inline-size: 2rem;
+    mask-image: url('../images/fix.svg');
+    mask-repeat: no-repeat;
 }
 
 
