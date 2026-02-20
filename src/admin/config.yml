@@ -516,18 +516,12 @@ collections:
         widget: boolean
         i18n: duplicate
         required: false
-      - label: Body
-        name: body
+      - label: Problem
+        name: problem
         widget: markdown
         i18n: true
-        default: "## Why is this a problem?
-
-
-
-          ## Strategies and Tips
-
-          "
-        buttons: [bold, italic, link, heading-two, heading-three, heading-four, heading-five, heading-six, quote, bulleted-list, numbered-list]
+        buttons: [bold, italic, link, bulleted-list, numbered-list]
+        required: false
   - label: Strategies and Tips
     name: strategies-and-tips
     icon: lightbulb
@@ -554,7 +548,7 @@ collections:
         name: strategies
         widget: markdown
         i18n: true
-        buttons: [bold, italic, link bulleted-list, numbered-list]
+        buttons: [bold, italic, link, bulleted-list, numbered-list]
         required: false
       - label: Tips
         name: tips

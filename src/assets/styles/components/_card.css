@@ -12,11 +12,11 @@
     position: relative;
 }
 
-.card.strategies-and-tips {
+.card.strategies-and-tips,
+.card.barrier {
     padding-block-start: unset;
     padding-inline-start: 0.8125rem;
 }
-
 
 .resources .card {
     background-color: var(--fl-bgColor, var(--color-indigo-100));
