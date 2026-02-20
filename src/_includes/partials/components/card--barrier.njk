@@ -14,7 +14,7 @@
             </div>
             {{ barrier.data.problem | safe }}
         {% endif %}
-        {% if barrier.data.strategies %}
+        {% if collections["strategies-and-tips_" + lang] | find("data.barriers", barrier.data.uuid) | length > 0 %}
             <div class="card__heading-image">
                 {% include 'svg/fix.svg' %}
                 <h4>
@@ -22,12 +22,10 @@
                 </h4>
             </div>
             <ul>
-                {% for uuid in barrier.data.strategies %}
-                    {% for strategy in collections['strategies-and-tips_' + lang] %}
-                        {% if strategy.data.uuid == uuid %}
-                            <li>{{ strategy.data.title }}</li>
-                        {% endif %}
-                    {% endfor %}
+                {% for strategy in collections["strategies-and-tips_" + lang] %}
+                    {% if barrier.data.uuid in strategy.data.barriers %}
+                        <li>{{ strategy.data.title }}</li>
+                    {% endif %}
                 {% endfor %}
             </ul>
         {% endif %}
