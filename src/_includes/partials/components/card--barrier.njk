@@ -21,7 +21,15 @@
                     {% __ 'barriers-fix' %} 
                 </h4>
             </div>
-            {{ barrier.data.strategies | safe }}
+            <ul>
+                {% for uuid in barrier.data.strategies %}
+                    {% for strategy in collections['strategies-and-tips_' + lang] %}
+                        {% if strategy.data.uuid == uuid %}
+                            <li>{{ strategy.data.title }}</li>
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
+            </ul>
         {% endif %}
     </div>
 </div>

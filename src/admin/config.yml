@@ -520,14 +520,18 @@ collections:
         name: problem
         widget: markdown
         i18n: true
-        buttons: [bold, italic, link bulleted-list, numbered-list]
-        required: true
+        buttons: [bold, italic, link, bulleted-list, numbered-list]
+        required: false
       - label: Strategies
         name: strategies
-        widget: markdown
-        i18n: true
-        buttons: [bold, italic, link bulleted-list, numbered-list]
-        required: true
+        widget: relation
+        collection: strategies-and-tips
+        value_field: uuid
+        search_fields: [title]
+        display_fields: [title]
+        required: false
+        multiple: true
+        i18n: duplicate
   - label: Strategies and Tips
     name: strategies-and-tips
     icon: lightbulb
@@ -554,7 +558,7 @@ collections:
         name: strategies
         widget: markdown
         i18n: true
-        buttons: [bold, italic, link bulleted-list, numbered-list]
+        buttons: [bold, italic, link, bulleted-list, numbered-list]
         required: false
       - label: Tips
         name: tips
