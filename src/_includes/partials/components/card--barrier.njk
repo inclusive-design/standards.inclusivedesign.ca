@@ -1,12 +1,27 @@
 <div class="card barrier bg-indigo-700">
     <div class="card__content">
         <h3>
-            <a class="card__title" href="">
+            <a class="card__title" href="{{ barrier.url }}">
                 {{ barrier.data.title }}
             </a>
         </h3>
-        <div>
-            {{ barrier.content | safe }}
-        </div>
+        {% if barrier.data.problem %}
+            <div class="card__heading-image">
+                {% include 'svg/problem.svg' %}
+                <h4>
+                    {% __ 'barriers-problem' %} 
+                </h4>
+            </div>
+            {{ barrier.data.problem | safe }}
+        {% endif %}
+        {% if barrier.data.strategies %}
+            <div class="card__heading-image">
+                {% include 'svg/fix.svg' %}
+                <h4>
+                    {% __ 'barriers-fix' %} 
+                </h4>
+            </div>
+            {{ barrier.data.strategies | safe }}
+        {% endif %}
     </div>
 </div>
