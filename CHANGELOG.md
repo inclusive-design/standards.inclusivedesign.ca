@@ -1,5 +1,18 @@
 # Changelog
 
+## [2026.02.20.1932.98eb6e1](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.02.17.1748.b0274a4...2026.02.20.1932.98eb6e1)
+
+* chore(deps): lock file maintenance (#357) @[renovate[bot]](https://github.com/apps/renovate)
+
+### Features
+
+* feat: barrier card (#355) [@chosww](https://github.com/chosww)
+* feat: implement Strategies and Tips card (resolves #338) (#341) [@chosww](https://github.com/chosww)
+
+### Bug Fixes
+
+* fix: use doublequotes (#352) [@nedatidrc](https://github.com/nedatidrc)
+
 ## [2026.02.17.1748.b0274a4](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.02.17.1730.5e6145a...2026.02.17.1748.b0274a4)
 
 ### Bug Fixes
