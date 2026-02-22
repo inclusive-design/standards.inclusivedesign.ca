@@ -17,9 +17,8 @@
     </inclusive-disclosure>
 </nav>
 <article class="flow">
-{% set parts = content | split('<!-- search -->') %}
-{{ parts[0] | renderContent('md') | safe }}
+{{ content | safe }}
 {% include 'partials/components/guidelines-search.njk' %}
-{{ parts[1] | renderContent('md') | safe }}
+{{ outro | renderContent('md') | safe }}
 </article>
 {% endblock %}

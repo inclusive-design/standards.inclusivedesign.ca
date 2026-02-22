@@ -10,6 +10,14 @@ previewImageAlt: ''
 bannerTitle: ''
 bannerText: ''
 bannerImageAlt: ''
+outro: |-
+  ## Browse by Standards Development Processes
+
+  [Explore all Strategies and Tips](/guidelines/processes/)
+
+  ## Browse by Barriers
+
+  [Explore all Strategies and Tips to tackle your Barrier](/guidelines/barriers/)
 ---
 
 ## Building Standards for Everyone, with Everyone
@@ -56,13 +64,3 @@ Visit the challenges library to see a list of barriers faced by SDOs, organized 
 ## What are you looking for?
 
 Use the search bar to find suggestions for improving your standards development process or to solve a barrier in your process. For example, try searching for ‘meeting’ or ‘hybrid’ to find suggestions for improving your hybrid meetings.
-
-<!-- search -->
-
-## Browse by Standards Development Processes
-
-[Explore all Approaches and Practical Tips](/guidelines/processes/)
-
-## Browse by Opportunities for Improvement
-
-[Explore all Approaches and Practical Tips to tackle your Barrier](/guidelines/opportunities/)
