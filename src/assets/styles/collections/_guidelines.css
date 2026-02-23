@@ -23,6 +23,12 @@
     display: none;
 }
 
+.process inclusive-disclosure h3 {
+    font-size: var(--step-2);
+    font-weight: var(--font-weight-semibold);
+    margin-block-end: var(--flow-space, 1em);
+}
+
 .guidelines nav inclusive-disclosure,
 .process nav inclusive-disclosure {
     padding-inline: 0;
@@ -98,7 +104,7 @@
     }
 
     .guidelines nav inclusive-disclosure [aria-expanded],
-    .process nav inclusive-disclosure > * {
+    .process nav inclusive-disclosure > [aria-expanded] {
         display: none;
     }
 

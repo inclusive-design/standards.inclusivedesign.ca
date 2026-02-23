@@ -21,9 +21,12 @@
             <h2 id="process-menu">{% __ 'toc' %}</h2>
         </button>
         <div content id="{{ title | slugify }}-menu">
-            <div id="toc">
-                <ul role="list" class="flow"></ul>
-            </div>
+            <ul role="list" class="flow">
+                <li class="flow" id="toc">
+                        <h3>{% __ 'toc' %}</h3>
+                    <ul role="list" class="flow"></ul>
+                </li>
+            </ul>
         </div>
     </inclusive-disclosure>
 </nav>
