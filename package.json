@@ -39,7 +39,7 @@
 		"@11ty/eleventy-navigation": "^1.0.0",
 		"@11ty/font-awesome": "^1.0.1",
 		"@zachleat/filter-container": "greatislander/filter-container#feat/paginated-results",
-		"eleventy-plugin-fluid": "^3.1.6",
+		"eleventy-plugin-fluid": "^3.2.0",
 		"eleventy-plugin-footnotes": "^0.11.0",
 		"infusion": "^4.8.0",
 		"rimraf": "^6.0",
