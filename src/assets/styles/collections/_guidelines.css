@@ -65,6 +65,18 @@
     max-width: 100%;
 }
 
+.processes section {
+	background-color: transparent;
+
+	h2 + p {
+		margin-block-start: var(--step-1);
+	}
+
+	.cards {
+		margin-block-start: calc(48 / 16 * 1rem);
+	}
+}
+
 @media (width >= 70.875rem) {
     .guidelines .content {
         display: grid;

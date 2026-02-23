@@ -3,7 +3,7 @@
 {% block content %}
 {% set data = {"translations": translations, "lang": lang} %}
     {% if collections['projects_' + lang].length > 0 %}
-    <section>
+    <section class="bg-indigo-200">
       <div class="wrapper flow">
         <h2>{% __ 'projects' %}</h2>
         <div class="cards">
@@ -16,7 +16,7 @@
     {% endif %}
 
     {% if collections['resources_' + lang].length > 0 %}
-    <section>
+    <section class="bg-indigo-700">
       <div class="wrapper flow">
         <h2>{% __ 'resources' %}</h2>
         <div class="cards resources">
