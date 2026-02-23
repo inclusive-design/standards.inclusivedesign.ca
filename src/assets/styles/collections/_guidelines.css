@@ -1,4 +1,5 @@
 .guidelines .banner,
+.process .banner,
 .processes .banner,
 .barriers .banner {
     background-color: var(--fl-bgColor, var(--color-indigo-200));
@@ -6,31 +7,39 @@
 }
 
 .guidelines nav,
-.guidelines article {
+.guidelines article, 
+.process nav,
+.process article{
     box-shadow: inset 0 -0.1875rem 0 0 var(--fl-fgColor, transparent);
 }
 
-.guidelines nav {
+.guidelines nav,
+.process nav {
     background-color: var(--fl-bgColor, var(--color-indigo-100));
 }
 
-.guidelines nav > h2 {
+.guidelines nav > h2,
+.process nav > h2 {
     display: none;
 }
 
-.guidelines nav inclusive-disclosure {
+.guidelines nav inclusive-disclosure,
+.process nav inclusive-disclosure {
     padding-inline: 0;
 }
 
-.guidelines nav inclusive-disclosure > * {
+.guidelines nav inclusive-disclosure > *,
+.process nav inclusive-disclosure > * {
     padding-inline: var(--common-inline-padding);
 }
 
-.guidelines nav inclusive-disclosure [aria-expanded] {
+.guidelines nav inclusive-disclosure [aria-expanded],
+.process nav inclusive-disclosure [aria-expanded] {
     box-shadow: none;
 }
 
-.guidelines nav inclusive-disclosure [aria-expanded]::after {
+.guidelines nav inclusive-disclosure [aria-expanded]::after,
+.process nav inclusive-disclosure [aria-expanded]::after {
     right: var(--common-inline-padding);
 }
 
@@ -78,19 +87,23 @@
 }
 
 @media (width >= 70.875rem) {
-    .guidelines nav > h2 {
+    .guidelines nav > h2,
+    .process nav > h2 {
         display: block;
     }
 
-    .guidelines nav inclusive-disclosure > * {
+    .guidelines nav inclusive-disclosure > *,
+    .process nav inclusive-disclosure > * {
         padding-inline: 0;
     }
 
-    .guidelines nav inclusive-disclosure [aria-expanded] {
+    .guidelines nav inclusive-disclosure [aria-expanded],
+    .process nav inclusive-disclosure > * {
         display: none;
     }
 
-    .guidelines nav inclusive-disclosure [aria-expanded] + * {
+    .guidelines nav inclusive-disclosure [aria-expanded] + *,
+    .process nav inclusive-disclosure [aria-expanded] + * {
         display: block;
     }
 
@@ -101,21 +114,25 @@
     }
 }
 
-.guidelines article {
+.guidelines article,
+.process article {
     padding-block: 2.125rem 5rem;
     padding-inline: var(--common-inline-padding);
 }
 
-.guidelines article > * {
+.guidelines article > *,
+.process article > * {
     max-width: 41.875rem;
 }
 
-.guidelines article > h2 {
+.guidelines article > h2,
+.process article > h2 {
     max-width: 100%;
 }
 
 @media (width >= 70.875rem) {
-    .guidelines .content {
+    .guidelines .content,
+    .process .content {
         display: grid;
         grid-template-columns: 35% 65%;
         margin-inline: auto;
@@ -124,11 +141,14 @@
     }
 
     .guidelines nav,
-    .guidelines article {
+    .guidelines article,
+    .process nav,
+    .process article {
         padding-block: 8.4375rem;
     }
 
-    .guidelines nav {
+    .guidelines nav,
+    .process nav {
         padding-inline: 8.4375rem 5rem;
         position: relative;
 
@@ -145,7 +165,8 @@
         }
     }
 
-    .guidelines article {
+    .guidelines article
+    .process article {
         padding-inline: 8.4375rem;
     }
 }

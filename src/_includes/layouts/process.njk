@@ -1,3 +1,33 @@
 {% extends "layouts/base.njk" %}
 
-{% set bodyClass = 'process' %}
+{% set pageType = 'process' %}
+
+{% block banner %}
+<div class="banner">
+    <div class="wrapper">
+        <div class="banner__content flow">
+        	{% set breadcrumb = collections['pages_' + lang] | find('data.translationKey', 'processes') %}
+            <a href="{{ breadcrumb.url }}" >{{ breadcrumb.data.shortTitle if breadcrumb.data.shortTitle else breadcrumb.data.title }} {% include 'svg/arrowRight.svg' %}</a>
+            <h1>{{ title }}</h1>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<nav aria-labelledby="process-menu" class="flow">
+    <inclusive-disclosure>
+        <button aria-controls="{{ title | slugify }}-menu">
+            <h2 id="process-menu">{% __ 'toc' %}</h2>
+        </button>
+        <div content id="{{ title | slugify }}-menu">
+            <div id="toc">
+                <ul role="list" class="flow"></ul>
+            </div>
+        </div>
+    </inclusive-disclosure>
+</nav>
+<article class="flow">
+{{ content | safe }}
+</article>
+{% endblock %}
