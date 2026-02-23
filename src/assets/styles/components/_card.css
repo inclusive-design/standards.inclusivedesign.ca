@@ -29,8 +29,50 @@
     outline-offset: 0.4375rem;
 }
 
-main section:last-of-type:not(:first-of-type) .card:has(a:focus),
-main section:last-of-type:not(:first-of-type) .card:hover,
+.card.process {
+	aspect-ratio: 373 / 330;
+	padding-block-start: 0;
+	padding-inline-start: calc(13 / 16 * 1rem);
+}
+
+.card.process .card__content {
+	align-items: flex-start;
+	justify-content: flex-end;
+	position: relative;
+}
+
+.card.process svg {
+	position: absolute;
+	right: calc(28 / 16 * 1rem);
+	top: calc(28 / 16 * 1rem);
+}
+
+.card.process:has(a:focus) {
+	outline-offset: 0.4375rem;
+}
+
+.card.process[data-stage="1"]:has(a:focus) {
+ 	outline: 0.1875rem solid var(--fl-linkFgColor, var(--color-guidelines-red));
+}
+
+.card.process[data-stage="2"]:has(a:focus) {
+ 	outline: 0.1875rem solid var(--fl-linkFgColor, var(--color-guidelines-orange));
+}
+
+.card.process[data-stage="3"]:has(a:focus) {
+ 	outline: 0.1875rem solid var(--fl-linkFgColor, var(--color-guidelines-yellow));
+}
+
+.card.process[data-stage="4"]:has(a:focus) {
+ 	outline: 0.1875rem solid var(--fl-linkFgColor, var(--color-guidelines-green));
+}
+
+.card.process[data-stage="5"]:has(a:focus) {
+ 	outline: 0.1875rem solid var(--fl-linkFgColor, var(--color-guidelines-blue));
+}
+
+main section.bg-indigo-700 .card:has(a:focus),
+main section.bg-indigo-700 .card:hover,
 body[class*="fl-theme"]:not(.fl-theme-prefsEditor-default) .card:hover {
     outline: 0.1875rem solid var(--fl-linkFgColor, var(--color-indigo-100));
     outline-offset: 0.4375rem;
