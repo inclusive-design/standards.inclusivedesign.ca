@@ -141,7 +141,7 @@ inclusive-disclosure:has(#filter-language) > button::before,
 .filter-tag.language::before {
     block-size: calc(1.1rem * var(--fl-enhance-font-size-factor, 1.2));
     inline-size: calc(1.1rem * var(--fl-enhance-font-size-factor, 1.2));
-    mask-image: url("/assets/images/language.svg");
+    mask-image: url("/assets/images/resource-language.svg");
 }
 
 inclusive-disclosure:has(#filter-publisher) > button::before,

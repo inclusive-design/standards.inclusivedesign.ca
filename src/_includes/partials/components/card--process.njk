@@ -1,6 +1,7 @@
 {% set stage = collections['stages_' + lang] | find('data.uuid', process.data.stage) %}
 <div class="card process bg-guidelines-stage-{{ stage.data.order }}" data-stage="{{ stage.data.order }}">
 	<div class="card__content">
+		{% include '../../../assets/images/' + process.data.translationKey + '.svg' %}
     	{% include '../../../assets/images/chevron-right.svg' %}
         <h3>
             <a class="card__title" href="{{ process.url }}">
