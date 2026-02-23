@@ -9,7 +9,7 @@
             <div class="card__heading-image">
                 {% include 'svg/problem.svg' %}
                 <h4>
-                    {% __ 'barriers-problem' %} 
+                    {% __ 'barriers-problem' %}
                 </h4>
             </div>
             {{ barrier.data.problem | safe }}
@@ -18,14 +18,12 @@
             <div class="card__heading-image">
                 {% include 'svg/fix.svg' %}
                 <h4>
-                    {% __ 'barriers-fix' %} 
+                    {% __ 'barriers-fix' %}
                 </h4>
             </div>
             <ul>
-                {% for strategy in collections["strategies-and-tips_" + lang] %}
-                    {% if barrier.data.uuid in strategy.data.barriers %}
-                        <li>{{ strategy.data.title }}</li>
-                    {% endif %}
+                {% for strategy in collections["strategies-and-tips_" + lang] | findAll('data.barriers', barrier.data.uuid) %}
+                    <li>{{ strategy.data.title }}</li>
                 {% endfor %}
             </ul>
         {% endif %}
