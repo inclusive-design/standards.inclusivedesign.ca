@@ -11,11 +11,9 @@
 	<h2>{{ stage.data.title }}</h2>
 	{{ stage.content | safe }}
 	<div class="cards">
-		{% set processes = collections['processes_' + lang] %}
+		{% set processes = collections['processes_' + lang] | findAll('data.stage', stage.data.uuid) %}
 		{% for process in processes %}
-		{% if stage.data.uuid === process.data.stage %}
 			{% include 'partials/components/card--process.njk' %}
-		{% endif %}
 		{% endfor %}
 	</div>
 	</section>

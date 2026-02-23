@@ -451,6 +451,11 @@ collections:
       structure: multiple_folders
     folder: src/collections/processes
     extension: md
+    sortable_fields:
+      fields: [title, order]
+      default:
+        field: order
+        direction: ascending
     slug: "{{fields._slug | localize}}"
     fields:
       - label: Title
@@ -462,6 +467,11 @@ collections:
         widget: string
         i18n: true
         required: false
+      - label: Navigation Order
+        name: order
+        widget: number
+        i18n: duplicate
+        required: true
       - name: uuid
         widget: hidden
         default: "{{uuid_shorter}}"

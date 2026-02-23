@@ -37,7 +37,7 @@ export default function eleventy(eleventyConfig) {
 	});
 
 	for (const lang of ['en', 'fr']) {
-		eleventyConfig.addCollection(`processes_${lang}`, collection => collection.getFilteredByGlob(`src/collections/processes/${lang}/*.md`));
+		eleventyConfig.addCollection(`processes_${lang}`, collection => collection.getFilteredByGlob(`src/collections/processes/${lang}/*.md`).toSorted((a, b) => a.data.order - b.data.order));
 
 		eleventyConfig.addCollection(`barriers_${lang}`, collection => collection.getFilteredByGlob(`src/collections/barriers/${lang}/*.md`));
 
