@@ -74,6 +74,26 @@
 	background-color: var(--fl-bgColor, var(--color-guidelines-blue));
 }
 
+.bg-guidelines-stage-1-light {
+	background-color: var(--fl-bgColor, var(--color-guidelines-red-light));
+}
+
+.bg-guidelines-stage-2-light {
+	background-color: var(--fl-bgColor, var(--color-guidelines-orange-light));
+}
+
+.bg-guidelines-stage-3-light {
+	background-color: var(--fl-bgColor, var(--color-guidelines-yellow-light));
+}
+
+.bg-guidelines-stage-4-light {
+	background-color: var(--fl-bgColor, var(--color-guidelines-green-light));
+}
+
+.bg-guidelines-stage-5-light {
+	background-color: var(--fl-bgColor, var(--color-guidelines-blue-light));
+}
+
 .bg-dark-grey {
     background-color: var(--fl-bgColor, var(--color-dark-grey));
     color: var(--fl-fgColor, white);

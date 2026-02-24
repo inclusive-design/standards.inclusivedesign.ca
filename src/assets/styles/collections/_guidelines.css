@@ -115,8 +115,6 @@
 }
 
 .processes section {
-	background-color: transparent;
-
 	h2 + p {
 		margin-block-start: var(--step-1);
 	}
