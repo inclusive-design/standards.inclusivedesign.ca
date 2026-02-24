@@ -1,13 +1,13 @@
 {% extends "layouts/base.njk" %}
 
 {% block content %}
-<section>
+<section class="bg-indigo-200">
     <div class="wrapper flow">
     {{ content | safe }}
     </div>
 </section>
 {% if collections['projects_' + lang].length > 0 %}
-    <section>
+    <section class="bg-indigo-700">
       <div class="wrapper flow">
         <h2>{% __ 'projects' %}</h2>
         <div class="cards">
