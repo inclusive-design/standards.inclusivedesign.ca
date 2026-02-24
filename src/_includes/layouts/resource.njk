@@ -30,7 +30,7 @@
                 </p>
                 {% endif %}
                 <p>
-                {% include "../../assets/images/language.svg" %}
+                {% include "../../assets/images/resource-language.svg" %}
                 {% for language in contentLanguages %}
                     {% set languageObject = languages[lang].languages | find('code', language) %}
                     {{ languageObject.name }}{% if not loop.last %}, {% endif %}{% endfor %}

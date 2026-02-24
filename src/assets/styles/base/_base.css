@@ -69,21 +69,6 @@ section .wrapper > .cards {
     max-width: 100%;
 }
 
-main section:nth-of-type(even) {
-    background-color: var(--fl-bgColor, var(--color-indigo-100));
-    color: var(--fl-fgColor);
-}
-
-main section:nth-of-type(odd) {
-    background-color: var(--fl-bgColor, var(--color-indigo-200));
-    color: var(--fl-fgColor);
-}
-
-main section:last-of-type:not(:first-of-type) {
-    background-color: var(--fl-bgColor, var(--color-indigo-700));
-    color: var(--fl-fgColor, white);
-}
-
 /* Selection */
 ::selection {
     background-color: var(--fl-selectedBgColor, highlight);

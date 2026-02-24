@@ -1,3 +1,46 @@
 {% extends "layouts/base.njk" %}
 
-{% set bodyClass = 'barrier' %}
+{% set pageType = 'barrier' %}
+
+{% block banner %}
+<div class="banner bg-indigo-800">
+    <div class="wrapper">
+        <div class="banner__content flow">
+        	{% set breadcrumb = collections['pages_' + lang] | find('data.translationKey', 'barriers') %}
+            <a href="{{ breadcrumb.url }}" >{{ breadcrumb.data.shortTitle if breadcrumb.data.shortTitle else breadcrumb.data.title }} {% include 'svg/arrowRight.svg' %}</a>
+            <h1>{{ title }}</h1>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<nav aria-labelledby="barrier-menu" class="flow">
+    <inclusive-disclosure>
+        <button aria-controls="{{ title | slugify }}-menu">
+            <h2 id="barrier-menu">{% __ 'toc' %}</h2>
+        </button>
+        <div content id="{{ title | slugify }}-menu">
+            <ul role="list" class="flow">
+                <li class="flow" id="toc">
+                        <h3>{% __ 'toc' %}</h3>
+                    <ul role="list" class="flow"></ul>
+                </li>
+            </ul>
+        </div>
+    </inclusive-disclosure>
+</nav>
+<article class="flow">
+<h2>{% __ 'barriers-problem' %}</h2>
+{{ problem | renderContent('md') | safe }}
+{% if collections['strategies-and-tips_' + lang] | find('data.barriers', uuid) %}
+<h2>{%  __ 'barriers-fix' %}</h2>
+{% for strategy in collections['strategies-and-tips_' + lang] %}
+    {% if uuid in strategy.data.barriers %}
+        {% set strategyOrTip = strategy %}
+        {% include "partials/components/card--strategies-and-tips.njk" %}
+    {% endif %}
+{% endfor %}
+{% endif %}
+</article>
+{% endblock %}
