@@ -3,7 +3,7 @@
 {% set pageType = 'barrier' %}
 
 {% block banner %}
-<div class="banner">
+<div class="banner bg-indigo-800 ">
     <div class="wrapper">
         <div class="banner__content flow">
         	{% set breadcrumb = collections['pages_' + lang] | find('data.translationKey', 'barriers') %}
@@ -32,7 +32,7 @@
 </nav>
 <article class="flow">
 <h2>{% __ 'barriers-problem' %}</h2>
-{{ problem | safe }}
+{{ problem | renderContent | safe }}
 {% if collections['strategies-and-tips_' + lang] | find('data.barriers', uuid) %}
 <h2>{%  __ 'barriers-fix' %}</h2>
 {% for strategy in collections['strategies-and-tips_' + lang] %}
