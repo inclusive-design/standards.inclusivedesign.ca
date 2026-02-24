@@ -2,13 +2,13 @@
 
 {% block content %}
     {% if collections['projects_' + lang].length > 0 %}
-    <section>
+    <section class="bg-indigo-100">
         {% for project in collections['projects_' + lang] %}
             {% include "partials/components/project-panel.njk" %}
         {% endfor %}
     </section>
     {% else %}
-    <section>
+    <section class="bg-indigo-100">
         <div class="wrapper">
             <p>{% __ "no-projects" %}</p>
         </div>

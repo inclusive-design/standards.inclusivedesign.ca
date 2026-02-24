@@ -3,7 +3,23 @@
 {% set pageType = 'processes' %}
 
 {% block content %}
-<article class="flow">
+<article>
+	{% set stages = collections['stages_' + lang] %}
+	{% for stage in stages %}
+	<section>
+		{% include '../../assets/images/stage-' + stage.data.order + '.svg' %}
+		<div class="wrapper flow">
+			<h2>{{ stage.data.title }}</h2>
+			{{ stage.content | safe }}
+			<div class="cards">
+				{% set processes = collections['processes_' + lang] | findAll('data.stage', stage.data.uuid) %}
+				{% for process in processes %}
+					{% include 'partials/components/card--process.njk' %}
+				{% endfor %}
+			</div>
+		</div>
+	</section>
+	{% endfor %}
 
 </article>
 {% endblock %}
