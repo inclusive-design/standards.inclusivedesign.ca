@@ -1,9 +1,30 @@
 .guidelines .banner,
+.process .banner,
 .processes .banner,
 .barrier .banner,
 .barriers .banner {
     background-color: var(--fl-bgColor, var(--color-indigo-200));
     color: var(--fl-fgColor, var(--color-black));
+}
+
+.stage-1 .banner {
+    background-color: var(--fl-bgColor, var(--color-guidelines-red-light));
+}
+
+.stage-2 .banner {
+    background-color: var(--fl-bgColor, var(--color-guidelines-orange-light));
+}
+
+.stage-3 .banner {
+    background-color: var(--fl-bgColor, var(--color-guidelines-yellow-light));
+}
+
+.stage-4 .banner {
+    background-color: var(--fl-bgColor, var(--color-guidelines-green-light));
+}
+
+.stage-5 .banner {
+    background-color: var(--fl-bgColor, var(--color-guidelines-blue-light));
 }
 
 .barrier nav,
