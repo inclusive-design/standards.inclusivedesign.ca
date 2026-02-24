@@ -114,14 +114,42 @@
     max-width: 100%;
 }
 
+.processes .banner {
+	position: relative;
+	z-index: 1;
+}
+
+.processes article {
+	overflow-y: hidden;
+}
+
 .processes section {
+	position: relative;
+
+	.stage-bg {
+		left: 50%;
+		position: absolute;
+		top: 50%;
+  		transform: translate(-50%, -50%);
+	}
+
+	.wrapper {
+		position: relative;
+		z-index: 2;
+	}
+
 	h2 + p {
 		margin-block-start: var(--step-1);
 	}
 
 	.cards {
 		margin-block-start: calc(48 / 16 * 1rem);
+		position: relative;
 	}
+}
+
+[class^="fl-theme"]:not(.fl-theme-prefsEditor-default) .stage-bg {
+	display: none;
 }
 
 @media (width >= 70.875rem) {
