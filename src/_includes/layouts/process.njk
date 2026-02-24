@@ -2,8 +2,16 @@
 
 {% set pageType = 'process' %}
 
+{% set bannerBackgroundColor = ( 
+    'bg-guidelines-stage-1-light' if stage === '2ac90c88' 
+    else ('bg-guidelines-stage-2-light' if stage === 'b394d47d' 
+    else ('bg-guidelines-stage-3-light' if stage === '228cf07a'
+    else ('bg-guidelines-stage-4-light' if stage === '5871d856'
+    else ('bg-guidelines-stage-5-light' if stage === '8820ca59'
+))))) %}
+
 {% block banner %}
-<div class="banner">
+<div class="banner {{ bannerBackgroundColor }}">
     <div class="wrapper">
         <div class="banner__content flow">
         	{% set breadcrumb = collections['pages_' + lang] | find('data.translationKey', 'processes') %}
@@ -32,5 +40,11 @@
 </nav>
 <article class="flow">
 {{ content | safe }}
+{% for strategy in collections['strategies-and-tips_' + lang] %}
+    {% if uuid in strategy.data.processes %}
+        {% set strategyOrTip = strategy %}
+        {% include "partials/components/card--strategies-and-tips.njk" %}
+    {% endif %}
+{% endfor %}
 </article>
 {% endblock %}
