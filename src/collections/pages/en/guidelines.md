@@ -10,6 +10,14 @@ previewImageAlt: ''
 bannerTitle: ''
 bannerText: ''
 bannerImageAlt: ''
+outro: |-
+  ## Browse by Standards Development Processes
+
+  [Explore all Strategies and Tips](/guidelines/processes/)
+
+  ## Browse by Barriers
+
+  [Explore all Strategies and Tips to tackle your Barrier](/guidelines/barriers/)
 ---
 
 ## Building Standards for Everyone, with Everyone

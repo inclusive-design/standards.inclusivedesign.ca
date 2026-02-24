@@ -18,5 +18,7 @@
 </nav>
 <article class="flow">
 {{ content | safe }}
+{% include 'partials/components/guidelines-search.njk' %}
+{{ outro | renderContent('md') | safe }}
 </article>
 {% endblock %}

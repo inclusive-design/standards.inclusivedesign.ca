@@ -118,6 +118,12 @@ collections:
         widget: markdown
         i18n: true
         buttons: [bold, italic, link, heading-two, heading-three, heading-four, heading-five, heading-six, quote, bulleted-list, numbered-list]
+      - label: Outro
+        name: outro
+        widget: markdown
+        i18n: true
+        buttons: [bold, italic, link, heading-two, heading-three, heading-four, heading-five, heading-six, quote, bulleted-list, numbered-list]
+        required: false
   - label: Projects
     label_singular: Project
     name: projects
