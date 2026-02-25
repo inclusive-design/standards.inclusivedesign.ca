@@ -573,7 +573,7 @@ collections:
         buttons: [bold, italic, link, bulleted-list, numbered-list]
         required: false
       - label: More Information
-        name: more-information
+        name: moreInformation
         widget: markdown
         i18n: true
         buttons: [bold, italic, link, bulleted-list, numbered-list]

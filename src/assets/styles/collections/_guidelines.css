@@ -1,8 +1,9 @@
+.barrier .banner,
+.barriers .banner 
 .guidelines .banner,
 .process .banner,
 .processes .banner,
-.barrier .banner,
-.barriers .banner {
+.strategy-tip .banner {
     background-color: var(--fl-bgColor, var(--color-indigo-200));
     color: var(--fl-fgColor, var(--color-black));
 }
@@ -30,26 +31,31 @@
 .barrier nav,
 .barrier article,
 .guidelines nav,
-.guidelines article, 
+.guidelines article,
 .process nav,
-.process article{
+.process article,
+.strategy-tip nav,
+.strategy-tip article {
     box-shadow: inset 0 -0.1875rem 0 0 var(--fl-fgColor, transparent);
 }
 
 .barrier nav,
 .guidelines nav,
-.process nav {
+.process nav,
+.strategy-tip nav {
     background-color: var(--fl-bgColor, var(--color-indigo-100));
 }
 
 .barrier nav > h2,
 .guidelines nav > h2,
-.process nav > h2 {
+.process nav > h2,
+.strategy-tip nav > h2 {
     display: none;
 }
 
 .barrier inclusive-disclosure h3,
-.process inclusive-disclosure h3 {
+.process inclusive-disclosure h3,
+.strategy-tip inclusive-disclosure h3 {
     font-size: var(--step-2);
     font-weight: var(--font-weight-semibold);
     margin-block-end: var(--flow-space, 1em);
@@ -57,25 +63,29 @@
 
 .barrier nav inclusive-disclosure,
 .guidelines nav inclusive-disclosure,
-.process nav inclusive-disclosure {
+.process nav inclusive-disclosure,
+.strategy-tip nav inclusive-disclosure {
     padding-inline: 0;
 }
 
 .barrier nav inclusive-disclosure > *,
 .guidelines nav inclusive-disclosure > *,
-.process nav inclusive-disclosure > * {
+.process nav inclusive-disclosure > *,
+.strategy-tip nav inclusive-disclosure > * {
     padding-inline: var(--common-inline-padding);
 }
 
 .barrier nav inclusive-disclosure [aria-expanded],
 .guidelines nav inclusive-disclosure [aria-expanded],
-.process nav inclusive-disclosure [aria-expanded] {
+.process nav inclusive-disclosure [aria-expanded],
+.strategy-tip nav inclusive-disclosure [aria-expanded] {
     box-shadow: none;
 }
 
 .barrier nav inclusive-disclosure [aria-expanded]::after,
 .guidelines nav inclusive-disclosure [aria-expanded]::after,
-.process nav inclusive-disclosure [aria-expanded]::after {
+.process nav inclusive-disclosure [aria-expanded]::after,
+.strategy-tip nav inclusive-disclosure [aria-expanded]::after {
     right: var(--common-inline-padding);
 }
 
@@ -125,25 +135,29 @@
 @media (width >= 70.875rem) {
     .barrier nav > h2,
     .guidelines nav > h2,
-    .process nav > h2 {
+    .process nav > h2,
+    .strategy-tip nav > h2 {
         display: block;
     }
 
     .barrier nav inclusive-disclosure > *,
     .guidelines nav inclusive-disclosure > *,
-    .process nav inclusive-disclosure > * {
+    .process nav inclusive-disclosure > *,
+    .strategy-tip nav inclusive-disclosure > * {
         padding-inline: 0;
     }
 
     .barrier nav inclusive-disclosure [aria-expanded],
     .guidelines nav inclusive-disclosure [aria-expanded],
-    .process nav inclusive-disclosure > [aria-expanded] {
+    .process nav inclusive-disclosure > [aria-expanded],
+    .strategy-tip nav inclusive-disclosure > [aria-expanded] {
         display: none;
     }
 
     .barrier nav inclusive-disclosure [aria-expanded] + *,
     .guidelines nav inclusive-disclosure [aria-expanded] + *,
-    .process nav inclusive-disclosure [aria-expanded] + * {
+    .process nav inclusive-disclosure [aria-expanded] + *,
+    .strategy-tip nav inclusive-disclosure [aria-expanded] + * {
         display: block;
     }
 
@@ -156,20 +170,23 @@
 
 .barrier article,
 .guidelines article
-.process article {
+.process article,
+.strategy-tip article {
     padding-block: 2.125rem 5rem;
     padding-inline: var(--common-inline-padding);
 }
 
 .barrier article > *,
 .guidelines article > *,
-.process article > * {
+.process article > *,
+.strategy-tip article > *  {
     max-width: 41.875rem;
 }
 
 .barrier article > h2,
 .guidelines article > h2,
-.process article > h2 {
+.process article > h2,
+.strategy-tip article > h2 {
     max-width: 100%;
 }
 
@@ -214,7 +231,8 @@
 @media (width >= 70.875rem) {
     .barrier .content,
     .guidelines .content,
-    .process .content {
+    .process .content,
+    .strategy-tip .content {
         display: grid;
         grid-template-columns: 35% 65%;
         margin-inline: auto;
@@ -227,13 +245,16 @@
     .guidelines nav,
     .guidelines article,
     .process nav,
-    .process article {
+    .process article,
+    .strategy-tip nav,
+    .strategy-tip article {
         padding-block: 8.4375rem;
     }
 
     .barrier nav,
     .guidelines nav,
-    .process nav {
+    .process nav,
+    .strategy-tip nav {
         padding-inline: 8.4375rem 5rem;
         position: relative;
 
@@ -252,7 +273,8 @@
 
     .barrier article,
     .guidelines article,
-    .process article {
+    .process article,
+    .strategy-tip article {
         padding-inline: 8.4375rem;
     }
 }
