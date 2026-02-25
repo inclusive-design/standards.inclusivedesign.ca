@@ -1,3 +1,41 @@
 {% extends "layouts/base.njk" %}
 
-{% set pageType = 'process' %}
+{% set processStage = collections['stages_' + lang] | find('data.uuid', stage) %}
+
+{% set pageType = 'process ' + 'stage-' + processStage.data.order %}
+
+{% block banner %}
+<div class="banner">
+    <div class="wrapper">
+        <div class="banner__content flow">
+        	{% set breadcrumb = collections['pages_' + lang] | find('data.translationKey', 'processes') %}
+            <a href="{{ breadcrumb.url }}" >{{ breadcrumb.data.shortTitle if breadcrumb.data.shortTitle else breadcrumb.data.title }} {% include 'svg/arrowRight.svg' %}</a>
+            <h1>{{ title }}</h1>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<nav aria-labelledby="process-menu" class="flow">
+    <inclusive-disclosure>
+        <button aria-controls="{{ title | slugify }}-menu">
+            <h2 id="process-menu">{% __ 'toc' %}</h2>
+        </button>
+        <div content id="{{ title | slugify }}-menu">
+            <ul role="list" class="flow">
+                <li class="flow" id="toc">
+                        <h3>{% __ 'toc' %}</h3>
+                    <ul role="list" class="flow"></ul>
+                </li>
+            </ul>
+        </div>
+    </inclusive-disclosure>
+</nav>
+<article class="flow">
+{{ content | safe }}
+{% for strategyOrTip in collections['strategies-and-tips_' + lang] | findAll('data.processes', uuid) %}
+    {% include "partials/components/card--strategies-and-tips.njk" %}
+{% endfor %}
+</article>
+{% endblock %}
