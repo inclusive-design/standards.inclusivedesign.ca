@@ -30,6 +30,10 @@ body {
     min-height: 16.25rem;
 }
 
+.banner a svg {
+    stroke: currentcolor;
+}
+
 .banner__content {
     font-size: var(--step-1);
     width: 100%;
