@@ -1,5 +1,26 @@
 # Changelog
 
+## [2026.02.26.1945.1d23590](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.02.17.1748.b0274a4...2026.02.26.1945.1d23590)
+
+* chore(deps): lock file maintenance (#366) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): lock file maintenance (#357) @[renovate[bot]](https://github.com/apps/renovate)
+
+### Features
+
+* feat: browse by barriers (resolves #364) (#376) [@nedatidrc](https://github.com/nedatidrc)
+* feat: implement single process page (resolves #360) (#369) [@chosww](https://github.com/chosww)
+* feat: implement single barrier (resolves #361) (#370) [@chosww](https://github.com/chosww)
+* feat: browse by standards development process page (resolves #363) (#372) [@nedatidrc](https://github.com/nedatidrc)
+* feat: guidelines landing page (resolves #359) (#368) [@nedatidrc](https://github.com/nedatidrc)
+* feat: use findAll filter to list related items on cards (#367) [@nedatidrc](https://github.com/nedatidrc)
+* feat: barrier card (#355) [@chosww](https://github.com/chosww)
+* feat: implement Strategies and Tips card (resolves #338) (#341) [@chosww](https://github.com/chosww)
+
+### Bug Fixes
+
+* fix: add markdown filter (#371) [@nedatidrc](https://github.com/nedatidrc)
+* fix: use doublequotes (#352) [@nedatidrc](https://github.com/nedatidrc)
+
 ## [2026.02.17.1748.b0274a4](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.02.17.1730.5e6145a...2026.02.17.1748.b0274a4)
 
 ### Bug Fixes
