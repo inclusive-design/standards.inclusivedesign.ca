@@ -60,6 +60,13 @@
     }
 }
 
+.barriers .filters legend {
+ 	font-family: var(--family-display);
+    font-size: calc(var(--step-2) * var(--fl-enhance-font-size-factor, 1));
+    font-weight: var(--fl-enhance-font-weight, var(--font-weight-semibold));
+    margin-block-end: calc(45 / 16 * 1rem);
+}
+
 .filter-tags {
     border-top: 0.125rem solid var(--fl-fgColor, var(--color-indigo-700));
     margin-block: calc(1em + 1.25rem) 2.8125rem;

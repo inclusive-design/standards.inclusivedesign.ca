@@ -1,0 +1,50 @@
+{% set filterableOptions = { stages: [], processes: [] } %}
+
+{% for barrier in collections['barriers_' + lang] %}
+	{% set relatedStrategiesAndTips = collections["strategies-and-tips_" + lang] | findAll('data.barriers', barrier.data.uuid) %}
+	{% set relatedProcessUuids = [] %}
+	{% set relatedProcesses = [] %}
+	{% set relatedStageUuids = [] %}
+	{% set relatedStages = [] %}
+	{% for strategy in relatedStrategiesAndTips %}
+		{% set relatedProcessUuids = relatedProcessUuids.concat(strategy.data.processes) %}
+	{% endfor %}
+	{% for relatedProcessUuid in relatedProcessUuids %}
+		{% set relatedProcess = collections['processes_' + lang] | find('data.uuid', relatedProcessUuid) %}
+		{% set relatedProcesses = relatedProcesses.concat([relatedProcess]) %}
+		{% set relatedStage = collections['stages_' + lang] | find('data.uuid', relatedProcess.data.stage) %}
+		{% set relatedStages = relatedStages.concat([relatedStage]) %}
+		{% set relatedStageUuids = relatedStageUuids.concat([relatedStage.data.uuid]) %}
+	{% endfor %}
+	{% set filterableOptions = filterableOptions | objectArrayPush("processes", relatedProcesses) %}
+	{% set filterableOptions = filterableOptions | objectArrayPush("stages", relatedStages) %}
+{% endfor %}
+
+<div id="filters" class="filters flow">
+    <h3>{% __ 'filters' %}</h3>
+    <div class="flow">
+    {% if filterableOptions.stages | length > 0 %}
+        <fieldset>
+            <legend class="h4">{% __ 'stages' %}</legend>
+            <div id="stages">
+                <ul id="filter-stage">
+                    {% for stage in filterableOptions.stages %}
+                        <li>
+                            <input type="checkbox" id="{{ stage.data.uuid }}" name="stage" value="{{ stage.data.uuid }}" data-filter-key="stages"/>
+                            <label for="{{ stage.data.uuid }}">{{ stage.data.title }}</label>
+                            <ul>
+                            	{% for process in filterableOptions.processes | findAll('data.stage', stage.data.uuid) %}
+                             	<li>
+									<input type="checkbox" id="{{ process.data.uuid }}" name="process" value="{{ process.data.uuid }}" data-filter-key="processes"/>
+									<label for="{{ process.data.uuid }}">{{ process.data.title }}</label>
+								</li>
+                             	{% endfor %}
+                            </ul>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </fieldset>
+     {% endif %}
+    </div>
+</div>
