@@ -3,7 +3,25 @@
 {% set pageType = 'barriers' %}
 
 {% block content %}
-<article class="flow">
-
-</article>
+<div class="barriers-container">
+    <filter-container class="wrapper" oninit filter-mode="all" filter-mode-stages="any" filter-mode-processes="any" data-paginate-results="10">
+        {% include "partials/components/barrier-filters.njk" %}
+        <div>
+            <div class="barriers-head">
+                <h3 id="filtered-results" aria-live="polite" data-filter-results="{% __ 'filtered-barriers' %}">{% __ 'barriers' %}</h3>
+            </div>
+            <div class="filter-tags">
+                <h4 id="filter-applied">{% __ 'applied-filters' %}</h4>
+                <div id="filter-tags">
+                </div>
+            </div>
+            <div class="barriers">
+                {% for barrier in collections['barriers_' + lang] %}
+                    {% include "partials/components/card--barrier.njk" %}
+                {% endfor %}
+            </div>
+        </div>
+        {% include "partials/components/pagination.njk" %}
+    </filter-container>
+</div>
 {% endblock %}
