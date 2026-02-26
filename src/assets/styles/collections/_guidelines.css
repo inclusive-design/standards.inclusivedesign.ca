@@ -7,6 +7,10 @@
     color: var(--fl-fgColor, var(--color-black));
 }
 
+.barriers .banner h1 {
+    color: var(--fl-fgColor, var(--color-indigo-800));
+}
+
 .stage-1 .banner {
     background-color: var(--fl-bgColor, var(--color-guidelines-red-light));
 }
