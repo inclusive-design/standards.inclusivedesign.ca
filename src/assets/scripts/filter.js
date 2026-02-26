@@ -47,10 +47,12 @@ const renderFilterTags = () => {
 };
 
 const getSortOption = document.querySelector('#resourcesSortSelector');
-getSortOption.addEventListener('change', event => {
-	sortResources(event.target.value);
-	event.target.selected = true;
-});
+if (getSortOption) {
+	getSortOption.addEventListener('change', event => {
+		sortResources(event.target.value);
+		event.target.selected = true;
+	});
+}
 
 const sortResources = sortBy => {
 	const resourceContainer = document.querySelectorAll('.resources')[0];
