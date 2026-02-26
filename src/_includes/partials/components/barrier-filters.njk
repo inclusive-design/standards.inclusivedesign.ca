@@ -25,9 +25,9 @@
     <div class="flow">
     {% if filterableOptions.stages | length > 0 %}
         <fieldset>
-            <legend class="h4">{% __ 'stages' %}</legend>
+            <legend>{% include '../../../assets/images/stage.svg' %}{% __ 'stages' %}</legend>
             <div id="stages">
-                <ul id="filter-stage">
+                <ul id="filter-stage" class="stages">
                     {% for stage in filterableOptions.stages %}
                         <li>
                             <input type="checkbox" id="{{ stage.data.uuid }}" name="stage" value="{{ stage.data.uuid }}" data-filter-key="stages"/>
