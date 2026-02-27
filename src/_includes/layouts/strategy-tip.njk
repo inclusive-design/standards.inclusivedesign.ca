@@ -18,7 +18,7 @@
                 {% set process = collections['processes_' + lang] | find('data.uuid', strategyId) %}
                 {% include '../../assets/images/' + process.data.translationKey + '.svg' %}
                 <a href="{{ process.url }}">{{ process.data.title }}</a>
-                {% of prcesses | length > 2 %}
+                {% if processes | length > 2 %}
                 {{ ',' if not loop.last }}
                 {% endif %}
             {% endfor %}
