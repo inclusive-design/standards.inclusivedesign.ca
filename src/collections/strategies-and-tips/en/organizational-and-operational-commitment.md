@@ -11,10 +11,11 @@ strategies: |-
 tips: ''
 more-information: |-
   - [**Functional accessibility requirement&#160;**](https://accessible.canada.ca/creating-accessibility-standards/canasc-en-301-5492024-accessibility-requirements-ict-products-and-services/4-functional-performance)
-  - [**Ladder of citizen participation**&#160;](https://cities.inclusivedesign.ca/resources/ladder-of-citizen-participation/)
-  - [**Build lasting relationships**&#160;](https://cities.inclusivedesign.ca/resources/build-lasting-relationships/)
-  - [**Enable continuous improvement**&#160; ](https://cities.inclusivedesign.ca/resources/enable-continuous-improvement/)
-examples: '- [**United Kingdom – British Standards Institution (BSI)**](https://www.bsigroup.com/en-CA/)**: **BSI promotes inclusivity by publishing PAS 6463 for neurodivergent inclusion, enforcing equality mandates in working groups, and dedicating staff and funding to diversity initiatives.'
-processes: []
+  - [**Ladder of citizen participation** ](https://cities.inclusivedesign.ca/resources/ladder-of-citizen-participation/)
+  - [**Build lasting relationships** ](https://cities.inclusivedesign.ca/resources/build-lasting-relationships/)
+  - [**Enable continuous improvement**  ](https://cities.inclusivedesign.ca/resources/enable-continuous-improvement/)
+examples: '- [**United Kingdom – British Standards Institution (BSI)**](https://www.bsigroup.com/en-CA/)\*\*: \*\*BSI promotes inclusivity by publishing PAS 6463 for neurodivergent inclusion, enforcing equality mandates in working groups, and dedicating staff and funding to diversity initiatives.'
+processes:
+  - d2d08ae4
 barriers: []
 ---
