@@ -34,8 +34,13 @@
 </nav>
 <article class="flow">
 {{ content | safe }}
-{% for strategyOrTip in collections['strategies-and-tips_' + lang] | findAll('data.processes', uuid) %}
+{% set strategiesOrTips = collections['strategies-and-tips_' + lang] | findAll('data.processes', uuid) %}
+{% if strategiesOrTips.length > 0 %}
+{% for strategyOrTip in strategiesOrTips %}
     {% include "partials/components/card--strategies-and-tips.njk" %}
 {% endfor %}
+{% else %}
+<p>None found.</p>
+{% endif %}
 </article>
 {% endblock %}

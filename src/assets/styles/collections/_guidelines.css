@@ -7,6 +7,10 @@
     color: var(--fl-fgColor, var(--color-black));
 }
 
+.barriers .banner h1 {
+    color: var(--fl-fgColor, var(--color-indigo-800));
+}
+
 .stage-1 .banner {
     background-color: var(--fl-bgColor, var(--color-guidelines-red-light));
 }
@@ -30,7 +34,7 @@
 .barrier nav,
 .barrier article,
 .guidelines nav,
-.guidelines article, 
+.guidelines article,
 .process nav,
 .process article{
     box-shadow: inset 0 -0.1875rem 0 0 var(--fl-fgColor, transparent);
@@ -120,6 +124,17 @@
 		block-size: 3.75rem;
 		min-width: calc(170 / 16 * 1rem);
 	}
+}
+
+.barriers-container {
+    background-color: var(--fl-bgColor, var(--color-indigo-100));
+    padding-block: var(--common-block-padding);
+    padding-inline: var(--common-inline-padding);
+}
+
+.barriers-head {
+    display: flex;
+    justify-content: space-between;
 }
 
 @media (width >= 70.875rem) {

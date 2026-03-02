@@ -1,9 +1,11 @@
 {
+	"barriers": "Barrières",
 	"contact-us": "Contactez-nous",
 	"contact-us-address": "Adresse",
 	"contact-us-email": "Courriel",
 	"contact-us-phone": "Téléphone",
 	"filtered-resources": "ressource/ressources",
+	"filtered-barriers": "barrière/barrières",
 	"header-intro": "Un projet du <a href='https://idrc.ocadu.ca/' rel='external'>Centre de recherche sur la conception inclusive</a>",
 	"header-intro-short": "<a href='https://idrc.ocadu.ca/' rel='external'>Un projet du IDRC</a>",
 	"language": "Langue",
@@ -49,5 +51,6 @@
 	"sort-by": "Trier par :",
 	"title": "Titre",
 	"newest-date": "Date la plus récente",
-	"oldest-date": "Date la plus ancienne"
+	"oldest-date": "Date la plus ancienne",
+	"stages": "Étapes"
 }
