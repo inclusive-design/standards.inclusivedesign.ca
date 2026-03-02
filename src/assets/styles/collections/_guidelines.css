@@ -73,6 +73,11 @@
     color: var(--fl-fgColor, var(--color-indigo-700));
 }
 
+.strategy-processes {
+    align-items: center;
+    display: flex;
+}
+
 .barrier nav inclusive-disclosure,
 .guidelines nav inclusive-disclosure,
 .process nav inclusive-disclosure,
