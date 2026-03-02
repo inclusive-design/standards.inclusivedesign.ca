@@ -7,7 +7,7 @@ strategies: |-
   - Create a permanent dedicated accessibility group within the organization to track inclusion over time.
   - Celebrate improvements in accessibility and inclusion to show the group’s progress.
   - Do regular surveys to see how inclusive meetings are and improve processes.
-  - Consider accessibility across formats, devices, and languages. 
+  - Consider accessibility across formats, devices, and languages.
   - Design digital content so people with disabilities can access, understand, and use it.
   - Conduct accessibility audits with usability and assistive technology experts to ensure all digital platforms including websites, member portals, application sites and feedback mechanisms are accessible.
   - Offer alternative ways to participate: in-person, phone, relay services, video calls, or paper applications.
