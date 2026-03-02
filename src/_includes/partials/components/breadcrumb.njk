@@ -1,0 +1,11 @@
+<nav aria-label="Breadcrumb" class="breadcrumb">
+  <ol>
+    {% for breadcrumbLink in breadcrumbLinks %}
+    <li>
+      <a href="{{ breadcrumbLink.url }}" {{ 'aria-current="page"' if loop.last }}>
+        {{ breadcrumbLink.title }} {% include 'svg/arrowRight.svg' %}
+      </a>
+    </li>
+    {% endfor %}
+  </ol>
+</nav>
