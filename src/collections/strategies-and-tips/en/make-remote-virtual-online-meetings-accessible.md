@@ -29,8 +29,16 @@ tips: |-
       - Share clear meeting rules so everyone knows how to take turns and ask questions.
       - Check in with quieter members to make sure they are included.
       - Offer virtual attendance for all meetings so people with mobility, transportation, or health challenges can participate.
-more-information: ''
-examples: ''
-processes: []
+more-information: |-
+  - [**Remote Co-design Guide - Community-Led Co-Design Kit**](https://community-led.design/resources/remote-co-design-guide/)**&#160;**
+  - [**Facilitation for Flexibility and Accessibility - Community-Led Co-Design Kit **](https://community-led.design/resources/facilitation-for-flexibility-and-accessibility/)
+examples: |-
+  - [**India – Bureau of Indian Standards (BIS)**](https://www.bis.gov.in/?lang=en): BIS uses open-source, screen-reader-friendly platforms and shares offline document packages. Members can also vote or comment via email, reducing reliance on restricted tools like Google.
+  - [**Europe European Committee for Standardization (CENELEC)**](https://www.cencenelec.eu/): CENELEC audit tools for accessibility before use. They switched to WCAG-compliant platforms and include accessibility in procurement to ensure long-term inclusivity.
+  - [**South Africa – South African Bureau of Standards (SABS)**](https://www.sabs.co.za/)**: **SABS uses low-bandwidth tools like WhatsApp, email, and SMS for collaboration and voting, making participation easier in areas with limited internet access. 
+  - [**Japan – The Japanese Industrial Standards Committee (JISC)**](https://www.jisc.go.jp/eng/)**:** Reflective Participation - JISC prioritizes thoughtful input over frequent speaking. Meetings allow time for quiet reflection and written feedback. Silence is seen as respectful, not passive. Roundtable formats ensure equal speaking time, minimizing dominance by assertive voices.
+processes:
+  - b612d304
+  - eabf2df8
 barriers: []
 ---
