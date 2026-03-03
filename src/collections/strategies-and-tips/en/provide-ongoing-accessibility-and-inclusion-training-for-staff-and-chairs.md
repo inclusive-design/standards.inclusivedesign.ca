@@ -1,6 +1,6 @@
 ---
 translationKey: provide-ongoing-accessibility-and-inclusion-training-for-staff-and-chairs
-title: Provide Ongoing Accessibility and Inclusion Training for Staff and Chairs
+title: Provide ongoing accessibility and inclusion training for staff and chairs
 uuid: ed90fb3e
 draft: false
 strategies: |-
