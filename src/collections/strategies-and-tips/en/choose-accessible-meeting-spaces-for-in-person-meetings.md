@@ -15,7 +15,12 @@ tips: |-
   - Avoid working discussions over meals in noisy or informal spaces unless accommodations are provided.
   - Remind members not to hold important conversations unless the full committee is present.
 more-information: ''
-examples: ''
-processes: []
+examples: |-
+  - [**U.S.** **– ANSI**](https://www.din.de/en): ANSI ensures meeting venues have wheelchair ramps, accessible restrooms, and charging stations. They use a **venue checklist** to ensure proper accommodations.
+  - [**UK – BSI**](https://www.bsigroup.com/en-CA/): BSI surveys venues in advance to ensure accessibility features like hearing loops and quiet spaces. They also gather **feedback** to improve future venue selections.
+  - [**Australia –** **Standards Australia**](https://www.din.de/en): DIN selects central, accessible venues with public transport access and offers **transportation subsidies** for members with mobility needs.
+  - [**Canada –** **SCC**](https://scc-ccn.ca/): SCC partners with the government to host meetings at venues that comply with accessibility laws, providing charging stations and quiet areas.
+processes:
+  - 7cfa687f
 barriers: []
 ---
