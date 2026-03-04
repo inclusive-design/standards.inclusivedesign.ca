@@ -62,4 +62,4 @@ Funded by [Accessibility Standards Canada](https://accessible.canada.ca) / the G
 
 [![](/assets/uploads/asc.png)](https://accessible.canada.ca/)
 
-![](/assets/uploads/canada.svg)
+[![](/assets/uploads/canada.svg)](https://www.canada.ca/en.html)
