@@ -7,7 +7,7 @@ import footnotesPlugin from 'eleventy-plugin-footnotes';
 import _ from 'lodash';
 import parseTransform from './src/_transforms/parse-transform.js';
 import objectArrayPush from './src/assets/scripts/object-array-push.js';
-import env from 'node:process';
+import {env} from 'node:process';
 import findTranslationKeyFilter from './src/_filters/find-translation-key-filter.js';
 import markdownFilter from './src/_filters/markdown-filter.js';
 
