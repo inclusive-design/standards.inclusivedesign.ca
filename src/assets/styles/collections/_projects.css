@@ -31,10 +31,6 @@
     width: fit-content;
 }
 
-.project .banner a svg {
-    stroke: currentcolor;
-}
-
 .project .banner .flow {
     width: 100%;
 }
