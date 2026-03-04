@@ -2,7 +2,7 @@
 translationKey: barriers
 title: Navigation par barrières
 shortTitle: Barrières
-draft: true
+draft: false
 order: 0
 parent: guidelines
 layout: layouts/barriers

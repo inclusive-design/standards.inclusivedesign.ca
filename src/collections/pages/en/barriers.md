@@ -2,7 +2,7 @@
 translationKey: barriers
 title: Browse by Barriers
 shortTitle: Barriers
-draft: true
+draft: false
 order: 0
 parent: guidelines
 layout: layouts/barriers
@@ -16,6 +16,7 @@ bannerText: |-
   These challenges are organized into five core stages, each representing a key stage or area within the process. For each challenge, you can explore it in detail and discover practical approaches and actionable strategies to help address these barriers—making the standards development process more inclusive, accessible, and equitable.
 bannerImage: ''
 bannerImageAlt: ''
+outro: ''
 ---
 
 Not applicable.
