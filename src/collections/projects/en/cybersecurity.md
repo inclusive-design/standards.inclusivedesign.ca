@@ -13,7 +13,7 @@ featuredResources: []
 
 ## About the Project
 
-With this project we aim to create a more secure and inclusive digital environment for everyone. We want to understand the cybersecurity threats faced by Canadians with disabilities, Deaf Canadians, and other historically underrepresented and intersectional groups, and the barriers to safely accessing digital systems these communities face. 
+With this project we aim to create a more secure and inclusive digital environment for everyone. We want to understand the cybersecurity threats faced by Canadians with disabilities, Deaf Canadians, and other historically underrepresented and intersectional groups, and the barriers to safely accessing digital systems these communities face.
 
 With this knowledge we will:
 
@@ -46,7 +46,6 @@ In Year 1 of the project we have held 3 co-design sessions in which we:
 
 In Years 2 and 3 of the project we will hold working and feedback sessions to develop the guidelines and recommendations for technology creators and policy makers.
 
-
 ## Partners
 
 [L’Arche Canada](https://larche.ca/)
@@ -56,3 +55,11 @@ In Years 2 and 3 of the project we will hold working and feedback sessions to de
 [Wavefront Centre for Communication Accessibility](https://www.wavefrontcentre.ca/)
 
 [Canadian Council of the Blind - Toronto Visionaries](http://www.ccbtorontovisionaries.ca/)
+
+## Funders
+
+Funded by [Accessibility Standards Canada](https://accessible.canada.ca) / the Government of Canada.
+
+![](/assets/uploads/asc.png)
+
+![](/assets/uploads/canada.svg)
