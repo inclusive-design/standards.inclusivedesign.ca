@@ -1,6 +1,6 @@
 ---
 translationKey: provide-ongoing-accessibility-and-inclusion-training-for-staff-and-chairs
-title: Provide ongoing accessibility and inclusion training for staff and chairs
+title: Provide ongoing accessibility and inclusion training
 uuid: ed90fb3e
 draft: false
 strategies: |-
@@ -18,7 +18,7 @@ strategies: |-
       - How to manage conflict during meetings
       - Using plain language during speaking
 tips: ''
-more-information: ''
+moreInformation: ''
 examples: |-
   - [**India – Bureau of Indian Standards (BIS):**](https://www.bis.gov.in/?lang=en) BIS partners with universities and NGOs to offer accessible training for underrepresented groups, including courses in multiple languages, sign language, and text-to-speech tools. They also have "shadow committee" programs with mentorship for newcomers.
   - [**Germany – Deutsches Institut für Normung (DIN): Structured Chair Training Programs**](https://www.din.de/en)\*\* \*\*DIN offers structured training programs for chairs and committee members, focusing on inclusive leadership and effective facilitation. These programs cover topics such as managing diverse teams, addressing accessibility needs, and promoting equitable participation.​ DIN's training emphasizes the importance of cultural norms and provides chairs with the tools to create an inclusive environment that values all contributions.
@@ -26,4 +26,5 @@ examples: |-
 processes:
   - dc3b71a0
 barriers: []
+more-information: ''
 ---
