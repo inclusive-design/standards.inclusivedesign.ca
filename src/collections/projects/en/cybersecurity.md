@@ -60,6 +60,6 @@ In Years 2 and 3 of the project we will hold working and feedback sessions to de
 
 Funded by [Accessibility Standards Canada](https://accessible.canada.ca) / the Government of Canada.
 
-![](/assets/uploads/asc.png)
+[![](/assets/uploads/asc.png)](https://accessible.canada.ca/)
 
 ![](/assets/uploads/canada.svg)
