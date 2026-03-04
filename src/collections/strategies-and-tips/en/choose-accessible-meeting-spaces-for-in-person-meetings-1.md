@@ -1,6 +1,6 @@
 ---
 translationKey: choose-accessible-meeting-spaces-for-in-person-meetings-1
-title: Choose accessible meeting spaces for in-person meetings
+title: Choose accessible meeting spaces
 uuid: e6970303
 draft: false
 strategies: ''
@@ -14,7 +14,7 @@ tips: |-
   - Ensure access to tech support, adapters, charging stations, and different plug types.
   - Avoid working discussions over meals in noisy or informal spaces unless accommodations are provided.
   - Remind members not to hold important conversations unless the full committee is present.
-more-information: ''
+moreInformation: ''
 examples: |-
   - [**U.S.** **– ANSI**](https://www.din.de/en): ANSI ensures meeting venues have wheelchair ramps, accessible restrooms, and charging stations. They use a **venue checklist** to ensure proper accommodations.
   - [**UK – BSI**](https://www.bsigroup.com/en-CA/): BSI surveys venues in advance to ensure accessibility features like hearing loops and quiet spaces. They also gather **feedback** to improve future venue selections.
@@ -23,4 +23,5 @@ examples: |-
 processes:
   - 7cfa687f
 barriers: []
+more-information: ''
 ---
