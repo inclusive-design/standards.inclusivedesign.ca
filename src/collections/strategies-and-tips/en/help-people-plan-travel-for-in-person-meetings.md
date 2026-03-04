@@ -1,6 +1,6 @@
 ---
 translationKey: help-people-plan-travel-for-in-person-meetings
-title: Help people plan travel for in-person meetings
+title: Help with travel planning
 uuid: '34078967'
 draft: false
 strategies: ''
@@ -14,9 +14,10 @@ tips: |-
   - Arrange a contact person for travel questions and support.
   - Share information about accessibility at the venue including entrances, elevators, and bathrooms.
   - Provide clear details about transportation including accessible taxis and public transit options.
-more-information: ''
-examples: '[**Australia – Standards Australia**](https://www.standards.org.au/standards-development/developing-standards/process)**: **Standards Australia offers flexible travel support and peer mentorship to assist members with travel planning and accessibility needs.'
+moreInformation: ''
+examples: '[**Australia – Standards Australia**](https://www.standards.org.au/standards-development/developing-standards/process)\*\*: \*\*Standards Australia offers flexible travel support and peer mentorship to assist members with travel planning and accessibility needs.'
 processes:
   - e7f348c2
 barriers: []
+more-information: ''
 ---
