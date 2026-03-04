@@ -27,7 +27,7 @@ Cybersecurity is a large and complex space and knowledge about what it is and ho
 
 ## Our Approach
 
-Our research approach centers around a co-design process\* undertaken with living-experience experts recruited from our partner organisations. The understanding and knowledge gained from co-design will inform and be supplemented by:
+Our research approach centres around a co-design process\* undertaken with living-experience experts recruited from our partner organizations. The understanding and knowledge gained from co-design will inform and be supplemented by:
 
 - ongoing research into current knowledge and practices in accessible, useable and inclusive cybersecurity,
 - connecting with and learning from cybersecurity experts, and
