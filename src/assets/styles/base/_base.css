@@ -30,6 +30,32 @@ body {
     min-height: 16.25rem;
 }
 
+.banner nav.breadcrumb {
+    background-color: transparent;
+    padding: 0;
+
+    ol {
+        display: flex;
+        list-style: none;
+        padding-inline-start: 0;
+
+        li {
+            a {
+                align-items: center;
+                display: flex;
+                gap: 0.4rem;
+                text-wrap: nowrap;
+                width: fit-content;
+            }
+        }
+    }
+
+    svg {
+        margin-inline-end: 0.4rem;
+        stroke: currentcolor;
+    }
+}
+
 .banner__content {
     font-size: var(--step-1);
     width: 100%;

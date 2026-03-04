@@ -7,8 +7,19 @@
 {% block banner %}
 <div class="banner" style="--project-color: var(--fl-bgColor, var(--color-{{ color }}))">
     <div class="banner__content">
-   		{% set breadcrumb = collections['pages_' + lang] | find('data.translationKey', 'projects') %}
-        <a href="{{ breadcrumb.url }}" >{{ breadcrumb.data.shortTitle if breadcrumb.data.shortTitle else breadcrumb.data.title }} {% include 'svg/arrowRight.svg' %}</a>
+        {% set breadcrumbKeys = ['projects', title] %}
+        {% set breadcrumbLinks = [] %}
+        {% for breadcrumbKey in breadcrumbKeys %}
+            {% if not loop.last %}
+            {% set breadcrumb = collections['pages_' + lang] | find('data.translationKey', breadcrumbKey) %}
+            {% set linkTitle = breadcrumb.data.shortTitle if breadcrumb.data.shortTitle else breadcrumb.data.title %}
+            {% set breadcrumbLinks = breadcrumbLinks.concat({ 'title' : linkTitle, 'url' : breadcrumb.url }) %}
+            {% endif %}
+            {% if loop.last %}
+                {% set breadcrumbLinks = breadcrumbLinks.concat({ 'title' : title, 'url' : url }) %}
+            {% endif %}
+        {% endfor %}
+        {% include "partials/components/breadcrumb.njk" %}     
         <h1>{{ title }}</h1>
     </div>
     <div class="banner__image">

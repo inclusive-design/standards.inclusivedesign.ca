@@ -24,10 +24,6 @@
     color: var(--fl-fgColor, var(--color-black));
 }
 
-.resource .banner svg {
-    stroke: currentcolor;
-}
-
 .resource .meta {
     color: var(--fl-fgColor, var(--color-indigo-700));
 }
