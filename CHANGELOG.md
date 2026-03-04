@@ -1,5 +1,18 @@
 # Changelog
 
+## [2026.03.04.1931.ef8f849](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.02.26.1945.1d23590...2026.03.04.1931.ef8f849)
+
+* chore(deps): lock file maintenance (#377) @[renovate[bot]](https://github.com/apps/renovate)
+
+### Features
+
+* feat: implement single strategies and tips page (resolves #362) (#374) [@chosww](https://github.com/chosww)
+
+### Bug Fixes
+
+* fix: breadcrumb svg issue (resolves #373) (#375) [@chosww](https://github.com/chosww)
+* fix: properly import process.env (#381) [@nedatidrc](https://github.com/nedatidrc)
+
 ## [2026.02.26.1945.1d23590](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.02.17.1748.b0274a4...2026.02.26.1945.1d23590)
 
 * chore(deps): lock file maintenance (#366) @[renovate[bot]](https://github.com/apps/renovate)
