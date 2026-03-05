@@ -28,6 +28,7 @@
 {% endblock %}
 
 {% block content %}
+{% set strategiesOrTips = collections['strategies-and-tips_' + lang] | findAll('data.processes', uuid) %}
 <nav aria-labelledby="process-menu" class="flow">
     <inclusive-disclosure>
         <button aria-controls="{{ title | slugify }}-menu">
@@ -39,13 +40,18 @@
                         <h3>{% __ 'toc' %}</h3>
                     <ul role="list" class="flow"></ul>
                 </li>
+                <ul role="list" class="flow strategies-target-barriers">
+                        {% for strategyOrTip in strategiesOrTips %}
+                            <li><a href="#{{ strategyOrTip.data.title | slugify }}">{{ strategyOrTip.data.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </li>
             </ul>
         </div>
     </inclusive-disclosure>
 </nav>
 <article class="flow">
 {{ content | safe }}
-{% set strategiesOrTips = collections['strategies-and-tips_' + lang] | findAll('data.processes', uuid) %}
 {% if strategiesOrTips.length > 0 %}
 {% for strategyOrTip in strategiesOrTips %}
     {% include "partials/components/card--strategies-and-tips.njk" %}
