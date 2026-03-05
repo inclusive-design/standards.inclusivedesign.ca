@@ -17,8 +17,8 @@ strategies: |-
 tips: ''
 moreInformation: ''
 examples: |-
-  - **Japan’s **[**JISC**](https://www.jisc.go.jp/eng/)** **uses a multi-criteria review that factors in legal relevance, market use, and social value. If a standard supports accessibility or public safety, it may be retained even if its original technical basis is outdated.
-  - **In Brazil, **[**ABNT**](https://braziliannr.com/brazilian-national-standards/)** **partners with government agencies and civil society to review standards related to housing, accessibility, and education. The decision to retire a standard involves assessing whether it continues to fill a policy or equity gap, even if it’s no longer widely used in industry.
+  - \*\*Japan’s [**JISC**](https://www.jisc.go.jp/eng/) \*\*uses a multi-criteria review that factors in legal relevance, market use, and social value. If a standard supports accessibility or public safety, it may be retained even if its original technical basis is outdated.
+  - \*\*In Brazil, [**ABNT**](https://braziliannr.com/brazilian-national-standards/) \*\*partners with government agencies and civil society to review standards related to housing, accessibility, and education. The decision to retire a standard involves assessing whether it continues to fill a policy or equity gap, even if it’s no longer widely used in industry.
 processes:
   - 153c2d64
 barriers: []
