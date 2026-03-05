@@ -1,6 +1,6 @@
 ---
 translationKey: inaccessible-registration-systems
-title: Inaccessible Registration Systems
+title: Inaccessible registration systems
 uuid: d1e09be4
 draft: false
 problem: |-

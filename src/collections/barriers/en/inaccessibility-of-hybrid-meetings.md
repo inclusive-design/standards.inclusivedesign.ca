@@ -1,10 +1,10 @@
 ---
 translationKey: inaccessibility-of-hybrid-meetings
-title: Inaccessibility of hybrid meetings
+title: Inaccessible hybrid meetings
 uuid: 81182d8d
 draft: false
 problem: |-
-  During hybrid meetings, where some people are physically in the room and others are online, people in the room often have an advantage. If the meeting is not set up well, remote and disabled participants can miss important information or have their input overlooked.  
+  During hybrid meetings, where some people are physically in the room and others are online, people in the room often have an advantage. If the meeting is not set up well, remote and disabled participants can miss important information or have their input overlooked.
 
   Common problems include:
 
