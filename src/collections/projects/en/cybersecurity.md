@@ -4,8 +4,8 @@ title: Cybersecurity Accessibility and Inclusion Assessment Framework
 draft: false
 lang: en
 excerpt: Creating a more secure and inclusive digital environment for everyone. We want to understand the cybersecurity threats faced by Canadians with disabilities, Deaf Canadians, and other historically underrepresented and intersectional groups, and the barriers to safely accessing digital systems these communities face.
-previewImage: ''
-previewImageAlt: ''
+previewImage: /assets/uploads/cyberimage.jpg
+previewImageAlt: A drawing of several people who are using computers, tablets and mobile devices to access different applications. Some of them are standing while others sit , including one person who sits in a wheelchair.
 logo: ''
 color: yellow
 featuredResources: []
