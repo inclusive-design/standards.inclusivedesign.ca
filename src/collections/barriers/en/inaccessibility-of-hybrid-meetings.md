@@ -1,6 +1,6 @@
 ---
 translationKey: inaccessibility-of-hybrid-meetings
-title: Inaccessible of hybrid meetings
+title: Inaccessible hybrid meetings
 uuid: 81182d8d
 draft: false
 problem: |-
