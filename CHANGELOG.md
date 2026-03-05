@@ -1,5 +1,9 @@
 # Changelog
 
+## [2026.03.05.2104.7d25acf](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.03.04.1931.ef8f849...2026.03.05.2104.7d25acf)
+
+* No changes
+
 ## [2026.03.04.1931.ef8f849](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.02.26.1945.1d23590...2026.03.04.1931.ef8f849)
 
 * chore(deps): lock file maintenance (#377) @[renovate[bot]](https://github.com/apps/renovate)
