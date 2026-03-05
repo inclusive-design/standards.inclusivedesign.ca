@@ -40,7 +40,7 @@
                         <h3>{% __ 'toc' %}</h3>
                     <ul role="list" class="flow"></ul>
                 </li>
-                <ul role="list" class="flow strategies-target-barriers">
+                <ul role="list" class="flow processes-strategies-and-tips">
                         {% for strategyOrTip in strategiesOrTips %}
                             <li><a href="#{{ strategyOrTip.data.title | slugify }}">{{ strategyOrTip.data.title }}</a></li>
                         {% endfor %}
