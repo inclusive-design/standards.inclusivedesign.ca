@@ -35,7 +35,7 @@ Our research approach centres around a co-design process\* undertaken with livin
 
 \*For more information about our co-design approach please see the[ Community-Led Co-design Kit](https://co-design.inclusivedesign.ca/).
 
-In Year 1 of the project we have held 3 co-design sessions in which we:
+In Year 1 of the project, we held 3 co-design sessions in which we:
 
 - Developed a shared understanding of cybersecurity
 - Discussed findings from previous research
