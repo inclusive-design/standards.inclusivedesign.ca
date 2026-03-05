@@ -1,6 +1,6 @@
 ---
 translationKey: inaccessibility-of-in-person-meetings
-title: Inaccessibility of in-person meetings
+title: Inaccessible in-person meetings
 uuid: 9dc55c33
 draft: false
 problem: |-
