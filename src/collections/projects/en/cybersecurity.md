@@ -7,7 +7,7 @@ excerpt: Creating a more secure and inclusive digital environment for everyone. 
 previewImage: /assets/uploads/cyberimage.jpg
 previewImageAlt: A drawing of several people who are using computers, tablets and mobile devices to access different applications. Some of them are standing while others sit , including one person who sits in a wheelchair.
 logo: ''
-color: yellow
+color: red
 featuredResources: []
 ---
 
