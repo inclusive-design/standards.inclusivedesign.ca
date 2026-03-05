@@ -23,7 +23,7 @@
             </div>
             {{ strategyOrTip.data.tips | markdown | safe }}
         {% endif %}
-        {% if strategyOrTip.data.barriers %}
+        {% if strategyOrTip.data.barriers | length > 0 %}
             <div class="card__heading-image">
                 {% include 'svg/barriers.svg' %}
                 <h4>
