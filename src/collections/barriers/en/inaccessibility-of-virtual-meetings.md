@@ -1,6 +1,6 @@
 ---
 translationKey: inaccessibility-of-virtual-meetings
-title: Inaccessibility of virtual meetings
+title: Inaccessible virtual meetings
 uuid: e0642a56
 draft: false
 problem: |-
