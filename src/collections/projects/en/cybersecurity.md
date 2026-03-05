@@ -1,7 +1,7 @@
 ---
 translationKey: cybersecurity
 title: Cybersecurity Accessibility and Inclusion Assessment Framework
-draft: true
+draft: false
 lang: en
 excerpt: Creating a more secure and inclusive digital environment for everyone. We want to understand the cybersecurity threats faced by Canadians with disabilities, Deaf Canadians, and other historically underrepresented and intersectional groups, and the barriers to safely accessing digital systems these communities face.
 previewImage: ''
