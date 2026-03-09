@@ -9,13 +9,17 @@ strategies: |-
   - Define diversity, equity, and inclusion goals clearly and treat them as ongoing commitments, not checkboxes.
   - Align policies and funding priorities with equity and inclusion goals.
 tips: ''
+moreInformation: |-
+  - [Allocate a dedicated accessibility budget](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/allocate-a-dedicated-accessibility-budget/)
+  - [Provide Ongoing Accessibility and Inclusion Training for Staff and Chairs](https://docs.google.com/document/d/1rSj2SrDtFpxCagBmXxBdQCnb4P_K72qiArqk61ABq5s/edit?tab=t.uc525qp1kql#heading=h.f672am62ox2z)
+  - [Create a shared support system across SDOs](https://docs.google.com/document/d/1rSj2SrDtFpxCagBmXxBdQCnb4P_K72qiArqk61ABq5s/edit?tab=t.uc525qp1kql#heading=h.59hiiz1wr2it)
+examples: '- [**United Kingdom – British Standards Institution (BSI)**](https://www.bsigroup.com/en-CA/)\*\*: \*\*BSI promotes inclusivity by publishing PAS 6463 for neurodivergent inclusion, enforcing equality mandates in working groups, and dedicating staff and funding to diversity initiatives.'
+processes:
+  - d2d08ae4
+barriers: []
 more-information: |-
   - [**Functional accessibility requirement&#160;**](https://accessible.canada.ca/creating-accessibility-standards/canasc-en-301-5492024-accessibility-requirements-ict-products-and-services/4-functional-performance)
   - [**Ladder of citizen participation** ](https://cities.inclusivedesign.ca/resources/ladder-of-citizen-participation/)
   - [**Build lasting relationships** ](https://cities.inclusivedesign.ca/resources/build-lasting-relationships/)
   - [**Enable continuous improvement**  ](https://cities.inclusivedesign.ca/resources/enable-continuous-improvement/)
-examples: '- [**United Kingdom – British Standards Institution (BSI)**](https://www.bsigroup.com/en-CA/)\*\*: \*\*BSI promotes inclusivity by publishing PAS 6463 for neurodivergent inclusion, enforcing equality mandates in working groups, and dedicating staff and funding to diversity initiatives.'
-processes:
-  - d2d08ae4
-barriers: []
 ---
