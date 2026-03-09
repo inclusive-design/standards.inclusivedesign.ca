@@ -2,7 +2,7 @@
 translationKey: search
 title: Search
 shortTitle: Search
-draft: true
+draft: false
 order: 0
 parent: guidelines
 layout: layouts/search
