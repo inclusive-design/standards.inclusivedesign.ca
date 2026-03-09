@@ -21,5 +21,6 @@ examples: |-
   - \*\*In Norway, [**Standards Norway**](https://standard.no/en/) \*\*uses plain language in withdrawal notices and publicly commits to reviewing input before finalizing the decision. They also send notices to relevant community groups to ensure those most impacted have a chance to respond.
 processes:
   - 420ec90a
+  - 153c2d64
 barriers: []
 ---
