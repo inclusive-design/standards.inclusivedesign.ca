@@ -1,5 +1,11 @@
 # Changelog
 
+## [2026.03.09.2114.34f4ab2](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.03.09.1550.d27034b...2026.03.09.2114.34f4ab2)
+
+### Features
+
+* feat: search (resolves #365) (#385) [@nedatidrc](https://github.com/nedatidrc)
+
 ## [2026.03.09.1550.d27034b](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.03.09.1136.aee5829...2026.03.09.1550.d27034b)
 
 ### Bug Fixes
