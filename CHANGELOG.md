@@ -1,5 +1,13 @@
 # Changelog
 
+## [2026.03.09.1136.aee5829](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.03.04.1931.ef8f849...2026.03.09.1136.aee5829)
+
+* chore(deps): lock file maintenance (#384) @[renovate[bot]](https://github.com/apps/renovate)
+
+### Bug Fixes
+
+* fix: issues identified during testing (#383) [@chosww](https://github.com/chosww)
+
 ## [2026.03.04.1931.ef8f849](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.02.26.1945.1d23590...2026.03.04.1931.ef8f849)
 
 * chore(deps): lock file maintenance (#377) @[renovate[bot]](https://github.com/apps/renovate)
