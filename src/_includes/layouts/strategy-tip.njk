@@ -82,7 +82,7 @@
     <h2>{% __ 'strategies-and-tips-examples' %}</h2>
     {{ examples | markdown | safe }}
 {% endif %}
-{% if barriers %}
+{% if barriers | length > 0 %}
 <h2>{% __ 'strategies-and-tips-barriers' %}</h2>
 {% for barrier in targetBarriers %}
     {% include "partials/components/card--barrier.njk" %}
