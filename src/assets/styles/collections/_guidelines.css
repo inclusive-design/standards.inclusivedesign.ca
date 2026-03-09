@@ -7,6 +7,10 @@
     color: var(--fl-fgColor, var(--color-black));
 }
 
+[type="search"]::-webkit-search-cancel-button {
+    appearance: none;
+}
+
 .guidelines-search .banner {
  background-color: var(--fl-bgColor, var(--color-indigo-200));
  color: var(--fl-fgColor, var(--color-indigo-700));
