@@ -120,7 +120,8 @@
     margin-inline: 1rem;
 }
 
-.guidelines search {
+.guidelines search,
+.guidelines-search search {
 	display: flex;
 	flex-direction: column;
 	gap: var(--step-2);
@@ -141,7 +142,7 @@
 
 	input {
 		appearance: none;
-		background-color: var(--fl-bgColor, inherit);
+		background-color: var(--fl-bgColor, var(--color-white));
 		block-size: 3.75rem;
 		border: 0;
     	border-radius: 0.3125rem;
@@ -203,7 +204,8 @@
         display: block;
     }
 
-    .guidelines search {
+    .guidelines search,
+    .guidelines-search search {
     	display: grid;
      	grid-template-columns: 1fr auto;
      	width: 100%;

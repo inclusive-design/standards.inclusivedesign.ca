@@ -18,7 +18,7 @@
 </nav>
 <article class="flow">
 {{ content | safe }}
-<form action="{{ page.url }}/{% __ 'search-slug' %}" method="get">
+<form method="get" action="{{ page.url }}{% __ 'search-slug' %}/">
 {% include 'partials/components/guidelines-search.njk' %}
 </form>
 {{ outro | renderContent('md') | safe }}
