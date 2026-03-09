@@ -67,10 +67,10 @@ const constructPageLinks = (pages, page = 1, svgs, i18n) => {
     `;
 };
 
-const getPagedResults = async (search, page = 1, itemsPerPage = 5) => {
+const getPagedResults = async (search, page = 1, itemsPerPage = 6) => {
 	const pages = Math.ceil(search.results.length / itemsPerPage);
 	const start = clamp(page - 1, 0, pages) * itemsPerPage;
-	const end = Math.max(start, Math.min(start + 5, search.results.length));
+	const end = Math.max(start, Math.min(start + itemsPerPage, search.results.length));
 	return Promise.all(search.results.slice(start, end).map(r => r.data()));
 };
 
