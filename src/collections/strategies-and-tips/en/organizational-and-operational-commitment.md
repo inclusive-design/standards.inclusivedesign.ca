@@ -13,6 +13,9 @@ moreInformation: |-
   - [Allocate a dedicated accessibility budget](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/allocate-a-dedicated-accessibility-budget/)
   - [Provide Ongoing Accessibility and Inclusion Training for Staff and Chairs](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/provide-ongoing-accessibility-and-inclusion-training-for-staff-and-chairs/)
   - [Create a shared support system across SDOs](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/create-a-shared-support-system-across-standard-development-organizations/)
+  -  Check and improve accessibility
+  - Use equitable and transparent decision-making processes
+  - Provide monetary compensation and financial support
 examples: '- [**United Kingdom – British Standards Institution (BSI)**](https://www.bsigroup.com/en-CA/)\*\*: \*\*BSI promotes inclusivity by publishing PAS 6463 for neurodivergent inclusion, enforcing equality mandates in working groups, and dedicating staff and funding to diversity initiatives.'
 processes:
   - d2d08ae4
