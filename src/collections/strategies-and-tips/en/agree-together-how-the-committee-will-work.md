@@ -15,12 +15,12 @@ tips: |-
       - How should meetings be run and decisions made?
       - What are the best times and ways to communicate?
 moreInformation: |-
-  - [Encourage chairs to host an onboarding meeting before committee work begins](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/encourage-chairs-to-host-an-onboarding-meeting-before-committee-work-begins-1/)
-  - [Provide one-on-one guidance and ongoing support to new members and members with lived experiences](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/encourage-chairs-to-host-an-onboarding-meeting-before-committee-work-begins-1/)
-  - [Plan for regular check-ins with new members and members with lived experiences](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/plan-for-regular-check-ins-with-new-members-and-members-with-lived-experiences-of-disability/)
-  - [Provide a welcome package for new members ](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/provide-a-welcome-package-for-new-members/)
+  - [Host an onboarding meeting before committee work begins](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/encourage-chairs-to-host-an-onboarding-meeting-before-committee-work-begins/)
+  - [Plan for regular check-ins with new members ](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/plan-for-regular-check-ins-with-new-members-and-members-with-lived-experiences-of-disability/)
+  - [Provide guidance and ongoing support to new members](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/provide-one-on-one-guidance-and-ongoing-support-to-new-members-and-members-with-lived-experiences/)
+  - [Provide a welcome package for new members](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/provide-a-welcome-package-for-new-members/)
   - [Provide chairs with practical support and tools for accessibility](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/provide-chairs-with-practical-support-and-tools-for-accessibility/)
-  - [Organizational and operational commitment](https://standards.inclusivedesign.ca/guidelines/processes/recruiting/)
+  - [Organizational and operational commitment](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/organizational-and-operational-commitment/)
 examples: ''
 processes:
   - 3eb6bf1e
