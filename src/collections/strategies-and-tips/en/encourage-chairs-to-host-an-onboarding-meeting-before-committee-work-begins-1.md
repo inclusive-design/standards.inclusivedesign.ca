@@ -1,18 +1,20 @@
 ---
 translationKey: encourage-chairs-to-host-an-onboarding-meeting-before-committee-work-begins-1
-title: Encourage chairs to host an onboarding meeting before committee work begins
+title: Provide one-on-one guidance and ongoing support to new members and members with lived experiences
 uuid: d60a2185
 draft: false
-strategies: ''
+strategies: |-
+  - Encourage a culture of shared learning and open questions.
+  - Set up a dedicated help contact (staff or advisor) for quick questions about accessibility or committee work.
 tips: |-
-  Co-chairs should meet with new members individually to:
-
-  - Introduce the structure and goals of the committee
-  - Clarify roles, expectations, and responsibilities
-  - Explain workflows, working culture and norms, and decision-making processes
-  - Identify any initial access needs and come up with a plan to meet them
+  - Pair members with a mentor or buddy so they can provide contextualized advice as well as help with navigating the committee work: 
+      - Match new members with more experienced or returning members
+      - Consider matching members with someone who has similar lived experiences
+  - Offer one-on-one walkthroughs
+  - Provide visual aids or diagrams to explain complex processes or workflows.
+  - Hold an initial practice session for new members or those unfamiliar with the tools, technologies and procedures.
 moreInformation: ''
-examples: ''
+examples: '[Germany – DIN: Structured and Inclusive Onboarding](https://www.din.de/en): DIN developed a formal onboarding process to support new committee members, especially those new to standards or from underrepresented groups. New members receive plain language welcome kits, multilingual guides, and access to captioned webinars. A dedicated onboarding team offers one-on-one support, while a buddy system pairs newcomers with experienced mentors. Chairs also connect early to discuss accessibility needs. DIN treats onboarding as an ongoing process, not a one-time step ensuring members feel supported, informed, and ready to contribute.'
 processes:
   - 3eb6bf1e
 barriers: []
