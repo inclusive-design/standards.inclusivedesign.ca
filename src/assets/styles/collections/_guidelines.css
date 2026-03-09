@@ -249,8 +249,12 @@
 	margin-block: calc(50 / 16 * 1rem) 1rem;
 }
 
-.guidelines-search article .wrapper {
+.guidelines-search article {
 	padding-inline: var(--common-inline-padding);
+}
+
+.search-results {
+	max-inline-size: 55.9375rem;
 }
 
 .search-results li + li {
