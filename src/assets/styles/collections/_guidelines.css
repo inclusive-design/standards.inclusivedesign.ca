@@ -7,6 +7,15 @@
     color: var(--fl-fgColor, var(--color-black));
 }
 
+[type="search"]::-webkit-search-cancel-button {
+    appearance: none;
+}
+
+.guidelines-search .banner {
+ background-color: var(--fl-bgColor, var(--color-indigo-200));
+ color: var(--fl-fgColor, var(--color-indigo-700));
+}
+
 .strategy-tip .banner {
     background-color: var(--fl-bgColor, var(--color-indigo-800));
     color: var(--fl-fgColor, white);
@@ -115,7 +124,8 @@
     margin-inline: 1rem;
 }
 
-.guidelines search {
+.guidelines search,
+.guidelines-search search {
 	display: flex;
 	flex-direction: column;
 	gap: var(--step-2);
@@ -136,11 +146,12 @@
 
 	input {
 		appearance: none;
-		background-color: var(--fl-bgColor, inherit);
+		background-color: var(--fl-bgColor, var(--color-white));
 		block-size: 3.75rem;
 		border: 0;
     	border-radius: 0.3125rem;
      	box-shadow: inset 0 0 0 0.125rem var(--fl-linkFgColor, var(--color-indigo-700));
+      	color: var(--fl-fgColor, var(--color-black));
       	padding-inline: var(--step-4) var(--step-1);
 
        &:focus {
@@ -198,7 +209,8 @@
         display: block;
     }
 
-    .guidelines search {
+    .guidelines search,
+    .guidelines-search search {
     	display: grid;
      	grid-template-columns: 1fr auto;
      	width: 100%;
@@ -225,6 +237,40 @@
 .process article > h2,
 .strategy-tip article > h2 {
     max-width: 100%;
+}
+
+.guidelines-search h2 {
+	margin-block-start: calc(36 / 16 * 1rem);
+}
+
+.guidelines-search hr {
+	border-block-end: 0;
+	border-block-start: 1px solid var(--fl-fgColor, var(--color-indigo-700));
+	margin-block: calc(50 / 16 * 1rem) 1rem;
+}
+
+.guidelines-search article {
+	padding-inline: var(--common-inline-padding);
+}
+
+.search-results {
+	max-inline-size: 55.9375rem;
+}
+
+.search-results li + li {
+	margin-block-start: 2rem;
+}
+
+.search-results + .pagination {
+	margin-block-start: 4rem;
+}
+
+.search-results__title em {
+	align-items: center;
+	display: flex;
+	font-size: var(--step-2);
+	gap: calc(12 / 16 * 1rem);
+	margin-block: 0.75rem;
 }
 
 .processes .banner {
@@ -286,6 +332,18 @@
     .strategy-tip nav,
     .strategy-tip article {
         padding-block: 8.4375rem;
+    }
+
+    .guidelines-search h2 {
+    	margin-block-start: calc(64 / 16 * 1rem);
+    }
+
+    .guidelines-search hr {
+		margin-block: calc(50 / 16 * 1rem);
+    }
+
+    .search-results li + li {
+    	margin-block-start: 7.5rem;
     }
 
     .barrier nav,

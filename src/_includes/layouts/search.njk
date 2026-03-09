@@ -1,0 +1,56 @@
+{% extends "layouts/base.njk" %}
+
+{% set pageType = 'guidelines-search' %}
+
+{% block banner %}
+<div class="banner">
+    <div class="wrapper">
+        <div class="banner__content flow">
+	       	{% set breadcrumbKeys = ['guidelines', title] %}
+	        {% set breadcrumbLinks = [] %}
+	        {% for breadcrumbKey in breadcrumbKeys %}
+	            {% if not loop.last %}
+	            {% set breadcrumb = collections['pages_' + lang] | find('data.translationKey', breadcrumbKey) %}
+	            {% set linkTitle = breadcrumb.data.shortTitle if breadcrumb.data.shortTitle else breadcrumb.data.title %}
+	            {% set breadcrumbLinks = breadcrumbLinks.concat({ 'title' : linkTitle, 'url' : breadcrumb.url }) %}
+	            {% endif %}
+	            {% if loop.last %}
+	                {% set breadcrumbLinks = breadcrumbLinks.concat({ 'title' : title, 'url' : url }) %}
+	            {% endif %}
+	        {% endfor %}
+	        {% include "partials/components/breadcrumb.njk" %}
+	        <h1>{{ title }}</h1>
+            <form action="">
+            {% include 'partials/components/guidelines-search.njk' %}
+            </form>
+            {{ bannerText | renderContent('md') | safe }}
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<article class="flow">
+	<div class="wrapper" id="results-container">
+  	<div id="search-results"></div>
+	</div>
+
+	<script type="module">
+ 		const pagefind = await import("/pagefind/pagefind.js");
+        await pagefind.options({
+			highlightParam: "highlight"
+        });
+        pagefind.init();
+        let results = await search(pagefind, {
+        	svgs: {
+                previous: `{% include "svg/previous.svg" %}`,
+                next: `{% include "svg/next.svg" %}`,
+                'strategy-tip': `{% include "svg/strategy-tip.svg" %}`,
+                barrier: `{% include "svg/barrier.svg" %}`,
+         	},
+          	lang: '{{ lang }}',
+           	translations: JSON.parse(`{{ translations | dump | safe }}`)
+        });
+	</script>
+</article>
+{% endblock %}

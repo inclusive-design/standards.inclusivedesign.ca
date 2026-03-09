@@ -11,7 +11,7 @@
 <body>
   {% include "partials/global/header.njk" %}
   {% include "partials/components/navigation.njk" %}
-  <main id="main" class="{{ pageType if pageType else 'page' }}">
+  <main id="main" class="{{ pageType if pageType else 'page' }}" {{ alpineData | safe if alpineData }}>
     {% block banner %}
     <div class="banner">
       <div class="wrapper">
