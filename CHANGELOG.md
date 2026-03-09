@@ -1,5 +1,11 @@
 # Changelog
 
+## [2026.03.09.1550.d27034b](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.03.09.1136.aee5829...2026.03.09.1550.d27034b)
+
+### Bug Fixes
+
+* fix: barriers banner (#387) [@nedatidrc](https://github.com/nedatidrc)
+
 ## [2026.03.09.1136.aee5829](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.03.04.1931.ef8f849...2026.03.09.1136.aee5829)
 
 * chore(deps): lock file maintenance (#384) @[renovate[bot]](https://github.com/apps/renovate)
