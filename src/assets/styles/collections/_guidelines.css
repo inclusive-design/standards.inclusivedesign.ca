@@ -1,10 +1,15 @@
 .barrier .banner,
-.barriers .banner 
+.barriers .banner,
 .guidelines .banner,
 .process .banner,
 .processes .banner {
     background-color: var(--fl-bgColor, var(--color-indigo-200));
     color: var(--fl-fgColor, var(--color-black));
+}
+
+.guidelines-search .banner {
+ background-color: var(--fl-bgColor, var(--color-indigo-200));
+ color: var(--fl-fgColor, var(--color-indigo-700));
 }
 
 .strategy-tip .banner {
@@ -227,6 +232,31 @@
     max-width: 100%;
 }
 
+.guidelines-search h2 {
+	margin-block-start: calc(36 / 16 * 1rem);
+}
+
+.guidelines-search hr {
+	border-block-end: 0;
+	border-block-start: 1px solid var(--fl-fgColor, var(--color-indigo-700));
+	margin-block: calc(50 / 16 * 1rem) 1rem;
+}
+
+.guidelines-search article .wrapper {
+	padding-inline: var(--common-inline-padding);
+}
+
+.search-results li + li {
+	margin-block-start: 2rem;
+}
+
+.search-results__title em {
+	align-items: center;
+	display: flex;
+	font-size: var(--step-2);
+	gap: calc(12 / 16 * 1rem);
+}
+
 .processes .banner {
 	position: relative;
 	z-index: 1;
@@ -286,6 +316,18 @@
     .strategy-tip nav,
     .strategy-tip article {
         padding-block: 8.4375rem;
+    }
+
+    .guidelines-search h2 {
+    	margin-block-start: calc(64 / 16 * 1rem);
+    }
+
+    .guidelines-search hr {
+		margin-block: calc(50 / 16 * 1rem);
+    }
+
+    .search-results li + li {
+    	margin-block-start: 7.5rem;
     }
 
     .barrier nav,

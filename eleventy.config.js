@@ -10,6 +10,7 @@ import objectArrayPush from './src/assets/scripts/object-array-push.js';
 import {env} from 'node:process';
 import findTranslationKeyFilter from './src/_filters/find-translation-key-filter.js';
 import markdownFilter from './src/_filters/markdown-filter.js';
+import {execSync} from 'node:child_process';
 
 /**
  * @param {import("@11ty/eleventy").UserConfig} eleventyConfig An instance of Eleventy's UserConfig class.
@@ -99,6 +100,10 @@ export default function eleventy(eleventyConfig) {
 		if (data.draft && env.ELEVENTY_RUN_MODE === 'build') {
 			return false;
 		}
+	});
+
+	eleventyConfig.on('eleventy.after', () => {
+		execSync('npx pagefind --site _site --glob "**/index.html"', {encoding: 'utf8'});
 	});
 
 	return {
