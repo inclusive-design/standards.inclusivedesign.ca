@@ -76,7 +76,7 @@ const getPagedResults = async (search, page = 1, itemsPerPage = 5) => {
 
 const render = async (search, term, page = 1, options) => {
 	const options_ = {
-		itemsPerPage: 5,
+		itemsPerPage: 6,
 		...options,
 	};
 
@@ -105,7 +105,7 @@ const render = async (search, term, page = 1, options) => {
 */
 const search = async (pagefind, options) => {
 	const options_ = {
-		itemsPerPage: 5,
+		itemsPerPage: 6,
 		inputSelector: '#search',
 		resultsContainer: '#results-container',
 		resultsSelector: '#search-results',
