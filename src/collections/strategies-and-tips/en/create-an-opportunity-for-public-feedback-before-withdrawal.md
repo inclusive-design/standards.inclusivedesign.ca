@@ -15,11 +15,16 @@ strategies: |-
   - Make all materials easy to understand in plain language and accessible formats.
   - Keep the process transparent so communities know their feedback is considered.
 tips: ''
-moreInformation: ''
+moreInformation: |-
+  - [Co-develop criteria for withdrawal](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/co-develop-criteria-for-withdrawal/)
+  - [Use clear, accessible, and open language in withdrawal notices](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/use-clear-accessible-and-open-language-in-withdrawal-notices/)
+  - [Offer opportunities to request revisions rather than removal](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/offer-opportunities-to-request-revisions-rather-than-removal/)
+  - [Provide transition guidance when withdrawing a standard](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/provide-translation-and-interpretation-for-everyone/)
+  - [Establish continuous feedback loops](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/establish-continuous-feedback-loops/)
 examples: |-
-  - **In the UK, the**[** British Standards Institution (BSI)**](https://www.bsigroup.com/en-CA/) includes withdrawal updates in newsletters and stakeholder mailing lists, ensuring professionals, advocacy groups, and local authorities are informed. For high-impact standards, they also issue press releases and guidance on alternatives or replacements.
-  - **In Kenya, the **[**Kenya Bureau of Standards (KEBS)**](https://www.kebs.org/)** **uses radio and community networks to spread the word about withdrawn or updated standards, particularly in areas with limited internet access. They also collaborate with NGOs to reach disability groups and rural communities.
-  - **In Sweden, **[**SIS**](https://www.sis.se/en/)** **ensures that any withdrawn standards with potential social impact are accompanied by targeted outreach. Notices are shared not only on their website but also through associations and public sector partners, so no key user group is left unaware.
+  - [UK – British Standards Institution (BSI)](https://www.bsigroup.com/en-CA/): BSI includes withdrawal updates in newsletters and stakeholder mailing lists, ensuring professionals, advocacy groups, and local authorities are informed. For high-impact standards, they also issue press releases and guidance on alternatives or replacements.
+  - [Kenya – Kenya Bureau of Standards (KEBS):](https://www.kebs.org/) KEBS uses radio and community networks to spread the word about withdrawn or updated standards, particularly in areas with limited internet access. They also collaborate with NGOs to reach disability groups and rural communities.
+  - [Sweden – Swedish Institute for Standards (SIS)](https://www.sis.se/en/): SIS ensures that any withdrawn standards with potential social impact are accompanied by targeted outreach. Notices are shared not only on their website but also through associations and public sector partners, so no key user group is left unaware.
 processes:
   - 153c2d64
 barriers: []
