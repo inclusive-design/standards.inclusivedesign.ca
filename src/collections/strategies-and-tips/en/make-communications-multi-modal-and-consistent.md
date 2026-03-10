@@ -11,15 +11,21 @@ tips: |-
   - Use a mix of communication formats such as recorded videos, written guides, infographics, visual diagrams and print materials to make content as widely accessible as possible
   - Provide materials in alternative formats (large print, braille, plain language, screen-reader compatible documents, audio/video).
   - Offer synchronous (live), asynchronous (on-demand), and hybrid options to support different time zones, learning styles, and access needs.
+moreInformation: |-
+  - [Ensure all documents are accessible](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/ensure-all-documents-are-accessible/)
+  - [Ensure websites are accessible](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/ensure-websites-are-accessible/)
+  - [Recruit across disability and intersectional identities](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/recruit-across-disability-and-intersectional-identities/)
+  - [Be transparent in the application process](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/be-transparent-in-the-application-process/)
+  - [Organizational and operational commitment](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/organizational-and-operational-commitment/)
+examples: |-
+  - [Japan – The Japanese Industrial Standards Committee (JISC)](https://www.jisc.go.jp/eng/): JISC uses public workshops and local community engagement through government channels and businesses to raise awareness.
+  - [South Korea – Korean Agency for Technology and Standards (KATS)](https://www.standardsportal.org/usa_kr/e/standards_system/development_korean_standards.aspx): KATS promotes consultations via media campaigns, online platforms, and SMS notifications, with collaborations with universities to boost participation.
+  - [Kenya – Kenya Bureau of Standards (KEBS):](https://www.kebs.org/) KEBS uses regional outreach hubs, holding local disability forums and deploying mobile teams to recruit and onboard participants. Materials are offered in Braille, sign language, and local languages. New members are paired with mentors.
+processes:
+  - d2d08ae4
+barriers: []
 more-information: |-
   - [**WebAIM: Writing Clearly and Simply**](https://webaim.org/techniques/writing/)
   - [**Best practices for accessible virtual events**](https://a11y.canada.ca/en/best-practices-for-accessible-virtual-events/)
   - [**Content and Communication**](https://community-led.design/resources/accessible-content-and-communication/)
-examples: |-
-  - [**Japan – The Japanese Industrial Standards Committee (JISC)**](https://www.jisc.go.jp/eng/)\*\* : \*\*JISC uses public workshops and local community engagement through government channels and businesses to raise awareness.
-  - [**South Korea – Korean Agency for Technology and Standards (KATS)**](https://www.standardsportal.org/usa_kr/e/standards_system/development_korean_standards.aspx)\*\* :\*\* KATS promotes consultations via media campaigns, online platforms, and SMS notifications, with collaborations with universities to boost participation.
-  - [**Kenya – Kenya Bureau of Standards (KEBS):**](https://www.kebs.org/)\*\* \*\*KEBS uses regional outreach hubs, holding local disability forums and deploying mobile teams to recruit and onboard participants. Materials are offered in Braille, sign language, and local languages. New members are paired with mentors.
-processes:
-  - d2d08ae4
-barriers: []
 ---
