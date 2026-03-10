@@ -11,9 +11,16 @@ strategies: |-
   - Ensure all content is accessible
   - Provide learning content in multiple languages
 tips: ''
-more-information: ''
-examples: '[**Norway – Standards Norway**](https://standard.no/en/): Standards Norway offers an onboarding toolkit for first-time participants, including plain language guides, explainer videos, orientations, and dedicated staff support. They also host webinars for newcomers from disability and civil society sectors.'
+moreInformation: |-
+  - [Ensure all documents are accessible](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/ensure-all-documents-are-accessible/)
+  - [Ensure websites are accessible](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/ensure-websites-are-accessible/)
+  - [Provide ongoing accessibility and inclusion training](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/provide-ongoing-accessibility-and-inclusion-training-for-staff-and-chairs/)
+  - [Organizational and operational commitment](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/organizational-and-operational-commitment/)
+  - [Recruit across disability and intersectional identities](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/recruit-across-disability-and-intersectional-identities/)
+  - [Make communications multi-modal and consistent](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/make-communications-multi-modal-and-consistent/)
+examples: '[Norway – Standards Norway](https://standard.no/en/): Standards Norway offers an onboarding toolkit for first-time participants, including plain language guides, explainer videos, orientations, and dedicated staff support. They also host webinars for newcomers from disability and civil society sectors.'
 processes:
   - dc3b71a0
 barriers: []
+more-information: ''
 ---
