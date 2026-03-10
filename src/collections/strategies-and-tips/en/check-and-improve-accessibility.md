@@ -22,12 +22,20 @@ strategies: |-
 
   These challenges are amplified when travel is required - the [Travel](https://docs.google.com/document/d/1rSj2SrDtFpxCagBmXxBdQCnb4P_K72qiArqk61ABq5s/edit?tab=t.7zs28s6iacgn#heading=h.6xl6o28exsf6) section has more details).
 tips: ''
-more-information: ''
+moreInformation: |-
+  - [Make remote/virtual/online meetings accessible](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/make-remote-virtual-online-meetings-accessible/)
+  - [Ensure all documents are accessible](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/ensure-all-documents-are-accessible/)
+  - [Ensure websites are accessible](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/ensure-websites-are-accessible/)
+  - [Make communications multi-modal and consistent](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/make-communications-multi-modal-and-consistent/)
+  - [Provide diverse, accessible knowledge-building opportunities](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/provide-diverse-accessible-knowledge-building-opportunities/)
+  - [Provide ongoing accessibility and inclusion training](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/provide-ongoing-accessibility-and-inclusion-training-for-staff-and-chairs/)
+  - [Use accessible hybrid meeting practices](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/use-accessible-hybrid-meeting-practices/)
 examples: |-
-  - [**India – Bureau of Indian Standards (BIS)**](https://www.bis.gov.in/?lang=en)**:** BIS offers registration in regional languages and offline options like printed forms, phone registration, and community partner assistance. They collaborate with NGOs to bring mobile units to disability events, ensuring accessibility in remote areas.
-  - [**Australia – Standards Australia**](https://www.standards.org.au/standards-development/developing-standards/process)**:** Standards Australia revamped its registration portals to meet WCAG 2.1 standards and created plain-language forms. They provide offline options like printed forms and phone interviews, along with Easy Read materials and explainer videos for people with disabilities.
-  - [**Kenya – Kenya Bureau of Standards (KEBS)**](https://www.kebs.org/)**:** KEBS partners with disability centers for in-person registration using paper forms, braille, and sign language interpreters. They also offer mobile-friendly forms and SMS-based registration, catering to low-bandwidth regions and mobile-first users.
+  - [India – Bureau of Indian Standards (BIS)](https://www.bis.gov.in/?lang=en): BIS offers registration in regional languages and offline options like printed forms, phone registration, and community partner assistance. They collaborate with NGOs to bring mobile units to disability events, ensuring accessibility in remote areas.
+  - [Australia – Standards Australia](https://www.standards.org.au/standards-development/developing-standards/process): Standards Australia revamped its registration portals to meet WCAG 2.1 standards and created plain-language forms. They provide offline options like printed forms and phone interviews, along with Easy Read materials and explainer videos for people with disabilities.
+  - [Kenya – Kenya Bureau of Standards (KEBS)](https://www.kebs.org/): KEBS partners with disability centers for in-person registration using paper forms, braille, and sign language interpreters. They also offer mobile-friendly forms and SMS-based registration, catering to low-bandwidth regions and mobile-first users.
 processes:
   - a7e33638
 barriers: []
+more-information: ''
 ---
