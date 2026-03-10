@@ -12,6 +12,8 @@ tips: |-
   - Provide materials in alternative formats (large print, braille, plain language, screen-reader compatible documents, audio/video).
   - Offer synchronous (live), asynchronous (on-demand), and hybrid options to support different time zones, learning styles, and access needs.
 moreInformation: |-
+  - [WebAIM: Writing Clearly and Simply](https://webaim.org/techniques/writing/)
+  - [Content and Communication](https://community-led.design/resources/accessible-content-and-communication/)
   - [Ensure all documents are accessible](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/ensure-all-documents-are-accessible/)
   - [Ensure websites are accessible](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/ensure-websites-are-accessible/)
   - [Recruit across disability and intersectional identities](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/recruit-across-disability-and-intersectional-identities/)
