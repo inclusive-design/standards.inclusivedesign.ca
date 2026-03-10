@@ -5,7 +5,7 @@ uuid: c0dd69a6
 draft: false
 strategies: ''
 tips: |-
-  - Schedule regular check-ins during the first few months** **to** **help build comfort, confidence, and a stronger sense of belonging. 
+  - Schedule regular check-ins during the first few months to help build comfort, confidence, and a stronger sense of belonging.
   - Use this time to:
       - Answer questions about content, roles, and responsibilities
       - Help prioritize reading or focus areas
