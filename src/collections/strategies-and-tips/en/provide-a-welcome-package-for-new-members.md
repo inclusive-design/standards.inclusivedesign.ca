@@ -4,7 +4,7 @@ title: Provide a welcome package for new members
 uuid: 9921aa47
 draft: false
 strategies: |-
-  - Provide documents, materials and technologies based on roles and responsibilities 
+  - Provide documents, materials and technologies based on roles and responsibilities
   - Provide information in flexible, small, digestible parts by using multiple shorter orientation sessions instead of one long session. This will give new members time to process the information and ask questions
 tips: |-
   Welcome packages can include the following:
@@ -14,9 +14,16 @@ tips: |-
   - Tools and platforms being used
   - Key documents to read first
   - Contact points for accessibility supports
-more-information: ''
+moreInformation: |-
+  - [Host an onboarding meeting before committee work begins](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/encourage-chairs-to-host-an-onboarding-meeting-before-committee-work-begins/)
+  - [Plan for regular check-ins with new members&#160;](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/plan-for-regular-check-ins-with-new-members-and-members-with-lived-experiences-of-disability/)
+  - [Provide guidance and ongoing support to new members](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/provide-one-on-one-guidance-and-ongoing-support-to-new-members-and-members-with-lived-experiences/)
+  - [Provide chairs with practical support and tools for accessibility](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/provide-chairs-with-practical-support-and-tools-for-accessibility/)
+  - [Organizational and operational commitment](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/organizational-and-operational-commitment/)
+  - [Provide ongoing accessibility and inclusion training](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/provide-ongoing-accessibility-and-inclusion-training-for-staff-and-chairs/)
 examples: ''
 processes:
   - 3eb6bf1e
 barriers: []
+more-information: ''
 ---
