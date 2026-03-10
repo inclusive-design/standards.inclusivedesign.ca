@@ -14,12 +14,13 @@ strategies: |-
 tips: |-
   - Test websites on multiple browsers and devices, including mobile phones and tablets.
   - Offer help or support for users who encounter accessibility barriers.
-more-information: |-
-  - [**Introduction to Web Accessibility**](https://webaim.org/intro/)
-  - [**WAVE Web Accessibility Evaluation Tools**](https://wave.webaim.org/)
+moreInformation: '[Ensure all documents are accessible](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/ensure-all-documents-are-accessible/)'
 examples: ''
 processes:
   - b612d304
   - 3eb6bf1e
 barriers: []
+more-information: |-
+  - [**Introduction to Web Accessibility**](https://webaim.org/intro/)
+  - [**WAVE Web Accessibility Evaluation Tools**](https://wave.webaim.org/)
 ---
