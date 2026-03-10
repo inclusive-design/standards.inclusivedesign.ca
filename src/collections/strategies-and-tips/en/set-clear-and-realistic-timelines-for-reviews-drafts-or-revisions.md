@@ -6,16 +6,22 @@ draft: false
 strategies: ''
 tips: |-
   - Plan extra time (20-30%) more than you think is needed.
-  - Share clear timelines and documents upfront and update them with member input. 
+  - Share clear timelines and documents upfront and update them with member input.
   - Break big tasks or decisions into smaller steps with clear deadlines.
   - Remind members of deadlines in advance.
   - Build in buffer time for submitting deadlines, especially for people with access needs, and people in different time zones or languages.
   - Adjust timelines if more time is needed for accessibility, translation, or review.
   - Allocate enough time for members to review especially long documents at a manageable pace.
   - Where possible, break large reading loads into prioritized chunks.
-more-information: ''
+moreInformation: |-
+  - [Use fair and transparent decision-making](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/use-fair-and-transparent-decision-making/)
+  - [Use inclusive approaches for decision-making](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/use-inclusive-approaches-for-decision-making/)
+  - [Empower chairs and facilitators to manage conflict](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/empower-chairs-and-facilitators-to-manage-conflict/)
+  - [Provide ongoing accessibility and inclusion training](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/provide-ongoing-accessibility-and-inclusion-training-for-staff-and-chairs/)
+  - [Plan what to do if goals aren’t met](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/plan-what-to-do-if-goals-arent-met/)
 examples: ''
 processes:
   - 11d85a05
 barriers: []
+more-information: ''
 ---
