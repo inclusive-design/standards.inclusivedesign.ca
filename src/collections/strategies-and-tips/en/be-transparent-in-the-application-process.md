@@ -16,7 +16,14 @@ tips: |-
       - How to request support, and who to contact
   - Communicate regularly with applicants about their status and timelines.
   - Offer alternative ways to participate such as public comment periods to those not selected.
-more-information: ''
+moreInformation: |-
+  - [Recruit across disability and intersectional identities](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/recruit-across-disability-and-intersectional-identities/)
+  - [Make communications multi-modal and consistent](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/make-communications-multi-modal-and-consistent/)
+  - [Organizational and operational commitment](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/organizational-and-operational-commitment/)
+  - [Check and improve accessibility](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/check-and-improve-accessibility/)
+  - [Ensure all documents are accessible](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/ensure-all-documents-are-accessible/)
+  - [Ensure websites are accessible](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/ensure-websites-are-accessible/)
+  - [Provide monetary compensation and financial support](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/provide-monetary-compensation-and-financial-support/)
 examples: |-
   - [**Mexico – Dirección General de Normas (DGN):**](https://www.gob.mx/se/) DGN hosts public webinars during recruitment to clarify roles, responsibilities, and accommodations. They post plain-language role summaries and follow up with applicants on next steps. Community consultations help refine role descriptions to ensure accessibility for diverse audiences, including people with disabilities.
   - [**Germany – German Institute for Standardization (DIN)**](https://www.din.de/en)**:** DIN publishes detailed role descriptions and eligibility criteria on their public portal, outlining time commitments, required expertise, and the selection process. A visual roadmap of the standards development process helps applicants understand their potential involvement.
@@ -26,4 +33,5 @@ examples: |-
 processes:
   - a7e33638
 barriers: []
+more-information: ''
 ---
