@@ -19,16 +19,22 @@ tips: |-
   - Use screen-sharing consistently and narrate visual content for those who are blind or have low vision
   - Use lighting so that people can see faces and interpreters.
   - Reduce background noise where possible.
-more-information: ''
+moreInformation: |-
+  - [Make remote/virtual/online meetings accessible](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/make-remote-virtual-online-meetings-accessible/)
+  - [Choose accessible meeting spaces](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/choose-accessible-meeting-spaces-for-in-person-meetings-1/)
+  - [Plan meetings so people worldwide can join](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/plan-meetings-so-people-worldwide-can-join/)
+  - [Set meeting language captions correctly](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/set-meeting-language-captions-correctly/)
+  - [Check and improve accessibility](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/check-and-improve-accessibility/)
 examples: |-
-  - [**UK – BSI**](https://www.bsigroup.com/en-CA/): BSI uses 360° cameras, quality audio, and shared online docs to ensure remote attendees are fully included. A “remote participant advocate” helps balance input between in-person and virtual members.
-  - [**Germany – German Institute for Standardization (DIN)**](https://www.din.de/en): DIN uses auto-tracking cameras, real-time screen sharing, and shares materials in advance in multiple accessible formats. They also run simulations to test and improve hybrid setups.
-  - [**USA  – American National Standards Institute (ANSI)**](https://www.din.de/en)**:  **ANSI prefers virtual or hybrid meetings to reduce travel barriers. When in-person meetings are necessary, they choose accessible venues and offer support for assistive technologies. Meeting formats are adjusted based on member needs.
-  - [**Japan – The Japanese Industrial Standards Committee (JISC)**](https://www.jisc.go.jp/eng/)**:**  JISC uses regional hubs connected by video to limit long travel. For in-person meetings, they offer travel subsidies and accessible transportation for participants with mobility challenges.
+  - [UK – British Standards Institution (BSI)](https://www.bsigroup.com/en-CA/): BSI uses 360° cameras, quality audio, and shared online docs to ensure remote attendees are fully included. A “remote participant advocate” helps balance input between in-person and virtual members.
+  - [Germany – German Institute for Standardization (DIN)](https://www.din.de/en): DIN uses auto-tracking cameras, real-time screen sharing, and shares materials in advance in multiple accessible formats. They also run simulations to test and improve hybrid setups.
+  - [USA  – American National Standards Institute (ANSI)](https://www.din.de/en):  ANSI prefers virtual or hybrid meetings to reduce travel barriers. When in-person meetings are necessary, they choose accessible venues and offer support for assistive technologies. Meeting formats are adjusted based on member needs.
+  - [Japan – The Japanese Industrial Standards Committee (JISC)](https://www.jisc.go.jp/eng/): JISC uses regional hubs connected by video to limit long travel. For in-person meetings, they offer travel subsidies and accessible transportation for participants with mobility challenges.
 processes:
   - b612d304
 barriers: []
 order: 1
+more-information: ''
 ---
 
 Strategies to ensure accessible pathways into technical committees and working groups for diverse applicants.
