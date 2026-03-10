@@ -34,6 +34,8 @@ examples: |-
   - [Brazil – Associação Brasileira de Normas Técnicas (ABNT)](https://www.abntcatalogo.com.br/): Inclusive and Flexible Input - ABNT supports written and paced contributions, avoiding dominance by confident speakers. Group discussions and smaller breakout sessions are common. Non-hierarchical formats and digital input tools allow equal participation across styles.
 processes:
   - 1130eb69
+  - b612d304
+  - dc3b71a0
 barriers: []
 more-information: '- [**Challenges of facilitating diverse groups**—Co-designing Inclusive Cities](https://cities.inclusivedesign.ca/resources/challenges-of-facilitating-diverse-groups/)'
 ---
