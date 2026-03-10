@@ -15,7 +15,7 @@ tips: |-
   - Share information about accessibility at the venue including entrances, elevators, and bathrooms.
   - Provide clear details about transportation including accessible taxis and public transit options.
 moreInformation: ''
-examples: '[**Australia – Standards Australia**](https://www.standards.org.au/standards-development/developing-standards/process)\*\*: \*\*Standards Australia offers flexible travel support and peer mentorship to assist members with travel planning and accessibility needs.'
+examples: '[Australia – Standards Australia](https://www.standards.org.au/standards-development/developing-standards/process):Standards Australia offers flexible travel support and peer mentorship to assist members with travel planning and accessibility needs.'
 processes:
   - e7f348c2
 barriers: []
