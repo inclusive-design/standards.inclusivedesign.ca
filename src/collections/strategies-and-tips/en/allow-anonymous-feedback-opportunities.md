@@ -12,7 +12,10 @@ tips: |-
   - If you use an online form, don’t require people to log in.
   - Explain what information will be kept private, and what might be shared.
   - Tell people how the feedback will be used, and who will see it.
-moreInformation: ''
+moreInformation: |-
+  - [Provide more than one way to give feedback](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/provide-more-than-one-way-to-give-feedback/)
+  - [Establish continuous feedback loops](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/establish-continuous-feedback-loops/)
+  - [Open up committee meetings and allow outside participation](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/open-up-committee-meetings-and-allow-outside-participation/)
 examples: ''
 processes:
   - 8e9bcf3a
