@@ -7,7 +7,10 @@ strategies: |-
   - Give extra attention to feedback from groups that face barriers, especially when deciding what changes to make.
   - Write down and share the rules you use to accept or reject feedback. Don’t dismiss feedback as “out of scope” without a clear reason. If you don’t use someone’s feedback, explain why.
   - Share the decisions you made and what happened as a result. This builds trust and shows that people’s time and input matter.
-tips: ''
+tips: |-
+  - [Show accountability and build trust with Disabled and Deaf people](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/show-accountability-and-build-trust-with-disabled-and-deaf-people/)
+  - [Use inclusive approaches for decision-making](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/use-inclusive-approaches-for-decision-making/)
+  - [Empower chairs and facilitators to manage conflict](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/empower-chairs-and-facilitators-to-manage-conflict/)
 moreInformation: ''
 examples: |-
   - [Germany – ](https://www.din.de/en)[DIN](https://www.din.de/en): DIN uses a comment resolution matrix that is publicly shared after consultation, showing how input was handled. DIN includes diverse stakeholder representatives in decision-making to balance perspectives and reduce majority-rule bias.
