@@ -30,8 +30,15 @@ tips: |-
       - Check in with quieter members to make sure they are included.
       - Offer virtual attendance for all meetings so people with mobility, transportation, or health challenges can participate.
 moreInformation: |-
-  - [Remote Co-design Guide - Community-Led Co-Design Kit](https://community-led.design/resources/remote-co-design-guide/) 
+  - [Remote Co-design Guide - Community-Led Co-Design Kit](https://community-led.design/resources/remote-co-design-guide/)
   - [Facilitation for Flexibility and Accessibility - Community-Led Co-Design Kit ](https://community-led.design/resources/facilitation-for-flexibility-and-accessibility/)
+  - [Create and verify PDF accessibility (Acrobat Pro)](https://helpx.adobe.com/ca/acrobat/using/create-verify-pdf-accessibility.html)
+  - [Guidelines for creating accessible documents](https://accessible.canada.ca/guidelines-creating-accessible-documents)[ (Accessibility Standards Canada)](https://accessible.canada.ca/guidelines-creating-accessible-documents)
+  - [Make communications multi-modal and consistent](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/make-communications-multi-modal-and-consistent/)
+  - [Ensure websites are accessible](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/ensure-websites-are-accessible/)
+  - [Check and improve accessibility](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/check-and-improve-accessibility/)
+  - [Provide chairs with practical support and tools for accessibility](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/provide-chairs-with-practical-support-and-tools-for-accessibility/)
+  - [Provide ongoing accessibility and inclusion training](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/provide-ongoing-accessibility-and-inclusion-training-for-staff-and-chairs/)
 examples: |-
   - [India – Bureau of Indian Standards (BIS)](https://www.bis.gov.in/?lang=en): BIS uses open-source, screen-reader-friendly platforms and shares offline document packages. Members can also vote or comment via email, reducing reliance on restricted tools like Google.
   - [Europe European Committee for Standardization (CENELEC)](https://www.cencenelec.eu/): CENELEC audit tools for accessibility before use. They switched to WCAG-compliant platforms and include accessibility in procurement to ensure long-term inclusivity.
