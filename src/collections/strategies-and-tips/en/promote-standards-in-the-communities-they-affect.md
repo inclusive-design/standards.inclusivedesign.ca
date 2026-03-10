@@ -13,7 +13,9 @@ strategies: |-
   - Encourage feedback from the community on how well the standards meet their needs.
   - Highlight success stories where communities used standards to make a positive impact.
 tips: ''
-moreInformation: ''
+moreInformation: |-
+  - [Make published standards free and easy to access](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/make-published-standards-free-and-easy-to-access/)
+  - [Make communications multi-modal and consistent](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/make-communications-multi-modal-and-consistent/)
 examples: ''
 processes:
   - '13269757'
