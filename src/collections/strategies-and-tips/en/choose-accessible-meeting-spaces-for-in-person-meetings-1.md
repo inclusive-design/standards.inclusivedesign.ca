@@ -14,7 +14,12 @@ tips: |-
   - Ensure access to tech support, adapters, charging stations, and different plug types.
   - Avoid working discussions over meals in noisy or informal spaces unless accommodations are provided.
   - Remind members not to hold important conversations unless the full committee is present.
-moreInformation: ''
+moreInformation: |-
+  - [Use accessible hybrid meeting practices](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/use-accessible-hybrid-meeting-practices/)
+  - [Make remote/virtual/online meetings accessible](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/make-remote-virtual-online-meetings-accessible/)
+  - [Allocate a dedicated accessibility budget](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/allocate-a-dedicated-accessibility-budget/)
+  - [Build in travel funding](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/build-in-travel-funding/)
+  - [Check and improve accessibility](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/check-and-improve-accessibility/)
 examples: |-
   - [U.S. – ANSI](https://www.din.de/en): ANSI ensures meeting venues have wheelchair ramps, accessible restrooms, and charging stations. They use a venue checklist to ensure proper accommodations.
   - [UK – BSI](https://www.bsigroup.com/en-CA/): BSI surveys venues in advance to ensure accessibility features like hearing loops and quiet spaces. They also gather feedback to improve future venue selections.
