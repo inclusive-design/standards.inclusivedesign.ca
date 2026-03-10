@@ -14,11 +14,14 @@ tips: |-
   - Keep a public record of the work and ensure it is shared in accessible formats. For example, use a blog or webpage to share updates, older drafts, and what changes were made because of feedback.
   - Be clear about what you can change and what you cannot change.
   - Follow up after people give feedback to show what you heard and what you did with it. If feedback isn’t used, explain why.
-moreInformation: ''
+moreInformation: |-
+  - [Use fair and transparent decision-making](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/use-fair-and-transparent-decision-making/)
+  - [Use inclusive approaches for decision-making](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/use-inclusive-approaches-for-decision-making/)
+  - [Allow anonymous feedback opportunities](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/allow-anonymous-feedback-opportunities/)
 examples: |-
-  - \*\*In the UK, the \*\*[\*\*British Standards Institution (BSI) \*\*](https://www.bsigroup.com/en-CA/)addresses consultation fatigue by building long-term relationships with disability advocacy organizations. Instead of one-off consultations, BSI involves these groups throughout the entire development process and provides clear follow-up on how their feedback influenced the final standard. This sustained engagement helps build trust and shows respect for participants’ time and insights.
-  - \*\*In Finland, the [**Finnish Standards Association (SFS)**](https://sfs.fi/en/) \*\*provides consultation in multiple accessible formats and ensures responses are tracked, shared back, and reflected visibly in drafts. They also offer feedback summaries in plain language, making it easier for participants to understand the impact of their involvement and reducing fatigue caused by unclear outcomes.
-  - \*\*Australia’s \*\*[**Standards Australia**](https://www.standards.org.au/standards-development/developing-standards/process) has created an inclusive advisory group that includes Deaf and disabled representatives as permanent contributors, not just as occasional consultants. They are involved in early drafting stages, not just during review, which helps avoid the sense of being brought in too late to make a difference.
+  - [UK – British Standards Institution (BSI)](https://www.bsigroup.com/en-CA/): BSI addresses consultation fatigue by building long-term relationships with disability advocacy organizations. Instead of one-off consultations, BSI involves these groups throughout the entire development process and provides clear follow-up on how their feedback influenced the final standard. This sustained engagement helps build trust and shows respect for participants’ time and insights.
+  - [Finland ](https://sfs.fi/en/)[–](https://sfs.fi/en/)[ ](https://sfs.fi/en/)[Finnish Standards Association (SFS)](https://sfs.fi/en/): SFS provides consultation in multiple accessible formats and ensures responses are tracked, shared back, and reflected visibly in drafts. They also offer feedback summaries in plain language, making it easier for participants to understand the impact of their involvement and reducing fatigue caused by unclear outcomes.
+  - [Australia – Standards Australia](https://www.standards.org.au/standards-development/developing-standards/process): Australia has created an inclusive advisory group that includes Deaf and disabled representatives as permanent contributors, not just as occasional consultants. They are involved in early drafting stages, not just during review, which helps avoid the sense of being brought in too late to make a difference.
 processes:
   - d2d08ae4
   - 8e9bcf3a
