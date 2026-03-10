@@ -17,12 +17,18 @@ tips: |-
   - Use tools that work well in many countries and do not require special paid accounts.
   - Make sure meetings start and end on time.
   - Avoid using local terms like “10 am my time” and include UTC and a time-zone converter link.
-more-information: ''
+moreInformation: |-
+  - [Use accessible hybrid meeting practices](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/use-accessible-hybrid-meeting-practices/)
+  - [Make remote/virtual/online meetings accessible](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/make-remote-virtual-online-meetings-accessible/)
+  - [Set meeting language captions correctly](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/set-meeting-language-captions-correctly/)
+  - [Provide translation and interpretation for everyone](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/provide-translation-and-interpretation-for-everyone/)
+  - [Open up committee meetings and allow outside participation](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/open-up-committee-meetings-and-allow-outside-participation/)
 examples: |-
-  - [**Australia** **–** **Standards Australia**](https://www.standards.org.au/standards-development/developing-standards/process) promotes rotating meeting times across regions. For example, in cloud computing standards, they helped implement schedules that shift between Asia-Pacific, Europe, and the Americas. They also support asynchronous collaboration through shared documents.
-  - [**India** **–** **BIS**](https://www.bis.gov.in/?lang=en) allows members to give input outside live meetings using pre-recorded presentations, online forms, and extended feedback periods. They also share meeting summaries for those who can’t attend in real time.
-  - [**International Organization for Standardization –** **&#160;ISO/IEC**](https://www.en-standard.eu/iso-standards/?gad_source=1&gad_campaignid=23589929400&gbraid=0AAAAAD6CNv9F3PbX94QfQ9NiHoNLJftLM&gclid=CjwKCAiAh5XNBhAAEiwA_Bu8FXpLRc_BqJ0565gItVKjoKI1jIkXfwdDYiVQ1HqovGivCxXZuxjCkBoCV5gQAvD_BwE) uses rotating time slots and collaborative platforms to support global input. In developing AI ethics standards, meetings rotated to include all regions and were backed by recordings and online discussions.
+  - [Australia – Standards Australia](https://www.standards.org.au/standards-development/developing-standards/process) promotes rotating meeting times across regions. For example, in cloud computing standards, they helped implement schedules that shift between Asia-Pacific, Europe, and the Americas. They also support asynchronous collaboration through shared documents.
+  - [India – BIS](https://www.bis.gov.in/?lang=en) allows members to give input outside live meetings using pre-recorded presentations, online forms, and extended feedback periods. They also share meeting summaries for those who can’t attend in real time.
+  - [International Organization for Standardization –  ISO/IEC](https://www.en-standard.eu/iso-standards/?gad_source=1&gad_campaignid=23589929400&gbraid=0AAAAAD6CNv9F3PbX94QfQ9NiHoNLJftLM&gclid=CjwKCAiAh5XNBhAAEiwA_Bu8FXpLRc_BqJ0565gItVKjoKI1jIkXfwdDYiVQ1HqovGivCxXZuxjCkBoCV5gQAvD_BwE) uses rotating time slots and collaborative platforms to support global input. In developing AI ethics standards, meetings rotated to include all regions and were backed by recordings and online discussions.
 processes:
   - b612d304
 barriers: []
+more-information: ''
 ---
