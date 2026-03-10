@@ -12,6 +12,8 @@ tips: |-
   - Don’t limit recruitment to the same people or groups who already participate in standard work. Relying on existing committees, industry contacts, or repeat contributors, misses out on new perspectives and contributes to consultation fatigue.
   - Seek participants from rural, underrepresented, younger, older, newcomer, and non-traditional groups.
 moreInformation: |-
+  - [Finding Participants](https://main--co-design.netlify.app/resources/finding-participants/)
+  - [Missing perspectives : Co-designing Inclusive Cities&#160;](https://cities.inclusivedesign.ca/resources/missing-perspectives/)
   - [Make communications multi-modal and consistent](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/make-communications-multi-modal-and-consistent/)
   - [Be transparent in the application process](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/be-transparent-in-the-application-process/)
   - [Provide monetary compensation and financial support](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/provide-monetary-compensation-and-financial-support/)
