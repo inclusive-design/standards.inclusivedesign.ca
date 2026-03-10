@@ -14,7 +14,7 @@ tips: |-
   - Publish standards in accessible formats like properly structured Word documents and tagged PDF documents
 moreInformation: |-
   - [Create and verify PDF accessibility (Acrobat Pro)](https://helpx.adobe.com/ca/acrobat/using/create-verify-pdf-accessibility.html)
-  - [Guidelines for creating accessible documents](https://accessible.canada.ca/guidelines-creating-accessible-documents)[ (Accessibility STandards Canada)](https://accessible.canada.ca/guidelines-creating-accessible-documents)
+  - [Guidelines for creating accessible documents](https://accessible.canada.ca/guidelines-creating-accessible-documents)[ (Accessibility Standards Canada)](https://accessible.canada.ca/guidelines-creating-accessible-documents)
   - [Make communications multi-modal and consistent](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/make-communications-multi-modal-and-consistent/)
   - [Ensure websites are accessible](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/ensure-websites-are-accessible/)
   - [Make remote/virtual/online meetings accessible](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/make-remote-virtual-online-meetings-accessible/)
