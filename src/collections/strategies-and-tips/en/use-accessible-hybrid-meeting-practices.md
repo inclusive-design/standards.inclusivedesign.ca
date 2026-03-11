@@ -32,7 +32,8 @@ examples: |-
   - [Japan – The Japanese Industrial Standards Committee (JISC)](https://www.jisc.go.jp/eng/): JISC uses regional hubs connected by video to limit long travel. For in-person meetings, they offer travel subsidies and accessible transportation for participants with mobility challenges.
 processes:
   - b612d304
-barriers: []
+barriers:
+  - 81182d8d
 order: 1
 more-information: ''
 ---
