@@ -33,7 +33,7 @@
 
             <ul>
                 {% for uuid in strategyOrTip.data.barriers %}
-                    {% for barrier in collections['barriers_' + lang] | findAll('barrier.data.uuid', uuid) %}
+                    {% for barrier in collections['barriers_' + lang] | findAll('data.uuid', uuid) %}
                         <li>{{ barrier.data.title }}</li>
                     {% endfor %}
                 {% endfor %}
