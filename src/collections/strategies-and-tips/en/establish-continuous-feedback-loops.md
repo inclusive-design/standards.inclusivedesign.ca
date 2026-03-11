@@ -26,5 +26,11 @@ examples: |-
   - [Germany – German Institute for Standardization (DIN)](https://www.din.de/en): DIN gathers usage data through stakeholder reporting and market analysis. They also run working groups post-publication to evaluate unintended consequences or gaps, especially for vulnerable populations.
 processes:
   - 8e9bcf3a
-barriers: []
+barriers:
+  - 7dcf8b49
+  - d4bf57e8
+  - cbfcdbb2
+  - c6c86787
+  - a9946f8c
+  - '42599812'
 ---
