@@ -23,6 +23,11 @@ examples: |-
   - [Canada  – Standards Council of Canada (SSC):](https://scc-ccn.ca/) SSC has an inclusive travel policy, funding accessible transport and connecting members to local accessibility networks for trip planning
 processes:
   - e7f348c2
-barriers: []
+barriers:
+  - dbf56f15
+  - 9dc55c33
+  - 8b6ad4ca
+  - c631fc93
+  - 8ee223fa
 more-information: ''
 ---
