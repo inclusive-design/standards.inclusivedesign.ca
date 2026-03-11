@@ -18,5 +18,9 @@ moreInformation: |-
 examples: '- [UK – British Standards Institution (BSI)](https://www.bsigroup.com/en-CA/): BSI conducts post-publication reviews with industry and community partners to assess how standards are used in practice. They also fund research into the social impact of standards, including their effects on disabled and marginalized groups, which informs future revisions.'
 processes:
   - 420ec90a
-barriers: []
+barriers:
+  - 7dcf8b49
+  - d4bf57e8
+  - a9946f8c
+  - c6c86787
 ---
