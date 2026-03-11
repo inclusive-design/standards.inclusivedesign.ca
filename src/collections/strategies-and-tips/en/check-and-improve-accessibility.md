@@ -36,6 +36,11 @@ examples: |-
   - [Kenya – Kenya Bureau of Standards (KEBS)](https://www.kebs.org/): KEBS partners with disability centers for in-person registration using paper forms, braille, and sign language interpreters. They also offer mobile-friendly forms and SMS-based registration, catering to low-bandwidth regions and mobile-first users.
 processes:
   - a7e33638
-barriers: []
+barriers:
+  - d1e09be4
+  - 0d377477
+  - a9946f8c
+  - e0642a56
+  - dbf56f15
 more-information: ''
 ---
