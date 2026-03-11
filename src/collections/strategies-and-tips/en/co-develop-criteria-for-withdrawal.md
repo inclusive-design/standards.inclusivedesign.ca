@@ -26,5 +26,6 @@ examples: |-
   - [Brazil – Associação Brasileira de Normas Técnicas (ABNT): ](https://www.abntcatalogo.com.br/) ABNT partners with government agencies and civil society to review standards related to housing, accessibility, and education. The decision to retire a standard involves assessing whether it continues to fill a policy or equity gap, even if it’s no longer widely used in industry.
 processes:
   - 153c2d64
-barriers: []
+barriers:
+  - a2204b3f
 ---
