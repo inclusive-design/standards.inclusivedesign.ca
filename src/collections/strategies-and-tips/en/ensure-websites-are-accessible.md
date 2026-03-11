@@ -15,9 +15,11 @@ tips: |-
   - Test websites on multiple browsers and devices, including mobile phones and tablets.
   - Offer help or support for users who encounter accessibility barriers.
 moreInformation: |-
+  - [W3C Web Accessibility Initiative (WAI) ](https://www.w3.org/WAI/)
+  - [WebAIM (Web Accessibility in Mind)](https://webaim.org/services/training/?gad_source=1&gad_campaignid=17071877&gbraid=0AAAAAD-9eEcm8d5EQG9rQdOMHJwfZD36h&gclid=Cj0KCQjwgr_NBhDFARIsAHiUWr5FDwAsG5SRf4XUGpFb0kSlkG9lJ3vd-GRsQliV37_A0l5nRiXDItwaAvetEALw_wcB)
+  - [The A11y Project](https://www.a11yproject.com/)
   - [Ensure all documents are accessible](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/ensure-all-documents-are-accessible/)
   - [Make communications multi-modal and consistent](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/make-communications-multi-modal-and-consistent/)
-  - [Ensure websites are accessible](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/ensure-websites-are-accessible/)
   - [Make remote/virtual/online meetings accessible](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/make-remote-virtual-online-meetings-accessible/)
   - [Check and improve accessibility](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/check-and-improve-accessibility/)
   - [Provide chairs with practical support and tools for accessibility](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/provide-chairs-with-practical-support-and-tools-for-accessibility/)
@@ -26,7 +28,10 @@ examples: ''
 processes:
   - b612d304
   - 3eb6bf1e
-barriers: []
+barriers:
+  - d1e09be4
+  - a9946f8c
+  - 7751b43d
 more-information: |-
   - [**Introduction to Web Accessibility**](https://webaim.org/intro/)
   - [**WAVE Web Accessibility Evaluation Tools**](https://wave.webaim.org/)
