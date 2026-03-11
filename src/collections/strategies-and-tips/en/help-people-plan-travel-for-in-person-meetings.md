@@ -22,6 +22,10 @@ moreInformation: |-
 examples: '[Australia – Standards Australia](https://www.standards.org.au/standards-development/developing-standards/process): Standards Australia offers flexible travel support and peer mentorship to assist members with travel planning and accessibility needs.'
 processes:
   - e7f348c2
-barriers: []
+barriers:
+  - 9dc55c33
+  - '42599812'
+  - c631fc93
+  - 8ee223fa
 more-information: ''
 ---
