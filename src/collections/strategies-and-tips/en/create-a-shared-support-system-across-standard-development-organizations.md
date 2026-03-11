@@ -18,6 +18,9 @@ examples: |-
   - [Australia – Standards Australia](https://www.standards.org.au/standards-development/developing-standards/process): Standards Canada uses open-source tools and shares documents in accessible formats to provide low-cost accommodations.
 processes:
   - af752d5c
-barriers: []
+barriers:
+  - c631fc93
+  - 890aeb8e
+  - 12ff094b
 more-information: ''
 ---
