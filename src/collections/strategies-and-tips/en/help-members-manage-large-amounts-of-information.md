@@ -20,6 +20,11 @@ examples: ''
 processes:
   - 11d85a05
   - 1130eb69
-barriers: []
+barriers:
+  - 0d377477
+  - '42599812'
+  - 38b1390b
+  - 92b21925
+  - fc64e21f
 more-information: ''
 ---
