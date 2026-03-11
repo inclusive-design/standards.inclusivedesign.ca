@@ -14,11 +14,12 @@ moreInformation: |-
   - [Create a shared support system](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/create-a-shared-support-system-across-standard-development-organizations/)
   - [Check and improve accessibility](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/check-and-improve-accessibility/)
   - [Use accessible hybrid meeting practices](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/use-accessible-hybrid-meeting-practices/)
-examples: '- [Sweden – Swedish Institute for Standards (SIS)](https://www.sis.se/en/): The  Swedish Disability Rights Federation addresses accessibility funding by advocating for accommodations to be part of regular budgets, supported by Sweden’s Discrimination Act. They work with government bodies to make accessibility a legal requirement and participate in disability councils to influence policy. Sweden’s government provides dedicated funding for NGOs through a special financing council, allowing organizations to apply for financial support to assist members, including those attending meetings. Trade unions also receive public funding to support member participation, ensuring inclusive representation, especially for those with accessibility needs.'
+examples: '[Sweden – Swedish Institute for Standards (SIS)](https://www.sis.se/en/):The Swedish Disability Rights Federation addresses accessibility funding by advocating for accommodations to be part of regular budgets, supported by Sweden’s Discrimination Act. They work with government bodies to make accessibility a legal requirement and participate in disability councils to influence policy. Sweden’s government provides dedicated funding for NGOs through a special financing council, allowing organizations to apply for financial support to assist members, including those attending meetings. Trade unions also receive public funding to support member participation, ensuring inclusive representation, especially for those with accessibility needs.'
 processes:
   - af752d5c
   - b612d304
   - 3eb6bf1e
-barriers: []
+barriers:
+  - c631fc93
 more-information: ''
 ---
