@@ -29,6 +29,9 @@ examples: |-
   - [International Organization for Standardization –  ISO/IEC](https://www.en-standard.eu/iso-standards/?gad_source=1&gad_campaignid=23589929400&gbraid=0AAAAAD6CNv9F3PbX94QfQ9NiHoNLJftLM&gclid=CjwKCAiAh5XNBhAAEiwA_Bu8FXpLRc_BqJ0565gItVKjoKI1jIkXfwdDYiVQ1HqovGivCxXZuxjCkBoCV5gQAvD_BwE) uses rotating time slots and collaborative platforms to support global input. In developing AI ethics standards, meetings rotated to include all regions and were backed by recordings and online discussions.
 processes:
   - b612d304
-barriers: []
+barriers:
+  - 81182d8d
+  - e0642a56
+  - 93c977c7
 more-information: ''
 ---
