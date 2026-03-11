@@ -25,6 +25,8 @@ examples: |-
   - [**UK – BSI: Inclusive Meeting Practices**](https://www.bsigroup.com/en-CA/)\*\*. \*\*The BSI ensures accessible meetings by default, offering real-time captions, sign language interpretation, and accessible materials in advance. Committee chairs are trained to describe visuals, pause often, and actively invite input from all participants. Inclusion is built into meeting culture, with chairs responsible for communication equity.
 processes:
   - dc3b71a0
-barriers: []
+barriers:
+  - 651b13cb
+  - daad3728
 more-information: ''
 ---
