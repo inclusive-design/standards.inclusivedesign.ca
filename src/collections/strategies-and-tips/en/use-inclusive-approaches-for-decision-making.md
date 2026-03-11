@@ -22,6 +22,8 @@ moreInformation: |-
 examples: ''
 processes:
   - 1130eb69
-barriers: []
+barriers:
+  - 651b13cb
+  - 7883cff4
 more-information: ''
 ---
