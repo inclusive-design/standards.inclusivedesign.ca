@@ -25,5 +25,6 @@ examples: |-
 processes:
   - d2d08ae4
   - 8e9bcf3a
-barriers: []
+barriers:
+  - '42599812'
 ---
