@@ -21,6 +21,8 @@ moreInformation: |-
 examples: '[Norway – Standards Norway](https://standard.no/en/): Standards Norway offers an onboarding toolkit for first-time participants, including plain language guides, explainer videos, orientations, and dedicated staff support. They also host webinars for newcomers from disability and civil society sectors.'
 processes:
   - dc3b71a0
-barriers: []
+barriers:
+  - 38b1390b
+  - 92b21925
 more-information: ''
 ---
