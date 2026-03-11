@@ -27,5 +27,8 @@ examples: |-
   - [Sweden – Swedish Institute for Standards (SIS)](https://www.sis.se/en/): SIS ensures that any withdrawn standards with potential social impact are accompanied by targeted outreach. Notices are shared not only on their website but also through associations and public sector partners, so no key user group is left unaware.
 processes:
   - 153c2d64
-barriers: []
+barriers:
+  - a2204b3f
+  - c6c86787
+  - d4bf57e8
 ---
