@@ -10,10 +10,10 @@ strategies: |-
   - Align policies and funding priorities with equity and inclusion goals.
 tips: ''
 moreInformation: |-
-  - [Functional accessibility requirement&#160;](https://accessible.canada.ca/creating-accessibility-standards/canasc-en-301-5492024-accessibility-requirements-ict-products-and-services/4-functional-performance)
-  - [Ladder of citizen participation&#160;](https://cities.inclusivedesign.ca/resources/ladder-of-citizen-participation/)
-  - [Build lasting relationships&#160;](https://cities.inclusivedesign.ca/resources/build-lasting-relationships/)
-  - [Enable continuous improvement&#160; ](https://cities.inclusivedesign.ca/resources/enable-continuous-improvement/)
+  - [Functional accessibility requirement ](https://accessible.canada.ca/creating-accessibility-standards/canasc-en-301-5492024-accessibility-requirements-ict-products-and-services/4-functional-performance)
+  - [Ladder of citizen participation ](https://cities.inclusivedesign.ca/resources/ladder-of-citizen-participation/)
+  - [Build lasting relationships ](https://cities.inclusivedesign.ca/resources/build-lasting-relationships/)
+  - [Enable continuous improvement  ](https://cities.inclusivedesign.ca/resources/enable-continuous-improvement/)
   - [Allocate a dedicated accessibility budget](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/allocate-a-dedicated-accessibility-budget/)
   - [Provide Ongoing Accessibility and Inclusion Training for Staff and Chairs](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/provide-ongoing-accessibility-and-inclusion-training-for-staff-and-chairs/)
   - [Create a shared support system across SDOs](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/create-a-shared-support-system-across-standard-development-organizations/)
@@ -23,7 +23,8 @@ moreInformation: |-
 examples: '- [United Kingdom – British Standards Institution (BSI)](https://www.bsigroup.com/en-CA/): BSI promotes inclusivity by publishing PAS 6463 for neurodivergent inclusion, enforcing equality mandates in working groups, and dedicating staff and funding to diversity initiatives.'
 processes:
   - d2d08ae4
-barriers: []
+barriers:
+  - a96035dc
 more-information: |-
   - [**Functional accessibility requirement&#160;**](https://accessible.canada.ca/creating-accessibility-standards/canasc-en-301-5492024-accessibility-requirements-ict-products-and-services/4-functional-performance)
   - [**Ladder of citizen participation** ](https://cities.inclusivedesign.ca/resources/ladder-of-citizen-participation/)
