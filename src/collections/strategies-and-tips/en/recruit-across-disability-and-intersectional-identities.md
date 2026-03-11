@@ -13,7 +13,7 @@ tips: |-
   - Seek participants from rural, underrepresented, younger, older, newcomer, and non-traditional groups.
 moreInformation: |-
   - [Finding Participants](https://main--co-design.netlify.app/resources/finding-participants/)
-  - [Missing perspectives : Co-designing Inclusive Cities&#160;](https://cities.inclusivedesign.ca/resources/missing-perspectives/)
+  - [Missing perspectives : Co-designing Inclusive Cities ](https://cities.inclusivedesign.ca/resources/missing-perspectives/)
   - [Make communications multi-modal and consistent](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/make-communications-multi-modal-and-consistent/)
   - [Be transparent in the application process](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/be-transparent-in-the-application-process/)
   - [Provide monetary compensation and financial support](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/provide-monetary-compensation-and-financial-support/)
@@ -25,7 +25,8 @@ examples: |-
   - [New Zealand – Standards New Zealand (SNZ)](https://www.standards.govt.nz/): SNZ integrates Māori principles and works with Indigenous and disability communities to co-design recruitment processes. They engage elders and community leaders to identify participants and focus on relationship-building rather than short-term outreach, resulting in sustained Indigenous and disabled representation.
 processes:
   - d2d08ae4
-barriers: []
+barriers:
+  - dbf56f15
 more-information: |-
   - [**Finding Participants**](https://main--co-design.netlify.app/resources/finding-participants/)
   - [\*\*Missing perspectives : Co-designing Inclusive Cities \*\*](https://cities.inclusivedesign.ca/resources/missing-perspectives/)
