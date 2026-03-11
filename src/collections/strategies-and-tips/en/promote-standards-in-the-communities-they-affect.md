@@ -19,5 +19,7 @@ moreInformation: |-
 examples: ''
 processes:
   - '13269757'
-barriers: []
+barriers:
+  - 7dcf8b49
+  - dbf56f15
 ---
