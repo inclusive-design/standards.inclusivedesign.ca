@@ -22,7 +22,9 @@ examples: |-
   - [Kenya – KEBS: Community-Based Compensation](https://www.kebs.org/wp-content/uploads/2025/08/KEBS-CODE-OF-CONDUCT-AND-ETHICS_202510.07.2025_FINAL-1.pdf): KEBS works with local disability organizations to provide honorariums, transport costs, and interpretation for Disabled participants. Support is often delivered through partner NGOs, with advance payments offered to avoid reimbursement delays. KBES Uses trusted community partners and localized funding methods to improve access in underserved areas.
 processes:
   - a7e33638
-barriers: []
+barriers:
+  - 8b6ad4ca
+  - c631fc93
 more-information: |-
   - [**Contributor License Agreement**—Co-designing Inclusive Cities](https://cities.inclusivedesign.ca/resources/contributor-license-agreement/)
   - [**Co-design cost considerations**—Co-designing Inclusive Cities](https://cities.inclusivedesign.ca/resources/co-design-cost-considerations/)
