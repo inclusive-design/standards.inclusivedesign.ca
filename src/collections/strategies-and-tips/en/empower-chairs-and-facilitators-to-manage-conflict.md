@@ -37,6 +37,12 @@ processes:
   - 1130eb69
   - b612d304
   - dc3b71a0
-barriers: []
+barriers:
+  - 651b13cb
+  - 7ed127d1
+  - 8b7308df
+  - 7883cff4
+  - 890aeb8e
+  - 38b1390b
 more-information: '- [**Challenges of facilitating diverse groups**—Co-designing Inclusive Cities](https://cities.inclusivedesign.ca/resources/challenges-of-facilitating-diverse-groups/)'
 ---
