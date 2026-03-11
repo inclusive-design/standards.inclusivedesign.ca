@@ -6,3 +6,7 @@
 {% if translationKey == "search" %}
 <script type="text/javascript" src="/assets/scripts/search.js"></script>
 {% endif %}
+<script type="module">
+    await import('/pagefind/pagefind-highlight.js');
+    new PagefindHighlight({ highlightParam: "highlight" });
+</script>
