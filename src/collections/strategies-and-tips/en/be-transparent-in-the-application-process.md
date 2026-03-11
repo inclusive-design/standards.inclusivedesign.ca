@@ -32,6 +32,10 @@ examples: |-
   - [Sweden – Swedish Institute for Standards (SIS)](https://www.sis.se/en/): SIS designates “Accessibility Champions” within committees to provide peer support. Their recruitment pages list standard accessibility features and allow for custom accommodations, without requiring medical documentation. This approach ensures responsive and inclusive participation for all members.
 processes:
   - a7e33638
-barriers: []
+barriers:
+  - d1e09be4
+  - 76ee246e
+  - a96035dc
+  - 12ff094b
 more-information: ''
 ---
