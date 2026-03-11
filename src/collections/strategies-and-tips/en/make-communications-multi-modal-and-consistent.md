@@ -25,7 +25,11 @@ examples: |-
   - [Kenya – Kenya Bureau of Standards (KEBS):](https://www.kebs.org/) KEBS uses regional outreach hubs, holding local disability forums and deploying mobile teams to recruit and onboard participants. Materials are offered in Braille, sign language, and local languages. New members are paired with mentors.
 processes:
   - d2d08ae4
-barriers: []
+barriers:
+  - dbf56f15
+  - 7ed127d1
+  - 9907ee88
+  - 12ff094b
 more-information: |-
   - [**WebAIM: Writing Clearly and Simply**](https://webaim.org/techniques/writing/)
   - [**Best practices for accessible virtual events**](https://a11y.canada.ca/en/best-practices-for-accessible-virtual-events/)
