@@ -27,6 +27,9 @@ examples: |-
   - [Canada – SCC](https://scc-ccn.ca/): SCC partners with the government to host meetings at venues that comply with accessibility laws, providing charging stations and quiet areas.
 processes:
   - 7cfa687f
-barriers: []
+barriers:
+  - 81182d8d
+  - 9dc55c33
+  - 651b13cb
 more-information: ''
 ---
