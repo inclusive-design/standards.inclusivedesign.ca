@@ -24,5 +24,9 @@ processes:
   - 8e9bcf3a
   - '13269757'
   - d2d08ae4
-barriers: []
+barriers:
+  - 9907ee88
+  - 7751b43d
+  - d1e09be4
+  - 76ee246e
 ---
