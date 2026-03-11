@@ -24,5 +24,7 @@ examples: |-
   - [Canada – Digital Governance Standards Institute (DGSI):](https://dgc-cgn.org/standards/) DGSI standards are freely available for download and distribution on their website. This open access approach helps ensure that a wide range of communities and organizations, especially those with limited resources, can use and benefit from the standards.
 processes:
   - 9f8a0599
-barriers: []
+barriers:
+  - 7dcf8b49
+  - d4bf57e8
 ---
