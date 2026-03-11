@@ -24,5 +24,7 @@ moreInformation: |-
 examples: ''
 processes:
   - 153c2d64
-barriers: []
+barriers:
+  - a2204b3f
+  - ab41ec58
 ---
