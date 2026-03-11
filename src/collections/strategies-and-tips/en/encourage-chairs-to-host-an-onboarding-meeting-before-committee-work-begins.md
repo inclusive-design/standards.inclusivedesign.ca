@@ -21,6 +21,13 @@ moreInformation: |-
 examples: ''
 processes:
   - 3eb6bf1e
-barriers: []
+barriers:
+  - 9907ee88
+  - 7883cff4
+  - 76ee246e
+  - daad3728
+  - 651b13cb
+  - 38b1390b
+  - 12ff094b
 more-information: ''
 ---
