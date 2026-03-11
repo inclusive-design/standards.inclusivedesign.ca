@@ -31,6 +31,9 @@ barriers:
   - 0d377477
   - 7751b43d
   - d1e09be4
+  - 92b21925
+  - fc64e21f
+  - 38b1390b
 more-information: |-
   - [**Accessible Canada Regulations Guidance**](https://www.canada.ca/en/employment-social-development/programs/accessible-canada-regulations-guidance/language/writing.html)
   - [**Writing Clearly and Simply**](https://webaim.org/techniques/writing/)
