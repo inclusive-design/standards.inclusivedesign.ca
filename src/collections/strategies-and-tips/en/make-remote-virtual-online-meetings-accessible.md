@@ -47,7 +47,11 @@ examples: |-
 processes:
   - b612d304
   - eabf2df8
-barriers: []
+barriers:
+  - 81182d8d
+  - e0642a56
+  - 651b13cb
+  - 93c977c7
 more-information: |-
   - [**Remote Co-design Guide - Community-Led Co-Design Kit**](https://community-led.design/resources/remote-co-design-guide/)**&#160;**
   - [**Facilitation for Flexibility and Accessibility - Community-Led Co-Design Kit **](https://community-led.design/resources/facilitation-for-flexibility-and-accessibility/)
