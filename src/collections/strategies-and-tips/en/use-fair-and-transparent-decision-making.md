@@ -18,5 +18,6 @@ examples: |-
   - [Japan – ](https://www.jisc.go.jp/eng/)[JISC](https://www.jisc.go.jp/eng/): JISC shares decision reports outlining the treatment of feedback and provides accessible summaries for broader public understanding. They use online dashboards to track the status of submitted comments in real time.
 processes:
   - 8e9bcf3a
-barriers: []
+barriers:
+  - cbfcdbb2
 ---
