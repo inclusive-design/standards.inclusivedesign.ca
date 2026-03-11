@@ -17,6 +17,10 @@ moreInformation: ''
 examples: '- [**Germany – DIN: Structured and Inclusive Onboarding**](https://www.din.de/en)\*\*. \*\*DIN developed a formal onboarding process to support new committee members, especially those new to standards or from underrepresented groups. New members receive plain language welcome kits, multilingual guides, and access to captioned webinars. A dedicated onboarding team offers one-on-one support, while a buddy system pairs newcomers with experienced mentors. Chairs also connect early to discuss accessibility needs. DIN treats onboarding as an ongoing process, not a one-time step ensuring members feel supported, informed, and ready to contribute.'
 processes:
   - 3eb6bf1e
-barriers: []
+barriers:
+  - daad3728
+  - 890aeb8e
+  - 38b1390b
+  - 92b21925
 more-information: ''
 ---
