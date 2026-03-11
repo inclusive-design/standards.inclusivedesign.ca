@@ -24,6 +24,11 @@ examples: |-
 processes:
   - 981d9115
   - b612d304
-barriers: []
+barriers:
+  - 81182d8d
+  - 9dc55c33
+  - 651b13cb
+  - daad3728
+  - 9907ee88
 more-information: ''
 ---
