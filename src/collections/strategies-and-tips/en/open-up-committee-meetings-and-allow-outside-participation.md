@@ -24,6 +24,7 @@ examples: |-
   - [Canada – DGSI](https://dgc-cgn.org/standards/) has adopted an open technical committee model that welcomes wide participation and encourages diversity. Their standards development process is made publicly available from the outset, and individuals can join at different stages based on their availability and interest. There are no limits on the number of participants per committee, nor are there set time commitments that allow people to contribute flexibly, based on their capacity.
 processes:
   - b612d304
-barriers: []
+barriers:
+  - fd144e96
 more-information: ''
 ---
