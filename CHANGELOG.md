@@ -1,5 +1,13 @@
 # Changelog
 
+## [2026.03.11.1744.c28bc21](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.03.09.2114.34f4ab2...2026.03.11.1744.c28bc21)
+
+### Bug Fixes
+
+* fix: enable highlights on result pages (resolves #390) (#400) [@chosww](https://github.com/chosww)
+* fix: add filter script to french resources page as well (#399) [@chosww](https://github.com/chosww)
+* fix: guidelines issues (resolves #395, #397) (#398) [@chosww](https://github.com/chosww)
+
 ## [2026.03.09.2114.34f4ab2](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.03.09.1550.d27034b...2026.03.09.2114.34f4ab2)
 
 ### Features
