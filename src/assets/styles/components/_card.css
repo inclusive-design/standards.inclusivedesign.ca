@@ -138,6 +138,13 @@ body:not([class*="fl-theme"]),
     text-decoration: none;
 }
 
+.card__title svg {
+	height: 1em;
+	margin-bottom: -0.125em;
+	margin-left: 0.25em;
+	width: 1em;
+}
+
 .card__title:focus {
     background: none;
     box-shadow: none;
@@ -191,7 +198,7 @@ body:not([class*="fl-theme"]),
     stroke: currentcolor;
 }
 
-.card *:has(> svg) {
+.card div:has(> svg) {
     align-items: center;
     display: flex;
     gap: 0.75rem;
