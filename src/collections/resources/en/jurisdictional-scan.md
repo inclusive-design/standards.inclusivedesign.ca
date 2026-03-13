@@ -12,6 +12,7 @@ author: ''
 publisher: IDRC
 contentLanguages:
   - en
+  - fr
 type: guide-or-toolkit
 projects:
   - all-standards
