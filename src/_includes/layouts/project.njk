@@ -19,7 +19,7 @@
                 {% set breadcrumbLinks = breadcrumbLinks.concat({ 'title' : title, 'url' : url }) %}
             {% endif %}
         {% endfor %}
-        {% include "partials/components/breadcrumb.njk" %}     
+        {% include "partials/components/breadcrumb.njk" %}
         <h1>{{ title }}</h1>
     </div>
     <div class="banner__image">
@@ -34,7 +34,7 @@
 <nav aria-labelledby="project-menu" class="flow">
     <inclusive-disclosure>
         <button aria-controls="{{ title | slugify }}-menu">
-            <h2 id="project-menu">{% __ 'project-menu' %}</h2>
+            <h2 class="h3" id="project-menu">{% __ 'project-menu' %}</h2>
         </button>
         <div content id="{{ title | slugify }}-menu">
             <ul role="list" class="flow">

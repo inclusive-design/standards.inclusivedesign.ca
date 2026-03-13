@@ -27,8 +27,8 @@
                 {{ 'and' if loop.last }}
                 {% endif %}
                 {% set process = collections['processes_' + lang] | find('data.uuid', strategyId) %}
-                {% include '../../assets/images/' + process.data.translationKey + '.svg' %}
-                <a href="{{ process.url }}">{{ process.data.title }}</a>
+                <span>{% include '../../assets/images/' + process.data.translationKey + '.svg' %}
+                <a href="{{ process.url }}">{{ process.data.title }}</a></span>
                 {% if processes | length > 2 %}
                 {{ ',' if not loop.last }}
                 {% endif %}
@@ -47,7 +47,7 @@
 <nav aria-labelledby="strategy-menu" class="flow">
     <inclusive-disclosure>
         <button aria-controls="{{ title | slugify }}-menu">
-            <h2 id="strategy-menu">{% __ 'toc' %}</h2>
+            <h2 class="h3" id="strategy-menu">{% __ 'toc' %}</h2>
         </button>
         <div content id="{{ title | slugify }}-menu">
             <ul role="list" class="flow">

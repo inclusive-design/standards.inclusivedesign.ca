@@ -36,6 +36,7 @@ body {
 
     ol {
         display: flex;
+        flex-wrap: wrap;
         list-style: none;
         padding-inline-start: 0;
 
@@ -44,7 +45,7 @@ body {
                 align-items: center;
                 display: flex;
                 gap: 0.4rem;
-                text-wrap: nowrap;
+                text-wrap: wrap;
                 width: fit-content;
             }
         }
