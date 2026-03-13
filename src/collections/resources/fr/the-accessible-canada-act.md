@@ -6,7 +6,7 @@ lang: fr
 date: 2025-05-06T12:36:00
 link: https://laws-lois.justice.gc.ca/eng/acts/A-0.6/
 author: ''
-publisher: Government of Canada
+publisher: Gouvernement du Canada
 contentLanguages:
   - en
 type: standards

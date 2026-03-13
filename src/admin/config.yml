@@ -333,7 +333,7 @@ collections:
         name: publisher
         widget: string
         required: false
-        i18n: duplicate
+        i18n: true
       - label: Language
         name: contentLanguages
         widget: relation
