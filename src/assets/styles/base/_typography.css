@@ -15,10 +15,7 @@ h2 {
 }
 
 h3,
-.project-panel h2,
-.project nav h2,
-.resource nav h2,
-.guidelines nav h2 {
+.h3 {
     font-size: var(--step-3);
 }
 

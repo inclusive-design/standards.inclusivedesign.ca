@@ -96,6 +96,12 @@
 .strategy-processes {
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
+
+    span {
+	    align-items: center;
+	    display: flex;
+    }
 }
 
 .barrier nav inclusive-disclosure,
