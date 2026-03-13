@@ -57,7 +57,7 @@
                     </ul>
                 <ul role="list" class="flow strategies-target-barriers">
                         {% for barrier in targetBarriers %}
-                            <li><a href="#{{ barrier.data.title }}">{{ barrier.data.title }}</a></li>
+                            <li><a href="#{{ barrier.data.title | slugify }}">{{ barrier.data.title }}</a></li>
                         {% endfor %}
                     </ul>
                 </li>
