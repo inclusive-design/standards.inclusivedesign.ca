@@ -218,3 +218,7 @@ a[rel="home"] {
         }
     }
 }
+
+#toc ul ul {
+	margin-block-start: 1.25rem;
+}

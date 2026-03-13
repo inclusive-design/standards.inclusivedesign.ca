@@ -70,6 +70,17 @@
     display: none;
 }
 
+.barrier nav ul ul,
+.guidelines nav ul ul,
+.process nav ul ul,
+.strategy-tip nav ul ul {
+    padding-inline-start: 1.25rem;
+
+    li {
+    	list-style-type: none;
+    }
+}
+
 .barrier inclusive-disclosure h3,
 .process inclusive-disclosure h3,
 .strategy-tip inclusive-disclosure h3 {
@@ -115,10 +126,6 @@
     right: var(--common-inline-padding);
 }
 
-.processes-strategies-and-tips,
-.strategies-target-barriers {
-    padding-inline-start: 1.25rem;
-}
 
 .strategy-tip .icon {
     margin-inline: 1rem;
