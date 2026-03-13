@@ -189,23 +189,6 @@
         padding-block: 8.4375rem;
     }
 
-    .project nav {
-        padding-inline: 8.4375rem 5rem;
-        position: relative;
-
-        &::after {
-            background-color: var(--fl-bgColor, var(--color-indigo-100));
-            content: "";
-            display: block;
-            height: 100%;
-            margin-inline-start: -100vw;
-            position: absolute;
-            top: 0;
-            width: 100vw;
-            z-index: -1;
-        }
-    }
-
     .project article {
         padding-inline: 8.4375rem;
     }
