@@ -3,7 +3,7 @@
     <div class="card__content">
         <h3>
             <a class="card__title" href="{{ resource.data.link if resource.data.link else resource.url }}"{% if resource.data.link %} rel="external"{% endif %}>
-                {{ resource.data.title | safe }}
+                {{ resource.data.title | safe }} {% if resource.data.link %}<i class="fa-solid fa-arrow-up-right-from-square"></i>{% endif %}
             </a>
         </h3>
         {% if resource.data.author or resource.data.publisher %}
