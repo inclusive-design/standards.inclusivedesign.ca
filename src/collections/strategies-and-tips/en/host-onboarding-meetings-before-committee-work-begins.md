@@ -1,5 +1,5 @@
 ---
-translationKey: encourage-chairs-to-host-an-onboarding-meeting-before-committee-work-begins
+translationKey: host-onboarding-meetings-before-committee-work-begins
 title: Host onboarding meetings before committee work begins
 uuid: 7f21a35b
 draft: false
