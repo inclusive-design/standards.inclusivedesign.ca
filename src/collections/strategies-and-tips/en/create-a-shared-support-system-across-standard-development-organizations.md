@@ -15,7 +15,7 @@ moreInformation: |-
 examples: |-
   - [USA  – American National Standards Institute (ANSI)](https://www.din.de/en): ANSI collaborates with organizations like NIDILRR to share costs for captioning and interpreters, reducing financial burden.
   - [Canada  – Standards Council of Canada (SSC):](https://scc-ccn.ca/) SSC partners with the government and industry to fund assistive technologies and interpretation services for national events.
-  - [Australia – Standards Australia](https://www.standards.org.au/standards-development/developing-standards/process): Standards Canada uses open-source tools and shares documents in accessible formats to provide low-cost accommodations.
+  - [Australia – Standards Australia](https://www.standards.org.au/standards-development/developing-standards/process): Standards Australia uses open-source tools and shares documents in accessible formats to provide low-cost accommodations.
 processes:
   - af752d5c
 barriers:
