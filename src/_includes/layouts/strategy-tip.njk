@@ -44,7 +44,7 @@
 {% for uuid in barriers %}
     {% set targetBarriers = targetBarriers.concat(collections['barriers_' + lang] | find('data.uuid', uuid)) %}
 {% endfor %}
-<nav aria-labelledby="strategy-menu" class="flow">
+<nav aria-labelledby="strategy-menu" class="flow sidebar-menu">
     <inclusive-disclosure>
         <button aria-controls="{{ title | slugify }}-menu">
             <h2 class="h3" id="strategy-menu">{% __ 'toc' %}</h2>

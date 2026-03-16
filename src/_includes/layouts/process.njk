@@ -29,7 +29,7 @@
 
 {% block content %}
 {% set strategiesOrTips = collections['strategies-and-tips_' + lang] | findAll('data.processes', uuid) %}
-<nav aria-labelledby="process-menu" class="flow">
+<nav aria-labelledby="process-menu" class="flow sidebar-menu">
     <inclusive-disclosure>
         <button aria-controls="{{ title | slugify }}-menu">
             <h2 class="h3" id="process-menu">{% __ 'toc' %}</h2>
