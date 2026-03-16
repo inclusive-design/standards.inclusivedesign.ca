@@ -22,7 +22,7 @@ tips: |-
   - Allow anonymous reporting when needed.
   - Offer follow-up one-on-one conversations for sensitive issues.
 moreInformation: |-
-  - [Challenges of facilitating diverse groups—Co-designing Inclusive Cities](https://cities.inclusivedesign.ca/resources/challenges-of-facilitating-diverse-groups/)
+  - [Challenges of facilitating diverse groups: ](https://cities.inclusivedesign.ca/resources/challenges-of-facilitating-diverse-groups/)[Co-designing Inclusive Cities](https://cities.inclusivedesign.ca/resources/challenges-of-facilitating-diverse-groups/)
   - [Use fair and transparent decision-making](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/use-fair-and-transparent-decision-making/)
   - [Use inclusive approaches for decision-making](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/use-inclusive-approaches-for-decision-making/)
   - [Provide ongoing accessibility and inclusion training](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/provide-ongoing-accessibility-and-inclusion-training-for-staff-and-chairs/)

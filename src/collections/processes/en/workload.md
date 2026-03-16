@@ -10,4 +10,8 @@ stage: 5871d856
 
 ## Why is this important?
 
-## Strategies and Tips
+Workloads should set realistic expectations and not ask people to do too much. Tasks should be clearly defined, fly shared, and flexible so Disabled and Deaf participants can contribute without burnout.
+
+## Stratergies and Tips
+
+Explore stratergies tips for managing workload more inclusively:

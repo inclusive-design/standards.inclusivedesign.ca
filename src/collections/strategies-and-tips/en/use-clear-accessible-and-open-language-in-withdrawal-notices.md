@@ -11,7 +11,7 @@ strategies: |-
       - Why the standard might be withdrawn
       - What the potential impacts are
       - Key timelines for the process
-  - Share all information in accessible formats, such as screen-reader friendly documents, PDFs, captions, and ASL/LSQ videos.
+  - Share all information in accessible formats, such as screen-reader friendly documents, PDFs, captions, and sign language/interpretation videos.
   - Keep language simple and direct, so everyone can understand the notice.
   - Highlight who to contact for questions or additional support.
 tips: ''
