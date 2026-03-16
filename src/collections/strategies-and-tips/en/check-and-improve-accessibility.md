@@ -18,9 +18,9 @@ strategies: |-
       - Note-taking services
       - Clear and consistent turn-taking protocols
       - Accessible digital files and materials in advance
-  - Ensure physical spaces (if used) are accessible for mobility devices, sensory needs, and rest requirements. The [Physical Space](https://docs.google.com/document/d/1rSj2SrDtFpxCagBmXxBdQCnb4P_K72qiArqk61ABq5s/edit?tab=t.7zs28s6iacgn#heading=h.2bwrsspmft8x) section has more details.
+  - Ensure physical spaces (if used) are accessible for mobility devices, sensory needs, and rest requirements. The [Physical Space](https://standards.inclusivedesign.ca/guidelines/processes/space/) section has more details.
 
-  These challenges are amplified when travel is required - the [Travel](https://docs.google.com/document/d/1rSj2SrDtFpxCagBmXxBdQCnb4P_K72qiArqk61ABq5s/edit?tab=t.7zs28s6iacgn#heading=h.6xl6o28exsf6) section has more details).
+  These challenges are amplified when travel is required - the [Travel](https://standards.inclusivedesign.ca/guidelines/processes/travel/) section has more details).
 tips: ''
 moreInformation: |-
   - [Make remote/virtual/online meetings accessible](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/make-remote-virtual-online-meetings-accessible/)
