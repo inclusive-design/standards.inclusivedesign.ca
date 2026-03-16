@@ -199,7 +199,7 @@ inclusive-disclosure:has(#filter-topic) > button::before,
     mask-image: url("/assets/images/topic.svg");
 }
 
-@media (width >= 46.625rem) {
+@media (width >= 70.875rem) {
     filter-container {
         display: grid;
         gap: 1.875rem;
