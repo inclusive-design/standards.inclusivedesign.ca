@@ -6,7 +6,7 @@ draft: false
 strategies: |-
   - Make standards freely available or provide access opportunities for people who are not corporately funded.
   - Provide versions in plain language so everyone can understand.
-  - Offer alternative formats, like screen-reader–friendly files, braille, or sign language videos (ASL/LSQ).
+  - Offer alternative formats, like screen-reader–friendly files, braille, or sign language/interpretation videos.
   - Translate standards into other languages when needed to reach diverse communities.
   - Ensure the website or platform where standards are published is fully accessible, including keyboard navigation, captions and high-contrast options.
   - Allow downloading and offline access so people without consistent internet can still use the standards.
