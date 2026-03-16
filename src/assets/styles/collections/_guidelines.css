@@ -104,13 +104,6 @@
     }
 }
 
-.barrier nav inclusive-disclosure,
-.guidelines nav inclusive-disclosure,
-.process nav inclusive-disclosure,
-.strategy-tip nav inclusive-disclosure {
-    padding-inline: 0;
-}
-
 .barrier nav inclusive-disclosure > *,
 .guidelines nav inclusive-disclosure > *,
 .process nav inclusive-disclosure > *,
