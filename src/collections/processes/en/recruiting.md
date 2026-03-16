@@ -10,4 +10,8 @@ stage: b394d47d
 
 ## Why is this important?
 
-## Strategies and Tips
+Inclusive recruitment means committing resources, policies, and outreach to bring diverse voices across disability and intersecting identities into standards development. It requires proactive, accessible, and relationship-based engagement, valuing lived experience alongside technical expertise, and ensuring no single voice is expected to represent an entire community. 
+
+## Stratergies and Tips
+
+Explore stratergies tips for making recruitment more inclusive:
