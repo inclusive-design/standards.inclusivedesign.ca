@@ -6,7 +6,7 @@ draft: false
 strategies: |-
   - Let people share feedback anytime, not just during scheduled review periods.
   - Accept input from individuals, organizations, and communities whenever issues or improvements are noticed.
-  - Clearly explain how to give feedback and what supports are available (e.g., plain language, captions, ASL/LSQ, screen-reader friendly).
+  - Clearly explain how to give feedback and what supports are available (e.g., plain language, captions, sign language/interpretation, screen-reader friendly).
   - Make feedback channels easy to find and use, such as online forms, email, phone lines, or mail.
   - Track and respond to feedback promptly so people know their input matters.
   - Regularly review and act on feedback to improve standards over time.
