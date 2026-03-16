@@ -14,7 +14,7 @@ moreInformation: |-
   - [Check and improve accessibility](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/check-and-improve-accessibility/)
 examples: |-
   - [Canada  – Standards Council of Canada (SSC):](https://scc-ccn.ca/) SSC partners with the government and industry to fund assistive technologies and interpretation services for national events.
-  - [USA  – American National Standards Institute (ANSI)](https://www.din.de/en): ANSI collaborates with organizations like NIDILRR to share costs for captioning and interpreters, reducing financial burden.
+  - [USA  – American National Standards Institute (ANSI)](https://www.ansi.org/about/introduction#:~:text=The%20American%20National%20Standards%20Institute,standards%20and%20conformity%20assessment%20system.): ANSI collaborates with organizations like NIDILRR to share costs for captioning and interpreters, reducing financial burden.
   - [Australia – Standards Australia](https://www.standards.org.au/standards-development/developing-standards/process): Standards Australia uses open-source tools and shares documents in accessible formats to provide low-cost accommodations.
 processes:
   - af752d5c
