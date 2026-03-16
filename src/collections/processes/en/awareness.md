@@ -14,4 +14,4 @@ Inclusive public awareness involves clearly sharing information about the draft 
 
 ## Stratergies and Tips
 
-Explore approaches and practical tips for  public awareness :
+Explore stratergies and tips for public awareness :
