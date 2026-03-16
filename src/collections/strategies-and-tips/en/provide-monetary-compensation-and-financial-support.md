@@ -14,8 +14,8 @@ tips: |-
       - staff accessibility training
   - Partner with disability-led organizations to co-develop funding mechanisms and engagement strategies.
 moreInformation: |-
-  - [Contributor License Agreement—Co-designing Inclusive Cities](https://cities.inclusivedesign.ca/resources/contributor-license-agreement/)
-  - [Co-design cost considerations—Co-designing Inclusive Cities](https://cities.inclusivedesign.ca/resources/co-design-cost-considerations/)
+  - [Contributor License Agreement: Co-designing Inclusive Cities](https://cities.inclusivedesign.ca/resources/contributor-license-agreement/)
+  - [Co-design cost considerations: Co-designing Inclusive Cities](https://cities.inclusivedesign.ca/resources/co-design-cost-considerations/)
   - [Build in travel funding](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/build-in-travel-funding/)
 examples: |-
   - [Germany – DIN: Removing Cost Barriers](https://www.din.de/en): DIN has launched a pilot stipend model allowing individuals without organizational backing especially Disabled experts to receive financial support for participation and waived membership fees. They collaborate with disability networks to find participants with lived or community-based expertise. Opens traditionally corporate-led spaces to independent, underrepresented voices.
