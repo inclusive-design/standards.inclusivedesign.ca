@@ -10,6 +10,7 @@ tips: |-
       - Some meetings can work best for North America and Europe
       - Other meetings can work best for Asia and the Pacific
   - Consider having two meetings at different times which cover the same topics.
+  - Check regional holidays and observances when scheduling meetings. Try to avoid major holidays in different regions, or offer alternative ways for people to participate if a meeting falls during a holiday period.
   - Check in with members often to make sure the meeting times still work, and change them when needed.
   - Record meetings and share the recording and notes afterwards.
   - Share agendas and documents early, so people in different time zones can review them.
@@ -24,9 +25,9 @@ moreInformation: |-
   - [Provide translation and interpretation for everyone](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/provide-translation-and-interpretation-for-everyone/)
   - [Open up committee meetings and allow outside participation](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/open-up-committee-meetings-and-allow-outside-participation/)
 examples: |-
-  - [Australia – Standards Australia](https://www.standards.org.au/standards-development/developing-standards/process) promotes rotating meeting times across regions. For example, in cloud computing standards, they helped implement schedules that shift between Asia-Pacific, Europe, and the Americas. They also support asynchronous collaboration through shared documents.
-  - [India – BIS](https://www.bis.gov.in/?lang=en) allows members to give input outside live meetings using pre-recorded presentations, online forms, and extended feedback periods. They also share meeting summaries for those who can’t attend in real time.
-  - [International Organization for Standardization –  ISO/IEC](https://www.en-standard.eu/iso-standards/?gad_source=1&gad_campaignid=23589929400&gbraid=0AAAAAD6CNv9F3PbX94QfQ9NiHoNLJftLM&gclid=CjwKCAiAh5XNBhAAEiwA_Bu8FXpLRc_BqJ0565gItVKjoKI1jIkXfwdDYiVQ1HqovGivCxXZuxjCkBoCV5gQAvD_BwE) uses rotating time slots and collaborative platforms to support global input. In developing AI ethics standards, meetings rotated to include all regions and were backed by recordings and online discussions.
+  - [Australia – Standards Australia](https://www.standards.org.au/standards-development/developing-standards/process): Standards Australia promotes rotating meeting times across regions. For example, in cloud computing standards, they helped implement schedules that shift between Asia-Pacific, Europe, and the Americas. They also support asynchronous collaboration through shared documents.
+  - [India – Bureau of Indian Standards (BIS)](https://www.bis.gov.in/?lang=en): BIS allows members to give input outside live meetings using pre-recorded presentations, online forms, and extended feedback periods. They also share meeting summaries for those who can’t attend in real time.
+  - [International Organization for Standardization –  ISO/IEC](https://www.en-standard.eu/iso-standards/?gad_source=1&gad_campaignid=23589929400&gbraid=0AAAAAD6CNv9F3PbX94QfQ9NiHoNLJftLM&gclid=CjwKCAiAh5XNBhAAEiwA_Bu8FXpLRc_BqJ0565gItVKjoKI1jIkXfwdDYiVQ1HqovGivCxXZuxjCkBoCV5gQAvD_BwE): ISO uses rotating time slots and collaborative platforms to support global input. In developing AI ethics standards, meetings rotated to include all regions and were backed by recordings and online discussions.
 processes:
   - b612d304
 barriers:
