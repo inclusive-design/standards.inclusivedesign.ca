@@ -9,7 +9,7 @@ strategies: |-
   - Provide toolkits in digital and print formats that explain the standards in plain language.
   - Show how the standards can be applied in real-life situations and how people can use them to advocate for change.
   - Use multiple communication channels such as social media, newsletters, and community boards to reach different groups.
-  - Offer translations, captions, or sign language versions to make sessions inclusive.
+  - Offer translations, captions, or sign language/interpretation versions to make sessions inclusive.
   - Encourage feedback from the community on how well the standards meet their needs.
   - Highlight success stories where communities used standards to make a positive impact.
 tips: ''

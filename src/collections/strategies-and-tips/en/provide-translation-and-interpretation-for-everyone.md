@@ -5,7 +5,7 @@ uuid: 8ee5823e
 draft: false
 strategies: ''
 tips: |-
-  - Offer translation and interpretation support from the start and make it normal for everyone to use.
+  - Offer translation and sign language/interpretation support from the start and make it normal for everyone to use.
   - Test whether transcripts are working in advance.
   - Use the automated transcript feature in video conferencing applications and save transcripts to share after the meeting. Check the saved transcripts for any errors or discrepancies after every meeting has ended.
   - Give extra time for discussions and allow follow-up later, especially in international groups.

@@ -29,7 +29,7 @@ problem: |-
       - Are meetings during work hours or evenings?
       - Will I need to travel?
   - Accessibility and accommodations
-      - Will accommodations be provided (ASL/LSQ, captions, accessible documents)?
+      - Will accommodations be provided (sign language/interpretation, captions, accessible documents)?
       - How do I request accommodations, and when?
       - Are plain language versions available?
       - What happens if I face accessibility barriers during the process?

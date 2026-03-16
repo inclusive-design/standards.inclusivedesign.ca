@@ -10,4 +10,8 @@ stage: 5871d856
 
 ## Why is this important?
 
-## Strategies and Tips
+Technology should involve using tools that are accessible and familiar to participants. Technology should work with assistive tools, be easy to use, and have support available when problems come up.
+
+## Stratergies and Tips
+
+Explore stratergies tips for using inclusive and accessible technology:

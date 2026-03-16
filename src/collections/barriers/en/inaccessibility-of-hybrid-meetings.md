@@ -12,7 +12,7 @@ problem: |-
   - Cameras not showing who is speaking.
   - Slides or visuals not described out loud, which is also a problem for blind and low vision people who are in the room.
   - Captions missing or incorrect.
-  - Interpreters not visible to everyone.
+  - People providing sign language/interpretation not visible to everyone.
   - Documents and tools that do not work with screen readers or other assistive technologies.
   - Materials shared only during the meeting, not in advance.
   - No clear system for taking turns.
