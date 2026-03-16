@@ -19,7 +19,7 @@ moreInformation: |-
   - [Build in travel funding](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/build-in-travel-funding/)
 examples: |-
   - [Germany – DIN: Removing Cost Barriers](https://www.din.de/en): DIN has launched a pilot stipend model allowing individuals without organizational backing especially Disabled experts to receive financial support for participation and waived membership fees. They collaborate with disability networks to find participants with lived or community-based expertise. Opens traditionally corporate-led spaces to independent, underrepresented voices.
-  - [Kenya – KEBS: Community-Based Compensation](https://www.kebs.org/wp-content/uploads/2025/08/KEBS-CODE-OF-CONDUCT-AND-ETHICS_202510.07.2025_FINAL-1.pdf): KEBS works with local disability organizations to provide honorariums, transport costs, and interpretation for Disabled participants. Support is often delivered through partner NGOs, with advance payments offered to avoid reimbursement delays. KBES Uses trusted community partners and localized funding methods to improve access in underserved areas.
+  - [Kenya – KEBS: ](https://www.kebs.org/)KEBS works with local disability organizations to provide honorariums, transport costs, and interpretation for Disabled participants. Support is often delivered through partner NGOs, with advance payments offered to avoid reimbursement delays. KBES Uses trusted community partners and localized funding methods to improve access in underserved areas.
 processes:
   - a7e33638
 barriers:
