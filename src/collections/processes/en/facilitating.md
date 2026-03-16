@@ -10,7 +10,7 @@ stage: 5871d856
 
 ## Why is this important?
 
-Organizing should include setting up meetings, timelines, and documents in ways that support full participation and meet everyone's accessibility needs. This includes flexible schedules, clear agendas, accessible tools, and enough time for people to review, respond, and contribute in ways that work for them.
+Inclusive facilitation requires running meetings in ways that support everyone to take part. This includes clear instructions, shared turn-taking, different ways to speak or contribute, and facilitators who actively support access and inclusion.
 
 ## Stratergies and Tips
 
