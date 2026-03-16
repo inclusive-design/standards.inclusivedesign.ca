@@ -5,7 +5,7 @@ const parseTransform = (value, outputPath) => {
 		const {document} = parseHTML(value);
 
 		const pageNavHeadings = document.querySelectorAll('main:has(nav) article h2, main:has(nav) article h3');
-		const navContainer = document.querySelector('main nav #toc ul');
+		const navContainer = document.querySelector('main nav.sidebar-menu #toc ul');
 		for (const heading of pageNavHeadings) {
 			const link = document.createElement('a');
 			link.setAttribute('href', `#${heading.id}`);
@@ -13,12 +13,12 @@ const parseTransform = (value, outputPath) => {
 			const li = document.createElement('li');
 			li.append(link);
 
-			if (heading.tagName === 'H2') {
+			if (navContainer && heading.tagName === 'H2') {
 				li.dataset.level = '2';
 				navContainer.append(li);
 			}
 
-			if (heading.tagName === 'H3') {
+			if (navContainer && heading.tagName === 'H3') {
 				li.dataset.level = '3';
 
 				/* Retrieve the last list item for an H2 */
