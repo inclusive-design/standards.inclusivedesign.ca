@@ -1,5 +1,29 @@
 # Changelog
 
+## [2026.03.16.1918.4ea7bb7](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.03.11.1744.c28bc21...2026.03.16.1918.4ea7bb7)
+
+* chore(deps): lock file maintenance (#428) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): update actions/create-github-app-token action to v3 (#421) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): lock file maintenance (#422) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): lock file maintenance (#411) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): lock file maintenance (#410) @[renovate[bot]](https://github.com/apps/renovate)
+
+### Features
+
+* feat: indicate external resources with icon (resolves #393) (#418) [@nedatidrc](https://github.com/nedatidrc)
+* feat: support translateable publishers (#417) [@nedatidrc](https://github.com/nedatidrc)
+
+### Bug Fixes
+
+* fix: adjust filter column width to better support tablet breakpoints (#427) [@nedatidrc](https://github.com/nedatidrc)
+* fix: adjust card heading size (resolves #424) (#426) [@nedatidrc](https://github.com/nedatidrc)
+* fix: resolve alignment issue for guidelines and processes (#425) [@nedatidrc](https://github.com/nedatidrc)
+* fix: add breadcrumb on barriers and processes page and fix sidebar nav focus style issue (resolves #406, #415) (#423) [@chosww](https://github.com/chosww)
+* fix: resolve responsive issues with banners and sidebar (#420) [@nedatidrc](https://github.com/nedatidrc)
+* fix: indicate that Jurisdictional Scan is available in FR/EN (#419) [@nedatidrc](https://github.com/nedatidrc)
+* fix: generate nested TOC from h2-h3 headings (resolves #407, resolves #408) (#416) [@nedatidrc](https://github.com/nedatidrc)
+* fix: apply common sidebar nav style to the content class (resolves #403) (#405) [@chosww](https://github.com/chosww)
+
 ## [2026.03.11.1744.c28bc21](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.03.09.2114.34f4ab2...2026.03.11.1744.c28bc21)
 
 ### Bug Fixes
