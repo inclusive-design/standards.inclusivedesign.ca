@@ -5,7 +5,7 @@ uuid: 94dc979d
 draft: false
 strategies: ''
 tips: |-
-  - Use UTC (Universal Coordinated Time) as the main time reference, because it stays the same all year and does not observe Day Light Saving.
+  - Use UTC ([Coordinated Universal Time](https://en.wikipedia.org/wiki/Coordinated_Universal_Time)) as the main time reference, because it stays the same all year and does not observe Day Light Saving.
   - Rotate meeting times so the same region is not always stuck with late-night or early-morning meetings.
       - Some meetings can work best for North America and Europe
       - Other meetings can work best for Asia and the Pacific
