@@ -21,10 +21,10 @@ moreInformation: |-
   - [Build in travel funding](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/build-in-travel-funding/)
   - [Check and improve accessibility](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/check-and-improve-accessibility/)
 examples: |-
-  - [U.S. – ANSI](https://www.din.de/en): ANSI ensures meeting venues have wheelchair ramps, accessible restrooms, and charging stations. They use a venue checklist to ensure proper accommodations.
-  - [UK – BSI](https://www.bsigroup.com/en-CA/): BSI surveys venues in advance to ensure accessibility features like hearing loops and quiet spaces. They also gather feedback to improve future venue selections.
-  - [Australia – Standards Australia](https://www.din.de/en): DIN selects central, accessible venues with public transport access and offers transportation subsidies for members with mobility needs.
-  - [Canada – SCC](https://scc-ccn.ca/): SCC partners with the government to host meetings at venues that comply with accessibility laws, providing charging stations and quiet areas.
+  - [USA  – American National Standards Institute (ANSI)](https://www.ansi.org/about/introduction#:~:text=The%20American%20National%20Standards%20Institute,standards%20and%20conformity%20assessment%20system.): ANSI ensures meeting venues have wheelchair ramps, accessible restrooms, and charging stations. They use a venue checklist to ensure proper accommodations.
+  - [UK – British Standards Institution (BSI)](https://www.bsigroup.com/en-CA/): BSI surveys venues in advance to ensure accessibility features like hearing loops and quiet spaces. They also gather feedback to improve future venue selections.
+  - [Australia – Standards Australia](https://www.din.de/en): Standards Australia selects central, accessible venues with public transport access and offers transportation subsidies for members with mobility needs.
+  - [Canada  – Standards Council of Canada (SSC)](https://scc-ccn.ca/): SCC partners with the government to host meetings at venues that comply with accessibility laws, providing charging stations and quiet areas.
 processes:
   - 7cfa687f
 barriers:
