@@ -14,4 +14,4 @@ Accessible registration requires simple, user-friendly processes that work with 
 
 ## Stratergies and Tips
 
-Explore stratergies tips for making registration more inclusive:
+Explore stratergies tips for making the registration process more inclusive:
