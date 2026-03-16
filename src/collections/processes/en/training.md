@@ -14,4 +14,4 @@ Inclusive training requires accessible, plain-language, role-specific learning m
 
 ## Stratergies and Tips
 
-Explore stratergies tips for  inclusive training and knowledge building:
+Explore stratergies tips for inclusive training and knowledge building:
