@@ -33,7 +33,7 @@ moreInformation: |-
   - [Remote Co-design Guide - Community-Led Co-Design Kit](https://community-led.design/resources/remote-co-design-guide/)
   - [Facilitation for Flexibility and Accessibility - Community-Led Co-Design Kit ](https://community-led.design/resources/facilitation-for-flexibility-and-accessibility/)
   - [Create and verify PDF accessibility (Acrobat Pro)](https://helpx.adobe.com/ca/acrobat/using/create-verify-pdf-accessibility.html)
-  - [Guidelines for creating accessible documents (Accessibility Standards Canada)](Guidelines for creating accessible documents (Accessibility Standards Canada))
+  - [Guidelines for creating accessible documents (Accessibility Standards Canada)](https://accessible.canada.ca/guidelines-creating-accessible-documents)
   - [Make communications multi-modal and consistent](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/make-communications-multi-modal-and-consistent/)
   - [Ensure websites are accessible](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/ensure-websites-are-accessible/)
   - [Check and improve accessibility](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/check-and-improve-accessibility/)
