@@ -28,14 +28,14 @@ moreInformation: |-
 examples: |-
   - [UK – British Standards Institution (BSI)](https://www.bsigroup.com/en-CA/): BSI uses 360° cameras, quality audio, and shared online docs to ensure remote attendees are fully included. A “remote participant advocate” helps balance input between in-person and virtual members.
   - [Germany – German Institute for Standardization (DIN)](https://www.din.de/en): DIN uses auto-tracking cameras, real-time screen sharing, and shares materials in advance in multiple accessible formats. They also run simulations to test and improve hybrid setups.
-  - [USA  – American National Standards Institute (ANSI)](https://www.din.de/en):  ANSI prefers virtual or hybrid meetings to reduce travel barriers. When in-person meetings are necessary, they choose accessible venues and offer support for assistive technologies. Meeting formats are adjusted based on member needs.
+  - [USA  – American National Standards Institute (ANSI)](https://www.ansi.org/about/introduction#:~:text=The%20American%20National%20Standards%20Institute,standards%20and%20conformity%20assessment%20system.):  ANSI prefers virtual or hybrid meetings to reduce travel barriers. When in-person meetings are necessary, they choose accessible venues and offer support for assistive technologies. Meeting formats are adjusted based on member needs.
   - [Japan – The Japanese Industrial Standards Committee (JISC)](https://www.jisc.go.jp/eng/): JISC uses regional hubs connected by video to limit long travel. For in-person meetings, they offer travel subsidies and accessible transportation for participants with mobility challenges.
 processes:
   - b612d304
 barriers:
   - 81182d8d
-order: 1
 more-information: ''
+order: 1
 ---
 
 Strategies to ensure accessible pathways into technical committees and working groups for diverse applicants.
