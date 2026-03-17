@@ -1,5 +1,11 @@
 # Changelog
 
+## [2026.03.17.1401.a52a743](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.03.16.1918.4ea7bb7...2026.03.17.1401.a52a743)
+
+### Bug Fixes
+
+* fix: adjust some jurisdictional scan content (#430) [@nedatidrc](https://github.com/nedatidrc)
+
 ## [2026.03.16.1918.4ea7bb7](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.03.11.1744.c28bc21...2026.03.16.1918.4ea7bb7)
 
 * chore(deps): lock file maintenance (#428) @[renovate[bot]](https://github.com/apps/renovate)
