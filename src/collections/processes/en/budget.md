@@ -14,4 +14,4 @@ Budgeting should involve planning and accounting for access needs from the start
 
 ## Strategies and Tips
 
-Explore approaches and practical tips for managing budget:
+Explore strategies and practical tips for managing budget:
