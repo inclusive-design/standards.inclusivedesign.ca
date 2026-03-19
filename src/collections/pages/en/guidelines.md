@@ -50,7 +50,7 @@ You can use the guidelines in the following two ways:
 ### Browse by Standards Development Processes
 
 ####
-[Explore all strategies and tips by stages and processes](https://standards.inclusivedesign.ca/guidelines/processes/)
+[Explore all strategies and tips by stages and processes](/guidelines/processes/)
 
 Browse by standards development process and select a stage first, then choose a process within that stage. For each process, you’ll find practical solutions to make the standards development process more inclusive, along with the specific barriers these solutions can help address.
 
