@@ -21,7 +21,7 @@
             {% include "partials/components/breadcrumb.njk" %}
             <h1 data-pagefind-meta="title" data-pagefind-filter="type:strategy-tip">{{ title }}</h1>
             <div class="strategy-processes {{ 'only-two' if processes | length == 2 }}">
-                {% __ 'strategies-for' %}
+                {% __ 'strategies-and-tips-for' %}
             {% for strategyId in processes %}
                 {% if processes | length > 1 %}
                 {{ 'and' if loop.last }}
