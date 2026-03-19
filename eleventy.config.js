@@ -3,7 +3,7 @@ import eleventyNavigationPlugin from '@11ty/eleventy-navigation';
 import fontAwesomePlugin from '@11ty/font-awesome';
 import fluidPlugin from 'eleventy-plugin-fluid';
 import {__} from 'eleventy-plugin-fluid';
-import footnotesPlugin from 'eleventy-plugin-footnotes';
+import inclusiveFootnotesPlugin from '@inclusive-design/eleventy-plugin-inclusive-footnotes';
 import _ from 'lodash';
 import parseTransform from './src/_transforms/parse-transform.js';
 import objectArrayPush from './src/assets/scripts/object-array-push.js';
@@ -21,7 +21,7 @@ export default function eleventy(eleventyConfig) {
 	eleventyConfig.addPlugin(fontAwesomePlugin);
 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 	eleventyConfig.addPlugin(RenderPlugin);
-	eleventyConfig.addPlugin(footnotesPlugin);
+	eleventyConfig.addPlugin(inclusiveFootnotesPlugin);
 	eleventyConfig.addPlugin(fluidPlugin, {
 		defaultLanguage: 'en',
 		supportedLanguages: {
