@@ -59,7 +59,7 @@ Browse by standards development process and select a stage first, then choose a 
 ####
 [Explore all strategies and tips to tackle your Barrier](/guidelines/barriers/)
 
-Visit the barriers library to see a list of barriers faced by Standards Development Organizations, organized by the five core stages and their topics. From there, you can select a specific barrier and explore the approaches and strategies that can help resolve it.
+Visit the barriers library to see a list of barriers faced by Standards Development Organizations, organized by the 5 core stagesovering 18 processes or topic areas. From there, you can select a specific barrier and explore the strategies and tips that can help resolve it.
 
 ## What are you looking for?
 
