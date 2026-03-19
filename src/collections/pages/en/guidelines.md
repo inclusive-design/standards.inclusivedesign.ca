@@ -10,14 +10,7 @@ previewImageAlt: ''
 bannerTitle: ''
 bannerText: ''
 bannerImageAlt: ''
-outro: |-
-  ## Browse by Standards Development Processes
-
-  [Explore all Strategies and Tips](/guidelines/processes/)
-
-  ## Browse by Barriers
-
-  [Explore all Strategies and Tips to tackle your Barrier](/guidelines/barriers/)
+outro: ''
 ---
 
 ## Building Standards for Everyone, with Everyone
@@ -48,17 +41,21 @@ These guidelines are grounded in both research and lived experience. They were s
 
 ## How to use the Guidelines
 
-The guidelines are organized into five core themes, each representing a key stage or area within the standards development process.
-
-Each theme highlights common barriers as well as strategies and tips to improve accessibility and inclusion.
+The guidelines are organized into five core stages, each representing a key stage or area within the standards development process. Each process highlights common barriers as well as strategies and tips to improve accessibility and inclusion.
 
 You can use the guidelines in the following two ways:
 
-[**Explore by Stages**](https://standards.inclusivedesign.ca/guidelines/processes/)
+### Browse by Standards Development Processes
 
-Browse by standards development process and select a topic that interests you. For each topic, you’ll find practical solutions to make the standards development process more inclusive, along with the specific barriers these solutions can help address.
+#### 
+[Explore all strategies and tips by stages and processes](https://standards.inclusivedesign.ca/guidelines/processes/)
 
-[**Explore by Barrier**](https://standards.inclusivedesign.ca/guidelines/barriers/)
+Browse by standards development process and select a stage first, then choose a process within that stage. For each process, you’ll find practical solutions to make the standards development process more inclusive, along with the specific barriers these solutions can help address.
+
+### Browse by Barriers
+
+#### 
+[Explore all strategies and tips to tackle your Barrier](/guidelines/barriers/)
 
 Visit the barriers library to see a list of barriers faced by Standards Development Organizations, organized by the five core stages and their topics. From there, you can select a specific barrier and explore the approaches and strategies that can help resolve it.
 
