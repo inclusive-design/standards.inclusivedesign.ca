@@ -21,12 +21,14 @@ Flexible and adaptable to diverse contexts, the guidelines serve as a reflective
 
 ## Who are the Guidelines for?
 
+Members of Standards Developments Organisations, including:
+
 - Project managers and staff who coordinate technical committees;
 - Committee chairs and facilitators;
 - Membership and recruitment teams;
 - Accessibility and inclusion staff;
 - Editorial and publication teams;
-- Anyone involved in shaping how standards are developed and who gets to participate.
+- Anyone involved in shaping how standards are developed and determining who gets to participate.
 
 ## How were these Guidelines created?
 
@@ -37,11 +39,11 @@ These guidelines are grounded in both research and lived experience. They were s
 - Application of inclusive design principles and practices developed at the [IDRC](https://idrc.ocadu.ca/);
 - Findings from a [jurisdictional scan](https://standards.inclusivedesign.ca/resources/jurisdictional-scan/) of SDO processes internationally;
 - Co-design sessions with members of disability and Deaf communities;
-- Real world use by standards development technical committees.
+- Real world use by standards development technical committees and SDOs.
 
 ## How to use the Guidelines
 
-The guidelines are organized into five core stages, each representing a key stage or area within the standards development process. Each process highlights common barriers as well as strategies and tips to improve accessibility and inclusion.
+The guidelines are structured around 5 core stages, covering 18 processes or topic areas. Each stage represents a key part of the standards development process, while each process or topic area outlines common barriers along with practical strategies and tips to improve accessibility and inclusion.
 
 You can use the guidelines in the following two ways:
 
