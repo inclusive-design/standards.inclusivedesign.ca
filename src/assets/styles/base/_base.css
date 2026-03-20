@@ -208,7 +208,7 @@ section .wrapper > .cards {
 
 /* Links */
 
-a:not([class]) {
+a:not([class]), a.footnote-backref {
     color: var(--fl-linkFgColor, currentColor);
     font-size: var(--fl-enhance-font-size);
     font-weight: var(--fl-enhance-font-weight, var(--font-weight-semibold));
