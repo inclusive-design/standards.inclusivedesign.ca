@@ -244,7 +244,7 @@ The standard is reviewed every few years to ensure it is still relevant and appl
 [^17]: Hsu, P. (2020). "The Role of Taiwan’s Standards Development in Global Trade." _Journal of Standards and International Trade_, 12(3), 45-58.
 [^18]: Tsai, C. (2019). "Enhancing Transparency in Standards Development: The Case of Taiwan." _Asian Journal of Public Policy_, 13(1), 79-95.
 [^19]: Bureau of Standards, Metrology and Inspection. (n.d.). _International Cooperation_. Retrieved from BSMI International Relations.
-[^20]: ANSI (2024). ROK Standards System: Development of Korean Industrial Standards (KS). Retrieved from [https://www.standardsportal.org/usa_kr/e/standards_system/development_korean_standards.aspx](https://www.standardsportal.org/usa_kr/e/standards_system/development_korean_standards.aspx)
+[^20]: ANSI (2024). ROK Standards System: Development of Korean Industrial Standards (KS). Retrieved from [https://www.standardsportal.org/](https://www.standardsportal.org/usa_kr/e/standards_system/development_korean_standards.aspx)
 [^21]: Yoshida, M., Kinoshita, Y., Watanabe, M., & Sugano, K. (2015). JSGE Clinical Practice Guidelines 2014: standards, methods, and process of developing the guidelines. _Journal of Gastroenterology_, 50(1), 4-10. [https://link.springer.com/article/10.1007/s00535-014-1016-1](https://link.springer.com/article/10.1007/s00535-014-1016-1)
 [^22]: Ministry of Economy, Trade and Industry (METI). (2018). _Standardization Policy in Japan_. [https://www.meti.go.jp/english/](https://www.meti.go.jp/english/)
 [^23]: Japanese Industrial Standards Committee (JISC). (n.d.). _Public Comment Procedure_. [https://www.jisc.go.jp/eng/](https://www.jisc.go.jp/eng/)
