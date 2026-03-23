@@ -5,6 +5,45 @@ menuButton.addEventListener('click', () => {
 });
 
 /**
+ * @param {string} function_ The function to be called when the document is ready.
+ */
+function documentReady(function_) {
+	// See if DOM is already available
+	if (document.readyState === 'complete' || document.readyState === 'interactive') {
+		// Call on next available tick
+		setTimeout(function_, 1);
+	} else {
+		document.addEventListener('DOMContentLoaded', function_);
+	}
+}
+
+/**
+ * Handle a URL hash or hash change.
+ * @param {string} hash The hash to focus.
+ * @param debug
+ */
+function handleHash(hash) {
+	const target = document.querySelector(hash);
+
+	target.setAttribute('tabindex', -1);
+	target.focus();
+	target.addEventListener('blur', event => event.target.removeAttribute('tabindex'));
+	target.addEventListener('focusout', event => event.target.removeAttribute('tabindex'));
+}
+
+documentReady(() => {
+	if (document.location.hash) {
+		const escapedHash = document.location.hash.replace(':', String.raw`\:`);
+		handleHash(escapedHash);
+	}
+
+	globalThis.addEventListener('hashchange', event => {
+		const escapedHash = new URL(event.newURL).hash.replace(':', String.raw`\:`);
+		handleHash(escapedHash, true);
+	});
+});
+
+/**
  * Based on code by Chris Ferdinandi, released under the MIT license.
  * @see https://gomakethings.com/web-components-vs.-state-based-ui/
  */
