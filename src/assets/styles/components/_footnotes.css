@@ -1,0 +1,16 @@
+.footnote-ref:not(:last-of-type)::after {
+	content: ",";
+	display: inline;
+}
+
+[role="doc-endnotes"] {
+	padding-inline: 0;
+}
+
+[role="doc-endnote"] {
+	scroll-margin-top: 1.5rem;
+}
+
+[role="doc-endnote"]:target {
+	background: var(--fl-bgColor, var(--color-guidelines-yellow-light));
+}
