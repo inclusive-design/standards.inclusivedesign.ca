@@ -41,6 +41,28 @@ documentReady(() => {
 		const escapedHash = new URL(event.newURL).hash.replace(':', String.raw`\:`);
 		handleHash(escapedHash, true);
 	});
+
+	globalThis.addEventListener('click', event => {
+		const currentBacklink = document.querySelector('[role="doc-backlink"][aria-current="true"]');
+		if (currentBacklink) {
+			currentBacklink.removeAttribute('aria-current');
+		}
+
+		if (event.target.getAttribute('role', 'doc-noteref')) {
+			const selector = `[role="doc-backlink"][href$="#${event.target.id}"]`;
+			const backlink = document.querySelector(selector);
+			backlink.setAttribute('aria-current', true);
+
+			const observer = new IntersectionObserver(entries => {
+				if (!entries[0].isIntersecting) {
+					backlink.removeAttribute('aria-current');
+					observer.unobserve(backlink);
+				}
+			});
+
+			observer.observe(backlink);
+		}
+	});
 });
 
 /**
