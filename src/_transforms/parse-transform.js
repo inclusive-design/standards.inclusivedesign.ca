@@ -40,6 +40,12 @@ const parseTransform = (value, outputPath) => {
 			}
 		}
 
+		for (const footnote of document.querySelectorAll('[role="doc-endnote"]')) {
+			const backlink = footnote.querySelector('[role="doc-backlink"]');
+			const br = document.createElement('br');
+			backlink.parentNode.insertBefore(br, backlink);
+		}
+
 		const selects = document.querySelectorAll('select:not(.flc-prefsEditor-text-font)');
 		if (selects.length > 0) {
 			for (const select of selects) {

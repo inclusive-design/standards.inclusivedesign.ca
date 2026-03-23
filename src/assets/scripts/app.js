@@ -48,7 +48,7 @@ documentReady(() => {
 			currentBacklink.removeAttribute('aria-current');
 		}
 
-		if (event.target.getAttribute('role', 'doc-noteref')) {
+		if (event.target.getAttribute('role') === 'doc-noteref') {
 			const selector = `[role="doc-backlink"][href$="#${event.target.id}"]`;
 			const backlink = document.querySelector(selector);
 			backlink.setAttribute('aria-current', true);
