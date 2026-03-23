@@ -20,7 +20,6 @@ function documentReady(function_) {
 /**
  * Handle a URL hash or hash change.
  * @param {string} hash The hash to focus.
- * @param debug
  */
 function handleHash(hash) {
 	const target = document.querySelector(hash);
