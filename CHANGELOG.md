@@ -1,5 +1,23 @@
 # Changelog
 
+## [2026.03.24.1200.5d0cad3](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.03.17.1401.a52a743...2026.03.24.1200.5d0cad3)
+
+* chore(deps): update dependency markdownlint-cli2 to ^0.22.0 (#440) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): update dependency [@inclusive-design](https://github.com/inclusive-design)/eslint-config to ^0.3.0 (#433) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): lock file maintenance (#441) @[renovate[bot]](https://github.com/apps/renovate)
+
+### Features
+
+* feat: add footnotes plugin, start converting (#437) [@nedatidrc](https://github.com/nedatidrc)
+
+### Bug Fixes
+
+* fix: update banner text (resolves #432 and #434) (#435) [@chosww](https://github.com/chosww)
+
+### Dependencies
+
+* chore(deps): switch to release of eleventy-plugin-inclusive-footnotes (#443) [@nedatidrc](https://github.com/nedatidrc)
+
 ## [2026.03.17.1401.a52a743](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.03.16.1918.4ea7bb7...2026.03.17.1401.a52a743)
 
 ### Bug Fixes
