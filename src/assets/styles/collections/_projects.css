@@ -85,6 +85,10 @@
 }
 
 @media (width >= 70.875rem) {
+	.project .banner .banner__content {
+  		padding-block-start: var(--common-block-padding);
+	}
+
     [class^="fl-theme"]:not(.fl-theme-prefsEditor-default) .project .banner {
         box-shadow:
             inset 0 0.1875rem 0 0 var(--fl-fgColor, transparent),
