@@ -27,13 +27,13 @@ Cybersecurity is a large and complex space and knowledge about what it is and ho
 
 ## Our Approach
 
-Our research approach centres around a co-design process\* undertaken with living-experience experts recruited from our partner organizations. The understanding and knowledge gained from co-design will inform and be supplemented by:
+Our research approach centres around a co-design process[^1] undertaken with living-experience experts recruited from our partner organizations. The understanding and knowledge gained from co-design will inform and be supplemented by:
 
 - ongoing research into current knowledge and practices in accessible, useable and inclusive cybersecurity,
 - connecting with and learning from cybersecurity experts, and
 - conducting interviews with technology developers and policy makers.
 
-\*For more information about our co-design approach please see the[ Community-Led Co-design Kit](https://co-design.inclusivedesign.ca/).
+[^1]: For more information about our co-design approach please see the[ Community-Led Co-design Kit](https://co-design.inclusivedesign.ca/).
 
 In Year 1 of the project, we held 3 co-design sessions in which we:
 
@@ -60,6 +60,6 @@ In Years 2 and 3 of the project we will hold working and feedback sessions to de
 
 Funded by [Accessibility Standards Canada](https://accessible.canada.ca) / the Government of Canada.
 
-[![](/assets/uploads/asc.png)](https://accessible.canada.ca/)
+[![Accessibility Standards Canada](/assets/uploads/asc.png)](https://accessible.canada.ca/)
 
-[![](/assets/uploads/canada.svg)](https://www.canada.ca/en.html)
+[![Government of Canada](/assets/uploads/canada.svg)](https://www.canada.ca/en.html)
