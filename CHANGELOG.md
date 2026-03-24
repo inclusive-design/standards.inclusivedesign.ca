@@ -1,5 +1,11 @@
 # Changelog
 
+## [2026.03.24.1438.cbb4fa2](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.03.24.1200.5d0cad3...2026.03.24.1438.cbb4fa2)
+
+### Bug Fixes
+
+* fix: add appropriate padding to the projects banner (#444) [@nedatidrc](https://github.com/nedatidrc)
+
 ## [2026.03.24.1200.5d0cad3](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.03.17.1401.a52a743...2026.03.24.1200.5d0cad3)
 
 * chore(deps): update dependency markdownlint-cli2 to ^0.22.0 (#440) @[renovate[bot]](https://github.com/apps/renovate)
