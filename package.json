@@ -38,7 +38,7 @@
 		"@11ty/eleventy-fetch": "^5.1.1",
 		"@11ty/eleventy-navigation": "^1.0.0",
 		"@11ty/font-awesome": "^1.0.1",
-		"@inclusive-design/eleventy-plugin-inclusive-footnotes": "inclusive-design/eleventy-plugin-inclusive-footnotes#dev",
+		"@inclusive-design/eleventy-plugin-inclusive-footnotes": "^1.0.0",
 		"@zachleat/filter-container": "greatislander/filter-container#feat/paginated-results",
 		"eleventy-plugin-fluid": "^3.2.0",
 		"infusion": "^4.8.0",
