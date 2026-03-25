@@ -13,7 +13,7 @@ bannerImageAlt: ''
 outro: ''
 ---
 
-## Building Standards for Everyone, with Everyone
+## Building standards for everyone, with everyone
 
 The Guidelines for Accessibility and Inclusion in Standards Development is a practical resource to help Standards Development Organizations (SDOs) create more welcoming, equitable, and accessible processes especially for people with disabilities and Deaf people. Identifying common participation barriers, the guidelines offer actionable strategies based on lived experience, inclusive design, and real‑world examples.
 
