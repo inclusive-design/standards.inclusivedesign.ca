@@ -11,7 +11,7 @@ strategies: |-
   - Design digital content so people with disabilities can access, understand, and use it.
   - Conduct accessibility audits with usability and assistive technology experts to ensure all digital platforms including websites, member portals, application sites and feedback mechanisms are accessible.
   - Offer alternative ways to participate: in-person, phone, relay services, video calls, or paper applications.
-  - Proactively consult with disabled and Deaf committee members to determine specific access needs
+  - Proactively consult with D/deaf and D/disabled committee members to determine specific access needs
   - Accommodations may include:
       - Sign Language interpreters (ASL, LSQ, etc.)
       - Real-time captioning (CART)
