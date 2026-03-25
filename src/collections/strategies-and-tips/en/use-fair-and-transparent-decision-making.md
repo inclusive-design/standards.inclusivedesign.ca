@@ -8,7 +8,7 @@ strategies: |-
   - Write down and share the rules you use to accept or reject feedback. Don’t dismiss feedback as “out of scope” without a clear reason. If you don’t use someone’s feedback, explain why.
   - Share the decisions you made and what happened as a result. This builds trust and shows that people’s time and input matter.
 tips: |-
-  - [Show accountability and build trust with Disabled and Deaf people](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/show-accountability-and-build-trust-with-disabled-and-deaf-people/)
+  - [Show accountability and build trust with D/deaf and D/disabled people](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/show-accountability-and-build-trust-with-disabled-and-deaf-people/)
   - [Use inclusive approaches for decision-making](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/use-inclusive-approaches-for-decision-making/)
   - [Empower chairs and facilitators to manage conflict](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/empower-chairs-and-facilitators-to-manage-conflict/)
 moreInformation: ''
