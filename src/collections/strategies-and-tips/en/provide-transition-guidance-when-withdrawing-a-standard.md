@@ -10,7 +10,7 @@ strategies: |-
   - Consider a grace period, so people have time to adjust and transition.
 tips: ''
 moreInformation: |-
-  - [Show accountability and build trust with Disabled and Deaf people](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/show-accountability-and-build-trust-with-disabled-and-deaf-people/)
+  - [Show accountability and build trust with D/deaf and D/disabled people](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/show-accountability-and-build-trust-with-disabled-and-deaf-people/)
   - [Use clear, accessible, and open language in withdrawal notices](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/use-clear-accessible-and-open-language-in-withdrawal-notices/)
   - [Create an opportunity for public feedback before withdrawal](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/create-an-opportunity-for-public-feedback-before-withdrawal/)
   - [Co-develop criteria for withdrawal](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/co-develop-criteria-for-withdrawal/)
