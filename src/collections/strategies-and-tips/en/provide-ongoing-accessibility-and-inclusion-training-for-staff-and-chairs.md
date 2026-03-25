@@ -7,7 +7,6 @@ strategies: |-
   - Embed training into participation workflows. Training should be part of how committees operate, not a separate activity that people might not attend.
   - Avoid generic training. Start with what people will actually do in the process.
   - Provide training based on the skills and tasks associated with the roles and responsibilities
-  - Offer training on accessibility and human rights laws.
   - Provide accessibility training regularly, not just once. Update it as best practices change.
   - Offer regular training for staff and chairs on:
       - Accessibility and human rights laws
