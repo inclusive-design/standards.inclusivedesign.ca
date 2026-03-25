@@ -4,7 +4,7 @@ title: Make communications multi-modal and consistent
 uuid: f3ca9e8e
 draft: false
 strategies: |-
-  - Maintain clear, consistent communication across all platforms.
+  - Maintain clear, consistent communication across multiple modalities, channels and platforms.
   - Share opportunities in many different places and in different ways. This helps reach people who may not realize that standards development is open to them, or who do not see themselves represented in these spaces.
 tips: |-
   - Distribute information through multiple channels such as websites, social media, newsletters, community spaces, partner networks, mailing lists and community radio to reach people where they are.
