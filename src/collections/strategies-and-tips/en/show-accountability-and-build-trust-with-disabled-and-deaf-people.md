@@ -1,14 +1,14 @@
 ---
 translationKey: show-accountability-and-build-trust-with-disabled-and-deaf-people
-title: Show accountability and build trust with Disabled and Deaf people
+title: Show accountability and build trust with D/deaf and D/disabled people
 uuid: 561239cd
 draft: false
 strategies: |-
-  - Make connections with Disabled and Deaf organizations and be involved in ways that they want you to.
+  - Make connections with D/deaf and D/disabled organizations and be involved in ways that they want you to.
   - Avoid over-consulting the same people. Rotate participation and respect fatigue.
   - Work with technical committees and people from equity-denied communities to agree on the goals for an engagement.
   - Share updates regularly, not just at the end, so participants can see progress.
-  - Share specific examples of how feedback from Disabled and Deaf people led to changes in the standard, the process, or even the project team. This shows the engagement was real and not just for show.
+  - Share specific examples of how feedback from D/deaf and D/disabled people led to changes in the standard, the process, or even the project team. This shows the engagement was real and not just for show.
   - Show clearly how input from different communities shaped the final result.
 tips: |-
   - Keep a public record of the work and ensure it is shared in accessible formats. For example, use a blog or webpage to share updates, older drafts, and what changes were made because of feedback.
