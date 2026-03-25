@@ -13,7 +13,7 @@ bannerImageAlt: ''
 outro: ''
 ---
 
-## Building Standards for Everyone, with Everyone
+## Building standards for everyone, with everyone
 
 The Guidelines for Accessibility and Inclusion in Standards Development is a practical resource to help Standards Development Organizations (SDOs) create more welcoming, equitable, and accessible processes especially for people with disabilities and Deaf people. Identifying common participation barriers, the guidelines offer actionable strategies based on lived experience, inclusive design, and real‑world examples.
 
@@ -32,7 +32,7 @@ Members of Standards Developments Organisations, including:
 
 ## How were these Guidelines created?
 
-These guidelines are grounded in both research and lived experience. They were started in June 2024 and continue to evolve through:
+These guidelines are grounded in both research and lived experience. They were started in June 2024 and continues to evolve through:
 
 - Feedback from current and former members of technical committees and SDOs, particularly those with lived experiences of disability and Deafness;
 - Insights from related projects at the Inclusive Design Research Centre, including [Review of the Review](https://idrc.ocadu.ca/projects/rotr/);
@@ -61,6 +61,6 @@ Browse by standards development process and select a stage first, then choose a 
 
 Visit the barriers library to see a list of barriers faced by Standards Development Organizations, organized by the 5 core stages covering 18 processes or topic areas. From there, you can select a specific barrier and explore the strategies and tips that can help resolve it.
 
-## Find what you need
+## What are you looking for?
 
 Use the search bar to find suggestions for improving your standards development process or to solve a barrier in your process. For example, try searching for ‘meeting’ or ‘hybrid’ to find suggestions for improving your hybrid meetings.
