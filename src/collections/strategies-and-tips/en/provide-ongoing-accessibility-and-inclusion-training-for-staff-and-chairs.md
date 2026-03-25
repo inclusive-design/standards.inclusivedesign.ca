@@ -12,7 +12,7 @@ strategies: |-
   - Offer regular training for staff and chairs on:
       - Accessibility and human rights laws
       - Disability inclusion
-      - Different access needs (for example: Deaf, blind, mobility, learning, fatigue)
+      - Different access needs (for example: D/deaf, blind, mobility, learning, fatigue)
       - How to speak and work respectfully with people from different backgrounds
       - How to arrange accommodations (like captions, interpreters, accessible documents, or extra time)
       - How to manage conflict during meetings
