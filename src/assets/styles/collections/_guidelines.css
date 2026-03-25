@@ -143,6 +143,11 @@
     right: var(--common-inline-padding);
 }
 
+
+.strategy-tip .icon {
+    margin-inline: 1rem;
+}
+
 .strategy-processes.only-two a:first-of-type {
     margin-inline-end: 1rem;
 }
