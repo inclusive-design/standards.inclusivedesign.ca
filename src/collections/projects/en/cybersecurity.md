@@ -3,7 +3,7 @@ translationKey: cybersecurity
 title: Cybersecurity Accessibility and Inclusion Assessment Framework
 draft: false
 lang: en
-excerpt: Creating a more secure and inclusive digital environment for everyone. We want to understand the cybersecurity threats faced by Canadians with disabilities, Deaf Canadians, and other historically underrepresented and intersectional groups, and the barriers to safely accessing digital systems these communities face.
+excerpt: Creating a more secure and inclusive digital environment for everyone. We want to understand the cybersecurity threats faced by D/deaf and D/disabled Canadians, and other historically underrepresented and intersectional groups, and the barriers to safely accessing digital systems these communities face.
 previewImage: /assets/uploads/cyberimage.jpg
 previewImageAlt: A drawing of several people who are using computers, tablets and mobile devices to access different applications. Some of them are standing while others sit , including one person who sits in a wheelchair.
 logo: ''
@@ -13,12 +13,12 @@ featuredResources: []
 
 ## About the Project
 
-With this project we aim to create a more secure and inclusive digital environment for everyone. We want to understand the cybersecurity threats faced by Canadians with disabilities, Deaf Canadians, and other historically underrepresented and intersectional groups, and the barriers to safely accessing digital systems these communities face.
+With this project we aim to create a more secure and inclusive digital environment for everyone. We want to understand the cybersecurity threats faced by Canadians with disabilities, D/deaf and D/disabled Canadians, and other historically underrepresented and intersectional groups, and the barriers to safely accessing digital systems these communities face.
 
 With this knowledge we will:
 
 - develop guidelines for technology creators towards building secure and accessible technologies,
-- gather and create cybersecurity learning resources that meet the needs of disabled and Deaf communities, and
+- gather and create cybersecurity learning resources that meet the needs of disabled and D/deaf and D/disabled communities, and
 - equip policy-makers and standards organizations with recommendations for creating inclusive cybersecurity related policies and standards.
 
 ## About Cybersecurity and Accessibility
