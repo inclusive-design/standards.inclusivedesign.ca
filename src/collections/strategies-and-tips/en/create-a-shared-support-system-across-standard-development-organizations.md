@@ -4,7 +4,7 @@ title: Create a shared support system
 uuid: 9b846bb9
 draft: false
 strategies: |-
-  - Develop a centralized service that handles access needs across different Standards Development Organizations, or different working committees
+  - Collaborate with other organizations and SDOs to provide and coordinate accessibility services for joint initiatives and events
   - Advocate for system-wide access funds modelled after successful initiatives like the [Swedish Disability Rights Federation](https://www.edf-feph.org/our-members/swedish-disability-rights-federation/) which is the national umbrella group for disability organizations in Sweden. It speaks on behalf of the Swedish disability movement, raises awareness about disability issues, and provides advice to the government, parliament, and national authorities.
 tips: ''
 moreInformation: |-
