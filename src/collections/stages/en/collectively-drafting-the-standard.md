@@ -7,4 +7,4 @@ order: 4
 processes: []
 ---
 
-This stage focuses on working together to write the standard in an inclusive and accessible way. It includes making sure drafting activities are accessible, supporting different ways of contributing, sharing power and decision-making, and creating space for Disabled and Deaf participants to meaningfully shape the content of the standard.
+This stage focuses on working together to write the standard in an inclusive and accessible way. It includes making sure drafting activities are accessible, supporting different ways of contributing, sharing power and decision-making, and creating space for D/deaf and D/disabled participants to meaningfully shape the content of the standard.
