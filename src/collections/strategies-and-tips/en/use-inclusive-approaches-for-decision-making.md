@@ -16,7 +16,7 @@ tips: |-
   - Document decisions and reasons by sharing written records so everyone sees what was decided and why.
   - Ask quieter members or those with less power if they agree or have concerns before finalizing.
 moreInformation: |-
-  - [Show accountability and build trust with Disabled and Deaf people](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/show-accountability-and-build-trust-with-disabled-and-deaf-people/)
+  - [Show accountability and build trust with D/deaf and D/disabled people](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/show-accountability-and-build-trust-with-disabled-and-deaf-people/)
   - [Use fair and transparent decision-making](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/use-fair-and-transparent-decision-making/)
   - [Empower chairs and facilitators to manage conflict](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/empower-chairs-and-facilitators-to-manage-conflict/)
 examples: ''
