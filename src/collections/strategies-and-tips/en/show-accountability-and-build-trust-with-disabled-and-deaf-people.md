@@ -4,7 +4,7 @@ title: Show accountability and build trust with D/deaf and D/disabled people
 uuid: 561239cd
 draft: false
 strategies: |-
-  - Make connections with D/deaf and D/disabled organizations and be involved in ways that they want you to.
+  - Make connections with D/deaf and D/disabled organizations  and engage according to their preferences and direction.
   - Avoid over-consulting the same people. Rotate participation and respect fatigue.
   - Work with technical committees and people from equity-denied communities to agree on the goals for an engagement.
   - Share updates regularly, not just at the end, so participants can see progress.
