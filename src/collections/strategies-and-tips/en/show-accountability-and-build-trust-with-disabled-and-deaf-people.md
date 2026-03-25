@@ -9,7 +9,6 @@ strategies: |-
   - Work with technical committees and people from equity-denied communities to agree on the goals for an engagement.
   - Share updates regularly, not just at the end, so participants can see progress.
   - Share specific examples of how feedback from D/deaf and D/disabled people led to changes in the standard, the process, or even the project team. This shows the engagement was real and not just for show.
-  - Show clearly how input from different communities shaped the final result.
 tips: |-
   - Keep a public record of the work and ensure it is shared in accessible formats. For example, use a blog or webpage to share updates, older drafts, and what changes were made because of feedback.
   - Be clear about what you can change and what you cannot change.
