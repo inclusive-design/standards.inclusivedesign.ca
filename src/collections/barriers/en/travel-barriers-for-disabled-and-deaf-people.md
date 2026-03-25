@@ -1,10 +1,10 @@
 ---
 translationKey: travel-barriers-for-disabled-and-deaf-people
-title: Travel barriers for Disabled and Deaf people
+title: Travel barriers for D/deaf and D/disabled people
 uuid: 8ee223fa
 draft: false
 problem: |-
-  Travel can be harder for Disabled and Deaf people, making it more expensive, stressful, and tiring. This can make it difficult to attend in-person meetings, and some members may not be able to participate or may attend under extra strain.
+  Travel can be harder for D/deaf and D/disabled people, making it more expensive, stressful, and tiring. This can make it difficult to attend in-person meetings, and some members may not be able to participate or may attend under extra strain.
 
   Common problems include:
 
