@@ -5,7 +5,7 @@ uuid: 779edd9f
 draft: false
 strategies: ''
 tips: |-
-  - Compensate Disabled and Deaf participants who are not affiliated with an organization for their time, expertise and contributions.
+  - Compensate D/deaf and D/disabled participants who are not affiliated with an organization for their time, expertise and contributions.
   - Create funding programs that cover:
       - compensation
       - travel and accommodation for in-person meetings
