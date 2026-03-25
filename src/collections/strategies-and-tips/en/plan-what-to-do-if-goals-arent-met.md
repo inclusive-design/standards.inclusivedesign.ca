@@ -15,7 +15,7 @@ strategies: |-
   - Document what didn’t work and what you changed, so the process improves over time.
 tips: ''
 moreInformation: |-
-  - [Show accountability and build trust with Disabled and Deaf people](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/show-accountability-and-build-trust-with-disabled-and-deaf-people/)
+  - [Show accountability and build trust with D/deaf and D/disabled people](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/show-accountability-and-build-trust-with-disabled-and-deaf-people/)
   - [Use fair and transparent decision-making](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/use-fair-and-transparent-decision-making/)
   - [Measure the developed standard's impact with affected communities](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/measure-the-developed-standards-impact-with-affected-communities/)
   - [Establish continuous feedback loops](https://standards.inclusivedesign.ca/guidelines/strategies-and-tips/establish-continuous-feedback-loops/)
