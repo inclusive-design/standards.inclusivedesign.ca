@@ -10,7 +10,7 @@ stage: 2ac90c88
 
 ## Why is this important?
 
-Inclusive public awareness involves clearly sharing information about the draft standard and how to take part. Information should be easy to find, easy to understand, and shared in accessible formats so Disabled and Deaf people know about the process and how to give feedback.
+Inclusive public awareness involves clearly sharing information about the draft standard and how to take part. Information should be easy to find, easy to understand, and shared in accessible formats so D/deaf and D/disabled people know about the process and how to give feedback.
 
 ## Stratergies and Tips
 
