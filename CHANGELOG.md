@@ -1,5 +1,15 @@
 # Changelog
 
+## [2026.03.26.1943.8db5bcf](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.03.26.1819.831a4a2...2026.03.26.1943.8db5bcf)
+
+### Features
+
+* feat: add related actions section (resolves #448) (#455) [@chosww](https://github.com/chosww)
+
+### Chores
+
+* chore: add some test related actions (#457) [@nedatidrc](https://github.com/nedatidrc)
+
 ## [2026.03.26.1819.831a4a2](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.03.24.1438.cbb4fa2...2026.03.26.1819.831a4a2)
 
 * chore(deps): update dependency [@inclusive-design](https://github.com/inclusive-design)/markdownlint-config to v0.1.1 (#453) @[renovate[bot]](https://github.com/apps/renovate)
