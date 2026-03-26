@@ -7,7 +7,8 @@ longterm: |-
   - Develop clear conflict policies for meetings
       - Have written rules about professional conduct, respect, and how conflicts are handled.
       - Make these rules visible to all members and revisit them regularly.
-  - Train facilitators and chairs on conflict resolution and update training as new techniques or challenges arise.
+  - Train facilitators and chairs on conflict resolution.
+  - Update conflict resolution training as new techniques or challenges arise.
   - Create a permanent mediator position to help with disputes during meetings.
 quick: |-
   - Encourage all members to learn active listening, empathy, and respectful disagreement before starting every meeting.

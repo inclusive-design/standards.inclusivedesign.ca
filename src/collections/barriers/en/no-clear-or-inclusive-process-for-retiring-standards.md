@@ -11,7 +11,7 @@ problem: |-
   Common problems include:
 
   - No clear or transparent criteria for deciding when a standard is outdated
-  - Little or no consultation with affected communities, including Disabled and Deaf communities
+  - Little or no consultation with affected communities, including D/deaf and D/disabled communities
   - Decisions focused only on technical details, not real-life impact
   - Important protections or accessibility guidance being removed
   - No clear public notice that a standard is being withdrawn

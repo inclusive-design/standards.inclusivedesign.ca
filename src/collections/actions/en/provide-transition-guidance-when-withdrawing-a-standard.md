@@ -10,7 +10,7 @@ longterm: |-
   - Consider a grace period, so people have time to adjust and transition.
 quick: ''
 moreInformation: |-
-  - [Show accountability and build trust with Disabled and Deaf people](https://standards.inclusivedesign.ca/guidelines/actions/show-accountability-and-build-trust-with-disabled-and-deaf-people/)
+  - [Show accountability and build trust with D/deaf and D/disabled people](https://standards.inclusivedesign.ca/guidelines/actions/show-accountability-and-build-trust-with-disabled-and-deaf-people/)
   - [Use clear, accessible, and open language in withdrawal notices](https://standards.inclusivedesign.ca/guidelines/actions/use-clear-accessible-and-open-language-in-withdrawal-notices/)
   - [Create an opportunity for public feedback before withdrawal](https://standards.inclusivedesign.ca/guidelines/actions/create-an-opportunity-for-public-feedback-before-withdrawal/)
   - [Co-develop criteria for withdrawal](https://standards.inclusivedesign.ca/guidelines/actions/co-develop-criteria-for-withdrawal/)

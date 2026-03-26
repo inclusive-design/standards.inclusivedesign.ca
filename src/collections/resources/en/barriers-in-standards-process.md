@@ -3,7 +3,7 @@ translationKey: barriers-in-standards-process
 title: Accessibility & Inclusion Barriers in Standards Development Processes
 draft: false
 lang: en
-description: A comprehensive list of barriers to participation that disabled and Deaf people encounter in the standards development process. This list will be the foundation for the guidelines for Standards Development Organizations that the All Standards With Us project is producing with the goal of improving inclusion in standards development.
+description: A comprehensive list of barriers to participation that D/deaf and D/disabled people encounter in the standards development process. This list will be the foundation for the guidelines for Standards Development Organizations that the All Standards With Us project is producing with the goal of improving inclusion in standards development.
 date: 2025-08-11T11:39:00
 link: ''
 author: ''
@@ -20,14 +20,14 @@ linking:
   slug: barriers-in-standards-process
 ---
 
-Through a [jurisdictional scan](https://standards.inclusivedesign.ca/resources/jurisdictional-scan/) and working with disabled and Deaf co-researchers, the All Standards With Us project has compiled this list of barriers to participation in the standards development process. This list will be the foundation for the guidelines for Standards Development Organizations  that the project is producing with the goal of improving inclusion in standards development.
+Through a [jurisdictional scan](https://standards.inclusivedesign.ca/resources/jurisdictional-scan/) and working with disabled and D/deaf and D/disabled co-researchers, the All Standards With Us project has compiled this list of barriers to participation in the standards development process. This list will be the foundation for the guidelines for Standards Development Organizations  that the project is producing with the goal of improving inclusion in standards development.
 
 ## Participation & Representation Barriers
 
-- Disabled and Deaf people and other equity-denied groups are underrepresented on technical committees.
+- D/deaf and D/disabled people and other equity-denied groups are underrepresented on technical committees.
 - Leadership and decision-making roles rarely reflect diverse voices.
 - People who represent consumer interests or lived experiences are often tokenized and not valued as technical experts.
-- Women, racialized people, Global South participants, bilingual individuals, neurodivergent people, Deaf people and disabled people face extra barriers.
+- Women, racialized people, Global South participants, bilingual individuals, neurodivergent people, D/deaf and D/disabled people face extra barriers.
 - It's difficult for new members to connect to informal networks or find mentors.
 
 ## Recruitment, Onboarding & Retention Barriers
@@ -78,7 +78,7 @@ Through a [jurisdictional scan](https://standards.inclusivedesign.ca/resources/j
 
 ## Structural & Procedural Barriers
 
-- There’s no rule that says disabled or Deaf people must be included, or that access needs must be addressed.
+- There’s no rule that says D/deaf and D/disabled people must be included, or that access needs must be addressed.
 - Long-standing rules and the consensus models slow progress and hide inequalities.
 - Standards are expensive or hard to access, especially for individuals or smaller groups.
 - Long-time members can act as gatekeepers, making it hard for newcomers to join.
@@ -87,7 +87,7 @@ Through a [jurisdictional scan](https://standards.inclusivedesign.ca/resources/j
 ## Training & Capacity Building Barriers
 
 - Chairs and project leads don’t always get training on inclusion or accessibility.
-- There are no leadership programs or fellowships to support disabled or Deaf people in these spaces.
+- There are no leadership programs or fellowships to support D/deaf and D/disabled people in these spaces.
 - Orientation materials rarely cover disability, use plain language, or are available in sign languages.
 - Participants have to learn to advocate for themselves without much support.
 - Many people don’t know how standards affect their lives, making it harder to get involved.
@@ -105,4 +105,4 @@ Through a [jurisdictional scan](https://standards.inclusivedesign.ca/resources/j
 - Travel, prep time, and accessibility costs are often not covered.
 - Funding usually goes to organizations, not individuals, which limits grassroots involvement.
 - There’s little or no funding for informal needs like accessibility supports for networking or side conversations.
-- Complex travel and visa processes limit the participation of disabled and Deaf delegates especially from the Global South.
+- Complex travel and visa processes limit the participation of D/deaf and D/disabled delegates especially from the Global South.

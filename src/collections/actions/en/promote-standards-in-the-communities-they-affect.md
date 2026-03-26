@@ -4,7 +4,7 @@ title: Promote standards in the communities they affect
 uuid: 8ed914cd
 draft: false
 longterm: |-
-  - Work with disability, Deaf, under-representated and local community organizations to share new standards.
+  - Work with D/deaf, D/disabled, under-representated and local community organizations to share new standards.
   - Host community briefings, workshops, or explainer sessions to make the standards easier to understand.
   - Provide toolkits in digital and print formats that explain the standards in plain language.
   - Show how the standards can be applied in real-life situations and how people can use them to advocate for change.

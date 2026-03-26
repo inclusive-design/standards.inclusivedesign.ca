@@ -10,7 +10,7 @@ stage: b394d47d
 
 ## Why is this important?
 
-Accessible registration requires simple, user-friendly processes that work with assistive technologies such as screen readers, proactive accommodation support, and financial assistance. Offering multiple registration options, clear role expectations, readily available accessibility services, and compensation helps remove barriers and enables diverse disabled and Deaf participants to fully engage in standards development.
+Accessible registration requires simple, user-friendly processes that work with assistive technologies such as screen readers, proactive accommodation support, and financial assistance. Offering multiple registration options, clear role expectations, readily available accessibility services, and compensation helps remove barriers and enables diverse D/deaf and D/disabled participants to fully engage in standards development.
 
 ## Actions
 

@@ -3,7 +3,7 @@ translationKey: cybersecurity
 title: Cybersecurity Accessibility and Inclusion Assessment Framework
 draft: false
 lang: en
-excerpt: Creating a more secure and inclusive digital environment for everyone. We want to understand the cybersecurity threats faced by Canadians with disabilities, Deaf Canadians, and other historically underrepresented and intersectional groups, and the barriers to safely accessing digital systems these communities face.
+excerpt: Creating a more secure and inclusive digital environment for everyone. We want to understand the cybersecurity threats faced by D/deaf and D/disabled Canadians, and other historically underrepresented and intersectional groups, and the barriers to safely accessing digital systems these communities face.
 previewImage: /assets/uploads/cyberimage.jpg
 previewImageAlt: A drawing of several people who are using computers, tablets and mobile devices to access different applications. Some of them are standing while others sit , including one person who sits in a wheelchair.
 logo: ''
@@ -13,12 +13,12 @@ featuredResources: []
 
 ## About the Project
 
-With this project we aim to create a more secure and inclusive digital environment for everyone. We want to understand the cybersecurity threats faced by Canadians with disabilities, Deaf Canadians, and other historically underrepresented and intersectional groups, and the barriers to safely accessing digital systems these communities face.
+With this project we aim to create a more secure and inclusive digital environment for everyone. We want to understand the cybersecurity threats faced by Canadians with disabilities, D/deaf and D/disabled Canadians, and other historically underrepresented and intersectional groups, and the barriers to safely accessing digital systems these communities face.
 
 With this knowledge we will:
 
 - develop guidelines for technology creators towards building secure and accessible technologies,
-- gather and create cybersecurity learning resources that meet the needs of disabled and Deaf communities, and
+- gather and create cybersecurity learning resources that meet the needs of disabled and D/deaf and D/disabled communities, and
 - equip policy-makers and standards organizations with recommendations for creating inclusive cybersecurity related policies and standards.
 
 ## About Cybersecurity and Accessibility
@@ -27,13 +27,13 @@ Cybersecurity is a large and complex space and knowledge about what it is and ho
 
 ## Our Approach
 
-Our research approach centres around a co-design process\* undertaken with living-experience experts recruited from our partner organizations. The understanding and knowledge gained from co-design will inform and be supplemented by:
+Our research approach centres around a co-design process[^1] undertaken with living-experience experts recruited from our partner organizations. The understanding and knowledge gained from co-design will inform and be supplemented by:
 
 - ongoing research into current knowledge and practices in accessible, useable and inclusive cybersecurity,
 - connecting with and learning from cybersecurity experts, and
 - conducting interviews with technology developers and policy makers.
 
-\*For more information about our co-design approach please see the[ Community-Led Co-design Kit](https://co-design.inclusivedesign.ca/).
+[^1]: For more information about our co-design approach please see the[ Community-Led Co-design Kit](https://co-design.inclusivedesign.ca/).
 
 In Year 1 of the project, we held 3 co-design sessions in which we:
 
@@ -60,6 +60,6 @@ In Years 2 and 3 of the project we will hold working and feedback sessions to de
 
 Funded by [Accessibility Standards Canada](https://accessible.canada.ca) / the Government of Canada.
 
-[![](/assets/uploads/asc.png)](https://accessible.canada.ca/)
+[![Accessibility Standards Canada](/assets/uploads/asc.png)](https://accessible.canada.ca/)
 
-[![](/assets/uploads/canada.svg)](https://www.canada.ca/en.html)
+[![Government of Canada](/assets/uploads/canada.svg)](https://www.canada.ca/en.html)

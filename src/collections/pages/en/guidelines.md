@@ -13,11 +13,10 @@ bannerImageAlt: ''
 outro: ''
 ---
 
-## Building Standards for Everyone, with Everyone
+## Building standards for everyone, with everyone
 
-The Guidelines for Accessibility and Inclusion in Standards Development is a practical resource to help Standards Development Organizations (SDOs) create more welcoming, equitable, and accessible processes especially for people with disabilities and Deaf people. Identifying common participation barriers, the guidelines offer actionable strategies based on lived experience, inclusive design, and real‑world examples.
-
-Flexible and adaptable to diverse contexts, the guidelines serve as a reflective and practical tool to pinpoint areas for improvement, spark dialogue, and guide change.
+The Guidelines for Accessibility and Inclusion in Standards Development is a practical resource to help Standards Development Organizations (SDOs) create more welcoming, equitable, and accessible processes especially for D/deaf and D/disabled people. It identifies common participation barriers and offers actionable strategies and tips based on lived and living experience, inclusive design, and real-world examples.
+Flexible and adaptable to diverse contexts, the guidelines serve as a reflective and practical tool to pinpoint improvements, spark dialogue, and guide change.
 
 ## Who are the Guidelines for?
 
@@ -32,13 +31,13 @@ Members of Standards Developments Organisations, including:
 
 ## How were these Guidelines created?
 
-These guidelines are grounded in both research and lived experience. They were started in June 2024 and continues to evolve through:
+These guidelines were started in 2024 and are grounded in both research and lived experience. They continue to evolve through:
 
-- Feedback from current and former members of technical committees and SDOs, particularly those with lived experiences of disability and Deafness;
+- Feedback from current and former members of technical committees and SDOs, particularly those with lived experiences of D/deafess and D/disability;
 - Insights from related projects at the Inclusive Design Research Centre, including [Review of the Review](https://idrc.ocadu.ca/projects/rotr/);
 - Application of inclusive design principles and practices developed at the [IDRC](https://idrc.ocadu.ca/);
 - Findings from a [jurisdictional scan](https://standards.inclusivedesign.ca/resources/jurisdictional-scan/) of SDO processes internationally;
-- Co-design sessions with members of disability and Deaf communities;
+- Co-design sessions with members of D/deaf and D/disabled communities;
 - Real world use by standards development technical committees and SDOs.
 
 ## How to use the Guidelines

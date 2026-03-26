@@ -15,7 +15,7 @@ longterm: |-
   - Document what didn’t work and what you changed, so the process improves over time.
 quick: ''
 moreInformation: |-
-  - [Show accountability and build trust with Disabled and Deaf people](https://standards.inclusivedesign.ca/guidelines/actions/show-accountability-and-build-trust-with-disabled-and-deaf-people/)
+  - [Show accountability and build trust with D/deaf and D/disabled people](https://standards.inclusivedesign.ca/guidelines/actions/show-accountability-and-build-trust-with-disabled-and-deaf-people/)
   - [Use fair and transparent decision-making](https://standards.inclusivedesign.ca/guidelines/actions/use-fair-and-transparent-decision-making/)
   - [Measure the developed standard's impact with affected communities](https://standards.inclusivedesign.ca/guidelines/actions/measure-the-developed-standards-impact-with-affected-communities/)
   - [Establish continuous feedback loops](https://standards.inclusivedesign.ca/guidelines/actions/establish-continuous-feedback-loops/)

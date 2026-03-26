@@ -53,6 +53,15 @@ documentReady(() => {
 			backlink.setAttribute('aria-current', 'true');
 		}
 	});
+
+	const currentHostName = globalThis.location.hostname;
+	const links = document.querySelectorAll('a[href]');
+
+	for (const link of links) {
+		if (link.hostname !== currentHostName && !link.rel) {
+			link.rel = 'external';
+		}
+	}
 });
 
 /**

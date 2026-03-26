@@ -10,7 +10,7 @@ stage: 8820ca59
 
 ## Why is this important?
 
-Publishing of standards should involve sharing the standard in accessible formats that are easy to find and use. This includes clear language, multiple formats, and support so Disabled and Deaf people can access and understand the standard.
+Publishing of standards should involve sharing the standard in accessible formats that are easy to find and use. This includes clear language, multiple formats, and support so D/deaf and D/disabled people can access and understand the standard.
 
 ## Actions
 

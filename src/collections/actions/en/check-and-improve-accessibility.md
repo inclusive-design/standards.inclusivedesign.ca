@@ -6,24 +6,23 @@ draft: false
 longterm: |-
   - Create a permanent dedicated accessibility group within the organization to track inclusion over time.
   - Celebrate improvements in accessibility and inclusion to show the group’s progress.
-  - Do regular surveys to see how inclusive meetings are and improve processes.
+  - Regularly assess the inclusiveness and accessibility of meetings and processes through feedback
   - Consider accessibility across formats, devices, and languages.
   - Design digital content so people with disabilities can access, understand, and use it.
   - Conduct accessibility audits with usability and assistive technology experts to ensure all digital platforms including websites, member portals, application sites and feedback mechanisms are accessible.
   - Offer alternative ways to participate: in-person, phone, relay services, video calls, or paper applications.
-  - Proactively consult with disabled and Deaf committee members to determine specific access needs
-  - Accommodations may include:
+  - Proactively consult with D/deaf and D/disabled committee members to determine specific access needs
+  - Provide accommodations to participants, including:
       - Sign Language interpreters (ASL, LSQ, etc.)
       - Real-time captioning (CART)
       - Note-taking services
       - Clear and consistent turn-taking protocols
       - Accessible digital files and materials in advance
-  - Ensure physical spaces (if used) are accessible for mobility devices, sensory needs, and rest requirements. The [Physical Space](https://standards.inclusivedesign.ca/guidelines/processes/space/) section has more details.
-
-  These challenges are amplified when travel is required - the [Travel](https://standards.inclusivedesign.ca/guidelines/processes/travel/) section has more details).
+  - Ensure physical spaces (if used) are accessible for mobility devices, sensory needs, and rest requirements.
 quick: ''
 moreInformation: |-
-  - [Make remote/virtual/online meetings accessible](https://standards.inclusivedesign.ca/guidelines/actions/make-remote-virtual-online-meetings-accessible/)
+  - [Physical Space](https://standards.inclusivedesign.ca/guidelines/processes/space/)
+  - [Travel](https://standards.inclusivedesign.ca/guidelines/processes/travel/)
   - [Ensure all documents are accessible](https://standards.inclusivedesign.ca/guidelines/actions/ensure-all-documents-are-accessible/)
   - [Ensure websites are accessible](https://standards.inclusivedesign.ca/guidelines/actions/ensure-websites-are-accessible/)
   - [Make communications multi-modal and consistent](https://standards.inclusivedesign.ca/guidelines/actions/make-communications-multi-modal-and-consistent/)

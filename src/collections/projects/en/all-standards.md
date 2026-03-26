@@ -2,7 +2,7 @@
 translationKey: all-standards
 title: All Standards With Us
 lang: en
-excerpt: This project makes the process of creating standards more accessible to disabled and Deaf people, ensuring goods and services are inclusive. We focus on removing barriers in Standards Development Organizations (SDOs) to support full participation.
+excerpt: This project makes the process of creating standards more accessible to D/deaf and D/disabled people, ensuring goods and services are inclusive. We focus on removing barriers in Standards Development Organizations (SDOs) to support full participation.
 previewImage: /assets/uploads/DEEP%20conference%202016-1.jpg
 previewImageAlt: Six individuals wearing at a conference table. Having a discussion and looking aty the speaker on the far right
 color: yellow
@@ -14,7 +14,7 @@ slug: all-standards
 
 ## About this project
 
-The goal of the All Standards With Us project is to make the process of creating standards more accessible to disabled and Deaf people. When more people with disabilities and Deaf people get involved in the standards process, the goods and services we use in our daily lives become more accessible and inclusive. We’re focusing on how this is done within Standards Development Organizations (SDOs). Our vision is to remove accessibility barriers and ensure standards development processes that support a wide range of needs, so that people with disabilities are able to participate in mainstream standards development. The project follows the “nothing about us without us” principle by centring the experiences of disabled and Deaf people in the process of standards development.
+The goal of the All Standards With Us project is to make the process of creating standards more accessible to D/deaf and D/disabled people. When more D/deaf and D/disabled people get involved in the standards process, the goods and services we use in our daily lives become more accessible and inclusive. We’re focusing on how this is done within Standards Development Organizations (SDOs). Our vision is to remove accessibility barriers and ensure standards development processes that support a wide range of needs, so that people with disabilities are able to participate in mainstream standards development. The project follows the “nothing about us without us” principle by centring the experiences of D/deaf and D/disabled people in the process of standards development.
 
 ## What are standards?
 
@@ -39,14 +39,14 @@ Read more about it on the [Standards Council of Canada website](https://scc-ccn.
 
 ## Why is it important for the standards process to be inclusive?
 
-Standards define how everyday things are made. By considering accessibility when developing these standards, we can make everyday things easier for everyone to use. It’s especially important to involve people with disabilities and Deaf people in creating these standards. Their experiences and expertise can help us consider a broader range of needs and make sure that the standards support accessibility for everyone.
+Standards define how everyday things are made. By considering accessibility when developing these standards, we can make everyday things easier for everyone to use. It’s especially important to involve D/deaf and D/disabled people in creating these standards. Their experiences and expertise can help us consider a broader range of needs and make sure that the standards support accessibility for everyone.
 
 ## Project goals
 
 Our project goals are to:
 
-- Identify barriers that disabled and Deaf people and disability organizations find when trying to take part in the standards processes. We will do this through co-design, a literature review, and a jurisdictional scan
-- Create guidelines on how to make the standards development process more inclusive to disabled and Deaf people, and pilot them with Standards Development Organizations.
+- Identify barriers that D/deaf and D/disabled people and disability organizations find when trying to take part in the standards processes. We will do this through co-design, a literature review, and a jurisdictional scan
+- Create guidelines on how to make the standards development process more inclusive to D/deaf and D/disabled people, and pilot them with Standards Development Organizations.
 - Create capacity building resources for disability organizations and people with disabilities who want to take part in the standards development process.
 
 ## Co-researchers and Partners

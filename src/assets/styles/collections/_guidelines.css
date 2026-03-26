@@ -93,6 +93,24 @@
     color: var(--fl-fgColor, var(--color-indigo-700));
 }
 
+.strategy-tip a[rel~="external"] {
+    align-items: center;
+    display: flex;
+    gap: 0.5rem;
+    inline-size: fit-content;
+}
+
+.strategy-tip a[rel~="external"]::after {
+    background-color: var(--fl-fgColor, black);
+    block-size: 1em;
+    content: "";
+    display: inline-flex;
+    inline-size: 1em;
+    mask-image: url("/assets/images/external-link.svg");
+    mask-position: center;
+    mask-repeat: no-repeat;
+}
+
 .strategy-processes {
     align-items: center;
     display: flex;

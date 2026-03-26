@@ -7,12 +7,11 @@ longterm: |-
   - Embed training into participation workflows. Training should be part of how committees operate, not a separate activity that people might not attend.
   - Avoid generic training. Start with what people will actually do in the process.
   - Provide training based on the skills and tasks associated with the roles and responsibilities
-  - Offer training on accessibility and human rights laws.
   - Provide accessibility training regularly, not just once. Update it as best practices change.
   - Offer regular training for staff and chairs on:
       - Accessibility and human rights laws
       - Disability inclusion
-      - Different access needs (for example: Deaf, blind, mobility, learning, fatigue)
+      - Different access needs (for example: D/deaf, blind, mobility, learning, fatigue)
       - How to speak and work respectfully with people from different backgrounds
       - How to arrange accommodations (like captions, interpreters, accessible documents, or extra time)
       - How to manage conflict during meetings
