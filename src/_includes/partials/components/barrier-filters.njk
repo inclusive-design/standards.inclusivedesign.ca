@@ -1,13 +1,13 @@
 {% set filterableOptions = { stages: [], processes: [] } %}
 
 {% for barrier in collections['barriers_' + lang] %}
-	{% set relatedStrategiesAndTips = collections["strategies-and-tips_" + lang] | findAll('data.barriers', barrier.data.uuid) %}
+	{% set relatedActions = collections["actions_" + lang] | findAll('data.barriers', barrier.data.uuid) %}
 	{% set relatedProcessUuids = [] %}
 	{% set relatedProcesses = [] %}
 	{% set relatedStageUuids = [] %}
 	{% set relatedStages = [] %}
-	{% for strategy in relatedStrategiesAndTips %}
-		{% set relatedProcessUuids = relatedProcessUuids.concat(strategy.data.processes) %}
+	{% for action in relatedActions %}
+		{% set relatedProcessUuids = relatedProcessUuids.concat(action.data.processes) %}
 	{% endfor %}
 	{% for relatedProcessUuid in relatedProcessUuids %}
 		{% set relatedProcess = collections['processes_' + lang] | find('data.uuid', relatedProcessUuid) %}

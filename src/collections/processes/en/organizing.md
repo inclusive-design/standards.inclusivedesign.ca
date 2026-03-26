@@ -12,6 +12,6 @@ stage: 5871d856
 
 Organizing should include setting up meetings, timelines, and documents in ways that support full participation and meet everyone's accessibility needs. This includes flexible schedules, clear agendas, accessible tools, and enough time for people to review, respond, and contribute in ways that work for them.
 
-## Strategies and Tips
+## Actions
 
-Explore trategies and Tips for organizing technical committee meetings more inclusively:
+Explore actions for organizing technical committee meetings more inclusively:

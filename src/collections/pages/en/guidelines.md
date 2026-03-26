@@ -15,7 +15,7 @@ outro: ''
 
 ## Building standards for everyone, with everyone
 
-The Guidelines for Accessibility and Inclusion in Standards Development is a practical resource to help Standards Development Organizations (SDOs) create more welcoming, equitable, and accessible processes especially for D/deaf and D/disabled people. It identifies common participation barriers and offers actionable strategies and tips based on lived and living experience, inclusive design, and real-world examples.
+The Guidelines for Accessibility and Inclusion in Standards Development is a practical resource to help Standards Development Organizations (SDOs) create more welcoming, equitable, and accessible processes especially for D/deaf and D/disabled people. It identifies common participation barriers and offers actions based on lived and living experience, inclusive design, and real-world examples.
 Flexible and adaptable to diverse contexts, the guidelines serve as a reflective and practical tool to pinpoint improvements, spark dialogue, and guide change.
 
 ## Who are the Guidelines for?
@@ -42,23 +42,23 @@ These guidelines were started in 2024 and are grounded in both research and live
 
 ## How to use the Guidelines
 
-The guidelines are structured around 5 core stages, covering 18 processes or topic areas. Each stage represents a key part of the standards development process, while each process or topic area outlines common barriers along with practical strategies and tips to improve accessibility and inclusion.
+The guidelines are structured around 5 core stages, covering 18 processes or topic areas. Each stage represents a key part of the standards development process, while each process or topic area outlines common barriers along with practical actions to improve accessibility and inclusion.
 
 You can use the guidelines in the following two ways:
 
 ### Browse by Standards Development Processes
 
 ####
-[Explore all strategies and tips by stages and processes](/guidelines/processes/)
+[Explore all actions by stages and processes](/guidelines/processes/)
 
 Browse by standards development process and select a stage first, then choose a process within that stage. For each process, you’ll find practical solutions to make the standards development process more inclusive, along with the specific barriers these solutions can help address.
 
 ### Browse by Barriers
 
 ####
-[Explore all strategies and tips to tackle your Barrier](/guidelines/barriers/)
+[Explore all actions to tackle your Barrier](/guidelines/barriers/)
 
-Visit the barriers library to see a list of barriers faced by Standards Development Organizations, organized by the 5 core stages covering 18 processes or topic areas. From there, you can select a specific barrier and explore the strategies and tips that can help resolve it.
+Visit the barriers library to see a list of barriers faced by Standards Development Organizations, organized by the 5 core stages covering 18 processes or topic areas. From there, you can select a specific barrier and explore the actions that can help resolve it.
 
 ## What are you looking for?
 

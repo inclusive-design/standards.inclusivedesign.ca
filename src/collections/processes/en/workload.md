@@ -12,6 +12,6 @@ stage: 5871d856
 
 Workloads should set realistic expectations and not ask people to do too much. Tasks should be clearly defined, fly shared, and flexible so D/deaf and D/disabled participants can contribute without burnout.
 
-## Stratergies and Tips
+## Actions
 
-Explore stratergies tips for managing workload more inclusively:
+Explore actions for managing workload more inclusively:

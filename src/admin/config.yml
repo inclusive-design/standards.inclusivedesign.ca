@@ -505,7 +505,7 @@ collections:
 
 
 
-          ## Strategies and Tips
+          ## Actions
 
           "
         buttons: [bold, italic, link, heading-two, heading-three, heading-four, heading-five, heading-six, quote, bulleted-list, numbered-list]
@@ -538,12 +538,12 @@ collections:
         i18n: true
         buttons: [bold, italic, link, bulleted-list, numbered-list]
         required: false
-  - label: Strategies and Tips
-    name: strategies-and-tips
+  - label: Actions
+    name: actions
     icon: lightbulb
     i18n:
       structure: multiple_folders
-    folder: src/collections/strategies-and-tips
+    folder: src/collections/actions
     extension: md
     slug: "{{fields._slug | localize}}"
     fields:
@@ -560,14 +560,14 @@ collections:
         widget: boolean
         i18n: duplicate
         required: false
-      - label: Strategies
-        name: strategies
+      - label: Quick Actions
+        name: quick
         widget: markdown
         i18n: true
         buttons: [bold, italic, link, bulleted-list, numbered-list]
         required: false
-      - label: Tips
-        name: tips
+      - label: Long-term Actions
+        name: longterm
         widget: markdown
         i18n: true
         buttons: [bold, italic, link, bulleted-list, numbered-list]

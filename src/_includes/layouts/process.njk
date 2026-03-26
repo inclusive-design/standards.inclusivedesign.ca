@@ -28,7 +28,7 @@
 {% endblock %}
 
 {% block content %}
-{% set strategiesOrTips = collections['strategies-and-tips_' + lang] | findAll('data.processes', uuid) %}
+{% set actions = collections['actions_' + lang] | findAll('data.processes', uuid) %}
 <nav aria-labelledby="process-menu" class="flow sidebar-menu">
     <inclusive-disclosure>
         <button aria-controls="{{ title | slugify }}-menu">
@@ -46,9 +46,9 @@
 </nav>
 <article class="article flow">
 {{ content | safe }}
-{% if strategiesOrTips.length > 0 %}
-{% for strategyOrTip in strategiesOrTips %}
-    {% include "partials/components/card--strategies-and-tips.njk" %}
+{% if actions.length > 0 %}
+{% for action in actions %}
+    {% include "partials/components/card--action.njk" %}
 {% endfor %}
 {% else %}
 <p>None found.</p>

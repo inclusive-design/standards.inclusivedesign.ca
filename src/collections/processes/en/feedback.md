@@ -12,6 +12,6 @@ stage: 8820ca59
 
 Feedback should be offered in different ways for people to share their views. Feedback options should be accessible, simple to use, and allow enough time so D/deaf and D/disabled people can meaningfully respond.
 
-## Stratergies and Tips
+## Actions
 
-Explore stratergies tips for using inclusively getting feedback:
+Explore actions for using inclusively getting feedback:

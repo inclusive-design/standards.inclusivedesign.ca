@@ -12,6 +12,6 @@ stage: 5871d856
 
 All participants should be able to travel safely and comfortably. This includes flexible options, accessible transport and lodging, extra time, and covering all related costs.
 
-## Stratergies and Tips
+## Actions
 
-Explore stratergies tips for using for inclusive travel:
+Explore actions for using for inclusive travel:

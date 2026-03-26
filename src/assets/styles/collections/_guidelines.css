@@ -16,7 +16,7 @@
  color: var(--fl-fgColor, var(--color-indigo-700));
 }
 
-.strategy-tip .banner {
+.action .banner {
     background-color: var(--fl-bgColor, var(--color-indigo-800));
     color: var(--fl-fgColor, white);
 }
@@ -51,29 +51,29 @@
 .guidelines article,
 .process nav,
 .process article,
-.strategy-tip nav,
-.strategy-tip article {
+.action nav,
+.action article {
     box-shadow: inset 0 -0.1875rem 0 0 var(--fl-fgColor, transparent);
 }
 
 .barrier nav,
 .guidelines nav,
 .process nav,
-.strategy-tip nav {
+.action nav {
     background-color: var(--fl-bgColor, var(--color-indigo-100));
 }
 
 .barrier nav > h2,
 .guidelines nav > h2,
 .process nav > h2,
-.strategy-tip nav > h2 {
+.action nav > h2 {
     display: none;
 }
 
 .barrier nav ul ul,
 .guidelines nav ul ul,
 .process nav ul ul,
-.strategy-tip nav ul ul {
+.action nav ul ul {
     padding-inline-start: 1.25rem;
 
     li {
@@ -83,24 +83,24 @@
 
 .barrier inclusive-disclosure h3,
 .process inclusive-disclosure h3,
-.strategy-tip inclusive-disclosure h3 {
+.action inclusive-disclosure h3 {
     font-size: var(--step-2);
     font-weight: var(--font-weight-semibold);
     margin-block-end: var(--flow-space, 1em);
 }
 
-.strategy-tip inclusive-disclosure {
+.action inclusive-disclosure {
     color: var(--fl-fgColor, var(--color-indigo-700));
 }
 
-.strategy-tip a[rel~="external"] {
+.action a[rel~="external"] {
     align-items: center;
     display: flex;
     gap: 0.5rem;
     inline-size: fit-content;
 }
 
-.strategy-tip a[rel~="external"]::after {
+.action a[rel~="external"]::after {
     background-color: var(--fl-fgColor, black);
     block-size: 1em;
     content: "";
@@ -111,7 +111,7 @@
     mask-repeat: no-repeat;
 }
 
-.strategy-processes {
+.action-processes {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
@@ -125,30 +125,30 @@
 .barrier nav inclusive-disclosure > *,
 .guidelines nav inclusive-disclosure > *,
 .process nav inclusive-disclosure > *,
-.strategy-tip nav inclusive-disclosure > * {
+.action nav inclusive-disclosure > * {
     padding-inline: var(--common-inline-padding);
 }
 
 .barrier nav inclusive-disclosure [aria-expanded],
 .guidelines nav inclusive-disclosure [aria-expanded],
 .process nav inclusive-disclosure [aria-expanded],
-.strategy-tip nav inclusive-disclosure [aria-expanded] {
+.action nav inclusive-disclosure [aria-expanded] {
     box-shadow: none;
 }
 
 .barrier nav inclusive-disclosure [aria-expanded]::after,
 .guidelines nav inclusive-disclosure [aria-expanded]::after,
 .process nav inclusive-disclosure [aria-expanded]::after,
-.strategy-tip nav inclusive-disclosure [aria-expanded]::after {
+.action nav inclusive-disclosure [aria-expanded]::after {
     right: var(--common-inline-padding);
 }
 
 
-.strategy-tip .icon {
+.action .icon {
     margin-inline: 1rem;
 }
 
-.strategy-processes.only-two a:first-of-type {
+.action-processes.only-two a:first-of-type {
     margin-inline-end: 1rem;
 }
 
@@ -212,28 +212,28 @@
     .barrier nav > h2,
     .guidelines nav > h2,
     .process nav > h2,
-    .strategy-tip nav > h2 {
+    .action nav > h2 {
         display: block;
     }
 
     .barrier nav inclusive-disclosure > *,
     .guidelines nav inclusive-disclosure > *,
     .process nav inclusive-disclosure > *,
-    .strategy-tip nav inclusive-disclosure > * {
+    .action nav inclusive-disclosure > * {
         padding-inline: 0;
     }
 
     .barrier nav inclusive-disclosure [aria-expanded],
     .guidelines nav inclusive-disclosure [aria-expanded],
     .process nav inclusive-disclosure > [aria-expanded],
-    .strategy-tip nav inclusive-disclosure > [aria-expanded] {
+    .action nav inclusive-disclosure > [aria-expanded] {
         display: none;
     }
 
     .barrier nav inclusive-disclosure [aria-expanded] + *,
     .guidelines nav inclusive-disclosure [aria-expanded] + *,
     .process nav inclusive-disclosure [aria-expanded] + *,
-    .strategy-tip nav inclusive-disclosure [aria-expanded] + * {
+    .action nav inclusive-disclosure [aria-expanded] + * {
         display: block;
     }
 
@@ -248,7 +248,7 @@
 .barrier article,
 .guidelines article
 .process article,
-.strategy-tip article {
+.action article {
     padding-block: 2.125rem 5rem;
     padding-inline: var(--common-inline-padding);
 }
@@ -256,14 +256,14 @@
 .barrier article > *,
 .guidelines article > *,
 .process article > *,
-.strategy-tip article > *  {
+.action article > *  {
     max-width: 41.875rem;
 }
 
 .barrier article > h2,
 .guidelines article > h2,
 .process article > h2,
-.strategy-tip article > h2 {
+.action article > h2 {
     max-width: 100%;
 }
 
@@ -343,7 +343,7 @@
     .barrier .content,
     .guidelines .content,
     .process .content,
-    .strategy-tip .content {
+    .action .content {
         display: grid;
         grid-template-columns: 35% 65%;
         margin-inline: auto;
@@ -357,8 +357,8 @@
     .guidelines article,
     .process nav,
     .process article,
-    .strategy-tip nav,
-    .strategy-tip article {
+    .action nav,
+    .action article {
         padding-block: 8.4375rem;
     }
 
@@ -377,7 +377,7 @@
     .barrier article,
     .guidelines article,
     .process article,
-    .strategy-tip article {
+    .action article {
         padding-inline: 8.4375rem;
     }
 }

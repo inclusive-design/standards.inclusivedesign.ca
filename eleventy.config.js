@@ -51,7 +51,7 @@ export default function eleventy(eleventyConfig) {
 
 		eleventyConfig.addCollection(`resources_${lang}`, collection => collection.getFilteredByGlob(`src/collections/resources/${lang}/*.md`));
 
-		eleventyConfig.addCollection(`strategies-and-tips_${lang}`, collection => collection.getFilteredByGlob(`src/collections/strategies-and-tips/${lang}/*.md`));
+		eleventyConfig.addCollection(`actions_${lang}`, collection => collection.getFilteredByGlob(`src/collections/actions/${lang}/*.md`));
 
 		eleventyConfig.addCollection(`topics_${lang}`, collection => collection.getFilteredByGlob(`src/collections/topics/${lang}/*.md`));
 
