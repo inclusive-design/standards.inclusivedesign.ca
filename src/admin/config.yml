@@ -572,6 +572,16 @@ collections:
         i18n: true
         buttons: [bold, italic, link, bulleted-list, numbered-list]
         required: false
+      - label: Related Actions
+        name: relatedActions
+        widget: relation
+        collection: actions
+        value_field: uuid
+        search_fields: [title]
+        display_fields: [title]
+        required: false
+        multiple: true
+        i18n: duplicate
       - label: More Information
         name: moreInformation
         widget: markdown
