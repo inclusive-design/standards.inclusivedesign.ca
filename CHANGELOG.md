@@ -1,5 +1,24 @@
 # Changelog
 
+## [2026.03.26.1819.831a4a2](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.03.24.1438.cbb4fa2...2026.03.26.1819.831a4a2)
+
+* chore(deps): update dependency [@inclusive-design](https://github.com/inclusive-design)/markdownlint-config to v0.1.1 (#453) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): lock file maintenance (#452) @[renovate[bot]](https://github.com/apps/renovate)
+
+### Features
+
+* feat: replace Strategies and Tips with Actions (resolves #449) (#450) [@nedatidrc](https://github.com/nedatidrc)
+* fix: add rel attribute for external links and show external link icon (resolves #436) (#447) [@chosww](https://github.com/chosww)
+
+### Bug Fixes
+
+* fix: make sure sidebar nav styles aren't applied to pagination (#451) [@nedatidrc](https://github.com/nedatidrc)
+* fix: add rel attribute for external links and show external link icon (resolves #436) (#447) [@chosww](https://github.com/chosww)
+
+### Dependencies
+
+* chore(deps): remove markdownlint-config-fluid (#454) [@nedatidrc](https://github.com/nedatidrc)
+
 ## [2026.03.24.1438.cbb4fa2](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.03.24.1200.5d0cad3...2026.03.24.1438.cbb4fa2)
 
 ### Bug Fixes
