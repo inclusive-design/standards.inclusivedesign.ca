@@ -20,7 +20,7 @@
             {% endfor %}
             {% include "partials/components/breadcrumb.njk" %}
             <h1 data-pagefind-meta="title" data-pagefind-filter="type:action">{{ title }}</h1>
-            <div class="strategy-processes {{ 'only-two' if processes | length == 2 }}">
+            <div class="action-processes {{ 'only-two' if processes | length == 2 }}">
                 {% __ 'actions-for' %}
             {% for processId in processes %}
                 {% if processes | length > 1 %}
