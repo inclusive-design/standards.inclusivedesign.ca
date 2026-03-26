@@ -78,7 +78,7 @@ body {
         padding: unset;
     }
 
-    .content nav {
+    .content nav:not(.pagination) {
         padding-inline: 8.4375rem 5rem;
         position: relative;
 
