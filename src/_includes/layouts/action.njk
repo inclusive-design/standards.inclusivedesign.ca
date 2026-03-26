@@ -69,6 +69,15 @@
     <h2>{% __ 'actions-longterm' %}</h2>
     {{ longterm | markdown | safe }}
 {% endif %}
+{% if relatedActions | length > 0 %}
+    <h2>{% __ 'actions-related-actions' %}</h2>
+    <ul>
+    {% for actionId in relatedActions %}
+        {% set action = collections['actions_' + lang] | find('data.uuid', actionId) %}
+        <li><a href="{{ action.data.url }}">{{ action.data.title }}</a></li>
+    {% endfor %}
+    </ul>
+{% endif %}
 {% if moreInformation %}
     <h2>{% __ 'actions-more-info' %}</h2>
     {{ moreInformation | markdown | safe }}
