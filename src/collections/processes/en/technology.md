@@ -12,6 +12,6 @@ stage: 5871d856
 
 Technology should involve using tools that are accessible and familiar to participants. Technology should work with assistive tools, be easy to use, and have support available when problems come up.
 
-## Stratergies and Tips
+## Actions
 
-Explore stratergies tips for using inclusive and accessible technology:
+Explore actions for using inclusive and accessible technology:

@@ -12,6 +12,6 @@ stage: b394d47d
 
 Inclusive recruitment means committing resources, policies, and outreach to bring diverse voices across disability and intersecting identities into standards development. It requires proactive, accessible, and relationship-based engagement, valuing lived experience alongside technical expertise, and ensuring no single voice is expected to represent an entire community. 
 
-## Stratergies and Tips
+## Actions
 
-Explore stratergies tips for making recruitment more inclusive:
+Explore actions for making recruitment more inclusive:

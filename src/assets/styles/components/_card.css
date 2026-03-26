@@ -12,7 +12,7 @@
     position: relative;
 }
 
-.card.strategies-and-tips,
+.card.actions,
 .card.barrier {
     padding-block-start: unset;
     padding-inline-start: 0.8125rem;

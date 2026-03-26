@@ -12,6 +12,6 @@ stage: 2ac90c88
 
 Inclusive public awareness involves clearly sharing information about the draft standard and how to take part. Information should be easy to find, easy to understand, and shared in accessible formats so Disabled and Deaf people know about the process and how to give feedback.
 
-## Stratergies and Tips
+## Actions
 
-Explore stratergies and tips for public awareness :
+Explore actions for public awareness :

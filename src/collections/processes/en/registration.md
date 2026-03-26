@@ -12,6 +12,6 @@ stage: b394d47d
 
 Accessible registration requires simple, user-friendly processes that work with assistive technologies such as screen readers, proactive accommodation support, and financial assistance. Offering multiple registration options, clear role expectations, readily available accessibility services, and compensation helps remove barriers and enables diverse disabled and Deaf participants to fully engage in standards development.
 
-## Stratergies and Tips
+## Actions
 
-Explore stratergies tips for making the registration process more inclusive:
+Explore actions for making the registration process more inclusive:

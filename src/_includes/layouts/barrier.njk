@@ -44,12 +44,12 @@
 <article class="flow" data-pagefind-body>
 <h2>{% __ 'barriers-problem' %}</h2>
 {{ problem | renderContent('md') | safe }}
-{% if collections['strategies-and-tips_' + lang] | find('data.barriers', uuid) %}
+{% if collections['actions_' + lang] | find('data.barriers', uuid) %}
 <h2>{%  __ 'barriers-fix' %}</h2>
-{% for strategy in collections['strategies-and-tips_' + lang] %}
-    {% if uuid in strategy.data.barriers %}
-        {% set strategyOrTip = strategy %}
-        {% include "partials/components/card--strategies-and-tips.njk" %}
+{% for actionItem in collections['actions_' + lang] %}
+    {% if uuid in actionItem.data.barriers %}
+        {% set action = actionItem %}
+        {% include "partials/components/card--action.njk" %}
     {% endif %}
 {% endfor %}
 {% endif %}
