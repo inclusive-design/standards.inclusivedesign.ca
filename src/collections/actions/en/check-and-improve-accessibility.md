@@ -29,9 +29,9 @@ relatedActions:
   - 2ac90c88
 moreInformation: ''
 examples: |-
-  - [India – Bureau of Indian Standards (BIS)](https://www.bis.gov.in/?lang=en): BIS offers registration in regional languages and offline options like printed forms, phone registration, and community partner assistance. They collaborate with NGOs to bring mobile units to disability events, ensuring accessibility in remote areas.
-  - [Australia – Standards Australia](https://www.standards.org.au/standards-development/developing-standards/process): Standards Australia revamped its registration portals to meet WCAG 2.1 standards and created plain-language forms. They provide offline options like printed forms and phone interviews, along with Easy Read materials and explainer videos for people with disabilities.
-  - [Kenya – Kenya Bureau of Standards (KEBS)](https://www.kebs.org/): KEBS partners with disability centers for in-person registration using paper forms, braille, and sign language interpreters. They also offer mobile-friendly forms and SMS-based registration, catering to low-bandwidth regions and mobile-first users.
+  - [India – Bureau of Indian Standards (BIS)](https://www.bis.gov.in/?lang=en) BIS offers registration in regional languages and offline options like printed forms, phone registration, and community partner assistance. They collaborate with NGOs to bring mobile units to disability events, ensuring accessibility in remote areas.
+  - [Australia – Standards Australia](https://www.standards.org.au/standards-development/developing-standards/process) Standards Australia revamped its registration portals to meet WCAG 2.1 standards and created plain-language forms. They provide offline options like printed forms and phone interviews, along with Easy Read materials and explainer videos for people with disabilities.
+  - [Kenya – Kenya Bureau of Standards (KEBS)](https://www.kebs.org/) KEBS partners with disability centers for in-person registration using paper forms, braille, and sign language interpreters. They also offer mobile-friendly forms and SMS-based registration, catering to low-bandwidth regions and mobile-first users.
 processes:
   - a7e33638
 barriers:
