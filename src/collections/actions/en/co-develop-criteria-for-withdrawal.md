@@ -3,6 +3,7 @@ translationKey: co-develop-criteria-for-withdrawal
 title: Co-develop criteria for withdrawal
 uuid: 902c8c26
 draft: false
+quick: ''
 longterm: |-
   - Work with diverse communities to create clear rules for reviewing whether a standard should be withdrawn.
   - Include technical, legal, social, and disability perspectives when making decisions.
@@ -14,16 +15,16 @@ longterm: |-
   - Make the process transparent so everyone understands how decisions are made.
   - Document and share the reasoning behind any decision to withdraw a standard.
   - Update the criteria regularly based on feedback and real-world impacts.
-quick: ''
-moreInformation: |-
-  - [Create an opportunity for public feedback before withdrawal](https://standards.inclusivedesign.ca/guidelines/actions/create-an-opportunity-for-public-feedback-before-withdrawal/)
-  - [Offer opportunities to request revisions rather than removal](https://standards.inclusivedesign.ca/guidelines/actions/offer-opportunities-to-request-revisions-rather-than-removal/)
-  - [Use clear, accessible, and open language in withdrawal notices](https://standards.inclusivedesign.ca/guidelines/actions/use-clear-accessible-and-open-language-in-withdrawal-notices/)
-  - [Provide transition guidance when withdrawing a standard](https://standards.inclusivedesign.ca/guidelines/actions/provide-translation-and-interpretation-for-everyone/)
-  - [Establish continuous feedback loops](https://standards.inclusivedesign.ca/guidelines/actions/establish-continuous-feedback-loops/)
+relatedActions:
+  - 5cfc5519
+  - '09758457'
+  - 5a7ef076
+  - af9da867
+  - a1c9b89d
+moreInformation: ''
 examples: |-
-  - [Japan – The Japanese Industrial Standards Committee (JISC)](https://www.jisc.go.jp/eng/): JISC uses a multi-criteria review that factors in legal relevance, market use, and social value. If a standard supports accessibility or public safety, it may be retained even if its original technical basis is outdated.
-  - [Brazil – Associação Brasileira de Normas Técnicas (ABNT): ](https://www.abntcatalogo.com.br/) ABNT partners with government agencies and civil society to review standards related to housing, accessibility, and education. The decision to retire a standard involves assessing whether it continues to fill a policy or equity gap, even if it’s no longer widely used in industry.
+  - [Japan – The Japanese Industrial Standards Committee (JISC)](https://www.jisc.go.jp/eng/)  JISC uses a multi-criteria review that factors in legal relevance, market use, and social value. If a standard supports accessibility or public safety, it may be retained even if its original technical basis is outdated.
+  - [Brazil – Associação Brasileira de Normas Técnicas (ABNT) ](https://www.abntcatalogo.com.br/) ABNT partners with government agencies and civil society to review standards related to housing, accessibility, and education. The decision to retire a standard involves assessing whether it continues to fill a policy or equity gap, even if it’s no longer widely used in industry.
 processes:
   - 153c2d64
 barriers:
