@@ -19,7 +19,7 @@ relatedActions:
   - 2ac90c88
   - ed90fb3e
 moreInformation: '- [Accessible Travel Journey (Accessibility Standards Canada)](https://accessible.canada.ca/creating-accessibility-standards/accessible-travel-journey)'
-examples: '[Australia – Standards Australia](https://www.standards.org.au/standards-development/developing-standards/process): Standards Australia offers flexible travel support and peer mentorship to assist members with travel planning and accessibility needs.'
+examples: '[Australia – Standards Australia](https://www.standards.org.au/standards-development/developing-standards/process) Standards Australia offers flexible travel support and peer mentorship to assist members with travel planning and accessibility needs.'
 processes:
   - e7f348c2
 barriers:
