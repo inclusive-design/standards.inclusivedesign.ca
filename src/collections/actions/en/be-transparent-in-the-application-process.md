@@ -3,7 +3,6 @@ translationKey: be-transparent-in-the-application-process
 title: Be transparent in the application process
 uuid: 5f9cfaff
 draft: false
-longterm: ''
 quick: |-
   - Publish clear selection criteria for technical committee members that reflect inclusion and diversity goals.
   - Provide role descriptions that outline:
@@ -16,14 +15,16 @@ quick: |-
       - How to request support, and who to contact
   - Communicate regularly with applicants about their status and timelines.
   - Offer alternative ways to participate such as public comment periods to those not selected.
-moreInformation: |-
-  - [Recruit across disability and intersectional identities](https://standards.inclusivedesign.ca/guidelines/actions/recruit-across-disability-and-intersectional-identities/)
-  - [Make communications multi-modal and consistent](https://standards.inclusivedesign.ca/guidelines/actions/make-communications-multi-modal-and-consistent/)
-  - [Organizational and operational commitment](https://standards.inclusivedesign.ca/guidelines/actions/organizational-and-operational-commitment/)
-  - [Check and improve accessibility](https://standards.inclusivedesign.ca/guidelines/actions/check-and-improve-accessibility/)
-  - [Ensure all documents are accessible](https://standards.inclusivedesign.ca/guidelines/actions/ensure-all-documents-are-accessible/)
-  - [Ensure websites are accessible](https://standards.inclusivedesign.ca/guidelines/actions/ensure-websites-are-accessible/)
-  - [Provide monetary compensation and financial support](https://standards.inclusivedesign.ca/guidelines/actions/provide-monetary-compensation-and-financial-support/)
+longterm: ''
+relatedActions:
+  - 935f1dd7
+  - f3ca9e8e
+  - 0ff75145
+  - 95f998b1
+  - ec2f6495
+  - fdb653ec
+  - 779edd9f
+moreInformation: ''
 examples: |-
   - [Mexico – Dirección General de Normas (DGN):](https://www.gob.mx/se/) DGN hosts public webinars during recruitment to clarify roles, responsibilities, and accommodations. They post plain-language role summaries and follow up with applicants on next steps. Community consultations help refine role descriptions to ensure accessibility for diverse audiences, including people with disabilities.
   - [Germany – German Institute for Standardization (DIN)](https://www.din.de/en): DIN publishes detailed role descriptions and eligibility criteria on their public portal, outlining time commitments, required expertise, and the selection process. A visual roadmap of the standards development process helps applicants understand their potential involvement.
