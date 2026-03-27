@@ -20,12 +20,7 @@ relatedActions:
   - ef3678a6
   - 0baa973a
   - 95f998b1
-moreInformation: |-
-  - [Use accessible hybrid meeting practices](https://standards.inclusivedesign.ca/guidelines/actions/use-accessible-hybrid-meeting-practices/)
-  - [Make remote/virtual/online meetings accessible](https://standards.inclusivedesign.ca/guidelines/actions/make-remote-virtual-online-meetings-accessible/)
-  - [Allocate a dedicated accessibility budget](https://standards.inclusivedesign.ca/guidelines/actions/allocate-a-dedicated-accessibility-budget/)
-  - [Build in travel funding](https://standards.inclusivedesign.ca/guidelines/actions/build-in-travel-funding/)
-  - [Check and improve accessibility](https://standards.inclusivedesign.ca/guidelines/actions/check-and-improve-accessibility/)
+moreInformation: ''
 examples: |-
   - [USA  – American National Standards Institute (ANSI)](https://www.ansi.org/about/introduction#:~:text=The%20American%20National%20Standards%20Institute,standards%20and%20conformity%20assessment%20system.) ANSI ensures meeting venues have wheelchair ramps, accessible restrooms, and charging stations. They use a venue checklist to ensure proper accommodations.
   - [UK – British Standards Institution (BSI)](https://www.bsigroup.com/en-CA/) BSI surveys venues in advance to ensure accessibility features like hearing loops and quiet spaces. They also gather feedback to improve future venue selections.
