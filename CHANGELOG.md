@@ -1,5 +1,11 @@
 # Changelog
 
+## [2026.03.27.1902.e58e05b](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.03.26.1943.8db5bcf...2026.03.27.1902.e58e05b)
+
+### Chores
+
+* chore(l10n): synchronize translations from Crowdin (#459) @[incd-github-actions[bot]](https://github.com/apps/incd-github-actions)
+
 ## [2026.03.26.1943.8db5bcf](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.03.26.1819.831a4a2...2026.03.26.1943.8db5bcf)
 
 ### Features
