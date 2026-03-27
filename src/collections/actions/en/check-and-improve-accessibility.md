@@ -3,6 +3,7 @@ translationKey: check-and-improve-accessibility
 title: Check and improve accessibility
 uuid: 95f998b1
 draft: false
+quick: ''
 longterm: |-
   - Create a permanent dedicated accessibility group within the organization to track inclusion over time.
   - Celebrate improvements in accessibility and inclusion to show the group’s progress.
@@ -18,17 +19,15 @@ longterm: |-
       - Note-taking services
       - Clear and consistent turn-taking protocols
       - Accessible digital files and materials in advance
-  - Ensure physical spaces (if used) are accessible for mobility devices, sensory needs, and rest requirements.
-quick: ''
-moreInformation: |-
-  - [Physical Space](https://standards.inclusivedesign.ca/guidelines/processes/space/)
-  - [Travel](https://standards.inclusivedesign.ca/guidelines/processes/travel/)
-  - [Ensure all documents are accessible](https://standards.inclusivedesign.ca/guidelines/actions/ensure-all-documents-are-accessible/)
-  - [Ensure websites are accessible](https://standards.inclusivedesign.ca/guidelines/actions/ensure-websites-are-accessible/)
-  - [Make communications multi-modal and consistent](https://standards.inclusivedesign.ca/guidelines/actions/make-communications-multi-modal-and-consistent/)
-  - [Provide diverse, accessible knowledge-building opportunities](https://standards.inclusivedesign.ca/guidelines/actions/provide-diverse-accessible-knowledge-building-opportunities/)
-  - [Provide ongoing accessibility and inclusion training](https://standards.inclusivedesign.ca/guidelines/actions/provide-ongoing-accessibility-and-inclusion-training-for-staff-and-chairs/)
-  - [Use accessible hybrid meeting practices](https://standards.inclusivedesign.ca/guidelines/actions/use-accessible-hybrid-meeting-practices/)
+  - Ensure physical spaces (if used) are accessible for mobility devices, sensory needs, and rest requirements. ([Physical Space](https://standards.inclusivedesign.ca/guidelines/processes/space/))
+relatedActions:
+  - ec2f6495
+  - fdb653ec
+  - f3ca9e8e
+  - d61f445c
+  - ed90fb3e
+  - 2ac90c88
+moreInformation: ''
 examples: |-
   - [India – Bureau of Indian Standards (BIS)](https://www.bis.gov.in/?lang=en): BIS offers registration in regional languages and offline options like printed forms, phone registration, and community partner assistance. They collaborate with NGOs to bring mobile units to disability events, ensuring accessibility in remote areas.
   - [Australia – Standards Australia](https://www.standards.org.au/standards-development/developing-standards/process): Standards Australia revamped its registration portals to meet WCAG 2.1 standards and created plain-language forms. They provide offline options like printed forms and phone interviews, along with Easy Read materials and explainer videos for people with disabilities.
