@@ -49,17 +49,17 @@ You can use the guidelines in the following two ways:
 ### Browse by Standards Development Processes
 
 ####
-[Explore all actions by stages and processes](/guidelines/processes/)
+[Explore by stages and processes](/guidelines/processes/)
 
 Browse by standards development process and select a stage first, then choose a process within that stage. For each process, you’ll find practical solutions to make the standards development process more inclusive, along with the specific barriers these solutions can help address.
 
 ### Browse by Barriers
 
 ####
-[Explore all actions to tackle your Barrier](/guidelines/barriers/)
+[Explore all barrier](/guidelines/barriers/)[s](/guidelines/barriers/)
 
 Visit the barriers library to see a list of barriers faced by Standards Development Organizations, organized by the 5 core stages covering 18 processes or topic areas. From there, you can select a specific barrier and explore the actions that can help resolve it.
 
-## What are you looking for?
+## Find what you need
 
 Use the search bar to find suggestions for improving your standards development process or to solve a barrier in your process. For example, try searching for ‘meeting’ or ‘hybrid’ to find suggestions for improving your hybrid meetings.
