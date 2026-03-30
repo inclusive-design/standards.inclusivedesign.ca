@@ -3,7 +3,6 @@ translationKey: set-clear-and-realistic-timelines-for-reviews-drafts-or-revision
 title: Set clear and realistic timelines for reviews, drafts, or revisions
 uuid: 3f01fed3
 draft: false
-longterm: ''
 quick: |-
   - Plan extra time (20-30%) more than you think is needed.
   - Share clear timelines and documents upfront and update them with member input.
@@ -13,12 +12,14 @@ quick: |-
   - Adjust timelines if more time is needed for accessibility, translation, or review.
   - Allocate enough time for members to review especially long documents at a manageable pace.
   - Where possible, break large reading loads into prioritized chunks.
-moreInformation: |-
-  - [Use fair and transparent decision-making](https://standards.inclusivedesign.ca/guidelines/actions/use-fair-and-transparent-decision-making/)
-  - [Use inclusive approaches for decision-making](https://standards.inclusivedesign.ca/guidelines/actions/use-inclusive-approaches-for-decision-making/)
-  - [Empower chairs and facilitators to manage conflict](https://standards.inclusivedesign.ca/guidelines/actions/empower-chairs-and-facilitators-to-manage-conflict/)
-  - [Provide ongoing accessibility and inclusion training](https://standards.inclusivedesign.ca/guidelines/actions/provide-ongoing-accessibility-and-inclusion-training-for-staff-and-chairs/)
-  - [Plan what to do if goals aren’t met](https://standards.inclusivedesign.ca/guidelines/actions/plan-what-to-do-if-goals-arent-met/)
+longterm: ''
+relatedActions:
+  - d33b6b6c
+  - ab01e1b3
+  - 20dc168e
+  - ed90fb3e
+  - ac8b76da
+moreInformation: ''
 examples: ''
 processes:
   - 11d85a05
