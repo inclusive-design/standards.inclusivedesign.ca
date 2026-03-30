@@ -3,9 +3,6 @@ translationKey: use-accessible-hybrid-meeting-practices
 title: Use accessible hybrid meeting practices
 uuid: 2ac90c88
 draft: false
-longterm: |-
-  - Provide virtual or hybrid attendance options for all meetings - in-person meetings often create more challenges for members with disabilities, including those with mobility or transportation barriers.
-  - Ensure all core work can be completed virtually, not just discussed during in-person meetings
 quick: |-
   - Start meetings with a reminder that all voices are welcome (both online and in-person).
   - Use a camera that shows the whole room, so remote people can see who is speaking.
@@ -19,12 +16,16 @@ quick: |-
   - Use screen-sharing consistently and narrate visual content for those who are blind or have low vision
   - Use lighting so that people can see faces and interpreters.
   - Reduce background noise where possible.
-moreInformation: |-
-  - [Make remote/virtual/online meetings accessible](https://standards.inclusivedesign.ca/guidelines/actions/make-remote-virtual-online-meetings-accessible/)
-  - [Choose accessible meeting spaces](https://standards.inclusivedesign.ca/guidelines/actions/choose-accessible-meeting-spaces-for-in-person-meetings-1/)
-  - [Plan meetings so people worldwide can join](https://standards.inclusivedesign.ca/guidelines/actions/plan-meetings-so-people-worldwide-can-join/)
-  - [Set meeting language captions correctly](https://standards.inclusivedesign.ca/guidelines/actions/set-meeting-language-captions-correctly/)
-  - [Check and improve accessibility](https://standards.inclusivedesign.ca/guidelines/actions/check-and-improve-accessibility/)
+longterm: |-
+  - Provide virtual or hybrid attendance options for all meetings - in-person meetings often create more challenges for members with disabilities, including those with mobility or transportation barriers.
+  - Ensure all core work can be completed virtually, not just discussed during in-person meetings
+relatedActions:
+  - 594d9a28
+  - e6970303
+  - 94dc979d
+  - ae3ed12e
+  - 95f998b1
+moreInformation: ''
 examples: |-
   - [UK – British Standards Institution (BSI)](https://www.bsigroup.com/en-CA/): BSI uses 360° cameras, quality audio, and shared online docs to ensure remote attendees are fully included. A “remote participant advocate” helps balance input between in-person and virtual members.
   - [Germany – German Institute for Standardization (DIN)](https://www.din.de/en): DIN uses auto-tracking cameras, real-time screen sharing, and shares materials in advance in multiple accessible formats. They also run simulations to test and improve hybrid setups.
@@ -34,8 +35,8 @@ processes:
   - b612d304
 barriers:
   - 81182d8d
-more-information: ''
 order: 1
+more-information: ''
 ---
 
 Strategies to ensure accessible pathways into technical committees and working groups for diverse applicants.
