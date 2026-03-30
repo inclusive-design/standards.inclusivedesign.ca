@@ -3,7 +3,6 @@ translationKey: set-meeting-language-captions-correctly
 title: Set meeting language captions correctly
 uuid: ae3ed12e
 draft: false
-longterm: ''
 quick: |-
   - Set the video meeting language (Zoom/Teams/Webex) to the language people have agreed to speak. This helps automatic captions work better.
   - Test the caption settings before the meeting.
@@ -14,6 +13,10 @@ quick: |-
   - Ask people to speak clearly and not too fast.
   - Put key words, names, and links in the chat.
   - Save and share the transcript after the meeting.
+longterm: ''
+relatedActions:
+  - 2ac90c88
+  - 594d9a28
 moreInformation: ''
 examples: ''
 processes:
