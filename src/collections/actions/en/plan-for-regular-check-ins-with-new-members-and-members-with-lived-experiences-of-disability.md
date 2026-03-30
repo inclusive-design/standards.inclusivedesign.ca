@@ -3,17 +3,18 @@ translationKey: plan-for-regular-check-ins-with-new-members-and-members-with-liv
 title: Plan for regular check-ins with new members
 uuid: c0dd69a6
 draft: false
-longterm: ''
 quick: |-
   - Schedule regular check-ins during the first few months to help build comfort, confidence, and a stronger sense of belonging.
   - Use this time to:
       - Answer questions about content, roles, and responsibilities
       - Help prioritize reading or focus areas
       - Troubleshoot any challenges or barriers
-moreInformation: |-
-  - [Recruit across disability and intersectional identities](https://standards.inclusivedesign.ca/guidelines/actions/recruit-across-disability-and-intersectional-identities/)
-  - [Establish continuous feedback loops](https://standards.inclusivedesign.ca/guidelines/actions/establish-continuous-feedback-loops/)
-  - [Be transparent in the application process](https://standards.inclusivedesign.ca/guidelines/actions/be-transparent-in-the-application-process/)
+longterm: ''
+relatedActions:
+  - 935f1dd7
+  - a1c9b89d
+  - 5f9cfaff
+moreInformation: ''
 examples: ''
 processes:
   - 3eb6bf1e
