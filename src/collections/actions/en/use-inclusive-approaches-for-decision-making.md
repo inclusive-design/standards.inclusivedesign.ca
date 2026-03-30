@@ -3,7 +3,6 @@ translationKey: use-inclusive-approaches-for-decision-making
 title: Use inclusive approaches for decision-making
 uuid: ab01e1b3
 draft: false
-longterm: ''
 quick: |-
   - Don’t let only the loudest or most frequent speakers decide for the whole group.
   - Set clear goals for each discussion so the same people don’t always dominate.
@@ -15,10 +14,12 @@ quick: |-
   - Allow people to rank options instead of choosing only one if you have an issue reaching consensus.
   - Document decisions and reasons by sharing written records so everyone sees what was decided and why.
   - Ask quieter members or those with less power if they agree or have concerns before finalizing.
-moreInformation: |-
-  - [Show accountability and build trust with Disabled and Deaf people](https://standards.inclusivedesign.ca/guidelines/actions/show-accountability-and-build-trust-with-disabled-and-deaf-people/)
-  - [Use fair and transparent decision-making](https://standards.inclusivedesign.ca/guidelines/actions/use-fair-and-transparent-decision-making/)
-  - [Empower chairs and facilitators to manage conflict](https://standards.inclusivedesign.ca/guidelines/actions/empower-chairs-and-facilitators-to-manage-conflict/)
+longterm: ''
+relatedActions:
+  - 561239cd
+  - d33b6b6c
+  - 20dc168e
+moreInformation: ''
 examples: ''
 processes:
   - 1130eb69
