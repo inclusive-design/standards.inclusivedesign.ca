@@ -3,7 +3,6 @@ translationKey: plan-meetings-so-people-worldwide-can-join
 title: Plan meetings so people worldwide can join
 uuid: 94dc979d
 draft: false
-longterm: ''
 quick: |-
   - Use UTC ([Coordinated Universal Time](https://en.wikipedia.org/wiki/Coordinated_Universal_Time)) as the main time reference, because it stays the same all year and does not observe Day Light Saving.
   - Rotate meeting times so the same region is not always stuck with late-night or early-morning meetings.
@@ -18,12 +17,14 @@ quick: |-
   - Use tools that work well in many countries and do not require special paid accounts.
   - Make sure meetings start and end on time.
   - Avoid using local terms like “10 am my time” and include UTC and a time-zone converter link.
-moreInformation: |-
-  - [Use accessible hybrid meeting practices](https://standards.inclusivedesign.ca/guidelines/actions/use-accessible-hybrid-meeting-practices/)
-  - [Make remote/virtual/online meetings accessible](https://standards.inclusivedesign.ca/guidelines/actions/make-remote-virtual-online-meetings-accessible/)
-  - [Set meeting language captions correctly](https://standards.inclusivedesign.ca/guidelines/actions/set-meeting-language-captions-correctly/)
-  - [Provide translation and interpretation for everyone](https://standards.inclusivedesign.ca/guidelines/actions/provide-translation-and-interpretation-for-everyone/)
-  - [Open up committee meetings and allow outside participation](https://standards.inclusivedesign.ca/guidelines/actions/open-up-committee-meetings-and-allow-outside-participation/)
+longterm: ''
+relatedActions:
+  - 2ac90c88
+  - 594d9a28
+  - ae3ed12e
+  - 8ee5823e
+  - 1bea465d
+moreInformation: ''
 examples: |-
   - [Australia – Standards Australia](https://www.standards.org.au/standards-development/developing-standards/process): Standards Australia promotes rotating meeting times across regions. For example, in cloud computing standards, they helped implement schedules that shift between Asia-Pacific, Europe, and the Americas. They also support asynchronous collaboration through shared documents.
   - [India – Bureau of Indian Standards (BIS)](https://www.bis.gov.in/?lang=en): BIS allows members to give input outside live meetings using pre-recorded presentations, online forms, and extended feedback periods. They also share meeting summaries for those who can’t attend in real time.
