@@ -74,7 +74,7 @@
     <ul>
     {% for actionId in relatedActions %}
         {% set action = collections['actions_' + lang] | find('data.uuid', actionId) %}
-        <li><a href="{{ action.data.url }}">{{ action.data.title }}</a></li>
+        <li><a href="{{ action.url }}">{{ action.data.title }}</a></li>
     {% endfor %}
     </ul>
 {% endif %}
