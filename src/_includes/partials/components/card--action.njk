@@ -5,39 +5,20 @@
                 {{ action.data.title }}
             </a>
         </h3>
-        {% if action.data.quick %}
-            <div class="card__heading-image">
-                {% include 'svg/quick.svg' %}
-                <h4>
-                    {% __ 'actions-quick' %}
-                </h4>
-            </div>
-            {{ action.data.quick | markdown | safe }}
-        {% endif %}
-        {% if action.data.longterm %}
-            <div class="card__heading-image">
-                {% include 'svg/longterm.svg' %}
-                <h4>
-                    {% __ 'actions-longterm' %}
-                </h4>
-            </div>
-            {{ action.data.longterm | markdown | safe }}
-        {% endif %}
-        {% if action.data.barriers | length > 0 %}
-            <div class="card__heading-image">
-                {% include 'svg/barriers.svg' %}
-                <h4>
-                    {% __ 'actions-barriers' %}
-                </h4>
-            </div>
-
-            <ul>
-                {% for uuid in action.data.barriers %}
-                    {% for barrier in collections['barriers_' + lang] | findAll('data.uuid', uuid) %}
-                        <li>{{ barrier.data.title }}</li>
-                    {% endfor %}
-                {% endfor %}
-            </ul>
-        {% endif %}
+        {% set processes = action.data.processes %}
+        <div class="action-processes {{ 'only-two' if processes | length == 2 }}">
+                {% __ 'actions-for' %}
+            {% for processId in processes %}
+                {% if processes | length > 1 %}
+                {{ 'and' if loop.last }}
+                {% endif %}
+                {% set process = collections['processes_' + lang] | find('data.uuid', processId) %}
+                <span>{% include '../../../assets/images/' + process.data.translationKey + '.svg' %}
+                <b>{{ process.data.title }}</b></span>
+                {% if processes | length > 2 %}
+                {{ ',' if not loop.last }}
+                {% endif %}
+            {% endfor %}
+        </div>
     </div>
 </div>
