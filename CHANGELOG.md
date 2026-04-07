@@ -1,5 +1,13 @@
 # Changelog
 
+## [2026.04.07.1352.b4cbb57](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.04.02.2022.643c2ea...2026.04.07.1352.b4cbb57)
+
+* chore(deps): lock file maintenance (#464) @[renovate[bot]](https://github.com/apps/renovate)
+
+### Features
+
+* feat: address icon related issues (resolves #460, #461, #462, #463) (#467) [@chosww](https://github.com/chosww)
+
 ## [2026.04.02.2022.643c2ea](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.03.26.1943.8db5bcf...2026.04.02.2022.643c2ea)
 
 ### Bug Fixes
