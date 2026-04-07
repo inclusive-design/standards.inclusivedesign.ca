@@ -111,6 +111,22 @@
     mask-repeat: no-repeat;
 }
 
+.action h2 {
+    align-items: center;
+    display: flex;
+    gap: 1.3rem;
+}
+
+.action h2 svg {
+    block-size: 3.5rem;
+    fill:none;
+    inline-size: 3.5rem;
+    stroke:var(--fl-fgColor, black);
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-width: 2;
+}
+
 .action-processes {
     align-items: center;
     display: flex;
@@ -148,7 +164,8 @@
     margin-inline: 1rem;
 }
 
-.action-processes.only-two a:first-of-type {
+.action-processes.only-two a:first-of-type,
+.action-processes.only-two span:first-of-type {
     margin-inline-end: 1rem;
 }
 

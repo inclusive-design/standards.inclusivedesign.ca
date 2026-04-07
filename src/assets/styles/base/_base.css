@@ -62,6 +62,13 @@ body {
     width: 100%;
 }
 
+.process .banner__heading {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    margin-block-start: 5rem;
+}
+
 .banner__image {
     margin-block-start: unset;
     padding-block-start: var(--common-block-padding);

@@ -62,15 +62,15 @@
 </nav>
 <article class="flow" data-pagefind-body>
 {% if quick %}
-    <h2>{% __ 'actions-quick' %}</h2>
+    <h2>{% include "svg/quick-actions.svg" %}{% __ 'actions-quick' %}</h2>
     {{ quick | markdown | safe }}
 {% endif %}
 {% if longterm %}
-    <h2>{% __ 'actions-longterm' %}</h2>
+    <h2>{% include "svg/longterm-actions.svg" %}{% __ 'actions-longterm' %}</h2>
     {{ longterm | markdown | safe }}
 {% endif %}
 {% if relatedActions | length > 0 %}
-    <h2>{% __ 'actions-related-actions' %}</h2>
+    <h2>{% include "svg/related-actions.svg" %}{% __ 'actions-related-actions' %}</h2>
     <ul>
     {% for actionId in relatedActions %}
         {% set action = collections['actions_' + lang] | find('data.uuid', actionId) %}
@@ -79,15 +79,15 @@
     </ul>
 {% endif %}
 {% if moreInformation %}
-    <h2>{% __ 'actions-more-info' %}</h2>
+    <h2>{% include "svg/more-information.svg" %}{% __ 'actions-more-info' %}</h2>
     {{ moreInformation | markdown | safe }}
 {% endif %}
 {% if examples %}
-    <h2>{% __ 'actions-examples' %}</h2>
+    <h2>{% include "svg/examples.svg" %}{% __ 'actions-examples' %}</h2>
     {{ examples | markdown | safe }}
 {% endif %}
 {% if barriers | length > 0 %}
-<h2>{% __ 'actions-barriers' %}</h2>
+<h2>{% include "svg/barriers.svg" %}{% __ 'actions-barriers' %}</h2>
 {% for barrier in targetBarriers %}
     {% include "partials/components/card--barrier.njk" %}
 {% endfor %}
