@@ -164,7 +164,8 @@
     margin-inline: 1rem;
 }
 
-.action-processes.only-two a:first-of-type {
+.action-processes.only-two a:first-of-type,
+.action-processes.only-two span:first-of-type {
     margin-inline-end: 1rem;
 }
 
