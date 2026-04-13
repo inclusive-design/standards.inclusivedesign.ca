@@ -69,6 +69,10 @@ body {
     margin-block-start: 5rem;
 }
 
+.process .banner__heading svg{
+    stroke-width: 2;
+}
+
 .banner__image {
     margin-block-start: unset;
     padding-block-start: var(--common-block-padding);

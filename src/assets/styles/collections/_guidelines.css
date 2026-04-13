@@ -111,13 +111,15 @@
     mask-repeat: no-repeat;
 }
 
-.action h2 {
+.action h2,
+.barrier h2 {
     align-items: center;
     display: flex;
     gap: 1.3rem;
 }
 
-.action h2 svg {
+.action h2 svg,
+.barrier h2 svg {
     block-size: 3.5rem;
     fill:none;
     inline-size: 3.5rem;
@@ -125,6 +127,11 @@
     stroke-linecap:round;
     stroke-linejoin:round;
     stroke-width: 2;
+}
+
+.barrier h2 svg {
+    block-size: 5rem;
+    inline-size: 5rem;
 }
 
 .action-processes {

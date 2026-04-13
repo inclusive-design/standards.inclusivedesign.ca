@@ -44,6 +44,7 @@
 .card.process svg {
 	position: absolute;
 	right: calc(28 / 16 * 1rem);
+    stroke-width: 2;
 	top: calc(28 / 16 * 1rem);
 }
 
