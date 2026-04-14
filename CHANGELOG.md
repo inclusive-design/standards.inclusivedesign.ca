@@ -1,5 +1,18 @@
 # Changelog
 
+## [2026.04.14.1445.1deff0d](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.04.07.1352.b4cbb57...2026.04.14.1445.1deff0d)
+
+* chore(deps): lock file maintenance (#471) @[renovate[bot]](https://github.com/apps/renovate)
+* chore(deps): update actions/create-github-app-token action to v3.1.1 (#470) @[renovate[bot]](https://github.com/apps/renovate)
+
+### Features
+
+* fix: update svg icons (resolves #472, 473, 474) (#475) [@chosww](https://github.com/chosww)
+
+### Bug Fixes
+
+* fix: update svg icons (resolves #472, 473, 474) (#475) [@chosww](https://github.com/chosww)
+
 ## [2026.04.07.1352.b4cbb57](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.04.02.2022.643c2ea...2026.04.07.1352.b4cbb57)
 
 * chore(deps): lock file maintenance (#464) @[renovate[bot]](https://github.com/apps/renovate)
