@@ -42,10 +42,10 @@
     </inclusive-disclosure>
 </nav>
 <article class="flow" data-pagefind-body>
-<h2>{% __ 'barriers-problem' %}</h2>
+<h2>{% include "svg/barriers.svg" %}{% __ 'barriers-problem' %}</h2>
 {{ problem | renderContent('md') | safe }}
 {% if collections['actions_' + lang] | find('data.barriers', uuid) %}
-<h2>{%  __ 'barriers-fix' %}</h2>
+<h2>{% include "svg/fix.svg" %}{%  __ 'barriers-fix' %}</h2>
 {% for actionItem in collections['actions_' + lang] %}
     {% if uuid in actionItem.data.barriers %}
         {% set action = actionItem %}
