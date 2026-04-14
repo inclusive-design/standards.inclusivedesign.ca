@@ -66,5 +66,7 @@
 	"actions-longterm": "Long-term Actions",
 	"actions-quick": "Quick Actions",
 	"actions-related-actions": "Related Actions",
-	"stages": "Stages"
+	"stages": "Stages",
+	"next": "Next",
+	"previous": "Previous"
 }
