@@ -1,5 +1,11 @@
 # Changelog
 
+## [2026.04.14.1654.7735b8b](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.04.14.1445.1deff0d...2026.04.14.1654.7735b8b)
+
+### Bug Fixes
+
+* fix: use correct icon (resolves #476) (#477) [@chosww](https://github.com/chosww)
+
 ## [2026.04.14.1445.1deff0d](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.04.07.1352.b4cbb57...2026.04.14.1445.1deff0d)
 
 * chore(deps): lock file maintenance (#471) @[renovate[bot]](https://github.com/apps/renovate)
