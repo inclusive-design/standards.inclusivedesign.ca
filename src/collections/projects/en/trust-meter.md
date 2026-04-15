@@ -13,7 +13,7 @@ featuredResources: []
 
 ## Trust Meter Technical Specification – Public Review
 
-The Inclusive Design Research Centre (IDRC), OCAD University, invites public review of the **Trust Meter Technical Specification**, a non normative technical specification developed under the Standards Council of Canada’s AI and Data Governance program.
+The Inclusive Design Research Centre (IDRC), OCAD University, invites public review of the **Trust Meter Technical Specification**, a non normative technical specification developed funded by the Standards Council of Canada’s AI and Data Governance program.
 
 The Trust Meter addresses **statistical discrimination** in AI supported decision making, particularly harms that arise when individuals or groups are out of distribution relative to the data on which AI systems are trained. These risks are especially relevant for marginalized groups, including people with disabilities, whose circumstances are often poorly captured by aggregate data.
 
