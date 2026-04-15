@@ -32,7 +32,7 @@ Les commentaires peuvent être transmis de l’une ou l’autre des façons suiv
 - Télécharger le document Word, utiliser le suivi des modifications et/ou les commentaires, et l’envoyer par courriel à Vera Roberts ([vroberts@ocadu.ca](mailto:vroberts@ocadu.ca))
 - Ouvrir un billet dans le dépôt GitHub du projet (un commentaire par billet est préférable)
 - Envoyer des commentaires écrits par courriel à Vera Roberts ([vroberts@ocadu.ca](mailto:vroberts@ocadu.ca))
-- Utiliser le lien « Créer une copie » du document Google, ajouter des commentaires ou des modifications suivies avec l’accès réviseur, puis transmettre le lien vers la copie
+- Utiliser le lien « Créer une copie » du document Google, ajouter des commentaires ou des modifications suivies avec l’accès réviseur, puis transmettre le lien vers la copie par courriel à Vera Roberts ([vroberts@ocadu.ca](mailto:vroberts@ocadu.ca))
 
 Nous accueillons favorablement les suggestions, corrections, clarifications et exemples, notamment :
 
