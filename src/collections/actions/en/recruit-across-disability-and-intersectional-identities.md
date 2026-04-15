@@ -1,10 +1,10 @@
 ---
 translationKey: recruit-across-disability-and-intersectional-identities
-title: Recruit across D/disability and intersectional identity
+title: Recruit across disability and intersectional identity
 uuid: 935f1dd7
 draft: false
 quick: |-
-  - Broaden recruitment criteria beyond traditional technical expertise to value lived experiences of D/disability, community knowledge, and accessibility advocacy.
+  - Broaden recruitment criteria beyond traditional technical expertise to value lived experiences of disability, community knowledge, and accessibility advocacy.
   - Engage participants through community organizations, community leaders, and advocacy groups.
   - Don’t limit recruitment to the same people or groups who already participate in standard work. Relying on existing committees, industry contacts, or repeat contributors, misses out on new perspectives and contributes to consultation fatigue.
   - Seek participants from rural, underrepresented, younger, older, newcomer, and non-traditional groups.
