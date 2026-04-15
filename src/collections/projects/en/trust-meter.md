@@ -31,7 +31,7 @@ The specification applies primarily to **machine learning based classification s
 Reviewers may provide feedback using any of the following methods:
 
 - Download the Word document, use track changes and/or comments, and email it to Vera Roberts [vroberts@ocadu.ca ](mailto:vroberts@ocadu.ca)
-- File an issue in the project GitHub repository (one comment per issue is preferred)
+- File an [issue](https://github.com/inclusive-design/trust-meter/issues) in the project [GitHub repository](https://github.com/inclusive-design/trust-meter) (one comment per issue is preferred)
 - Send written feedback by email to Vera Roberts [vroberts@ocadu.ca ](mailto:vroberts@ocadu.ca)
 - Use the “Make a copy” Google Doc link provided, add comments or tracked changes with reviewer access, and send Vera Roberts [vroberts@ocadu.ca ](mailto:vroberts@ocadu.ca) the link to your copy
 

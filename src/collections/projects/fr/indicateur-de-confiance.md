@@ -30,7 +30,7 @@ La spécification s’applique principalement aux systèmes de classification fo
 Les commentaires peuvent être transmis de l’une ou l’autre des façons suivantes :
 
 - Télécharger le document Word, utiliser le suivi des modifications et/ou les commentaires, et l’envoyer par courriel à Vera Roberts ([vroberts@ocadu.ca](mailto:vroberts@ocadu.ca))
-- Ouvrir un billet dans le dépôt GitHub du projet (un commentaire par billet est préférable)
+- Ouvrir un [billet](https://github.com/inclusive-design/trust-meter/issues) dans [le dépôt GitHub](https://github.com/inclusive-design/trust-meter) du projet (un commentaire par billet est préférable)
 - Envoyer des commentaires écrits par courriel à Vera Roberts ([vroberts@ocadu.ca](mailto:vroberts@ocadu.ca))
 - Utiliser le lien « Créer une copie » du document Google, ajouter des commentaires ou des modifications suivies avec l’accès réviseur, puis transmettre le lien vers la copie par courriel à Vera Roberts ([vroberts@ocadu.ca](mailto:vroberts@ocadu.ca))
 
