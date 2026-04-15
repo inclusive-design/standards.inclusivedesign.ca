@@ -11,7 +11,7 @@ color: green
 featuredResources: []
 ---
 
-# Trust Meter Technical Specification – Public Review
+## Trust Meter Technical Specification – Public Review
 
 The Inclusive Design Research Centre (IDRC), OCAD University, invites public review of the **Trust Meter Technical Specification**, a non normative technical specification developed under the Standards Council of Canada’s AI and Data Governance program.
 
