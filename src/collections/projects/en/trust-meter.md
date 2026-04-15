@@ -41,4 +41,4 @@ We welcome suggestions, corrections, clarifications, and examples, including:
 - experience with mitigation strategies discussed in the draft
 - analysis of where the draft could be strengthened or clarified
 
-The public review period end May 13, 2026. While not all comments may be incorporated, all feedback will be reviewed and considered.
+The public review period end **May 13, 2026**. While not all comments may be incorporated, all feedback will be reviewed and considered.
