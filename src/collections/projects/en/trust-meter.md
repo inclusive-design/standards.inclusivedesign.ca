@@ -33,7 +33,7 @@ Reviewers may provide feedback using any of the following methods:
 - [Download the Word document](/assets/uploads/Trust%20Meter%20Technical%20Specification%20March%2031_2026.docx), use track changes and/or comments, and email it to Vera Roberts [vroberts@ocadu.ca ](mailto:vroberts@ocadu.ca)
 - File an [issue](https://github.com/inclusive-design/trust-meter/issues) in the project [GitHub repository](https://github.com/inclusive-design/trust-meter) (one comment per issue is preferred)
 - Send written feedback by email to Vera Roberts [vroberts@ocadu.ca ](mailto:vroberts@ocadu.ca)
-- Use the “[Make a copy](https://docs.google.com/document/d/1CRe01hAZJ69ofhsaS7kJ996Uxm6pIXic/copy)” Google Doc link provided, add comments or tracked changes with reviewer access, and send Vera Roberts [vroberts@ocadu.ca ](mailto:vroberts@ocadu.ca) the link to your copy
+- Use the “[Make a copy](https://docs.google.com/document/d/1IEPo1DkfqHy-gD5ydMgFlENRMiHwQBew/copy)” Google Doc link provided, add comments or tracked changes with reviewer access, and send Vera Roberts [vroberts@ocadu.ca ](mailto:vroberts@ocadu.ca) the link to your copy
 
 We welcome suggestions, corrections, clarifications, and examples, including: 
 
@@ -44,4 +44,4 @@ We welcome suggestions, corrections, clarifications, and examples, including:
 The public review period end **May 13, 2026**. While not all comments may be incorporated, all feedback will be reviewed and considered.
 
 - [Download the Word document](/assets/uploads/Trust%20Meter%20Technical%20Specification%20March%2031_2026.docx)
-- [Make a copy](https://docs.google.com/document/d/1CRe01hAZJ69ofhsaS7kJ996Uxm6pIXic/copy)
+- [Make a copy](https://docs.google.com/document/d/1IEPo1DkfqHy-gD5ydMgFlENRMiHwQBew/copy)
