@@ -33,7 +33,7 @@ Reviewers may provide feedback using any of the following methods:
 - Download the Word document, use track changes and/or comments, and email it to Vera Roberts [vroberts@ocadu.ca ](mailto:vroberts@ocadu.ca)
 - File an [issue](https://github.com/inclusive-design/trust-meter/issues) in the project [GitHub repository](https://github.com/inclusive-design/trust-meter) (one comment per issue is preferred)
 - Send written feedback by email to Vera Roberts [vroberts@ocadu.ca ](mailto:vroberts@ocadu.ca)
-- Use the “Make a copy” Google Doc link provided, add comments or tracked changes with reviewer access, and send Vera Roberts [vroberts@ocadu.ca ](mailto:vroberts@ocadu.ca) the link to your copy
+- Use the “[Make a copy](https://docs.google.com/document/d/1Wnti3h4-HvxK0aFx5Ht-gd8OY-1PQ3Ke/copy)” Google Doc link provided, add comments or tracked changes with reviewer access, and send Vera Roberts [vroberts@ocadu.ca ](mailto:vroberts@ocadu.ca) the link to your copy
 
 We welcome suggestions, corrections, clarifications, and examples, including: 
 
@@ -42,3 +42,6 @@ We welcome suggestions, corrections, clarifications, and examples, including:
 - analysis of where the draft could be strengthened or clarified
 
 The public review period end **May 13, 2026**. While not all comments may be incorporated, all feedback will be reviewed and considered.
+
+- [Download the Word document]()
+- [Make a copy](https://docs.google.com/document/d/1Wnti3h4-HvxK0aFx5Ht-gd8OY-1PQ3Ke/copy)
