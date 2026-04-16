@@ -3,8 +3,8 @@ translationKey: trust-meter
 title: Indicateur de confiance
 draft: true
 excerpt: L’Indicateur de confiance traite de la discrimination statistique dans la prise de décision appuyée par l’IA, en particulier des préjudices qui surviennent lorsque des personnes ou des groupes sont hors distribution par rapport aux données utilisées pour entraîner les systèmes d’IA. Ces risques sont particulièrement importants pour les groupes marginalisés, notamment les personnes en situation de handicap, dont les réalités sont souvent mal représentées dans les données agrégées.
-previewImage: ''
-previewImageAlt: ''
+previewImage: /assets/uploads/Trust Meter.svg
+previewImageAlt: "Un demi-cercle forme une arche composée de quatre sections : rouge, jaune, bleue et verte. Un émoji triste est placé à gauche de la section rouge, un émoji joyeux à droite de la section verte. Un pointeur est ancré sous le centre de l'arche et désigne la section verte."
 logo: ''
 color: green
 featuredResources: []
@@ -30,6 +30,7 @@ La spécification s’applique principalement aux systèmes de classification fo
 Les commentaires peuvent être transmis de l’une ou l’autre des façons suivantes :
 
 -[Télécharger le document Word](/assets/uploads/Spécification%20technique%20Indicateur%20de%20confiance%2031_mars_2026.docx), utiliser le suivi des modifications et/ou les commentaires, et l’envoyer par courriel à Vera Roberts ([vroberts@ocadu.ca](mailto:vroberts@ocadu.ca))
+
 - Ouvrir un [billet](https://github.com/inclusive-design/trust-meter/issues) dans [le dépôt GitHub](https://github.com/inclusive-design/trust-meter) du projet (un commentaire par billet est préférable)
 - Envoyer des commentaires écrits par courriel à Vera Roberts ([vroberts@ocadu.ca](mailto:vroberts@ocadu.ca))
 - Utiliser le lien « [Créer une copie](https://docs.google.com/document/d/14yonFUpyri1pSY6OfY-RCIO2U6XXokUy/copy) » du document Google, ajouter des commentaires ou des modifications suivies avec l’accès réviseur, puis transmettre le lien vers la copie par courriel à Vera Roberts ([vroberts@ocadu.ca](mailto:vroberts@ocadu.ca))
