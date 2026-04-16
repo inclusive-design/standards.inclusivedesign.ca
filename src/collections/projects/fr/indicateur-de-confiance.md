@@ -1,7 +1,7 @@
 ---
 translationKey: trust-meter
 title: Indicateur de confiance
-draft: true
+draft: false
 excerpt: L’Indicateur de confiance traite de la discrimination statistique dans la prise de décision appuyée par l’IA, en particulier des préjudices qui surviennent lorsque des personnes ou des groupes sont hors distribution par rapport aux données utilisées pour entraîner les systèmes d’IA. Ces risques sont particulièrement importants pour les groupes marginalisés, notamment les personnes en situation de handicap, dont les réalités sont souvent mal représentées dans les données agrégées.
 previewImage: /assets/uploads/Trust Meter.svg
 previewImageAlt: "Un demi-cercle forme une arche composée de quatre sections : rouge, jaune, bleue et verte. Un émoji triste est placé à gauche de la section rouge, un émoji joyeux à droite de la section verte. Un pointeur est ancré sous le centre de l'arche et désigne la section verte."

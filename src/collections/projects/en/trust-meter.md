@@ -1,7 +1,7 @@
 ---
 translationKey: trust-meter
 title: Trust Meter
-draft: true
+draft: false
 lang: en
 excerpt: The Trust Meter addresses statistical discrimination in AI supported decision making, particularly harms that arise when individuals or groups are out of distribution relative to the data on which AI systems are trained. These risks are especially relevant for marginalized groups, including people with disabilities, whose circumstances are often poorly captured by aggregate data.
 previewImage: /assets/uploads/Trust Meter.svg
