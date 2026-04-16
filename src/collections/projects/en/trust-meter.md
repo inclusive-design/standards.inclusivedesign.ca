@@ -4,7 +4,7 @@ title: Trust Meter
 draft: false
 lang: en
 excerpt: The Trust Meter addresses statistical discrimination in AI supported decision making, particularly harms that arise when individuals or groups are out of distribution relative to the data on which AI systems are trained. These risks are especially relevant for marginalized groups, including people with disabilities, whose circumstances are often poorly captured by aggregate data.
-previewImage: /assets/uploads/Trust Meter.svg
+previewImage: /assets/uploads/Trust Meter.jpg
 previewImageAlt: 'Semi circle creating an arch made up of four sections: red, yellow, blue, green. A sad emoji sits with red on the left, a happy emoji sits with green on the right. A pointer is anchored below the middle of the arch, it is pointing to the green section.'
 logo: ''
 color: green
