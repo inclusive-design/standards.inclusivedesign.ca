@@ -43,5 +43,7 @@ We welcome suggestions, corrections, clarifications, and examples, including:
 
 The public review period end **May 13, 2026**. While not all comments may be incorporated, all feedback will be reviewed and considered.
 
+## Download the Technical Specification
+
 - [Download the Word document](/assets/uploads/trust-meter-technical-specification-march-31-2026.docx)
 - [Make a copy](https://docs.google.com/document/d/1IEPo1DkfqHy-gD5ydMgFlENRMiHwQBew/copy)
