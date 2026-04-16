@@ -1,11 +1,11 @@
 ---
 translationKey: initiatives
 title: Inclusive Standards Initiatives
+lang: en
 excerpt: Discover IDRC's contributions to advancing inclusive standards through draft standards, technical specifications, committees and frameworks. Explore how our initiatives support global committees in shaping standards for accessible and equitable practices.
 previewImage: /assets/uploads/IMG_0204.JPG
 previewImageAlt: A group of diverse people work together. One uses a scooter.
 color: green
-lang: en
 slug: initiatives
 ---
 
@@ -21,11 +21,13 @@ Published in **December 2025**, this standard establishes Canada’s first compr
 
 ## Trust Meter
 
-IDRC is working with stakeholders to develop a new Technical Specification for Standards Council of Canada (SCC) called Trust Meter.
+IDRC is working with stakeholders to develop a new Technical Specification for Standards Council of Canada (SCC) called [Trust Meter](/projects/trust-meter/).
 
 The Trust Meter Technical Specification will support development of an inclusive and balanced data environment, beginning with persons with disabilities and extending to other marginalized groups. The Trust Meter Technical Specification outlines the requirements for notifying AI systems operators when the scenario, group or individual about whom the AI-based decision is made, is out-of-distribution relative to the training set the model is trained on. In such cases, the AI is unreliable to make these decisions.
 
 The Trust Meter project is being advanced under SCC’s AI and Data Governance (AIDG) Program. For more information about this project, please contact Vera Roberts ([vroberts@ocadu.ca](mailto:vroberts@ocadu.ca)).
+
+[Learn more](/projects/trust-meter/)
 
 ## Equitable Communications Draft Standard
 

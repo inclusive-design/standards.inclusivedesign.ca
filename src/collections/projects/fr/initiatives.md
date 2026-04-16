@@ -1,11 +1,11 @@
 ---
 translationKey: initiatives
 title: initiatives de normes inclusives
+lang: fr
 excerpt: Découvrez les contributions du IDRC à l’avancement des normes inclusives par le biais de projets de normes, de spécifications techniques, de comités et de cadres. Découvrez comment nos initiatives aident les comités mondiaux à élaborer des normes pour des pratiques accessibles et équitables.
 previewImage: /assets/uploads/IMG_0204.JPG
 previewImageAlt: Un groupe de personnes diverses travaille ensemble. L'une d'entre elles utilise un scooter.
 color: green
-lang: fr
 slug: initiatives
 ---
 
@@ -23,11 +23,13 @@ Elle est maintenant accessible au public par l’entremise de [**Normes d’acce
 
 ## Indicateur de confiance
 
-Le IDRC élabore actuellement une nouvelle spécification technique pour le Conseil canadien des normes (CCN) appelée Indicateur de confiance.
+Le IDRC élabore actuellement une nouvelle spécification technique pour le Conseil canadien des normes (CCN) appelée [Indicateur de confiance](/fr/projets/indicateur-de-confiance/).
 
 La spécification technique du Indicateur de confiance soutiendra le développement d’un environnement de données inclusif et équilibré, en commençant par les personnes en situation de handicap et en s’étendant à d’autres groupes marginalisés. La spécification technique Indicateur de confiance décrit les exigences pour aviser les opérateurs de systèmes d'IA lorsque le scénario, le groupe ou l'individu sur lequel la décision basée sur l'IA est prise est hors distribution par rapport à l'ensemble de formation sur lequel le modèle est formé. Dans de tels cas, l’IA n'est pas fiable pour prendre ces décisions.
 
 Le projet Indicateur de confiance est développé dans le cadre du programme du gouvernance d'IA et des données du CN. Pour plus d'informations sur ce projet, veuillez contacter Vera Roberts [vroberts@ocadu.ca](mailto:vroberts@ocadu.ca)
+
+[Apprendre encore plus](/fr/projets/indicateur-de-confiance/)
 
 ## Projet de norme sur les communications équitables
 
