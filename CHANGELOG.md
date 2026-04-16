@@ -1,5 +1,17 @@
 # Changelog
 
+## [2026.4.5](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.4.4...v2026.4.5) (2026-04-16)
+
+
+### Bug Fixes
+
+* add uploads to passthrough copy ([#480](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/480)) ([f46cb13](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/f46cb1335d9e3869fd9401298a9a770ce9f71b8b))
+
+
+### Continuous Integration
+
+* change release process ([#481](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/481)) ([10f68ca](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/10f68ca580b55ff0d0a1f47fec0f3f9fdb0c9818))
+
 ## [2026.04.14.1654.7735b8b](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/2026.04.14.1445.1deff0d...2026.04.14.1654.7735b8b)
 
 ### Bug Fixes
