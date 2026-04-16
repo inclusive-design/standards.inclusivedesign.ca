@@ -92,6 +92,7 @@ export default function eleventy(eleventyConfig) {
 	});
 
 	eleventyConfig.addPassthroughCopy({'src/assets/fonts': 'assets/fonts'});
+	eleventyConfig.addPassthroughCopy({'src/assets/uploads': 'assets/uploads'});
 	eleventyConfig.addPassthroughCopy({'src/assets/icons': '/'});
 
 	eleventyConfig.addPlugin(IdAttributePlugin);
