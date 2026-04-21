@@ -43,5 +43,7 @@ Nous accueillons favorablement les suggestions, corrections, clarifications et e
 
 La période d’examen public **prend fin le 13 mai 2026**. Bien que tous les commentaires ne puissent pas être intégrés, l’ensemble des rétroactions reçues sera examiné avec attention.
 
+## Télécharger la spécification technique
+
 -  [Télécharger le document Word](/assets/uploads/specification-technique-indicateur-de-confiance-31-mars-2026.docx) 
 - [Créer une copie](https://docs.google.com/document/d/14yonFUpyri1pSY6OfY-RCIO2U6XXokUy/copy)
