@@ -2,9 +2,9 @@
 translationKey: crip-time
 title: Manage access conflicts by encouraging "Crip Time"
 uuid: 368de0ba
-draft: false
+draft: true
 quick: |-
-  - Understnad what “Crip Time” is and share with other members before scheduling meeting. (Crip Time is a concept from disability justice that challenges rigid, normative understandings of time. It recognizes that disabled people may experience time differently due to:  chronic illness or pain, fatigue and energy variability, medical needs, cognitive processing differences, accessibility barriers)
+  - Understand what “Crip Time” is and share with other members before scheduling meeting. (Crip Time is a concept from disability justice that challenges rigid, normative understandings of time. It recognizes that disabled people may experience time differently due to:  chronic illness or pain, fatigue and energy variability, medical needs, cognitive processing differences, accessibility barriers)
   - Clearly state that flexibility is available while scheduling meetings 
   - Allow flexible timelines and pacing to reduce burnout and consultation fatigue
   - Offer multiple session times or asynchronous options for meetings
