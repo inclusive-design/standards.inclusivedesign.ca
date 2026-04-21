@@ -51,7 +51,7 @@ You can use the guidelines in the following two ways:
 ####
 [Explore by stages and processes](/guidelines/processes/)
 
-Browse by standards development process and select a stage first, then choose a process within that stage. For each process, you’ll find practical solutions to make the standards development process more inclusive, along with the specific barriers these solutions can help address.
+Browse by standards development process and select a stage, then choose a process within that stage. For each process, you’ll find practical solutions to make the standards development process more inclusive, along with the specific barriers these solutions can help address.
 
 ### Browse by Barriers
 
