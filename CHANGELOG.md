@@ -1,5 +1,12 @@
 # Changelog
 
+## [2026.4.6](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.4.5...v2026.4.6) (2026-04-21)
+
+
+### Bug Fixes
+
+* update icons used in guideline pages ([#484](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/484)) ([6342b6c](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/6342b6c59cc9e83acc9cbd8f0ef2dda9123554d3))
+
 ## [2026.4.5](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.4.4...v2026.4.5) (2026-04-16)
 
 
