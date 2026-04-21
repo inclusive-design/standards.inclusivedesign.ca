@@ -1,6 +1,6 @@
 ---
 translationKey: crip-time
-title: Manage access bonflicts by encouraging "Crip Time"
+title: Manage access conflicts by encouraging "Crip Time"
 uuid: 368de0ba
 draft: false
 quick: |-
@@ -16,8 +16,18 @@ quick: |-
 longterm: ''
 relatedActions:
   - 594d9a28
-moreInformation: 'Recognizing Crip Time Benefits All Employees :'
+moreInformation: ''
 examples: ''
-processes: []
-barriers: []
+processes:
+  - 1130eb69
+  - 3eb6bf1e
+  - b612d304
+barriers:
+  - 7883cff4
+  - 81182d8d
+  - 9dc55c33
+  - e0642a56
+  - 38b1390b
+  - 92b21925
+  - fc64e21f
 ---
