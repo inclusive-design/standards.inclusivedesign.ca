@@ -70,7 +70,8 @@ body {
 }
 
 .process .banner__heading svg{
-    stroke-width: 2;
+    block-size: 3.75rem;
+    inline-size: 3.75rem;
 }
 
 .banner__image {

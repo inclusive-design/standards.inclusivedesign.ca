@@ -12,6 +12,11 @@
     position: relative;
 }
 
+.card.action svg{
+    block-size: 3.75rem;
+    inline-size: 3.75rem;
+}
+
 .card.actions,
 .card.barrier {
     padding-block-start: unset;
@@ -44,11 +49,12 @@
 .card.process svg {
 	position: absolute;
 	right: calc(28 / 16 * 1rem);
-    stroke-width: 2;
 	top: calc(28 / 16 * 1rem);
 }
 
 .card.process svg.icon {
+    block-size: 3.75rem;
+    inline-size: 3.75rem;
 	left: calc(28 / 16 * 1rem);
 	right: unset;
 }
