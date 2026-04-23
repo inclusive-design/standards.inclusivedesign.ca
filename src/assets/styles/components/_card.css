@@ -169,9 +169,6 @@ body:not([class*="fl-theme"]),
     fill:none;
     height: 2rem;
     min-width: 2rem;
-    stroke-linecap:round;
-    stroke-linejoin:round;
-    stroke-width: 2;
 }
 
 .card__body,
