@@ -1,18 +1,16 @@
 ---
 translationKey: crip-time
-title: Manage access conflicts by encouraging "Crip Time"
+title: Be flexible with meeting time and timelines
 uuid: 368de0ba
 draft: true
 quick: |-
-  - Understand what “Crip Time” is and share with other members before scheduling meeting. (Crip Time is a concept from disability justice that challenges rigid, normative understandings of time. It recognizes that disabled people may experience time differently due to:  chronic illness or pain, fatigue and energy variability, medical needs, cognitive processing differences, accessibility barriers)
-  - Clearly state that flexibility is available while scheduling meetings 
-  - Allow flexible timelines and pacing to reduce burnout and consultation fatigue
-  - Offer multiple session times or asynchronous options for meetings
-  - Build in breaks and buffer time during meetings
-  - Avoid back-to-back meetings
-  - Combine live, asynchronous, and recorded formats to share after the meetings
-  - Allow contributions via text, audio, or video during all meetings
-  - Use deadline ranges instead of fixed cutoffs for any document submissions
+  - Provide a range of possible meeting times instead of a single fixed time
+  - When sending a meeting invite, clearly say that flexible timing is available.
+  - During any co-working sessions, let people work at their own pace. Avoid rushing timelines so people don't burn out.
+  - Allow contributions via chat or emails during all meetings
+  - Include breaks and extra time during meetings and don't pack them too tightly.
+  - Avoid scheduling meetings back to back.
+  - Record meetings and share them afterward so people can catch up in their own time.
 longterm: ''
 relatedActions:
   - 594d9a28
