@@ -1,0 +1,53 @@
+{% extends "layouts/base.njk" %}
+
+{% set pageType = 'guidelines' %}
+
+{% block content %}
+<nav aria-labelledby="guidelines-sitemap-menu" class="flow sidebar-menu">
+    <h2 id="guidelines-site-mapmenu">{% __ 'toc' %}</h2>
+    <inclusive-disclosure>
+        <button aria-controls="{{ title | slugify }}-menu">
+            <h2 id="guidelines-menu-mobile">{% __ 'toc' %}</h2>
+        </button>
+        <div content id="{{ title | slugify }}-menu">
+            <div id="toc">
+                <ul role="list" class="flow"></ul>
+            </div>
+        </div>
+    </inclusive-disclosure>
+</nav>
+<article class="article flow">
+	<h2>{% __ 'stages-and-processes' %}</h2>
+	{% for stage in collections.stages_en %}
+	<h3>
+		{{ stage.data.title }}</h3>
+	</h3>
+	{% set processes = collections.processes_en | findAll('data.stage', stage.data.uuid) %}
+	<ul>
+		{% for process in processes %}
+		<li><a href="{{ process.url }}">{{ process.data.title }}</a></li>
+		{% endfor %}
+	</ul>
+	{% endfor %}
+
+	<h2>{% __ 'barriers' %}</h2>
+
+	<ul>
+	{% for barrier in collections.barriers_en %}
+		<li>
+			<a href="{{ barrier.url }}">{{ barrier.data.title }}</a>
+		</li>
+	{% endfor %}
+	</ul>
+
+	<h2>{% __ 'actions' %}</h2>
+
+	<ul>
+	{% for action in collections.actions_en %}
+		<li>
+			<a href="{{ action.url }}">{{ action.data.title }}</a>
+		</li>
+	{% endfor %}
+	</ul>
+</article>
+{% endblock %}
