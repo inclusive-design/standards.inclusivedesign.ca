@@ -4,10 +4,10 @@ title: Be flexible with meeting time and timelines
 uuid: 368de0ba
 draft: true
 quick: |-
-  - Provide a range of possible meeting times instead of a single fixed time
+  - Provide a range of possible meeting times instead of a single fixed time.
   - When sending a meeting invite, clearly say that flexible timing is available.
   - During any co-working sessions, let people work at their own pace. Avoid rushing timelines so people don't burn out.
-  - Allow contributions via chat or emails during all meetings
+  - Broaden participation beyond just speaking on mic and allow alternative ways of contribution during meetings (live chats, shared documents, collaborative notes etc)
   - Include breaks and extra time during meetings and don't pack them too tightly.
   - Avoid scheduling meetings back to back.
   - Record meetings and share them afterward so people can catch up in their own time.
