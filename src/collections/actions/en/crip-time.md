@@ -2,7 +2,7 @@
 translationKey: crip-time
 title: Be flexible with meeting time and timelines
 uuid: 368de0ba
-draft: true
+draft: false
 quick: |-
   - Provide a range of possible meeting times instead of a single fixed time.
   - When sending a meeting invite, clearly say that flexible timing is available.
