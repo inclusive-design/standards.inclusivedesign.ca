@@ -67,6 +67,9 @@
 	"actions-quick": "Quick Actions",
 	"actions-related-actions": "Related Actions",
 	"stages": "Stages",
+	"stages-and-processes": "Stages and Processes",
 	"next": "Next",
-	"previous": "Previous"
+	"previous": "Previous",
+	"processes": "Processes",
+	"actions": "Actions"
 }
