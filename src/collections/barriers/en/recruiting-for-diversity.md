@@ -1,6 +1,6 @@
 ---
 translationKey: recruiting-for-diversity
-title: Recruiting for diversity
+title: Lack of recruitment for diversity
 uuid: dbf56f15
 draft: false
 problem: |-
