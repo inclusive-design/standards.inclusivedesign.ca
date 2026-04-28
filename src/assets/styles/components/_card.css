@@ -168,10 +168,9 @@ body:not([class*="fl-theme"]),
 .card__heading-image svg {
     fill:none;
     height: 2rem;
-    min-width: 2rem;
-    stroke-linecap:round;
-    stroke-linejoin:round;
-    stroke-width: 2;
+    min-height: 32px;
+    min-width: 32px;
+    width: 2rem;
 }
 
 .card__body,
