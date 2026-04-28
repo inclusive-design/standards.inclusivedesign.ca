@@ -3,7 +3,7 @@ import {__, generatePermalink} from 'eleventy-plugin-fluid';
 export default {
 	eleventyComputed: {
 		eleventyNavigation(data) {
-			if (data.order === 0) {
+			if (data.order === 0 || data.order === null) {
 				return false;
 			}
 

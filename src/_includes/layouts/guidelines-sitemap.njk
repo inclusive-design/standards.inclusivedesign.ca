@@ -1,0 +1,46 @@
+{% extends "layouts/base.njk" %}
+
+{% set pageType = 'guidelines-sitemap' %}
+
+{% block content %}
+<article class="article">
+	<div class="wrapper flow">
+	<h2>{% __ 'stages-and-processes' %}</h2>
+	<div class="columns flow">
+	{% for stage in collections['stages_' + lang] %}
+	<div class="flow">
+		<h3>
+		{{ stage.data.title }}</h3>
+	</h3>
+	{% set processes = collections['processes_' + lang] | findAll('data.stage', stage.data.uuid) %}
+	<ul role="list">
+		{% for process in processes %}
+		<li><a href="{{ process.url }}">{{ process.data.title }}</a></li>
+		{% endfor %}
+	</ul>
+	</div>
+	{% endfor %}
+	</div>
+
+	<h2>{% __ 'barriers' %}</h2>
+
+	<ul role="list" class="columns">
+		{% for barrier in collections['barriers_' + lang] %}
+		<li>
+			<a href="{{ barrier.url }}">{{ barrier.data.title }}</a>
+		</li>
+	{% endfor %}
+	</ul>
+
+	<h2>{% __ 'actions' %}</h2>
+
+	<ul role="list" class="columns">
+		{% for action in collections['actions_' + lang] %}
+		<li>
+			<a href="{{ action.url }}">{{ action.data.title }}</a>
+		</li>
+	{% endfor %}
+	</ul>
+	</div>
+</article>
+{% endblock %}

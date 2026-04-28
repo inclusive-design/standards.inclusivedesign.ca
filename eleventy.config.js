@@ -41,7 +41,12 @@ export default function eleventy(eleventyConfig) {
 	for (const lang of ['en', 'fr']) {
 		eleventyConfig.addCollection(`processes_${lang}`, collection => collection.getFilteredByGlob(`src/collections/processes/${lang}/*.md`).toSorted((a, b) => a.data.order - b.data.order));
 
-		eleventyConfig.addCollection(`barriers_${lang}`, collection => collection.getFilteredByGlob(`src/collections/barriers/${lang}/*.md`));
+		eleventyConfig.addCollection(
+			`barriers_${lang}`,
+			collection => collection
+				.getFilteredByGlob(`src/collections/barriers/${lang}/*.md`)
+				.toSorted((a, b) => a.data.title.localeCompare(b.data.title)),
+		);
 
 		eleventyConfig.addCollection(`pages_${lang}`, collection => collection.getFilteredByGlob(`src/collections/pages/${lang}/*.md`));
 
@@ -51,7 +56,12 @@ export default function eleventy(eleventyConfig) {
 
 		eleventyConfig.addCollection(`resources_${lang}`, collection => collection.getFilteredByGlob(`src/collections/resources/${lang}/*.md`));
 
-		eleventyConfig.addCollection(`actions_${lang}`, collection => collection.getFilteredByGlob(`src/collections/actions/${lang}/*.md`));
+		eleventyConfig.addCollection(
+			`actions_${lang}`,
+			collection => collection
+				.getFilteredByGlob(`src/collections/actions/${lang}/*.md`)
+				.toSorted((a, b) => a.data.title.localeCompare(b.data.title)),
+		);
 
 		eleventyConfig.addCollection(`topics_${lang}`, collection => collection.getFilteredByGlob(`src/collections/topics/${lang}/*.md`));
 
