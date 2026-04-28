@@ -3,7 +3,7 @@
 	"description": "Website for IDRC standards development work.",
 	"main": "eleventy.config.js",
 	"type": "module",
-	"version": "2026.4.6",
+	"version": "2026.4.7",
 	"scripts": {
 		"build": "npm-run-all -l clean -s build:eleventy",
 		"build:eleventy": "eleventy",
