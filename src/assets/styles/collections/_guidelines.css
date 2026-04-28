@@ -141,11 +141,12 @@
     align-items: center;
     display: flex;
     gap: 1.3rem;
-}
 
-.barrier h2 svg {
-    block-size: 5rem;
-    inline-size: 5rem;
+    svg {
+        block-size: 5rem;
+        fill: var(--fl-fgColor, --color-black);
+        inline-size: 5rem;
+    }
 }
 
 .action-processes {
