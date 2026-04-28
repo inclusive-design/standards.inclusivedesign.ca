@@ -1,5 +1,5 @@
 ---
-translationKey: sitemap
+translationKey: site-map
 title: Site Map
 shortTitle: ''
 draft: false
