@@ -1,5 +1,23 @@
 # Changelog
 
+## [2026.4.7](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.4.6...v2026.4.7) (2026-04-28)
+
+
+### Features
+
+* add guidelines sitemap ([#490](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/490)) ([970b124](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/970b124998286c96146a27744ffba91e6e887ed5))
+
+
+### Bug Fixes
+
+* remove Alpine reference ([#495](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/495)) ([d206ace](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/d206ace43f646171258ffabf6a7762f2f8b6ff09))
+* update guideline icons ([#491](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/491)) ([9bc8f66](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/9bc8f66ef8fe9fa507ad43ee6a073cf2e99cd11c))
+
+
+### Miscellaneous Chores
+
+* release 2026.4.7 ([de4919b](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/de4919b3ccada5213d9ab0d2b113f8a90e9a978d))
+
 ## [2026.4.6](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.4.5...v2026.4.6) (2026-04-21)
 
 
