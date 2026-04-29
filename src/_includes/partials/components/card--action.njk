@@ -7,7 +7,7 @@
         </h3>
         {% set processes = action.data.processes %}
         <div class="action-processes {{ 'only-two' if processes | length == 2 }}">
-                {% __ 'actions-for' %}
+                {% __ 'action-for' %}
             {% for processId in processes %}
                 {% if processes | length > 1 %}
                 {{ 'and' if loop.last }}
