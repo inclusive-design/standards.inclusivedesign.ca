@@ -130,8 +130,8 @@ const search = async (pagefind, options) => {
 		return [];
 	}
 
-	const search = await pagefind.search(term);
-	const results = await render(search, term, page, options_);
+	const searchResults = await pagefind.search(term);
+	const results = await render(searchResults, term, page, options_);
 
 	if (options_.cloak) {
 		document.querySelector(options_.resultsContainer).classList.remove(options_.cloak);
