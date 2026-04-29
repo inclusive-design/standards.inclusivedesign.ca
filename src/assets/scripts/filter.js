@@ -1,3 +1,4 @@
+/* eslint-disable import-x/no-unassigned-import */
 import '@zachleat/filter-container';
 
 window.addEventListener('load', () => {
@@ -6,17 +7,16 @@ window.addEventListener('load', () => {
 });
 
 const filters = document.querySelector('#filters');
-const checkedFilterOptions = filters.querySelectorAll('input[type=\'checkbox\']');
-for (const checkbox of checkedFilterOptions) {
+const filterOptions = filters.querySelectorAll('input[type=\'checkbox\']');
+for (const checkbox of filterOptions) {
 	checkbox.addEventListener('click', () => {
-		renderFilterTags();
+		renderFilterTags(filters);
 	});
 }
 
 const renderFilterTags = () => {
 	const filterTags = document.querySelector('#filter-tags');
 	filterTags.innerHTML = '';
-	const filters = document.querySelector('#filters');
 	const checkedFilterOptions = filters.querySelectorAll('input[type=\'checkbox\']:checked');
 	if (checkedFilterOptions.length > 0) {
 		const filterApplied = document.querySelector('#filter-applied');
