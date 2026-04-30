@@ -1,0 +1,27 @@
+{% extends "layouts/base.njk" %}
+
+{% set pageType = 'actions' %}
+
+{% block content %}
+<div class="actions-container">
+    <filter-container class="wrapper" oninit filter-mode="all" filter-mode-stages="any" filter-mode-processes="any" data-paginate-results="10">
+        {% include "partials/components/action-filters.njk" %}
+        <div>
+            <div class="actions-head">
+                <h3 id="filtered-results" aria-live="polite" data-filter-results="{% __ 'filtered-actions' %}">{% __ 'actions' %}</h3>
+            </div>
+            <div class="filter-tags">
+                <h4 id="filter-applied">{% __ 'applied-filters' %}</h4>
+                <div id="filter-tags">
+                </div>
+            </div>
+            <div class="actions">
+                {% for action in collections['actions_' + lang] %}
+                    {% include "partials/components/card--action.njk" %}
+                {% endfor %}
+            </div>
+        </div>
+        {% include "partials/components/pagination.njk" %}
+    </filter-container>
+</div>
+{% endblock %}
