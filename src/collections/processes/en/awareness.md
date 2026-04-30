@@ -14,4 +14,4 @@ Inclusive public awareness involves clearly sharing information about the draft 
 
 ## Actions
 
-Explore actions for public awareness :
+Explore actions for public awareness:

@@ -1,15 +1,18 @@
-.barrier .banner,
-.barriers .banner,
-.guidelines .banner,
-.guidelines-sitemap .banner,
-.process .banner,
-.processes .banner {
-	background-color: var(--fl-bgColor, var(--color-indigo-200));
-	color: var(--fl-fgColor, var(--color-black));
-}
-
 [type="search"]::-webkit-search-cancel-button {
 	appearance: none;
+}
+
+.actions,
+.barrier,
+.barriers,
+.guidelines,
+.guidelines-sitemap,
+.process,
+.processes {
+	.banner {
+		background-color: var(--fl-bgColor, var(--color-indigo-200));
+		color: var(--fl-fgColor, var(--color-black));
+	}
 }
 
 .guidelines-search .banner {
@@ -249,13 +252,15 @@
 	}
 }
 
-.barriers-container {
+.barriers-container,
+.actions-container {
 	background-color: var(--fl-bgColor, var(--color-indigo-100));
 	padding-block: var(--common-block-padding);
 	padding-inline: var(--common-inline-padding);
 }
 
-.barriers-head {
+.barriers-head,
+.actions-head {
 	display: flex;
 	justify-content: space-between;
 }

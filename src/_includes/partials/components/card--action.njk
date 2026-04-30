@@ -1,4 +1,17 @@
-<div class="card action bg-indigo-700">
+{% set filterData = { stages: [], processes: [] } %}
+
+{% set relatedStageUuids = [] %}
+{% set relatedProcessUuids = action.data.processes %}
+
+{% for relatedProcessUuid in relatedProcessUuids %}
+	{% set relatedProcess = collections['processes_' + lang] | find('data.uuid', relatedProcessUuid) %}
+	{% set relatedStageUuids = relatedStageUuids.concat([relatedProcess.data.stage]) %}
+{% endfor %}
+
+{% set filterData = filterData | objectArrayPush("stages", relatedStageUuids) %}
+{% set filterData = filterData | objectArrayPush("processes", relatedProcessUuids) %}
+
+<div class="card action bg-indigo-700" data-filter-stages="{{ filterData.stages | join(',') }}" data-filter-processes="{{ filterData.processes | join(',') }}">
     <div class="card__content">
         <h3>
             <a class="card__title" href="{{ action.url }}">
