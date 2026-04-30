@@ -1,12 +1,12 @@
 ---
-translationKey: site-map
-title: Site Map
+translationKey: browse
+title: Browse
 shortTitle: ''
 draft: false
 lang: en
-order: 4
+order: 3
 parent: guidelines
-layout: layouts/guidelines-sitemap
+layout: layouts/base
 excerpt: ''
 previewImage: ''
 previewImageAlt: ''
@@ -15,6 +15,7 @@ bannerText: ''
 bannerImage: ''
 bannerImageAlt: ''
 outro: ''
+permalink: false
 ---
 
 This space intentionally left blank.

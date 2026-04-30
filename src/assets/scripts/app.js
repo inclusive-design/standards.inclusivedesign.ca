@@ -64,10 +64,19 @@ documentReady(() => {
 	}
 });
 
+document.addEventListener('click', event => {
+	if (event.target.closest('.navigation__button')) {
+		const button = event.target.closest('.navigation__button');
+		const ariaExpanded = button.getAttribute('aria-expanded') === 'true' || false;
+		button.setAttribute('aria-expanded', !ariaExpanded);
+	}
+});
+
 /**
  * Based on code by Chris Ferdinandi, released under the MIT license.
  * @see https://gomakethings.com/web-components-vs.-state-based-ui/
  */
+
 customElements.define(
 	'inclusive-disclosure',
 	class extends HTMLElement {

@@ -11,10 +11,21 @@ export default {
 				key: data.translationKey,
 				title: data.shortTitle === '' ? data.title : data.shortTitle,
 				order: data.order,
+				parent: data.parent || undefined,
 			};
 		},
 		permalink(data) {
-			data.slug = data.parent ? `${__(data.parent, {}, data)}/${data.page.fileSlug}` : data.page.fileSlug;
+			if (data.translationKey === 'browse') {
+				return false;
+			}
+
+			let parent = false;
+
+			if (data.parent) {
+				parent = data.parent === 'browse' ? 'guidelines' : data.parent;
+			}
+
+			data.slug = parent ? `${__(parent, {}, data)}/${data.page.fileSlug}` : data.page.fileSlug;
 			return generatePermalink(data, 'pages');
 		},
 	},

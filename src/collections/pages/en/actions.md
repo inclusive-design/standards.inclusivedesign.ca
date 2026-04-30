@@ -1,10 +1,10 @@
 ---
 translationKey: actions
 title: Browse by Actions
-shortTitle: Actions
+shortTitle: Browse Actions
 draft: false
-order: 0
-parent: guidelines
+order: 1
+parent: browse
 layout: layouts/actions
 excerpt: ''
 previewImage: ''

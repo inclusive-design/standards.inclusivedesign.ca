@@ -19,6 +19,7 @@
     --color-blue: hsl(194deg 60% 59% / 100%);
     --color-green: hsl(163deg 35% 49% / 100%);
     --color-yellow: hsl(42deg 92% 70% / 100%);
+    --color-translucent-yellow: hsl(42deg 92% 70% / 50%);
     --color-orange: hsl(25deg 76% 64% / 100%);
     --color-red: hsl(359deg 64% 63% / 100%);
     --color-guidelines-blue: hsl(179deg 54% 34% / 100%);
