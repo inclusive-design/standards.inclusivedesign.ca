@@ -285,6 +285,7 @@ footer a[data-brand] {
     }
 
     li:has([aria-current="page"]) .navigation__button {
+    	background-color: var(--fl-bgColor, var(--color-indigo-800));
     	text-decoration: underline;
 		text-underline-offset: 0.125rem;
     }
