@@ -31,7 +31,8 @@
           {% set breadcrumbLinks = breadcrumbLinks.concat({ 'title' : linkTitle, 'url' : breadcrumb.url }) %}
           {% endif %}
           {% if loop.last %}
-              {% set breadcrumbLinks = breadcrumbLinks.concat({ 'title' : title, 'url' : url }) %}
+              {% set lastLinkTitle = shortTitle if shortTitle else title %}
+              {% set breadcrumbLinks = breadcrumbLinks.concat({ 'title' : lastLinkTitle, 'url' : url }) %}
           {% endif %}
           {% endfor %}
           {% include "partials/components/breadcrumb.njk" %}
