@@ -79,6 +79,15 @@ document.addEventListener('click', event => {
 	}
 });
 
+document.addEventListener('keyup', event => {
+	if (event.key === 'Escape') {
+		const buttons = document.querySelectorAll('.navigation__button');
+		for (const button of buttons) {
+			button.setAttribute('aria-expanded', false);
+		}
+	}
+});
+
 const handleDisclosureBlur = event => {
 	const dropdown = event.target.closest('[data-dropdown]');
 	const button = dropdown.querySelector('.navigation__button');
