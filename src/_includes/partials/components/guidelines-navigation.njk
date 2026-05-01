@@ -3,7 +3,7 @@
         <div class="navigation__brand">
         	{% set baseUrl %}/{% if lang != 'en' %}{{ lang }}/{% endif %}{% __ 'guidelines-slug' %}/{% endset %}
             <a rel="home" href="{{ baseUrl | url }}" aria-label="{% __ 'inclusive-standards-guidelines' %}">
-            	{% include 'svg/guidelines.svg' %}
+            	{% include 'svg/guidelines-'+ lang + '.svg' %}
             </a>
             <button class="borderless" id="navigation-toggle" aria-expanded="false">{% __ 'menu' %} {% include 'svg/menu.svg' %} {% include 'svg/menu-close.svg' %} </button>
         </div>
