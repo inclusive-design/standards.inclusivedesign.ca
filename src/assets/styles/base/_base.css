@@ -79,10 +79,25 @@ body {
     padding-block-start: var(--common-block-padding);
 }
 
+.banner__nav.wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-block-start: 3rem;
+}
+
 @media (width >= 70.875rem) {
     .banner .wrapper {
         flex-direction: row;
         gap: 8.25rem;
+    }
+
+    .banner__nav.wrapper {
+        display: flex;
+        flex-direction: row;
+        gap: 1.25rem;
+        min-height: 0;
     }
 
     .banner__image {

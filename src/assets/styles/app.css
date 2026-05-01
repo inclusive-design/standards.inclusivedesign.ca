@@ -26,6 +26,7 @@
 @import url("./components/_project-panel.css");
 @import url("./components/_select.css");
 @import url("./components/_tag.css");
+@import url("./components/_link-button.css");
 
 /* Collections */
 @import url("./collections/_projects.css");
