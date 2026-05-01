@@ -47,6 +47,24 @@
         </div>
         {% endif %}
       </div>
+        {% if pageType == 'guidelines' %}
+          <div class="wrapper banner__nav">
+            {% set link = (collections['pages_' + lang] | find('data.translationKey', 'processes')).url %}
+            {% set buttonLabel = 'explore-processes' %}
+            {% set isPrimary = true %}
+            {% include "partials/components/link-button.njk" %}
+
+            {% set link = (collections['pages_' + lang] | find('data.translationKey', 'barriers')).url %}
+            {% set buttonLabel = 'browse-barriers' %}
+            {% set isPrimary = false %}
+            {% include "partials/components/link-button.njk" %}
+
+            {% set link = (collections['pages_' + lang] | find('data.translationKey', 'actions')).url %}
+            {% set buttonLabel = 'browse-actions' %}
+            {% set isPrimary = false %}
+            {% include "partials/components/link-button.njk" %}
+          </div>
+        {% endif %}
     </div>
     {% endblock %}
     <div class="content">
