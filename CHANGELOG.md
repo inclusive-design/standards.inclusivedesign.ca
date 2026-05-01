@@ -1,5 +1,19 @@
 # Changelog
 
+## [2026.5.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.4.7...v2026.5.0) (2026-05-01)
+
+
+### Features
+
+* add browse actions page, update guidelines page ([#508](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/508)) ([8718d44](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/8718d44d11165b88f7eed8574423eefae40d8868))
+* add guidelines-specific navigation bar (resolves [#507](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/507)) ([#510](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/510)) ([8e769a1](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/8e769a1ef29f4750fd0987907d57449b477b12b8))
+* add quick links in guidelines page (resolves [#506](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/506)) ([#511](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/511)) ([9317e2d](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/9317e2d67fed230fd540d40cb4623359c74dcc93))
+
+
+### Bug Fixes
+
+* update actions-for (resolves [#502](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/502)) ([#503](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/503)) ([0e16730](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/0e1673042f8be6b8dec1ab64ae6ffe89c74645c3))
+
 ## [2026.4.7](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.4.6...v2026.4.7) (2026-04-28)
 
 
