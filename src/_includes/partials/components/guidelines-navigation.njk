@@ -1,0 +1,30 @@
+<nav class="navigation" aria-label="{% __ 'main-menu' %}">
+    <div class="navigation__wrapper">
+        <div class="navigation__brand">
+        	{% set baseUrl %}/{% if lang != 'en' %}{{ lang }}/{% endif %}{% __ 'guidelines-slug' %}/{% endset %}
+            <a rel="home" href="{{ baseUrl | url }}" aria-label="{% __ 'inclusive-standards-guidelines' %}">
+            	{% include 'svg/guidelines-'+ lang + '.svg' %}
+            </a>
+            <button class="borderless" id="navigation-toggle" aria-expanded="false">{% __ 'menu' %} {% include 'svg/menu.svg' %} {% include 'svg/menu-close.svg' %} </button>
+        </div>
+        <div class="navigation__menu" id="navigation-menu">
+            {% set navItems = collections['pages_' + lang] | eleventyNavigation('guidelines') %}
+            <ul>
+                {% for item in navItems %}
+                <li{% if item.children.length > 0 %} data-dropdown{% endif %}>
+                    {% if item.children.length > 0 %}
+                    <button class="navigation__button" aria-expanded="false">{{ item.title }} {% include 'svg/disclosure-arrow.svg' %}</button>
+                    <ul>
+                    {% for child in item.children %}
+                    	<li><a class="navigation__link" href="{{ child.url }}"{% if page.url == child.url %} aria-current="page"{% endif %}>{{ child.title }}</a></li>
+                    {% endfor %}
+                    </ul>
+                    {% else %}
+                    <a class="navigation__link" href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+                    {% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</nav>

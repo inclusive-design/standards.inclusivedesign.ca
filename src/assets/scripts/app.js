@@ -64,10 +64,55 @@ documentReady(() => {
 	}
 });
 
+document.addEventListener('click', event => {
+	if (event.target.closest('.navigation__button')) {
+		const button = event.target.closest('.navigation__button');
+		const ariaExpanded = button.getAttribute('aria-expanded') === 'true' || false;
+		button.setAttribute('aria-expanded', !ariaExpanded);
+	}
+
+	if (!event.target.closest('[data-dropdown]')) {
+		const buttons = document.querySelectorAll('.navigation__button');
+		for (const button of buttons) {
+			button.setAttribute('aria-expanded', false);
+		}
+	}
+});
+
+document.addEventListener('keyup', event => {
+	if (event.key === 'Escape') {
+		const buttons = document.querySelectorAll('.navigation__button');
+		for (const button of buttons) {
+			button.setAttribute('aria-expanded', false);
+		}
+	}
+});
+
+const handleDisclosureBlur = event => {
+	const dropdown = event.target.closest('[data-dropdown]');
+	const button = dropdown.querySelector('.navigation__button');
+	if (!event.relatedTarget.closest('[data-dropdown]')) {
+		button.setAttribute('aria-expanded', false);
+	}
+};
+
+const menuButtons = document.querySelectorAll('.navigation__button');
+
+for (const button of menuButtons) {
+	button.addEventListener('blur', event => handleDisclosureBlur(event));
+}
+
+const menuItems = document.querySelectorAll('[data-dropdown] a');
+
+for (const menuItem of menuItems) {
+	menuItem.addEventListener('blur', event => handleDisclosureBlur(event));
+}
+
 /**
  * Based on code by Chris Ferdinandi, released under the MIT license.
  * @see https://gomakethings.com/web-components-vs.-state-based-ui/
  */
+
 customElements.define(
 	'inclusive-disclosure',
 	class extends HTMLElement {

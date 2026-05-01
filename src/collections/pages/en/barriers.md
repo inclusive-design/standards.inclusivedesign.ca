@@ -1,10 +1,10 @@
 ---
 translationKey: barriers
 title: Browse by Barriers
-shortTitle: Barriers
+shortTitle: Browse Barriers
 draft: false
-order: 0
-parent: guidelines
+order: 2
+parent: browse
 layout: layouts/barriers
 excerpt: ''
 previewImage: ''

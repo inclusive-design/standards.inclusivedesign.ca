@@ -3,7 +3,7 @@ translationKey: guidelines
 title: Guidelines for Accessibility and Inclusion in Standards Development
 shortTitle: Guidelines
 draft: false
-order: 0
+order: 4
 layout: layouts/guidelines
 excerpt: ''
 previewImageAlt: ''
@@ -63,7 +63,7 @@ Visit the barriers library to see a list of barriers faced by Standards Developm
 
 #### [Browse actions](/guidelines/actions/)
 
-Visit the barriers library to see a list of actions to make Standards Development  Processes more inclusive, organized by the 5 core stages covering 18 processes or topic areas.
+Visit the actions library to see a list of actions to make Standards Development Processes more inclusive, organized by the 5 core stages covering 18 processes or topic areas.
 
 ## Find what you need
 

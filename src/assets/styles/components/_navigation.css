@@ -42,7 +42,8 @@ a.skip {
     width: 100%;
 }
 
-a[rel="home"] {
+a[rel="home"],
+footer a[data-brand] {
     display: block;
     font-family: var(--family-display);
     font-size: calc(var(--fl-enhance-font-size-factor, 1) * clamp(1.125rem, 1.0179rem + 0.5357vw, 1.5rem));
@@ -89,7 +90,7 @@ a[rel="home"] {
     display: block;
 }
 
-.navigation__wrapper:has([aria-expanded="false"]) .navigation__menu {
+.navigation__wrapper:has(#navigation-toggle[aria-expanded="false"]) .navigation__menu {
     display: none;
 }
 
@@ -131,6 +132,58 @@ a[rel="home"] {
         color: var(--fl-bgColor, var(--color-indigo-800));
     }
 }
+
+.navigation__menu ul ul .navigation__link {
+    block-size: 3.125rem;
+	font-size: calc(var(--fl-enhance-font-size-factor, 1) * var(--step-0));
+    font-weight: var(--font-weight-medium);
+	margin-inline-start: var(--common-inline-padding);
+}
+
+.navigation__button {
+	align-items: center;
+    background-color: var(--fl-bgColor, var(--color-indigo-700));
+    block-size: 3.75rem;
+    border: 0;
+    color: var(--fl-linkFgColor, var(--color-white));
+    display: flex;
+    font-family: var(--family-sans-serif);
+    font-size: calc(var(--fl-enhance-font-size-factor, 1) * var(--step-0));
+    font-weight: var(--fl-enhance-font-weight, var(--font-weight-semibold));
+    gap: 0.5rem;
+    padding-block: 0.625rem;
+    padding-inline: var(--common-inline-padding);
+    width: 100%;
+
+    &[aria-expanded="true"] {
+    	svg {
+     		transform: rotate(180deg);
+     	}
+    }
+
+    &:hover,
+    &:focus {
+        background: var(--fl-linkFgColor, var(--color-indigo-200));
+        box-shadow: unset;
+        color: var(--fl-bgColor, var(--color-indigo-700));
+        outline: solid 0.125rem transparent;
+    }
+
+    &:active {
+        background: var(--fl-linkFgColor, var(--color-white));
+        color: var(--fl-bgColor, var(--color-indigo-800));
+    }
+}
+
+.navigation__button[aria-expanded] + ul {
+	display: none;
+}
+
+.navigation__button[aria-expanded="true"] + ul {
+	display: flex;
+	z-index: 99;
+}
+
 
 @media (width >= 40em) {
     .skip-container {
@@ -193,7 +246,7 @@ a[rel="home"] {
         display: none;
     }
 
-    .navigation__wrapper:has([aria-expanded="false"]) .navigation__menu {
+    .navigation__wrapper:has(#navigation-toggle[aria-expanded="false"]) .navigation__menu {
         display: block;
         padding: unset;
         width: unset;
@@ -216,6 +269,74 @@ a[rel="home"] {
         &:focus {
             box-shadow: unset;
         }
+    }
+
+    .navigation__button {
+        block-size: 5.5rem;
+        padding-inline: 1.875rem;
+        position: relative;
+        width: max-content;
+        z-index: 100;
+
+        &:hover,
+        &:focus {
+            box-shadow: unset;
+        }
+    }
+
+    li:has([aria-current="page"]) .navigation__button {
+    	background-color: var(--fl-bgColor, var(--color-indigo-800));
+    	text-decoration: underline;
+		text-underline-offset: 0.125rem;
+
+		&:hover,
+	    &:focus {
+	        background: var(--fl-linkFgColor, var(--color-indigo-200));
+	        color: var(--fl-bgColor, var(--color-indigo-700));
+	        outline: solid 0.125rem transparent;
+	    }
+
+	    &:active {
+	        background: var(--fl-linkFgColor, var(--color-white));
+	        color: var(--fl-bgColor, var(--color-indigo-800));
+	    }
+    }
+
+    li:has(.navigation__button) {
+    	position: relative;
+    }
+
+    .navigation__menu ul ul .navigation__link {
+   		background: var(--fl-linkBgColor, var(--color-white));
+     	color: var(--fl-linkFgColor, var(--color-black));
+	    margin-inline-start: 0;
+	   	width: 100%;
+
+     	&[aria-current="page"] {
+			background-color: var(--fl-linkBgColor, var(--color-translucent-yellow));
+			box-shadow: none;
+			text-decoration: underline;
+			text-underline-offset: 0.125rem;
+        }
+
+        &:hover, &:focus {
+       		background-color: var(--fl-linkBgColor, var(--color-yellow));
+         	box-shadow:
+          		0 0 0 3px var(--fl-linkBgColor, var(--color-yellow)) inset,
+          		0 0 0 5px var(--fl-linkFgColor, var(--color-black)) inset;
+        }
+
+        &:active {
+        	background-color: var(--fl-linkBgColor, var(--color-translucent-yellow));
+        }
+    }
+
+    .navigation__button[aria-expanded] + ul {
+      	box-shadow: 0 0 0.625rem rgb(0 0 0 / 25%);
+     	flex-direction: column;
+     	inset-inline-start: 0;
+    	position: absolute;
+     	width: max-content;
     }
 }
 

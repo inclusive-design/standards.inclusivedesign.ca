@@ -1,9 +1,9 @@
 ---
 translationKey: processes
-title: Browse by Standards Development Process
-shortTitle: Processes
+title: Explore Standards Development Process
+shortTitle: Explore
 draft: false
-order: 0
+order: 2
 parent: guidelines
 layout: layouts/processes
 excerpt: ''

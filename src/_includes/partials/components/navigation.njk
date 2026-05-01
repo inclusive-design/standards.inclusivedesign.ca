@@ -10,9 +10,12 @@
             {% set navItems = collections['pages_' + lang] | eleventyNavigation %}
             <ul>
                 {% for item in navItems %}
+                {# TODO: Remove this once guidelines are published #}
+                {% if item.key !== 'guidelines' %}
                 <li>
                     <a class="navigation__link" href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
                 </li>
+                {% endif %}
                 {% endfor %}
             </ul>
         </div>

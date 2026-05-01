@@ -1,8 +1,16 @@
 <footer role="contentinfo">
     <div class="wrapper flow">
+    	{% set guidelinesSlug %}{% __ 'guidelines-slug' %}{% endset %}
+        {% if guidelinesSlug in page.url | string %}
+        <a data-brand href="/{% if lang != 'en' %}{{ lang }}{% endif %}">
+            {% __ "site-title" %}
+        </a>
+        {% endif %}
         <div class="content">
             <section class="contact-us">
-                <div class="flow">
+	                <div class="flow">
+
+
                     <h2>{% __ 'contact-us' %}</h2>
                     <p>
                         <strong>
