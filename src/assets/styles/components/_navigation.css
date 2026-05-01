@@ -42,7 +42,8 @@ a.skip {
     width: 100%;
 }
 
-a[rel="home"] {
+a[rel="home"],
+footer a[data-brand] {
     display: block;
     font-family: var(--family-display);
     font-size: calc(var(--fl-enhance-font-size-factor, 1) * clamp(1.125rem, 1.0179rem + 0.5357vw, 1.5rem));
@@ -265,7 +266,9 @@ a[rel="home"] {
     .navigation__button {
         block-size: 5.5rem;
         padding-inline: 1.875rem;
+        position: relative;
         width: max-content;
+        z-index: 1;
 
         &:hover,
         &:focus {
