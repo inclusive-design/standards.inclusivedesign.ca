@@ -288,6 +288,18 @@ footer a[data-brand] {
     	background-color: var(--fl-bgColor, var(--color-indigo-800));
     	text-decoration: underline;
 		text-underline-offset: 0.125rem;
+
+		&:hover,
+	    &:focus {
+	        background: var(--fl-linkFgColor, var(--color-indigo-200));
+	        color: var(--fl-bgColor, var(--color-indigo-700));
+	        outline: solid 0.125rem transparent;
+	    }
+
+	    &:active {
+	        background: var(--fl-linkFgColor, var(--color-white));
+	        color: var(--fl-bgColor, var(--color-indigo-800));
+	    }
     }
 
     li:has(.navigation__button) {
