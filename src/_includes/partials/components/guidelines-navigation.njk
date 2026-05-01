@@ -13,7 +13,7 @@
                 {% for item in navItems %}
                 <li{% if item.children.length > 0 %} data-dropdown{% endif %}>
                     {% if item.children.length > 0 %}
-                    <button class="navigation__button" aria-expanded="false">{{ item.title }}</button>
+                    <button class="navigation__button" aria-expanded="false">{{ item.title }} {% include 'svg/disclosure-arrow.svg' %}</button>
                     <ul>
                     {% for child in item.children %}
                     	<li><a class="navigation__link" href="{{ child.url }}"{% if page.url == child.url %} aria-current="page"{% endif %}>{{ child.title }}</a></li>

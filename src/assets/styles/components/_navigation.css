@@ -150,9 +150,16 @@ footer a[data-brand] {
     font-family: var(--family-sans-serif);
     font-size: calc(var(--fl-enhance-font-size-factor, 1) * var(--step-0));
     font-weight: var(--fl-enhance-font-weight, var(--font-weight-semibold));
+    gap: 0.5rem;
     padding-block: 0.625rem;
     padding-inline: var(--common-inline-padding);
     width: 100%;
+
+    &[aria-expanded="true"] {
+    	svg {
+     		transform: rotate(180deg);
+     	}
+    }
 
     &:hover,
     &:focus {
