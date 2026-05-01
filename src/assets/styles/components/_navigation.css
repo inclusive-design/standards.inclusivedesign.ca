@@ -173,7 +173,8 @@ footer a[data-brand] {
 }
 
 .navigation__button[aria-expanded="true"] + ul {
-	display: block;
+	display: flex;
+	z-index: 99;
 }
 
 
@@ -268,12 +269,17 @@ footer a[data-brand] {
         padding-inline: 1.875rem;
         position: relative;
         width: max-content;
-        z-index: 1;
+        z-index: 100;
 
         &:hover,
         &:focus {
             box-shadow: unset;
         }
+    }
+
+    li:has([aria-current="page"]) .navigation__button {
+    	text-decoration: underline;
+		text-underline-offset: 0.125rem;
     }
 
     li:has(.navigation__button) {
