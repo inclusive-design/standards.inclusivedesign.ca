@@ -4,7 +4,7 @@ title: Manage access conflicts
 uuid: 485d8e74
 draft: true
 quick: |-
-  - Ask participants for their access needs prior to your session(s)
+  - Ask participants for their access needs prior to your session(s).
   - Check-in with the group at the beginning of each session to confirm accessibility agreements and adjust as needed.
   - Everyone has different access needs and works at a different pace, so plan extra time to make sure everyone can fully take part.
   - Work collaboratively with the group to find a solution that meets everyone’s needs.
@@ -14,7 +14,10 @@ quick: |-
   - Provide content in multiple formats (large print, plain language, print, digital, etc)
 longterm: '- Bring people together in small groups where they share similar needs. Run co-design sessions in places where they feel comfortable and have the support they need to participate fully.'
 relatedActions: []
-moreInformation: ''
+moreInformation: |-
+  [When Access Needs Collide: An Interactive Discussion on Navigating Conflicting Access Needs in the Classroom](https://docs.google.com/presentation/d/1rKEO0dMduAP1M6S4APSKoy4wV8gx_53afDxEkeP_qUU/edit?slide=id.g36b368a1593_4_0#slide=id.g36b368a1593_4_0)
+
+  [Community-Led Co-design Kit](https://community-led.design/)
 examples: ''
 processes: []
 barriers: []
