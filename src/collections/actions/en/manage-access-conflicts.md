@@ -6,7 +6,7 @@ draft: true
 quick: |-
   - Ask participants for their access needs prior to your session(s).
   - Check-in with the group at the beginning of each session to confirm accessibility agreements and adjust as needed.
-  - Everyone has different access needs and works at a different pace, so plan extra time to make sure everyone can fully take part.
+  - Working out access agreements with the group can take extra time. In addition, some participants may need more time than others to complete a task, or to share or reflect on an idea. Plan extra time to ensure that everyone can participate fully.
   - Work collaboratively with the group to find a solution that meets everyone’s needs.
   - Be open and honest about conflicting needs to support the group in supporting each other and coming to agreement
   - Be flexible and adjust the plan if needed during the session.
