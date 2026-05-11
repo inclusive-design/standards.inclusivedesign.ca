@@ -47,6 +47,8 @@ export default function eleventy(eleventyConfig) {
 				.toSorted((a, b) => a.data.title.localeCompare(b.data.title)),
 		);
 
+		eleventyConfig.addCollection(`glossaries_${lang}`, collection => collection.getFilteredByGlob(`src/collections/glossaries/${lang}/*.md`).toSorted((a, b) => a.data.term.localeCompare(b.data.term)));
+
 		eleventyConfig.addCollection(`pages_${lang}`, collection => collection.getFilteredByGlob(`src/collections/pages/${lang}/*.md`));
 
 		eleventyConfig.addCollection(`projects_${lang}`, collection => collection.getFilteredByGlob(`src/collections/projects/${lang}/*.md`));

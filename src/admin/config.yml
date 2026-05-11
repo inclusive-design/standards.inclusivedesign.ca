@@ -18,6 +18,23 @@ i18n:
   initial_locales: default
 
 collections:
+  - label: Glossaries
+    label_singular: Glossary
+    name: glossaries
+    i18n:
+      structure: multiple_folders
+    folder: src/collections/glossaries/
+    extension: md
+    slug: "{{fields._slug | localize}}"
+    fields:
+      - label: Term
+        name: term
+        widget: string
+        i18n: true
+      - label: Definition
+        name: definition
+        widget: string
+        i18n: true
   - label: Pages
     label_singular: Page
     name: pages

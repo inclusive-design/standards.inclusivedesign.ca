@@ -5,6 +5,7 @@
 .actions,
 .barrier,
 .barriers,
+.glossaries,
 .guidelines,
 .guidelines-sitemap,
 .process,
@@ -333,6 +334,7 @@
 		width: 100%;
 	}
 
+	.glossaries,
 	.guidelines-sitemap {
 		h2+.columns {
 			margin-block-start: 3.75rem;
