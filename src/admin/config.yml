@@ -18,23 +18,6 @@ i18n:
   initial_locales: default
 
 collections:
-  - label: Glossaries
-    label_singular: Glossary
-    name: glossaries
-    i18n:
-      structure: multiple_folders
-    folder: src/collections/glossaries/
-    extension: md
-    slug: "{{fields._slug | localize}}"
-    fields:
-      - label: Term
-        name: term
-        widget: string
-        i18n: true
-      - label: Definition
-        name: definition
-        widget: string
-        i18n: true
   - label: Pages
     label_singular: Page
     name: pages
@@ -631,6 +614,25 @@ collections:
         required: false
         multiple: true
         i18n: duplicate
+  - label: Glossary Terms
+    label_singular: Glossary Term
+    name: terms
+    icon: book_3
+    i18n:
+      structure: multiple_folders
+    folder: src/collections/terms/
+    extension: md
+    slug: "{{fields._slug | localize}}"
+    identifier_field: term
+    fields:
+      - label: Term
+        name: term
+        widget: string
+        i18n: true
+      - label: Definition
+        name: definition
+        widget: string
+        i18n: true
 singletons:
   - label: Contact Information
     name: contact
