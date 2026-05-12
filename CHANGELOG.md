@@ -1,5 +1,22 @@
 # Changelog
 
+## [2026.5.1](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.5.0...v2026.5.1) (2026-05-12)
+
+
+### Features
+
+* add glossary page (resolves [#520](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/520)) ([#521](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/521)) ([955ea91](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/955ea9147f8f77842198bc35c25275db1b373539))
+
+
+### Bug Fixes
+
+* adjust breadcrumb for actions ([#514](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/514)) ([f620778](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/f62077803c4887eb37b73a0009565836cd571e03))
+
+
+### Miscellaneous Chores
+
+* **release:** release 2026.5.1 ([8fffd97](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/8fffd97adea509a7767bfe1808d7b6fde1813a35))
+
 ## [2026.5.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.4.7...v2026.5.0) (2026-05-01)
 
 
