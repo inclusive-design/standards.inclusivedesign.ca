@@ -1,0 +1,27 @@
+{% extends "layouts/base.njk" %}
+
+{% set pageType = 'glossary' %}
+
+{% block content %}
+<article class="article">
+	<div class="wrapper flow">
+    {% set heading = "A" %}
+    <h2>{{ heading }}</h2>
+    <dl class="columns flow">
+    {% for term in collections['terms_' + lang] %}
+        {% if (term.data.term | first | capitalize) != heading %}
+        </dl>
+        {% set heading = term.data.term | first | capitalize %}
+	    <h2>{{ heading }}</h2>
+        <dl class="columns flow">
+        {% endif %}
+        <div class="term-definition">
+            <dt>{{ term.data.term }}</dt>
+            <dd>{{ term.data.definition }}</dd>
+        </div>
+    {% endfor %}
+    </dl>
+    </div>
+    </div>
+</article>
+{% endblock %}

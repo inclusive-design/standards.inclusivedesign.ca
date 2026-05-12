@@ -5,6 +5,7 @@
 .actions,
 .barrier,
 .barriers,
+.glossary,
 .guidelines,
 .guidelines-sitemap,
 .process,
@@ -207,6 +208,23 @@
 	margin-inline-end: 1rem;
 }
 
+.term-definition {
+	break-inside: avoid-column;
+	
+	dd, dt {
+		display: inline;
+	}
+
+	dd {
+		margin-inline-start: 0.2rem;
+	}
+
+	dt::after {
+		content: ":";
+		display: inline;
+	}
+}
+
 .guidelines search,
 .guidelines-search search {
 	display: flex;
@@ -333,6 +351,7 @@
 		width: 100%;
 	}
 
+	.glossary,
 	.guidelines-sitemap {
 		h2+.columns {
 			margin-block-start: 3.75rem;
