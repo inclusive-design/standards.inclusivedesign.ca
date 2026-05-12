@@ -6,7 +6,7 @@ draft: false
 lang: en
 order: 5
 parent: guidelines
-layout: layouts/glossaries
+layout: layouts/glossary
 excerpt: ''
 previewImage: ''
 previewImageAlt: ''
