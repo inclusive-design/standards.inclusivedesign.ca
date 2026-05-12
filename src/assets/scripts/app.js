@@ -26,8 +26,8 @@ function handleHash(hash) {
 
 	target.setAttribute('tabindex', -1);
 	target.focus();
-	target.addEventListener('blur', event => event.target.removeAttribute('tabindex'));
-	target.addEventListener('focusout', event => event.target.removeAttribute('tabindex'));
+	target.addEventListener('blur', (event) => event.target.removeAttribute('tabindex'));
+	target.addEventListener('focusout', (event) => event.target.removeAttribute('tabindex'));
 }
 
 documentReady(() => {
@@ -36,12 +36,12 @@ documentReady(() => {
 		handleHash(escapedHash);
 	}
 
-	globalThis.addEventListener('hashchange', event => {
+	globalThis.addEventListener('hashchange', (event) => {
 		const escapedHash = new URL(event.newURL).hash.replace(':', String.raw`\:`);
 		handleHash(escapedHash, true);
 	});
 
-	globalThis.addEventListener('click', event => {
+	globalThis.addEventListener('click', (event) => {
 		const currentBacklink = document.querySelector('[role="doc-backlink"][aria-current="true"]');
 
 		if (currentBacklink) {
@@ -64,7 +64,7 @@ documentReady(() => {
 	}
 });
 
-document.addEventListener('click', event => {
+document.addEventListener('click', (event) => {
 	if (event.target.closest('.navigation__button')) {
 		const button = event.target.closest('.navigation__button');
 		const ariaExpanded = button.getAttribute('aria-expanded') === 'true' || false;
@@ -79,7 +79,7 @@ document.addEventListener('click', event => {
 	}
 });
 
-document.addEventListener('keyup', event => {
+document.addEventListener('keyup', (event) => {
 	if (event.key === 'Escape') {
 		const buttons = document.querySelectorAll('.navigation__button');
 		for (const button of buttons) {
@@ -88,7 +88,7 @@ document.addEventListener('keyup', event => {
 	}
 });
 
-const handleDisclosureBlur = event => {
+const handleDisclosureBlur = (event) => {
 	const dropdown = event.target.closest('[data-dropdown]');
 	const button = dropdown.querySelector('.navigation__button');
 	if (!event.relatedTarget.closest('[data-dropdown]')) {
@@ -99,13 +99,13 @@ const handleDisclosureBlur = event => {
 const menuButtons = document.querySelectorAll('.navigation__button');
 
 for (const button of menuButtons) {
-	button.addEventListener('blur', event => handleDisclosureBlur(event));
+	button.addEventListener('blur', (event) => handleDisclosureBlur(event));
 }
 
 const menuItems = document.querySelectorAll('[data-dropdown] a');
 
 for (const menuItem of menuItems) {
-	menuItem.addEventListener('blur', event => handleDisclosureBlur(event));
+	menuItem.addEventListener('blur', (event) => handleDisclosureBlur(event));
 }
 
 /**
