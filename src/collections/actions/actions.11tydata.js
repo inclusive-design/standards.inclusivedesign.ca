@@ -1,4 +1,4 @@
-import { __, generatePermalink } from 'eleventy-plugin-fluid';
+import {__, generatePermalink} from 'eleventy-plugin-fluid';
 
 export default {
 	layout: 'layouts/action',
