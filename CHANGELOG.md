@@ -1,5 +1,14 @@
 # Changelog
 
+## [2026.5.2](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.5.1...v2026.5.2) (2026-05-13)
+
+
+### Bug Fixes
+
+* add font-variant-ligatures none to some elements ([#525](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/525)) ([be44c34](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/be44c34fa82071a7e84bccfe4ea0881327f46cbd))
+* don't show 'Actions for' if an action has no barriers ([#527](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/527)) ([c750c5f](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/c750c5f133cdf60fca9f6ef688e03cef118ee39f))
+* resolve flex display issue in search highlights ([#524](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/524)) ([e0d411d](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/e0d411db84208c60b4c88dc92a2a9b7c494bb898))
+
 ## [2026.5.1](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.5.0...v2026.5.1) (2026-05-12)
 
 
