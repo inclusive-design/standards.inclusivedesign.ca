@@ -11,6 +11,10 @@ backend:
     deleteMedia: 'chore(cms): delete "{{path}}"'
 media_folder: src/assets/uploads
 public_folder: /assets/uploads
+logo:
+  src: /assets/uploads/Landing%20image.png
+  show_in_header: false
+app_title: Inclusive Standards
 
 i18n:
   locales: [en, fr]
