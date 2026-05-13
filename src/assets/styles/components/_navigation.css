@@ -47,6 +47,7 @@ footer a[data-brand] {
     display: block;
     font-family: var(--family-display);
     font-size: calc(var(--fl-enhance-font-size-factor, 1) * clamp(1.125rem, 1.0179rem + 0.5357vw, 1.5rem));
+    font-variant-ligatures: none;
     font-weight: var(--fl-enhance-font-weight, var(--font-weight-medium));
     text-decoration: none;
     text-decoration: var(--fl-enhance-text-decoration);
