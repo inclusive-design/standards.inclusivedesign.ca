@@ -1,5 +1,12 @@
 # Changelog
 
+## [2026.5.3](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.5.2...v2026.5.3) (2026-05-13)
+
+
+### Features
+
+* add logo and title to CMS for improved experience ([276e975](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/276e975d585673b7319c816a0fe79d7386314924))
+
 ## [2026.5.2](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.5.1...v2026.5.2) (2026-05-13)
 
 
