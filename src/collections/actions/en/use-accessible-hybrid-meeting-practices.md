@@ -5,20 +5,20 @@ uuid: 2ac90c88
 draft: false
 quick: |-
   - Start meetings with a reminder that all voices are welcome (both online and in-person).
-  - Use a camera that shows the whole room, so remote people can see who is speaking.
+  - Use a camera that shows the whole room, so that online people can see who is speaking.
   - Ensure high-quality microphones and speakers are installed for hybrid meetings
   - Ask in-room speakers to say their name before they speak.
   - Use good microphones and speakers so everyone can hear.
   - Assign two different facilitators:
-      - One to watch the online chat and support remote participants.
+      - One to watch the online chat and support online participants
       - One to support in-person participants
   - Repeat questions or comments from in-room participants for online members and vise-versa
   - Use screen-sharing consistently and narrate visual content for those who are blind or have low vision
   - Use lighting so that people can see faces and interpreters.
   - Reduce background noise where possible.
 longterm: |-
-  - Provide virtual or hybrid attendance options for all meetings - in-person meetings often create more challenges for members with disabilities, including those with mobility or transportation barriers.
-  - Ensure all core work can be completed virtually, not just discussed during in-person meetings
+  - Provide online or hybrid attendance options for all meetings - in-person meetings often create more challenges for members with disabilities, including those with mobility or transportation barriers.
+  - Ensure all core work can be completed online, not just discussed during in-person meetings
 relatedActions:
   - 594d9a28
   - e6970303
