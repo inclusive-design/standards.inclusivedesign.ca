@@ -13,12 +13,25 @@ quick: |-
   - Give people more than one way to participate (talking, writing, visuals, etc.)
   - Provide content in multiple formats (large print, plain language, print, digital, etc)
 longterm: '- Bring people together in small groups where they share similar needs. Run co-design sessions in places where they feel comfortable and have the support they need to participate fully.'
-relatedActions: []
+relatedActions:
+  - 368de0ba
+  - 3f01fed3
+  - 2ac90c88
 moreInformation: |-
   [When Access Needs Collide: An Interactive Discussion on Navigating Conflicting Access Needs in the Classroom](https://docs.google.com/presentation/d/1rKEO0dMduAP1M6S4APSKoy4wV8gx_53afDxEkeP_qUU/edit?slide=id.g36b368a1593_4_0#slide=id.g36b368a1593_4_0)
 
   [Community-Led Co-design Kit](https://community-led.design/)
 examples: ''
-processes: []
-barriers: []
+processes:
+  - 1130eb69
+  - b612d304
+  - 3eb6bf1e
+  - 11d85a05
+barriers:
+  - '42599812'
+  - 9907ee88
+  - 81182d8d
+  - 651b13cb
+  - 93c977c7
+  - 8ee223fa
 ---
