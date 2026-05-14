@@ -17,7 +17,7 @@ problem: |-
       - What will I actually be doing in this role?
       - What are the main responsibilities?
       - How much influence do members have?
-      - How are decisions made (consensus, voting, chair decision)?
+      - How are decisions made (consensus, voting, chairperson decision)?
   - Time and workload
       - What is the time commitment (hours per month)?
       - How often are meetings?
