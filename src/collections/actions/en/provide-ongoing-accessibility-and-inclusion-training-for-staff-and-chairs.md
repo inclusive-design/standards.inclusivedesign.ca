@@ -9,7 +9,7 @@ longterm: |-
   - Avoid generic training. Start with what people will actually do in the process.
   - Provide training based on the skills and tasks associated with the roles and responsibilities
   - Provide accessibility training regularly, not just once. Update it as best practices change.
-  - Offer regular training for staff and chairs on:
+  - Offer regular training for staff and chairpersons on:
       - Accessibility and human rights laws
       - Disability inclusion
       - Different access needs (for example: D/deaf, blind, mobility, learning, fatigue)
