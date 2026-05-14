@@ -1,10 +1,10 @@
 ---
 translationKey: lack-of-training-and-support-for-chairs-and-facilitators
-title: Lack of training and support for chairs and facilitators
+title: Lack of training and support for chairpersons and facilitators
 uuid: 651b13cb
 draft: false
 problem: |-
-  Chairs and facilitators often need help to run inclusive and accessible meetings, but support is limited.
+  Chairpersons and facilitators often need help to run inclusive and accessible meetings, but support is limited.
   Common problems include:
 
   - Few resources are available on how to lead inclusively and accessibly to ensure everyone, including D/deaf and D/disabled people, can participate.
