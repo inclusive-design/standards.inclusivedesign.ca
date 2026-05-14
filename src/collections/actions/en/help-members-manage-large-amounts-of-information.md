@@ -6,7 +6,7 @@ draft: false
 quick: |-
   - Give a simple overview that shows all the important documents, where to find them (links or location) and a short summary of what each document is for.
   - Highlight document sections that are most important for the current work.
-longterm: '- Offer orientation sessions or “office hours” where chairs or experienced members explain key documents and answer questions.'
+longterm: '- Offer orientation sessions or “office hours” where chairpersons or experienced members explain key documents and answer questions.'
 relatedActions:
   - ec2f6495
   - fdb653ec
