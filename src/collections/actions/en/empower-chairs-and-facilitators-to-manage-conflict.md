@@ -1,15 +1,15 @@
 ---
 translationKey: empower-chairs-and-facilitators-to-manage-conflict
-title: Empower chairs and facilitators to manage conflict
+title: Empower chairpersons and facilitators to manage conflict
 uuid: 20dc168e
 draft: false
 quick: |-
   - Encourage all members to learn active listening, empathy, and respectful disagreement before starting every meeting.
-  - Train chairs on how to handle conflicts, help the group agree, and run meetings in an accessible way.
-  - Give chairs tools and resources to run discussions, especially when power differences exist.
-  - Teach chairs when and how to step in if someone is dominating or others are being left out.
+  - Train chairpersons on how to handle conflicts, help the group agree, and run meetings in an accessible way.
+  - Give chairpersons tools and resources to run discussions, especially when power differences exist.
+  - Teach chairpersons when and how to step in if someone is dominating or others are being left out.
   - Take short breaks if discussions get heated.
-  - Show chairs how to allow disagreement while still finding agreement where possible.
+  - Show chairpersons how to allow disagreement while still finding agreement where possible.
   - Pay attention to whether people feel included, excluded, or uncomfortable. This will avoid conflicts from happening.
   - Let people share concerns or complaints in writing or chat if they don’t want to speak out loud. Make sure these concerns are acknowledged.
   - Keep records of how conflicts were handled and lessons learned from past meetings.
@@ -19,7 +19,7 @@ longterm: |-
   - Develop clear conflict policies for meetings
       - Have written rules about professional conduct, respect, and how conflicts are handled.
       - Make these rules visible to all members and revisit them regularly.
-  - Train facilitators and chairs on conflict resolution.
+  - Train facilitators and chairpersons on conflict resolution.
   - Update conflict resolution training as new techniques or challenges arise.
   - Create a permanent mediator position to help with disputes during meetings.
 relatedActions:
