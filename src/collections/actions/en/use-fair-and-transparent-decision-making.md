@@ -1,6 +1,6 @@
 ---
 translationKey: use-fair-and-transparent-decision-making
-title: Use fair and transparent decision-making
+title: Be fair and transparent when making decisions
 uuid: d33b6b6c
 draft: false
 quick: |-
