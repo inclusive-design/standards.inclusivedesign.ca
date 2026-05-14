@@ -11,5 +11,5 @@ problem: |-
   - Lack of mentoring and peer support for committee work.
   - Little or no training on collaboration, teamwork, or technical processes.
   - Limited awareness or guidance on accessibility, equity, and inclusive participation.
-  - No clear pathway to develop skills for becoming a chair or leading working groups.
+  - No clear pathway to develop skills for becoming a chairperson or leading working groups.
 ---
