@@ -1,10 +1,10 @@
 ---
 translationKey: inaccessibility-of-virtual-meetings
-title: Inaccessible virtual meetings
+title: Inaccessible online meetings
 uuid: e0642a56
 draft: false
 problem: |-
-  Virtual meetings can create barriers if they are not planned with accessibility in mind. This makes it difficult for everyone to participate. A virtual meeting will not be able to meet all accessibility needs, but they should be set up to address the accessibility needs of the people participating.
+  Online meetings can create barriers if they are not planned with accessibility in mind. This makes it difficult for everyone to participate. An online meeting will not be able to meet all accessibility needs, but they should be set up to address the accessibility needs of the people participating.
 
   Common problems include:
 
