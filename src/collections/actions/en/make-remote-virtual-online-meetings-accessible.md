@@ -1,6 +1,6 @@
 ---
 translationKey: make-remote-virtual-online-meetings-accessible
-title: Make remote/virtual/online meetings accessible
+title: Make online meetings accessible
 uuid: 594d9a28
 draft: false
 quick: |-
@@ -24,10 +24,10 @@ quick: |-
       - Repeat questions or comments from participants for clarity.
   - Meeting Management & Inclusivity
       - Provide breaks and allow people to step away without judgment.
-      - Allow anonymous feedback or a way to talk directly to the chair.
+      - Allow anonymous feedback or a way to talk directly to the chairperson.
       - Share clear meeting rules so everyone knows how to take turns and ask questions.
       - Check in with quieter members to make sure they are included.
-      - Offer virtual attendance for all meetings so people with mobility, transportation, or health challenges can participate.
+      - Offer online attendance for all meetings so people with mobility, transportation, or health challenges can participate.
 longterm: ''
 relatedActions:
   - f3ca9e8e
