@@ -11,7 +11,7 @@ quick: |-
   - Include a summary page at the beginning of each document outlining its purpose, key content, and its relevance to other work
   - Ensure all documents including drafts, meeting notes and final publications are accessible from the start, and throughout the collaboration process not just at the end of the process
   - Publish standards in accessible formats like properly structured Word documents and tagged PDF documents
-longterm: '- Train chairs and committee members in accessible document creation practices'
+longterm: '- Train chairpersons and committee members in accessible document creation practices'
 relatedActions:
   - f3ca9e8e
   - fdb653ec
