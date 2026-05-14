@@ -8,7 +8,7 @@ quick: |-
 
   - Introduce the structure and goals of the committee
   - Clarify roles, expectations, and responsibilities
-  - Explain workflows, working culture and norms, and decision-making processes
+  - Explain workflows, working culture and norms, and processes for making decisions
   - Identify any initial access needs and come up with a plan to meet them
 longterm: ''
 relatedActions:
