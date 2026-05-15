@@ -2,7 +2,7 @@
 translationKey: glossary
 title: Glossary
 shortTitle: ''
-draft: true
+draft: false
 lang: en
 order: 5
 parent: guidelines
