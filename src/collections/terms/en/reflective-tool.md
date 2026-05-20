@@ -1,5 +1,5 @@
 ---
 translationKey: reflective-tool
-term: Helps evaluate what is working.
+term: Reflective tool
 definition: Helps evaluate what is working.
 ---
