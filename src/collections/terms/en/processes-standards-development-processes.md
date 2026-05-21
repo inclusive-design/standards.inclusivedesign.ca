@@ -1,5 +1,5 @@
 ---
 translationKey: processes-standards-development-processes
-term: Processes (standards development processes)
-definition: Steps used to create standards.
+term: Processes
+definition: In these Guidelines, processes are the steps used to make standards.
 ---
