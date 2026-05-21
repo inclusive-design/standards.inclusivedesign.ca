@@ -11,5 +11,5 @@ problem: |-
   - Little guidance is provided on managing diverse or cross-cultural groups.
   - Time and resources to manage both technical and accessibility tasks are limited.
   - Handling conflict resolution without enough training and support.
-  - Knowledge of accessible technology for virtual meetings and document sharing is not common.
+  - Knowledge of accessible technology for online meetings and document sharing is not common.
 ---
