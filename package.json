@@ -62,7 +62,7 @@
 		"linkedom": "^0.18.6",
 		"lint-staged": "^17.0.0",
 		"markdownlint-cli2": "^0.22.0",
-		"npm-run-all2": "^8.0.0",
+		"npm-run-all2": "^9.0.0",
 		"pagefind": "^1.4.0"
 	},
 	"lint-staged": {
