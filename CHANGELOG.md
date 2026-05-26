@@ -1,5 +1,12 @@
 # Changelog
 
+## [2026.5.5](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.5.4...v2026.5.5) (2026-05-26)
+
+
+### Bug Fixes
+
+* misconfigured data attributes ([#535](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/535)) ([707d5af](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/707d5af7c50073e833eed0fb9c6a88ddafc8c6b4))
+
 ## [2026.5.4](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.5.3...v2026.5.4) (2026-05-26)
 
 
