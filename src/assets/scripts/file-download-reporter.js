@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
 	for (const anchor of anchors) {
 		if (fileExtensions.test(anchor.href) && !anchor.dataset.dataUmamiEvent) {
 			const filename = anchor.href.split('/').pop().split('?')[0];
-			anchor.dataset.dataUmamiEvent = 'file-download';
-			anchor.dataset.dataUmamiEventFile = filename;
+			anchor.dataset.umamiEvent = 'file-download';
+			anchor.dataset.umamiEventFile = filename;
 		}
 	}
 });
