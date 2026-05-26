@@ -1,5 +1,18 @@
 # Changelog
 
+## [2026.5.4](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.5.3...v2026.5.4) (2026-05-26)
+
+
+### Features
+
+* add analytics ([#531](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/531)) ([5fa690d](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/5fa690d7058a613c16463f7da8940745af5afbc8))
+* track downloads ([#532](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/532)) ([f8c77a8](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/f8c77a8e68b9968a4a2e78c059b91b8b9957b2d9))
+
+
+### Miscellaneous Chores
+
+* **release:** release 2026.5.4 ([525791a](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/525791ac104157775347c8939d13c717217723b2))
+
 ## [2026.5.3](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.5.2...v2026.5.3) (2026-05-13)
 
 
