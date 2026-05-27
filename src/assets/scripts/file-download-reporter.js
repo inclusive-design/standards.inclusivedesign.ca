@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	const anchors = document.querySelectorAll('a[href]');
 
 	for (const anchor of anchors) {
-		if (fileExtensions.test(anchor.href) && !anchor.dataset.dataUmamiEvent) {
+		if (fileExtensions.test(anchor.href) && !anchor.dataset.umamiEvent) {
 			const filename = anchor.href.split('/').pop().split('?')[0];
 			anchor.dataset.umamiEvent = 'file-download';
 			anchor.dataset.umamiEventFile = filename;
