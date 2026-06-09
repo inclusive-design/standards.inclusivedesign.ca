@@ -17,4 +17,4 @@ bannerImageAlt: ''
 outro: ''
 ---
 
-This space intentionally left blank.
+![Facilitation ](/assets/uploads/All%20standards%20guidelines%20icons_%20Facilitating.png "Facilitation ")
