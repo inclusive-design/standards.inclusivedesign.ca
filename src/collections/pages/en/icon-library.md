@@ -2,7 +2,7 @@
 translationKey: icon-library
 title: Icon Library
 shortTitle: ''
-draft: true
+draft: false
 lang: en
 order: 6
 parent: guidelines
