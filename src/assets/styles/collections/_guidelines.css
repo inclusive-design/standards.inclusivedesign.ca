@@ -77,7 +77,7 @@
 }
 
 .process article h2:nth-of-type(2)::before {
-    mask-image: url("/assets/images/fix.svg");
+    mask-image: url("/assets/images/action.svg");
 }
 
 .process article h2 {
@@ -96,8 +96,8 @@
 	gap: 1.5rem;
 
 	svg {
-		height: auto;
-		width: 4rem;
+		height: 4rem;
+		width: auto;
 	}
 }
 

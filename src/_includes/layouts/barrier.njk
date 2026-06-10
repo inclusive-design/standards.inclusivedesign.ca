@@ -45,7 +45,7 @@
 <h2>{% include "svg/problem.svg" %}{% __ 'barriers-problem' %}</h2>
 {{ problem | renderContent('md') | safe }}
 {% if collections['actions_' + lang] | find('data.barriers', uuid) %}
-<h2>{% include "svg/fix.svg" %}{%  __ 'barriers-fix' %}</h2>
+<h2>{% include "svg/action.svg" %}{%  __ 'barriers-fix' %}</h2>
 {% for actionItem in collections['actions_' + lang] %}
     {% if uuid in actionItem.data.barriers %}
         {% set action = actionItem %}

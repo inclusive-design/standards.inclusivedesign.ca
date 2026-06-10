@@ -32,7 +32,7 @@
         {% endif %}
         {% if collections["actions_" + lang] | find("data.barriers", barrier.data.uuid) | length > 0 %}
             <div class="card__heading-image">
-                {% include 'svg/fix.svg' %}
+                {% include 'svg/action.svg' %}
                 <h4>
                     {% __ 'barriers-fix' %}
                 </h4>
