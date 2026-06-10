@@ -77,13 +77,28 @@
 }
 
 .process article h2:nth-of-type(2)::before {
-    mask-image: url("/assets/images/fix.svg");
+    mask-image: url("/assets/images/action.svg");
 }
 
 .process article h2 {
     align-items: center;
     display: flex;
     gap: 1.3rem
+}
+
+.glossary .icons {
+	--flow-space: 1.5rem;
+}
+
+.glossary .icon-wrapper {
+	align-items: center;
+	display: flex;
+	gap: 1.5rem;
+
+	svg {
+		height: 4rem;
+		width: auto;
+	}
 }
 
 .barrier nav,

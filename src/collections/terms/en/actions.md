@@ -1,5 +1,5 @@
 ---
 translationKey: actions
-term: Accessible
-definition: A process, product or service that everyone including D/deaf and D/disabled people can use or be part of.
+term: Actions
+definition: In these Guidelines, actions are steps that can make committees, meetings and other processes more inclusive.
 ---

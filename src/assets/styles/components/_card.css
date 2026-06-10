@@ -201,7 +201,7 @@ body:not([class*="fl-theme"]),
 }
 
 .card svg {
-    stroke: currentcolor;
+    fill: currentcolor;
 }
 
 .card div:has(> svg) {

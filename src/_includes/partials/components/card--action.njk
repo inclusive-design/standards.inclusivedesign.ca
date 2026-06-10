@@ -26,7 +26,7 @@
                 {{ 'and' if loop.last }}
                 {% endif %}
                 {% set process = collections['processes_' + lang] | find('data.uuid', processId) %}
-                <span>{% include '../../../assets/images/' + process.data.translationKey + '.svg' %}
+                <span>{% include '../../../_includes/svg/' + process.data.translationKey + '.svg' %}
                 <b>{{ process.data.title }}</b></span>
                 {% if processes | length > 2 %}
                 {{ ',' if not loop.last }}

@@ -637,6 +637,28 @@ collections:
         name: definition
         widget: string
         i18n: true
+  - label: Icons
+    label_singular: Icon
+    name: icons
+    icon: design_services
+    i18n:
+      structure: multiple_folders
+    folder: src/collections/icons/
+    media_folder: /src/_includes/svg/
+    extension: md
+    slug: '{{title | localize}}'
+    identifier_field: title
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        i18n: true
+      - label: Icon
+        name: icon
+        widget: file
+        i18n: duplicate
+        required: true
+
 singletons:
   - label: Contact Information
     name: contact

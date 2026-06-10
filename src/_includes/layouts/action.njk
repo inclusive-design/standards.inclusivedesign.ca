@@ -28,7 +28,7 @@
                 {{ 'and' if loop.last }}
                 {% endif %}
                 {% set process = collections['processes_' + lang] | find('data.uuid', processId) %}
-                <span>{% include '../../assets/images/' + process.data.translationKey + '.svg' %}
+                <span>{% include 'svg/' + process.data.translationKey + '.svg' %}
                 <a href="{{ process.url }}">{{ process.data.title }}</a></span>
                 {% if processes | length > 2 %}
                 {{ ',' if not loop.last }}
@@ -89,7 +89,7 @@
     {{ examples | markdown | safe }}
 {% endif %}
 {% if barriers | length > 0 %}
-<h2>{% include "svg/barriers.svg" %}{% __ 'actions-barriers' %}</h2>
+<h2>{% include "svg/barrier.svg" %}{% __ 'actions-barriers' %}</h2>
 {% for barrier in targetBarriers %}
     {% include "partials/components/card--barrier.njk" %}
 {% endfor %}
