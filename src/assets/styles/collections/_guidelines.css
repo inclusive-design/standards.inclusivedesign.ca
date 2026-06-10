@@ -86,6 +86,21 @@
     gap: 1.3rem
 }
 
+.glossary .icons {
+	--flow-space: 1.5rem;
+}
+
+.glossary .icon-wrapper {
+	align-items: center;
+	display: flex;
+	gap: 1.5rem;
+
+	svg {
+		height: auto;
+		width: 4rem;
+	}
+}
+
 .barrier nav,
 .guidelines nav,
 .process nav,

@@ -5,14 +5,15 @@
 {% block content %}
 <article class="article">
 	<div class="wrapper flow">
+	<h2>{% __ 'key-terms' %}</h2>
     {% set heading = "A" %}
-    <h2>{{ heading }}</h2>
+    <h3>{{ heading }}</h3>
     <dl class="columns flow">
     {% for term in collections['terms_' + lang] %}
         {% if (term.data.term | first | capitalize) != heading %}
         </dl>
         {% set heading = term.data.term | first | capitalize %}
-	    <h2>{{ heading }}</h2>
+	    <h3>{{ heading }}</h3>
         <dl class="columns flow">
         {% endif %}
         <div class="term-definition">
@@ -21,6 +22,15 @@
         </div>
     {% endfor %}
     </dl>
+   	<h2>{% __ 'icon-library' %}</h2>
+    <div class="columns flow icons">
+    {% for icon in collections['icons_' + lang] %}
+    <div class="icon-wrapper">
+    {% set iconPath = icon.data.icon | replace('/src/_includes/', '') %}
+    {% include iconPath %}
+    {{ icon.data.title }}
+    </div>
+    {% endfor %}
     </div>
     </div>
 </article>
