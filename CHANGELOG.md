@@ -1,5 +1,12 @@
 # Changelog
 
+## [2026.6.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.5.5...v2026.6.0) (2026-06-10)
+
+
+### Features
+
+* icon library (resolves [#539](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/539)) ([#540](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/540)) ([82f8cb8](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/82f8cb8c7562fd116f279f5150e3b3d0c6586d93))
+
 ## [2026.5.5](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.5.4...v2026.5.5) (2026-05-26)
 
 
