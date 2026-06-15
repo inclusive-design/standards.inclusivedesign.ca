@@ -7,7 +7,7 @@ quick: |-
   - Pair members with a mentor or buddy so they can provide contextualized advice as well as help with navigating the committee work:
       - Match new members with more experienced or returning members
       - Consider matching members with someone who has similar lived experiences
-  - Offer one-on-one walkthroughs
+  - Offer one-on-one meetings to go through processes and information
   - Provide visual aids or diagrams to explain complex processes or workflows.
   - Hold an initial practice session for new members or those unfamiliar with the tools, technologies and procedures.
 longterm: |-
