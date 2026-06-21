@@ -17,7 +17,12 @@ longterm: ''
 relatedActions:
   - 2ac90c88
   - 594d9a28
-moreInformation: ''
+moreInformation: |-
+  [15 Video Captioning Best Practices to Improve Accessibility](https://birdeatsbug.com/blog/video-captioning-best-practices)
+  [Captions, Transcripts, and Audio Descriptions](https://webaim.org/techniques/captions/)
+  [Best Practices for Captioning Videos ](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://teaching.utoronto.ca/wp-content/uploads/1-8-Tip-Sheet-Best-Practices-for-Recording-and-Captioning-Videos.pdf)
+  [Introduction to accessibility requirements for audio-video](https://a11y.canada.ca/en/introduction-to-accessibility-requirements-for-audio-video/)
+  [Captions/Subtitles](https://www.w3.org/WAI/media/av/captions/)
 examples: ''
 processes:
   - b612d304
