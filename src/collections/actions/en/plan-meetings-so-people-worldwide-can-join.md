@@ -24,7 +24,12 @@ relatedActions:
   - ae3ed12e
   - 8ee5823e
   - 1bea465d
-moreInformation: ''
+moreInformation: |-
+  [15 Video Captioning Best Practices to Improve Accessibility](https://birdeatsbug.com/blog/video-captioning-best-practices)
+  [Captions, Transcripts, and Audio Descriptions](https://webaim.org/techniques/captions/)
+  [Best Practices for Captioning Videos ](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://teaching.utoronto.ca/wp-content/uploads/1-8-Tip-Sheet-Best-Practices-for-Recording-and-Captioning-Videos.pdf)
+  [Introduction to accessibility requirements for audio-video](https://a11y.canada.ca/en/introduction-to-accessibility-requirements-for-audio-video/)
+  [Captions/Subtitles](https://www.w3.org/WAI/media/av/captions/)
 examples: |-
   - [Australia – Standards Australia](https://www.standards.org.au/standards-development/developing-standards/process): Standards Australia promotes rotating meeting times across regions. For example, in cloud computing standards, they helped implement schedules that shift between Asia-Pacific, Europe, and the Americas. They also support asynchronous collaboration through shared documents.
   - [India – Bureau of Indian Standards (BIS)](https://www.bis.gov.in/?lang=en): BIS allows members to give input outside live meetings using pre-recorded presentations, online forms, and extended feedback periods. They also share meeting summaries for those who can’t attend in real time.
