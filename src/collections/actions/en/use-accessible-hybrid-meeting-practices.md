@@ -25,7 +25,7 @@ relatedActions:
   - 94dc979d
   - ae3ed12e
   - 95f998b1
-moreInformation: ''
+moreInformation: '- [Best practices for hosting hybrid meetings and events in Microsoft Teams Rooms](https://support.microsoft.com/en-us/office/best-practices-for-hosting-hybrid-meetings-and-events-in-microsoft-teams-rooms-9950a003-ad57-4518-8daf-fd909f87bf12)'
 examples: |-
   - [UK – British Standards Institution (BSI)](https://www.bsigroup.com/en-CA/): BSI uses 360° cameras, quality audio, and shared online docs to ensure remote attendees are fully included. A “remote participant advocate” helps balance input between in-person and online members.
   - [Germany – German Institute for Standardization (DIN)](https://www.din.de/en): DIN uses auto-tracking cameras, real-time screen sharing, and shares materials in advance in multiple accessible formats. They also run simulations to test and improve hybrid setups.
@@ -35,8 +35,8 @@ processes:
   - b612d304
 barriers:
   - 81182d8d
-order: 1
 more-information: ''
+order: 1
 ---
 
 Strategies to ensure accessible pathways into technical committees and working groups for diverse applicants.
