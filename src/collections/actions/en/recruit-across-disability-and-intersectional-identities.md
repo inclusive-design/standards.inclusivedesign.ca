@@ -20,6 +20,10 @@ relatedActions:
 moreInformation: |-
   - [Finding Participants: Community-Led Co-design Kit](https://main--co-design.netlify.app/resources/finding-participants/)
   - [Missing perspectives: Co-designing Inclusive Cities ](https://cities.inclusivedesign.ca/resources/missing-perspectives/)
+  - [Meaningful engagement of people with lived experience of noncommunicable diseases and mental health and neurological conditions](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://goeg.at/sites/goeg.at/files/inline-files/Framework%20PPT_GOG%20Colloqium_Final.pdf)
+  - [Establishing a  Lived Experience Advisory Panel](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://csgjusticecenter.org/wp-content/uploads/2024/05/Establishing-a-Lived-Experience-Advisory-Panel_508.pdf)
+  - [Guidelines for Enhancing the Engagement of People With Lived Experience Across the HSJCC Network](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://hsjcc.on.ca/wp-content/uploads/Guidelines-for-Enhancing-the-Engagement-of-People-With-Lived-Experience-Across-the-HSJCC-Network.pdf)
+  - [Meaningful Representation of Lived and Living Experience in Governance](https://www.thenationalcouncil.org/resources/lived-and-living-experience-in-governance/)
 examples: |-
   - [Australia – Standards Australia](https://www.standards.org.au/standards-development/developing-standards/process) Standards Australia collaborates with community groups to identify participants, uses accessible recruitment materials (Plain English, Auslan, multilingual), and offers digital tools with assistive features. Honorariums are provided to support participation from equity-seeking groups.
   - [South Africa – South African Bureau of Standards (SABS)](https://www.sabs.co.za/) SABS engages youth and people in rural areas through its “Youth in Standards” initiative. By partnering with inclusive schools and universities, and encouraging community nominations, they bring in fresh, diverse voices particularly young D/disabled people from underserved backgrounds.
