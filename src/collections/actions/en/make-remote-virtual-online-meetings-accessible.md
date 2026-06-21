@@ -40,6 +40,11 @@ moreInformation: |-
   - [Facilitation for Flexibility and Accessibility - Community-Led Co-Design Kit ](https://community-led.design/resources/facilitation-for-flexibility-and-accessibility/)
   - [Create and verify PDF accessibility (Acrobat Pro)](https://helpx.adobe.com/ca/acrobat/using/create-verify-pdf-accessibility.html)
   - [Guidelines for creating accessible documents (Accessibility Standards Canada)](https://accessible.canada.ca/guidelines-creating-accessible-documents)
+  - [15 Video Captioning Best Practices to Improve Accessibility](https://birdeatsbug.com/blog/video-captioning-best-practices)
+  - [Captions, Transcripts, and Audio Descriptions](https://webaim.org/techniques/captions/)
+  - [Best Practices for Captioning Videos ](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://teaching.utoronto.ca/wp-content/uploads/1-8-Tip-Sheet-Best-Practices-for-Recording-and-Captioning-Videos.pdf)
+  - [Introduction to accessibility requirements for audio-video](https://a11y.canada.ca/en/introduction-to-accessibility-requirements-for-audio-video/)
+  - [Captions/Subtitles](https://www.w3.org/WAI/media/av/captions/)
 examples: |-
   - [India – Bureau of Indian Standards (BIS)](https://www.bis.gov.in/?lang=en) BIS uses open-source, screen-reader-friendly platforms and shares offline document packages. Members can also vote or comment via email, reducing reliance on restricted tools like Google.
   - [Europe European Committee for Standardization (CENELEC)](https://www.cencenelec.eu/) CENELEC audit tools for accessibility before use. They switched to WCAG-compliant platforms and include accessibility in procurement to ensure long-term inclusivity.
