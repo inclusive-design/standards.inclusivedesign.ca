@@ -151,24 +151,12 @@
 	vertical-align: middle;
 }
 
-.action h2,
-.barrier h2 {
-    align-items: center;
-    display: flex;
-    gap: 1.3rem;
-}
-
 .action h2 svg,
 .barrier h2 svg {
 	block-size: 3.5rem;
 	fill: var(--fl-fgColor, --color-black);
 	inline-size: 3.5rem;
 	stroke: var(--fl-fgColor, black);
-}
-
-.barrier h2 svg {
-	block-size: 5rem;
-	inline-size: 5rem;
 }
 
 .action-processes {
@@ -209,8 +197,16 @@
 }
 
 
-.action .icon {
-	margin-inline: 1rem;
+.action,
+.barrier {
+	.icon {
+		fill: currentcolor;
+		margin-inline-end: 1rem;
+	}
+}
+
+.action .banner .icon {
+	margin-inline-start: 1rem;
 }
 
 .action-processes.only-two a:first-of-type,
