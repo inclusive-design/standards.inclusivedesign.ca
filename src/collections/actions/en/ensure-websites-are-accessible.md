@@ -25,6 +25,7 @@ moreInformation: |-
   - [W3C Web Accessibility Initiative (WAI) ](https://www.w3.org/WAI/)
   - [WebAIM (Web Accessibility in Mind)](https://webaim.org/services/training/?gad_source=1&gad_campaignid=17071877&gbraid=0AAAAAD-9eEcm8d5EQG9rQdOMHJwfZD36h&gclid=Cj0KCQjwgr_NBhDFARIsAHiUWr5FDwAsG5SRf4XUGpFb0kSlkG9lJ3vd-GRsQliV37_A0l5nRiXDItwaAvetEALw_wcB)
   - [The A11y Project](https://www.a11yproject.com/)
+  - [WCAG in Plain English](https://aaardvarkaccessibility.com/wcag-plain-english/)
 examples: ''
 processes:
   - b612d304
