@@ -104,13 +104,31 @@
 .barrier nav,
 .guidelines nav,
 .process nav,
+.processes nav,
 .action nav {
 	background-color: var(--fl-bgColor, var(--color-indigo-100));
+
+	inclusive-disclosure {
+	    padding-inline: 0;
+
+		[aria-expanded] {
+		    box-shadow: none;
+		}
+
+		[aria-expanded]::after {
+			right: var(--common-inline-padding);
+}
+	}
+
+	inclusive-disclosure > * {
+	    padding-inline: var(--common-inline-padding);
+	}
 }
 
 .barrier nav>h2,
 .guidelines nav>h2,
 .process nav>h2,
+.processes nav>h2,
 .action nav>h2 {
 	display: none;
 }
@@ -118,6 +136,7 @@
 .barrier nav ul ul,
 .guidelines nav ul ul,
 .process nav ul ul,
+.processes nav ul ul,
 .action nav ul ul {
 	padding-inline-start: 1.25rem;
 
@@ -128,6 +147,7 @@
 
 .barrier inclusive-disclosure h3,
 .process inclusive-disclosure h3,
+.processes inclusive-disclosure h3,
 .action inclusive-disclosure h3 {
 	font-size: var(--step-2);
 	font-weight: var(--font-weight-semibold);
@@ -174,28 +194,6 @@
 		inline-size: 3.75rem;
 	}
 }
-
-.barrier nav inclusive-disclosure>*,
-.guidelines nav inclusive-disclosure>*,
-.process nav inclusive-disclosure>*,
-.action nav inclusive-disclosure>* {
-	padding-inline: var(--common-inline-padding);
-}
-
-.barrier nav inclusive-disclosure [aria-expanded],
-.guidelines nav inclusive-disclosure [aria-expanded],
-.process nav inclusive-disclosure [aria-expanded],
-.action nav inclusive-disclosure [aria-expanded] {
-	box-shadow: none;
-}
-
-.barrier nav inclusive-disclosure [aria-expanded]::after,
-.guidelines nav inclusive-disclosure [aria-expanded]::after,
-.process nav inclusive-disclosure [aria-expanded]::after,
-.action nav inclusive-disclosure [aria-expanded]::after {
-	right: var(--common-inline-padding);
-}
-
 
 .action,
 .barrier {
@@ -325,6 +323,7 @@
 	.barrier nav>h2,
 	.guidelines nav>h2,
 	.process nav>h2,
+	.processes nav > h2,
 	.action nav>h2 {
 		display: block;
 	}
@@ -332,6 +331,7 @@
 	.barrier nav inclusive-disclosure>*,
 	.guidelines nav inclusive-disclosure>*,
 	.process nav inclusive-disclosure>*,
+	.processes nav inclusive-disclosure>*,
 	.action nav inclusive-disclosure>* {
 		padding-inline: 0;
 	}
@@ -339,6 +339,7 @@
 	.barrier nav inclusive-disclosure [aria-expanded],
 	.guidelines nav inclusive-disclosure [aria-expanded],
 	.process nav inclusive-disclosure>[aria-expanded],
+	.processes nav inclusive-disclosure>[aria-expanded],
 	.action nav inclusive-disclosure>[aria-expanded] {
 		display: none;
 	}
@@ -346,6 +347,7 @@
 	.barrier nav inclusive-disclosure [aria-expanded]+*,
 	.guidelines nav inclusive-disclosure [aria-expanded]+*,
 	.process nav inclusive-disclosure [aria-expanded]+*,
+	.processes nav inclusive-disclosure [aria-expanded]+*,
 	.action nav inclusive-disclosure [aria-expanded]+* {
 		display: block;
 	}
@@ -375,7 +377,9 @@
 }
 
 .barrier article,
-.guidelines article .process article,
+.guidelines article,
+.process article,
+.processes article,
 .action article {
 	padding-block: 2.125rem 5rem;
 	padding-inline: var(--common-inline-padding);
@@ -384,6 +388,7 @@
 .barrier article>*,
 .guidelines article>*,
 .process article>*,
+.processes article>*,
 .action article>* {
 	max-width: 41.875rem;
 }
@@ -391,6 +396,7 @@
 .barrier article>h2,
 .guidelines article>h2,
 .process article>h2,
+.processes article>h2,
 .action article>h2 {
 	max-width: 100%;
 }
@@ -440,10 +446,11 @@
 }
 
 .processes article {
-	overflow-y: hidden;
+	overflow: hidden;
 }
 
 .processes section {
+	padding: 0;
 	position: relative;
 
 	.stage-bg {
@@ -453,7 +460,7 @@
 		transform: translate(-50%, -50%);
 	}
 
-	.wrapper {
+	.flow {
 		position: relative;
 		z-index: 2;
 	}
@@ -476,6 +483,7 @@
 	.barrier .content,
 	.guidelines .content,
 	.process .content,
+	.processes .content,
 	.action .content {
 		display: grid;
 		grid-template-columns: 35% 65%;
@@ -490,6 +498,8 @@
 	.guidelines article,
 	.process nav,
 	.process article,
+	.processes nav,
+	.processes article,
 	.action nav,
 	.action article {
 		padding-block: 8.4375rem;
@@ -510,7 +520,14 @@
 	.barrier article,
 	.guidelines article,
 	.process article,
+	.processes article,
 	.action article {
 		padding-inline: 8.4375rem;
 	}
+
+	@media (width >= 70.875rem) {
+    .processes .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 }
