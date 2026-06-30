@@ -1,5 +1,12 @@
 # Changelog
 
+## [2026.7.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.6.1...v2026.7.0) (2026-06-30)
+
+
+### Features
+
+* move related actions after examples ([#550](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/550)) ([1f4aca2](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/1f4aca265685cfa7a3b5c110c9a88601c47d1156))
+
 ## [2026.6.1](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.6.0...v2026.6.1) (2026-06-22)
 
 
