@@ -71,6 +71,14 @@
     <h2>{% include "svg/longterm-actions.svg" %}{% __ 'actions-longterm' %}</h2>
     {{ longterm | markdown | safe }}
 {% endif %}
+{% if moreInformation %}
+    <h2>{% include "svg/more-information.svg" %}{% __ 'actions-more-info' %}</h2>
+    {{ moreInformation | markdown | safe }}
+{% endif %}
+{% if examples %}
+    <h2>{% include "svg/examples.svg" %}{% __ 'actions-examples' %}</h2>
+    {{ examples | markdown | safe }}
+{% endif %}
 {% if relatedActions | length > 0 %}
     <h2>{% include "svg/related-actions.svg" %}{% __ 'actions-related-actions' %}</h2>
     <ul>
@@ -79,14 +87,6 @@
         <li><a href="{{ action.url }}">{{ action.data.title }}</a></li>
     {% endfor %}
     </ul>
-{% endif %}
-{% if moreInformation %}
-    <h2>{% include "svg/more-information.svg" %}{% __ 'actions-more-info' %}</h2>
-    {{ moreInformation | markdown | safe }}
-{% endif %}
-{% if examples %}
-    <h2>{% include "svg/examples.svg" %}{% __ 'actions-examples' %}</h2>
-    {{ examples | markdown | safe }}
 {% endif %}
 {% if barriers | length > 0 %}
 <h2>{% include "svg/barrier.svg" %}{% __ 'actions-barriers' %}</h2>
