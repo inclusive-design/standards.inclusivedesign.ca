@@ -10,12 +10,15 @@ previewImageAlt: ''
 bannerTitle: ''
 bannerText: ''
 bannerImageAlt: ''
-outro: ''
+outro: '##'
 ---
 
 ## Building standards for everyone, with everyone
 
+Standards affect many parts of our daily lives, including the products, services, technologies, and spaces we use. When D/deaf and D/disabled people are involved in creating standards from the beginning, barriers can be identified earlier and addressed more effectively. This helps create standards that work for more people. Including different perspectives leads to standards that are more accessible, useful, and relevant for everyone. 
+
 The Guidelines for Accessibility and Inclusion in Standards Development is a practical resource to help Standards Development Organizations (SDOs) create more welcoming, equitable, and accessible processes especially for D/deaf and D/disabled people. It identifies common participation barriers and offers actions based on lived and living experience, inclusive design, and real-world examples.
+
 Flexible and adaptable to diverse contexts, the guidelines serve as a reflective and practical tool to pinpoint improvements, spark dialogue, and guide change.
 
 ## Who are the Guidelines for?
@@ -68,3 +71,8 @@ Visit the actions library to see a list of actions to make Standards Development
 ## Find what you need
 
 Use the search bar to find suggestions for improving your standards development process or to solve a barrier in your process. For example, try searching for ‘meeting’ or ‘hybrid’ to find suggestions for improving your hybrid meetings.
+
+
+## Help Us Build the Knowledge Base
+
+Have an example of an accessible practice, process, or initiative? We'd love to hear from you. Sharing examples helps build knowledge and inspire other standard development organizations working to make standards development more inclusive.
