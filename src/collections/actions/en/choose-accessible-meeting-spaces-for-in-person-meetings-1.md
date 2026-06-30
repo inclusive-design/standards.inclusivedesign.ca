@@ -5,6 +5,7 @@ uuid: e6970303
 draft: false
 quick: |-
   - Select venues with accessible entrances, restrooms, elevators, and parking.
+  - Ask Technical Committee members in advance what accommodations they need to participate fully in the physical meeting, and plan accordingly.
   - Provide seating for wheelchairs, quiet areas, and easy access to exits.
   - Use lighting so that people can see faces and interpreters.
   - Reduce background noise where possible.
