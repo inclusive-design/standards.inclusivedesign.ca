@@ -26,7 +26,7 @@ moreInformation: |-
   - [Standards development committee handbook](https://www.standards.govt.nz/assets/documents/contribute/150-SD-Standards-development-committee-handbook-v3.0.pdf) as a standards-sector handbook to reinforce procedures, roles, and meeting discipline.
   - [Inclusive Decision-Making](https://transitionmakers.nl/pdf/files/inclusive-decision-making.pdf) for practical decision-making methods such as proposal-based discussion, gradients of agreement, and closing the loop after decisions.
 examples: |-
-  [ISO / national standards bodies: ](https://www.itu.int/en/ITU-T/C-I/conformity/pages/organizations.aspx)Use formal committee structures with a chair, secretariat, and members, and emphasize documented process, balanced participation, and consensus-based approval. The ITU page also highlights cooperation with ISO and other bodies to avoid duplication and align work across organizations.
+  [ISO / national standards bodies](https://www.itu.int/en/ITU-T/C-I/conformity/pages/organizations.aspx) uses formal committee structures with a chair, secretariat, and members, and emphasize documented process, balanced participation, and consensus-based approval. The ITU page also highlights cooperation with ISO and other bodies to avoid duplication and align work across organizations.
 
   [W3C](https://www.w3.org/2004/copras/docu/sdo-list.html) directory reflects a multi-stakeholder, specification-driven environment, useful when you want to show how technical work can be organized through open participation, public drafts, and broad review.
 processes:
