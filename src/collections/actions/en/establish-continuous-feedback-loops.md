@@ -20,7 +20,9 @@ relatedActions:
   - 561239cd
   - d33b6b6c
   - ab01e1b3
-moreInformation: ''
+moreInformation: |-
+  - [NIST ANS Procedures](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.nist.gov/system/files/documents/2022/11/14/NIST%20ITL%20ANS%20Procedures%20Approved%2011%20November%202022_0.pdf) is a useful standards-process source for public review and formal procedure around standard maintenance and withdrawal.
+  - [Design Council ](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.designcouncil.org.uk/fileadmin/uploads/dc/Documents/the-principles-of-inclusive-design.pdf) explains the broad idea of designing for different people, including people who face barriers.
 examples: |-
   - [Australia – Standards Australia](https://www.standards.org.au/standards-development/developing-standards/process) Standards Australia includes built-in review cycles that actively seek feedback from users, not just committee members. They’ve piloted community surveys and interviews to understand real-world adoption and challenges, particularly in regional and underserved areas.
   - [Kenya – Kenya Bureau of Standards (KEBS)](https://www.kebs.org/) KEBS collaborates with universities and local organizations to monitor implementation in key sectors. Field studies and stakeholder feedback are used to track outcomes, ensuring that standards reflect practical realities and community needs.
