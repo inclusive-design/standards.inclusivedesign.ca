@@ -18,12 +18,12 @@ relatedActions:
   - 5f9cfaff
   - 0ff75145
 moreInformation: |-
-  - [WebAIM: Writing Clearly and Simply](https://webaim.org/techniques/writing/)
-  - [Accessible Content and Communication: Community-led Co-design kit](https://community-led.design/resources/accessible-content-and-communication/)
+  - [WebAIM: Writing Clearly and Simply](https://webaim.org/techniques/writing/) is about writing in a way that is easier for more people to understand. It focuses on plain language, short sentences, clear structure, and avoiding jargon where possible. It is useful for making web content easier to read for people with cognitive disabilities, people using screen readers, and anyone who benefits from clear communication.
+  - [Accessible Content and Communication: Community-led Co-design kit](https://community-led.design/resources/accessible-content-and-communication/) is part of a community-led co-design toolkit. It focuses on making content and communication accessible during co-design or community engagement work. In practice, that means using clear language, thinking about different access needs, and making sure communication works for the people involved, not just for organizers.
 examples: |-
-  - [Japan – The Japanese Industrial Standards Committee (JISC)](https://www.jisc.go.jp/eng/) JISC uses public workshops and local community engagement through government channels and businesses to raise awareness.
-  - [South Korea – Korean Agency for Technology and Standards (KATS)](https://www.standardsportal.org/usa_kr/e/standards_system/development_korean_standards.aspx) KATS promotes consultations via media campaigns, online platforms, and SMS notifications, with collaborations with universities to boost participation.
-  - [Kenya – Kenya Bureau of Standards (KEBS)](https://www.kebs.org/) KEBS uses regional outreach hubs, holding local disability forums and deploying mobile teams to recruit and onboard participants. Materials are offered in Braille, sign language, and local languages. New members are paired with mentors.
+  - [Japan – The Japanese Industrial Standards Committee (JISC)](https://www.jisc.go.jp/eng/) bnuses public workshops and local community engagement through government channels and businesses to raise awareness.
+  - [South Korea – Korean Agency for Technology and Standards (KATS)](https://www.standardsportal.org/usa_kr/e/standards_system/development_korean_standards.aspx) promotes consultations via media campaigns, online platforms, and SMS notifications, with collaborations with universities to boost participation.
+  - [Kenya – Kenya Bureau of Standards (KEBS)](https://www.kebs.org/) uses regional outreach hubs, holding local disability forums and deploying mobile teams to recruit and onboard participants. Materials are offered in Braille, sign language, and local languages. New members are paired with mentors.
 processes:
   - d2d08ae4
 barriers:
