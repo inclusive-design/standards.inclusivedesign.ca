@@ -19,7 +19,7 @@ relatedActions:
   - f252ffa1
 moreInformation: |-
   - [Enabling Accessibility Fund: Government of Canada](https://www.canada.ca/en/employment-social-development/services/funding/enabling-accessibility-fund-contribution/overview.html) (EAF) provides funding for projects that make communities and workplaces across Canada more accessible for persons with disabilities. 
-  - [Budgeting for Access ](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://vera-institute.files.svdcdn.com/production/downloads/publications/budgeting-for-access-updated.pdf)is a practical source to support the idea that access needs should be planned and funded, not treated as optional extras.
+  - [Budgeting for Access](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://vera-institute.files.svdcdn.com/production/downloads/publications/budgeting-for-access-updated.pdf) is a practical source to support the idea that access needs should be planned and funded, not treated as optional extras.
 examples: |-
   - [USA  – American National Standards Institute (ANSI)](https://www.ansi.org/about/introduction#:~:text=The%20American%20National%20Standards%20Institute,standards%20and%20conformity%20assessment%20system.) offers travel subsidies and pre-trip support, partnering with local consultants to ensure accessible transport and accommodations.
   - [UK – British Standards Institution (BSI)](https://www.bsigroup.com/en-CA/)  provides travel grants and shares city accessibility guides for smooth travel, with a dedicated travel coordinator for assistance.
