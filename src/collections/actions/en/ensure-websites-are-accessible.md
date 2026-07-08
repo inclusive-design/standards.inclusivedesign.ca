@@ -28,7 +28,7 @@ moreInformation: |-
   - [WCAG in Plain English](https://aaardvarkaccessibility.com/wcag-plain-english/) is a simplified explanation of the Web Content Accessibility Guidelines. It translates the technical WCAG requirements into simpler language so more people can understand them. This makes it especially helpful for non-specialists, committee members, and people who need a plain-language summary of accessibility requirements.
 examples: |-
   - [USA  – American National Standards Institute (ANSI)](https://www.ansi.org/about/introduction#:~:text=The%20American%20National%20Standards%20Institute,standards%20and%20conformity%20assessment%20system.) uses Section 508 and ADA-related guidance, and many organizations follow WCAG as the practical web accessibility standard.
-  - [Canada  – Standards Council of Canada ](https://scc-ccn.ca/)uses the Accessible Canada Act and provincial accessibility laws like Ontario’s AODA; WCAG is widely used as the reference standard.
+  - [Canada  – Standards Council of Canada ](https://scc-ccn.ca/)uses the Accessible Canada Act and provincial accessibility laws like Ontario’s AODA and WCAG is widely used as the reference standard.
 processes:
   - b612d304
   - 3eb6bf1e
