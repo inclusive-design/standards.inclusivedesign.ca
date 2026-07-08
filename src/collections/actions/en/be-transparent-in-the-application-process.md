@@ -24,7 +24,7 @@ relatedActions:
   - ec2f6495
   - fdb653ec
   - 779edd9f
-moreInformation: ''
+moreInformation: '- [Accessibility Standards Canada volunteer application form](https://catalogue.servicecanada.gc.ca/content/EForms/en/Detail.html?Form=EMP5674) is a concrete example of a committee application process for technical committees.'
 examples: |-
   - [Mexico – Dirección General de Normas (DGN)](https://www.gob.mx/se/) hosts public webinars during recruitment to clarify roles, responsibilities, and accommodations. They post plain-language role summaries and follow up with applicants on next steps. Community consultations help refine role descriptions to ensure accessibility for diverse audiences, including people with disabilities.
   - [Germany – German Institute for Standardization (DIN)](https://www.din.de/en) publishes detailed role descriptions and eligibility criteria on their public portal, outlining time commitments, required expertise, and the selection process. A visual roadmap of the standards development process helps applicants understand their potential involvement.
