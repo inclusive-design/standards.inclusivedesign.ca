@@ -12,11 +12,14 @@ relatedActions:
   - 0ff75145
   - ed90fb3e
   - 95f998b1
-moreInformation: ''
+moreInformation: |-
+  - [Disability Without Poverty, Canada](https://www.disabilitywithoutpoverty.ca/en/about/partners) is a coalition model that works with national partners and funders to align efforts and build shared support.
+  - [Disability Rights Fund / Disability Rights Advocacy Fund ](https://www.disabilityrightsfund.org/2023/01/26/the-ripples-of-resourcing-rwandas-disability-rights-movement/)is a disability-led organizations in multiple countries and show how coordinated support can strengthen access and advocacy at scale.
+  - [National Disability Rights Network, United States](https://digitaldemocracyproject.org/member-organizations/national-disability-rights-network-ndrn) is a large umbrella network that connects state-level disability rights agencies and supports coordinated advocacy across a whole country.
 examples: |-
-  - [Canada  – Standards Council of Canada (SSC)](https://scc-ccn.ca/) SSC partners with the government and industry to fund assistive technologies and interpretation services for national events.
-  - [USA  – American National Standards Institute (ANSI)](https://www.ansi.org/about/introduction#:~:text=The%20American%20National%20Standards%20Institute,standards%20and%20conformity%20assessment%20system.) ANSI collaborates with organizations like NIDILRR to share costs for captioning and interpreters, reducing financial burden.
-  - [Australia – Standards Australia](https://www.standards.org.au/standards-development/developing-standards/process): Standards Australia uses open-source tools and shares documents in accessible formats to provide low-cost accommodations.
+  - [Canada  – Standards Council of Canada (SSC)](https://scc-ccn.ca/) partners with the government and industry to fund assistive technologies and interpretation services for national events.
+  - [USA  – American National Standards Institute (ANSI)](https://www.ansi.org/about/introduction#:~:text=The%20American%20National%20Standards%20Institute,standards%20and%20conformity%20assessment%20system.) collaborates with organizations like NIDILRR to share costs for captioning and interpreters, reducing financial burden.
+  - [Australia – Standards Australia](https://www.standards.org.au/standards-development/developing-standards/process) uses open-source tools and shares documents in accessible formats to provide low-cost accommodations.
 processes:
   - af752d5c
 barriers:
