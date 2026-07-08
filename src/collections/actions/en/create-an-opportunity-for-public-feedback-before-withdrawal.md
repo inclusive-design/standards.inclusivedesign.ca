@@ -21,7 +21,7 @@ relatedActions:
   - '09758457'
   - af9da867
   - a1c9b89d
-moreInformation: '[NIST ANS Procedures](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.nist.gov/system/files/documents/2022/11/14/NIST%20ITL%20ANS%20Procedures%20Approved%2011%20November%202022_0.pdf) is a useful standards-process source for public review and formal procedure around standard maintenance and withdrawal.'
+moreInformation: '- [NIST ANS Procedures](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.nist.gov/system/files/documents/2022/11/14/NIST%20ITL%20ANS%20Procedures%20Approved%2011%20November%202022_0.pdf) is a useful standards-process source for public review and formal procedure around standard maintenance and withdrawal.'
 examples: |-
   - [UK – British Standards Institution (BSI)](https://www.bsigroup.com/en-CA/) includes withdrawal updates in newsletters and stakeholder mailing lists, ensuring professionals, advocacy groups, and local authorities are informed. For high-impact standards, they also issue press releases and guidance on alternatives or replacements.
   - [Kenya – Kenya Bureau of Standards (KEBS)](https://www.kebs.org/) uses radio and community networks to spread the word about withdrawn or updated standards, particularly in areas with limited internet access. They also collaborate with NGOs to reach disability groups and rural communities.
