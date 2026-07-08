@@ -14,7 +14,7 @@ relatedActions:
   - 95f998b1
 moreInformation: |-
   - [Disability Without Poverty, Canada](https://www.disabilitywithoutpoverty.ca/en/about/partners) is a coalition model that works with national partners and funders to align efforts and build shared support.
-  - [Disability Rights Fund / Disability Rights Advocacy Fund ](https://www.disabilityrightsfund.org/2023/01/26/the-ripples-of-resourcing-rwandas-disability-rights-movement/)is a disability-led organizations in multiple countries and show how coordinated support can strengthen access and advocacy at scale.
+  - [Disability Rights Fund / Disability Rights Advocacy Fund](https://www.disabilityrightsfund.org/2023/01/26/the-ripples-of-resourcing-rwandas-disability-rights-movement/) is a disability-led organizations in multiple countries and show how coordinated support can strengthen access and advocacy at scale.
   - [National Disability Rights Network, United States](https://digitaldemocracyproject.org/member-organizations/national-disability-rights-network-ndrn) is a large umbrella network that connects state-level disability rights agencies and supports coordinated advocacy across a whole country.
 examples: |-
   - [Canada  – Standards Council of Canada (SSC)](https://scc-ccn.ca/) partners with the government and industry to fund assistive technologies and interpretation services for national events.
