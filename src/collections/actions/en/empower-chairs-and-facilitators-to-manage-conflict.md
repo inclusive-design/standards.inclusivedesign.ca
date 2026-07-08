@@ -29,7 +29,7 @@ relatedActions:
   - 0ff75145
   - 3f01fed3
 moreInformation: |-
-  - [Challenges of facilitating diverse groups: ](https://cities.inclusivedesign.ca/resources/challenges-of-facilitating-diverse-groups/)[Co-designing Inclusive Cities](https://cities.inclusivedesign.ca/resources/challenges-of-facilitating-diverse-groups/)
+  - [Challenges of facilitating diverse groups: Co-designing Inclusive Cities](https://cities.inclusivedesign.ca/resources/challenges-of-facilitating-diverse-groups/) talks about sacilitating a group with different perspectives and needs requires open mindedness and flexibility.
   - [Local Government Association](https://www.local.gov.uk/publications/councillors-workbook-facilitation-and-conflict-resolution-0) is A councillor’s workbook on facilitation and conflict resolution. This is a useful public-sector source for practical conflict-handling skills in meetings and group settings.
   - [UCDavis — Conflict Competence for Chairs](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://aadocs.ucdavis.edu/training/department-chairs-workshop-and-events/department-chairs-bag-lunch-presenations-and-materials/2025-26/conflict-competence-for-chairs-handout.pdf) is a good source for practical chair skills when a group is dealing with difficult discussion or conflict.
   - [PMI — Facilitation: Core Competency in Conflict Resolution](https://www.pmi.org/learning/library/facilitation-core-competency-conflict-resolution-4497) is a strong process source for setting ground rules, separating task issues from personal issues, and guiding the group toward resolution.
