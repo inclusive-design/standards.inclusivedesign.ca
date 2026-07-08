@@ -18,7 +18,7 @@ moreInformation: |-
   - [University of Illinois](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://vetmed.illinois.edu/designgroup/wp-content/uploads/sites/60/2020/08/Best-Practices-for-Inclusive-Virtual-Meetings.pdf) covers chat, raise hand, co-facilitation, captions, time limits, and using tools beyond speaking on mic.
   - [Disability:IN ](https://disabilityin.org/resource/six-tips-to-keep-in-mind-when-creating-accessible-virtual-meetings)is a good source for accessibility, different work styles, and encouraging participation through multiple channels.disabilityin
   - [Global Resilience Partnership — Recommendations for Inclusive Virtual Meetings ](Global Resilience Partnership — Recommendations for Inclusive Virtual Meetings )recommends avoiding digital exclusion and making sure people can participate in flexible ways
-examples: ''
+examples: '- [==Australia== – Standards ==Australia==](https://www.standards.org.au/standards-development/developing-standards/process) and international disability-access resources emphasize reasonable accommodations and inclusive meeting planning, which aligns with flexible meeting times and multiple ways to contribute.womenenabled'
 processes:
   - 1130eb69
   - 3eb6bf1e
