@@ -5,7 +5,7 @@ shortTitle: Visual site map
 draft: true
 lang: en
 order: 5
-parent: ''
+parent: guidelines
 layout: layouts/base
 excerpt: ''
 previewImage: ''
