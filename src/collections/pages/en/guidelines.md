@@ -72,7 +72,7 @@ Visit the actions library to see a list of actions to make Standards Development
 
 Have an example of an accessible practice, process, or initiative? We'd love to hear from you. Sharing examples helps build knowledge and inspire other standard development organizations working to make standards development more inclusive.
 
-To contribute, email us at [**idrc@ocadu.ca**](mailto:idrc@ocadu.ca) or use the contact information in the website footer. We welcome examples, case studies, resources, and lived experiences of disability that can help make standards development more accessible and inclusive for everyone.
+To contribute, email us at [**idrc@ocadu.ca**](mailto:idrc@ocadu.ca) or use the contact information below in the website footer. We welcome examples, case studies, resources, and lived experiences of disability that can help make standards development more accessible and inclusive for everyone.
 
 ## Find what you need
 
