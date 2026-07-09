@@ -2,7 +2,7 @@
 translationKey: visualmap
 title: Visual site map
 shortTitle: Visual site map
-draft: false
+draft: true
 lang: en
 order: 5
 parent: guidelines
