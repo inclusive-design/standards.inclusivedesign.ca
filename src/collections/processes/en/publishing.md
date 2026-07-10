@@ -3,6 +3,7 @@ translationKey: publishing
 title: Publishing standards
 shortTitle: Publishing
 order: 16
+description: Accessible publishing means making standards easy to find, understand, and use by providing clear information, multiple formats, and accessibility support.
 uuid: 9f8a0599
 draft: false
 stage: 8820ca59

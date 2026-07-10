@@ -7,7 +7,6 @@ import fluidPlugin, {__} from 'eleventy-plugin-fluid';
 import inclusiveFootnotesPlugin from '@inclusive-design/eleventy-plugin-inclusive-footnotes';
 import _ from 'lodash';
 import parseTransform from './src/_transforms/parse-transform.js';
-import extractHeadingSection from './src/assets/scripts/extract-heading-section.js';
 import objectArrayPush from './src/assets/scripts/object-array-push.js';
 import findTranslationKeyFilter from './src/_filters/find-translation-key-filter.js';
 import markdownFilter from './src/_filters/markdown-filter.js';
@@ -75,7 +74,6 @@ export default function eleventy(eleventyConfig) {
 	eleventyConfig.addFilter('objectArrayPush', objectArrayPush);
 	eleventyConfig.addFilter('findTranslationKey', findTranslationKeyFilter);
 	eleventyConfig.addFilter('markdown', markdownFilter);
-	eleventyConfig.addFilter('extractHeadingSection', extractHeadingSection);
 
 	/*
 	  Provide a custom duplicate of eleventy-plugin-fluid's uioInit shortcode in

@@ -88,6 +88,11 @@
     gap: 1.3rem
 }
 
+.processes {
+	background-image: url("/assets/images/processes-background.svg");
+	background-size: cover;
+}
+
 .glossary .icons {
 	--flow-space: 1.5rem;
 }
@@ -484,6 +489,10 @@
 		width: 100%;
 	}
 
+	.processes .content {
+		position: relative;
+	}
+
 	.barrier nav,
 	.barrier article,
 	.guidelines nav,
@@ -529,6 +538,18 @@
 			display: grid;
 			gap: calc(32 / 16 * 1rem);
 			grid-template-columns: 1fr 1fr;
+		}
+	}
+
+	.processes .content {
+		&::before {
+			background-color: var(--fl-bgColor, var(--color-indigo-100));
+			content: "";
+			display: block;
+			height: 100%;
+			left: -20vw;
+			position: absolute;
+			width: 20vw;
 		}
 	}
 }

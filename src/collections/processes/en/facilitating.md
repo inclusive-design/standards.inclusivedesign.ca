@@ -3,6 +3,7 @@ translationKey: facilitating
 title: Facilitating
 shortTitle: ''
 order: 8
+description: Inclusive facilitation means creating meetings where everyone can participate through clear communication, flexible ways to contribute, and accessible support.
 uuid: 1130eb69
 draft: false
 stage: 5871d856

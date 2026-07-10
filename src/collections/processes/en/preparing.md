@@ -3,6 +3,7 @@ translationKey: preparing
 title: Preparing for committees
 shortTitle: Preparing
 order: 6
+description: Preparing for committees (onboarding) means giving new members the information and support they need to understand their role and participate fully.
 uuid: 3eb6bf1e
 draft: false
 stage: 228cf07a

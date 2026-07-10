@@ -3,6 +3,7 @@ translationKey: recruiting
 title: Recruiting
 shortTitle: ''
 order: 3
+description: Inclusive recruitment means using accessible outreach to involve D/deaf and D/disabled people with diverse lived experiences in standards development.
 uuid: d2d08ae4
 draft: false
 stage: b394d47d

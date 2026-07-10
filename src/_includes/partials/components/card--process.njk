@@ -7,7 +7,7 @@
             </a>
         </h3>
         <p>
-            {{ process.rawInput | extractHeadingSection("Why is this important") | truncate(240, true, "...", 0) | safe }}
+            {{ process.data.description | safe }}
         </p>
 		{% include '../../../_includes/svg/' + process.data.translationKey + '.svg' %}
     	{% include '../../../assets/images/chevron-right.svg' %}

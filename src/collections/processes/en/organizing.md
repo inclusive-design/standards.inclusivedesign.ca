@@ -3,6 +3,7 @@ translationKey: organizing
 title: Organizing
 shortTitle: ''
 order: 7
+description: Organizing means creating an accessible process with clear plans, flexible options, and the support people need to participate.
 uuid: b612d304
 draft: false
 stage: 5871d856

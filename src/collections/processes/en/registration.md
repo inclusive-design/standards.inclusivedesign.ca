@@ -3,6 +3,7 @@ translationKey: registration
 title: Registration process
 shortTitle: Registration
 order: 4
+description: Accessible registration means using simple, accessible sign-up processes and providing the support people need to take part.
 uuid: a7e33638
 draft: false
 stage: b394d47d

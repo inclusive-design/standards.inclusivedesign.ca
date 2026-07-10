@@ -3,6 +3,7 @@ translationKey: maintenance
 title: Maintenance of standards
 shortTitle: Maintenance
 order: 17
+description: Maintenance means keeping standards current, sharing changes clearly, and continuing to include D/deaf and D/disabled people in decisions.
 uuid: 420ec90a
 draft: false
 stage: 8820ca59
