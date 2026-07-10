@@ -1,3 +1,4 @@
+/* eslint-disable import-x/no-unassigned-import */
 import '@zachleat/filter-container';
 
 window.addEventListener('load', () => {
@@ -47,13 +48,13 @@ const renderFilterTags = () => {
 
 const getSortOption = document.querySelector('#resourcesSortSelector');
 if (getSortOption) {
-	getSortOption.addEventListener('change', event => {
+	getSortOption.addEventListener('change', (event) => {
 		sortResources(event.target.value);
 		event.target.selected = true;
 	});
 }
 
-const sortResources = sortBy => {
+const sortResources = (sortBy) => {
 	const resourceContainer = document.querySelectorAll('.resources')[0];
 	if (resourceContainer) {
 		const resources = [...resourceContainer.children];

@@ -1,10 +1,10 @@
-import {I18n} from 'i18n-js';
+import { I18n } from 'i18n-js';
 
 const clamp = (value, min, max) => Math.max(Math.min(value, max), min);
 
 const constructHeading = (level = 2, i18n) => `<h${level}>${i18n.t('search-results')}</h${level}>`;
 
-const constructSummary = (term, count, i18n) => `<strong>${i18n.t('search-results-summary', {term, count})}</strong>`;
+const constructSummary = (term, count, i18n) => `<strong>${i18n.t('search-results-summary', { term, count })}</strong>`;
 
 const constructResults = (
 	results,
@@ -48,16 +48,16 @@ const constructPageLinks = (pages, page = 1, svgs, i18n) => {
 	const current = clamp(page, 1, pages);
 	const previous
 		= `<li>
-			<a class="pagination-link" href="${constructHREF(baseURL, {page: current - 1})}" rel="prev">
+			<a class="pagination-link" href="${constructHREF(baseURL, { page: current - 1 })}" rel="prev">
 				<span class="visually-hidden">${i18n.t('previous')}</span>${svgs.previous}
 			</a>
 		</li>`;
-	const next = `<li><a class="pagination-link" href="${constructHREF(baseURL, {page: current + 1})}" rel="next"><span class="visually-hidden">${i18n.t('next')}</span>${svgs.next}</a></li>`;
+	const next = `<li><a class="pagination-link" href="${constructHREF(baseURL, { page: current + 1 })}" rel="next"><span class="visually-hidden">${i18n.t('next')}</span>${svgs.next}</a></li>`;
 
 	let pageLinks = '';
 
 	for (let index = 1; index <= pages; index++) {
-		pageLinks += `<li><a class="pagination-link" href="${constructHREF(baseURL, {page: index})}" ${index === current ? 'aria-current="page"' : ''}>${index}</a></li>`;
+		pageLinks += `<li><a class="pagination-link" href="${constructHREF(baseURL, { page: index })}" ${index === current ? 'aria-current="page"' : ''}>${index}</a></li>`;
 	}
 
 	return `
@@ -75,7 +75,7 @@ const getPagedResults = async (search, page = 1, itemsPerPage = 6) => {
 	const pages = Math.ceil(search.results.length / itemsPerPage);
 	const start = clamp(page - 1, 0, pages) * itemsPerPage;
 	const end = Math.max(start, Math.min(start + itemsPerPage, search.results.length));
-	return Promise.all(search.results.slice(start, end).map(r => r.data()));
+	return Promise.all(search.results.slice(start, end).map((r) => r.data()));
 };
 
 const render = async (search, term, page = 1, options) => {
