@@ -14,8 +14,8 @@ relatedActions:
   - 935f1dd7
   - a1c9b89d
   - 5f9cfaff
-moreInformation: ''
-examples: ''
+moreInformation: '- [ADP onboarding guidance](https://www.adp.com/resources/articles-and-insights/articles/o/onboarding.aspx) explains that good onboarding helps new people feel engaged from the start and improves retention and productivity'
+examples: '- [IEC/ISO Online Standards Development](https://www.iec.ch/online-standards-development) run monthly onboarding and training sessions for experts who are new to the platform, which helps new committee participants get started and ask questions.'
 processes:
   - 3eb6bf1e
 barriers:

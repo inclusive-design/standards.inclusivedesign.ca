@@ -68,11 +68,14 @@ Visit the barriers library to see a list of barriers faced by Standards Developm
 
 Visit the actions library to see a list of actions to make Standards Development Processes more inclusive, organized by the 5 core stages covering 18 processes or topic areas.
 
+## Help Us Build the Knowledge Base
+
+Have an example of an accessible practice, process, or initiative? We'd love to hear from you. Sharing examples helps build knowledge and inspire other standard development organizations working to make standards development more inclusive.
+
+To contribute, email us at [**idrc@ocadu.ca**](mailto:idrc@ocadu.ca) or use the contact information below in the website footer. We welcome examples, case studies, resources, and lived experiences of disability that can help make standards development more accessible and inclusive for everyone.
+
 ## Find what you need
 
 Use the search bar to find suggestions for improving your standards development process or to solve a barrier in your process. For example, try searching for ‘meeting’ or ‘hybrid’ to find suggestions for improving your hybrid meetings.
 
-
-## Help Us Build the Knowledge Base
-
-Have an example of an accessible practice, process, or initiative? We'd love to hear from you. Sharing examples helps build knowledge and inspire other standard development organizations working to make standards development more inclusive.
+##
