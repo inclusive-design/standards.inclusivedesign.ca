@@ -23,7 +23,7 @@ Flexible and adaptable to diverse contexts, the guidelines serve as a reflective
 
 ## Who are the Guidelines for?
 
-Members of Standards Developments Organisations, including:
+Members of Standards Developments Organizations, including:
 
 - Project managers and staff who coordinate technical committees;
 - Committee chairs and facilitators;
@@ -36,8 +36,8 @@ Members of Standards Developments Organisations, including:
 
 These guidelines were started in 2024 and are grounded in both research and lived experience. They continue to evolve through:
 
-- Feedback from current and former members of technical committees and SDOs, particularly those with lived experiences of D/deafess and D/disability;
-- Insights from related projects at the Inclusive Design Research Centre, including [Review of the Review](https://idrc.ocadu.ca/projects/rotr/);
+- Feedback from current and former members of technical committees and SDOs, particularly those with lived experiences of D/deafness and D/disability;
+- Insights from related projects at the Inclusive Design Research Centre (IDRC), including [Review of the Review](https://idrc.ocadu.ca/projects/rotr/);
 - Application of inclusive design principles and practices developed at the [IDRC](https://idrc.ocadu.ca/);
 - Findings from a [jurisdictional scan](https://standards.inclusivedesign.ca/resources/jurisdictional-scan/) of SDO processes internationally;
 - Co-design sessions with members of D/deaf and D/disabled communities;
@@ -49,10 +49,10 @@ The guidelines are structured around 5 core stages in the standards development 
 
 You can use the guidelines in the following ways:
 
-### Explore Standards Development Process
+### Explore the Standards Development Process
 
 ####
-[Explore by stages and processes](/guidelines/processes/)
+[Explore by stages and topics](/guidelines/processes/)
 
 Explore the standards development process and find the stage you're interested in, then choose a topic within that stage. For each topic, you’ll find practical actions to make the standards development process more inclusive, along with the specific barriers these actions can help address.
 
@@ -66,7 +66,7 @@ Visit the barriers library to see a list of barriers faced by Standards Developm
 
 #### [Browse actions](/guidelines/actions/)
 
-Visit the actions library to see a list of actions to make the standards development process more inclusive, organized by the 5 core stages and covering 18 topics.
+Visit the actions library to see a list of actions to make the standards development process more inclusive, organized by the 5 core stages and covering 18 topics. From there, you can select a specific action to learn more about.
 
 ## Help Us Build the Knowledge Base
 
@@ -76,6 +76,6 @@ To contribute, email us at [**idrc@ocadu.ca**](mailto:idrc@ocadu.ca) or use the 
 
 ## Find what you need
 
-Use the search bar to find suggestions for improving your standards development process or to solve a barrier in your process. For example, try searching for ‘meeting’ or ‘hybrid’ to find suggestions for improving your hybrid meetings.
+Use the search bar to find suggestions for improving your standards development process or to solve a barrier in your organization. For example, try searching for ‘meeting’ or ‘hybrid’ to find suggestions for improving your hybrid meetings.
 
 ##
