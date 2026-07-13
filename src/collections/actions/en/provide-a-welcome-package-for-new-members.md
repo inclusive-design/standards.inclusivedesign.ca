@@ -23,7 +23,7 @@ relatedActions:
   - ed90fb3e
 moreInformation: |-
   - [Council of Nonprofits – Board Orientation](https://www.councilofnonprofits.org/running-nonprofit/governance-leadership/board-orientation) is a widely used onboarding reference that recommends sharing role descriptions, committee lists, key policies, calendars, and keeping orientation short and digestible instead of overwhelming new members.
-  - [Boardable – Tips for Successful Onboarding of New Board Members]( https://boardable.com/resources/new-board-members/) focuses on clear expectations, onboarding in writing, and staged orientation, which aligns well with your “welcome package” idea.
+  - [Boardable – Tips for Successful Onboarding of New Board Members](https://boardable.com/resources/new-board-members/) focuses on clear expectations, onboarding in writing, and staged orientation, which aligns well with your “welcome package” idea.
 examples: '- [ISO onboarding / awareness material](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.unescap.org/sites/default/files/Setting%20the%20agenda%20on%20NTMs_by%20ISO.pdf) is an ISO presentation on onboarding and standards development mentions awareness materials such as brochures, videos, and articles, plus guidance for standards writers.'
 processes:
   - 3eb6bf1e
