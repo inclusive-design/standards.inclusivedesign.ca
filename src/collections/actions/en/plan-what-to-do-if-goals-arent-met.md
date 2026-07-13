@@ -19,8 +19,12 @@ relatedActions:
   - d33b6b6c
   - 66b7220e
   - a1c9b89d
-moreInformation: ''
-examples: ''
+moreInformation: |-
+  - [Seattle - Inclusive Outreach and Public Engagement Guide](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.seattle.gov/documents/departments/rsji/gre/iopeguide01-11-12.pdf) talks about “six essential strategies for inclusive engagement” plus worksheets and evaluation templates that help plan for equitable participation, track who is involved, and change tactics if certain communities are missing.
+  - [Engagement Institute – Inclusive and Accessible Engagement Hub](https://engagementinstitute.org.au/inclusive-and-accessible-engagement-hub/) curates frameworks, tools, and training on designing inclusive engagements, including resources on monitoring participation and adjusting plans to reach underrepresented groups.
+examples: |-
+  - [International – ISO](https://www.iso.org/sites/ConsumersStandards/1_standards.html)’s guidance for national standards bodies emphasises broad stakeholder participation, including government, industry, consumers, workers, and academia, and encourages developing countries and under‑represented groups to take part more actively.
+  - [Canada – Standards Council of Canada (SCC)](https://scc-ccn.ca/accreditation/accreditation-programs/standards-development-organizations)’s accreditation criteria for Standards Development Organizations require respect for “diverse interests” and a commitment to openness, transparency, and balanced participation in committees.
 processes:
   - 8e9bcf3a
   - '13269757'
