@@ -471,8 +471,26 @@
 		gap: calc(32 / 16 * 1rem);
 	}
 
+	.card {
+		aspect-ratio: unset;
+
+		p {
+			padding-block-end: 5rem;
+		}
+	}
+
 	.card__content {
 		padding-inline: 1rem;
+	}
+}
+
+@media (width >=52rem) {
+	.processes section {
+		.cards {
+			display: grid;
+			gap: calc(32 / 16 * 1rem);
+			grid-template-columns: repeat(2, 1fr);
+		}
 	}
 }
 
@@ -491,6 +509,16 @@
 
 	.processes .content {
 		position: relative;
+
+		&::before {
+			background-color: var(--fl-bgColor, var(--color-indigo-100));
+			content: "";
+			display: block;
+			height: 100%;
+			left: -20vw;
+			position: absolute;
+			width: 20vw;
+		}
 	}
 
 	.barrier nav,
@@ -525,31 +553,5 @@
 	.process article,
 	.action article {
 		padding-inline: 8.4375rem;
-	}
-}
-
-@media (width >= 90rem) {
-	.processes section {
-		.card {
-			inline-size: 24.5rem;
-		}
-
-		.cards {
-			display: grid;
-			gap: calc(32 / 16 * 1rem);
-			grid-template-columns: 1fr 1fr;
-		}
-	}
-
-	.processes .content {
-		&::before {
-			background-color: var(--fl-bgColor, var(--color-indigo-100));
-			content: "";
-			display: block;
-			height: 100%;
-			left: -20vw;
-			position: absolute;
-			width: 20vw;
-		}
 	}
 }
