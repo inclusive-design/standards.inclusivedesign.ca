@@ -45,28 +45,28 @@ These guidelines were started in 2024 and are grounded in both research and live
 
 ## How to use the Guidelines
 
-The guidelines are structured around 5 core stages, covering 18 processes or topic areas. Each stage represents a key part of the standards development process, while each process or topic area outlines common barriers along with practical actions to improve accessibility and inclusion.
+The guidelines are structured around 5 core stages in the standards development process and cover 18 topics. Each stage represents a key part of the standards development process, while each topic outlines common barriers along with practical actions to improve accessibility and inclusion.
 
-You can use the guidelines in the following two ways:
+You can use the guidelines in the following ways:
 
-### Explore Standards Development Processes
+### Explore Standards Development Process
 
 ####
 [Explore by stages and processes](/guidelines/processes/)
 
-Explore standards development process and select a stage, then choose a process within that stage. For each process, you’ll find practical actions to make the standards development process more inclusive, along with the specific barriers these actions can help address.
+Explore the standards development process and find the stage you're interested in, then choose a topic within that stage. For each topic, you’ll find practical actions to make the standards development process more inclusive, along with the specific barriers these actions can help address.
 
 ### Browse by Barriers
 
 #### [Browse barriers](/guidelines/barriers/)
 
-Visit the barriers library to see a list of barriers faced by Standards Development Organizations, organized by the 5 core stages covering 18 processes or topic areas. From there, you can select a specific barrier and explore the actions that can help resolve it.
+Visit the barriers library to see a list of barriers faced by Standards Development Organizations, organized by the 5 core stages in the standards development process and covering 18 topics. From there, you can select a specific barrier and explore the actions that can help resolve it.
 
 ### Browse by Actions
 
 #### [Browse actions](/guidelines/actions/)
 
-Visit the actions library to see a list of actions to make Standards Development Processes more inclusive, organized by the 5 core stages covering 18 processes or topic areas.
+Visit the actions library to see a list of actions to make the standards development process more inclusive, organized by the 5 core stages and covering 18 topics.
 
 ## Help Us Build the Knowledge Base
 
