@@ -24,7 +24,7 @@
             <legend>{% include '../../../_includes/svg/stage.svg' %}{% __ 'stages' %}</legend>
             <div id="stages">
                 <ul id="filter-stage" class="stages">
-                    {% for stage in filterableOptions.stages %}
+                    {% for stage in filterableOptions.stages | sort(attribute="data.order") %}
                         <li>
                             <input type="checkbox" id="{{ stage.data.uuid }}" name="stage" value="{{ stage.data.uuid }}" data-filter-key="stages"/>
                             <label for="{{ stage.data.uuid }}">{{ stage.data.title }}</label>
