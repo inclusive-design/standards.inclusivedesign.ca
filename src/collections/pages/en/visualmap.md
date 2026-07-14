@@ -17,7 +17,7 @@ bannerImageAlt: ''
 outro: ''
 ---
 
-![visual site map shows how users can move through the Inclusive Standards Guidelines website to find practical, accessible guidance for standards development.](/assets/uploads/All%20standards%20guidelines%20map-02.png)
+![visual site map shows how users can move through the Inclusive Standards Guidelines website to find practical, accessible guidance for standards development.](/assets/uploads/visual-sitemap.svg)
 
 ## Overview of the visual site map
 
