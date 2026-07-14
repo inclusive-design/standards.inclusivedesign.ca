@@ -17,7 +17,10 @@ relatedActions:
   - c0dd69a6
   - ed90fb3e
   - 0ff75145
-moreInformation: ''
+moreInformation: |-
+  - [Guide to Conducting Accessible Meetings](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.publications.gov.on.ca/store/20170501121/Free_Download_Files/018212_U.pdf) from Ontario gives chair-level guidance on invitations, accessible materials, introductions, pacing, interpreters, and checklists for accessible meetings.
+  - [Canadian Hearing Society / Planning an Accessible Meeting](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.forterie.ca/media/dmcd132r/accessible-meeting-planner.pdf) mentions the chairperson should ensure physical adjustments are made before the event and designate someone to manage the speakers list, which is very close to practical chair support.
+  - [Accessible meeting toolkits from universities and public bodies](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.publications.gov.on.ca/store/20170501121/Free_Download_Files/018212_U.pdf) include templates, support contacts, advance materials, and feedback practices that can be adapted for committee chair.
 examples: ''
 processes:
   - dc3b71a0

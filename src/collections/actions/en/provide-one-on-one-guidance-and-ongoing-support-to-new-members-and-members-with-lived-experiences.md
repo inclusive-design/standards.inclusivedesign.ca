@@ -16,8 +16,8 @@ longterm: |-
 relatedActions:
   - c0dd69a6
   - 9921aa47
-moreInformation: ''
-examples: '- [Germany – DIN ](https://www.din.de/en)DIN developed a formal onboarding process to support new committee members, especially those new to standards or from underrepresented groups. New members receive plain language welcome kits, multilingual guides, and access to captioned webinars. A dedicated onboarding team offers one-on-one support, while a buddy system pairs newcomers with experienced mentors. Chairpersons also connect early to discuss accessibility needs. DIN treats onboarding as an ongoing process, not a one-time step ensuring members feel supported, informed, and ready to contribute.'
+moreInformation: '- [BoardSource – Mentor Your Way to Board Development](https://boardsource.org/resources/mentor-to-board-development/) is highly relevant because it explains how mentors help new members learn culture, roles, and processes, and how mentoring works best when it is part of a broader orientation process.'
+examples: '- [Germany – DIN ](https://www.din.de/en)developed a formal onboarding process to support new committee members, especially those new to standards or from underrepresented groups. New members receive plain language welcome kits, multilingual guides, and access to captioned webinars. A dedicated onboarding team offers one-on-one support, while a buddy system pairs newcomers with experienced mentors. Chairpersons also connect early to discuss accessibility needs. DIN treats onboarding as an ongoing process, not a one-time step ensuring members feel supported, informed, and ready to contribute.'
 processes:
   - 3eb6bf1e
 barriers:

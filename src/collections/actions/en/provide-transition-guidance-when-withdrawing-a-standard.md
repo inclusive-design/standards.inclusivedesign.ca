@@ -14,16 +14,11 @@ relatedActions:
   - 5a7ef076
   - 5cfc5519
   - 902c8c26
-moreInformation: |-
-  [15 Video Captioning Best Practices to Improve Accessibility](https://birdeatsbug.com/blog/video-captioning-best-practices)
-  [Captions, Transcripts, and Audio Descriptions](https://webaim.org/techniques/captions/)
-  [Best Practices for Captioning Videos ](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://teaching.utoronto.ca/wp-content/uploads/1-8-Tip-Sheet-Best-Practices-for-Recording-and-Captioning-Videos.pdf)
-  [Introduction to accessibility requirements for audio-video](https://a11y.canada.ca/en/introduction-to-accessibility-requirements-for-audio-video/)
-  [Captions/Subtitles](https://www.w3.org/WAI/media/av/captions/)
+moreInformation: ''
 examples: |-
-  - [Netherlands – Nederlands Normalisatie Instituut (NEN)](https://www.nen.nl/) NEN offers technical support and consultation services for stakeholders impacted by a withdrawn standard. They help organizations interpret the changes, assess risks, and identify substitute standards, ensuring minimal disruption to services or compliance.
-  - [South Korea – Korean Agency for Technology and Standards (KATS)](https://www.standardsportal.org/usa_kr/e/standards_system/development_korean_standards.aspx) KATS engages with affected sectors before and after a withdrawal. They issue interim guidance and work with industry groups and advocacy organizations to co-develop new or updated standards where needed.
-  - [New Zealand – Standards New Zealand (SNZ)](https://www.standards.govt.nz/) SNZ provides public-facing FAQs and advisory support after the withdrawal of major standards. They often partner with government agencies to ensure that policy and procurement frameworks reflect the change and that users are not left without direction.
+  - [Netherlands – Nederlands Normalisatie Instituut (NEN)](https://www.nen.nl/) offers technical support and consultation services for stakeholders impacted by a withdrawn standard. They help organizations interpret the changes, assess risks, and identify substitute standards, ensuring minimal disruption to services or compliance.
+  - [South Korea – Korean Agency for Technology and Standards (KATS)](https://www.standardsportal.org/usa_kr/e/standards_system/development_korean_standards.aspx) engages with affected sectors before and after a withdrawal. They issue interim guidance and work with industry groups and advocacy organizations to co-develop new or updated standards where needed.
+  - [New Zealand – Standards New Zealand (SNZ)](https://www.standards.govt.nz/) provides public-facing FAQs and advisory support after the withdrawal of major standards. They often partner with government agencies to ensure that policy and procurement frameworks reflect the change and that users are not left without direction.
 processes:
   - 153c2d64
 barriers:
