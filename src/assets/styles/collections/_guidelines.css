@@ -88,7 +88,7 @@
     gap: 1.3rem
 }
 
-.processes {
+.fl-theme-prefsEditor-default .processes {
 	background-image: url("/assets/images/processes-background.svg");
 	background-size: cover;
 }
