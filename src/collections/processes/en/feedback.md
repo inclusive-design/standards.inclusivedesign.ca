@@ -3,7 +3,7 @@ translationKey: feedback
 title: Getting feedback
 shortTitle: Feedback
 order: 15
-description: Feedback should be offered in different ways for people to share their views. Feedback options should be accessible, simple to use, and allow enough time so D/deaf and D/disabled people can meaningfully respond.
+description: Give people different ways to share feedback. Make the process simple and give enough time to respond.
 uuid: 8e9bcf3a
 draft: false
 stage: 8820ca59

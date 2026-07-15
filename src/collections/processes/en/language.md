@@ -3,7 +3,7 @@ translationKey: language
 title: Language
 shortTitle: ''
 order: 13
-description: Inclusive language means using clear and respectful words, explaining terms, avoiding jargon, and respecting people’s preferred language.
+description: Use plain, clear, respectful words. Explain terms and avoid jargon.
 uuid: 981d9115
 draft: false
 stage: 5871d856

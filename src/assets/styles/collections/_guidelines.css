@@ -88,9 +88,13 @@
     gap: 1.3rem
 }
 
-.fl-theme-prefsEditor-default .processes {
+.processes {
 	background-image: url("/assets/images/processes-background.svg");
 	background-size: cover;
+}
+
+[class^="fl-theme"]:not(.fl-theme-prefsEditor-default) .processes {
+	background-image: none;
 }
 
 .glossary .icons {
