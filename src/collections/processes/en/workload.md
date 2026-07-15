@@ -3,6 +3,7 @@ translationKey: workload
 title: Workload
 shortTitle: ''
 order: 9
+description: Keep workloads realistic. Make tasks clear, shared fairly, and flexible so people do not burn out.
 uuid: 11d85a05
 draft: false
 stage: 5871d856

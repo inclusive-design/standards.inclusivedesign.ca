@@ -3,6 +3,7 @@ translationKey: facilitating
 title: Facilitating
 shortTitle: ''
 order: 8
+description: Run meetings so everyone can join in. Use clear language, flexible ways to contribute, and access help.
 uuid: 1130eb69
 draft: false
 stage: 5871d856

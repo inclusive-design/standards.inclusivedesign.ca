@@ -482,6 +482,11 @@ collections:
         widget: number
         i18n: duplicate
         required: true
+      - label: Description
+        name: description
+        widget: text
+        i18n: true
+        required: true
       - name: uuid
         widget: hidden
         default: "{{uuid_shorter}}"

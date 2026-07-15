@@ -3,6 +3,7 @@ translationKey: preparing
 title: Preparing for committees
 shortTitle: Preparing
 order: 6
+description: Give new members the information and help they need to understand their role and take part.
 uuid: 3eb6bf1e
 draft: false
 stage: 228cf07a

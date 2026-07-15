@@ -1,8 +1,9 @@
 ---
 translationKey: registration
-title: Registration process
+title: Registration
 shortTitle: Registration
 order: 4
+description: Make sign-up simple and accessible, and give people the help they need to join.
 uuid: a7e33638
 draft: false
 stage: b394d47d

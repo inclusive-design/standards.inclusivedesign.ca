@@ -3,6 +3,7 @@ translationKey: budget
 title: Budget
 shortTitle: ''
 order: 1
+description: Plan for access costs from the start. This includes pay, access help, technology, travel, and anything else people need to take part.
 uuid: af752d5c
 draft: false
 stage: 2ac90c88

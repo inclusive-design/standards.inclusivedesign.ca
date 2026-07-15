@@ -3,6 +3,7 @@ translationKey: organizing
 title: Organizing
 shortTitle: ''
 order: 7
+description: Make the process easy to follow, with clear plans, flexible options, and the help members need.
 uuid: b612d304
 draft: false
 stage: 5871d856

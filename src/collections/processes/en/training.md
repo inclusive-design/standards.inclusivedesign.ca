@@ -3,6 +3,7 @@ translationKey: training
 title: Training and knowledge building
 shortTitle: Training
 order: 5
+description: Give training in plain language and different formats. Help both members and organizers learn what they need.
 uuid: dc3b71a0
 draft: false
 stage: 228cf07a

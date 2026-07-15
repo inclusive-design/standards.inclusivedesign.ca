@@ -3,6 +3,7 @@ translationKey: recruiting
 title: Recruiting
 shortTitle: ''
 order: 3
+description: Use accessible outreach to bring in D/deaf and D/disabled people with different life experiences.
 uuid: d2d08ae4
 draft: false
 stage: b394d47d

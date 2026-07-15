@@ -56,6 +56,8 @@
 .guidelines article,
 .process nav,
 .process article,
+.processes nav,
+.processes article,
 .action nav,
 .action article {
 	box-shadow: inset 0 -0.1875rem 0 0 var(--fl-fgColor, transparent);
@@ -86,6 +88,15 @@
     gap: 1.3rem
 }
 
+.processes {
+	background-image: url("/assets/images/processes-background.svg");
+	background-size: cover;
+}
+
+[class^="fl-theme"]:not(.fl-theme-prefsEditor-default) .processes {
+	background-image: none;
+}
+
 .glossary .icons {
 	--flow-space: 1.5rem;
 }
@@ -104,6 +115,7 @@
 .barrier nav,
 .guidelines nav,
 .process nav,
+.processes nav,
 .action nav {
 	background-color: var(--fl-bgColor, var(--color-indigo-100));
 }
@@ -128,6 +140,7 @@
 
 .barrier inclusive-disclosure h3,
 .process inclusive-disclosure h3,
+.processes inclusive-disclosure h3,
 .action inclusive-disclosure h3 {
 	font-size: var(--step-2);
 	font-weight: var(--font-weight-semibold);
@@ -178,6 +191,7 @@
 .barrier nav inclusive-disclosure>*,
 .guidelines nav inclusive-disclosure>*,
 .process nav inclusive-disclosure>*,
+.processes nav inclusive-disclosure>*,
 .action nav inclusive-disclosure>* {
 	padding-inline: var(--common-inline-padding);
 }
@@ -185,6 +199,7 @@
 .barrier nav inclusive-disclosure [aria-expanded],
 .guidelines nav inclusive-disclosure [aria-expanded],
 .process nav inclusive-disclosure [aria-expanded],
+.processes nav inclusive-disclosure [aria-expanded],
 .action nav inclusive-disclosure [aria-expanded] {
 	box-shadow: none;
 }
@@ -192,6 +207,7 @@
 .barrier nav inclusive-disclosure [aria-expanded]::after,
 .guidelines nav inclusive-disclosure [aria-expanded]::after,
 .process nav inclusive-disclosure [aria-expanded]::after,
+.processes nav inclusive-disclosure [aria-expanded]::after,
 .action nav inclusive-disclosure [aria-expanded]::after {
 	right: var(--common-inline-padding);
 }
@@ -325,6 +341,7 @@
 	.barrier nav>h2,
 	.guidelines nav>h2,
 	.process nav>h2,
+	.processes nav>h2,
 	.action nav>h2 {
 		display: block;
 	}
@@ -332,6 +349,7 @@
 	.barrier nav inclusive-disclosure>*,
 	.guidelines nav inclusive-disclosure>*,
 	.process nav inclusive-disclosure>*,
+	.processes nav inclusive-disclosure>*,
 	.action nav inclusive-disclosure>* {
 		padding-inline: 0;
 	}
@@ -339,6 +357,7 @@
 	.barrier nav inclusive-disclosure [aria-expanded],
 	.guidelines nav inclusive-disclosure [aria-expanded],
 	.process nav inclusive-disclosure>[aria-expanded],
+	.processes nav inclusive-disclosure>[aria-expanded],
 	.action nav inclusive-disclosure>[aria-expanded] {
 		display: none;
 	}
@@ -346,6 +365,7 @@
 	.barrier nav inclusive-disclosure [aria-expanded]+*,
 	.guidelines nav inclusive-disclosure [aria-expanded]+*,
 	.process nav inclusive-disclosure [aria-expanded]+*,
+	.processes nav inclusive-disclosure [aria-expanded]+*,
 	.action nav inclusive-disclosure [aria-expanded]+* {
 		display: block;
 	}
@@ -444,44 +464,65 @@
 }
 
 .processes section {
-	position: relative;
-
-	.stage-bg {
-		left: 50%;
-		position: absolute;
-		top: 50%;
-		transform: translate(-50%, -50%);
-	}
-
-	.wrapper {
-		position: relative;
-		z-index: 2;
-	}
+	padding-inline: 3.75rem;
 
 	h2+p {
 		margin-block-start: var(--step-1);
 	}
 
 	.cards {
-		margin-block-start: calc(48 / 16 * 1rem);
-		position: relative;
+		display: block;
+		gap: calc(32 / 16 * 1rem);
+	}
+
+	.card {
+		aspect-ratio: unset;
+
+		p {
+			padding-block-end: 5rem;
+		}
+	}
+
+	.card__content {
+		padding-inline: 1rem;
 	}
 }
 
-[class^="fl-theme"]:not(.fl-theme-prefsEditor-default) .stage-bg {
-	display: none;
+@media (width >=52rem) {
+	.processes section {
+		.cards {
+			display: grid;
+			gap: calc(32 / 16 * 1rem);
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
 }
 
 @media (width >=70.875rem) {
 	.barrier .content,
 	.guidelines .content,
 	.process .content,
+	.processes .content,
 	.action .content {
 		display: grid;
 		grid-template-columns: 35% 65%;
 		margin-inline: auto;
 		max-width: 90rem;
 		width: 100%;
+	}
+
+	.processes .content {
+		position: relative;
+
+		&::before {
+			background-color: var(--fl-bgColor, var(--color-indigo-100));
+			content: "";
+			display: block;
+			height: 100%;
+			left: -20vw;
+			position: absolute;
+			width: 20vw;
+		}
 	}
 
 	.barrier nav,
@@ -493,6 +534,10 @@
 	.action nav,
 	.action article {
 		padding-block: 8.4375rem;
+	}
+
+	.processes nav {
+		padding-block: 5rem;
 	}
 
 	.guidelines-search h2 {

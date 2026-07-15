@@ -3,6 +3,7 @@ translationKey: documents
 title: Documents
 shortTitle: ''
 order: 12
+description: Write documents in plain language and make them easy to read. Share them early and in accessible formats.
 uuid: 66ea7aa7
 draft: false
 stage: 5871d856

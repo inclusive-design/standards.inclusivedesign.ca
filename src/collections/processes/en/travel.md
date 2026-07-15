@@ -3,6 +3,7 @@ translationKey: travel
 title: Travel
 shortTitle: ''
 order: 14
+description: Make travel accessible, safe and comfortable. Offer flexible options, accessible transport and lodging, extra time, and cover related costs.
 uuid: e7f348c2
 draft: false
 stage: 5871d856

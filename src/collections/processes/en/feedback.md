@@ -3,6 +3,7 @@ translationKey: feedback
 title: Getting feedback
 shortTitle: Feedback
 order: 15
+description: Give people different ways to share feedback. Make the process simple and give enough time to respond.
 uuid: 8e9bcf3a
 draft: false
 stage: 8820ca59

@@ -3,6 +3,7 @@ translationKey: technology
 title: Technology
 shortTitle: ''
 order: 11
+description: Use tools that are easy to use and work with assistive tools. Make help available if problems come up.
 uuid: eabf2df8
 draft: false
 stage: 5871d856
