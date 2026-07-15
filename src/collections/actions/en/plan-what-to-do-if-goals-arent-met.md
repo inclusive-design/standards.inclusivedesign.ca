@@ -1,6 +1,6 @@
 ---
 translationKey: plan-what-to-do-if-goals-arent-met
-title: Plan what to do if goals aren’t met
+title: Plan for diverse participation
 uuid: ac8b76da
 draft: false
 quick: ''
