@@ -15,8 +15,8 @@ Inclusive recruitment means committing resources, policies, and outreach to brin
 
 ## Why is this important?
 
-People from communities that have not been part of standards development are less likely to seek out opportunities to help with the standards development process. 
+Active recruiting is important in standards development because people from communities that have not been involved before are unlikely to join on their own, so outreach is needed to bring in new voices, lived experience of dsability, and expertise. It helps make the process more inclusive, practical, and trusted, and it improves the final standard by making sure it reflects real needs.
 
 ## Actions
 
-Explore actions for making recruitment more inclusive:
+Explore actions for recruiting:
