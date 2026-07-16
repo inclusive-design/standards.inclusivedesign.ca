@@ -13,19 +13,19 @@ longterm: |-
   - Allow downloading and offline access so people without consistent internet can still use the standards.
   - Clearly explain how to access different formats and who to contact for help.
   - Keep the publication updated and easy to find, with a central, accessible location.
-relatedActions:
-  - 8ed914cd
-  - ec2f6495
-  - fdb653ec
-moreInformation: ''
+moreInformation: '- The [Budapest Open Access Initiative (BOAI)](https://www.budapestopenaccessinitiative.org/) and the broader open access movement are the foundational frameworks for "free to read, free to build upon" publishing models useful as a policy reference point.'
 examples: |-
   - [South Africa – South African Bureau of Standards (SABS)](https://www.sabs.co.za/) SABS addresses access challenges by making key public interest standards, such as those related to safety and accessibility, freely available online. They also partner with local municipalities and community radio to raise awareness, ensuring that small organizations and underserved communities know the standards exist and how to use them.
   - [India – Bureau of Indian Standards (BIS)](https://www.bis.gov.in/?lang=en) BIS launched a mobile app and a public portal where citizens can view and download many Indian standards for free, particularly those relevant to public welfare. This helps overcome cost and accessibility barriers, especially for rural users and small businesses that can’t afford paid standards.
   - [Web Hypertext Application Technology Working Group (WHATWG) Living Standards](https://html.spec.whatwg.org/multipage/) approach focuses on continuous improvements rather than traditional stages of development. It allows frequent updates based on real-time feedback, ensuring the public always has opportunities to contribute. This approach aims to shorten the gap between a published standard and its updates, encouraging ongoing input from all stakeholders affected by the standard. The key lesson is to keep the standards process open to allow meaningful contributions from anyone impacted.
   - [Canada – Digital Governance Standards Institute (DGSI)](https://dgc-cgn.org/standards/) DGSI standards are freely available for download and distribution on their website. This open access approach helps ensure that a wide range of communities and organizations, especially those with limited resources, can use and benefit from the standards.
-processes:
-  - 9f8a0599
+relatedActions:
+  - 8ed914cd
+  - ec2f6495
+  - fdb653ec
 barriers:
   - 7dcf8b49
   - d4bf57e8
+processes:
+  - 9f8a0599
 ---
