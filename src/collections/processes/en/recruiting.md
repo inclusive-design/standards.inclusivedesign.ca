@@ -9,9 +9,13 @@ draft: false
 stage: b394d47d
 ---
 
-## Why is this important?
+## Summary
 
 Inclusive recruitment means committing resources, policies, and outreach to bring diverse voices across disability and intersecting identities into standards development. It requires proactive, accessible, and relationship-based engagement, valuing lived experience alongside technical expertise, and ensuring no single voice is expected to represent an entire community. 
+
+## Why is this important?
+
+People from communities that have not been part of standards development are less likely to seek out opportunities to help with the standards development process. 
 
 ## Actions
 
