@@ -11,7 +11,7 @@ stage: 2ac90c88
 
 ## Summary?
 
-Budgeting should involve planning and accounting for access needs from the start. This includes compensation, accessibility support, technology, travel, and any other costs needed for full participation.
+Budgeting involves planning and accounting for access needs from the start. This includes compensation, accessibility support, technology, travel, and any other costs needed for full participation.
 
 ## Why is this important?
 
