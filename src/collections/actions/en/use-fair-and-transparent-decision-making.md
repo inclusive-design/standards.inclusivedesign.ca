@@ -4,9 +4,9 @@ title: Be fair and transparent when making decisions
 uuid: d33b6b6c
 draft: false
 quick: |-
-  - Give extra attention to feedback from groups that face barriers, especially when deciding what changes to make.
   - Write down and share the rules you use to accept or reject feedback. Don’t dismiss feedback as “out of scope” without a clear reason. If you don’t use someone’s feedback, explain why.
   - Share the decisions you made and what happened as a result. This builds trust and shows that people’s time and input matter.
+  - Give extra attention to feedback from groups that face barriers, especially when deciding what changes to make.
 longterm: ''
 moreInformation: '- [Design Council](https://www.designcouncil.org.uk/who-we-are/about-us/equality-diversity-inclusion/)  explains the broad idea of designing for different people, including people who face barriers.'
 examples: |-
