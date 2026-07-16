@@ -13,6 +13,10 @@ stage: 5871d856
 
 Organizing includes setting up meetings, timelines, and documents in ways that support full participation and meet everyone's accessibility needs. This includes flexible schedules, clear agendas, accessible tools, and enough time for people to review, respond, and contribute in ways that work for them.
 
+## Why is it important?
+
+Organizing is important in the standards development process because there are many details to manage, especially when including disabled communities. If details about access needs are missed or not planned well, people may not be able to take part or contribute fully.
+
 ## Actions
 
-Explore actions for organizing technical committee meetings more inclusively:
+Explore actions for organizing:
