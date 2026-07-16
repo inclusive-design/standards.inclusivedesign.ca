@@ -19,4 +19,4 @@ Training and knowledge building matter in the standards development process beca
 
 ## Actions
 
-Explore actions for inclusive training and knowledge building:
+Explore actions for training and knowledge building:
