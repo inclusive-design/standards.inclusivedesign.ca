@@ -1,6 +1,6 @@
 ---
 translationKey: be-flexible-with-meeting-time-and-timelines
-title: Be flexible with meeting time and timelines
+title: Be flexible with meeting times and timelines
 uuid: 368de0ba
 draft: false
 quick: |-
