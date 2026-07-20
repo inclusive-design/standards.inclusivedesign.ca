@@ -209,6 +209,13 @@ inclusive-disclosure:has(#filter-topic)>button::before,
 		gap: 1.875rem;
 		grid-template-columns: 33% 1fr;
 	}
+
+	.actions,
+	.barriers {
+		filter-container {
+			display: block;
+		}
+	}
 }
 
 @media (width >=70.875rem) {
@@ -216,5 +223,13 @@ inclusive-disclosure:has(#filter-topic)>button::before,
 		display: grid;
 		gap: 1.875rem;
 		grid-template-columns: 22.9375rem 1fr;
+	}
+
+	.actions,
+	.barriers {
+		filter-container {
+			display: grid;
+			grid-template-columns: 25% 1fr;
+		}
 	}
 }
