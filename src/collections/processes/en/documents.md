@@ -9,6 +9,8 @@ draft: false
 stage: 5871d856
 ---
 
+## Summary
+
 ## Why is this important?
 
 Inclusive documents should have plain language, easy to read, accessible, and shared in advance. They should use clear language, accessible formats, and allow enough time for people to review and give feedback.
