@@ -47,11 +47,11 @@ These guidelines were started in 2024 and are grounded in both research and live
 
 The guidelines are structured around 5 main stages in the standards development process:
 
-* [organization setup and strategies](/guidelines/processes/#organization-setup-and-strategies)
-* [outreach, recruiting and registering participants](/guidelines/processes/#outreach-recruiting-and-registering-participants)
-* [preparing for participation](/guidelines/processes/#preparing-for-participation)
-* [collectively drafting the standard](/guidelines/processes/#collectively-drafting-the-standard)
-* [publishing, feedback and maintenance](/guidelines/processes/#publishing-feedback-and-maintenance).
+* [Organization setup and strategies](/guidelines/processes/#organization-setup-and-strategies)
+* [Outreach, recruiting and registering participants](/guidelines/processes/#outreach-recruiting-and-registering-participants)
+* [Preparing for participation](/guidelines/processes/#preparing-for-participation)
+* [Collectively drafting the standard](/guidelines/processes/#collectively-drafting-the-standard)
+* [Publishing, feedback and maintenance](/guidelines/processes/#publishing-feedback-and-maintenance).
 
 Each stage represents a key part of the standards development process and contains information related to one of 18 topics. Each topic outlines common barriers along with practical actions to improve accessibility and inclusion. Some of the suggested actions are things you can do quickly to make your standards development process more inclusive. Others will require a longer term strategy. These might take a few years to fully implement but they will make a large difference in who can contribute to your standards development work.
 
