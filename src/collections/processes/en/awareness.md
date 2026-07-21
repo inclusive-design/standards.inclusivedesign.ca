@@ -3,7 +3,7 @@ translationKey: awareness
 title: Public awareness
 shortTitle: Awareness
 order: 2
-description: Inclusive public awareness means sharing clear, accessible information so D/deaf and D/disabled people know about the draft standard and how to give feedback.
+description: Inclusive public awareness includes sharing clear, accessible information about standards, how they are development and how to get involved.
 uuid: '13269757'
 draft: false
 stage: 2ac90c88
