@@ -3,7 +3,7 @@ translationKey: awareness
 title: Public awareness
 shortTitle: Awareness
 order: 2
-description: Inclusive public awareness includes sharing clear, accessible information about standards, how they are development and how to get involved.
+description: Inclusive public awareness includes sharing clear, accessible information about standards, how they are development and how to get involved in standards development.
 uuid: '13269757'
 draft: false
 stage: 2ac90c88
