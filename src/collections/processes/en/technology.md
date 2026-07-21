@@ -9,6 +9,8 @@ draft: false
 stage: 5871d856
 ---
 
+## Summary
+
 ## Why is this important?
 
 Technology should involve using tools that are accessible and familiar to participants. Technology should work with assistive tools, be easy to use, and have support available when problems come up.
