@@ -45,9 +45,17 @@ These guidelines were started in 2024 and are grounded in both research and live
 
 ## How to use the Guidelines
 
-The guidelines are structured around 5 core stages in the standards development process and cover 18 topics. Each stage represents a key part of the standards development process, while each topic outlines common barriers along with practical actions to improve accessibility and inclusion.
+The guidelines are structured around 5 main stages in the standards development process:
 
-You can use the guidelines in the following ways:
+* [organization setup and strategies](/guidelines/processes/#organization-setup-and-strategies)
+* [outreach, recruiting and registering participants](/guidelines/processes/#outreach-recruiting-and-registering-participants)
+* [preparing for participation](/guidelines/processes/#preparing-for-participation)
+* [collectively drafting the standard](/guidelines/processes/#collectively-drafting-the-standard)
+* [publishing, feedback and maintenance](/guidelines/processes/#publishing-feedback-and-maintenance).
+
+Each stage represents a key part of the standards development process and contains information related to one of 18 topics. Each topic outlines common barriers along with practical actions to improve accessibility and inclusion. Some of the suggested actions are things you can do quickly to make your standards development process more inclusive. Others will require a longer term strategy. These might take a few years to fully implement but they will make a large difference in who can contribute to your standards development work
+
+You can navigate the guidelines in the following ways:
 
 ### Explore the Standards Development Process
 
@@ -72,6 +80,6 @@ Visit the actions library to see a list of actions to make the standards develop
 
 ## Help Us Build the Knowledge Base
 
-Have an example of an accessible practice, process, or initiative? We'd love to hear from you. Sharing examples helps build knowledge and inspire other standard development organizations working to make standards development more inclusive.
+Have an example of an accessible practice, process, or initiative? We'd love to hear from you. Sharing examples helps build knowledge and inspire other standards development organizations working to make standards development more inclusive.
 
 To contribute, email us at [**idrc@ocadu.ca**](mailto:idrc@ocadu.ca) or use the contact information below in the website footer. We welcome examples, case studies, resources, and lived experiences of disability that can help make standards development more accessible and inclusive for everyone.
