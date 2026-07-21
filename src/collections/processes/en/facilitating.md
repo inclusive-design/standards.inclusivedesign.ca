@@ -9,6 +9,8 @@ draft: false
 stage: 5871d856
 ---
 
+## Summary
+
 ## Why is this important?
 
 Inclusive facilitation requires running meetings in ways that support everyone to take part. This includes clear instructions, shared turn-taking, different ways to speak or contribute, and facilitators who actively support access and inclusion.
