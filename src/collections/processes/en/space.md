@@ -9,6 +9,8 @@ draft: false
 stage: 5871d856
 ---
 
+## Summary
+
 ## Why is this important?
 
 Inclusive physical spaces should be safe, accessible, and comfortable for D/deaf and D/disabled participants. This includes step-free access, clear signage, good lighting and sound, quiet areas, and accessible restrooms.
