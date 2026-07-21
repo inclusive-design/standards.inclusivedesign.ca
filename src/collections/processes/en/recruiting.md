@@ -11,11 +11,11 @@ stage: b394d47d
 
 ## Summary
 
-Inclusive recruitment means committing resources, policies, and outreach to bring diverse voices across disability and intersecting identities into standards development. It requires proactive, accessible, and relationship-based engagement, valuing lived experience alongside technical expertise, and ensuring no single voice is expected to represent an entire community. 
+Inclusive recruitment means doing outreach, creating policies and committing resources to bring diverse voices across disability and intersecting identities into standards development. It requires proactive, accessible, and relationship-based engagement, valuing lived experience alongside technical expertise, and ensuring no single voice is expected to represent an entire community. 
 
 ## Why is this important?
 
-Active recruiting is important in standards development because people from communities that have not been involved before are unlikely to join on their own, so outreach is needed to bring in new voices, lived experience of dsability, and expertise. It helps make the process more inclusive, practical, and trusted, and it improves the final standard by making sure it reflects real needs.
+People from communities that have not been involved in standards development are unlikely to join on their own. Active recruitment is needed to bring in new voices, lived experience of disability and deafness, and intersectional expertise. It helps make the process more inclusive, practical, and trusted, and it improves the final standard by making sure it reflects real needs.
 
 ## Actions
 
