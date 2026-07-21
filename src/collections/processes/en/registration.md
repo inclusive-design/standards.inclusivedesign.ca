@@ -15,7 +15,7 @@ Accessible registration requires simple, user-friendly processes that work with 
 
 ## Why is this important?
 
-Registration matters in the standards development process becauseIf there are too many hurdles, people may not keep going, so the process needs to be accessible, smooth and easy to follow.
+Registration is the first point of entry for people interested in becoming involved in standards development. When there are barriers during the registration process people are likely to stop their involvement at that point. The entire registration process needs to be accessible, smooth and easy to follow.
 
 ## Actions
 
