@@ -11,9 +11,11 @@ stage: 8820ca59
 
 ## Summary
 
-Maintenance means keeping standards up to date transparent and this should be done in accessible ways. This includes clearly explaining updates or withdrawals, inviting ongoing feedback, and continuing to involve Disabled and Deaf people in decisions over time.
+Maintenance means keeping standards current and managing changes in a clear and accessible way. This includes explaining updates or withdrawals, sharing information in accessible formats, inviting ongoing feedback, and continuing to involve D/deaf and D/disabled people in decisions over time.
 
 ## Why is this important?
+
+Regular maintenance helps standards stay relevant and reflect changes in technology, practices, and people’s needs. Ongoing review and involvement help ensure standards continue to support meaningful participation and remain useful over time.
 
 ## Actions
 
