@@ -33,7 +33,7 @@
                             <input type="checkbox" id="{{ stage.data.uuid }}" name="stage" value="{{ stage.data.uuid }}" data-filter-key="stages"/>
                             <label for="{{ stage.data.uuid }}">{{ stage.data.title }}</label>
                             <ul>
-                            	{% for process in filterableOptions.processes | findAll('data.stage', stage.data.uuid) |  sort(attribute="data.order") %}
+                            	{% for process in filterableOptions.processes | findAll('data.stage', stage.data.uuid) | sort(attribute="data.order") %}
                              	<li>
 									<input type="checkbox" id="{{ process.data.uuid }}" name="process" value="{{ process.data.uuid }}" data-filter-key="processes"/>
 									<label for="{{ process.data.uuid }}">{{ process.data.title }}</label>
