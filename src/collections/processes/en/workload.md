@@ -11,7 +11,7 @@ stage: 5871d856
 
 ## Summary
 
-Workloads should set realistic expectations and not ask people to do too much. Tasks should be clearly defined, fly shared, and flexible so D/deaf and D/disabled participants can contribute without burnout.
+Workloads should set realistic expectations and not ask people to do too much. Tasks should be clearly defined, and flexible so D/deaf and D/disabled participants can contribute without burnout.
 
 ## Why is this important?
 
