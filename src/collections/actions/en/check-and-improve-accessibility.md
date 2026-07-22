@@ -26,21 +26,27 @@ moreInformation: |-
   - [Accessible Campus: Checklist for Planning Accessible Events](https://www.accessiblecampus.ca/wp-content/uploads/2016/12/A-Checklist-for-Planning-Accessible-Events-1.pdf) is practical checklist for meeting rooms, event spaces, and physical access needs.
 examples: |-
   - [India – Bureau of Indian Standards (BIS)](https://www.bis.gov.in/?lang=en) offers registration in regional languages and offline options like printed forms, phone registration, and community partner assistance. They collaborate with NGOs to bring mobile units to disability events, ensuring accessibility in remote areas.
-  - [Australia – Standards Australia](https://www.standards.org.au/standards-development/developing-standards/process) revamped its registration portals to meet WCAG 2.1 standards and created plain-language forms. They provide offline options like printed forms and phone interviews, along with Easy Read materials and explainer videos for people with disabilities.
+  - [Australia – Standards Australia](https://www.standards.org.au/) revamped its registration portals to meet WCAG 2.1 standards and created plain-language forms. They provide offline options like printed forms and phone interviews, along with Easy Read materials and explainer videos for people with disabilities.
   - [Kenya – Kenya Bureau of Standards (KEBS)](https://www.kebs.org/) partners with disability centers for in-person registration using paper forms, braille, and sign language interpreters. They also offer mobile-friendly forms and SMS-based registration, catering to low-bandwidth regions and mobile-first users.
 relatedActions:
   - ec2f6495
   - fdb653ec
   - f3ca9e8e
-  - d61f445c
-  - ed90fb3e
+  - 594d9a28
   - 2ac90c88
+  - e6970303
+  - 8ee5823e
+  - 485d8e74
+  - ed90fb3e
 barriers:
-  - d1e09be4
   - 0d377477
+  - 7751b43d
+  - 9907ee88
+  - d1e09be4
   - a9946f8c
   - e0642a56
-  - dbf56f15
+  - 81182d8d
+  - 9dc55c33
 processes:
   - a7e33638
 more-information: ''
