@@ -4,12 +4,12 @@ title: Check and improve accessibility
 uuid: 95f998b1
 draft: false
 quick: |-
+  - Proactively consult with D/deaf and D/disabled committee members to determine specific access needs
   - Consider accessibility across formats, devices, and languages.
   - Regularly assess the inclusiveness and accessibility of meetings and processes through feedback
   - Celebrate improvements in accessibility and inclusion to show the group’s progress.
 longterm: |-
   - Create a permanent dedicated accessibility group within the organization to track inclusion over time.
-  - Proactively consult with D/deaf and D/disabled committee members to determine specific access needs
   - Design digital content so people with disabilities can access, understand, and use it.
   - Conduct accessibility audits with usability and assistive technology experts to ensure all digital platforms including websites, member portals, application sites and feedback mechanisms are accessible.
   - Offer alternative ways to participate: in-person, phone, relay services, video calls, or paper applications.
