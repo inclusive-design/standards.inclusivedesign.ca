@@ -11,9 +11,9 @@ stage: 5871d856
 
 ## Summary
 
-## Why is this important?
-
 All participants should be able to travel safely and comfortably. This includes flexible options, accessible transport and lodging, extra time, and covering all related costs.
+
+## Why is this important?
 
 ## Actions
 
