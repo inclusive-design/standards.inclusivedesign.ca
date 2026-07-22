@@ -3,25 +3,25 @@ translationKey: check-and-improve-accessibility
 title: Check and improve accessibility
 uuid: 95f998b1
 draft: false
-quick: ''
+quick: |-
+  - Consider accessibility across formats, devices, and languages.
+  - Regularly assess the inclusiveness and accessibility of meetings and processes through feedback
+  - Celebrate improvements in accessibility and inclusion to show the group’s progress.
 longterm: |-
   - Create a permanent dedicated accessibility group within the organization to track inclusion over time.
-  - Celebrate improvements in accessibility and inclusion to show the group’s progress.
-  - Regularly assess the inclusiveness and accessibility of meetings and processes through feedback
-  - Consider accessibility across formats, devices, and languages.
+  - Proactively consult with D/deaf and D/disabled committee members to determine specific access needs
   - Design digital content so people with disabilities can access, understand, and use it.
   - Conduct accessibility audits with usability and assistive technology experts to ensure all digital platforms including websites, member portals, application sites and feedback mechanisms are accessible.
   - Offer alternative ways to participate: in-person, phone, relay services, video calls, or paper applications.
-  - Proactively consult with D/deaf and D/disabled committee members to determine specific access needs
   - Provide accommodations to participants, including:
       - Sign Language interpreters (ASL, LSQ, etc.)
       - Real-time captioning (CART)
       - Note-taking services
       - Clear and consistent turn-taking protocols
       - Accessible digital files and materials in advance
-  - Ensure physical spaces (if used) are accessible for mobility devices, sensory needs, and rest requirements. ([Physical Space](https://standards.inclusivedesign.ca/guidelines/processes/space/))
+  - Ensure that physical spaces are accessible for mobility devices, sensory needs, and rest requirements.
 moreInformation: |-
-  - [WCAG in Plain English](https://aaardvarkaccessibility.com/wcag-plain-english/) makes the Web Content Accessibility Guidelines (WCAG) easy to understand, one success criterion at a time.
+  - [WCAG in Plain English](https://aaardvarkaccessibility.com/wcag-plain-english/) makes the Web Content Accessibility Guidelines (WCAG) easy to understand, and gives details on how to address web accessibility issues.
   - [UNICEF Accessibility Checklists](https://accessibilitytoolkit.unicef.org/reports/section-g-accessibility-checklists) can be useful for broad accessibility review, including events and environments.
   - [Accessible Campus: Checklist for Planning Accessible Events](https://www.accessiblecampus.ca/wp-content/uploads/2016/12/A-Checklist-for-Planning-Accessible-Events-1.pdf) is practical checklist for meeting rooms, event spaces, and physical access needs.
 examples: |-
