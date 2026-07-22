@@ -15,7 +15,7 @@ Publishing of standards involve sharing the standard in accessible formats that 
 
 ## Why is this important?
 
-Accessible publishing helps more people find and use standards, supporting wider adoption and implementation. It also promotes transparency and builds trust by making standards information available to everyone. Providing opportunities for feedback after publication helps identify areas for improvement and keeps standards relevant over time.
+Accessible publishing helps more people find and use standards, supporting wider adoption and implementation. It also promotes transparency and builds trust by making standards information available to everyone. 
 
 ## Actions
 
