@@ -11,9 +11,11 @@ stage: 8820ca59
 
 ## Summary
 
-Feedback should be offered in different ways for people to share their views. Feedback options should be accessible, simple to use, and allow enough time so D/deaf and D/disabled people can meaningfully respond.
+Feedback is offered in different ways for people to share their views. Feedback options are accessible, simple to use, and allow enough time so D/deaf and D/disabled people can meaningfully respond.
 
 ## Why is this important?
+
+Feedback helps improve the quality of standards by revealing gaps, identifying different perspectives, and highlighting issues that may have been missed. Including the experiences of D/deaf and D/disabled people supports fairer and more inclusive standards. A transparent feedback process also builds trust by showing that participants’ contributions are valued and considered.
 
 ## Actions
 
