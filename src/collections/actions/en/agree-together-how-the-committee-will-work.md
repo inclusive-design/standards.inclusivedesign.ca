@@ -4,7 +4,7 @@ title: Agree together how the committee will work
 uuid: 318837bb
 draft: false
 quick: |-
-  - When committee work begins, explain clearly the difference between a chairperson and a regular member.
+  - When committee work begins, clearly explain the difference between a chairperson and a regular member.
   - Have the chairperson lead a discussion on how everyone wants to work together, including:
       - What tools and platforms to use
       - How decisions will be made

@@ -9,9 +9,13 @@ draft: false
 stage: 5871d856
 ---
 
+## Summary
+
+Language used in meetings and meeting materials is clear, respectful, and easy to understand. It avoids unnecessary jargon, explains key terms, and reflects the language that D/deaf and D/disabled people use to describe themselves and their experiences.
+
 ## Why is this important?
 
-Any language used in meetings and also meeting material should use clear, respectful, and plain words. Language should avoid jargon, explain key terms, and respect how D/deaf and D/disabled people describe themselves and their experiences.
+Language shapes how people experience and participate in the standards development process. Respectful communication helps people feel recognized and included, while avoiding harmful or outdated terms helps prevent stereotypes and barriers. Clear language also supports effective interpretation, captioning, and shared understanding among all participants.
 
 ## Actions
 

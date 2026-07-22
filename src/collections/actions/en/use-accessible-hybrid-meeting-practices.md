@@ -19,24 +19,29 @@ quick: |-
 longterm: |-
   - Provide online or hybrid attendance options for all meetings - in-person meetings often create more challenges for members with disabilities, including those with mobility or transportation barriers.
   - Ensure all core work can be completed online, not just discussed during in-person meetings
+moreInformation: |-
+  - [Centre for Excellence in Universal Design](https://universaldesign.ie/?utm_source=chatgpt.com) provides guidance on making meetings and events accessible. It covers planning for accessibility, physical spaces, communication supports, accessible presentations, and participation options for people with different access needs.
+  - [Government of Canada](https://a11y.canada.ca/en/accessible-virtual-events/) provides guidance for accessible virtual meetings, including planning accommodations, using accessible collaboration tools, enabling captions, sharing documents ahead of time, and considering different communication preferences. Their guidance emphasizes that accessibility should be planned from the beginning rather than added later.
+  - [World Wide Web Consortium (W3C) - Making Video Meetings Accessible](https://www.w3.org/TR/remote-meetings/) provides practical guidance for making online meetings more accessible. It covers preparing accessibility requirements before meetings, enabling captions, sharing materials in advance, managing turn-taking, reducing barriers in communication, and ensuring participants can access meeting content. Although focused on virtual meetings, many practices apply directly to hybrid meetings.
+  - [WebAIM: Writing Clearly and Simply](https://webaim.org/techniques/writing/) is about writing in a way that is easier for more people to understand. It focuses on plain language, short sentences, clear structure, and avoiding jargon where possible. It is useful for making web content easier to read for people with cognitive disabilities, people using screen readers, and anyone who benefits from clear communication.
+  - [Accessible Content and Communication: Community-led Co-design kit](https://community-led.design/resources/accessible-content-and-communication/) is part of a community-led co-design toolkit. It focuses on making content and communication accessible during co-design or community engagement work. In practice, that means using clear language, thinking about different access needs, and making sure communication works for the people involved, not just for organizers.
+examples: |-
+  - [UK – British Standards Institution (BSI)](https://www.bsigroup.com/en-CA/) uses 360° cameras, quality audio, and shared online docs to ensure remote attendees are fully included. A “remote participant advocate” helps balance input between in-person and online members.
+  - [Germany – German Institute for Standardization (DIN)](https://www.din.de/en) uses auto-tracking cameras, real-time screen sharing, and shares materials in advance in multiple accessible formats. They also run simulations to test and improve hybrid setups.
+  - [USA  – American National Standards Institute (ANSI)](https://www.ansi.org/about/introduction#:~:text=The%20American%20National%20Standards%20Institute,standards%20and%20conformity%20assessment%20system.) prefers online or hybrid meetings to reduce travel barriers. When in-person meetings are necessary, they choose accessible venues and offer support for assistive technologies. Meeting formats are adjusted based on member needs.
+  - [Japan – The Japanese Industrial Standards Committee (JISC)](https://www.jisc.go.jp/eng/) uses regional hubs connected by video to limit long travel. For in-person meetings, they offer travel subsidies and accessible transportation for participants with mobility challenges.
 relatedActions:
   - 594d9a28
   - e6970303
   - 94dc979d
   - ae3ed12e
   - 95f998b1
-moreInformation: '- [Best practices for hosting hybrid meetings and events in Microsoft Teams Rooms](https://support.microsoft.com/en-us/office/best-practices-for-hosting-hybrid-meetings-and-events-in-microsoft-teams-rooms-9950a003-ad57-4518-8daf-fd909f87bf12)'
-examples: |-
-  - [UK – British Standards Institution (BSI)](https://www.bsigroup.com/en-CA/): BSI uses 360° cameras, quality audio, and shared online docs to ensure remote attendees are fully included. A “remote participant advocate” helps balance input between in-person and online members.
-  - [Germany – German Institute for Standardization (DIN)](https://www.din.de/en): DIN uses auto-tracking cameras, real-time screen sharing, and shares materials in advance in multiple accessible formats. They also run simulations to test and improve hybrid setups.
-  - [USA  – American National Standards Institute (ANSI)](https://www.ansi.org/about/introduction#:~:text=The%20American%20National%20Standards%20Institute,standards%20and%20conformity%20assessment%20system.):  ANSI prefers online or hybrid meetings to reduce travel barriers. When in-person meetings are necessary, they choose accessible venues and offer support for assistive technologies. Meeting formats are adjusted based on member needs.
-  - [Japan – The Japanese Industrial Standards Committee (JISC)](https://www.jisc.go.jp/eng/): JISC uses regional hubs connected by video to limit long travel. For in-person meetings, they offer travel subsidies and accessible transportation for participants with mobility challenges.
-processes:
-  - b612d304
 barriers:
   - 81182d8d
-more-information: ''
+processes:
+  - b612d304
 order: 1
+more-information: ''
 ---
 
 Strategies to ensure accessible pathways into technical committees and working groups for diverse applicants.

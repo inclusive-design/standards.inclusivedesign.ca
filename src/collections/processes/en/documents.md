@@ -9,9 +9,13 @@ draft: false
 stage: 5871d856
 ---
 
+## Summary
+
+Inclusive documents are written in plain language, easy to read, accessible, and shared in advance. They use clear language, accessible formats, and provide enough time for people to review information and give feedback.
+
 ## Why is this important?
 
-Inclusive documents should have plain language, easy to read, accessible, and shared in advance. They should use clear language, accessible formats, and allow enough time for people to review and give feedback.
+Documents are important because accessible and multi-modal formats help everyone access the same information and participate fully. Inaccessible documents can create barriers, making it difficult for D/deaf and D/disabled participants to review information, provide feedback, and contribute to the standards development process.
 
 ## Actions
 

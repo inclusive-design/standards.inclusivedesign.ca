@@ -9,9 +9,13 @@ draft: false
 stage: 5871d856
 ---
 
+## Summary
+
+All participants need options to travel safely and comfortably. This includes accessible transportation and lodging, flexible arrangements, sufficient time for planning, and coverage of travel-related costs.
+
 ## Why is this important?
 
-All participants should be able to travel safely and comfortably. This includes flexible options, accessible transport and lodging, extra time, and covering all related costs.
+Planning travel supports early helps identify and arrange the right accommodations before participation begins. D/deaf and D/disabled participants may need additional time, support, and resources to arrange accessible transportation, lodging, and other travel needs. Considering these needs in advance helps remove barriers and supports meaningful participation.
 
 ## Actions
 

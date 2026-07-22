@@ -9,9 +9,13 @@ draft: false
 stage: 8820ca59
 ---
 
+## Summary
+
+Withdrawal means formally removing a standard from active use because it is outdated, no longer needed, or has been replaced by a newer version. The withdrawal process includes clearly communicating that a standard is no longer current and providing information about any replacement standards.
+
 ## Why is this important?
 
-Maintenance means keeping standards up to date transparent and this should be done in accessible ways. This includes clearly explaining updates or withdrawals, inviting ongoing feedback, and continuing to involve D/deaf and D/disabled people in decisions over time.
+Clear withdrawal processes help prevent confusion about which standards are current and should be used. They also reduce risks related to incorrect use, compliance issues, or decisions based on outdated information.
 
 ## Actions
 
