@@ -31,12 +31,12 @@
 
 .bg-indigo-700 {
     background-color: var(--fl-bgColor, var(--color-indigo-700));
-    color: var(--fl-fgColor, white);
+    color: var(--fl-fgColor, var(--color-white));
 }
 
 .bg-indigo-800 {
     background-color: var(--fl-bgColor, var(--color-indigo-800));
-    color: var(--fl-fgColor, white);
+    color: var(--fl-fgColor, var(--color-white));
 }
 
 .bg-red {
@@ -101,7 +101,7 @@
 
 .bg-dark-grey {
     background-color: var(--fl-bgColor, var(--color-dark-grey));
-    color: var(--fl-fgColor, white);
+    color: var(--fl-fgColor, var(--color-white));
 }
 
 @media (width >= 40rem) {

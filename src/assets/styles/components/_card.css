@@ -2,7 +2,7 @@
     box-shadow:
         0 0.625rem 1.25rem 0 var(--shadow-light),
         inset 0 0 0 0.1875rem var(--fl-linkFgColor, transparent);
-    color: var(--fl-fgColor, black);
+    color: var(--fl-fgColor, var(--color-black));
     display: flex;
     flex-direction: column;
     inline-size: clamp(16.25rem, 23rem, 1fr);
@@ -17,63 +17,64 @@
     inline-size: 3.75rem;
 }
 
-.card.action,
-.card.barrier {
-    border: 0.125rem solid var(--fl-fgColor, var(--color-indigo-700));
-    border-radius: 0.5rem;
-    clip-path: polygon(2.5rem 0, 100% 0, 100% 100%, 0 100%, 0 2.5rem);
-    padding: 1rem;
-    position: relative;
+.content {
+    .card.action,
+    .card.barrier {
+        border: 0.125rem solid var(--fl-fgColor, var(--color-indigo-700));
+        border-radius: 0.5rem;
+        clip-path: polygon(2.5rem 0, 100% 0, 100% 100%, 0 100%, 0 2.5rem);
+        padding: 1rem;
+        position: relative;
 
-    .card__fold {
-        background-color: var(--fl-fgColor, var(--color-indigo-700));
-        height: 3rem;
-        left: -0.5rem;
-        position: absolute;
-        top: -0.5rem;
-        transform: rotate(20deg);
-        width: 2.5rem;
-    }
-
-    .card__icon {
-        border-radius: 50%;
-        height: 3rem;
-        position: absolute;
-        right: 1rem;
-        top: 1rem;
-        width: 3rem;
-
-        svg {
-            block-size: 2.2rem;
-            inline-size: 2.2rem;
-            margin-inline: 0.25rem 0;
+        .card__fold {
+            background-color: var(--fl-fgColor, var(--color-indigo-700));
+            height: 3rem;
+            left: -0.5rem;
+            position: absolute;
+            top: -0.5rem;
+            transform: rotate(20deg);
+            width: 2.5rem;
         }
-    }
 
-    .card__content {
-        border: unset;
-        padding-block: 3.5rem 2rem;
-    }
+        .card__icon {
+            border-radius: 50%;
+            height: 3rem;
+            position: absolute;
+            right: 1rem;
+            top: 1rem;
+            width: 3rem;
 
-    &::after {
-        background-color: var(--fl-fgColor, black);
-        block-size: 2rem;
-        bottom: 1rem;
-        content: "";
-        display: block;
-        inline-size: 2rem;
-        mask-image: url("/assets/images/chevron-right.svg");
-        mask-position: center;
-        mask-repeat: no-repeat;
-        mask-size: 1.5rem;
-        pointer-events: none;
-        position: absolute;
-        right: 1rem;
-    }
+            svg {
+                block-size: 2.2rem;
+                inline-size: 2.2rem;
+            }
+        }
 
-    &:has(a:hover),
-    &:has(a:focus) {
-        box-shadow: 0 0 0 0.625rem var(--fl-fgColor, var(--color-indigo-700)) inset !important;
+        .card__content {
+            border: unset;
+            padding-block: 3.5rem 2rem;
+        }
+
+        &::after {
+            background-color: var(--fl-fgColor, var(--color-black));
+            block-size: 2rem;
+            bottom: 1rem;
+            content: "";
+            display: block;
+            inline-size: 2rem;
+            mask-image: url("/assets/images/chevron-right.svg");
+            mask-position: center;
+            mask-repeat: no-repeat;
+            mask-size: 1.5rem;
+            pointer-events: none;
+            position: absolute;
+            right: 1rem;
+        }
+
+        &:has(a:hover),
+        &:has(a:focus) {
+            box-shadow: 0 0 0 0.625rem var(--fl-fgColor, var(--color-indigo-700)) inset;
+        }
     }
 }
 
@@ -85,7 +86,12 @@
     }
 
     .card__icon {
-        background-color: var(--fl-bgColor, white);
+        background-color: var(--fl-fgColor, white);
+
+        svg {
+            fill: var(--fl-bgColor, var(--color-black));
+            margin-inline: 0.25rem 0;
+        }
     }
 }
 
@@ -93,10 +99,11 @@
     background-color: var(--fl-bgColor, white);
 
     .card__icon {
-        background-color: var(--fl-bgColor, var(--color-indigo-200));
+        background-color: var(--fl-fgColor, var(--color-indigo-200));
 
         svg {
-            margin-inline-start: 0.4rem;
+            fill: var(--fl-bgColor, var(--color-black));
+            margin-inline: 0.4rem 0;
         }
     }
 }
@@ -214,7 +221,7 @@ body:not([class*="fl-theme"]),
 }
 
 .card__title {
-    color: var(--fl-linkFgColor, black);
+    color: var(--fl-linkFgColor, var(--color-black));
     font-family: var(--family-sans-serif);
     font-size: inherit;
     font-weight: var(--font-weight-semibold);
