@@ -13,7 +13,7 @@ stage: 8820ca59
 
 ## Why is this important?
 
-Maintenance means keeping standards up to date transparent and this should be done in accessible ways. This includes clearly explaining updates or withdrawals, inviting ongoing feedback, and continuing to involve D/deaf and D/disabled people in decisions over time.
+Withdrawal of standards is the formal removal of a standard from active/current status, usually because it is outdated, no longer used, or has been replaced by a newer version.
 
 ## Actions
 
