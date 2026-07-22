@@ -19,7 +19,8 @@
 
 .content {
     .card.action,
-    .card.barrier {
+    .card.barrier,
+    .card.process {
         border: 0.125rem solid var(--fl-fgColor, var(--color-indigo-700));
         border-radius: 0.5rem;
         clip-path: polygon(2.5rem 0, 100% 0, 100% 100%, 0 100%, 0 2.5rem);
@@ -86,7 +87,7 @@
     }
 
     .card__icon {
-        background-color: var(--fl-fgColor, white);
+        background-color: var(--fl-fgColor, var(--color-white));
 
         svg {
             fill: var(--fl-bgColor, var(--color-black));
@@ -96,7 +97,7 @@
 }
 
 .card.barrier {
-    background-color: var(--fl-bgColor, white);
+    background-color: var(--fl-bgColor, var(--color-white));
 
     .card__icon {
         background-color: var(--fl-fgColor, var(--color-indigo-200));
@@ -105,6 +106,84 @@
             fill: var(--fl-bgColor, var(--color-black));
             margin-inline: 0.4rem 0;
         }
+    }
+}
+
+.card.process {
+    aspect-ratio: 373 / 330;
+    background-color: var(--fl-bgColor, var(--color-white));
+	padding-block-start: 0;
+	padding-inline-start: calc(13 / 16 * 1rem);
+
+    &.bg-guidelines-stage-1 {
+        border: 0.25rem solid var(--fl-bgColor, var(--color-guidelines-red));
+
+        .card__fold {
+            background-color: var(--fl-fgColor, var(--color-guidelines-red));
+        }
+
+        &:has(a:hover),
+        &:has(a:focus) {
+            box-shadow: 0 0 0 0.625rem var(--fl-fgColor, var(--color-guidelines-red)) inset;
+        }
+    }
+
+    &.bg-guidelines-stage-2 {
+        border: 0.25rem solid var(--fl-bgColor, var(--color-guidelines-orange));
+
+        .card__fold {
+            background-color: var(--fl-fgColor, var(--color-guidelines-orange));
+        }
+
+        &:has(a:hover),
+        &:has(a:focus) {
+            box-shadow: 0 0 0 0.625rem var(--fl-fgColor, var(--color-guidelines-orange)) inset;
+        }
+    }
+
+    &.bg-guidelines-stage-3 {
+        border: 0.25rem solid var(--fl-bgColor, var(--color-guidelines-yellow));
+
+        .card__fold {
+            background-color: var(--fl-fgColor, var(--color-guidelines-yellow));
+        }
+
+        &:has(a:hover),
+        &:has(a:focus) {
+            box-shadow: 0 0 0 0.625rem var(--fl-fgColor, var(--color-guidelines-yellow)) inset;
+        }
+    }
+
+    &.bg-guidelines-stage-4 {
+        border: 0.25rem solid var(--fl-bgColor, var(--color-guidelines-green));
+
+        .card__fold {
+            background-color: var(--fl-fgColor, var(--color-guidelines-green));
+        }
+
+        &:has(a:hover),
+        &:has(a:focus) {
+            box-shadow: 0 0 0 0.625rem var(--fl-fgColor, var(--color-guidelines-green)) inset;
+        }
+    }
+
+    &.bg-guidelines-stage-5 {
+        border: 0.25rem solid var(--fl-bgColor, var(--color-guidelines-blue));
+
+        .card__fold {
+            background-color: var(--fl-fgColor, var(--color-guidelines-blue));
+        }
+
+        &:has(a:hover),
+        &:has(a:focus) {
+            box-shadow: 0 0 0 0.625rem var(--fl-fgColor, var(--color-guidelines-blue)) inset;
+        }
+    }
+
+    .card__content {
+        align-items: flex-start;
+        background-color: transparent;
+        position: relative;
     }
 }
 
@@ -117,17 +196,6 @@
 .card:has(a:focus) {
     outline: 0.1875rem solid var(--fl-linkFgColor, var(--color-indigo-700));
     outline-offset: 0.4375rem;
-}
-
-.card.process {
-	aspect-ratio: 373 / 330;
-	padding-block-start: 0;
-	padding-inline-start: calc(13 / 16 * 1rem);
-}
-
-.card.process .card__content {
-	align-items: flex-start;
-	position: relative;
 }
 
 .card.process svg {
@@ -211,7 +279,7 @@ body:not([class*="fl-theme"]),
 }
 
 .card__content {
-    background-color: var(--fl-bgColor, white);
+    background-color: var(--fl-bgColor, var(--color-white));
     border: 0.1875rem solid var(--fl-linkFgColor, transparent);
     display: flex;
     flex-direction: column;
