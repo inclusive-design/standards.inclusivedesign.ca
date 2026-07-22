@@ -15,7 +15,7 @@ longterm: ''
 moreInformation: |-
   - [University of Illinois](https://digitalaccessibility.illinois.edu/guides/virtual-meetings) covers chat, raise hand, co-facilitation, captions, time limits, and using tools beyond speaking on mic.
   - [Disability:IN](https://disabilityin.org/resource/six-tips-to-keep-in-mind-when-creating-accessible-virtual-meetings) is a good source for information on accessible virtual meetings, different work styles, and encouraging participation through multiple channels.
-examples: '- [Australia – Standards Australia](https://www.standards.org.au/standards-development/developing-standards/process) and international disability-access resources emphasize reasonable accommodations and inclusive meeting planning, which aligns with flexible meeting times and multiple ways to contribute.'
+examples: '- [Australia – Standards Australia](https://www.standards.org.au/standards-development/developing-standards/process) has a standard on international disability-access resources which emphasize reasonable accommodations and inclusive meeting planning, which aligns with flexible meeting times and multiple ways to contribute.'
 relatedActions:
   - 594d9a28
 barriers:
