@@ -23,13 +23,11 @@ relatedActions:
   - 5f9cfaff
   - e6970303
   - '34078967'
-  - f252ffa1
 barriers:
-  - dbf56f15
-  - 9dc55c33
-  - 8b6ad4ca
-  - c631fc93
   - 8ee223fa
+  - 8b6ad4ca
+  - 9dc55c33
+  - c631fc93
 processes:
   - e7f348c2
 more-information: ''
