@@ -11,9 +11,9 @@ stage: 8820ca59
 
 ## Summary
 
-## Why is this important?
-
 Withdrawal of standards is the formal removal of a standard from active/current status, usually because it is outdated, no longer used, or has been replaced by a newer version.
+
+## Why is this important?
 
 ## Actions
 
