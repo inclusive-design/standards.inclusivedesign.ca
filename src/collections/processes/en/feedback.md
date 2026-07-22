@@ -11,9 +11,9 @@ stage: 8820ca59
 
 ## Summary
 
-## Why is this important?
-
 Feedback should be offered in different ways for people to share their views. Feedback options should be accessible, simple to use, and allow enough time so D/deaf and D/disabled people can meaningfully respond.
+
+## Why is this important?
 
 ## Actions
 
