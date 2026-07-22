@@ -12,7 +12,7 @@ longterm: |-
   - Create a permanent dedicated accessibility group within the organization to track inclusion over time.
   - Design digital content so people with disabilities can access, understand, and use it.
   - Conduct accessibility audits with usability and assistive technology experts to ensure all digital platforms including websites, member portals, application sites and feedback mechanisms are accessible.
-  - Offer alternative ways to participate: in-person, phone, relay services, video calls, or paper applications.
+  - Offer alternative ways to participate such as in-person, phone, relay services, video calls, or paper applications.
   - Provide accommodations to participants, including:
       - Sign Language interpreters (ASL, LSQ, etc.)
       - Real-time captioning (CART)
