@@ -107,10 +107,10 @@
     }
 
     .card__icon {
-        background-color: var(--fl-fgColor, var(--color-white));
+        background-color: var(--fl-linkFgColor, var(--color-white));
 
         svg {
-            fill: var(--fl-bgColor, var(--color-black));
+            fill: var(--fl-linkBgColor, var(--color-black));
             margin-inline: 0.25rem 0;
         }
     }
@@ -120,10 +120,10 @@
     background-color: var(--fl-bgColor, var(--color-white));
 
     .card__icon {
-        background-color: var(--fl-fgColor, var(--color-indigo-200));
+        background-color: var(--fl-linkFgColor, var(--color-indigo-200));
 
         svg {
-            fill: var(--fl-bgColor, var(--color-black));
+            fill: var(--fl-linkBgColor, var(--color-black));
             margin-inline: 0.4rem 0;
         }
     }
