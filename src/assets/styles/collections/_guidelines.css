@@ -97,7 +97,8 @@
 	background-size: cover;
 }
 
-[class^="fl-theme"]:not(.fl-theme-prefsEditor-default) .processes {
+[class^="fl-theme"]:not(.fl-theme-prefsEditor-default) .processes,
+[class^="fl-input-enhanced"]:not(.fl-theme-prefsEditor-default) .processes {
 	background-image: none;
 }
 
