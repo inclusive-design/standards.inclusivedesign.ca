@@ -11,6 +11,7 @@
 ### Bug Fixes
 
 * issues around guidelines pages ([#572](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/572)) ([b0190bb](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/b0190bb17333bc8cbd1cfc0a77ee3e3c1672cb9e))
+* processes page background issue on enhanced input ([#575](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/575)) ([baf9ee4](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/baf9ee423539885827e647d456e358cccb6a2e75))
 
 ## [2026.7.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.6.1...v2026.7.0) (2026-07-15)
 
