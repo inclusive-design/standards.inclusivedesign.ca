@@ -14,9 +14,7 @@ quick: |-
 longterm: |-
   - Provide documents, materials and technologies based on roles and responsibilities
   - Provide information in flexible, small, digestible parts by using multiple shorter orientation sessions instead of one long session. This will give new members time to process the information and ask questions
-moreInformation: |-
-  - [Council of Nonprofits – Board Orientation](https://www.councilofnonprofits.org/running-nonprofit/governance-leadership/board-orientation) is a widely used onboarding reference that recommends sharing role descriptions, committee lists, key policies, calendars, and keeping orientation short and digestible instead of overwhelming new members.
-  - [Boardable – Tips for Successful Onboarding of New Board Members](https://boardable.com/resources/new-board-members/) focuses on clear expectations, onboarding in writing, and staged orientation, which aligns well with your “welcome package” idea.
+moreInformation: '- [W3C ](https://www.w3.org/policies/process/?utm_source=chatgpt.com)encourages chairs to actively support participants throughout the standards development process by helping new members understand procedures, facilitating participation, and addressing challenges as they arise.'
 examples: '- [ISO onboarding / awareness material](https://www.unescap.org/sites/default/files/Setting%20the%20agenda%20on%20NTMs_by%20ISO.pdf) is an ISO presentation on onboarding and standards development mentions awareness materials such as brochures, videos, and articles, plus guidance for standards writers.'
 relatedActions:
   - 7f21a35b
