@@ -11,7 +11,7 @@ stage: 228cf07a
 
 ## Summary
 
-Inclusive training requires accessible, plain-language, role-specific learning materials delivered in multiple formats and languages. Both new participants and the organization's staff benefit from capacity-building and ongoing accessibility training to ensure everyone can contribute meaningfully, regardless of starting knowledge or experience. 
+Inclusive training requires accessible, plain-language, role-specific learning materials delivered in multiple formats and languages. Both new participants and the organization's staff benefit from knowledge building and ongoing accessibility training to ensure everyone can contribute meaningfully, regardless of starting knowledge or experience. 
 
 ## Why is this important?
 
