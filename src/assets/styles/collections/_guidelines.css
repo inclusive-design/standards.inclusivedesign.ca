@@ -337,6 +337,10 @@
 	}
 }
 
+.guidelines-visualmap p:has(img) {
+	max-width: 100%;
+}
+
 @media (width >=70.875rem) {
 	.barrier nav>h2,
 	.guidelines nav>h2,
