@@ -14,13 +14,6 @@ longterm: |-
   - Use high-contrast colors for text and backgrounds
   - Avoid relying on color alone to convey information.
   - Make forms accessible, with clear labels, instructions, and error messages that screen readers can detect.
-relatedActions:
-  - ec2f6495
-  - f3ca9e8e
-  - 594d9a28
-  - 95f998b1
-  - 3d6901ef
-  - ed90fb3e
 moreInformation: |-
   - [W3C Web Accessibility Initiative (WAI)](https://www.w3.org/WAI/) is the accessibility part of the World Wide Web Consortium, the group that develops web standards. It provides accessibility standards, guidance, training materials, and implementation resources to help people make websites, apps, and other digital content accessible
   - [WebAIM (Web Accessibility in Mind)](https://webaim.org/services/training/?gad_source=1&gad_campaignid=17071877&gbraid=0AAAAAD-9eEcm8d5EQG9rQdOMHJwfZD36h&gclid=Cj0KCQjwgr_NBhDFARIsAHiUWr5FDwAsG5SRf4XUGpFb0kSlkG9lJ3vd-GRsQliV37_A0l5nRiXDItwaAvetEALw_wcB) is a long-running accessibility organization that provides practical training, articles, tutorials, and consulting for making digital content accessible. It is especially known for clear, hands-on advice that is easy to apply in real projects.
@@ -29,13 +22,16 @@ moreInformation: |-
 examples: |-
   - [USA  – American National Standards Institute (ANSI)](https://www.ansi.org/about/introduction#:~:text=The%20American%20National%20Standards%20Institute,standards%20and%20conformity%20assessment%20system.) uses Section 508 and ADA-related guidance, and many organizations follow WCAG as the practical web accessibility standard.
   - [Canada  – Standards Council of Canada ](https://scc-ccn.ca/)uses the Accessible Canada Act and provincial accessibility laws like Ontario’s AODA and WCAG is widely used as the reference standard.
-processes:
-  - b612d304
-  - 3eb6bf1e
+relatedActions:
+  - f3ca9e8e
+  - 95f998b1
 barriers:
   - d1e09be4
   - a9946f8c
   - 7751b43d
+processes:
+  - b612d304
+  - 3eb6bf1e
 more-information: |-
   - [**Introduction to Web Accessibility**](https://webaim.org/intro/)
   - [**WAVE Web Accessibility Evaluation Tools**](https://wave.webaim.org/)
