@@ -14,17 +14,13 @@ longterm: |-
   - Add new accessible engagement options, like phone calls, short sessions, or one-on-one interviews.
   - Extend timelines if needed, especially for reviewing documents.
   - Document what didn’t work and what you changed, so the process improves over time.
-moreInformation: |-
-  - [Seattle - Inclusive Outreach and Public Engagement Guide](https://www.seattle.gov/documents/Departments/Neighborhoods/PPatch/Inclusive-Outreach-and-Public-Engagement-Guide.pdf) talks about “six essential strategies for inclusive engagement” plus worksheets and evaluation templates that help plan for equitable participation, track who is involved, and change tactics if certain communities are missing.
-  - [Engagement Institute – Inclusive and Accessible Engagement Hub](https://engagementinstitute.org.au/inclusive-and-accessible-engagement-hub/) curates frameworks, tools, and training on designing inclusive engagements, including resources on monitoring participation and adjusting plans to reach underrepresented groups.
+moreInformation: '- The [International Association for Public Participation (IAP2) ](https://www.iap2.org/mpage/Home)encourages organizations to monitor participation throughout engagement activities, adapt their approach when key groups are missing, and use a variety of engagement methods to reach diverse communities.'
 examples: |-
   - [International – ISO](https://www.iso.org/sites/ConsumersStandards/1_standards.html)’s guidance for national standards bodies emphasises broad stakeholder participation, including government, industry, consumers, workers, and academia, and encourages developing countries and under‑represented groups to take part more actively.
   - [Canada – Standards Council of Canada (SCC)](https://scc-ccn.ca/accreditation/accreditation-programs/standards-development-organizations)’s accreditation criteria for Standards Development Organizations require respect for “diverse interests” and a commitment to openness, transparency, and balanced participation in committees.
 relatedActions:
   - 561239cd
-  - d33b6b6c
   - 66b7220e
-  - a1c9b89d
 barriers:
   - 9907ee88
   - 7751b43d
