@@ -32,9 +32,6 @@ longterm: ''
 moreInformation: |-
   - [Remote Co-design Guide - Community-Led Co-Design Kit](https://community-led.design/resources/remote-co-design-guide/) explains how to run co-design work when people are not all in the same place. It covers ways to plan sessions, choose activities, and use technology so people can still work together well from a distance.
   - [Facilitation for Flexibility and Accessibility - Community-Led Co-Design Kit ](https://community-led.design/resources/facilitation-for-flexibility-and-accessibility/)is about making facilitation more flexible and accessible. It focuses on how facilitators can adapt meetings and activities so more people can participate in ways that work for them.
-  - [Create and verify PDF accessibility (Acrobat Pro)](https://helpx.adobe.com/ca/acrobat/using/create-verify-pdf-accessibility.html) shows how to make a PDF accessible and how to check whether it is accessible. It covers things like tagging, reading order, alternative text, and running accessibility checks in Acrobat.
-  - [Guidelines for creating accessible documents (Accessibility Standards Canada)](https://accessible.canada.ca/guidelines-creating-accessible-documents) resource explains how to create documents that are accessible from the start. It supports making files easier to read with good structure, clear formatting, and accessible layouts.
-  - [15 Video Captioning Best Practices to Improve Accessibility](https://birdeatsbug.com/blog/video-captioning-best-practices) explains how to make captions more useful and readable in videos. It gives tips for improving caption quality so people can understand video content more easily.
   - [Captions, Transcripts, and Audio Descriptions](https://webaim.org/techniques/captions/) explains the different accessibility supports used in audio and video. It covers captions, transcripts, and audio descriptions, and when each one is helpful.
   - [Best Practices for Captioning Videos ](https://teaching.utoronto.ca/wp-content/uploads/1-8-Tip-Sheet-Best-Practices-for-Recording-and-Captioning-Videos.pdf)is about how to caption videos well, so captions are accurate, readable, and useful for people who rely on them. 
   - [Introduction to accessibility requirements for audio-video](https://a11y.canada.ca/en/introduction-to-accessibility-requirements-for-audio-video/) introduces accessibility requirements for audio and video content. 
@@ -46,10 +43,8 @@ examples: |-
   - [Japan – The Japanese Industrial Standards Committee (JISC)](https://www.jisc.go.jp/eng/) Reflective Participation prioritizes thoughtful input over frequent speaking. Meetings allow time for quiet reflection and written feedback. Silence is seen as respectful, not passive. Roundtable formats ensure equal speaking time, minimizing dominance by assertive voices.
 relatedActions:
   - f3ca9e8e
-  - fdb653ec
   - 95f998b1
   - 3d6901ef
-  - ed90fb3e
 barriers:
   - 81182d8d
   - e0642a56
