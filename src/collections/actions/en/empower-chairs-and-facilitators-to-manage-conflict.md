@@ -24,7 +24,7 @@ longterm: |-
   - Create a permanent mediator position to help with disputes during meetings.
 moreInformation: |-
   - [Challenges of facilitating diverse groups: Co-designing Inclusive Cities](https://cities.inclusivedesign.ca/resources/challenges-of-facilitating-diverse-groups/) talks about facilitating a group with different perspectives and needs with open mindedness and flexibility.
-  - [Local Government Association](https://www.local.gov.uk/publications/councillors-workbook-facilitation-and-conflict-resolution-0)'s workbook on facilitation and conflict resolution. This is a useful source for practical conflict-handling skills in meetings and group settings.
+  - [Local Government Association's](https://www.local.gov.uk/publications/councillors-workbook-facilitation-and-conflict-resolution-0) workbook on facilitation and conflict resolution. This is a useful source for practical conflict-handling skills in meetings and group settings.
   - [UCDavis — Conflict Competence for Chairs](https://aadocs.ucdavis.edu/training/department-chairs-workshop-and-events/department-chairs-bag-lunch-presenations-and-materials/2025-26/conflict-competence-for-chairs-handout.pdf) uses a scenario based strategy for teaching how to deal with difficult discussions or conflict in a group.
   - [PMI — Facilitation: Core Competency in Conflict Resolution](https://www.pmi.org/learning/library/facilitation-core-competency-conflict-resolution-4497) has strategies for setting ground rules, separating task issues from personal issues, and guiding a group toward resolution.
 examples: |-
