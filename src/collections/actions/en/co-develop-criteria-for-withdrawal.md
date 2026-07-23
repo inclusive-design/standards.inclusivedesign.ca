@@ -15,16 +15,13 @@ longterm: |-
   - Make the process transparent so everyone understands how decisions are made.
   - Document and share the reasoning behind any decision to withdraw a standard.
   - Update the criteria regularly based on feedback and real-world impacts.
-moreInformation: '- [NIST / 15 CFR 10.13 — Withdrawal of a published standard](https://www.govregs.com/regulations/title15_part10_section10.13) is an example of making the process of withdrawing a standard transparent.'
-examples: |-
-  - [Japan – The Japanese Industrial Standards Committee (JISC)](https://www.jisc.go.jp/eng/) uses a multi-criteria review that factors in legal relevance, market use, and social value. If a standard supports accessibility or public safety, it may be retained even if its original technical basis is outdated.
-  - [Brazil – Associação Brasileira de Normas Técnicas (ABNT)](https://www.abntcatalogo.com.br/) partners with government agencies and civil society to review standards related to housing, accessibility, and education. The decision to retire a standard involves assessing whether it continues to fill a policy or equity gap, even if it’s no longer widely used in industry.
+moreInformation: ''
+examples: '- [Japan – The Japanese Industrial Standards Committee (JISC)](https://www.jisc.go.jp/eng/) uses a multi-criteria review that factors in legal relevance, market use, and social value. If a standard supports accessibility or public safety, it may be retained even if its original technical basis is outdated.'
 relatedActions:
   - 5cfc5519
   - '09758457'
   - 5a7ef076
   - af9da867
-  - a1c9b89d
 barriers:
   - a2204b3f
 processes:
