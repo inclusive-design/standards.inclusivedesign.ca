@@ -4,7 +4,7 @@ title: Empower chairpersons and facilitators to manage conflict
 uuid: 20dc168e
 draft: false
 quick: |-
-  - Encourage all members to learn active listening, empathy, and respectful disagreement before starting every meeting.
+  - Encourage all members to use active listening, empathy, and respectful disagreement before starting every meeting.
   - Train chairpersons on how to handle conflicts, help the group agree, and run meetings in an accessible way.
   - Give chairpersons tools and resources to run discussions, especially when power differences exist.
   - Teach chairpersons when and how to step in if someone is dominating or others are being left out.
