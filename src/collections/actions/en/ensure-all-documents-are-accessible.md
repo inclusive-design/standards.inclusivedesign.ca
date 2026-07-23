@@ -23,12 +23,8 @@ examples: |-
   - [Germany – German Institute for Standardization (DIN)](https://www.din.de/en) provides documents in multiple formats (PDF, Word, HTML) with proper tagging and plain language versions for cognitive accessibility. They also collaborate with experts to simplify technical language.
 relatedActions:
   - f3ca9e8e
-  - fdb653ec
-  - 594d9a28
-  - ec2f6495
   - 95f998b1
   - 3d6901ef
-  - ed90fb3e
 barriers:
   - 0d377477
   - 7751b43d
