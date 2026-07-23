@@ -23,10 +23,10 @@ longterm: |-
   - Update conflict resolution training as new techniques or challenges arise.
   - Create a permanent mediator position to help with disputes during meetings.
 moreInformation: |-
-  - [Challenges of facilitating diverse groups: Co-designing Inclusive Cities](https://cities.inclusivedesign.ca/resources/challenges-of-facilitating-diverse-groups/) talks about facilitating a group with different perspectives and needs requires open mindedness and flexibility.
-  - [Local Government Association](https://www.local.gov.uk/publications/councillors-workbook-facilitation-and-conflict-resolution-0) is A councillor’s workbook on facilitation and conflict resolution. This is a useful public-sector source for practical conflict-handling skills in meetings and group settings.
-  - [UCDavis — Conflict Competence for Chairs](https://aadocs.ucdavis.edu/training/department-chairs-workshop-and-events/department-chairs-bag-lunch-presenations-and-materials/2025-26/conflict-competence-for-chairs-handout.pdf) is a good source for practical chair skills when a group is dealing with difficult discussion or conflict.
-  - [PMI — Facilitation: Core Competency in Conflict Resolution](https://www.pmi.org/learning/library/facilitation-core-competency-conflict-resolution-4497) is a strong process source for setting ground rules, separating task issues from personal issues, and guiding the group toward resolution.
+  - [Challenges of facilitating diverse groups: Co-designing Inclusive Cities](https://cities.inclusivedesign.ca/resources/challenges-of-facilitating-diverse-groups/) talks about facilitating a group with different perspectives and needs with open mindedness and flexibility.
+  - [Local Government Association](https://www.local.gov.uk/publications/councillors-workbook-facilitation-and-conflict-resolution-0)'s workbook on facilitation and conflict resolution. This is a useful source for practical conflict-handling skills in meetings and group settings.
+  - [UCDavis — Conflict Competence for Chairs](https://aadocs.ucdavis.edu/training/department-chairs-workshop-and-events/department-chairs-bag-lunch-presenations-and-materials/2025-26/conflict-competence-for-chairs-handout.pdf) uses a scenario based strategy for teaching how to deal with difficult discussions or conflict in a group.
+  - [PMI — Facilitation: Core Competency in Conflict Resolution](https://www.pmi.org/learning/library/facilitation-core-competency-conflict-resolution-4497) has strategies for setting ground rules, separating task issues from personal issues, and guiding a group toward resolution.
 examples: |-
   - [Canada – Accessibility Standards Canada (ASC)](https://accessible.canada.ca/) includes formal feedback channels for accessibility concerns, allowing anonymous submissions via an online portal or surveys. An inclusion officer is assigned to each committee to handle conflict resolution and accommodation requests with trauma-informed, anti-oppressive training.
   - [Germany – Deutsches Institut für Normung (DIN)](https://www.din.de/en) has a conflict mediation framework for resolving issues such as communication breakdowns or disagreements over accommodations. Trained mediators are available for both major and minor concerns, promoting early, open communication.
@@ -36,10 +36,9 @@ relatedActions:
   - ed90fb3e
 barriers:
   - 651b13cb
-  - 7ed127d1
-  - 8b7308df
   - 7883cff4
   - 890aeb8e
+  - 7ed127d1
   - 38b1390b
 processes:
   - 1130eb69
