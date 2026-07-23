@@ -25,9 +25,6 @@ examples: |-
   - [Canada  – Standards Council of Canada (SSC)](https://scc-ccn.ca/) partners with the government to host meetings at venues that comply with accessibility laws, providing charging stations and quiet areas.
 relatedActions:
   - 2ac90c88
-  - 594d9a28
-  - ef3678a6
-  - 0baa973a
   - 95f998b1
 barriers:
   - 81182d8d
