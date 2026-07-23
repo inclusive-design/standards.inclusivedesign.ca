@@ -36,7 +36,7 @@ footer section a {
 }
 
 footer svg {
-    fill: var(--fl-linkFgColor, white);
+    fill: var(--fl-linkFgColor, var(--color-white));
 }
 
 footer a:hover svg {

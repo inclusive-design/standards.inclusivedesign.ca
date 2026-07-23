@@ -23,7 +23,7 @@
 
 .action .banner {
 	background-color: var(--fl-bgColor, var(--color-indigo-800));
-	color: var(--fl-fgColor, white);
+	color: var(--fl-fgColor, var(--color-white));
 }
 
 .barriers .banner h1 {
@@ -152,7 +152,7 @@
 }
 
 .action a[rel~="external"]::after {
-	background-color: var(--fl-fgColor, black);
+	background-color: var(--fl-fgColor, var(--color-black));
 	block-size: 1em;
 	content: "";
 	display: inline-block;
@@ -169,7 +169,7 @@
 	block-size: 3.5rem;
 	fill: var(--fl-fgColor, --color-black);
 	inline-size: 3.5rem;
-	stroke: var(--fl-fgColor, black);
+	stroke: var(--fl-fgColor, var(--color-black));
 }
 
 .action-processes {
@@ -495,6 +495,13 @@
 			gap: calc(32 / 16 * 1rem);
 			grid-template-columns: repeat(2, 1fr);
 		}
+	}
+
+	.actions-container .actions,
+	.barriers-container .barriers {
+		display: grid;
+		gap: calc(32 / 16 * 1rem);
+		grid-template-columns: repeat(2, 1fr);
 	}
 }
 
