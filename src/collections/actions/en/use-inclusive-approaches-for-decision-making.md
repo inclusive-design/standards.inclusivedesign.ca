@@ -15,16 +15,16 @@ quick: |-
   - Document decisions and reasons by sharing written records so everyone sees what was decided and why.
   - Ask quieter members or those with less power if they agree or have concerns before finalizing.
 longterm: ''
+moreInformation: '- [IDEO’s ](https://designthinking.ideo.com/)design thinking resources promote inclusive brainstorming and facilitation techniques that help groups generate ideas from many participants rather than relying only on the most confident speakers. Techniques such as individual reflection before group discussion, brainstorming exercises, and collaborative decision-making help create space for different communication styles.'
+examples: ''
 relatedActions:
   - 561239cd
   - d33b6b6c
   - 20dc168e
-moreInformation: ''
-examples: ''
-processes:
-  - 1130eb69
 barriers:
   - 651b13cb
   - 7883cff4
+processes:
+  - 1130eb69
 more-information: ''
 ---

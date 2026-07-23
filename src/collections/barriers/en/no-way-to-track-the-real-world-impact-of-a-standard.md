@@ -1,6 +1,6 @@
 ---
 translationKey: no-way-to-track-the-real-world-impact-of-a-standard
-title: No way to track the real-world impact of a standard
+title: No way to track the impact of a standard
 uuid: d4bf57e8
 draft: false
 problem: |-

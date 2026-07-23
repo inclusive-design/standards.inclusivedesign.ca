@@ -14,34 +14,14 @@
 {% set filterData = filterData | objectArrayPush("stages", relatedStageUuids) %}
 {% set filterData = filterData | objectArrayPush("processes", relatedProcessUuids) %}
 
-<div class="card barrier bg-indigo-700" data-filter-stages="{{ filterData.stages | join(',') }}" data-filter-processes="{{ filterData.processes | join(',') }}">
+<div class="card barrier" data-filter-stages="{{ filterData.stages | join(',') }}" data-filter-processes="{{ filterData.processes | join(',') }}">
+    <div class="card__fold"></div>
+    <div class="card__icon">{% include "svg/barrier.svg" %}</div>
     <div class="card__content">
         <h3>
             <a class="card__title" href="{{ barrier.url }}">
                 {{ barrier.data.title }}
             </a>
         </h3>
-        {% if barrier.data.problem %}
-            <div class="card__heading-image">
-                {% include 'svg/problem.svg' %}
-                <h4>
-                    {% __ 'barriers-problem' %}
-                </h4>
-            </div>
-            {{ barrier.data.problem | markdown | safe }}
-        {% endif %}
-        {% if collections["actions_" + lang] | find("data.barriers", barrier.data.uuid) | length > 0 %}
-            <div class="card__heading-image">
-                {% include 'svg/action.svg' %}
-                <h4>
-                    {% __ 'barriers-fix' %}
-                </h4>
-            </div>
-            <ul>
-                {% for action in collections["actions_" + lang] | findAll('data.barriers', barrier.data.uuid) %}
-                    <li>{{ action.data.title }}</li>
-                {% endfor %}
-            </ul>
-        {% endif %}
     </div>
 </div>

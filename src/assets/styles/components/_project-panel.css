@@ -55,7 +55,6 @@ body:not([class*="fl-theme"]),
 }
 
 .project-panel__title {
-    color: black;
     font-family: var(--family-sans-serif);
     font-size: var(--step-4);
     font-weight: var(--font-weight-semibold);
@@ -66,7 +65,7 @@ body:not([class*="fl-theme"]),
 .project-panel__title:focus {
     background: none;
     box-shadow: none;
-    color: var(--fl-linkFgColor, var(--black));
+    color: var(--fl-linkFgColor, var(--color-black));
     outline: none;
 }
 
@@ -78,7 +77,7 @@ body:not([class*="fl-theme"]),
 }
 
 .project-panel__content {
-    background-color: var(--fl-bgColor, white);
+    background-color: var(--fl-bgColor, var(--color-white));
     border: 0.1875rem solid var(--fl-linkFgColor, transparent);
     display: flex;
     flex-direction: column;

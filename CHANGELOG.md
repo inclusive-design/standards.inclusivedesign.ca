@@ -1,5 +1,18 @@
 # Changelog
 
+## [2026.7.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.6.1...v2026.7.0) (2026-07-15)
+
+
+### Features
+
+* move related actions after examples ([#550](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/550)) ([1f4aca2](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/1f4aca265685cfa7a3b5c110c9a88601c47d1156))
+* update topics cards page (resolves [#549](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/549), [#553](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/553), [#556](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/556), [#557](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/557) and [#558](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/558)) ([#555](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/555)) ([6c3c41a](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/6c3c41a9e42a23bf1c39ae9123c3f6d08b8bec61))
+
+
+### Bug Fixes
+
+* browse actions filter order ([#562](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/562)) ([fc32974](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/fc32974c73c1e39434b6495014e9e949ba26bc07))
+
 ## [2026.6.1](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.6.0...v2026.6.1) (2026-06-22)
 
 

@@ -68,7 +68,7 @@
 
 	.filters legend {
 		align-items: center;
-		box-shadow: inset 0 .125rem 0 0 var(--fl-linkFgColor, var(--color-indigo-700));
+		border-top: 0.125rem solid var(--fl-linkFgColor, var(--color-indigo-700));
 		display: flex;
 		font-family: var(--family-display);
 		font-size: calc(var(--step-2) * var(--fl-enhance-font-size-factor, 1));
@@ -209,6 +209,13 @@ inclusive-disclosure:has(#filter-topic)>button::before,
 		gap: 1.875rem;
 		grid-template-columns: 33% 1fr;
 	}
+
+	.actions,
+	.barriers {
+		filter-container {
+			display: block;
+		}
+	}
 }
 
 @media (width >=70.875rem) {
@@ -216,5 +223,13 @@ inclusive-disclosure:has(#filter-topic)>button::before,
 		display: grid;
 		gap: 1.875rem;
 		grid-template-columns: 22.9375rem 1fr;
+	}
+
+	.actions,
+	.barriers {
+		filter-container {
+			display: grid;
+			grid-template-columns: 25% 1fr;
+		}
 	}
 }

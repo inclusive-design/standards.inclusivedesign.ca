@@ -19,5 +19,5 @@ problem: |-
   - Not having a save-and-return option, which people who need more time or breaks require
   - Error messages that are unclear, aren’t read by screen readers, or don’t explain how to fix the problem
   - Language barriers, including not having a translation option or using overly technical wording
-  - Confirmation emails that don’t arrive or are inaccessible, for example, they have images instead of text or unclear next steps
+  - Confirmation emails that don’t arrive or are inaccessible, for example, they have images of text or unclear next steps
 ---

@@ -7,4 +7,4 @@ order: 1
 processes: []
 ---
 
-Actions to ensure accessible pathways into technical committees and working groups for diverse applicants.
+Actions to ensure accessible pathways into technical committees and working groups for diverse participants.

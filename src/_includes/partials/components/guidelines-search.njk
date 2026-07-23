@@ -1,4 +1,13 @@
+{% set mdContent %}
+## Find what you need
+
+Use the search bar to find suggestions for improving your standards development process or to solve a barrier in your process. For example, try searching for ‘meeting’ or ‘hybrid’ to find suggestions for improving your hybrid meetings.
+{% endset %}
+
+{{ mdContent | markdown | safe }}
+<form method="get" action="{{ page.url }}{% __ 'search-slug' %}/">
 	<search>
 		<input type="search" id="search" name="q" />
 		<button type="submit">Search</button>
 	</search>
+</form>
