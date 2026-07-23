@@ -1,6 +1,6 @@
 # Changelog
 
-## [2026.8.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.7.0...v2026.8.0) (2026-07-23)
+## [2026.7.1](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.7.0...v2026.7.1) (2026-07-23)
 
 
 ### Features
