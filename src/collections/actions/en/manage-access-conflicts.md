@@ -19,8 +19,7 @@ moreInformation: |-
 examples: "- [Accessibility Standards Canada's (ASC) ](https://accessible.canada.ca/standards-and-technical-guides/standards-and-technical-guides-database/can-asc-282025-accessible-ready-housing/4-technical-committee-members)technical committee materials explicitly include “technical committee members” and focus on accessible standards work, which shows a committee structure designed to include disability perspectives and support participation."
 relatedActions:
   - 368de0ba
-  - 3f01fed3
-  - 2ac90c88
+  - 95f998b1
 barriers:
   - '42599812'
   - 9907ee88
@@ -32,4 +31,5 @@ processes:
   - 1130eb69
   - b612d304
   - 3eb6bf1e
+  - 11d85a05
 ---
