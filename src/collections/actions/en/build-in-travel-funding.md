@@ -18,16 +18,15 @@ examples: |-
   - [UK – British Standards Institution (BSI)](https://www.bsigroup.com/en-CA/)  provides travel grants and shares city accessibility guides for smooth travel, with a dedicated travel coordinator for assistance.
   - [Canada  – Standards Council of Canada (SSC)](https://scc-ccn.ca/) has an inclusive travel policy, funding accessible transport and connecting members to local accessibility networks for trip planning
 relatedActions:
+  - '34078967'
   - ef3678a6
   - 779edd9f
-  - 5f9cfaff
-  - e6970303
-  - '34078967'
 barriers:
-  - 8ee223fa
-  - 8b6ad4ca
+  - dbf56f15
   - 9dc55c33
+  - 8b6ad4ca
   - c631fc93
+  - 8ee223fa
 processes:
   - e7f348c2
 more-information: ''
