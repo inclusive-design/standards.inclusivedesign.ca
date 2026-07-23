@@ -14,15 +14,10 @@ quick: |-
   - Share information about accessibility at the venue including entrances, elevators, and bathrooms.
   - Provide clear details about transportation including accessible taxis and public transit options.
 longterm: ''
-moreInformation: |-
-  - [Accessible Travel Journey (Accessibility Standards Canada)](https://accessible.canada.ca/creating-accessibility-standards/accessible-travel-journey) is about removing barriers people with disabilities can face when traveling, especially in transit facilities and other built environments. The technical guide says it is meant to help organizations start applying the guidance while the standard is still being developed, and it uses a journey-based approach so the travel experience is easier to follow.
-  - [Enabling Accessibility Fund: Government of Canada](https://www.canada.ca/en/employment-social-development/services/funding/enabling-accessibility-fund-contribution/overview.html) (EAF) provides funding for projects that make communities and workplaces across Canada more accessible for persons with disabilities. 
-  - [Budgeting for Access](https://vera-institute.files.svdcdn.com/production/downloads/publications/budgeting-for-access-updated.pdf) is a practical source to support the idea that access needs should be planned and funded, not treated as optional extras.
-examples: '[Australia – Standards Australia](https://www.standards.org.au/standards-development/developing-standards/process) offers flexible travel support and peer mentorship to assist members with travel planning and accessibility needs.'
+moreInformation: '- [Accessible Travel Journey (Accessibility Standards Canada)](https://accessible.canada.ca/creating-accessibility-standards/accessible-travel-journey) is about removing barriers people with disabilities can face when traveling, especially in transit facilities and other built environments. The technical guide says it is meant to help organizations start applying the guidance while the standard is still being developed, and it uses a journey-based approach so the travel experience is easier to follow.'
+examples: '- [Australia – Standards Australia](https://www.standards.org.au/standards-development/developing-standards/process) offers flexible travel support and peer mentorship to assist members with travel planning and accessibility needs.'
 relatedActions:
   - 0baa973a
-  - 2ac90c88
-  - ed90fb3e
 barriers:
   - 9dc55c33
   - '42599812'
