@@ -75,10 +75,14 @@
 }
 
 .process article h2:first-of-type::before {
-    mask-image: url("/assets/images/problem.svg");
+    mask-image: url("/assets/images/summary.svg");
 }
 
 .process article h2:nth-of-type(2)::before {
+	mask-image: url("/assets/images/problem.svg");
+}
+
+.process article h2:last-of-type::before {
     mask-image: url("/assets/images/action.svg");
 }
 

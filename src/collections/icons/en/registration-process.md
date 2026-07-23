@@ -1,5 +1,5 @@
 ---
-translationKey: registration-process
-title: Registration Process
+translationKey: registration
+title: Registration
 icon: /src/_includes/svg/registration.svg
 ---

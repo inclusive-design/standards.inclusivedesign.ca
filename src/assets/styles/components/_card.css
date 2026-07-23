@@ -142,6 +142,7 @@
 
 .card.process svg {
 	bottom: calc(28 / 16 * 1rem);
+    pointer-events: none;
 	position: absolute;
 	right: calc(28 / 16 * 1rem);
 }
