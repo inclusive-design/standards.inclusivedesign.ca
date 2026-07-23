@@ -10,13 +10,7 @@ longterm: |-
   - Use multiple accessible channels for submitting revision requests, such as online forms, email, phone, or mail.
   - Share outcomes of revision requests publicly to show how input influenced the standard.
   - Track and report revisions to show continuous improvement and maintain trust with communities.
-relatedActions:
-  - 902c8c26
-  - 5cfc5519
-  - 5a7ef076
-  - af9da867
-  - a1c9b89d
-moreInformation: '- [CEN BOSS - Amendments/Revisions to European Standards](https://boss.cen.eu/maintenance/amndt/pages/) is a strong example because it explains how people can request an amendment or revision, how the technical committee reviews it, and when a standard should be amended versus revised.'
+moreInformation: '- [W3C](https://github.com/w3c) allows users and communities to submit issues and suggestions for published standards through public issue trackers. Working groups review feedback, discuss proposed improvements, and update standards through a transparent process.'
 examples: |-
   - [Sweden – Swedish Institute for Standards (SIS)](https://www.sis.se/en/) includes public comment periods in the review of aging standards. This allows communities, including those historically excluded, to weigh in on whether a standard should be updated, maintained, or retired based on its ongoing social utility.
   - [UK – British Standards Institution (BSI)](https://www.bsigroup.com/en-CA/) includes a public consultation step before withdrawing key standards. They notify affected communities, including disability organizations, and publish justifications for proposed withdrawals. This allows for feedback on potential social or accessibility impacts before a final decision is made.
@@ -25,9 +19,12 @@ examples: |-
   - [Germany – German Institute for Standardization (DIN)](https://www.din.de/en) labels withdrawal announcements as “proposals” and opens them for a 60-day public consultation. The format includes reasons for withdrawal and invites input from user communities, including those with accessibility concerns.
   - [India – Bureau of Indian Standards (BIS)](https://www.bis.gov.in/?lang=en) has started using online portals where draft withdrawal notices are posted for public viewing. Users can submit objections or suggest revisions, and BIS outlines how such feedback may influence the final decision.
   - [Norway – Standards Norway](https://standard.no/en/) uses plain language in withdrawal notices and publicly commits to reviewing input before finalizing the decision. They also send notices to relevant community groups to ensure those most impacted have a chance to respond.
+relatedActions:
+  - 5cfc5519
+  - af9da867
+barriers:
+  - a2204b3f
 processes:
   - 420ec90a
   - 153c2d64
-barriers:
-  - a2204b3f
 ---
