@@ -15,12 +15,11 @@ quick: |-
   - Document decisions and reasons by sharing written records so everyone sees what was decided and why.
   - Ask quieter members or those with less power if they agree or have concerns before finalizing.
 longterm: ''
-moreInformation: '- [IDEO’s ](https://designthinking.ideo.com/)design thinking resources promote inclusive brainstorming and facilitation techniques that help groups generate ideas from many participants rather than relying only on the most confident speakers. Techniques such as individual reflection before group discussion, brainstorming exercises, and collaborative decision-making help create space for different communication styles.'
+moreInformation: '- [Community-Led Co-design Kit resource on Involving Community Members in Planning](https://community-led.design/resources/involving-community-members-in-planning/?utm_source=chatgpt.com) emphasizes involving community members early in planning and decision-making, rather than asking for feedback after decisions have already been made. It highlights that community members can help shape activities, accessibility approaches, and priorities.'
 examples: ''
 relatedActions:
   - 561239cd
   - d33b6b6c
-  - 20dc168e
 barriers:
   - 651b13cb
   - 7883cff4
