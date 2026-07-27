@@ -21,6 +21,7 @@ examples: |-
 relatedActions:
   - f3ca9e8e
 barriers:
+  - 8b7308df
   - 81182d8d
   - 9dc55c33
   - 651b13cb
