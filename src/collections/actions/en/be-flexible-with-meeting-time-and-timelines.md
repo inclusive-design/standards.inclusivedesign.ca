@@ -19,12 +19,10 @@ examples: '- [Australia – Standards Australia](https://www.standards.org.au/st
 relatedActions:
   - 594d9a28
 barriers:
-  - 7883cff4
   - 81182d8d
   - 9dc55c33
   - e0642a56
   - 38b1390b
-  - 92b21925
   - fc64e21f
 processes:
   - 1130eb69
