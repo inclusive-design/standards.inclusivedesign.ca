@@ -20,7 +20,6 @@ examples: |-
   - [Canada – Standards Council of Canada (SCC)](https://scc-ccn.ca/accreditation/accreditation-programs/standards-development-organizations)’s accreditation criteria for Standards Development Organizations require respect for “diverse interests” and a commitment to openness, transparency, and balanced participation in committees.
 relatedActions:
   - 561239cd
-  - 66b7220e
 barriers:
   - 9907ee88
   - 7751b43d
