@@ -35,10 +35,11 @@ relatedActions:
   - ed90fb3e
   - f3ca9e8e
 barriers:
-  - d1e09be4
   - 0d377477
-  - a9946f8c
+  - 7751b43d
   - e0642a56
+  - d1e09be4
+  - a9946f8c
   - dbf56f15
 processes:
   - a7e33638
