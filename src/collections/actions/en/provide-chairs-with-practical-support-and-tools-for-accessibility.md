@@ -10,17 +10,10 @@ longterm: |-
   - Collect feedback after meetings about what worked and what didn’t for accessibility, and act on it.
   - Offer expert support, like an accessibility advisor or help desk, that chairpersons can contact quickly during meetings.
   - Pair new chairpersons with experienced chairpersons from other committees as a mentorship system.
-moreInformation: |-
-  - [Canadian Hearing Society / Planning an Accessible Meeting](https://www.chs.ca/blog/creating-inclusive-events-tips-hosting-accessible-meetings-and-conferences) mentions the chairperson should ensure physical adjustments are made before the event and designate someone to manage the speakers list, which is very close to practical chair support.
-  - [Accessible meeting toolkits from universities and public bodies](https://accessiblecampus.ca/tools-resources/administrators-tool-kit/) include templates, support contacts, advance materials, and feedback practices that can be adapted for committee chair.
+moreInformation: '- [The Massachusetts guide](https://www.mass.gov/info-details/tips-for-hosting-accessible-events-and-meetings) provides practical tools and checklists to help organizers plan accessible meetings. It demonstrates the value of giving chairpersons clear guidance, templates, and access to accessibility expertise rather than expecting them to manage accessibility alone.'
 examples: ''
 relatedActions:
-  - 7f21a35b
-  - 9921aa47
-  - 64506dee
-  - c0dd69a6
   - ed90fb3e
-  - 0ff75145
 barriers:
   - a96035dc
   - 651b13cb
