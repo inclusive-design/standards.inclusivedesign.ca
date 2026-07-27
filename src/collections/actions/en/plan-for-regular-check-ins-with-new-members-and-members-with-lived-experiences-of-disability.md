@@ -16,9 +16,10 @@ relatedActions:
   - 9921aa47
   - 64506dee
 barriers:
-  - fc64e21f
-  - 92b21925
   - 38b1390b
+  - 890aeb8e
+  - 92b21925
+  - fc64e21f
 processes:
   - 3eb6bf1e
 more-information: ''
