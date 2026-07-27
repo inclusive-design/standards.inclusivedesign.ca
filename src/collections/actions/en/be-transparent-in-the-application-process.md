@@ -16,7 +16,7 @@ quick: |-
   - Communicate regularly with applicants about their status and timelines.
   - Offer alternative ways to participate such as public comment periods to those not selected.
 longterm: ''
-moreInformation: '-'
+moreInformation: ''
 examples: |-
   - [Mexico – Dirección General de Normas (DGN)](https://www.gob.mx/se/) hosts public webinars during recruitment to clarify roles, responsibilities, and accommodations. They post plain-language role summaries and follow up with applicants on next steps. Community consultations help refine role descriptions to ensure accessibility for diverse audiences, including people with disabilities.
   - [Germany – German Institute for Standardization (DIN)](https://www.din.de/en) publishes detailed role descriptions and eligibility criteria on their public portal, outlining time commitments, required expertise, and the selection process. A visual roadmap of the standards development process helps applicants understand their potential involvement.
