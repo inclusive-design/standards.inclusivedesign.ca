@@ -23,6 +23,7 @@ relatedActions:
   - ab01e1b3
 barriers:
   - '42599812'
+  - 890aeb8e
 processes:
   - d2d08ae4
   - 8e9bcf3a
