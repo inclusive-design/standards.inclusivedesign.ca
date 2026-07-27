@@ -20,9 +20,6 @@ relatedActions:
   - 7f21a35b
   - c0dd69a6
   - 64506dee
-  - 3d6901ef
-  - 0ff75145
-  - ed90fb3e
 barriers:
   - 9907ee88
   - 76ee246e
