@@ -16,7 +16,6 @@ examples: |-
 relatedActions:
   - 561239cd
   - ab01e1b3
-  - 20dc168e
 barriers:
   - cbfcdbb2
 processes:
