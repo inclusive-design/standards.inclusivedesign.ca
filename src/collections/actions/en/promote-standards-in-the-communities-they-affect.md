@@ -18,8 +18,7 @@ examples: |-
   - [OpenForum Europe’s mapping of SDO/open source collaboration ](https://openforumeurope.org/publications/standards-and-open-source-bringing-them-together/)is not a standards body itself, but it documents examples where SDOs work with open-source communities through joint activities, shared methods, and participation in standards creation.
   - [Standards Council of Canada (Canada) SCC](https://scc-ccn.ca/system/files/2025-04/scc_rg_sdo-accreditation_v6_2025-03-06.pdf)’s accreditation requirements emphasize openness, transparency, and balanced participation, which supports bringing affected communities into standards work.
 relatedActions:
-  - 6072ed72
-  - f3ca9e8e
+  - 66b7220e
 barriers:
   - 7dcf8b49
   - dbf56f15
