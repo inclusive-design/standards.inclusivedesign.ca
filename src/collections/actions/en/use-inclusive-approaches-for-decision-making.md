@@ -7,7 +7,7 @@ quick: |-
   - Don’t let only the loudest or most frequent speakers decide for the whole group.
   - Set clear goals for each discussion so the same people don’t always dominate.
   - Step in politely if someone talks too long or takes more than their turn. You can use timers or follow up individually.
-  - Use tools that let people vote or give input online, not just in the meeting. Polls allow voting without pressure. Make sure any use of polls is tested for accessibility first.
+  - Use tools that let people vote or give input online, not just in the meeting. For example, polls allow voting without pressure. Make sure any tool you use, such as an online poll, is accessible.
   - Give extra time for people to think and respond, especially in global or multilingual groups.
   - If time permits, make use of silent-brainstorming. Let everyone write ideas first, then share. This avoids only loud voices being heard.
   - Make use of small group discussions. Break into small groups to talk, then share ideas with the larger group.
