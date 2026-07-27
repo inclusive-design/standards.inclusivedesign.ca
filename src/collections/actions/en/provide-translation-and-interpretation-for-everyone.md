@@ -27,6 +27,7 @@ barriers:
   - 651b13cb
   - daad3728
   - 9907ee88
+  - d1e09be4
 processes:
   - 981d9115
   - b612d304
