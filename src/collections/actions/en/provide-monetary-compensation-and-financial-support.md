@@ -13,9 +13,7 @@ quick: |-
       - staff accessibility training
   - Partner with disability-led organizations to co-develop funding mechanisms and engagement strategies.
 longterm: ''
-moreInformation: |-
-  - [Co-design cost considerations: Co-designing Inclusive Cities](https://cities.inclusivedesign.ca/resources/co-design-cost-considerations/) directly addresses monetary compensation and several types of financial support needed for inclusive co‑design events
-  - [Accessibility Standards Canada: Compensation for individual members](https://accessible.canada.ca/creating-accessibility-standards#Help-create-accessibility-standards) talks about how individual committee or working group members can receive compensation for their participation, generally in the form of honoraria or stipends, and reimbursement of travel and accommodation expenses where applicable.
+moreInformation: '- [Co-design cost considerations: Co-designing Inclusive Cities](https://cities.inclusivedesign.ca/resources/co-design-cost-considerations/) directly addresses monetary compensation and several types of financial support needed for inclusive co‑design events'
 examples: |-
   - [Germany – DIN: Removing Cost Barriers](https://www.din.de/en) DIN has launched a pilot stipend model allowing individuals without organizational backing especially Disabled experts to receive financial support for participation and waived membership fees. They collaborate with disability networks to find participants with lived or community-based expertise. Opens traditionally corporate-led spaces to independent, underrepresented voices.
   - [Kenya – KEBS ](https://www.kebs.org/)KEBS works with local disability organizations to provide honorariums, transport costs, and interpretation for Disabled participants. Support is often delivered through partner NGOs, with advance payments offered to avoid reimbursement delays. KBES Uses trusted community partners and localized funding methods to improve access in underserved areas.
