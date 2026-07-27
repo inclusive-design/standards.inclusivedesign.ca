@@ -16,12 +16,7 @@ moreInformation: |-
   - [Government of Canada – Guide to Planning Inclusive Meetings](https://www.canada.ca/en/employment-social-development/programs/disability/arc/inclusive-meetings.html) is useful for accessible participation, clear communication, and inclusive planning.
 examples: '- [Norway – Standards Norway](https://standard.no/en/) offers an onboarding toolkit for first-time participants, including plain language guides, explainer videos, orientations, and dedicated staff support. They also host webinars for newcomers from disability and civil society sectors.'
 relatedActions:
-  - fdb653ec
-  - ec2f6495
   - ed90fb3e
-  - 0ff75145
-  - 935f1dd7
-  - f3ca9e8e
 barriers:
   - 38b1390b
   - 92b21925
