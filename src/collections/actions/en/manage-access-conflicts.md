@@ -21,12 +21,10 @@ relatedActions:
   - 368de0ba
   - 95f998b1
 barriers:
-  - '42599812'
   - 9907ee88
   - 81182d8d
   - 651b13cb
   - 93c977c7
-  - 8ee223fa
 processes:
   - 1130eb69
   - b612d304
