@@ -10,7 +10,7 @@ longterm: '- Offer orientation sessions or “office hours” where chairpersons
 moreInformation: |-
   - [W3C](https://www.w3.org/guide/) provides working group participants with organized resources, guidance documents, and process information to help them understand their roles, responsibilities, and how to participate effectively.
   - [The National Archives (UK) - Information management](https://www.nationalarchives.gov.uk/information-management/) is a strong public-sector source for records management, information governance, retention, and reuse.
-examples: '- [Bureau of Indian Standards](bis.gov.in/wp-content/uploads/2024/06/Handbook-for-TC-Members.pdf) technical committee handbook is a practical example of a technical committee system with guidance for members, which usually includes document handling, process discipline, and committee coordination.'
+examples: '- [Bureau of Indian Standards](https://www.bis.gov.in/wp-content/uploads/2024/06/Handbook-for-TC-Members.pdf) technical committee handbook is a practical example of a technical committee system with guidance for members, which usually includes document handling, process discipline, and committee coordination.'
 relatedActions:
   - c0dd69a6
   - 64506dee
