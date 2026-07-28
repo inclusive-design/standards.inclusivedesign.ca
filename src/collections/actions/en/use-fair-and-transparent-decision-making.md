@@ -12,7 +12,7 @@ moreInformation: '- [World Wide Web Consortium](https://www.w3.org/policies/proc
 examples: |-
   - [Germany – DIN](https://www.din.de/en) uses a comment resolution matrix that is publicly shared after consultation, showing how input was handled. DIN includes diverse stakeholder representatives when making decisions to balance perspectives and reduce majority-rule bias.
   - [Norway – Standards Norway](https://standard.no/en/) tracks feedback through a transparent resolution log. Stakeholders can follow how each comment was considered. They involve citizen panels to provide input on controversial issues and ensure balanced representation beyond committee members.
-  - [Japan – JISC ](https://www.jisc.go.jp/eng/) shares decision reports outlining the treatment of feedback and provides accessible summaries for broader public understanding. They use online dashboards to track the status of submitted comments in real time.
+  - [Japan – JISC](https://www.jisc.go.jp/eng/) shares decision reports outlining the treatment of feedback and provides accessible summaries for broader public understanding. They use online dashboards to track the status of submitted comments in real time.
 relatedActions:
   - 561239cd
   - ab01e1b3
