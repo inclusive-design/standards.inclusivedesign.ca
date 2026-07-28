@@ -22,11 +22,10 @@ relatedActions:
   - ef3678a6
   - 779edd9f
 barriers:
-  - dbf56f15
+  - 8ee223fa
+  - c631fc93
   - 9dc55c33
   - 8b6ad4ca
-  - c631fc93
-  - 8ee223fa
 processes:
   - e7f348c2
 more-information: ''
