@@ -18,9 +18,9 @@ quick: |-
   - Make sure meetings start and end on time.
   - Avoid using local terms like “10 am my time” and include UTC and a time-zone converter link.
 longterm: ''
-moreInformation: '- [The Insight global blog](https://insightglobal.The Insight Gkcom/blog/different-time-zones-distributed-teams/) talks about recurring meetings, rotate the timing so the inconvenience is shared across time zones,  if a time favors one region one week, shift it the next week to favor another region'
+moreInformation: '- [The Insight global blog](https://insightglobal.com/blog/different-time-zones-distributed-teams/) talks about recurring meetings, rotate the timing so the inconvenience is shared across time zones,  if a time favors one region one week, shift it the next week to favor another region'
 examples: |-
-  - [Australia – Standards Australia](https://www.standards.org.au/standards-development/developing-standards/process) promotes rotating meeting times across regions. For example, in cloud computing standards, they helped implement schedules that shift between Asia-Pacific, Europe, and the Americas. They also support asynchronous collaboration through shared documents.
+  - [Australia – Standards Australia](https://www.standards.org.au/) promotes rotating meeting times across regions. For example, in cloud computing standards, they helped implement schedules that shift between Asia-Pacific, Europe, and the Americas. They also support asynchronous collaboration through shared documents.
   - [International Organization for Standardization –  ISO/IEC](https://www.en-standard.eu/iso-standards/?gad_source=1&gad_campaignid=23589929400&gbraid=0AAAAAD6CNv9F3PbX94QfQ9NiHoNLJftLM&gclid=CjwKCAiAh5XNBhAAEiwA_Bu8FXpLRc_BqJ0565gItVKjoKI1jIkXfwdDYiVQ1HqovGivCxXZuxjCkBoCV5gQAvD_BwE) uses rotating time slots and collaborative platforms to support global input. In developing AI ethics standards, meetings rotated to include all regions and were backed by recordings and online discussions.
 relatedActions:
   - 2ac90c88
