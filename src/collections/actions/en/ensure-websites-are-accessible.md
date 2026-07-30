@@ -15,7 +15,7 @@ longterm: |-
   - Involve people who use assistive technologies like screen readers, switch devices, or captioning tools in building and testing websites.
   - Test for keyboard-only access across all steps including registration, login, confirmation and uploading documents. If someone can’t complete the process without a mouse, it’s not accessible.
 moreInformation: |-
-  - [WebAIM](https://webaim.org/articles/) is a long-running accessibility organization that provides practical training, articles, tutorials, and consulting for making digital content accessible. It is especially known for clear, hands-on advice that is easy to apply in real projects.
+  - [WebAIM](https://webaim.org/articles/) contains articles about making digital content accessible with clear, hands-on advice.
   - [WCAG in Plain English](https://aaardvarkaccessibility.com/wcag-plain-english/) is a simplified explanation of the Web Content Accessibility Guidelines. It contains information on each of the guidelines and details on how to implement them to make a website accessible.
   - [Center for Plain Language](https://centerforplainlanguage.org/learning-training/getting-started-with-plain-language/) has tips for getting started with plain language.
   - [Digital Accessibility Toolkit](https://a11y.canada.ca/en/alternative-text-and-long-description-best-practices/index.html) has best practices for writing alt text.
