@@ -21,8 +21,10 @@ longterm: |-
       - Accessible digital files and materials in advance
   - Ensure that physical spaces are accessible for mobility devices, sensory needs, and rest requirements.
 moreInformation: |-
+  - [WebAIM](https://webaim.org/articles/) contains articles about making digital content accessible with clear, hands-on advice.
   - [WCAG in Plain English](https://aaardvarkaccessibility.com/wcag-plain-english/) makes the Web Content Accessibility Guidelines (WCAG) easy to understand, and gives details on how to address web accessibility issues.
-  - [UNICEF Accessibility Checklists](https://accessibilitytoolkit.unicef.org/reports/section-g-accessibility-checklists) can be useful for broad accessibility review, including events and environments.
+  - [Digital Accessibility Toolkit](https://a11y.canada.ca/en/how-tos/) has how to guides that help with digital accessibility.
+  - [UNICEF Accessibility Checklists](https://accessibilitytoolkit.unicef.org/reports/section-g-accessibility-checklists) can help with assessing accessibility for events and environments.
   - [Accessible Campus: Checklist for Planning Accessible Events](https://www.accessiblecampus.ca/wp-content/uploads/2016/12/A-Checklist-for-Planning-Accessible-Events-1.pdf) is a checklist for event spaces, and physical access needs.
 examples: |-
   - [India – Bureau of Indian Standards (BIS)](https://www.bis.gov.in/?lang=en) offers registration in regional languages and offline options like printed forms, phone registration, and community partner assistance. They collaborate with NGOs to bring mobile units to disability events, ensuring accessibility in remote areas.
