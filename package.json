@@ -45,7 +45,7 @@
 		"i18n-js": "^4.5.3",
 		"infusion": "^4.8.0",
 		"lodash": "^4.18.1",
-		"markdown-it": "^14.1.1",
+		"markdown-it": "^15.0.0",
 		"rimraf": "^6.0",
 		"rosetta": "^1.1.0"
 	},
