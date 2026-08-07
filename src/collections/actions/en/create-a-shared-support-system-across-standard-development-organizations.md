@@ -12,7 +12,7 @@ moreInformation: |-
   - [The Swedish Disability Rights Federation](https://funktionsratt.se/om-oss/in-english-please/?utm_source=chatgpt.com) is an umbrella organization representing 54 disability organizations. It receives government funding and project funding, coordinates advocacy across the disability movement, and provides a collective voice in government consultations. While it is not an accessibility fund, it is an example of organizations pooling resources and influence to improve accessibility system-wide.
 examples: |-
   - [Canada  – Standards Council of Canada (SSC)](https://scc-ccn.ca/) partners with the government and industry to fund assistive technologies and interpretation services for national events.
-  - [USA  – American National Standards Institute (ANSI)](https://www.ansi.org/about/introduction#:~:text=The%20American%20National%20Standards%20Institute,standards%20and%20conformity%20assessment%20system.) collaborates with organizations like NIDILRR to share costs for captioning and interpreters, reducing financial burden.
+  - [USA  – American National Standards Institute (ANSI)](https://www.ansi.org/about/introduction#:~:text=The%20American%20National%20Standards%20Institute,standards%20and%20conformity%20assessment%20system.) collaborates with organizations like the National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR) to share costs for captioning and interpreters, reducing financial burden.
 relatedActions:
   - 0ff75145
   - 95f998b1

@@ -15,11 +15,14 @@ longterm: |-
       - What has replaced it (if anything)
       - How to access older versions if needed
   - Make all materials easy to understand in plain language and in accessible formats.
-moreInformation: '- [NIST ANS Procedures](https://www.nist.gov/system/files/documents/2022/11/14/NIST%20ITL%20ANS%20Procedures%20Approved%2011%20November%202022_0.pdf) is a useful standards-process source for public review and formal procedure around standard maintenance and withdrawal.'
+moreInformation: |-
+  - [National Institute of Standards and Technology (NIST) Procedures](https://www.nist.gov/system/files/documents/2022/11/14/NIST%20ITL%20ANS%20Procedures%20Approved%2011%20November%202022_0.pdf) contains formal procedures for standards maintenance and withdrawal.
+  - [Center for Plain Language](https://centerforplainlanguage.org/learning-training/getting-started-with-plain-language/) has tips for getting started with plain language.
+  - [WebAIM](https://webaim.org/articles/) contains articles about making digital content accessible with clear, hands-on advice.
 examples: |-
   - [UK – British Standards Institution (BSI)](https://www.bsigroup.com/en-CA/) includes withdrawal updates in newsletters and stakeholder mailing lists, ensuring professionals, advocacy groups, and local authorities are informed. For high-impact standards, they also issue press releases and guidance on alternatives or replacements.
-  - [Kenya – Kenya Bureau of Standards (KEBS)](https://www.kebs.org/) uses radio and community networks to spread the word about withdrawn or updated standards, particularly in areas with limited internet access. They also collaborate with NGOs to reach disability groups and rural communities.
-  - [Sweden – Swedish Institute for Standards (SIS)](https://www.sis.se/en/) ensures that any withdrawn standards with potential social impact are accompanied by targeted outreach. Notices are shared not only on their website but also through associations and public sector partners, so no key user group is left unaware.
+  - [Kenya – Kenya Bureau of Standards (KEBS)](https://www.kebs.org/) uses radio and community networks to spread the word about withdrawn or updated standards, particularly in areas with limited internet access. They also collaborate with non-governmental organizations to reach disability groups and rural communities.
+  - [Sweden – Swedish Institute for Standards (SIS)](https://www.sis.se/en/) ensures that any withdrawn standards with potential social impact are accompanied by targeted outreach. Notices are shared on their website and through associations and public sector partners, so no key user group is left unaware.
 relatedActions:
   - 902c8c26
   - 5a7ef076
@@ -32,4 +35,6 @@ barriers:
   - d4bf57e8
 processes:
   - 153c2d64
+  - 8e9bcf3a
+  - '13269757'
 ---

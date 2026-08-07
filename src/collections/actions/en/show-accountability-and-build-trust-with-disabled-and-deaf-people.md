@@ -13,7 +13,7 @@ longterm: |-
   - Work with technical committees and people from equity-denied communities to agree on the goals for an engagement.
   - Share updates regularly, not just at the end, so participants can see progress.
   - Share specific examples of how feedback from D/disabled and D/deaf people led to changes in the standard, the process, or even the project team. This shows the engagement was real and not just for show.
-moreInformation: '- [National Disability Authority - Nothing About Us Without Us](https://www.iso.org/standard/69060.html?utm_source=chatgpt.com) approachpromotes the principle that people with disabilities should be actively involved in decisions that affect them. Its guidance emphasizes meaningful participation, accessible information, removing barriers to involvement, and ensuring that consultation is not a one-time activity. It highlights that organizations should work with Disabled people as partners and value lived experience as expertise.'
+moreInformation: '- [“Nothing About Us Without Us” – Disability Rights Principle Trust ](https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-rights-persons-disabilities)comes from recognizing disabled people as experts in their own experiences and ensuring they have real influence not just being asked for feedback after decisions are made.'
 examples: |-
   - [UK – British Standards Institution (BSI)](https://www.bsigroup.com/en-CA/) addresses consultation fatigue by building long-term relationships with disability advocacy organizations. Instead of one-off consultations, BSI involves these groups throughout the entire development process and provides clear follow-up on how their feedback influenced the final standard. This sustained engagement helps build trust and shows respect for participants’ time and insights.
   - [Finland – Finnish Standards Association (SFS)](https://sfs.fi/en/) provides consultation in multiple accessible formats and ensures responses are tracked, shared back, and reflected visibly in drafts. They also offer feedback summaries in plain language, making it easier for participants to understand the impact of their involvement and reducing fatigue caused by unclear outcomes.
@@ -21,9 +21,9 @@ examples: |-
 relatedActions:
   - d33b6b6c
   - ab01e1b3
-  - 4978cf93
 barriers:
   - '42599812'
+  - 890aeb8e
 processes:
   - d2d08ae4
   - 8e9bcf3a

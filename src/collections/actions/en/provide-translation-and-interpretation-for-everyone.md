@@ -11,12 +11,6 @@ quick: |-
   - Rotate meeting languages based on members’ needs, and provide interpretation when needed.
   - Support smaller working groups in members’ native languages so they can participate more fully.
 longterm: ''
-relatedActions:
-  - 594d9a28
-  - ae3ed12e
-  - 94dc979d
-  - f3ca9e8e
-  - 2ac90c88
 moreInformation: |-
   - [Guide to Planning Inclusive Meetings (Government of Canada)](https://www.canada.ca/en/employment-social-development/programs/disability/arc/inclusive-meetings.html) is a good resource for advising participants in advance about interpretation and other services, and for planning interpretation breaks.
   - [Guidelines to Accessible and Inclusive Virtual Meetings](https://bati-itao.github.io/awareness/articles/accessible-and-inclusive-meetings-2024.html) talks about captions, sign language or language interpretation, bilingual materials, dry runs, checking transcripts, and giving interpreters time to prepare.
@@ -24,14 +18,18 @@ moreInformation: |-
 examples: |-
   - [Mexico – Dirección General de Normas (DGN)](https://www.gob.mx/se/) conducts meetings in Spanish and provides bilingual documentation for global collaboration. Interpreters and translated summaries ensure that participants can contribute in Spanish and have their ideas represented.
   - [China – Standardization Administration of China (SAC)](http://www.sac.gov.cn/) works in Mandarin and only translates documents into English after domestic consensus, allowing deeper local participation before global collaboration.
-processes:
-  - 981d9115
-  - b612d304
+relatedActions:
+  - f3ca9e8e
 barriers:
+  - 8b7308df
   - 81182d8d
   - 9dc55c33
   - 651b13cb
   - daad3728
   - 9907ee88
+  - d1e09be4
+processes:
+  - 981d9115
+  - b612d304
 more-information: ''
 ---

@@ -20,7 +20,6 @@ longterm: |-
   - Provide online or hybrid attendance options for all meetings - in-person meetings often create more challenges for members with disabilities, including those with mobility or transportation barriers.
   - Ensure all core work can be completed online, not just discussed during in-person meetings
 moreInformation: |-
-  - [Centre for Excellence in Universal Design](https://universaldesign.ie/?utm_source=chatgpt.com) provides guidance on making meetings and events accessible. It covers planning for accessibility, physical spaces, communication supports, accessible presentations, and participation options for people with different access needs.
   - [Government of Canada](https://a11y.canada.ca/en/accessible-virtual-events/) provides guidance for accessible virtual meetings, including planning accommodations, using accessible collaboration tools, enabling captions, sharing documents ahead of time, and considering different communication preferences. Their guidance emphasizes that accessibility should be planned from the beginning rather than added later.
   - [World Wide Web Consortium (W3C) - Making Video Meetings Accessible](https://www.w3.org/TR/remote-meetings/) provides practical guidance for making online meetings more accessible. It covers preparing accessibility requirements before meetings, enabling captions, sharing materials in advance, managing turn-taking, reducing barriers in communication, and ensuring participants can access meeting content. Although focused on virtual meetings, many practices apply directly to hybrid meetings.
   - [WebAIM: Writing Clearly and Simply](https://webaim.org/techniques/writing/) is about writing in a way that is easier for more people to understand. It focuses on plain language, short sentences, clear structure, and avoiding jargon where possible. It is useful for making web content easier to read for people with cognitive disabilities, people using screen readers, and anyone who benefits from clear communication.
@@ -40,8 +39,8 @@ barriers:
   - 81182d8d
 processes:
   - b612d304
-order: 1
 more-information: ''
+order: 1
 ---
 
 Strategies to ensure accessible pathways into technical committees and working groups for diverse applicants.

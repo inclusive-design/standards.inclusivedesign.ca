@@ -3,44 +3,58 @@ translationKey: check-and-improve-accessibility
 title: Check and improve accessibility
 uuid: 95f998b1
 draft: false
-quick: ''
+quick: |-
+  - Proactively consult with D/deaf and D/disabled committee members to determine specific access needs
+  - Consider accessibility across formats, devices, and languages.
+  - Regularly assess the inclusiveness and accessibility of meetings and processes through feedback
+  - Celebrate improvements in accessibility and inclusion to show the group’s progress.
 longterm: |-
   - Create a permanent dedicated accessibility group within the organization to track inclusion over time.
-  - Celebrate improvements in accessibility and inclusion to show the group’s progress.
-  - Regularly assess the inclusiveness and accessibility of meetings and processes through feedback
-  - Consider accessibility across formats, devices, and languages.
   - Design digital content so people with disabilities can access, understand, and use it.
   - Conduct accessibility audits with usability and assistive technology experts to ensure all digital platforms including websites, member portals, application sites and feedback mechanisms are accessible.
-  - Offer alternative ways to participate: in-person, phone, relay services, video calls, or paper applications.
-  - Proactively consult with D/deaf and D/disabled committee members to determine specific access needs
+  - Offer alternative ways to participate such as in-person, phone, relay services, video calls, or paper applications.
   - Provide accommodations to participants, including:
       - Sign Language interpreters (ASL, LSQ, etc.)
       - Real-time captioning (CART)
       - Note-taking services
       - Clear and consistent turn-taking protocols
       - Accessible digital files and materials in advance
-  - Ensure physical spaces (if used) are accessible for mobility devices, sensory needs, and rest requirements. ([Physical Space](https://standards.inclusivedesign.ca/guidelines/processes/space/))
+  - Ensure that physical spaces are accessible for mobility devices, sensory needs, and rest requirements.
 moreInformation: |-
-  - [WCAG in Plain English](https://aaardvarkaccessibility.com/wcag-plain-english/) makes the Web Content Accessibility Guidelines (WCAG) easy to understand, one success criterion at a time.
-  - [UNICEF Accessibility Checklists](https://accessibilitytoolkit.unicef.org/reports/section-g-accessibility-checklists) can be useful for broad accessibility review, including events and environments.
-  - [Accessible Campus: Checklist for Planning Accessible Events](https://www.accessiblecampus.ca/wp-content/uploads/2016/12/A-Checklist-for-Planning-Accessible-Events-1.pdf) is practical checklist for meeting rooms, event spaces, and physical access needs.
+  - [WebAIM](https://webaim.org/articles/) contains articles about making digital content accessible with clear, hands-on advice.
+  - [WCAG in Plain English](https://aaardvarkaccessibility.com/wcag-plain-english/) makes the Web Content Accessibility Guidelines (WCAG) easy to understand, and gives details on how to address web accessibility issues.
+  - [Digital Accessibility Toolkit](https://a11y.canada.ca/en/how-tos/) has how to guides that help with digital accessibility.
+  - [UNICEF Accessibility Checklists](https://accessibilitytoolkit.unicef.org/reports/section-g-accessibility-checklists) can help with assessing accessibility for events and environments.
+  - [Accessible Campus: Checklist for Planning Accessible Events](https://www.accessiblecampus.ca/wp-content/uploads/2016/12/A-Checklist-for-Planning-Accessible-Events-1.pdf) is a checklist for event spaces, and physical access needs.
 examples: |-
   - [India – Bureau of Indian Standards (BIS)](https://www.bis.gov.in/?lang=en) offers registration in regional languages and offline options like printed forms, phone registration, and community partner assistance. They collaborate with NGOs to bring mobile units to disability events, ensuring accessibility in remote areas.
-  - [Australia – Standards Australia](https://www.standards.org.au/standards-development/developing-standards/process) revamped its registration portals to meet WCAG 2.1 standards and created plain-language forms. They provide offline options like printed forms and phone interviews, along with Easy Read materials and explainer videos for people with disabilities.
+  - [Australia – Standards Australia](https://www.standards.org.au/) revamped its registration portals to meet WCAG 2.1 standards and created plain-language forms. They provide offline options like printed forms and phone interviews, along with Easy Read materials and explainer videos for people with disabilities.
   - [Kenya – Kenya Bureau of Standards (KEBS)](https://www.kebs.org/) partners with disability centers for in-person registration using paper forms, braille, and sign language interpreters. They also offer mobile-friendly forms and SMS-based registration, catering to low-bandwidth regions and mobile-first users.
 relatedActions:
   - ec2f6495
   - fdb653ec
+  - f3ca9e8e
   - 2ac90c88
   - ed90fb3e
-  - f3ca9e8e
+  - e6970303
 barriers:
-  - d1e09be4
   - 0d377477
-  - a9946f8c
+  - 7751b43d
+  - 9907ee88
   - e0642a56
-  - dbf56f15
+  - 81182d8d
+  - 9dc55c33
+  - d1e09be4
+  - a9946f8c
 processes:
   - a7e33638
+  - d2d08ae4
+  - 3eb6bf1e
+  - b612d304
+  - 1130eb69
+  - 9f8a0599
+  - 8e9bcf3a
+  - 420ec90a
+  - dc3b71a0
 more-information: ''
 ---
