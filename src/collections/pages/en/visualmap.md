@@ -43,7 +43,7 @@ This path is organised around what someone is actually doing (such as planning e
 ### Browse by barriers:
 This path starts with common barriers experienced by D/disabled and D/deaf people in standards development. The filters on the left are the same 5 core stages covering 18 topics. Users can filter by barrier categories, then move to barrier pages that focus on specific barriers and link back to relevant actions which help solve those barriers.
 
-### **Find what you need:**
+### Find what you need:
 This is a simple website wide search bar to find action and barrier cards. For example, try searching for ‘meeting’ or ‘hybrid’ to find suggestions for improving your hybrid meetings.
 
 </div>

@@ -586,5 +586,9 @@
 		h2 {
 			margin-block-end: 0.5rem;
 		}
+
+		h3 {
+			font-size: var(--step-2);
+		}
 	}
 }
