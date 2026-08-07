@@ -342,6 +342,10 @@
 	}
 }
 
+.guidelines-visualmap p:has(img) {
+	max-width: 100%;
+}
+
 @media (width >=70.875rem) {
 	.barrier nav>h2,
 	.guidelines nav>h2,
@@ -569,5 +573,23 @@
 	.process article,
 	.action article {
 		padding-inline: 8.4375rem;
+	}
+
+	.guidelines-visualmap .wrapper {
+		display: grid;
+		gap: 1rem;
+		grid-template-columns: 1fr 1fr;
+
+		p:has(img) {
+			grid-column: 1 / 3;
+		}
+
+		h2 {
+			margin-block-end: 0.5rem;
+		}
+
+		h3 {
+			font-size: var(--step-2);
+		}
 	}
 }
