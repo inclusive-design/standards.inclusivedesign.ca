@@ -19,9 +19,18 @@ outro: ''
 
 ![visual site map shows how users can move through the Inclusive Standards Guidelines website to find practical, accessible guidance for standards development.](/assets/uploads/visual-sitemap.svg)
 
+<div>
+
 ## Overview of the visual site map
 
 This visual site map shows how users can move through the Inclusive Standards Guidelines website to find practical, accessible guidance for standards development. At the top is the Guidelines landing page, which introduces the purpose of the guidelines and offers four main ways to navigate: exploring by standards development processes, browsing by actions, browsing by barriers and website wide search.
+
+## How the pieces connect
+Each section of the map shows how cards, filters, and pages relate to one another so people can enter the guidelines from different starting points and still reach the material they need. Search results for barrier and action cards sit alongside these paths, showing that users can also jump in directly through search and then follow links to deeper guidance. Overall, the site map highlights a flexible, interconnected structure designed to support inclusive, barrier-focused standards development for a wide range of committee members and stakeholders.
+
+</div>
+
+<div>
 
 ## Main navigation paths
 
@@ -37,5 +46,4 @@ This path starts with common barriers experienced by D/disabled and D/deaf peopl
 ### **Find what you need:**
 This is a simple website wide search bar to find action and barrier cards. For example, try searching for ‘meeting’ or ‘hybrid’ to find suggestions for improving your hybrid meetings.
 
-## How the pieces connect
-Each section of the map shows how cards, filters, and pages relate to one another so people can enter the guidelines from different starting points and still reach the material they need. Search results for barrier and action cards sit alongside these paths, showing that users can also jump in directly through search and then follow links to deeper guidance. Overall, the site map highlights a flexible, interconnected structure designed to support inclusive, barrier-focused standards development for a wide range of committee members and stakeholders.
+</div>
