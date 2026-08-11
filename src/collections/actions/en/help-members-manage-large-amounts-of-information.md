@@ -7,7 +7,7 @@ quick: |-
   - Give a simple overview that shows all the important documents, where to find them (links or location) and a short summary of what each document is for.
   - Highlight document sections that are most important for the current work.
 longterm: '- Offer orientation sessions or “office hours” where chairpersons or experienced members explain key documents and answer questions.'
-moreInformation: '- [The National Archives (UK) - Information management](https://www.nationalarchives.gov.uk/information-management/) is a strong public-sector source for records management, information governance, retention, and reuse.'
+moreInformation: ''
 examples: |-
   - [W3C](https://www.w3.org/guide/) provides working group participants with organized resources, guidance documents, and process information to help them understand their roles, responsibilities, and how to participate effectively.
   - [Bureau of Indian Standards](https://www.bis.gov.in/wp-content/uploads/2024/06/Handbook-for-TC-Members.pdf) technical committee handbook is a practical example of a technical committee system with guidance for members, which usually includes document handling, process discipline, and committee coordination.
