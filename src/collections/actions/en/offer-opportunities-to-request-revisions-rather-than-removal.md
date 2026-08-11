@@ -10,8 +10,9 @@ longterm: |-
   - Use multiple accessible channels for submitting revision requests, such as online forms, email, phone, or mail.
   - Share outcomes of revision requests publicly to show how input influenced the standard.
   - Track and report revisions to show continuous improvement and maintain trust with communities.
-moreInformation: '- [W3C](https://github.com/w3c) allows users and communities to submit issues and suggestions for published standards through public issue trackers. Working groups review feedback, discuss proposed improvements, and update standards through a transparent process.'
+moreInformation: ''
 examples: |-
+  - [W3C](https://github.com/w3c) allows users and communities to submit issues and suggestions for published standards through public issue trackers. Working groups review feedback, discuss proposed improvements, and update standards through a transparent process.
   - [Sweden – Swedish Institute for Standards (SIS)](https://www.sis.se/en/) includes public comment periods in the review of aging standards. This allows communities, including those historically excluded, to weigh in on whether a standard should be updated, maintained, or retired based on its ongoing social utility.
   - [UK – British Standards Institution (BSI)](https://www.bsigroup.com/en-CA/) includes a public consultation step before withdrawing key standards. They notify affected communities, including disability organizations, and publish justifications for proposed withdrawals. This allows for feedback on potential social or accessibility impacts before a final decision is made.
   - [South Africa – South African Bureau of Standards (SABS)](https://www.sabs.co.za/) involves civil society groups through stakeholder forums where standard withdrawal proposals are discussed. These forums ensure that people impacted by the standards, including D/deaf and D/disabled communities, can voice concerns or highlight continued relevance before withdrawal.
@@ -22,8 +23,12 @@ examples: |-
 relatedActions:
   - 5cfc5519
   - af9da867
+  - d33b6b6c
+  - a1c9b89d
+  - 5a7ef076
 barriers:
   - a2204b3f
+  - ab41ec58
 processes:
   - 420ec90a
   - 153c2d64
