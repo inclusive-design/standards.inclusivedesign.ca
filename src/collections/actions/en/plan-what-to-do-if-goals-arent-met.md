@@ -5,9 +5,9 @@ uuid: ac8b76da
 draft: false
 quick: ''
 longterm: |-
+  - Set clear minimum targets, for example, the key groups and number of participants that must be included.
   - Decide ahead of time what you will do if participation goals are not reached.
   - Consider extending the comment period, changing your outreach approach, or building new relationships with groups that were not well represented.
-  - Set clear “minimum” targets, for example: number of participants, or key groups that must be included.
   - Check progress early so you still have time to adjust.
   - If you’re missing key voices, pause and fix the outreach instead of moving forward anyway.
   - Ask community partners why people didn’t participate and what would make it easier next time.
