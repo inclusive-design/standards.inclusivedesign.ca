@@ -1,6 +1,6 @@
 ---
 translationKey: organizational-and-operational-commitment
-title: Build organizational and operational commitment
+title: Build organizational commitment
 uuid: 0ff75145
 draft: false
 quick: ''
