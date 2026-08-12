@@ -18,6 +18,7 @@ moreInformation: ''
 examples: |-
   - [DGSI](https://dgc-cgn.org/digital-standards/) has an orientation session for all new committee members.
   - [W3C](https://www.w3.org/policies/process/) encourages chairs to actively support participants throughout the standards development process by helping new members understand procedures, facilitating participation, and addressing challenges as they arise.
+  - [Norway – Standards Norway](https://standard.no/en/) offers an on-boarding toolkit for first-time participants, including plain language guides, videos, orientations, and dedicated staff support. They also host webinars for newcomers from disability and civil society sectors.
 relatedActions:
   - 7f21a35b
   - c0dd69a6
