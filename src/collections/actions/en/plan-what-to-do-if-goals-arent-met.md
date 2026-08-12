@@ -16,15 +16,15 @@ longterm: |-
   - Document what didn’t work and what you changed, so the process improves over time.
 moreInformation: '- The [IAP2 Spectrum of Public Participation](https://board.danecounty.gov/documents/pdf/Engagement-Techniques-Chart-with-resource-links.pdf) helps organizations think about how much influence people have in decision-making, from simply receiving information to helping make decisions. It encourages organizations to choose the right level of participation for each project and to involve people in meaningful ways.'
 examples: |-
-  - [International – ISO](https://www.iso.org/sites/ConsumersStandards/1_standards.html)’s guidance for national standards bodies emphasises broad stakeholder participation, including government, industry, consumers, workers, and academia, and encourages developing countries and under‑represented groups to take part more actively.
+  - [International – ISO](https://www.iso.org/sites/ConsumersStandards/1_standards.html)’s guidance for national standards bodies emphasizes broad stakeholder participation, including government, industry, consumers, workers, and academia, and encourages developing countries and under‑represented groups to take part more actively.
   - [Canada – Standards Council of Canada (SCC)](https://scc-ccn.ca/accreditation/accreditation-programs/standards-development-organizations)’s accreditation criteria for Standards Development Organizations require respect for “diverse interests” and a commitment to openness, transparency, and balanced participation in committees.
 relatedActions:
+  - 935f1dd7
   - 561239cd
+  - 0ff75145
 barriers:
   - dbf56f15
   - 76ee246e
-  - 9907ee88
-  - 7751b43d
 processes:
   - 8e9bcf3a
   - '13269757'
