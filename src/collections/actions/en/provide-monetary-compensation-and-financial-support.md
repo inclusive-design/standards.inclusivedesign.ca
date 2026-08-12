@@ -8,7 +8,7 @@ quick: |-
   - Create funding programs that cover:
       - compensation
       - travel and accommodation for in-person meetings
-      - assistive technologies and communication supports for example, sign language/interpretation and real-time captioning
+      - assistive technologies and communication supports, for example, sign language/interpretation and real-time captioning
       - training and mentorship programs that support standards development
       - staff accessibility training
   - Partner with disability-led organizations to co-develop funding and engagement strategies.
