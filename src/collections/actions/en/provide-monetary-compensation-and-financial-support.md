@@ -11,13 +11,14 @@ quick: |-
       - assistive technologies and communication supports (e.g., sign language/interpretation, real-time captioning)
       - training programs to build understanding of standards development
       - staff accessibility training
-  - Partner with disability-led organizations to co-develop funding mechanisms and engagement strategies.
+  - Partner with disability-led organizations to co-develop funding and engagement strategies.
 longterm: ''
-moreInformation: '- [Co-design cost considerations: Co-designing Inclusive Cities](https://cities.inclusivedesign.ca/resources/co-design-cost-considerations/) directly addresses monetary compensation and several types of financial support needed for inclusive co‑design events'
+moreInformation: '- [Co-design cost considerations: Co-designing Inclusive Cities](https://cities.inclusivedesign.ca/resources/co-design-cost-considerations/) directly addresses monetary compensation and several types of financial support needed for inclusive co‑design events.'
 examples: |-
-  - [Germany – DIN: Removing Cost Barriers](https://www.din.de/en) DIN has launched a pilot stipend model allowing individuals without organizational backing especially Disabled experts to receive financial support for participation and waived membership fees. They collaborate with disability networks to find participants with lived or community-based expertise. Opens traditionally corporate-led spaces to independent, underrepresented voices.
-  - [Kenya – KEBS ](https://www.kebs.org/)KEBS works with local disability organizations to provide honorariums, transport costs, and interpretation for Disabled participants. Support is often delivered through partner NGOs, with advance payments offered to avoid reimbursement delays. KBES Uses trusted community partners and localized funding methods to improve access in underserved areas.
+  - [Germany – DIN: Removing Cost Barriers](https://www.din.de/en) DIN has launched a pilot stipend model allowing individuals without organizational backing especially d/Disabled and d/Deaf experts to receive financial support for participation and waived membership fees. They collaborate with disability networks to find participants with lived or community-based expertise.
+  - [Kenya – KEBS ](https://www.kebs.org/)works with local disability organizations to provide honorariums, transport costs, and interpretation for d/Disabled participants. Support is often delivered through partner NGOs, with advance payments offered to avoid reimbursement delays. KEBS uses trusted community partners and localized funding methods to improve access in under served areas.
 relatedActions:
+  - ef3678a6
   - 0baa973a
 barriers:
   - 8b6ad4ca
