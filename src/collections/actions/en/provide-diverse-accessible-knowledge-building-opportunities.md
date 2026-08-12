@@ -8,7 +8,7 @@ longterm: |-
   - Support new members in building the skills and knowledge needed to contribute meaningfully.
   - Create workshops and training sessions for both foundational and role-specific training.
   - Partner with educational institutions to co-create learning modules.
-  - Offer interactive tools like quizzes, videos, and step-by-step guides to cater to various learning styles.
+  - Support different ways of learning with interactive tools like quizzes, videos, and step-by-step guides.
   - Ensure all content is accessible.
   - Provide learning content in multiple languages.
 moreInformation: ''
