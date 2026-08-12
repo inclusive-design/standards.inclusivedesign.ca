@@ -13,9 +13,9 @@ longterm: |-
   - Offer translations, captions, or sign language/interpretation versions to make sessions inclusive.
   - Encourage feedback from the community on how well the standards meet their needs.
   - Highlight success stories where communities used standards to make a positive impact.
-moreInformation: '- [Co-designing Inclusive Cities](https://cities.inclusivedesign.ca/) is IDRC’s co-design worksheet which offer practical, reusable activities for engaging community members in structured, accessible co-design sessions, including work with Deaf and disabled communities'
+moreInformation: ''
 examples: |-
-  - [OpenForum Europe’s mapping of SDO/open source collaboration ](https://openforumeurope.org/publications/standards-and-open-source-bringing-them-together/)is not a standards body itself, but it documents examples where SDOs work with open-source communities through joint activities, shared methods, and participation in standards creation.
+  - [OpenForum Europe’s mapping of SDO/open source collaboration](https://openforumeurope.org/publications/standards-and-open-source-bringing-them-together/) is not a standards body itself, but it documents examples where SDOs work with open-source communities through joint activities, shared methods, and participation in standards creation.
   - [Standards Council of Canada (Canada) SCC](https://scc-ccn.ca/system/files/2025-04/scc_rg_sdo-accreditation_v6_2025-03-06.pdf)’s accreditation requirements emphasize openness, transparency, and balanced participation, which supports bringing affected communities into standards work.
 relatedActions:
   - 66b7220e
