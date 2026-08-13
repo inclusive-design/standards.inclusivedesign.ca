@@ -1,6 +1,6 @@
 ---
 translationKey: use-accessible-hybrid-meeting-practices
-title: Use accessible hybrid meeting practices
+title: Make hybrid meetings accessible
 uuid: 2ac90c88
 draft: false
 quick: |-
@@ -13,11 +13,11 @@ quick: |-
       - One to watch the online chat and support online participants
       - One to support in-person participants
   - Repeat questions or comments from in-room participants for online members and vise-versa.
-  - Use screen-sharing consistently and narrate visual content for those who are blind or have low vision.
+  - When screen-sharing, narrate visual content for those who are blind or have low vision.
   - Use lighting so that people can see faces and interpreters.
   - Reduce background noise where possible.
 longterm: |-
-  - Provide online or hybrid attendance options for all meetings - in-person meetings often create more challenges for members with disabilities, including those with mobility or transportation barriers.
+  - Provide online or hybrid attendance options when possible - in-person meetings can create mobility or transportation barriers for some D/disabled people.
   - Ensure all core work can be completed online, not just discussed during in-person meetings.
 moreInformation: |-
   - [Government of Canada](https://a11y.canada.ca/en/accessible-virtual-events/) provides guidance for accessible virtual meetings, including planning accommodations, using accessible collaboration tools, enabling captions, sharing documents ahead of time, and considering different communication preferences. Their guidance emphasizes that accessibility should be planned from the beginning rather than added later.
