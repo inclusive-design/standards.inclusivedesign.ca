@@ -3,10 +3,10 @@ translationKey: provide-transition-guidance-when-withdrawing-a-standard
 title: Provide transition guidance when withdrawing a standard
 uuid: af9da867
 draft: false
-quick: ''
-longterm: |-
+quick: |-
   - Provide clear information about what the withdrawal means and who it affects.
   - Share alternatives, replacement standards, or temporary guidance people can use instead.
+longterm: |-
   - Offer support where needed, including technical and legal guidance.
   - Consider a grace period, so people have time to adjust and transition.
 moreInformation: ''
