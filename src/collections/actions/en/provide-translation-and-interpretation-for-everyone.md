@@ -14,7 +14,7 @@ longterm: ''
 moreInformation: |-
   - [Guide to Planning Inclusive Meetings (Government of Canada)](https://www.canada.ca/en/employment-social-development/programs/disability/arc/inclusive-meetings.html) is a good resource for advising participants in advance about interpretation and other services, and for planning interpretation breaks.
   - [Guidelines to Accessible and Inclusive Virtual Meetings](https://bati-itao.github.io/awareness/articles/accessible-and-inclusive-meetings-2024.html) talks about captions, sign language or language interpretation, bilingual materials, dry runs, checking transcripts, and giving interpreters time to prepare.
-  - [Inclusive Practices (Sign Language Linguistics Society)](https://slls.eu/inclusive-practices/) is good resource for making interpretation part of normal meeting design from the start, especially for international and multilingual events.
+  - [Inclusive Practices (Sign Language Linguistics Society)](https://slls.eu/inclusive-practices/) is a good resource for making interpretation part of meeting design from the start, especially for international and multilingual events.
 examples: |-
   - [Mexico – Dirección General de Normas (DGN)](https://www.gob.mx/se/) conducts meetings in Spanish and provides bilingual documentation for global collaboration. Interpreters and translated summaries ensure that participants can contribute in Spanish and have their ideas represented.
   - [China – Standardization Administration of China (SAC)](http://www.sac.gov.cn/) works in Mandarin and only translates documents into English after domestic consensus, allowing deeper local participation before global collaboration.
