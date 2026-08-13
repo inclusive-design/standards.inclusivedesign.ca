@@ -17,9 +17,9 @@ longterm: |-
       - How to speak and work respectfully with people from different backgrounds
       - How to arrange accommodations like captions, interpreters, accessible documents, or extra time
       - How to manage conflict during meetings
-      - Using plain language during speaking
+      - Using plain language while speaking
 moreInformation: |-
-  - [W3C WAI – Resources for Trainers and Educators](https://www.w3.org/WAI/roles/trainers/) is an excellent resource for building web accessibility training by role, with curricula, presentations, videos, and guidance on making the training accessible.
+  - [W3C WAI – Resources for Trainers and Educators](https://www.w3.org/WAI/roles/trainers/) is an excellent resource for building accessibility training by role, with curricula, presentations, videos, and guidance on making the training accessible.
   - [W3C WAI – Digital Accessibility Foundations](https://www.w3.org/WAI/courses/foundations-course/) is a free introductory course for technical and non-technical learners, useful for foundational training.
   - [U.S. Section 508 – Accessibility Training, Tools, and Events](https://www.section508.gov/training/) is a practical resource with free training, videos, events, and certification-oriented material.
   - [Microsoft – Accessibility Resources & Training](https://www.microsoft.com/en-us/accessibility/resources) talks about supporting inclusive practices across tools, content, and experiences.
