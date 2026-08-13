@@ -23,6 +23,7 @@ examples: |-
   - [New Zealand – Standards New Zealand (SNZ)](https://www.standards.govt.nz/) provides public-facing FAQs and advisory support after the withdrawal of major standards. They often partner with government agencies to ensure that policy and procurement frameworks reflect the change and that users are not left without direction.
 relatedActions:
   - 902c8c26
+  - 5cfc5519
   - af9da867
 barriers:
   - a2204b3f
