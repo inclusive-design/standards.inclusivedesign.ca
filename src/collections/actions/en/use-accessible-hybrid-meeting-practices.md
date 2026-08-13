@@ -4,26 +4,26 @@ title: Use accessible hybrid meeting practices
 uuid: 2ac90c88
 draft: false
 quick: |-
-  - Start meetings with a reminder that all voices are welcome (both online and in-person).
   - Use a camera that shows the whole room, so that online people can see who is speaking.
-  - Ensure high-quality microphones and speakers are installed for hybrid meetings
-  - Ask in-room speakers to say their name before they speak.
-  - Use good microphones and speakers so everyone can hear.
+  - Ensure high-quality microphones and speakers are installed for hybrid meetings.
+  - Start meetings with a reminder that all voices are welcome, both online and in-person.
+  - Ask speakers to say their name before they speak.
+  - Ask all participants to use good microphones for better audio quality. If that isn't possible, have someone with a good microphone repeat what was said.
   - Assign two different facilitators:
       - One to watch the online chat and support online participants
       - One to support in-person participants
-  - Repeat questions or comments from in-room participants for online members and vise-versa
-  - Use screen-sharing consistently and narrate visual content for those who are blind or have low vision
+  - Repeat questions or comments from in-room participants for online members and vise-versa.
+  - Use screen-sharing consistently and narrate visual content for those who are blind or have low vision.
   - Use lighting so that people can see faces and interpreters.
   - Reduce background noise where possible.
 longterm: |-
   - Provide online or hybrid attendance options for all meetings - in-person meetings often create more challenges for members with disabilities, including those with mobility or transportation barriers.
-  - Ensure all core work can be completed online, not just discussed during in-person meetings
+  - Ensure all core work can be completed online, not just discussed during in-person meetings.
 moreInformation: |-
   - [Government of Canada](https://a11y.canada.ca/en/accessible-virtual-events/) provides guidance for accessible virtual meetings, including planning accommodations, using accessible collaboration tools, enabling captions, sharing documents ahead of time, and considering different communication preferences. Their guidance emphasizes that accessibility should be planned from the beginning rather than added later.
-  - [World Wide Web Consortium (W3C) - Making Video Meetings Accessible](https://www.w3.org/TR/remote-meetings/) provides practical guidance for making online meetings more accessible. It covers preparing accessibility requirements before meetings, enabling captions, sharing materials in advance, managing turn-taking, reducing barriers in communication, and ensuring participants can access meeting content. Although focused on virtual meetings, many practices apply directly to hybrid meetings.
+  - [World Wide Web Consortium (W3C) - Accessible Remote Meetings](https://www.w3.org/TR/remote-meetings/#holding-accessible-remote-meetings) provides practical guidance for making online meetings more accessible. It covers preparing accessibility requirements before meetings, enabling captions, sharing materials in advance, managing turn-taking, reducing barriers in communication, and ensuring participants can access meeting content. Although focused on virtual meetings, many practices apply directly to hybrid meetings.
   - [WebAIM: Writing Clearly and Simply](https://webaim.org/techniques/writing/) is about writing in a way that is easier for more people to understand. It focuses on plain language, short sentences, clear structure, and avoiding jargon where possible. It is useful for making web content easier to read for people with cognitive disabilities, people using screen readers, and anyone who benefits from clear communication.
-  - [Accessible Content and Communication: Community-led Co-design kit](https://community-led.design/resources/accessible-content-and-communication/) is part of a community-led co-design toolkit. It focuses on making content and communication accessible during co-design or community engagement work. In practice, that means using clear language, thinking about different access needs, and making sure communication works for the people involved, not just for organizers.
+  - [Accessible Content and Communication: Community-led Co-design kit](https://community-led.design/collections/resources/accessible-content-and-communication/) focuses on making content and communication accessible during co-design or community engagement work. In practice, that means using clear language, thinking about different access needs, and making sure communication works for all the people involved.
 examples: |-
   - [UK – British Standards Institution (BSI)](https://www.bsigroup.com/en-CA/) uses 360° cameras, quality audio, and shared online docs to ensure remote attendees are fully included. A “remote participant advocate” helps balance input between in-person and online members.
   - [Germany – German Institute for Standardization (DIN)](https://www.din.de/en) uses auto-tracking cameras, real-time screen sharing, and shares materials in advance in multiple accessible formats. They also run simulations to test and improve hybrid setups.
