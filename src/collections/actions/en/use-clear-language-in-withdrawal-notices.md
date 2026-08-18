@@ -1,5 +1,5 @@
 ---
-translationKey: use-clear-accessible-and-open-language-in-withdrawal-notices
+translationKey: use-clear-language-in-withdrawal-notices
 title: Use clear language in withdrawal notices
 uuid: 5a7ef076
 draft: false
