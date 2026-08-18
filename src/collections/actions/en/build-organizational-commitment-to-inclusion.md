@@ -1,6 +1,6 @@
 ---
-translationKey: organizational-and-operational-commitment
-title: Build organizational commitment
+translationKey: build-organizational-commitment-to-inclusion
+title: Build organizational commitment to inclusion
 uuid: 0ff75145
 draft: false
 quick: ''
