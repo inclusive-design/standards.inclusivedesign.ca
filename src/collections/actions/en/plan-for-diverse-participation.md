@@ -1,5 +1,5 @@
 ---
-translationKey: plan-what-to-do-if-goals-arent-met
+translationKey: plan-for-diverse-participation
 title: Plan for diverse participation
 uuid: ac8b76da
 draft: false
