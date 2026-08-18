@@ -1,5 +1,5 @@
 ---
-translationKey: the-default-meeting-language-is-often-english
+translationKey: default-meeting-language-is-english
 title: Default meeting language is English
 uuid: 8b7308df
 draft: false
