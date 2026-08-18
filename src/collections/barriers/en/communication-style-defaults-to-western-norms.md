@@ -1,6 +1,6 @@
 ---
-translationKey: communication-styles-often-default-to-western-norms
-title: Communication styles default to Western norms
+translationKey: communication-style-defaults-to-western-norms
+title: Communication style defaults to Western norms
 uuid: 7ed127d1
 draft: false
 problem: |-
