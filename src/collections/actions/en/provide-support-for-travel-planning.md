@@ -1,6 +1,6 @@
 ---
-translationKey: help-people-plan-travel-for-in-person-meetings
-title: Help with travel planning
+translationKey: provide-support-for-travel-planning
+title: Provide support for travel planning
 uuid: '34078967'
 draft: false
 quick: |-
