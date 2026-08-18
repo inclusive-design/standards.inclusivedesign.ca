@@ -1,5 +1,5 @@
 ---
-translationKey: provide-one-on-one-guidance-and-ongoing-support-to-new-members-and-members-with-lived-experiences
+translationKey: provide-guidance-and-ongoing-support-to-new-members
 title: Provide guidance and ongoing support to new members
 uuid: 64506dee
 draft: false
