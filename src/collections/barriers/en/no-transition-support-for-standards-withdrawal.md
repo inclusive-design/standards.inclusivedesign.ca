@@ -1,6 +1,6 @@
 ---
-translationKey: no-support-when-a-standard-is-removed
-title: No support when a standard is removed
+translationKey: no-transition-support-for-standards-withdrawal
+title: No transition support for standards withdrawal
 uuid: ab41ec58
 draft: false
 problem: |-
