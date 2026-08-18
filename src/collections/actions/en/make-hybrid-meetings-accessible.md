@@ -1,5 +1,5 @@
 ---
-translationKey: use-accessible-hybrid-meeting-practices
+translationKey: make-hybrid-meetings-accessible
 title: Make hybrid meetings accessible
 uuid: 2ac90c88
 draft: false
