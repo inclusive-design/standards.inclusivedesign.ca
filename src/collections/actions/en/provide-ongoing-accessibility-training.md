@@ -1,5 +1,5 @@
 ---
-translationKey: provide-ongoing-accessibility-and-inclusion-training-for-staff-and-chairs
+translationKey: provide-ongoing-accessibility-training
 title: Provide ongoing accessibility training
 uuid: ed90fb3e
 draft: false
