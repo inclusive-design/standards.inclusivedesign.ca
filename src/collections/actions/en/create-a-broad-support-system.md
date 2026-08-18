@@ -1,6 +1,6 @@
 ---
-translationKey: create-a-shared-support-system-across-standard-development-organizations
-title: Create a shared support system
+translationKey: create-a-broad-support-system
+title: Create a broad support system
 uuid: 9b846bb9
 draft: false
 quick: ''
