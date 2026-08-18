@@ -1,6 +1,6 @@
 ---
-translationKey: publishing-standards-does-not-guarantee-awareness-or-access
-title: Publishing standards does not guarantee awareness or access
+translationKey: lack-of-awareness-or-accessibility-of-standards
+title: Lack of awareness or accessibility of standards
 uuid: 7dcf8b49
 draft: false
 problem: |-
