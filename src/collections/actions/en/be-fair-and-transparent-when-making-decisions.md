@@ -1,5 +1,5 @@
 ---
-translationKey: use-fair-and-transparent-decision-making
+translationKey: be-fair-and-transparent-when-making-decisions
 title: Be fair and transparent when making decisions
 uuid: d33b6b6c
 draft: false
