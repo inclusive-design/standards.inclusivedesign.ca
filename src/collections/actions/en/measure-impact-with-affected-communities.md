@@ -1,6 +1,6 @@
 ---
-translationKey: measure-the-developed-standards-impact-with-affected-communities
-title: Measure the developed standard's impact with affected communities
+translationKey: measure-impact-with-affected-communities
+title: Measure impact with affected communities
 uuid: 66b7220e
 draft: false
 quick: ''
