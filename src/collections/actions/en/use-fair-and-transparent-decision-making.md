@@ -8,7 +8,7 @@ quick: |-
   - Share the decisions you made and what happened as a result. This builds trust and shows that people’s time and input matter.
   - Give extra attention to feedback from groups that face barriers, especially when deciding what changes to make.
 longterm: ''
-moreInformation: '- [World Wide Web Consortium](https://www.w3.org/policies/process/?utm_source=chatgpt.com) talks about making decisions through open discussion and, where possible, building consensus before making a final decision.'
+moreInformation: '- [World Wide Web Consortium](https://www.w3.org/policies/process/) talks about making decisions through open discussion and, where possible, building consensus before making a final decision.'
 examples: |-
   - [Germany – German Institute for Standardization (DIN)](https://www.din.de/en) uses a comment resolution matrix that is publicly shared after consultation, showing how input was handled. DIN includes diverse stakeholder representatives when making decisions to balance perspectives and reduce majority-rule bias.
   - [Norway – Standards Norway](https://standard.no/en/) tracks feedback through a transparent resolution log. Stakeholders can follow how each comment was considered. They involve citizen panels to provide input on controversial issues and ensure balanced representation beyond committee members.
