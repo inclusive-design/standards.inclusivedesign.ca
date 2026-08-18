@@ -1,6 +1,6 @@
 ---
-translationKey: lack-of-organizational-support
-title: Lack of organizational support
+translationKey: lack-of-organizational-support-for-inclusion
+title: Lack of organizational support for inclusion
 uuid: a96035dc
 draft: false
 problem: |-
