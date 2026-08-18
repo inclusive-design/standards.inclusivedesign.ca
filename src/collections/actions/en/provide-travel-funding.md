@@ -1,6 +1,6 @@
 ---
-translationKey: build-in-travel-funding
-title: Build in travel funding
+translationKey: provide-travel-funding
+title: Provide travel funding
 uuid: 0baa973a
 draft: false
 quick: ''
