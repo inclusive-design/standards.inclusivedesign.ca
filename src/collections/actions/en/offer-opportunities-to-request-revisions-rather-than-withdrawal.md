@@ -1,6 +1,6 @@
 ---
-translationKey: offer-opportunities-to-request-revisions-rather-than-removal
-title: Offer opportunities to request revisions rather than removal
+translationKey: offer-opportunities-to-request-revisions-rather-than-withdrawal
+title: Offer opportunities to request revisions rather than withdrawal
 uuid: '09758457'
 draft: false
 quick: ''
