@@ -1,6 +1,6 @@
 ---
-translationKey: agree-together-how-the-committee-will-work
-title: Agree together how the committee will work
+translationKey: come-to-shared-agreement-for-committee-work
+title: Come to shared agreement for committee work
 uuid: 318837bb
 draft: false
 quick: |-
