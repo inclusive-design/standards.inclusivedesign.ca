@@ -1,5 +1,5 @@
 ---
-translationKey: inaccessibility-of-virtual-meetings
+translationKey: inaccessible-online-meetings
 title: Inaccessible online meetings
 uuid: e0642a56
 draft: false
