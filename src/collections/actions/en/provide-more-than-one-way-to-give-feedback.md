@@ -14,7 +14,7 @@ moreInformation: '- [Disability gateway](https://www.disabilitygateway.gov.au/ad
 examples: |-
   - [India – Bureau of Indian Standards (BIS)](https://www.bis.gov.in/?lang=en) offers multi-platform feedback through accessible online forms, email, phone, and postal mail. They also use mobile apps and SMS for easy participation.
   - [Mexico – Dirección General de Normas (DGN)](https://www.gob.mx/se/) provides accessible online forms, phone, and in-person feedback options. They run mobile feedback stations in remote areas.
-  - [Italy – Italian National Unification Body (UNI](https://www.uni.com/en/)) offers a screen reader-compatible feedback platform and accepts feedback through online forms, email, and post. They also provide plain language summaries of technical documents.
+  - [Italy – Italian National Unification Body (UNI)](https://www.uni.com/en/) offers a screen reader-compatible feedback platform and accepts feedback through online forms, email, and post. They also provide plain language summaries of technical documents.
   - [New Zealand – Standards New Zealand (SNZ)](https://www.standards.govt.nz/) provides accessible digital feedback forms and also allows feedback via email, phone, and face-to-face interactions, with direct assistance available.
   - [Canada – Digital Governance Standards Institute (DGSI)](https://dgc-cgn.org/standards/) uses a platform called Konveio to publicly share draft standards and collect feedback. Anyone can review the document directly on the platform and add comments. For those who cannot access Konveio, a Word version is available upon request. The team then manually integrates feedback from both sources.
 relatedActions:
