@@ -10,9 +10,9 @@ quick: |-
 longterm: ''
 moreInformation: '- [World Wide Web Consortium](https://www.w3.org/policies/process/?utm_source=chatgpt.com) talks about making decisions through open discussion and, where possible, building consensus before making a final decision.'
 examples: |-
-  - [Germany – DIN](https://www.din.de/en) uses a comment resolution matrix that is publicly shared after consultation, showing how input was handled. DIN includes diverse stakeholder representatives when making decisions to balance perspectives and reduce majority-rule bias.
+  - [Germany – German Institute for Standardization (DIN)](https://www.din.de/en) uses a comment resolution matrix that is publicly shared after consultation, showing how input was handled. DIN includes diverse stakeholder representatives when making decisions to balance perspectives and reduce majority-rule bias.
   - [Norway – Standards Norway](https://standard.no/en/) tracks feedback through a transparent resolution log. Stakeholders can follow how each comment was considered. They involve citizen panels to provide input on controversial issues and ensure balanced representation beyond committee members.
-  - [Japan – JISC ](https://www.jisc.go.jp/eng/) shares decision reports outlining the treatment of feedback and provides accessible summaries for broader public understanding. They use online dashboards to track the status of submitted comments in real time.
+  - [Japan – The Japanese Industrial Standards Committee (JISC)](https://www.jisc.go.jp/eng/) shares decision reports outlining the treatment of feedback and provides accessible summaries for broader public understanding. They use online dashboards to track the status of submitted comments in real time.
 relatedActions:
   - 561239cd
   - ab01e1b3
