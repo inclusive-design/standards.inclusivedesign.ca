@@ -1,6 +1,6 @@
 ---
-translationKey: unclear-participation-information
-title: Unclear participation information
+translationKey: lack-of-clarity-about-committee-member-roles
+title: Lack of clarity about committee member roles and responsibilities
 uuid: 12ff094b
 draft: false
 problem: |-
