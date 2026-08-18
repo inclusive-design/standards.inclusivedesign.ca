@@ -16,8 +16,8 @@ quick: |-
 longterm: ''
 moreInformation: |-
   - [Microsoft Teams](https://support.microsoft.com/en-us/teams/notifications-settings/change-settings-in-microsoft-teams), [Zoom](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062475), and [Cisco Webex](https://help.webex.com/en-us/article/5xg9lbb/Change-Language-Settings-for-a-Cisco-Webex-Site-in-Cisco-Webex-SiteAdministration) all recommend selecting the correct spoken language for caption accuracy.
-  - [The Americans with Disabilities Act (ADA)](https://www.ada.gov/resources/effective-communication/?utm_source=chatgpt.com). Recognizes qualified interpreters and real-time captioning (CART) as important communication supports and emphasizes that organizations should provide appropriate accommodations to ensure equal participation for people who are D/deaf or hard of hearing.
-examples: "- [International Organization for Standardization (ISO)'s](https://www.iso.org/standard/69060.html?utm_source=chatgpt.com) organizers confirm the meeting language, test captioning and interpretation settings, and provide key terminology before international committee meetings, so automated captions and interpreters are more accurate."
+  - [The Americans with Disabilities Act (ADA)](https://www.ada.gov/resources/effective-communication/). Recognizes qualified interpreters and real-time captioning (CART) as important communication supports and emphasizes that organizations should provide appropriate accommodations to ensure equal participation for people who are D/deaf or hard of hearing.
+examples: "- [International Organization for Standardization (ISO)'s](https://www.iso.org/standard/69060.html) organizers confirm the meeting language, test captioning and interpretation settings, and provide key terminology before international committee meetings, so automated captions and interpreters are more accurate."
 relatedActions:
   - 2ac90c88
   - 594d9a28
