@@ -4,7 +4,7 @@ title: Plan meetings so people worldwide can join
 uuid: 94dc979d
 draft: false
 quick: |-
-  - Use UTC ([Coordinated Universal Time](https://en.wikipedia.org/wiki/Coordinated_Universal_Time)) as the main time reference, because it stays the same all year and does not observe Day Light Saving.
+  - Use [Coordinated Universal Time (UTC)](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) as the main time reference, because it stays the same all year and does not observe Day Light Saving.
   - Rotate meeting times so the same region is not always stuck with late-night or early-morning meetings.
       - Some meetings can work best for North America and Europe
       - Other meetings can work best for Asia and the Pacific
@@ -21,7 +21,7 @@ longterm: ''
 moreInformation: ''
 examples: |-
   - [Australia – Standards Australia](https://www.standards.org.au/) promotes rotating meeting times across regions. For example, in cloud computing standards, they helped implement schedules that shift between Asia-Pacific, Europe, and the Americas. They also support asynchronous collaboration through shared documents.
-  - [International Organization for Standardization –  ISO/IEC](https://www.iso.org/home.html) uses rotating time slots and collaborative platforms to support global input. In developing AI ethics standards, meetings rotated to include all regions and were backed by recordings and online discussions.
+  - [International Organization for Standardization (ISO)](https://www.iso.org/home.html) uses rotating time slots and collaborative platforms to support global input. In developing AI ethics standards, meetings rotated to include all regions and were backed by recordings and online discussions.
 relatedActions:
   - 2ac90c88
   - 594d9a28
