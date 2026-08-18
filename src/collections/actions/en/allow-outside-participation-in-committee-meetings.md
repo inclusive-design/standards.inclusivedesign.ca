@@ -1,6 +1,6 @@
 ---
-translationKey: open-up-committee-meetings-and-allow-outside-participation
-title: Open up committee meetings and allow outside participation
+translationKey: allow-outside-participation-in-committee-meetings
+title: Allow outside participation in committee meetings
 uuid: 1bea465d
 draft: false
 quick: |-
