@@ -1,6 +1,6 @@
 ---
-translationKey: set-meeting-language-captions-correctly
-title: Set meeting language captions correctly
+translationKey: set-appropriate-meeting-language-captions
+title: Set appropriate meeting language captions
 uuid: ae3ed12e
 draft: false
 quick: |-
