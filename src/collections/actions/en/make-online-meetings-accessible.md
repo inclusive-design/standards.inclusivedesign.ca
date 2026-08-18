@@ -1,5 +1,5 @@
 ---
-translationKey: make-remote-virtual-online-meetings-accessible
+translationKey: make-online-meetings-accessible
 title: Make online meetings accessible
 uuid: 594d9a28
 draft: false
