@@ -15,8 +15,8 @@ quick: |-
 longterm: ''
 moreInformation: '- [Co-design cost considerations: Co-designing Inclusive Cities](https://cities.inclusivedesign.ca/resources/co-design-cost-considerations/) directly addresses monetary compensation and several types of financial support needed for inclusive co‑design events.'
 examples: |-
-  - [Germany – DIN](https://www.din.de/en) has launched a pilot stipend model allowing individuals without organizational backing especially d/Disabled and d/Deaf experts to receive financial support for participation and waived membership fees. They collaborate with disability networks to find participants with lived or community-based expertise.
-  - [Kenya – KEBS](https://www.kebs.org/) works with local disability organizations to provide honorariums, transport costs, and interpretation for d/Disabled participants. Support is often delivered through partner NGOs, with advance payments offered to avoid reimbursement delays. KEBS uses trusted community partners and localized funding methods to improve access in under-served areas.
+  - [Germany – German Institute for Standardization (DIN)](https://www.din.de/en) has launched a pilot stipend model allowing individuals without organizational backing especially d/Disabled and d/Deaf experts to receive financial support for participation and waived membership fees. They collaborate with disability networks to find participants with lived or community-based expertise.
+  - [Kenya – Kenya Bureau of Standards (KEBS)](https://www.kebs.org/) works with local disability organizations to provide honorariums, transport costs, and interpretation for d/Disabled participants. Support is often delivered through partner NGOs, with advance payments offered to avoid reimbursement delays. KEBS uses trusted community partners and localized funding methods to improve access in under-served areas.
 relatedActions:
   - ef3678a6
   - 0baa973a
