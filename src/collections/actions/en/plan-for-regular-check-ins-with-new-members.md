@@ -1,5 +1,5 @@
 ---
-translationKey: plan-for-regular-check-ins-with-new-members-and-members-with-lived-experiences-of-disability
+translationKey: plan-for-regular-check-ins-with-new-members
 title: Plan for regular check-ins with new members
 uuid: c0dd69a6
 draft: false
