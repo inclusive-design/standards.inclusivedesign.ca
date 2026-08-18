@@ -1,5 +1,5 @@
 ---
-translationKey: inaccessibility-of-digital-documents
+translationKey: inaccessible-digital-documents
 title: Inaccessible digital documents
 uuid: 0d377477
 draft: false
