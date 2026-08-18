@@ -1,6 +1,6 @@
 ---
-translationKey: use-inclusive-approaches-for-decision-making
-title: Use inclusive approaches when making decisions
+translationKey: support-inclusive-decision-making
+title: Support inclusive decision making
 uuid: ab01e1b3
 draft: false
 quick: |-
