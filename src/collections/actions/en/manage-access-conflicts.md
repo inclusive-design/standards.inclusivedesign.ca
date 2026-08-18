@@ -12,7 +12,7 @@ quick: |-
   - Give people more than one way to participate (talking, writing, visuals, etc.)
 longterm: ''
 moreInformation: |-
-  - [When Access Needs Collide: An Interactive Discussion on Navigating Conflicting Access Needs in the Classroom](https://docs.google.com/presentation/d/1rKEO0dMduAP1M6S4APSKoy4wV8gx_53afDxEkeP_qUU/edit?slide=id.g36b368a1593_4_0#slide=id.g36b368a1593_4_0) is about what to do when two access needs do not fit neatly together. Accessibility is not one-size-fits-all, so facilitators need to think carefully, test options, and look for solutions that support everyone involved.
+  - [When Access Needs Collide: An Interactive Discussion on Navigating Conflicting Access Needs in the Classroom](https://docs.google.com/presentation/d/1rKEO0dMduAP1M6S4APSKoy4wV8gx_53afDxEkeP_qUU/edit?usp=sharing) is about what to do when two access needs do not fit neatly together. Accessibility is not one-size-fits-all, so facilitators need to think carefully, test options, and look for solutions that support everyone involved.
   - [Community-Led Co-design Kit](https://community-led.design/) treats access needs as part of the whole co-design process. It encourages teams to discuss access needs early, build them into the project plan, set terms of engagement, and keep those agreements in a shared living document that can be updated as the project changes. It also emphasizes flexibility, sustainable pacing, decision-making, and conflict handling so people can participate in ways that work for them.
 examples: ''
 relatedActions:
