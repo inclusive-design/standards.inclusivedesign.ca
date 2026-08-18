@@ -1,6 +1,6 @@
 ---
-translationKey: help-members-manage-large-amounts-of-information
-title: Help with information management
+translationKey: provide-support-for-information-management
+title: Provide support for information management
 uuid: f252ffa1
 draft: false
 quick: |-
