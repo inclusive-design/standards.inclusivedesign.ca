@@ -13,9 +13,9 @@ longterm: |-
   - Let people share feedback without having to share their name or email publicly. For some people, being anonymous helps them feel safer and more comfortable being honest.
   - Make sure anonymous feedback is treated seriously and not dismissed.
 moreInformation: |-
-  - [BSI Standards Development Feedback Policy](https://www.bsigroup.com/siteassets/pdf/en/about-us/standards-development-feedback-policy.pdf) shows how a standards organization handles anonymous feedback in a formal policy setting.
-  - [Canada.ca - Descriptions of feedback processes](https://www.canada.ca/en/employment-social-development/programs/accessible-canada-regulations-guidance/feedback-process/receiving.html) explains how an organization could describe how it receives and handles feedback, including telling people how feedback will be used and who will see it.
-  - [PMI standards development case study](https://www.konveio.com/case-studies/how-pmi-streamlined-standards-development) is a practical example of anonymous commenting in standards development, showing how anonymous public feedback can be collected and managed at scale.
+  - [UK – British Standards Institution (BSI)'s Feedback Policy](https://www.bsigroup.com/siteassets/pdf/en/about-us/standards-development-feedback-policy.pdf) shows how a standards organization handles anonymous feedback in a formal policy setting.
+  - [The government of Canada's descriptions of a feedback process](https://www.canada.ca/en/employment-social-development/programs/accessible-canada-regulations-guidance/feedback-process/receiving.html) explains how an organization could receive and handle feedback, including telling people how feedback will be used and who will see it.
+  - [Project Management Institute (PMI)'s standards development case study](https://www.konveio.com/case-studies/how-pmi-streamlined-standards-development) is a practical example of anonymous commenting in standards development, showing how anonymous public feedback can be collected and managed at scale.
 examples: ''
 relatedActions:
   - 6c42fac1
