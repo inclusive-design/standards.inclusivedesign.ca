@@ -1,5 +1,5 @@
 ---
-translationKey: choose-accessible-meeting-spaces-for-in-person-meetings-1
+translationKey: choose-accessible-meeting-spaces
 title: Choose accessible meeting spaces
 uuid: e6970303
 draft: false
