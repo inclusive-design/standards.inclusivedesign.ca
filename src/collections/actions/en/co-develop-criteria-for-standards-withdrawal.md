@@ -1,6 +1,6 @@
 ---
-translationKey: co-develop-criteria-for-withdrawal
-title: Co-develop criteria for withdrawal
+translationKey: co-develop-criteria-for-standards-withdrawal
+title: Co-develop criteria for standards withdrawal
 uuid: 902c8c26
 draft: false
 quick: ''
