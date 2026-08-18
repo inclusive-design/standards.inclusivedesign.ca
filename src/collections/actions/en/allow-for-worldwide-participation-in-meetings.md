@@ -1,6 +1,6 @@
 ---
-translationKey: plan-meetings-so-people-worldwide-can-join
-title: Plan meetings so people worldwide can join
+translationKey: allow-for-worldwide-participation-in-meetings
+title: Allow for worldwide participation in meetings
 uuid: 94dc979d
 draft: false
 quick: |-
