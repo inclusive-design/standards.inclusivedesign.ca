@@ -9,7 +9,7 @@ quick: |-
 longterm: '- Offer orientation sessions or “office hours” where chairpersons or experienced members explain key documents and answer questions.'
 moreInformation: ''
 examples: |-
-  - [W3C](https://www.w3.org/guide/) provides working group participants with organized resources, guidance documents, and process information to help them understand their roles, responsibilities, and how to participate effectively.
+  - [The World Wide Web Consortium (W3C)](https://www.w3.org/guide/) provides working group participants with organized resources, guidance documents, and process information to help them understand their roles, responsibilities, and how to participate effectively.
   - [Bureau of Indian Standards](https://www.bis.gov.in/wp-content/uploads/2024/06/Handbook-for-TC-Members.pdf) technical committee handbook is a practical example of a technical committee system with guidance for members, which usually includes document handling, process discipline, and committee coordination.
 relatedActions:
   - c0dd69a6
