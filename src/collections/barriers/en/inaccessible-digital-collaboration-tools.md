@@ -1,5 +1,5 @@
 ---
-translationKey: inaccessibility-of-digital-collaboration-tools
+translationKey: inaccessible-digital-collaboration-tools
 title: Inaccessible digital collaboration tools
 uuid: 7751b43d
 draft: false
