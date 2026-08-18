@@ -1,6 +1,6 @@
 ---
-translationKey: allow-anonymous-feedback-opportunities
-title: Allow anonymous feedback opportunities
+translationKey: allow-for-anonymous-feedback
+title: Allow for anonymous feedback
 uuid: 4978cf93
 draft: false
 quick: |-
