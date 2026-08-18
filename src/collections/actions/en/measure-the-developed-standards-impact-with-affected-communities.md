@@ -12,7 +12,7 @@ longterm: |-
   - Use the findings to decide whether to keep, revise, or retire the standard.
 moreInformation: |-
   - [Measuring societal impact of standards](https://research.tue.nl/en/publications/measuring-societal-impact-of-standards-2/) is a resource that suggests standards can be assessed by looking at their wider effects on society, not only whether they were published successfully.
-  - [IASC](https://interagencystandingcommittee.org/sites/default/files/2025-01/IASC%20Standards%20for%20Collective%20Feedback%20Mechanisms.pdf) feedback mechanisms show a model for inclusive two-way feedback, where affected communities can share what is working and what is not.
+  - [The Inter-Agency Standing Committee (IASC)'s](https://interagencystandingcommittee.org/sites/default/files/2025-01/IASC%20Standards%20for%20Collective%20Feedback%20Mechanisms.pdf) feedback mechanisms show a model for inclusive two-way feedback, where affected communities can share what is working and what is not.
 examples: '- [UK – British Standards Institution (BSI)](https://www.bsigroup.com/en-CA/) conducts post-publication reviews with industry and community partners to assess how standards are used in practice. They also fund research into the social impact of standards, including their effects on disabled and marginalized groups, which informs future revisions.'
 relatedActions:
   - a1c9b89d
