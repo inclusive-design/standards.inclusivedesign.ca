@@ -1,6 +1,6 @@
 ---
 translationKey: recruit-across-disability-and-intersectional-identities
-title: Recruit across disability and intersectional identity
+title: Recruit across disabilities and intersectional identities
 uuid: 935f1dd7
 draft: false
 quick: |-
