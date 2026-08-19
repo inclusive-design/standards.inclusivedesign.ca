@@ -54,7 +54,7 @@ async function handle() {
 	for (const [key, value] of Object.entries(redirects)) {
 		const k = ensureLeadingSlash(key);
 		const v = ensureLeadingSlash(value);
-		lines.push(`GET ${deploymentUrl}${k}`, 'HTTP 301', `Location: ${deploymentUrl}${v}`, '', `GET ${deploymentUrl}${v}`, 'HTTP 200', ''); // Blank line between entries
+		lines.push(`GET ${deploymentUrl}${k}`, 'HTTP 301', `Location: ${v}`, '', `GET ${deploymentUrl}${v}`, 'HTTP 200', ''); // Blank line between entries
 	}
 
 	const output = lines.join('\n').trimEnd() + '\n';
