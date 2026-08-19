@@ -70,7 +70,7 @@
     {% endblock %}
     <div class="content">
     {% block content %}
-    <section>
+    <section class="{{ 'guidelines-visualmap' if translationKey == 'visualmap' }}">
       <div class="wrapper flow">
       {{ content | safe }}
       </div>
