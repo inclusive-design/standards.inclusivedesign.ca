@@ -11,7 +11,7 @@ quick: |-
       - Troubleshoot any challenges or barriers
 longterm: ''
 moreInformation: ''
-examples: '- [IEC Online Standards Development](https://www.iec.ch/online-standards-development) run monthly onboarding and training sessions for experts who are new to the platform, which helps new committee participants get started and ask questions.'
+examples: '- [International Electrotechnical Commission (IEC) Online Standards Development](https://www.iec.ch/online-standards-development) run monthly onboarding and training sessions for experts who are new to the platform, which helps new committee participants get started and ask questions.'
 relatedActions:
   - 9921aa47
   - 64506dee
