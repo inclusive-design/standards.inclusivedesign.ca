@@ -16,8 +16,8 @@ longterm: |-
   - Document what didn’t work and what you changed, so the process improves over time.
 moreInformation: "- The [International Association for Public Participation (IAP2)'s Spectrum of Public Participation](https://www.iap2canada.ca/Pillars)  helps organizations think about how much influence people have in decision-making, from simply receiving information to helping make decisions. It encourages organizations to choose the right level of participation for each project and to involve people in meaningful ways."
 examples: |-
-  - [International – ISO](https://www.iso.org/sites/ConsumersStandards/1_standards.html)’s guidance for national standards bodies emphasizes broad stakeholder participation, including government, industry, consumers, workers, and academia, and encourages developing countries and under‑represented groups to take part more actively.
-  - [Canada – Standards Council of Canada (SCC)](https://scc-ccn.ca/accreditation/accreditation-programs/standards-development-organizations)’s accreditation criteria for Standards Development Organizations require respect for “diverse interests” and a commitment to openness, transparency, and balanced participation in committees.
+  - [The International Organization for Standardization (ISO)'s](https://www.iso.org/sites/ConsumersStandards/1_standards.html) guidance for national standards bodies emphasizes broad stakeholder participation, including government, industry, consumers, workers, and academia, and encourages developing countries and under‑represented groups to take part more actively.
+  - [Canada – Standards Council of Canada (SCC)'s](https://scc-ccn.ca/accreditation/accreditation-programs/standards-development-organizations) accreditation criteria for Standards Development Organizations require respect for “diverse interests” and a commitment to openness, transparency, and balanced participation in committees.
 relatedActions:
   - 935f1dd7
   - 561239cd
