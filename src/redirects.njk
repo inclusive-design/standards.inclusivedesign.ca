@@ -1,0 +1,6 @@
+---
+permalink: _redirects
+---
+{% for old, new in redirects %}
+{{- old }} {{ new }} 301
+{% endfor -%}
