@@ -1,4 +1,4 @@
-/* eslint-disable import-x/no-unassigned-import */
+/* eslint-disable import-x/no-unassigned-import -- Allow the filter-container web component to be bundled with the related code. */
 import '@zachleat/filter-container';
 
 window.addEventListener('load', () => {
@@ -16,19 +16,19 @@ for (const checkbox of filterOptions) {
 
 const renderFilterTags = () => {
 	const filterTags = document.querySelector('#filter-tags');
-	filterTags.innerHTML = '';
+	filterTags.replaceChildren();
 	const checkedFilterOptions = filters.querySelectorAll('input[type=\'checkbox\']:checked');
+	const filterApplied = document.querySelector('#filter-applied');
 	if (checkedFilterOptions.length > 0) {
-		const filterApplied = document.querySelector('#filter-applied');
 		filterApplied.style.display = 'block';
 		for (const option of checkedFilterOptions) {
-			const checkbox = filters.querySelector(`label[for='${option.id}']`);
+			const checkbox = filters.querySelector(`label[for='${CSS.escape(option.id)}']`);
 			const filterTag = document.createElement('button');
 			filterTag.className = `filter-tag ${option.name}`;
 			filterTag.addEventListener('click', () => {
 				checkbox.click();
 			});
-			filterTag.innerHTML = checkbox.innerHTML;
+			filterTag.innerHTML = checkbox.getHTML();
 			filterTags.append(filterTag);
 		}
 
@@ -41,7 +41,6 @@ const renderFilterTags = () => {
 		});
 		filterTags.append(clearFiltersButton);
 	} else {
-		const filterApplied = document.querySelector('#filter-applied');
 		filterApplied.style.display = 'none';
 	}
 };
@@ -55,7 +54,7 @@ if (getSortOption) {
 }
 
 const sortResources = (sortBy) => {
-	const resourceContainer = document.querySelectorAll('.resources')[0];
+	const resourceContainer = document.querySelector('.resources');
 	if (resourceContainer) {
 		const resources = [...resourceContainer.children];
 		switch (sortBy) {
