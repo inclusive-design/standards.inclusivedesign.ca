@@ -1,6 +1,6 @@
 ---
 translationKey: recruit-across-disability-and-intersectional-identities
-title: Recruit across disability and intersectional identity
+title: Recruit across disabilities and intersectional identities
 uuid: 935f1dd7
 draft: false
 quick: |-
@@ -13,7 +13,7 @@ longterm: |-
   - Be proactive - build long-term relationships with communities historically excluded from standards development work.
   - Focus on recruiting people who are underrepresented in your field including D/deaf and D/disabled people. One strategy is to regularly ask “Who else are we missing?”
 moreInformation: |-
-  - [Finding Participants: Community-Led Co-design Kit](https://main--co-design.netlify.app/resources/finding-participants/) discusses finding people through community groups and local leaders, not just existing contacts.
+  - [Finding Participants: Community-Led Co-design Kit](https://community-led.design/resources/finding-participants/) discusses finding people through community groups and local leaders, not just existing contacts.
   - [WHO framework for meaningful engagement](https://goeg.at/sites/goeg.at/files/inline-files/Framework%20PPT_GOG%20Colloqium_Final.pdf) supports the principle that lived experience is valuable in its own right and should be treated as expertise, not as a substitute for technical credentials.
   - [Establishing a  Lived Experience Advisory Panel](https://csgjusticecenter.org/wp-content/uploads/2024/05/Establishing-a-Lived-Experience-Advisory-Panel_508.pdf) supports the use of structured recruitment that intentionally brings in people with relevant lived experience, rather than organizational insiders.
 examples: |-
