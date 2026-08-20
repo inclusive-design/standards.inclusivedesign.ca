@@ -19,13 +19,13 @@ export default {
 				return false;
 			}
 
-			let parent = false;
+			let isParent = false;
 
 			if (data.parent) {
-				parent = data.parent === 'browse' ? 'guidelines' : data.parent;
+				isParent = data.parent === 'browse' ? 'guidelines' : data.parent;
 			}
 
-			data.slug = parent ? `${__(parent, {}, data)}/${data.page.fileSlug}` : data.page.fileSlug;
+			data.slug = isParent ? `${__(isParent, {}, data)}/${data.page.fileSlug}` : data.page.fileSlug;
 			return generatePermalink(data, 'pages');
 		},
 	},
