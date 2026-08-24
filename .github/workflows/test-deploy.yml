@@ -1,0 +1,33 @@
+name: Test deploy
+
+on:
+  push:
+    branches: [dev]
+  pull_request:
+    branches: [dev]
+
+jobs:
+  test-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - uses: WalshyDev/cf-pages-await@79be30bf0110110b5b8d42129b279328096b5391 # v1.4.0
+        id: cf-pages
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          accountId: 'ac36c95f6ffa664eda33df48aa43c298'
+          project: 'inclusive-standards'
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          commitHash: ${{ steps.push-changes.outputs.commit-hash }}
+
+      - run: node bin/hurl.js ${{ steps.cf-pages.outputs.url }}
+
+      - run: |
+          curl --location --remote-name https://github.com/Orange-OpenSource/hurl/releases/download/4.0.0/hurl_4.0.0_amd64.deb
+          sudo dpkg -i hurl_4.0.0_amd64.deb
+          hurl --test redirects.hurl

@@ -1,7 +1,7 @@
 const menuButton = document.querySelector('#navigation-toggle');
 menuButton.addEventListener('click', () => {
-	const ariaExpanded = menuButton.ariaExpanded === 'false';
-	menuButton.ariaExpanded = ariaExpanded;
+	const isAriaExpanded = menuButton.ariaExpanded === 'false';
+	menuButton.ariaExpanded = isAriaExpanded;
 });
 
 /**
@@ -49,7 +49,7 @@ documentReady(() => {
 		}
 
 		if (event.target.getAttribute('role') === 'doc-noteref') {
-			const backlink = document.querySelector(`[role="doc-backlink"][href$="#${event.target.id}"]`);
+			const backlink = document.querySelector(`[role="doc-backlink"][href$="#${CSS.escape(event.target.id)}"]`);
 			backlink.setAttribute('aria-current', 'true');
 		}
 	});
@@ -74,8 +74,8 @@ documentReady(() => {
 document.addEventListener('click', (event) => {
 	if (event.target.closest('.navigation__button')) {
 		const button = event.target.closest('.navigation__button');
-		const ariaExpanded = button.getAttribute('aria-expanded') === 'true' || false;
-		button.setAttribute('aria-expanded', !ariaExpanded);
+		const isAriaExpanded = (button.getAttribute('aria-expanded') === 'true');
+		button.setAttribute('aria-expanded', !isAriaExpanded);
 	}
 
 	if (!event.target.closest('[data-dropdown]')) {
@@ -87,11 +87,13 @@ document.addEventListener('click', (event) => {
 });
 
 document.addEventListener('keyup', (event) => {
-	if (event.key === 'Escape') {
-		const buttons = document.querySelectorAll('.navigation__button');
-		for (const button of buttons) {
-			button.setAttribute('aria-expanded', false);
-		}
+	if (event.key !== 'Escape') {
+		return;
+	}
+
+	const buttons = document.querySelectorAll('.navigation__button');
+	for (const button of buttons) {
+		button.setAttribute('aria-expanded', false);
 	}
 });
 

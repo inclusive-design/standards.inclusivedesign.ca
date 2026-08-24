@@ -1,5 +1,22 @@
 # Changelog
 
+## [2026.8.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.7.1...v2026.8.0) (2026-08-20)
+
+
+### Features
+
+* add redirects file and CMS UI ([#582](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/582)) ([2bb6eef](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/2bb6eef18e2573f6ceabc99f9dd1d0fc8942ab2f))
+
+
+### Bug Fixes
+
+* **deps:** update dependency markdown-it to v15 ([#578](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/578)) ([d1f5a36](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/d1f5a362044b51f3a2e7119556a4894c31c30f1b))
+
+
+### Miscellaneous Chores
+
+* **release:** bump version ([8c1bd3a](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/8c1bd3ae148b36e6f0e2e085ec5ae491f82de36b))
+
 ## [2026.7.1](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.7.0...v2026.7.1) (2026-07-23)
 
 

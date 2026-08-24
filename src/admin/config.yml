@@ -704,3 +704,16 @@ singletons:
           name: code
           widget: string
           i18n: duplicate
+  - label: Redirects
+    name: redirects
+    file: src/_data/redirects.json
+    icon: call_split
+    editor:
+      preview: false
+    fields:
+      - label: Redirects
+        name: redirects
+        widget: keyvalue
+        key_label: Source
+        value_label: Destination
+        root: true

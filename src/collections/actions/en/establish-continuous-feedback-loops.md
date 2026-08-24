@@ -13,7 +13,7 @@ longterm: |-
   - Regularly review and act on feedback to improve standards over time.
   - Share updates with communities on what changes were made because of ongoing feedback.
   - Ensure feedback loops are inclusive, so all voices, especially from underrepresented groups, can be heard.
-moreInformation: '- [W3C](https://www.w3.org/policies/process/?utm_source=chatgpt.com) supports continuous feedback by allowing community members to raise issues and suggestions throughout the lifecycle of standards. Public discussions and issue tracking help ensure concerns are documented, reviewed, and addressed transparently.'
+moreInformation: '- [The World Wide Web Consortium (W3C)](https://www.w3.org/policies/process/) supports continuous feedback by allowing community members to raise issues and suggestions throughout the lifecycle of standards. Public discussions and issue tracking help ensure concerns are documented, reviewed, and addressed transparently.'
 examples: |-
   - [Australia – Standards Australia](https://www.standards.org.au/standards-development/developing-standards/process) includes built-in review cycles that actively seek feedback from users, not just committee members. They’ve piloted community surveys and interviews to understand real-world adoption and challenges, particularly in regional and underserved areas.
   - [Kenya – Kenya Bureau of Standards (KEBS)](https://www.kebs.org/) collaborates with universities and local organizations to monitor implementation in key sectors. Field studies and stakeholder feedback are used to track outcomes, ensuring that standards reflect practical realities and community needs.

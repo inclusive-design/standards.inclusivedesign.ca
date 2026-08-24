@@ -21,9 +21,9 @@ moreInformation: |-
   - [Digital Accessibility Toolkit](https://a11y.canada.ca/en/alternative-text-and-long-description-best-practices/index.html) has best practices for writing alt text.
   - [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) can help you choose text and background colors that work.
   - [The A11y Project](https://www.a11yproject.com/) is a community-driven accessibility resource for web accessibility. It gives checklists, tips, articles, and links to help people build more accessible digital experiences. 
-  - [W3C Web Accessibility Initiative (WAI)](https://www.w3.org/WAI/) develops web accessibility standards. It contains accessibility standards, guidance, training materials, and implementation resources to help people make websites, apps, and other digital content accessible.
+  - [World Wide Web Consortium (W3C) Web Accessibility Initiative (WAI)](https://www.w3.org/WAI/) develops web accessibility standards. It contains accessibility standards, guidance, training materials, and implementation resources to help people make websites, apps, and other digital content accessible.
 examples: |-
-  - [USA  – American National Standards Institute (ANSI)](https://www.ansi.org/about/introduction#:~:text=The%20American%20National%20Standards%20Institute,standards%20and%20conformity%20assessment%20system.) uses Section 508 and ADA-related guidance, and many organizations follow WCAG as the practical web accessibility standard.
+  - [USA  – American National Standards Institute (ANSI)](https://www.ansi.org/about/introduction) uses Section 508 and ADA-related guidance, and many organizations follow WCAG as the practical web accessibility standard.
   - [Canada  – Standards Council of Canada ](https://scc-ccn.ca/)uses the Accessible Canada Act and provincial accessibility laws like Ontario’s AODA.
 relatedActions:
   - f3ca9e8e
