@@ -22,6 +22,7 @@ relatedActions:
 barriers:
   - a96035dc
 processes:
+  - af752d5c
   - b612d304
   - d2d08ae4
   - dc3b71a0
