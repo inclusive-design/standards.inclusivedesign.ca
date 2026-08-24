@@ -53,7 +53,7 @@ Each action page includes:
 ### Browse by barriers:
 This option takes you to the Barriers Library, where you can see all the barriers in the guidelines. These are some of the most common barriers experienced by D/disabled and D/deaf people in the standards development process. The filters on the left are based on the 5 core stages and 18 topics. You can choose a stage or topic and then select a specific barrier. Each barrier page explains why this barrier is a problem and links to relevant actions that can help address it.
 
-### Find what you need:
+### Search:
 This is a simple website wide search bar to find action and barrier cards. For example, try searching for ‘meeting’ or ‘hybrid’ to find suggestions for improving your hybrid meetings.
 
 </div>
