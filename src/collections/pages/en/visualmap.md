@@ -19,22 +19,9 @@ outro: ''
 
 ![visual site map shows how users can move through the Inclusive Standards Guidelines website to find practical, accessible guidance for standards development.](/assets/uploads/visual-sitemap.svg)
 
-<div>
-
 ## Overview of the visual site map
 
 This visual site map shows how you can move through the Guidelines for Accessibility and Inclusion in Standards Development website. There are four main ways to find information:
-
-- Explore the standards development process
-- Browse by actions
-- Browse by barriers
-- Website-wide search
-
-</div>
-
-<div>
-
-## Main navigation ways
 
 ### Explore the standards development process:
 This option groups the guidelines into 5 core stages and 18 topics. Each stage represents an important part of the standards development process. Each topic highlights the practical actions that make the process more accessible and inclusive.
@@ -55,5 +42,3 @@ This option takes you to the Barriers Library, where you can see all the barrier
 
 ### Search:
 This is a simple website wide search bar to find action and barrier cards. For example, try searching for ‘meeting’ or ‘hybrid’ to find suggestions for improving your hybrid meetings.
-
-</div>
