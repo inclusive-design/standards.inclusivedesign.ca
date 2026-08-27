@@ -16,6 +16,7 @@ moreInformation: |-
   - [Create and verify PDF accessibility (Acrobat Pro)](https://helpx.adobe.com/ca/acrobat/using/create-verify-pdf-accessibility.html) talks about how to use Acrobat Pro to make a PDF document accessible. 
   - [Guidelines for creating accessible documents (Accessibility Standards Canada)](https://accessible.canada.ca/guidelines-creating-accessible-documents) help prevent the most common accessibility barriers. This includes barriers faced by people who use screen readers or other assistive tools.
   - [Harvard Digital Accessibility Services - Accessible Documents](https://accessibility.huit.harvard.edu/accessible-documents) has detailed information on headings, alt text, contrast, document structure, and making Word, PDF and other types of documents accessible.
+  - [WebAIM: Writing Clearly and Simply](https://webaim.org/techniques/writing/) focuses on plain language, short sentences, clear structure, and avoiding jargon where possible.
   - [AbilityNet - Creating accessible documents](https://abilitynet.org.uk/factsheets/creating-accessible-documents-0) is useful for plain-language document design, tables, lists, images, and readable formatting.
 examples: |-
   - [UK – British Standards Institution (BSI)](https://www.bsigroup.com/en-CA/) uses accessible PDFs with proper headings, tags, and alternative text, and provides plain language summaries. They also offer multilingual versions of key documents for non-native speakers.
