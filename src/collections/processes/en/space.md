@@ -15,7 +15,7 @@ Inclusive physical spaces are safe, accessible, and comfortable for D/deaf and D
 
 ## Why is this important?
 
-Choosing the right physical space makes it easier to provide accessibility accommodations in advance and creates a more comfortable environment for everyone. When meeting spaces are accessible, D/deaf and D/disabled participants can participate more fully and independently.
+Choosing the right physical space makes it easier to provide accessibility accommodations in advance and creates a more comfortable environment for everyone. When meeting spaces are accessible, D/deaf and D/disabled people can participate more fully and independently.
 
 ## Actions
 
