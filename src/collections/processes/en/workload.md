@@ -11,11 +11,11 @@ stage: 5871d856
 
 ## Summary
 
-In the standards development process, workload is more than just the amount of work. It includes the time, effort, and mental energy needed to participate throughout the process. Realistic expectations, clearly defined tasks, and flexible timelines help prevent people from becoming overwhelmed. This makes it easier for D/deaf and D/disabled participants to contribute meaningfully without burnout.
+Workload is more than the amount of work. It includes the time, effort, and mental energy needed to participate throughout the process. Realistic expectations, clearly defined tasks, and flexible timelines help prevent people from becoming overwhelmed. This makes it easier for D/deaf and D/disabled participants to contribute meaningfully without burning out.
 
 ## Why is this important?
 
-Workload is important because people are more likely to participate and stay involved when expectations are manageable. Heavy workloads, tight deadlines, and large amounts of information can be overwhelming. Flexible timelines and understanding that some people may need time away due to disability, chronic illness, symptom flare-ups, or medical appointments help make participation more inclusive.
+Heavy workloads, tight deadlines, and large amounts of information can be overwhelming. Additionally, some people may need time away due to disability, chronic illness, symptom flare-ups, or medical appointments. Flexible timelines and manageable expectations create an environment where people are more likely to participate and stay involved.
 
 ## Actions
 
