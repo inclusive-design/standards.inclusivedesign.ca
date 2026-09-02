@@ -62,13 +62,6 @@ documentReady(() => {
 			link.rel = 'external';
 		}
 	}
-
-	if (document.location.pathname === '/guidelines/visualmap/') {
-		observer.observe(document.body, {
-			attributes: true,
-			attributeFilter: ['class'],
-		});
-	}
 });
 
 document.addEventListener('click', (event) => {
@@ -116,16 +109,6 @@ const menuItems = document.querySelectorAll('[data-dropdown] a');
 for (const menuItem of menuItems) {
 	menuItem.addEventListener('blur', (event) => handleDisclosureBlur(event));
 }
-
-const observer = new MutationObserver(() => {
-	const themeName = document.querySelector('body').className;
-	const visualmap = document.querySelector('img');
-	if (themeName.includes('fl-theme-wb') || themeName.includes('fl-theme-yb') || themeName.includes('fl-theme-gd') || themeName.includes('fl-theme-lgdg')) {
-		visualmap.setAttribute('src', '/assets/uploads/visual-sitemap-bw.svg');
-	} else {
-		visualmap.setAttribute('src', '/assets/uploads/visual-sitemap.svg');
-	}
-});
 
 /**
  * Based on code by Chris Ferdinandi, released under the MIT license.

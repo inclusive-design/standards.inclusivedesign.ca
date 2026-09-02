@@ -584,5 +584,28 @@
 			font-size: var(--step-2);
 			margin-block-end: 0.5rem;
 		}
+
+		p:has(img):first-of-type {
+			display: block;
+		}
+
+		p:has(img):nth-of-type(2) {
+			display: none;
+		}
+	}
+
+	.fl-theme-wb,
+	.fl-theme-yb,
+	.fl-theme-gd,
+	.fl-theme-lgdg {
+		.guidelines-visualmap .wrapper {
+			p:has(img):first-of-type  {
+				display: none;
+			}
+
+			p:has(img):nth-of-type(2) {
+				display: block;
+			}
+		}
 	}
 }

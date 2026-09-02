@@ -19,6 +19,8 @@ outro: ''
 
 ![visual site map shows how users can move through the Inclusive Standards Guidelines website to find practical, accessible guidance for standards development.](/assets/uploads/visual-sitemap.svg)
 
+![visual site map shows how users can move through the Inclusive Standards Guidelines website to find practical, accessible guidance for standards development.](/assets/uploads/visual-sitemap-bw.svg)
+
 ## Overview of the visual site map
 
 This visual site map shows how you can move through the Guidelines for Accessibility and Inclusion in Standards Development website. There are four main ways to find information:
