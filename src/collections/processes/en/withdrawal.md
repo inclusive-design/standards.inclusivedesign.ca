@@ -3,7 +3,7 @@ translationKey: withdrawal
 title: Withdrawal of standards
 shortTitle: Withdrawal
 order: 18
-description: Explain clearly what the withdrawal means. Share replacement options for those standards, give transition help, and allow time to adjust.
+description: Explain clearly why the standard is being withdrawn and provide opportunities for feedback. Provide transition help for people affected by the standard, and allow for adjustment time.
 uuid: 153c2d64
 draft: false
 stage: 8820ca59

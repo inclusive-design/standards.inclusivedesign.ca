@@ -6,7 +6,7 @@ order: 2
 description: Share clear, accessible information about standards, how they are developed, and how to get involved in standards development.
 uuid: '13269757'
 draft: false
-stage: 2ac90c88
+stage: b394d47d
 ---
 
 ## Summary

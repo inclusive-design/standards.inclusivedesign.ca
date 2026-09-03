@@ -3,7 +3,7 @@ translationKey: facilitating
 title: Facilitating
 shortTitle: ''
 order: 8
-description: Run meetings so everyone can join in. Use clear language, flexible ways to contribute, and access help.
+description: Run meetings so everyone can join in. Address accessibility needs, manage accessibility conflicts, use clear language and provide flexible ways to contribute.
 uuid: 1130eb69
 draft: false
 stage: 5871d856
@@ -11,11 +11,11 @@ stage: 5871d856
 
 ## Summary
 
-Inclusive facilitation requires running meetings in ways that support everyone to take part. This includes clear instructions, shared turn-taking, different ways to speak or contribute, and facilitators who actively support access and inclusion.
+Inclusive facilitation requires running meetings so that everyone can participate and contribute. This includes clear instructions, shared turn-taking, different ways to speak or contribute, and facilitators who know how to provide accessibility accommodations, manage accessibility conflicts, support respectful discussions, and create a welcoming environment where everyone feels comfortable sharing their ideas.
 
 ## Why is this important?
 
-Facilitation is important because facilitators help create a safe space where everyone can take part and feel included. They need to recognize and challenge assumptions or biases about disability that can affect how people are treated or included. Facilitators should also know how to provide accessibility accommodations, support respectful discussions, offer different ways for people to communicate, and create a welcoming environment where everyone feels comfortable sharing their ideas.
+Having a diverse technical committee is only useful if you are able to get contributions from everyone involved. Supporting access needs and cultural differences in meetings results in the creation of standards that consider and support a wider diversity of people.
 
 ## Actions
 

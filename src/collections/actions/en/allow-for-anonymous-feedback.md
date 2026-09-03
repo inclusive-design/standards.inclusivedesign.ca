@@ -1,0 +1,29 @@
+---
+translationKey: allow-for-anonymous-feedback
+title: Allow for anonymous feedback
+uuid: 4978cf93
+draft: false
+quick: |-
+  - Make it clear that anonymous feedback is allowed and welcomed.
+  - Don’t ask for extra personal details unless they are truly needed.
+  - If you use an online form, don’t require people to log in.
+  - Explain what information will be kept private, and what might be shared.
+  - Tell people how the feedback will be used, and who will see it.
+longterm: |-
+  - Let people share feedback without having to share their name or email publicly. For some people, being anonymous helps them feel safer and more comfortable being honest.
+  - Make sure anonymous feedback is treated seriously and not dismissed.
+moreInformation: |-
+  - [UK – British Standards Institution (BSI)'s Feedback Policy](https://www.bsigroup.com/siteassets/pdf/en/about-us/standards-development-feedback-policy.pdf) shows how a standards organization handles anonymous feedback in a formal policy setting.
+  - [The government of Canada's descriptions of a feedback process](https://www.canada.ca/en/employment-social-development/programs/accessible-canada-regulations-guidance/feedback-process/receiving.html) explains how an organization could receive and handle feedback, including telling people how feedback will be used and who will see it.
+  - [Project Management Institute (PMI)'s standards development case study](https://www.konveio.com/case-studies/how-pmi-streamlined-standards-development) is a practical example of anonymous commenting in standards development, showing how anonymous public feedback can be collected and managed at scale.
+examples: ''
+relatedActions:
+  - 6c42fac1
+  - a1c9b89d
+  - 1bea465d
+barriers:
+  - a9946f8c
+  - c6c86787
+processes:
+  - 8e9bcf3a
+---

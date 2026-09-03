@@ -3,7 +3,7 @@
 	"description": "Website for IDRC standards development work.",
 	"main": "eleventy.config.js",
 	"type": "module",
-	"version": "2026.7.1",
+	"version": "2026.8.0",
 	"scripts": {
 		"build": "npm-run-all -l clean -s build:eleventy",
 		"build:eleventy": "eleventy",
@@ -45,14 +45,14 @@
 		"i18n-js": "^4.5.3",
 		"infusion": "^4.8.0",
 		"lodash": "^4.18.1",
-		"markdown-it": "^14.1.1",
+		"markdown-it": "^15.0.0",
 		"rimraf": "^6.0",
 		"rosetta": "^1.1.0"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^21.0.0",
 		"@commitlint/config-conventional": "^21.0.0",
-		"@inclusive-design/eslint-config": "^0.5.0",
+		"@inclusive-design/eslint-config": "^1.0.0",
 		"@inclusive-design/markdownlint-config": "^0.1.0",
 		"@inclusive-design/stylelint-config": "^0.1.0",
 		"cross-env": "^10.0.0",

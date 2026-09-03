@@ -11,7 +11,7 @@ quick: |-
   - Explain workflows, working culture and norms, and processes for making decisions
   - Identify any initial access needs and come up with a plan to meet them
 longterm: ''
-moreInformation: '- [W3C](https://www.w3.org/guide/) supports new participants through orientation resources that explain working group goals, roles, processes, and collaboration practices. Chairs help establish effective ways of working and support inclusive participation.'
+moreInformation: '- [The World Wide Web Consortium (W3C)](https://www.w3.org/wiki/OnBoarding) is gathering ideas for on-boarding in their communities.'
 examples: '- [CEN and CENELEC](https://www.cencenelec.eu/about-cen/) usually begin new work with onboarding meetings before committee work starts. These meetings help new members understand the project, key documents, timelines, and how the committee will work together. They also use project documentation, training resources, and collaboration tools to support members during the process. Members can review existing standards and technical documents, and virtual meetings help people who cannot attend in person take part more easily. Accessibility is also part of the process. Committees are expected to make meetings and venues accessible and provide the resources members need to participate fully.'
 relatedActions:
   - 64506dee

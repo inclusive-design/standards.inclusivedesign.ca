@@ -14,8 +14,11 @@ quick: |-
 longterm: |-
   - Provide documents, materials and technologies based on roles and responsibilities
   - Provide information in flexible, small, digestible parts by using multiple shorter orientation sessions instead of one long session. This will give new members time to process the information and ask questions
-moreInformation: '- [W3C ](https://www.w3.org/policies/process/?utm_source=chatgpt.com)encourages chairs to actively support participants throughout the standards development process by helping new members understand procedures, facilitating participation, and addressing challenges as they arise.'
-examples: '- [ISO onboarding / awareness material](https://www.unescap.org/sites/default/files/Setting%20the%20agenda%20on%20NTMs_by%20ISO.pdf) is an ISO presentation on onboarding and standards development mentions awareness materials such as brochures, videos, and articles, plus guidance for standards writers.'
+moreInformation: ''
+examples: |-
+  - [Canada – Digital Governance Standards Institute (DGSI)](https://dgc-cgn.org/digital-standards/) has an orientation session for all new committee members.
+  - [The World Wide Web Consortium (W3C)](https://www.w3.org/policies/process/) encourages chairpersons to actively support participants throughout the standards development process by helping new members understand procedures, facilitating participation, and addressing challenges as they arise.
+  - [Norway – Standards Norway](https://standard.no/en/) offers an on-boarding toolkit for first-time participants, including plain language guides, videos, orientations, and dedicated staff support. They also host webinars for newcomers from disability and civil society sectors.
 relatedActions:
   - 7f21a35b
   - c0dd69a6

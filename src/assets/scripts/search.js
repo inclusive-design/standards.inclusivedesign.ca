@@ -1,3 +1,5 @@
+/* eslint-disable unicorn/no-global-object-property-assignment -- Allow adding search to the global object. */
+
 import { I18n } from 'i18n-js';
 
 const clamp = (value, min, max) => Math.max(Math.min(value, max), min);
@@ -28,7 +30,7 @@ const constructResults = (
 	return `<ol class="search-results" role="list">${searchResults}</ol>`;
 };
 
-const constructHREF = (baseURL, parameters = {}, withOrigin = true) => {
+const constructHREF = (baseURL, parameters = {}, hasOrigin = true) => {
 	const url = new URL(baseURL);
 	for (const parameter in parameters) {
 		if (Object.hasOwn(parameters, parameter)) {
@@ -36,7 +38,7 @@ const constructHREF = (baseURL, parameters = {}, withOrigin = true) => {
 		}
 	}
 
-	return withOrigin ? url.href : url.href.slice(url.origin.length);
+	return hasOrigin ? url.href : url.href.slice(url.origin.length);
 };
 
 const constructPageLinks = (pages, page = 1, svgs, i18n) => {

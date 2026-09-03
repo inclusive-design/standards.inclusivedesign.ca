@@ -7,4 +7,4 @@ order: 5
 processes: []
 ---
 
-This stage focuses on collecting feedback from the wider community in inclusive and accessible ways. It includes sharing drafts clearly, offering multiple ways to give feedback, allowing enough time to respond, and making sure D/deaf and D/disabled people can meaningfully influence changes to the standard. This stage focuses on sharing the final standard in accessible ways and keeping it up to date over time. It includes publishing in accessible formats, clearly explaining changes, supporting ongoing feedback, and making sure D/deaf and D/disabled people remain involved in updates and maintenance of the standard.
+This stage focuses on accessible strategies for collecting feedback from the wider community and sharing final standards. It includes clearly explaining changes, offering multiple ways to give feedback, allowing enough time to respond, publishing in accessible formats, and making sure D/deaf and D/disabled people remain involved in the updating and maintenance of standards.

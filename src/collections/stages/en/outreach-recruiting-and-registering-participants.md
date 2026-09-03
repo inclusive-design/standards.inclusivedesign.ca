@@ -7,4 +7,4 @@ order: 2
 processes: []
 ---
 
-Inclusive recruitment and registration require organizational commitment, diverse and accessible outreach, transparent processes, and adequate support. By embedding equity into policies, engaging diverse disability and community groups, ensuring accessible systems, and providing accommodations and financial support, organizations can remove barriers and broaden participation in standards development.
+This stage focuses on clear and accessible communication with diverse communities, and engaging D/disabled and D/deaf people in standards development.
