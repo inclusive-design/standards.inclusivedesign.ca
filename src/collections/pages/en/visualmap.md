@@ -6,7 +6,7 @@ draft: false
 lang: en
 order: 5
 parent: guidelines
-layout: layouts/base
+layout: layouts/guidelines-visualmap
 excerpt: ''
 previewImage: ''
 previewImageAlt: ''
