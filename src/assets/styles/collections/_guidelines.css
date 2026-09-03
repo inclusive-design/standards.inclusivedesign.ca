@@ -343,8 +343,7 @@
 }
 
 .guidelines-visualmap .wrapper {
-	p:has(img[src$="visual-sitemap.svg"]),
-	p:has(img[src$="visual-sitemap-bw.svg"]) {
+	p:has(img[src*="visual-sitemap"]) {
 		max-width: 100%;
 	}
 
