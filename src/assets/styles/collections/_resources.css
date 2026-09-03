@@ -19,6 +19,11 @@
     margin-block-start: 1em;
 }
 
+.resources .card svg {
+    fill: none;
+    stroke: currentcolor;
+}
+
 .resource .banner {
     background-color: var(--fl-bgColor, var(--color-indigo-200));
     color: var(--fl-fgColor, var(--color-black));
