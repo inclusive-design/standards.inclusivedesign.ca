@@ -357,11 +357,11 @@
 		margin-block-end: 0.5rem;
 	}
 
-	img[src$="visual-sitemap.svg"] {
+	p:has(img[src$="visual-sitemap.svg"]) {
 		display: block;
 	}
 
-	img[src$="visual-sitemap-bw.svg"] {
+	p:has(img[src$="visual-sitemap-bw.svg"]) {
 		display: none;
 	}
 }
@@ -371,11 +371,11 @@
 .fl-theme-gd,
 .fl-theme-lgdg {
 	.guidelines-visualmap .wrapper {
-		img[src$="visual-sitemap.svg"] {
+		p:has(img[src$="visual-sitemap.svg"]) {
 			display: none;
 		}
 
-		img[src$="visual-sitemap-bw.svg"] {
+		p:has(img[src$="visual-sitemap-bw.svg"]) {
 			display: block;
 		}
 	}
