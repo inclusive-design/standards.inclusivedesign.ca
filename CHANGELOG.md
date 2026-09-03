@@ -1,5 +1,22 @@
 # Changelog
 
+## [2026.9.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.8.0...v2026.9.0) (2026-09-03)
+
+
+### Features
+
+* add visual site map (resolves [#559](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/559)) ([#563](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/563)) ([c34de02](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/c34de02a35e5524c6d00d8a4771150fef9218ad7))
+
+
+### Bug Fixes
+
+* resources page card icons ([#577](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/577)) ([3f0dc6c](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/3f0dc6c804dcd97c2165b1ffaf38b06a27c3a152))
+
+
+### Miscellaneous Chores
+
+* **release:** bump version ([bafdade](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/bafdadeaa39eb575b12acc415e7fa6a0a5aea828))
+
 ## [2026.8.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.7.1...v2026.8.0) (2026-08-20)
 
 
