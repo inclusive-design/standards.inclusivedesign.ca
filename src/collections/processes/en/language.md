@@ -11,11 +11,11 @@ stage: 5871d856
 
 ## Summary
 
-Language used in meetings and meeting materials is clear, respectful, and easy to understand. It avoids unnecessary jargon, explains key terms, and reflects the language that D/deaf and D/disabled people use to describe themselves and their experiences.
+Language used throughout the standards development process is clear, respectful, and easy to understand. It avoids unnecessary jargon, explains key terms, and reflects the language that D/deaf and D/disabled people use to describe themselves and their experiences.
 
 ## Why is this important?
 
-Language shapes how people experience and participate in the standards development process. Respectful communication helps people feel recognized and included, while avoiding harmful or outdated terms helps prevent stereotypes and barriers. Clear language also supports effective interpretation, captioning, and shared understanding among all participants.
+Understanding the materials and conversations is vital for people to contribute to the standards development process. Using language that is clear and respectful and choosing terms that people use themselves, helps people feel included. Clear language also supports effective interpretation, captioning, and shared understanding among all participants.
 
 ## Actions
 
