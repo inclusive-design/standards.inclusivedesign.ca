@@ -1,12 +1,12 @@
 ---
-translationKey: site-map
-title: Site Map
+translationKey: contentdirectory
+title: Content Directory
 shortTitle: ''
 draft: false
 lang: en
-order: 1
-parent: contentdirectory
-layout: layouts/guidelines-sitemap
+order: 4
+parent: guidelines
+layout: layouts/base
 excerpt: ''
 previewImage: ''
 previewImageAlt: ''

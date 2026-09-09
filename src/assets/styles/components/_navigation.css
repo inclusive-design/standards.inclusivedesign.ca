@@ -221,7 +221,7 @@ footer a[data-brand] {
     }
 }
 
-@media (width >= 46.625rem) {
+@media (width >= 64rem) {
     .navigation {
         height: 5.5rem;
         padding-block: 0;
