@@ -1,7 +1,7 @@
 ---
 translationKey: visualmap
-title: Visual site map
-shortTitle: Visual site map
+title: Visual Site Map
+shortTitle: ''
 draft: false
 lang: en
 order: 5
