@@ -11,7 +11,7 @@ stage: 8820ca59
 
 ## Summary
 
-Publishing of standards involve sharing the standard in accessible formats that are easy to find and use. This includes clear language, multiple formats, and support so D/deaf and D/disabled people can access and understand the standard.
+Publishing standards involves sharing standards in accessible formats that are easy to find and use. This includes clear language, multiple formats, and support so D/deaf and D/disabled people can access and understand the standard.
 
 ## Why is this important?
 
