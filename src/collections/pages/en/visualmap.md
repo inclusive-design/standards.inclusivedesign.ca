@@ -47,4 +47,4 @@ This option takes you to the Barriers Library, where you can see all the barrier
 
 ### Search:
 
-This is a simple website wide search bar to find action and barrier cards. For example, try searching for ‘meeting’ or ‘hybrid’ to find suggestions for improving your hybrid meetings.
+This is a simple search to find action and barrier cards. For example, try searching for ‘meeting’ or ‘hybrid’ to find suggestions for improving your hybrid meetings.
