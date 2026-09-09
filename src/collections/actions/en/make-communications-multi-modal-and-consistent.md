@@ -27,6 +27,7 @@ barriers:
 processes:
   - '13269757'
   - d2d08ae4
+  - 981d9115
 more-information: |-
   - [**WebAIM: Writing Clearly and Simply**](https://webaim.org/techniques/writing/)
   - [**Best practices for accessible virtual events**](https://a11y.canada.ca/en/best-practices-for-accessible-virtual-events/)
