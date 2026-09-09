@@ -11,7 +11,7 @@ stage: 8820ca59
 
 ## Summary
 
-Feedback is collected in different ways. The options are accessible, simple to use, and allow enough time so D/deaf and D/disabled people can meaningfully respond.
+Feedback is collected in different ways that are accessible, simple to use, and allow enough time so D/deaf and D/disabled people can meaningfully respond.
 
 ## Why is this important?
 
