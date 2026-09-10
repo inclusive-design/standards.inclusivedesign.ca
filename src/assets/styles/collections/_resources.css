@@ -65,10 +65,6 @@
     padding-inline: var(--common-inline-padding);
 }
 
-.resource nav inclusive-disclosure [aria-expanded] {
-    box-shadow: none;
-}
-
 .resource nav inclusive-disclosure [aria-expanded]::after {
     right: var(--common-inline-padding);
 }
