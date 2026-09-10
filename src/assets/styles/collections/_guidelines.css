@@ -202,14 +202,6 @@
 	padding-inline: var(--common-inline-padding);
 }
 
-.barrier nav inclusive-disclosure [aria-expanded],
-.guidelines nav inclusive-disclosure [aria-expanded],
-.process nav inclusive-disclosure [aria-expanded],
-.processes nav inclusive-disclosure [aria-expanded],
-.action nav inclusive-disclosure [aria-expanded] {
-	box-shadow: none;
-}
-
 .barrier nav inclusive-disclosure [aria-expanded]::after,
 .guidelines nav inclusive-disclosure [aria-expanded]::after,
 .process nav inclusive-disclosure [aria-expanded]::after,
