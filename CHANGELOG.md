@@ -1,5 +1,12 @@
 # Changelog
 
+## [2026.9.1](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.9.0...v2026.9.1) (2026-09-10)
+
+
+### Bug Fixes
+
+* update guidelines pages ([#587](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/587)) ([e35231f](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/e35231f581a1328f5c4f123d767f6262eadd2bc8))
+
 ## [2026.9.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.8.0...v2026.9.0) (2026-09-08)
 
 
