@@ -1,5 +1,12 @@
 # Changelog
 
+## [2026.9.2](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.9.1...v2026.9.2) (2026-09-10)
+
+
+### Bug Fixes
+
+* standardize disclosure focus style (resolves [#564](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/564)) ([#591](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/591)) ([d727b57](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/d727b5767eb65c7316695740c4a7211e2ebaa45b))
+
 ## [2026.9.1](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.9.0...v2026.9.1) (2026-09-10)
 
 
