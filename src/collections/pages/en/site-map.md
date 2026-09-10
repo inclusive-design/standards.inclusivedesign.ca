@@ -5,7 +5,7 @@ shortTitle: ''
 draft: false
 lang: en
 order: 1
-parent: contentdirectory
+parent: content-directory
 layout: layouts/guidelines-sitemap
 excerpt: ''
 previewImage: ''

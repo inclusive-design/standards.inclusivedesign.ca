@@ -1,11 +1,11 @@
 ---
-translationKey: visualmap
+translationKey: visual-map
 title: Visual Site Map
 shortTitle: ''
 draft: false
 lang: en
 order: 2
-parent: contentdirectory
+parent: content-directory
 layout: layouts/guidelines-visualmap
 excerpt: ''
 previewImage: ''

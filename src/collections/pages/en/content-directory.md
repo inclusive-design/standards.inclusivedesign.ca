@@ -1,5 +1,5 @@
 ---
-translationKey: contentdirectory
+translationKey: content-directory
 title: Content Directory
 shortTitle: ''
 draft: false
@@ -15,6 +15,7 @@ bannerText: ''
 bannerImage: ''
 bannerImageAlt: ''
 outro: ''
+permalink: false
 ---
 
 This space intentionally left blank.
