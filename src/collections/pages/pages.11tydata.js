@@ -15,14 +15,14 @@ export default {
 			};
 		},
 		permalink(data) {
-			if (data.translationKey === 'browse') {
+			if (data.translationKey === 'browse' || data.translationKey === 'content-directory') {
 				return false;
 			}
 
 			let isParent = false;
 
 			if (data.parent) {
-				isParent = data.parent === 'browse' ? 'guidelines' : data.parent;
+				isParent = data.parent === 'browse' || data.parent === 'content-directory' ? 'guidelines' : data.parent;
 			}
 
 			data.slug = isParent ? `${__(isParent, {}, data)}/${data.page.fileSlug}` : data.page.fileSlug;
