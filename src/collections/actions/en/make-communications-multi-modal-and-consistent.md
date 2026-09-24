@@ -5,7 +5,9 @@ uuid: f3ca9e8e
 draft: false
 quick: |-
   - Distribute information through multiple channels such as websites, social media, newsletters, community spaces, partner networks, mailing lists and community radio to reach people where they are.
-  - Use a mix of communication formats such as recorded videos, written guides, info-graphics, visual diagrams and print materials to make content as widely accessible as possible
+  - Use a mix of communication formats, such as recorded videos, written guides, infographics, and print materials, to make content as widely accessible as possible.
+  - Pair text with icons, flowcharts, and diagrams, and provide visual step-by-step guides for people who prefer visual content. This makes information easier to understand and remember, reduces overwhelm, and increases participation.
+  - Use visuals throughout standards development, such as process maps for onboarding, visual agendas and graphic notes in meetings, diagrams in draft standards, infographics for public review, and progress roadmaps.
   - Provide materials in alternative formats such as large print, braille, plain language, accessible documents, audio and video.
   - Offer synchronous (live), asynchronous (on-demand), and hybrid options to support different time zones and access needs.
 longterm: '- Maintain clear, consistent communication across multiple modalities, channels and platforms.'
