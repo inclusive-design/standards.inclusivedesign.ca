@@ -1,5 +1,12 @@
 # Changelog
 
+## [2026.9.3](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.9.2...v2026.9.3) (2026-09-24)
+
+
+### Bug Fixes
+
+* cms issue with default value for contentLanguages ([#595](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/595)) ([9ecb131](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/9ecb131f79dba479d9ff864f496c03814ad7f9e9))
+
 ## [2026.9.2](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.9.1...v2026.9.2) (2026-09-10)
 
 
