@@ -343,7 +343,7 @@ collections:
         widget: relation
         collection: _singletons
         file: languages
-        default: en
+        default: ['en']
         i18n: duplicate
         multiple: true
         value_field: languages.*.code
