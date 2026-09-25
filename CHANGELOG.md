@@ -1,5 +1,12 @@
 # Changelog
 
+## [2026.9.4](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.9.3...v2026.9.4) (2026-09-25)
+
+
+### Features
+
+* adjust slug configuration to remove deprecation ([7df7080](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/7df70803a33589a6554322a95de7a616c17a7247))
+
 ## [2026.9.3](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.9.2...v2026.9.3) (2026-09-24)
 
 
