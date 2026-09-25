@@ -31,7 +31,7 @@ collections:
       structure: multiple_folders
     folder: src/collections/pages/
     extension: md
-    slug: "{{fields._slug | localize}}"
+    slug: { editable: true, i18n: true }
     view_filters:
       - label: Drafts
         field: draft
@@ -80,7 +80,6 @@ collections:
         widget: hidden
         i18n: duplicate
         default: layouts/base
-        required: true
       - label: Excerpt
         name: excerpt
         widget: text
@@ -136,7 +135,7 @@ collections:
       structure: multiple_folders
     folder: src/collections/projects/
     extension: md
-    slug: "{{fields._slug | localize}}"
+    slug: { editable: true, i18n: true }
     view_filters:
       - label: Drafts
         field: draft
@@ -292,7 +291,7 @@ collections:
     i18n:
       structure: multiple_folders
     folder: src/collections/resources/
-    slug: "{{fields._slug | localize}}"
+    slug: { editable: true, i18n: true }
     extension: md
     view_filters:
       - label: Drafts
@@ -428,7 +427,7 @@ collections:
       default:
           field: order
           direction: ascending
-    slug: "{{fields._slug | localize}}"
+    slug: { editable: true, i18n: true }
     fields:
       - label: Title
         name: title
@@ -466,7 +465,7 @@ collections:
       default:
         field: order
         direction: ascending
-    slug: "{{fields._slug | localize}}"
+    slug: { editable: true, i18n: true }
     fields:
       - label: Title
         name: title
@@ -526,7 +525,7 @@ collections:
       structure: multiple_folders
     folder: src/collections/barriers
     extension: md
-    slug: "{{fields._slug | localize}}"
+    slug: { editable: true, i18n: true }
     fields:
       - label: Title
         name: title
@@ -554,7 +553,7 @@ collections:
       structure: multiple_folders
     folder: src/collections/actions
     extension: md
-    slug: "{{fields._slug | localize}}"
+    slug: { editable: true, i18n: true }
     fields:
       - label: Title
         name: title
@@ -631,7 +630,7 @@ collections:
       structure: multiple_folders
     folder: src/collections/terms/
     extension: md
-    slug: "{{fields._slug | localize}}"
+    slug: { editable: true, i18n: true }
     identifier_field: term
     fields:
       - label: Term
