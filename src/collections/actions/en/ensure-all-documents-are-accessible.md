@@ -6,11 +6,13 @@ draft: false
 quick: |-
   - Use plain language and avoid technical jargon when possible.
   - Include infographics, diagrams, and visual explanations to break down complex concepts. Ensure that all visual items include textual descriptions and alt text where appropriate.
+  - Add a written description (alt text) to every visual, so people who cannot see it can still understand it.
+  - Do not use colour alone to show meaning. For example, if a chart uses red and green, also add labels or different patterns.
   - Use real-world examples to ground abstract ideas.
   - Maintain a living glossary of technical terms and acronyms
   - Include a summary page at the beginning of each document outlining its purpose, key content, and its relevance to other work
   - Ensure all documents including drafts, meeting notes and final publications are accessible from the start, and throughout the collaboration process not just at the end of the process
-  - Publish standards in accessible formats like properly structured Word documents and tagged PDF documents
+  - Publish standards in accessible formats like properly structured Word documents and tagged PDF documents.
 longterm: '- Train chairpersons and committee members in accessible document creation practices'
 moreInformation: |-
   - [Create and verify PDF accessibility (Acrobat Pro)](https://helpx.adobe.com/ca/acrobat/using/create-verify-pdf-accessibility.html) talks about how to use Acrobat Pro to make a PDF document accessible. 
