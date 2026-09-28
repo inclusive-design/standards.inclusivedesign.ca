@@ -7,7 +7,7 @@ quick: |-
   - Use plain language and avoid technical jargon when possible.
   - Include infographics, diagrams, and visual explanations to break down complex concepts. Ensure that all visual items include textual descriptions and alt text where appropriate.
   - Add a written description (alt text) to every visual, so people who cannot see it can still understand it.
-  - 
+  - Use labels or patterns alongside colour to show meaning. For example, if a chart uses red and green, also add labels or different patterns.
   - Use real-world examples to ground abstract ideas.
   - Maintain a living glossary of technical terms and acronyms
   - Include a summary page at the beginning of each document outlining its purpose, key content, and its relevance to other work
