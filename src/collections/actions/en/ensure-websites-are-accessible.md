@@ -6,7 +6,8 @@ draft: false
 quick: |-
   - Make sure websites work on different browsers and devices, including mobile phones and tablets.
   - Use plain and simple language.
-  - Ensure all images have descriptive alt text for people who use screen readers.
+  - Add a written description (alt text) to every visual, so people who cannot see it can still understand it.
+  - Do not use colour alone to show meaning. For example, if a chart uses red and green, also add labels or different patterns.
   - When choosing text and background colors, make sure the text is readable.
   - Avoid relying on color alone to convey information.
   - Make forms accessible, with clear labels, instructions, and error messages that screen readers can detect.
