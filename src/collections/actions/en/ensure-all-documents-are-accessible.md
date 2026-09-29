@@ -20,6 +20,7 @@ moreInformation: |-
   - [Harvard Digital Accessibility Services - Accessible Documents](https://accessibility.huit.harvard.edu/accessible-documents) has detailed information on headings, alt text, contrast, document structure, and making Word, PDF and other types of documents accessible.
   - [WebAIM: Writing Clearly and Simply](https://webaim.org/techniques/writing/) focuses on plain language, short sentences, clear structure, and avoiding jargon where possible.
   - [AbilityNet - Creating accessible documents](https://abilitynet.org.uk/factsheets/creating-accessible-documents-0) is useful for plain-language document design, tables, lists, images, and readable formatting.
+  - [AbleTo](https://ableto.ca/wp-content/uploads/2020/04/AbleTo-inclusive-infographic-newlogo-ACCESSIBLE-EN.pdf) is a one-page employer guide with practical first steps for recruiting, interviewing, and supporting people with disabilities, including accessible documents and events.
 examples: |-
   - [UK – British Standards Institution (BSI)](https://www.bsigroup.com/en-CA/) uses accessible PDFs with proper headings, tags, and alternative text, and provides plain language summaries. They also offer multilingual versions of key documents for non-native speakers.
   - [Australia – Standards Australia](https://www.standards.org.au/) creates structured documents with proper headings for screen readers and plain language guides for complex terms. Peer reviews ensure accessibility before publication.
