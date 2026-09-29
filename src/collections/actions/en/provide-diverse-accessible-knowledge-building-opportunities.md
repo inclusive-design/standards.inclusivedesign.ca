@@ -11,9 +11,7 @@ longterm: |-
   - Support different ways of learning with interactive tools like quizzes, videos, and step-by-step guides.
   - Ensure all content is accessible.
   - Provide learning content in multiple languages.
-moreInformation: |-
-  - Neuroinclusive Design Recommended Practices: This resource was developed as part of our Neurodiversity and the Built Environment project and outlines recommended practices for creating more neuroinclusive spaces:
-  [https://carleton.ca/accessibility-institute/projects/completed-projects/nd-lens/recommended-practices-for-neuroinclusivity/](https://carleton.ca/accessibility-institute/projects/completed-projects/nd-lens/recommended-practices-for-neuroinclusivity/)
+moreInformation: '- [Neuroinclusive Design Recommended Practices](https://carleton.ca/accessibility-institute/projects/completed-projects/nd-lens/recommended-practices-for-neuroinclusivity/) is a resource developed as part of our Neurodiversity and the Built Environment project and outlines recommended practices for creating more neuroinclusive spaces:'
 examples: '- [Norway – Standards Norway](https://standard.no/en/) offers an on-boarding toolkit for first-time participants, including plain language guides, videos, orientations, and dedicated staff support. They also host webinars for newcomers from disability and civil society sectors.'
 relatedActions:
   - ed90fb3e
