@@ -9,7 +9,6 @@ quick: |-
   - Add a written description (alt text) to every visual, so people who cannot see it can still understand it.
   - Use labels or patterns alongside colour to show meaning. For example, if a chart uses red and green, also add labels or different patterns.
   - When choosing text and background colors, make sure the text is readable.
-  - Avoid relying on color alone to convey information.
   - Make forms accessible, with clear labels, instructions, and error messages that screen readers can detect.
   - Offer help or support for users who encounter accessibility barriers.
 longterm: |-
