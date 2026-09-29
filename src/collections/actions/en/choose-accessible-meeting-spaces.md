@@ -18,6 +18,7 @@ longterm: ''
 moreInformation: |-
   - [Canada — Inclusive Event Planning](https://www.canada.ca/en/women-gender-equality/gender-based-analysis-plus/resources/inclusive-event-planning.html) is a government source for planning inclusive events and meetings, including access needs and setup.
   - [CBM — 30 important accessibility considerations for an event venue](https://participation.cbm.org/supporting-material/checklists/30-accessibility-considerations-venue) is a detailed venue checklist that covers entrances, parking, lighting, noise, quiet spaces, restrooms, and assistive-technology support.
+  - [Accessible Meeting and Event Guide (Carleton University Accessibility Institute)](https://carleton.ca/accessibility-institute/file/accessible-event-guide-word-document/) is a practical guide from Carleton's Accessibility Institute to help organizers plan meetings and events that are accessible to everyone. It's designed to be used as a planning aid, so you can build accessibility in from the start.
 examples: |-
   - [USA  – American National Standards Institute (ANSI)](https://www.ansi.org/about/introduction) ensures meeting venues have wheelchair ramps, accessible restrooms, and charging stations. They use a venue checklist to ensure proper accommodations.
   - [UK – British Standards Institution (BSI)](https://www.bsigroup.com/en-CA/) surveys venues in advance to ensure accessibility features like hearing loops and quiet spaces. They also gather feedback to improve future venue selections.
