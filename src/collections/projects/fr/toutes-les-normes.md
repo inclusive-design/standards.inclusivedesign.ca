@@ -1,10 +1,12 @@
 ---
 translationKey: all-standards
 title: Toutes les normes avec nous
+draft: false
 lang: fr
 excerpt: Ce projet rend l'élaboration de normes accessible aux personnes handicapées et aux personnes sourdes, garantissant ainsi que les biens et services sont inclusifs. Nous nous efforçons d'éliminer les obstacles au sein des organismes d'élaboration de normes (OEN) afin de soutenir la pleine participation.
 previewImage: /assets/uploads/DEEP%20conference%202016-1.jpg
 previewImageAlt: ''
+logo: ''
 color: yellow
 featuredResources:
   - jurisdictional-scan

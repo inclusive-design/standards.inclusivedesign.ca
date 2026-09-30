@@ -1,10 +1,12 @@
 ---
 translationKey: all-standards
 title: All Standards With Us
+draft: false
 lang: en
 excerpt: This project makes the process of creating standards more accessible to D/deaf and D/disabled people, ensuring goods and services are inclusive. We focus on removing barriers in Standards Development Organizations (SDOs) to support full participation.
 previewImage: /assets/uploads/DEEP%20conference%202016-1.jpg
 previewImageAlt: Six individuals wearing at a conference table. Having a discussion and looking aty the speaker on the far right
+logo: ''
 color: yellow
 featuredResources:
   - jurisdictional-scan
@@ -86,6 +88,8 @@ Our project goals are to:
  **Sepideh Shahi -** Senior Inclusive Designer, [Inclusive Design Research Centre](https://idrc.ocadu.ca/)
 
 **Audreanne Soenens -** Community member, [L’Arche Canada](https://larche.ca/)
+
+**Jutta Treviranus -** Director, [Inclusive Design Research Centre](https://idrc.ocadu.ca/)
 
 **Lori Vaanholt -** National Vice-Executive Director - Innovation & Impact, [L’Arche Canada](https://larche.ca/)
 
