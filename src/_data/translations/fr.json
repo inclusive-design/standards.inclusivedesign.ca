@@ -76,5 +76,6 @@
 	"next": "Suivant",
 	"previous": "Précédent",
 	"processes": "Processus",
-	"actions": "Actions"
+	"actions": "Actions",
+	"stage-includes": "Cette étape comprend les processus suivants :"
 }

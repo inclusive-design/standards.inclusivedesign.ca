@@ -79,5 +79,6 @@
 	"next": "Next",
 	"previous": "Previous",
 	"processes": "Processes",
-	"actions": "Actions"
+	"actions": "Actions",
+	"stage-includes": "This stage includes the following processes:"
 }
