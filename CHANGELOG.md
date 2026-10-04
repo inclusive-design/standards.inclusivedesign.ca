@@ -1,5 +1,12 @@
 # Changelog
 
+## [2026.10.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.9.4...v2026.10.0) (2026-10-04)
+
+
+### Miscellaneous Chores
+
+* **release:** bump version ([87eda32](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/87eda32cf6f28b483efe118c8554b0274e9e3f21))
+
 ## [2026.9.4](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.9.3...v2026.9.4) (2026-09-25)
 
 
