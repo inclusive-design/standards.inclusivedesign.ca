@@ -15,5 +15,4 @@ contentLanguages:
 type: guide-or-toolkit
 projects:
   - all-standards
-topics: []
 ---

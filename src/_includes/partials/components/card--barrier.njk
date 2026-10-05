@@ -1,20 +1,20 @@
-{% set filterData = { stages: [], processes: [] } %}
+{% set filterData = { stages: [], topics: [] } %}
 
 {% set relatedActions = collections["actions_" + lang] | findAll('data.barriers', barrier.data.uuid) %}
 {% set relatedStageUuids = [] %}
-{% set relatedProcessUuids = [] %}
+{% set relatedTopicUuids = [] %}
 {% for action in relatedActions %}
-	{% set relatedProcessUuids = relatedProcessUuids.concat(action.data.processes) %}
+	{% set relatedTopicUuids = relatedTopicUuids.concat(action.data.topics) %}
 {% endfor %}
-{% for relatedProcessUuid in relatedProcessUuids %}
-	{% set relatedProcess = collections['processes_' + lang] | find('data.uuid', relatedProcessUuid) %}
-	{% set relatedStageUuids = relatedStageUuids.concat([relatedProcess.data.stage]) %}
+{% for relatedTopicUuid in relatedTopicUuids %}
+	{% set relatedTopic = collections['topics_' + lang] | find('data.uuid', relatedTopicUuid) %}
+	{% set relatedStageUuids = relatedStageUuids.concat([relatedTopic.data.stage]) %}
 {% endfor %}
 
 {% set filterData = filterData | objectArrayPush("stages", relatedStageUuids) %}
-{% set filterData = filterData | objectArrayPush("processes", relatedProcessUuids) %}
+{% set filterData = filterData | objectArrayPush("topics", relatedTopicUuids) %}
 
-<div class="card barrier" data-filter-stages="{{ filterData.stages | join(',') }}" data-filter-processes="{{ filterData.processes | join(',') }}">
+<div class="card barrier" data-filter-stages="{{ filterData.stages | join(',') }}" data-filter-topics="{{ filterData.topics | join(',') }}">
     <div class="card__fold"></div>
     <div class="card__icon">{% include "svg/barrier.svg" %}</div>
     <div class="card__content">

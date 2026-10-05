@@ -33,7 +33,7 @@ barriers:
   - 651b13cb
   - daad3728
   - d1e09be4
-processes:
+topics:
   - 981d9115
   - b612d304
 more-information: ''

@@ -12,6 +12,23 @@ export default function parseTransform(value, outputPath) {
 
 		const pageNavHeadings = document.querySelectorAll('main:has(nav) article h2, main:has(nav) article h3');
 		const navContainer = document.querySelector('main nav.sidebar-menu #toc ul');
+
+		const headingOffsets = document.querySelectorAll('[headingoffset]');
+		for (const headingOffset of headingOffsets) {
+			const offset = Math.trunc(Number(headingOffset.getAttribute('headingoffset')));
+			const headings = headingOffset.querySelectorAll(':is(h2, h3, h4, h5)');
+			for (const heading of headings) {
+				const level = Math.trunc(Number(heading.tagName.charAt(1)));
+				const newLevel = level + offset;
+				const replacementHeading = document.createElement(`h${newLevel}`);
+				replacementHeading.setAttribute('eleventy:id-ignore');
+				replacementHeading.textContent = heading.textContent;
+				heading.replaceWith(replacementHeading);
+			}
+
+			headingOffset.removeAttribute('headingoffset');
+		}
+
 		for (const heading of pageNavHeadings) {
 			const link = document.createElement('a');
 			link.setAttribute('href', `#${heading.id}`);

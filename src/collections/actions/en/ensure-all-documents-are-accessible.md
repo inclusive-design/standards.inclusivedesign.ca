@@ -34,7 +34,7 @@ barriers:
   - 7751b43d
   - d1e09be4
   - 92b21925
-processes:
+topics:
   - 66ea7aa7
   - 981d9115
 more-information: |-

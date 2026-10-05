@@ -21,7 +21,7 @@
     <div class="banner">
       <div class="wrapper">
         <div class="banner__content flow">
-          {% if translationKey == 'processes' or translationKey == 'actions' or translationKey == 'barriers' or translationKey == 'site-map' or translationKey == 'glossary' %}
+          {% if translationKey == 'topics' or translationKey == 'actions' or translationKey == 'barriers' or translationKey == 'site-map' or translationKey == 'glossary' %}
           {% set breadcrumbKeys = ['guidelines', title] %}
           {% set breadcrumbLinks = [] %}
           {% for breadcrumbKey in breadcrumbKeys %}
@@ -50,7 +50,7 @@
       </div>
         {% if pageType == 'guidelines' %}
           <div class="wrapper banner__nav">
-            {% set link = (collections['pages_' + lang] | find('data.translationKey', 'processes')).url %}
+            {% set link = (collections['pages_' + lang] | find('data.translationKey', 'topics')).url %}
             {% set buttonLabel = 'explore-processes' %}
             {% set isPrimary = true %}
             {% include "partials/components/link-button.njk" %}

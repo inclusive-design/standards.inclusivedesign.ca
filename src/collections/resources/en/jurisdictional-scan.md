@@ -5,7 +5,7 @@ lang: en
 description: |-
   Our jurisdictional scan reviewed global standard development organizations (SDOs) to understand how they create, promote, and regulate standards. We examined key bodies like SCC, ANSI, JISC, CEN, SAC, BIS, and others across various regions.
 
-  We found seven common steps in their processes: needs assessment, stakeholder engagement, committee collaboration, public consultation, draft refinement, finalization, and ongoing review.
+  We found seven common steps in their topics: needs assessment, stakeholder engagement, committee collaboration, public consultation, draft refinement, finalization, and ongoing review.
 date: 2025-05-06T11:52:00
 link: ''
 author: ''
@@ -15,7 +15,6 @@ contentLanguages:
 type: guide-or-toolkit
 projects:
   - all-standards
-topics: []
 ---
 
 ## Theme 1: Identifying need and proposing a feasible standard

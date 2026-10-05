@@ -46,7 +46,7 @@ barriers:
   - 9dc55c33
   - d1e09be4
   - a9946f8c
-processes:
+topics:
   - a7e33638
   - d2d08ae4
   - 3eb6bf1e

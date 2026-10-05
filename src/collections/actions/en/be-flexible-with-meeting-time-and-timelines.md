@@ -26,7 +26,7 @@ barriers:
   - e0642a56
   - 38b1390b
   - fc64e21f
-processes:
+topics:
   - 1130eb69
   - 3eb6bf1e
   - b612d304

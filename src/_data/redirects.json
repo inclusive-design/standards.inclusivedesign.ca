@@ -37,5 +37,7 @@
 	"/guidelines/barriers/people-dont-start-at-the-same-place/": "/guidelines/barriers/lack-of-supportive-onboarding-process/",
 	"/guidelines/barriers/too-much-information-and-background-to-learn-for-new-members/": "/guidelines/barriers/new-member-information-overload/",
 	"/guidelines/barriers/no-support-when-a-standard-is-removed/": "/guidelines/barriers/no-transition-support-for-standards-withdrawal/",
-	"/guidelines/barriers/no-way-to-track-the-real-world-impact-of-a-standard/": "/guidelines/barriers/no-way-to-track-the-impact-of-a-standard/"
+	"/guidelines/barriers/no-way-to-track-the-real-world-impact-of-a-standard/": "/guidelines/barriers/no-way-to-track-the-impact-of-a-standard/",
+	"/guidelines/processes/": "/guidelines/topics/",
+	"/guidelines/processes/*": "/guidelines/topics/:splat"
 }

@@ -1,34 +1,13 @@
-{% set filterableOptions = { projects: [], types: [], topics: [], publishers: [], language: [] } %}
+{% set filterableOptions = { projects: [], types: [], publishers: [], language: [] } %}
 {% for resource in collections['resources_' + lang] %}
     {% set filterableOptions = filterableOptions | objectArrayPush("projects", resource.data.projects) %}
     {% set filterableOptions = filterableOptions | objectArrayPush("types", resource.data.type) %}
-    {% set filterableOptions = filterableOptions | objectArrayPush("topics", resource.data.topics) %}
     {% set filterableOptions = filterableOptions | objectArrayPush("publishers", resource.data.publisher) %}
     {% set filterableOptions = filterableOptions | objectArrayPush("language", resource.data.language) %}
 {% endfor %}
 <div id="filters" class="filters flow">
     <h3>{% __ 'filters' %}</h3>
     <div class="flow">
-        {% if filterableOptions.topics | length > 1 %}
-            <fieldset>
-                <legend class="visually-hidden">{% __ 'topic' %}</legend>
-                <inclusive-disclosure>
-                    <button aria-controls="topic">{% __ 'topic' %}</button>
-                    <div id="topic">
-                        <ul id="filter-topic">
-                            {% for topic in collections['topics_' + lang] %}
-                                {% if topic.data.page.fileSlug in filterableOptions.topics %}
-                                    <li>
-                                        <input type="checkbox" id="{{ topic.data.page.fileSlug }}" name="topic" value="{{ topic.data.page.fileSlug }}" data-filter-key="topics"/>
-                                        <label for="{{ topic.data.page.fileSlug }}">{{ topic.data.title }}</label>
-                                    </li>
-                                {% endif %}
-                            {% endfor %}
-                        </ul>
-                    </div>
-                </inclusive-disclosure>
-            </fieldset>
-        {% endif %}
         {% if filterableOptions.types | length > 1 %}
             <fieldset>
                 <legend class="visually-hidden">{% __ 'type' %}</legend>

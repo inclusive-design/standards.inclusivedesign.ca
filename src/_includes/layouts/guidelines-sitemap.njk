@@ -12,10 +12,10 @@
 		<h3>
 		{{ stage.data.title }}</h3>
 	</h3>
-	{% set processes = collections['processes_' + lang] | findAll('data.stage', stage.data.uuid) %}
+	{% set topics = collections['topics_' + lang] | findAll('data.stage', stage.data.uuid) %}
 	<ul role="list">
-		{% for process in processes %}
-		<li><a href="{{ process.url }}">{{ process.data.title }}</a></li>
+		{% for topic in topics %}
+		<li><a href="{{ topic.url }}">{{ topic.data.title }}</a></li>
 		{% endfor %}
 	</ul>
 	</div>

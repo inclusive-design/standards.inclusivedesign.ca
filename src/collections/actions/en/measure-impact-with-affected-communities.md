@@ -21,6 +21,6 @@ barriers:
   - d4bf57e8
   - a9946f8c
   - c6c86787
-processes:
+topics:
   - 420ec90a
 ---

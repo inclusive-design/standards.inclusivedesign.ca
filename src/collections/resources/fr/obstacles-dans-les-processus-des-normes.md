@@ -14,7 +14,6 @@ contentLanguages:
 type: document
 projects:
   - all-standards
-topics: []
 linking:
   type: page
   slug: obstacles-dans-les-processus-des-normes

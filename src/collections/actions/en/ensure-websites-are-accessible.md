@@ -33,7 +33,7 @@ barriers:
   - a9946f8c
   - 7751b43d
   - 9907ee88
-processes:
+topics:
   - eabf2df8
   - b612d304
   - a7e33638

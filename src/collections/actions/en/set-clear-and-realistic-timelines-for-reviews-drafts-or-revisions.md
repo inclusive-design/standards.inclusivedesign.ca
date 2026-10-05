@@ -22,7 +22,7 @@ relatedActions:
 barriers:
   - fc64e21f
   - '42599812'
-processes:
+topics:
   - 11d85a05
   - 3eb6bf1e
 more-information: ''

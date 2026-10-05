@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="{{ lang if lang else defaultLanguage }}-CA" dir="ltr">
+<head>
+  <title>{{ title }}</title>
+  <script type="module" src="https://unpkg.com/@zachleat/table-of-contents"></script>
+</head>
+<body>
+	<h1>{{ title }}</h1>
+	<nav aria-labelledby="toc">
+	<table-of-contents selector="main :is(h2, h3)">
+		<h2>{% __ 'toc' %}</h2>
+	</table-of-contents>
+	</nav>
+	<main>
+	<h2>{% __ 'stages' %}</h2>
+	{% set stages = collections['stages_' + lang] %}
+	{% for stage in stages %}
+	<h3>{{ stage.data.title }}</h3>
+	{{ stage.content | safe }}
+	{% set topics = collections['topics_' + lang] | findAll('data.stage', stage.data.uuid) %}
+	<p>{% __ 'stage-includes' %}</p>
+	<ul>
+	{% for topic in topics %}
+	<li><a href="#{{ topic.data.title | slugify }}">{{ topic.data.title }}</a></li>
+	{% endfor %}
+	</ul>
+	{% endfor %}
+	<h2>{% __ 'topics' %}</h2>
+	{% set topics = collections['topics_' + lang] %}
+	{% for topic in topics %}
+	<h3>{{ topic.data.title }}</h3>
+	<div headingoffset="2">
+	{{ topic.templateContent | safe }}
+	{% set actions = collections['actions_' + lang] | findAll('data.topics', topic.data.uuid) %}
+	<ul>
+	{% for action in actions %}
+    <li><a href="#{{ action.data.title | slugify }}">{{ action.data.title }}</a></li>
+	{% endfor %}
+	</ul>
+	</div>
+	{% endfor %}
+	<h2>{% __ 'barriers' %}</h2>
+ 	{% for barrier in collections['barriers_' + lang] %}
+ 	<h3>{{ barrier.data.title }}</h3>
+  	<h4 eleventy:id-ignore>{% __ 'barriers-problem' %}</h4>
+  	{{ barrier.data.problem | renderContent('md') | safe }}
+	{% if collections['actions_' + lang] | find('data.barriers', barrier.data.uuid) %}
+	<h4 eleventy:id-ignore>{%  __ 'barriers-fix' %}</h4>
+	<ul>
+	{% for actionItem in collections['actions_' + lang] %}
+	    {% if barrier.data.uuid in actionItem.data.barriers %}
+        {% set action = actionItem %}
+		<li><a href="#{{ action.data.title | slugify }}">{{ action.data.title }}</a></li>
+	    {% endif %}
+	{% endfor %}
+	</ul>
+	{% endif %}
+  	{% endfor %}
+	<h2>{% __ 'actions' %}</h2>
+	{% for action in collections['actions_' + lang] %}
+	<h3>{{ action.data.title }}</h3>
+	{% set targetBarriers = [] %}
+	{% for uuid in action.data.barriers %}
+    {% set targetBarriers = targetBarriers.concat(collections['barriers_' + lang] | find('data.uuid', uuid)) %}
+	{% endfor %}
+	{% if action.data.quick %}
+    <h4 eleventy:id-ignore>{% __ 'actions-quick' %}</h4>
+    {{ action.data.quick | markdown | safe }}
+	{% endif %}
+	{% if action.data.longterm %}
+    <h4 eleventy:id-ignore>{% __ 'actions-longterm' %}</h4>
+    {{ action.data.longterm | markdown | safe }}
+	{% endif %}
+	{% if action.data.moreInformation %}
+    <h4 eleventy:id-ignore>{% __ 'actions-more-info' %}</h4>
+    {{ action.data.moreInformation | markdown | safe }}
+	{% endif %}
+	{% if action.data.examples %}
+    <h4 eleventy:id-ignore>{% __ 'actions-examples' %}</h4>
+    {{ action.data.examples | markdown | safe }}
+	{% endif %}
+	{% if action.data.relatedActions | length > 0 %}
+    <h4 eleventy:id-ignore>{% __ 'actions-related-actions' %}</h4>
+    <ul>
+    {% for actionId in action.data.relatedActions %}
+        {% set action = collections['actions_' + lang] | find('data.uuid', actionId) %}
+        <li><a href="#{{ action.data.title | slugify }}">{{ action.data.title }}</a></li>
+    {% endfor %}
+    </ul>
+	{% endif %}
+	{% if action.data.barriers | length > 0 %}
+	<h4 eleventy:id-ignore>{% __ 'actions-barriers' %}</h4>
+	<ul>
+	{% for barrier in targetBarriers %}
+		<li><a href="#{{ barrier.data.title | slugify }}">{{ barrier.data.title }}</a></li>
+	{% endfor %}
+	</ul>
+	{% endif %}
+    {% endfor %}
+	</main>
+</body>

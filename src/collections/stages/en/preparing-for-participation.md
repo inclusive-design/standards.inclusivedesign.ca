@@ -4,7 +4,7 @@ title: Preparing for participation
 uuid: 228cf07a
 draft: false
 order: 3
-processes: []
+topics: []
 ---
 
 This stage focuses on supporting D/deaf and D/disabled people in participating fully in the standards development process. This includes onboarding, capacity building, accessible resources, clarity in roles and expectations, compensation, and collaborative responsibility for inclusion.

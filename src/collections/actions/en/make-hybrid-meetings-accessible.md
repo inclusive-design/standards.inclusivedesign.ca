@@ -37,7 +37,7 @@ relatedActions:
   - 95f998b1
 barriers:
   - 81182d8d
-processes:
+topics:
   - b612d304
 more-information: ''
 order: 1

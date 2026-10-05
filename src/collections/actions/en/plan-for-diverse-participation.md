@@ -25,7 +25,7 @@ relatedActions:
 barriers:
   - dbf56f15
   - 76ee246e
-processes:
+topics:
   - 8e9bcf3a
   - '13269757'
   - d2d08ae4

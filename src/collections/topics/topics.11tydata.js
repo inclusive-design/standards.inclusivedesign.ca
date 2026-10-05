@@ -1,3 +1,11 @@
+import { __, generatePermalink } from 'eleventy-plugin-fluid';
+
 export default {
-	permalink: false,
+	layout: 'layouts/topic',
+	eleventyComputed: {
+		permalink(data) {
+			data.slug = data.page.fileSlug;
+			return generatePermalink(data, 'topics', __('topics-slug', {}, data));
+		},
+	},
 };

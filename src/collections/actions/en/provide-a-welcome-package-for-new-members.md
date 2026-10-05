@@ -30,7 +30,7 @@ barriers:
   - 12ff094b
   - 92b21925
   - 890aeb8e
-processes:
+topics:
   - 3eb6bf1e
   - b612d304
 more-information: ''

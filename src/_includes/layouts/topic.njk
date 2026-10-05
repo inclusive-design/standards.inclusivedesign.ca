@@ -1,14 +1,14 @@
 {% extends "layouts/base.njk" %}
 
-{% set processStage = collections['stages_' + lang] | find('data.uuid', stage) %}
+{% set topicStage = collections['stages_' + lang] | find('data.uuid', stage) %}
 
-{% set pageType = 'process ' + 'stage-' + processStage.data.order %}
+{% set pageType = 'topic ' + 'stage-' + topicStage.data.order %}
 
 {% block banner %}
 <div class="banner">
     <div class="wrapper">
         <div class="banner__content flow">
-            {% set breadcrumbKeys = ['guidelines', 'processes', title] %}
+            {% set breadcrumbKeys = ['guidelines', 'topics', title] %}
             {% set breadcrumbLinks = [] %}
             {% for breadcrumbKey in breadcrumbKeys %}
                 {% if not loop.last %}
@@ -31,11 +31,11 @@
 {% endblock %}
 
 {% block content %}
-{% set actions = collections['actions_' + lang] | findAll('data.processes', uuid) %}
-<nav aria-labelledby="process-menu" class="flow sidebar-menu">
+{% set actions = collections['actions_' + lang] | findAll('data.topics', uuid) %}
+<nav aria-labelledby="topic-menu" class="flow sidebar-menu">
     <inclusive-disclosure>
         <button aria-controls="{{ title | slugify }}-menu">
-            <h2 class="h3" id="process-menu">{% __ 'toc' %}</h2>
+            <h2 class="h3" id="topic-menu">{% __ 'toc' %}</h2>
         </button>
         <div content id="{{ title | slugify }}-menu">
             <ul role="list" class="flow">
