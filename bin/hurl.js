@@ -53,7 +53,7 @@ async function handle() {
 	const lines = [];
 	for (const [key, value] of Object.entries(redirects)) {
 		if (key.endsWith('*')) {
-			return;
+			continue;
 		}
 
 		const k = ensureLeadingSlash(key);

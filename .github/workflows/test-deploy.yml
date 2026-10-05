@@ -27,11 +27,6 @@ jobs:
 
       - run: node bin/hurl.js ${{ steps.cf-pages.outputs.url }}
 
-      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
-        with:
-          name: hurl
-          path: redirects.hurl
-
       - run: |
           curl --location --remote-name https://github.com/Orange-OpenSource/hurl/releases/download/4.0.0/hurl_4.0.0_amd64.deb
           sudo dpkg -i hurl_4.0.0_amd64.deb
