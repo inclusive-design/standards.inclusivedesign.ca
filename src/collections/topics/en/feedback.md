@@ -19,4 +19,4 @@ Getting feedback helps reveal gaps in standards and the standards development pr
 
 ## Actions
 
-Explore actions for using inclusively getting feedback:
+Explore actions for inclusively getting feedback:
