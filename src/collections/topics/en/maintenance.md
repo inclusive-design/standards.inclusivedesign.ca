@@ -19,4 +19,4 @@ Regular maintenance helps standards stay relevant and reflect changes in technol
 
 ## Actions
 
-Explore actions for maintenance and withdrawal:
+Explore actions for standards maintenance:
