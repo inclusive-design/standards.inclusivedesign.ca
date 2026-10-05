@@ -23,7 +23,7 @@ relatedActions:
 barriers:
   - 8b6ad4ca
   - c631fc93
-processes:
+topics:
   - a7e33638
   - af752d5c
 more-information: |-

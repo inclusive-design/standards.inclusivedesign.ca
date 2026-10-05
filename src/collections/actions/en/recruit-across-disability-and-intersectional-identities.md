@@ -26,7 +26,7 @@ relatedActions:
   - ac8b76da
 barriers:
   - dbf56f15
-processes:
+topics:
   - d2d08ae4
 more-information: |-
   - [**Finding Participants**](https://main--co-design.netlify.app/resources/finding-participants/)

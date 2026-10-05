@@ -28,7 +28,7 @@ relatedActions:
 barriers:
   - a2204b3f
   - ab41ec58
-processes:
+topics:
   - 153c2d64
   - 981d9115
 ---

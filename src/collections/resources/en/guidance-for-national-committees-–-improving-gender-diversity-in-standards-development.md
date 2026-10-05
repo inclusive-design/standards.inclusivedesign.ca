@@ -13,5 +13,4 @@ contentLanguages:
 type: standards
 projects:
   - all-standards
-topics: []
 ---

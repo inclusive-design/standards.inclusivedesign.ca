@@ -26,7 +26,7 @@ barriers:
   - c631fc93
   - 9dc55c33
   - 8b6ad4ca
-processes:
+topics:
   - af752d5c
   - e7f348c2
 more-information: ''

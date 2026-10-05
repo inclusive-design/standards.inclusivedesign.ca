@@ -1,11 +1,11 @@
 ---
-translationKey: processes
+translationKey: topics
 title: Explore the Standards Development Process
 shortTitle: Explore
 draft: false
 order: 2
 parent: guidelines
-layout: layouts/processes
+layout: layouts/topics
 excerpt: ''
 previewImage: ''
 previewImageAlt: ''

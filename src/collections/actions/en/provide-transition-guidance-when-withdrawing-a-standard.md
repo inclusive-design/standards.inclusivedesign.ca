@@ -20,6 +20,6 @@ relatedActions:
   - 902c8c26
 barriers:
   - ab41ec58
-processes:
+topics:
   - 153c2d64
 ---

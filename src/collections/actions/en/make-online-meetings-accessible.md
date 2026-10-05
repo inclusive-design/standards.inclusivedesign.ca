@@ -54,7 +54,7 @@ barriers:
   - 81182d8d
   - e0642a56
   - 651b13cb
-processes:
+topics:
   - b612d304
   - 1130eb69
   - eabf2df8

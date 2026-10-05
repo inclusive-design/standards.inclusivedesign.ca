@@ -19,6 +19,6 @@ relatedActions:
   - 20dc168e
 barriers:
   - cbfcdbb2
-processes:
+topics:
   - 8e9bcf3a
 ---

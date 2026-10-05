@@ -17,21 +17,21 @@
 	{% for stage in stages %}
 	<h3>{{ stage.data.title }}</h3>
 	{{ stage.content | safe }}
-	{% set processes = collections['processes_' + lang] | findAll('data.stage', stage.data.uuid) %}
+	{% set topics = collections['topics_' + lang] | findAll('data.stage', stage.data.uuid) %}
 	<p>{% __ 'stage-includes' %}</p>
 	<ul>
-	{% for process in processes %}
-	<li><a href="#{{ process.data.title | slugify }}">{{ process.data.title }}</a></li>
+	{% for topic in topics %}
+	<li><a href="#{{ topic.data.title | slugify }}">{{ topic.data.title }}</a></li>
 	{% endfor %}
 	</ul>
 	{% endfor %}
-	<h2>{% __ 'processes' %}</h2>
-	{% set processes = collections['processes_' + lang] %}
-	{% for process in processes %}
-	<h3>{{ process.data.title }}</h3>
+	<h2>{% __ 'topics' %}</h2>
+	{% set topics = collections['topics_' + lang] %}
+	{% for topic in topics %}
+	<h3>{{ topic.data.title }}</h3>
 	<div headingoffset="2">
-	{{ process.templateContent | safe }}
-	{% set actions = collections['actions_' + lang] | findAll('data.processes', process.data.uuid) %}
+	{{ topic.templateContent | safe }}
+	{% set actions = collections['actions_' + lang] | findAll('data.topics', topic.data.uuid) %}
 	<ul>
 	{% for action in actions %}
     <li><a href="#{{ action.data.title | slugify }}">{{ action.data.title }}</a></li>

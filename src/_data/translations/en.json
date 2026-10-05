@@ -23,7 +23,7 @@
 	"project": "Project",
 	"projects": "Projects",
 	"projects-slug": "projects",
-	"processes-slug": "guidelines/processes",
+	"topics-slug": "guidelines/topics",
 	"barriers-slug": "guidelines/barriers",
 	"actions-slug": "guidelines/actions",
 	"action": "Action",
@@ -78,7 +78,7 @@
 	"stages-and-topics": "Stages and Topics",
 	"next": "Next",
 	"previous": "Previous",
-	"processes": "Processes",
+	"topics": "Topics",
 	"actions": "Actions",
-	"stage-includes": "This stage includes the following processes:"
+	"stage-includes": "This stage includes the following topics:"
 }

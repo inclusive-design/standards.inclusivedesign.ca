@@ -21,7 +21,7 @@ relatedActions:
   - 4978cf93
 barriers:
   - fd144e96
-processes:
+topics:
   - b612d304
   - d2d08ae4
   - 8e9bcf3a

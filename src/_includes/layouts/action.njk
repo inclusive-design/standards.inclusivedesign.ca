@@ -20,17 +20,17 @@
             {% endfor %}
             {% include "partials/components/breadcrumb.njk" %}
             <h1 data-pagefind-meta="title" data-pagefind-filter="type:action">{{ title }}</h1>
-            {% if processes | length > 0 %}
-            <div class="action-processes {{ 'only-two' if processes | length == 2 }}">
+            {% if topics | length > 0 %}
+            <div class="action-topics {{ 'only-two' if topics | length == 2 }}">
                 {% __ 'action-for' %}
-            {% for processId in processes %}
-                {% if processes | length > 1 %}
+            {% for topicId in topics %}
+                {% if topics | length > 1 %}
                 {{ 'and' if loop.last }}
                 {% endif %}
-                {% set process = collections['processes_' + lang] | find('data.uuid', processId) %}
-                <span>{% include 'svg/' + process.data.translationKey + '.svg' %}
-                <a href="{{ process.url }}">{{ process.data.title }}</a></span>
-                {% if processes | length > 2 %}
+                {% set topic = collections['topics_' + lang] | find('data.uuid', topicId) %}
+                <span>{% include 'svg/' + topic.data.translationKey + '.svg' %}
+                <a href="{{ topic.url }}">{{ topic.data.title }}</a></span>
+                {% if topics | length > 2 %}
                 {{ ',' if not loop.last }}
                 {% endif %}
             {% endfor %}

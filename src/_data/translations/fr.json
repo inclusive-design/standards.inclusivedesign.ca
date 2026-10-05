@@ -21,7 +21,7 @@
 	"project": "Projet",
 	"projects": "Projets",
 	"projects-slug": "projets",
-	"processes-slug": "lignes-directrices/processus",
+	"topics-slug": "lignes-directrices/sujets",
 	"barriers-slug": "lignes-directrices/barrieres",
 	"actions-slug": "lignes-directrices/actions",
 	"action": "Action",
@@ -75,7 +75,7 @@
 	"stages": "Étapes",
 	"next": "Suivant",
 	"previous": "Précédent",
-	"processes": "Processus",
+	"topics": "Sujets",
 	"actions": "Actions",
 	"stage-includes": "Cette étape comprend les processus suivants :"
 }

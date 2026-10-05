@@ -25,7 +25,7 @@ barriers:
   - 7ed127d1
   - 9907ee88
   - 12ff094b
-processes:
+topics:
   - '13269757'
   - d2d08ae4
   - 981d9115

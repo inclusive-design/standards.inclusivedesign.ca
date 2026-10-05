@@ -15,7 +15,6 @@ contentLanguages:
 type: guide-or-toolkit
 projects:
   - all-standards
-topics: []
 ---
 
 ## Thème 1 : Identification des besoins et proposition d’une norme réalisable

@@ -21,7 +21,7 @@ relatedActions:
   - 95f998b1
 barriers:
   - a96035dc
-processes:
+topics:
   - af752d5c
   - b612d304
   - d2d08ae4

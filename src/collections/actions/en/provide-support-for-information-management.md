@@ -20,7 +20,7 @@ barriers:
   - 38b1390b
   - 92b21925
   - fc64e21f
-processes:
+topics:
   - 11d85a05
   - 1130eb69
 more-information: ''

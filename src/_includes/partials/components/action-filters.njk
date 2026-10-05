@@ -1,18 +1,18 @@
-{% set filterableOptions = { stages: [], processes: [] } %}
+{% set filterableOptions = { stages: [], topics: [] } %}
 
 {% for action in collections['actions_' + lang] %}
-	{% set relatedProcessUuids = action.data.processes %}
-	{% set relatedProcesses = [] %}
+	{% set relatedTopicUuids = action.data.topics %}
+	{% set relatedTopics = [] %}
 	{% set relatedStageUuids = [] %}
 	{% set relatedStages = [] %}
-	{% for relatedProcessUuid in relatedProcessUuids %}
-		{% set relatedProcess = collections['processes_' + lang] | find('data.uuid', relatedProcessUuid) %}
-		{% set relatedProcesses = relatedProcesses.concat([relatedProcess]) %}
-		{% set relatedStage = collections['stages_' + lang] | find('data.uuid', relatedProcess.data.stage) %}
+	{% for relatedTopicUuid in relatedTopicUuids %}
+		{% set relatedTopic = collections['topics_' + lang] | find('data.uuid', relatedTopicUuid) %}
+		{% set relatedTopics = relatedTopics.concat([relatedTopic]) %}
+		{% set relatedStage = collections['stages_' + lang] | find('data.uuid', relatedTopic.data.stage) %}
 		{% set relatedStages = relatedStages.concat([relatedStage]) %}
 		{% set relatedStageUuids = relatedStageUuids.concat([relatedStage.data.uuid]) %}
 	{% endfor %}
-	{% set filterableOptions = filterableOptions | objectArrayPush("processes", relatedProcesses) %}
+	{% set filterableOptions = filterableOptions | objectArrayPush("topics", relatedTopics) %}
 	{% set filterableOptions = filterableOptions | objectArrayPush("stages", relatedStages) %}
 {% endfor %}
 
@@ -29,10 +29,10 @@
                             <input type="checkbox" id="{{ stage.data.uuid }}" name="stage" value="{{ stage.data.uuid }}" data-filter-key="stages"/>
                             <label for="{{ stage.data.uuid }}">{{ stage.data.title }}</label>
                             <ul>
-                            	{% for process in filterableOptions.processes | findAll('data.stage', stage.data.uuid) | sort(attribute="data.order") %}
+                            	{% for topic in filterableOptions.topics | findAll('data.stage', stage.data.uuid) | sort(attribute="data.order") %}
                              	<li>
-									<input type="checkbox" id="{{ process.data.uuid }}" name="process" value="{{ process.data.uuid }}" data-filter-key="processes"/>
-									<label for="{{ process.data.uuid }}">{{ process.data.title }}</label>
+									<input type="checkbox" id="{{ topic.data.uuid }}" name="topic" value="{{ topic.data.uuid }}" data-filter-key="topics"/>
+									<label for="{{ topic.data.uuid }}">{{ topic.data.title }}</label>
 								</li>
                              	{% endfor %}
                             </ul>

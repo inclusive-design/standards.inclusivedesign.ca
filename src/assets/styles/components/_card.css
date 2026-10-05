@@ -20,7 +20,7 @@
 .content {
     .card.action,
     .card.barrier,
-    .card.process {
+    .card.topic {
         border: 0.125rem solid var(--fl-linkFgColor, var(--color-indigo-700));
         border-radius: 0.5rem;
         clip-path: polygon(2.5rem 0, 100% 0, 100% 100%, 0 100%, 0 2.5rem);
@@ -78,7 +78,7 @@
         }
     }
 
-    .card.process {
+    .card.topic {
         background-color: var(--fl-bgColor, var(--color-white));
         border: 0.25rem solid var(--fl-linkFgColor, var(--color-stage));
 
@@ -140,61 +140,61 @@
     outline-offset: 0.4375rem;
 }
 
-.card.process svg {
+.card.topic svg {
 	bottom: calc(28 / 16 * 1rem);
     pointer-events: none;
 	position: absolute;
 	right: calc(28 / 16 * 1rem);
 }
 
-.card.process svg.icon {
+.card.topic svg.icon {
     block-size: 3.75rem;
     inline-size: 3.75rem;
 	left: calc(28 / 16 * 1rem);
 	right: unset;
 }
 
-.card.process[data-stage="1"] svg.icon {
+.card.topic[data-stage="1"] svg.icon {
 	color: var(--fl-linkFgColor, var(--color-guidelines-red));
 }
 
-.card.process[data-stage="2"] svg.icon {
+.card.topic[data-stage="2"] svg.icon {
 	color: var(--fl-linkFgColor, var(--color-guidelines-orange));
 }
 
-.card.process[data-stage="3"] svg.icon {
+.card.topic[data-stage="3"] svg.icon {
 	color: var(--fl-linkFgColor, var(--color-guidelines-yellow));
 }
 
-.card.process[data-stage="4"] svg.icon {
+.card.topic[data-stage="4"] svg.icon {
 	color: var(--fl-linkFgColor, var(--color-guidelines-green));
 }
 
-.card.process[data-stage="5"] svg.icon {
+.card.topic[data-stage="5"] svg.icon {
 	color: var(--fl-linkFgColor, var(--color-guidelines-blue));
 }
 
-.card.process:has(a:focus) {
+.card.topic:has(a:focus) {
 	outline-offset: 0.4375rem;
 }
 
-.card.process[data-stage="1"]:has(a:focus) {
+.card.topic[data-stage="1"]:has(a:focus) {
  	outline: 0.1875rem solid var(--fl-linkFgColor, var(--color-guidelines-red));
 }
 
-.card.process[data-stage="2"]:has(a:focus) {
+.card.topic[data-stage="2"]:has(a:focus) {
  	outline: 0.1875rem solid var(--fl-linkFgColor, var(--color-guidelines-orange));
 }
 
-.card.process[data-stage="3"]:has(a:focus) {
+.card.topic[data-stage="3"]:has(a:focus) {
  	outline: 0.1875rem solid var(--fl-linkFgColor, var(--color-guidelines-yellow));
 }
 
-.card.process[data-stage="4"]:has(a:focus) {
+.card.topic[data-stage="4"]:has(a:focus) {
  	outline: 0.1875rem solid var(--fl-linkFgColor, var(--color-guidelines-green));
 }
 
-.card.process[data-stage="5"]:has(a:focus) {
+.card.topic[data-stage="5"]:has(a:focus) {
  	outline: 0.1875rem solid var(--fl-linkFgColor, var(--color-guidelines-blue));
 }
 

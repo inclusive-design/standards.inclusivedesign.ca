@@ -24,6 +24,6 @@ relatedActions:
   - af9da867
 barriers:
   - a2204b3f
-processes:
+topics:
   - 153c2d64
 ---
