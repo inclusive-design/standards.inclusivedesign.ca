@@ -21,14 +21,6 @@
             {% include "partials/components/breadcrumb.njk" %}
             <h1>{{ title }}</h1>
             <div class="meta flow">
-                {% if topics.length %}
-                <p>
-                {% include "../../assets/images/topic.svg" %} {% for topicId in topics -%}
-                {%- set topic = collections['topics_' + lang] | find("data.page.fileSlug", topicId) -%}
-                {{ topic.data.title }}{% if not loop.last %}, {% endif -%}
-                {%- endfor %}
-                </p>
-                {% endif %}
                 <p>
                 {% include "svg/type.svg" %} {% __ type %}
                 </p>

@@ -26,13 +26,5 @@
                     {% set languageObject = languages[lang].languages | find('code', language) %}
                     {{ languageObject.name }}{% if not loop.last %}, {% endif %}{% endfor %}
         </div>
-        {% if resource.data.topics.length > 0 %}
-        <div class="card__tags tags">
-            {% for topicId in resource.data.topics %}
-            {% set topic = collections['topics_' + lang] | find("data.page.fileSlug", topicId) %}
-            <div class="tag">{{ topic.data.title }}</div>
-            {% endfor %}
-        </div>
-        {% endif %}
     </div>
 </div>
