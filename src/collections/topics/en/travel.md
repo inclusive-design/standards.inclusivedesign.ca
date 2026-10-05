@@ -19,4 +19,4 @@ Planning travel supports early helps identify and arrange the right accommodatio
 
 ## Actions
 
-Explore actions for using for inclusive travel:
+Explore actions for making travel more accessible:
