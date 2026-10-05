@@ -1,5 +1,22 @@
 # Changelog
 
+## [2026.10.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.9.4...v2026.10.0) (2026-10-05)
+
+
+### Features
+
+* create single page version of guidelines content ([#600](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/600)) ([1b43944](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/1b43944e03038d11d4794ad90874194a8545df52))
+
+
+### Bug Fixes
+
+* **deps:** update dependency @11ty/font-awesome to v2 ([#594](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/594)) ([98102be](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/98102bea9cf95ed0a66d2e2617a7d1581f793583))
+
+
+### Miscellaneous Chores
+
+* **release:** bump version ([87eda32](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/87eda32cf6f28b483efe118c8554b0274e9e3f21))
+
 ## [2026.9.4](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.9.3...v2026.9.4) (2026-09-25)
 
 
