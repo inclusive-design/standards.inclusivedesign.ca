@@ -24,7 +24,7 @@ moreInformation: |-
   - [World Wide Web Consortium (W3C) Web Accessibility Initiative (WAI)](https://www.w3.org/WAI/) develops web accessibility standards. It contains accessibility standards, guidance, training materials, and implementation resources to help people make websites, apps, and other digital content accessible.
 examples: |-
   - [USA  – American National Standards Institute (ANSI)](https://www.ansi.org/about/introduction) uses Section 508 and ADA-related guidance, and many organizations follow WCAG as the practical web accessibility standard.
-  - [Canada  – Standards Council of Canada ](https://scc-ccn.ca/)uses the Accessible Canada Act and provincial accessibility laws like Ontario’s AODA.
+  - [Canada  – Standards Council of Canada ](https://scc-ccn.ca/) uses the Accessible Canada Act and provincial accessibility laws like Ontario’s AODA.
 relatedActions:
   - f3ca9e8e
   - 95f998b1
