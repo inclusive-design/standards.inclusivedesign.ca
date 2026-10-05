@@ -19,4 +19,4 @@ Clear withdrawal processes help prevent confusion about which standards are curr
 
 ## Actions
 
-Explore actions for maintenance and withdrawal:
+Explore actions for standards withdrawal:
