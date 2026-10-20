@@ -170,7 +170,6 @@ footer a[data-brand] {
     block-size: 3.125rem;
 	font-size: calc(var(--fl-enhance-font-size-factor, 1) * var(--step-0));
     font-weight: var(--font-weight-medium);
-	margin-inline-start: var(--common-inline-padding);
 }
 
 .navigation__button {
@@ -179,7 +178,7 @@ footer a[data-brand] {
     block-size: 3.75rem;
     border: 0;
     color: var(--fl-linkFgColor, var(--color-white));
-    display: flex;
+    display: none;
     font-family: var(--family-sans-serif);
     font-size: calc(var(--fl-enhance-font-size-factor, 1) * var(--step-0));
     font-weight: var(--fl-enhance-font-weight, var(--font-weight-semibold));
@@ -260,14 +259,7 @@ li:has([aria-current="page"]) .navigation__button {
     }
 }
 
-.navigation__button[aria-expanded] + ul {
-	display: none;
-}
 
-.navigation__button[aria-expanded="true"] + ul {
-	display: flex;
-	z-index: 99;
-}
 
 
 @media (width >= 40em) {
@@ -358,6 +350,7 @@ li:has([aria-current="page"]) .navigation__button {
 
     .navigation__button {
         block-size: 5.5rem;
+       	display: flex;
         padding-inline: 1.875rem;
         position: relative;
         width: max-content;
@@ -447,10 +440,16 @@ li:has([aria-current="page"]) .navigation__button {
 
     .navigation__button[aria-expanded] + ul {
       	box-shadow: 0 0 0.625rem rgb(0 0 0 / 25%);
+       	display: none;
      	flex-direction: column;
      	inset-inline-start: 0;
     	position: absolute;
      	width: max-content;
+    }
+
+    .navigation__button[aria-expanded="true"] + ul {
+		display: flex;
+		z-index: 99;
     }
 }
 
