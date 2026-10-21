@@ -5,7 +5,7 @@ Use the search bar to find suggestions for improving your standards development 
 {% endset %}
 
 {{ mdContent | markdown | safe }}
-<form method="get" action="{{ page.url }}{% __ 'search-slug' %}/">
+<form method="get" action="{{ page.url }}{% __ 'search-slug', {}, data %}/">
 	<search>
 		<input type="search" id="search" name="q" />
 		<button type="submit">Search</button>

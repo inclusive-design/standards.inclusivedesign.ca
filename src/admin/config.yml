@@ -32,6 +32,7 @@ collections:
     folder: src/collections/pages/
     extension: md
     slug: { editable: true, i18n: true }
+    filter: { field: translationKey, pattern: '^(?!consolidated$).*$' }
     view_filters:
       - label: Drafts
         field: draft

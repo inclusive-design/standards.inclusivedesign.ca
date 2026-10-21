@@ -39,5 +39,6 @@
 	"/guidelines/barriers/no-support-when-a-standard-is-removed/": "/guidelines/barriers/no-transition-support-for-standards-withdrawal/",
 	"/guidelines/barriers/no-way-to-track-the-real-world-impact-of-a-standard/": "/guidelines/barriers/no-way-to-track-the-impact-of-a-standard/",
 	"/guidelines/processes/": "/guidelines/topics/",
+	"/guidelines/consolidated-guidelines/": "/guidelines/consolidated/",
 	"/guidelines/processes/*": "/guidelines/topics/:splat"
 }
