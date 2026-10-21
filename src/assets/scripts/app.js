@@ -64,16 +64,22 @@ documentReady(() => {
 	}
 });
 
+const allNavButtons = document.querySelectorAll('.navigation__button');
+
 document.addEventListener('click', (event) => {
 	if (event.target.closest('.navigation__button')) {
 		const button = event.target.closest('.navigation__button');
 		const isAriaExpanded = (button.getAttribute('aria-expanded') === 'true');
+
+		for (const navButton of allNavButtons) {
+			navButton.setAttribute('aria-expanded', false);
+		}
+
 		button.setAttribute('aria-expanded', !isAriaExpanded);
 	}
 
 	if (!event.target.closest('[data-dropdown]')) {
-		const buttons = document.querySelectorAll('.navigation__button');
-		for (const button of buttons) {
+		for (const button of allNavButtons) {
 			button.setAttribute('aria-expanded', false);
 		}
 	}
@@ -84,8 +90,7 @@ document.addEventListener('keyup', (event) => {
 		return;
 	}
 
-	const buttons = document.querySelectorAll('.navigation__button');
-	for (const button of buttons) {
+	for (const button of allNavButtons) {
 		button.setAttribute('aria-expanded', false);
 	}
 });
@@ -93,14 +98,13 @@ document.addEventListener('keyup', (event) => {
 const handleDisclosureBlur = (event) => {
 	const dropdown = event.target.closest('[data-dropdown]');
 	const button = dropdown.querySelector('.navigation__button');
-	if (!event.relatedTarget.closest('[data-dropdown]')) {
+
+	if (!dropdown.contains(event.relatedTarget)) {
 		button.setAttribute('aria-expanded', false);
 	}
 };
 
-const menuButtons = document.querySelectorAll('.navigation__button');
-
-for (const button of menuButtons) {
+for (const button of allNavButtons) {
 	button.addEventListener('blur', (event) => handleDisclosureBlur(event));
 }
 
