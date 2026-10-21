@@ -8,7 +8,7 @@
   {% include "svg/filters.svg" %}
   {% getBundle "fontawesome" %}
 </head>
-<body>
+<body {% if pageType in ['action', 'actions', 'barrier', 'barriers', 'glossary', 'topic', 'topics', 'guidelines', 'guidelines-sitemap', 'guidelines-visualmap', 'guidelines-search'] %}data-site="guidelines"{% endif %}}>
   {% include "partials/global/header.njk" %}
   {% set guidelinesSlug %}{% __ 'guidelines-slug' %}{% endset %}
   {% if not guidelinesSlug in page.url | string %}
