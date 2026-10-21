@@ -1,5 +1,5 @@
 ---
-translationKey: consolidated-guidelines
+translationKey: consolidated
 title: Guidelines for Accessibility and Inclusion in Standards Development
 shortTitle: Guidelines
 draft: false
@@ -16,4 +16,4 @@ bannerImageAlt: ''
 outro: ''
 ---
 
-Not applicable.
+This space intentionally left blank.

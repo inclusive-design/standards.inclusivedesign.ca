@@ -12,6 +12,8 @@
 	</table-of-contents>
 	</nav>
 	<main>
+	{% set guidelinesPage = collections['pages_' + lang] | find('data.translationKey', 'guidelines') %}
+	{{ guidelinesPage.templateContent | replace('/guidelines/topics/', '') | safe }}
 	<h2>{% __ 'stages' %}</h2>
 	{% set stages = collections['stages_' + lang] %}
 	{% for stage in stages %}
@@ -97,5 +99,15 @@
 	</ul>
 	{% endif %}
     {% endfor %}
+    <h2>{% __ 'glossary' %}</h2>
+	{% set terms = collections['terms_' + lang] %}
+	<dl>
+	{% for term in terms %}
+		<div>
+		<dt>{{ term.data.term }}</dt>
+		<dd>{{ term.data.definition }}</dd>
+		</div>
+		{% endfor %}
+	</dl>
 	</main>
 </body>

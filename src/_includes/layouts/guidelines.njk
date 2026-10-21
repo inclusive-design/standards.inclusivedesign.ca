@@ -18,6 +18,9 @@
 </nav>
 <article class="article flow">
 {{ content | safe }}
-{{ outro | renderContent('md') | safe }}
+{% set pieces = outro | renderContent('md') | split('<!-- search -->') %}
+{{ pieces[0] | safe }}
+{% include "partials/components/guidelines-search.njk" %}
+{{ pieces [1] | safe }}
 </article>
 {% endblock %}
