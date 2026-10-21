@@ -1,5 +1,23 @@
 # Changelog
 
+## [2026.10.1](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.10.0...v2026.10.1) (2026-10-21)
+
+
+### Features
+
+* add consolidated intro and glossary terms (resolves [#603](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/603)) ([#607](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/607)) ([c1028a6](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/c1028a6ef675de403ad99e8dc1accf19635265d1))
+* invert nav bar for guidelines site ([#604](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/604)) ([ef587f3](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/ef587f372de8769615e50232d902d80a7f23cbdf))
+
+
+### Bug Fixes
+
+* resolve nav issue ([#609](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/609)) ([0773879](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/0773879aae50fe72413fcbf01cf12e40d8a132b1))
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency markdown-it to v15.0.3 [security] ([#605](https://github.com/inclusive-design/standards.inclusivedesign.ca/issues/605)) ([f175aa6](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/f175aa636ce40063c9fbf2c85d8d021abdb1741c))
+
 ## [2026.10.0](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.9.4...v2026.10.0) (2026-10-05)
 
 
