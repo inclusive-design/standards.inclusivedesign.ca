@@ -291,6 +291,11 @@ footer a:not([class]) {
     }
 }
 
+[data-site="guidelines"] nav a[rel="home"]:focus {
+	color: var(--fl-linkFgColor, var(--color-indigo-700));
+    outline: solid 0.125rem var(--fl-linkFgColor, var(--color-indigo-700));
+}
+
 /* Buttons */
 
 button:not([class], [aria-controls]),
