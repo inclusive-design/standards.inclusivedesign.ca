@@ -1,5 +1,12 @@
 # Changelog
 
+## [2026.10.2](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.10.1...v2026.10.2) (2026-10-28)
+
+
+### Bug Fixes
+
+* switch auth base_url ([b729ef5](https://github.com/inclusive-design/standards.inclusivedesign.ca/commit/b729ef564b7345f063b8c1fda4bfbead3b459643))
+
 ## [2026.10.1](https://github.com/inclusive-design/standards.inclusivedesign.ca/compare/v2026.10.0...v2026.10.1) (2026-10-21)
 
 
