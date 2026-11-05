@@ -36,7 +36,7 @@
 	"homepage": "https://github.com/inclusive-design/standards.idrc.ocadu.ca#readme",
 	"dependencies": {
 		"@11ty/eleventy": "^3.1.2",
-		"@11ty/eleventy-fetch": "^5.1.1",
+		"@11ty/eleventy-fetch": "^6.0.0",
 		"@11ty/eleventy-navigation": "^1.0.0",
 		"@11ty/font-awesome": "^2.0.0",
 		"@inclusive-design/eleventy-plugin-inclusive-footnotes": "^1.0.0",
